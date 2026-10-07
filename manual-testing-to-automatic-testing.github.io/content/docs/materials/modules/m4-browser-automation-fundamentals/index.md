@@ -1,6 +1,6 @@
 # M4 Browser automation fundamentals
 
-Weeks 7–9. Spiral pass 1: the fixture site. Reviewed at Gate 2.
+Training days 7 to 9, about 17.5 hours. Spiral pass 1: the fixture site. Reviewed at Gate 2.
 
 ## Purpose
 
@@ -21,14 +21,21 @@ All browser automation comes down to four things: **locate** an element, **act**
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Week 7: the four core concepts; tour of the fixture site and its contract; `selenium-webdriver`, Chrome, and Selenium Manager | 2 hours | Core | Cohort |
-| 2 | Week 7: locating with `By`: id, name, class name, link text, CSS, XPath | 2 hours | Core | Cohort |
-| 3 | Week 8: acting: `sendKeys`, `click`, `clear`, and the `Select` helper | 1.5 hours | Core | Cohort |
-| 4 | Week 8: waiting: Selenium does not auto-wait; explicit waits with `driver.wait` and `until`; why `sleep` is never the answer; Playwright's auto-waiting, for comparison | 1.5 hours | Core | Cohort |
-| 5 | Week 8: Selenium IDE: record, export to JavaScript Mocha, then rewrite by hand and explain every line | 1.5 hours | Core | Cohort |
-| 6 | Week 9: pair-through of the exercise sheet | 3 hours | Breakout | B3, B4-QA, with mentor |
-| 7 | Week 9: Playwright reading and change exercise | 2 hours | Breakout | B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM |
-| 8 | Week 9: locator strategy clinic, led by B7-TE | 1 hour | Breakout | B7-TE with others |
+| 1 | Training day 7: the four core concepts; tour of the fixture site and its contract; `selenium-webdriver`, Chrome, and Selenium Manager | 2 hours | Core | Cohort |
+| 2 | Training day 7: locating with `By`: id, name, class name, link text, CSS, XPath | 2 hours | Core | Cohort |
+| 3 | Training day 7: locating practice on the fixture site | 1.5 hours | Practice | All; B3 and B4-QA pair with the mentor |
+| 4 | Training day 8: acting: `sendKeys`, `click`, `clear`, and the `Select` helper | 1.5 hours | Core | Cohort |
+| 5 | Training day 8: waiting: Selenium does not auto-wait; explicit waits with `driver.wait` and `until`; why `sleep` is never the answer; Playwright's auto-waiting, for comparison | 1.5 hours | Core | Cohort |
+| 6 | Training day 8: Selenium IDE: record, export to JavaScript Mocha, then rewrite by hand and explain every line | 1.5 hours | Core | Cohort |
+| 7 | Training day 8: start the E4 script | 1 hour | Practice | All |
+| 8 | Training day 9: finish the E4 script, using the exercise sheet | 3 hours | Practice | All; B3 and B4-QA pair with the mentor |
+| 9a | Training day 9: Playwright reading and change exercise | 2 hours | Breakout | B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM |
+| 9b | Training day 9: pair-through of the exercise sheet, continued | 2 hours | Breakout | B3, B4-QA, with mentor |
+| 10a | Training day 9: write the one-page comparison of how Selenium and Playwright wait | 1 hour | Breakout | B5-QA and above |
+| 10b | Training day 9: exercise sheet review with the mentor | 1 hour | Breakout | B3, B4-QA, B4-TE |
+| 11 | Training day 9: locator strategy clinic, led by B7-TE | 30 minutes | Core | Cohort, led by B7-TE |
+
+Each person's sessions add up to 17.5 hours: 5.5 on training day 7, 5.5 on training day 8, and 6.5 on training day 9.
 
 ## Activities
 
@@ -61,7 +68,7 @@ All browser automation comes down to four things: **locate** an element, **act**
 
 ## Assessment
 
-Gate 2 (week 12) reviews E4 with E5. The Gate 2 Part D practical is "automate one given manual test case on the fixture site".
+Gate 2 (training day 12) reviews E4 with E5. The Gate 2 Part D practical is "automate one given manual test case on the fixture site".
 
 ## Resources
 

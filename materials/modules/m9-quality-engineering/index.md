@@ -1,6 +1,6 @@
 # M9 Quality engineering practice
 
-Weeks 19–20. Reviewed at Gate 4.
+Training days 19 and 20, about 6 hours. Reviewed at Gate 4.
 
 ## Purpose
 
@@ -20,16 +20,19 @@ A suite that nobody trusts is worse than no suite. M9 is about keeping automated
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Week 19: maintainable test code: names, duplication, helpers, data builders | 1.5 hours | Core | Cohort |
-| 2 | Week 19: flaky tests are variation: root causes and fixes | 1.5 hours | Core | Cohort |
-| 3 | Week 19: flow metrics for testing | 1 hour | Core | Cohort |
-| 4 | Week 20: AI assistants: drafting and explaining tests, and reviewing the output critically, including self-healing locators | 1 hour | Core | Cohort |
-| 5 | Week 20: awareness: performance, load, and security testing, and who owns them | 45 minutes | Core | Cohort |
-| 6 | Week 20: estimating test effort for the capstone | 1 hour | Core | Cohort |
-| 7 | Week 19–20: flaky-test exercise, hands on | 2 hours | Breakout | B4-TE and above |
-| 8 | Week 19–20: describe a flaky test with the mentor | 1 hour | Breakout | B3, B4-QA |
-| 9 | Week 20: suite-health report | 2 hours | Breakout | B5-QA and above |
-| 10 | Week 20: reviewing test pull requests, led by B7-TE | 1 hour | Breakout | B7-TE with others |
+| 1 | Training day 19: maintainable test code: names, duplication, helpers, data builders | 1 hour | Core | Cohort |
+| 2 | Training day 19: flaky tests are variation: root causes and fixes | 1 hour | Core | Cohort |
+| 3 | Training day 19: flow metrics for testing | 30 minutes | Core | Cohort |
+| 4a | Training day 19: flaky-test exercise, hands on | 1 hour | Breakout | B4-TE and above |
+| 4b | Training day 19: describe a flaky test with the mentor | 1 hour | Breakout | B3, B4-QA |
+| 5 | Training day 20: AI assistants: drafting and explaining tests, and reviewing the output critically, including self-healing locators | 30 minutes | Core | Cohort |
+| 6 | Training day 20: awareness: performance, load, and security testing, and who owns them | 30 minutes | Core | Cohort |
+| 7 | Training day 20: estimating test effort for the capstone | 30 minutes | Core | Cohort |
+| 8a | Training day 20: suite-health report | 1 hour | Breakout | B5-QA, B6-QA, B6-TE, B7-TM |
+| 8b | Training day 20: reviewing test pull requests, led by B7-TE, then B7-TE's own suite-health report | 1 hour | Breakout | B7-TE, with others |
+| 8c | Training day 20: flaky-test follow-up with the mentor | 1 hour | Breakout | B3, B4-QA, B4-TE |
+
+Each person's sessions add up to 6 hours: 3.5 hours on training day 19 and 2.5 hours on training day 20.
 
 ## Activities
 
@@ -56,11 +59,11 @@ A suite that nobody trusts is worse than no suite. M9 is about keeping automated
 | | | | |
 | **Total** | | | |
 
-Compare the total with your protected hours in weeks 20 to 24. If it does not fit, cut scope with the product owner now, not in week 23.
+Compare the total with the capstone's hours: about 27.5 hours across training days 20 to 24. If it does not fit, cut scope with the product owner now, not on training day 23.
 
 ## Assessment
 
-E9 is assessed at Gate 4 (week 24), with E8 and E10.
+E9 is assessed at Gate 4 (training day 24), with E8 and E10.
 
 ## Resources
 

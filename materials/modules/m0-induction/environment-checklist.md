@@ -19,4 +19,4 @@ Complete in the M0 set-up pairing session. The mentor ticks each item when it wo
 | 13 | Access to the team's CI service | Can see pipeline runs | [ ] |
 | 14 | Accessibility settings set as the person prefers | For example screen reader, zoom, high-contrast theme | [ ] |
 
-If an item cannot be done in week 1, record it in the ILP with an owner and date.
+If an item cannot be done on training day 1, record it in the ILP with an owner and date.

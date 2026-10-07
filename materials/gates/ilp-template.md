@@ -15,7 +15,7 @@ The ILP is written at Gate 0 from the calibrated baseline, and updated at every 
 | Band 3 factor levels agreed from job description (B3 only) | A6: A7: A8: A9: A10: A11: A12: A13: A14: A15: A16: A17: A18: A19: A20: A21: Total points (216 to 270): |
 | Line manager | |
 | Mentor | |
-| Programme length | 24 weeks / 32 weeks (B3 and B4 only) |
+| Programme length | 24 training days / 32 training days (B3 and B4 only) |
 
 ## 2. Baseline and progress
 

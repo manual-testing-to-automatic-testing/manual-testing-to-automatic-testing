@@ -85,10 +85,10 @@ Record every item where self and manager ratings differed by more than one level
 ## 7. Decision
 
 - [ ] **Gate met.** Continue to the next stage.
-- [ ] **Gate not met.** Up to 3 extra weeks on the items below threshold, with the written plan below and extra mentor time. Repeat date: ______
-- [ ] **Repeated gate not met.** Next step agreed (tick one): 32-week extension / different automation target / more R1 support / pause the programme / other: ______
+- [ ] **Gate not met.** Up to 3 extra training days on the items below threshold, with the written plan below and extra mentor time. Repeat date: ______
+- [ ] **Repeated gate not met.** Next step agreed (tick one): 32-training-day extension / different automation target / more R1 support / pause the programme / other: ______
 
-### Extra-weeks plan (if not met)
+### Extra training days plan (if not met)
 
 | Item below threshold | Action | Owner | Extra mentor time | Due |
 | --- | --- | --- | --- | --- |

@@ -36,6 +36,6 @@ export const load = ({ params }) => {
     tracks,
     title: SITE_NAME,
     description:
-      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers, in the band and role they already hold.'
+      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 24 training days, in the band and role they already hold.'
   };
 };

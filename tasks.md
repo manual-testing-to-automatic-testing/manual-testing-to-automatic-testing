@@ -67,7 +67,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [ ] Agree Band 3 factor levels from job descriptions (D6)
 - [ ] Record each participant's capability index as their baseline
 - [ ] Write and sign each participant's ILP and learning agreement
-- [ ] Run the M0 diagnostic coding exercise, and decide who takes the 32-week option
+- [ ] Run the M0 diagnostic coding exercise, and decide who takes the option of 32 training days
 - [ ] Inventory each team's manual regression pack, and its existing automated tests at each layer
 - [ ] Check every participant's tools, repository access, test environments, and CI access
 
@@ -109,7 +109,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 
 ### Track module materials
 
-- [x] R1 role practice guide: how to turn ILP gaps into weekly practice
+- [x] R1 role practice guide: how to turn ILP gaps into practice in each training day
 - [x] R2 health care foundations session plans (drafted; agree with the clinical safety officer and information governance lead)
 - [x] L1 coaching log template and coaching guide
 - [x] L2 automation strategy and metrics templates
@@ -130,48 +130,48 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 
 ### Induction and foundations
 
-- [ ] Gate 0 (weeks 0–1): baseline, tracks, ILPs, learning agreements
+- [ ] Gate 0 (training day 1): baseline, tracks, ILPs, learning agreements
 - [ ] M0 Induction and baseline: E0 complete for every participant
-- [ ] M1 Why and what to automate (weeks 1–2): E1 complete
-- [ ] R1 Role foundations: weekly practice slot running for every participant (weeks 1–24)
-- [ ] M2 Programming foundations (weeks 2–6): E2 complete
-- [ ] R2 Health care foundations (weeks 2–8)
-- [ ] M3 Version control and collaboration (weeks 4–6): E3 complete
-- [ ] Gate 1 (week 6): full self-assessment, calibration, Part D, ILP update
+- [ ] M1 Why and what to automate (training days 1–2): E1 complete
+- [ ] R1 Role foundations: an hour of role practice in each training day, for every participant (training days 1–24)
+- [ ] M2 Programming foundations (training days 2–6): E2 complete
+- [ ] R2 Health care foundations (training days 2–8)
+- [ ] M3 Version control and collaboration (training days 4–6): E3 complete
+- [ ] Gate 1 (training day 6): full self-assessment, calibration, Part D, ILP update
 
 ### Browser automation
 
-- [ ] M4 Browser automation fundamentals (weeks 7–9): E4 complete
-- [ ] M5 From walkthrough to real test (weeks 10–12): E5 complete
-- [ ] Weekly real automation on each team's product (from week 10)
-- [ ] L1 Coaching others in automation starts for B6 and B7 (weeks 10–20)
-- [ ] Gate 2 (week 12): full self-assessment, calibration, Part D, clinical risk and information governance condition, ILP update
+- [ ] M4 Browser automation fundamentals (training days 7–9): E4 complete
+- [ ] M5 From walkthrough to real test (training days 10–12): E5 complete
+- [ ] Real automation on each team's product in every training day (from training day 10)
+- [ ] L1 Coaching others in automation starts for B6 and B7 (training days 10–20)
+- [ ] Gate 2 (training day 12): full self-assessment, calibration, Part D, clinical risk and information governance condition, ILP update
 
 ### Below the UI and pipelines
 
-- [ ] M6 API, integration, and FHIR tests (weeks 13–15): E6 complete
-- [ ] L4 Acceptance test automation for B6-QA (weeks 13–17)
-- [ ] M7 Continuous integration and DevOps (weeks 16–17): E7 complete
-- [ ] L2, L3, and L5 for B6-QA and B7 (weeks 16–20)
-- [ ] Gate 3 (week 18): full self-assessment, calibration, Part D, ILP update
+- [ ] M6 API, integration, and FHIR tests (training days 13–15): E6 complete
+- [ ] L4 Acceptance test automation for B6-QA (training days 13–17)
+- [ ] M7 Continuous integration and DevOps (training days 16–17): E7 complete
+- [ ] L2, L3, and L5 for B6-QA and B7 (training days 16–20)
+- [ ] Gate 3 (start of training day 18): full self-assessment, calibration, Part D, ILP update
 
 ### Health care practice and quality engineering
 
-- [ ] M8 Safe and lawful test automation (weeks 18–19): E8 complete
-- [ ] M9 Quality engineering practice (weeks 19–20): E9 complete
+- [ ] M8 Safe and lawful test automation (training days 18–19): E8 complete
+- [ ] M9 Quality engineering practice (training days 19–20): E9 complete
 
 ### Capstone
 
-- [ ] Agree each capstone scope (start of week 20)
+- [ ] Agree each capstone scope (start of training day 20)
 - [ ] Mid-capstone show-and-tell to each team
-- [ ] M10 Capstone (weeks 20–24): E10 complete
-- [ ] Gate 4 (week 24): full self-assessment, calibration, panel, capstone acceptance
+- [ ] M10 Capstone (training days 20–24): E10 complete
+- [ ] Gate 4 (training day 24): full self-assessment, calibration, panel, capstone acceptance
 
 ### Consolidation and follow-up
 
-- [ ] Monthly mentor check-ins (weeks 25–48)
-- [ ] Run the 32-week extension for B3 and B4 participants who chose it
-- [ ] Gate 5 (week 48): full self-assessment, calibration, Part D, plan for remaining gaps
+- [ ] Monthly mentor check-ins (the six months after Gate 4)
+- [ ] Run the extension to 32 training days for B3 and B4 participants who chose it
+- [ ] Gate 5 (about six months after Gate 4): full self-assessment, calibration, Part D, plan for remaining gaps
 
 ## 6. Evaluation
 

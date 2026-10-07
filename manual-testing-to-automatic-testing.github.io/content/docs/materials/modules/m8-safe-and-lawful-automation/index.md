@@ -1,12 +1,12 @@
 # M8 Safe and lawful test automation in health care
 
-Weeks 18–19. Reviewed at Gate 4.
+Training days 18 and 19, about 7 hours. Reviewed at Gate 4.
 
 ## Purpose
 
 In health care, test automation is part of keeping patients safe. Automated regression tests protect the safety controls in the hazard log, and their results are evidence for the clinical safety case. Test data must never expose real patients, and secrets must never reach source control. M8 makes these part of test engineering, not an add-on.
 
-R2 Health care foundations (weeks 2–8) has already brought clinical risk management and information governance up to the expected level by Gate 2. M8 applies them to automation.
+R2 Health care foundations (training days 2 to 8) has already brought clinical risk management and information governance up to the expected level by Gate 2. M8 applies them to automation.
 
 ## Outcomes
 
@@ -23,14 +23,15 @@ R2 Health care foundations (weeks 2–8) has already brought clinical risk manag
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Week 18: how automated regression tests protect safety controls; the team's hazard log | 2 hours | Core | Cohort, clinical safety officer |
-| 2 | Week 18: information governance for test data and pipelines | 1.5 hours | Core | Cohort, information governance lead |
-| 3 | Week 18: synthetic data: generators, data builders, rare and edge clinical cases | 2 hours | Core | Cohort |
-| 4 | Week 18: secrets and personal data: scanning, environment variables, CI secrets | 1 hour | Core | Cohort |
-| 5 | Week 19: automated accessibility checks, and what they cannot find | 1.5 hours | Core | Cohort |
-| 6 | Week 19: IEC 62304 awareness for software as a medical device | 30 minutes | Core | Cohort |
-| 7 | Week 19: traceability matrix working session with the clinical safety officer | 2 hours | Breakout | Small groups by team |
-| 8 | Week 19: peer review of another person's traceability matrix | 1 hour | Breakout | B6-QA, B7-TE, B7-TM |
+| 1 | Training day 18: how automated regression tests protect safety controls; the team's hazard log | 1.5 hours | Core | Cohort, clinical safety officer |
+| 2 | Training day 18: information governance for test data and pipelines | 1 hour | Core | Cohort, information governance lead |
+| 3 | Training day 18: synthetic data: generators, data builders, rare and edge clinical cases | 1.5 hours | Core | Cohort |
+| 4 | Training day 19: secrets and personal data: scanning, environment variables, CI secrets | 30 minutes | Core | Cohort |
+| 5 | Training day 19: automated accessibility checks, and what they cannot find | 1 hour | Core | Cohort |
+| 6 | Training day 19: IEC 62304 awareness for software as a medical device | 30 minutes | Core | Cohort |
+| 7 | Training day 19: traceability matrix working session with the clinical safety officer; B6-QA, B7-TE, and B7-TM end with a peer review of another person's matrix | 1 hour | Breakout | Small groups by team |
+
+Each person's sessions add up to 7 hours: 4 hours on training day 18, after Gate 3, and 3 hours on training day 19. The M8 work is done on the person's own team's tests, so it is also their real automation for those days.
 
 ## Activities
 
@@ -56,7 +57,7 @@ Track depth notes:
 
 ## Assessment
 
-E8 is assessed at **Gate 4** (week 24), with E9 and E10. Gate 3 takes place at the start of week 18 and does not review E8. The clinical safety officer reviews traceability evidence in writing for the Gate 4 panel.
+E8 is assessed at **Gate 4** (training day 24), with E9 and E10. Gate 3 takes place at the start of training day 18 and does not review E8. The clinical safety officer reviews traceability evidence in writing for the Gate 4 panel.
 
 ## Resources
 

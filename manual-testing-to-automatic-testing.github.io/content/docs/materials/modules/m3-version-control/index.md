@@ -1,6 +1,6 @@
 # M3 Version control and collaboration
 
-Weeks 4–6. Reviewed at Gate 1.
+Training days 4 to 6, about 7 hours. Reviewed at Gate 1.
 
 ## Purpose
 
@@ -20,13 +20,16 @@ Test code is code. It lives in git, changes through pull requests, and is review
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Week 4: clone, status, add, commit, log, diff | 2 hours | Core | Cohort |
-| 2 | Week 4: branches and pull requests | 1.5 hours | Core | Cohort |
-| 3 | Week 5: code review etiquette: how to give and receive review | 1 hour | Core | Cohort |
-| 4 | Week 5: revert, and a simple merge conflict | 1.5 hours | Core | Cohort |
-| 5 | Week 5: reading the history of a testingexamples repository | 1 hour | Core | Cohort |
-| 6 | Week 6: review clinic: B7-TE reviews and coaches others' pull requests | 1.5 hours | Breakout | B7-TE with B3, B4 |
-| 7 | Week 6: team contribution guidelines | 30 minutes | Team | Each person, their team |
+| 1 | Training day 4: clone, status, add, commit, log, diff | 1.5 hours | Core | Cohort |
+| 2 | Training day 4: branches and pull requests | 1 hour | Core | Cohort |
+| 3 | Training day 5: code review etiquette: how to give and receive review | 1 hour | Core | Cohort |
+| 4 | Training day 5: revert, and a simple merge conflict | 1 hour | Core | Cohort |
+| 5 | Training day 5: reading the history of a testingexamples repository | 1 hour | Core | Cohort |
+| 6a | Training day 6: review clinic: B7-TE reviews and coaches others' pull requests | 1 hour | Breakout | B7-TE with B3, B4 |
+| 6b | Training day 6: open and review pull requests for E3 | 1 hour | Breakout | B5-QA, B6-QA, B6-TE, B7-TM |
+| 7 | Training day 6: team contribution guidelines | 30 minutes | Team | Each person, their team |
+
+Each person's sessions add up to 7 hours: 2.5 on training day 4, 3 on training day 5, and 1.5 on training day 6.
 
 ## Activities
 
@@ -59,7 +62,7 @@ Test code is code. It lives in git, changes through pull requests, and is review
 
 ## Assessment
 
-Gate 1 (week 6) reviews E3 with E1 and E2. The Gate 1 Part D practical is "fix a failing unit test and open a pull request".
+Gate 1 (training day 6) reviews E3 with E1 and E2. The Gate 1 Part D practical is "fix a failing unit test and open a pull request".
 
 ## Resources
 

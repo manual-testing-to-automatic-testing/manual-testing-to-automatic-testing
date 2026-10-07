@@ -1,6 +1,6 @@
 # Capstone brief: B4-QA
 
-Evidence E10 for module M10. Weeks 20–24. Assessed at Gate 4.
+Evidence E10 for module M10. Training days 20 to 24. Assessed at Gate 4.
 
 | Field | Value |
 | --- | --- |
@@ -19,7 +19,7 @@ Evidence E10 for module M10. Weeks 20–24. Assessed at Gate 4.
 
 5 manual cases from your E1 sample marked `automate-browser`, on your team's test environment.
 
-Agree the exact scope with the product owner and mentor at the start of week 20, using the [scope agreement](capstone-scope-agreement.md), your E1 analysis, and your E9 estimate.
+Agree the exact scope with the product owner and mentor at the start of training day 20, using the [scope agreement](capstone-scope-agreement.md), your E1 analysis, and your E9 estimate.
 
 ## Deliverables
 
@@ -43,7 +43,7 @@ The product owner and the Gate 4 panel will look for:
 
 ## Support
 
-Weekly mentor review, and pairing when stuck. You write the code.
+A mentor review each training day, and pairing when stuck. You write the code.
 
 ## Presentation
 

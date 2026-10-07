@@ -1,12 +1,12 @@
 # M5 From walkthrough to real test
 
-Weeks 10–12. Spiral pass 2: a worked example. Reviewed at Gate 2.
+Training days 10 to 12, about 12.5 hours. Spiral pass 2: a worked example. Reviewed at Gate 2.
 
 ## Purpose
 
 A walkthrough acts on a page and prints what it finds. It "passes" even when the page is wrong. A real test makes assertions that fail when the behaviour is wrong. M5 turns the M4 walkthrough into a real test suite, then automates the person's own manual test cases.
 
-From week 10, every person automates real work on their team's product every week, at their track's depth.
+From training day 10, part of every training day is real automation on the person's team's product, at their track's depth: 1.5 hours of each of training days 10 to 17, then the M8 work and the capstone, which use the team's product directly.
 
 ## Outcomes
 
@@ -22,18 +22,22 @@ From week 10, every person automates real work on their team's product every wee
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Week 10: walkthrough versus test; Mocha's `describe` and `it`, and `node:assert/strict`; explicit waits before every assertion on changing content | 2 hours | Core | Cohort |
-| 2 | Week 10: hooks (`before`, `after`, `beforeEach`, `afterEach`), one driver per suite, `driver.quit()` in `after`, test isolation | 1.5 hours | Core | Cohort |
-| 3 | Week 10: writing a `spec/index.md` that agrees with the code | 1 hour | Core | Cohort |
-| 4 | Week 11: Given-When-Then as a shared language; workshop with product owners | 2 hours | Core | Cohort, product owners |
-| 5 | Week 11: page objects; keeping test data out of test logic | 1.5 hours | Core | Cohort |
-| 6 | Week 11: diagnosing failures: the Mocha spec reporter, screenshots and page source saved on failure into `test-results/`, and browser console logs | 1.5 hours | Core | Cohort |
-| 7 | Week 12: reading the NHS Wales worked example and its spec | 1 hour | Core | Cohort |
-| 8 | Week 12: scenario writing and pairing on automation | 3 hours | Breakout | B3, B4-QA, B4-TE, B7-TM, with mentor |
-| 9 | Week 12: automating own cases | 3 hours | Breakout | B5-QA, B6-QA, B6-TE |
-| 10 | Week 12: page object and shared driver set-up review, led by B7-TE | 1.5 hours | Breakout | B7-TE with others |
-| 11 | From week 10: weekly real automation on the team's product | 2 hours a week | Team | Everyone, under mentor review |
-| 12 | From week 10: L1 coaching starts | As agreed | Pairing | B6 and B7 coach lower bands |
+| 1 | Training day 10: walkthrough versus test; Mocha's `describe` and `it`, and `node:assert/strict`; explicit waits before every assertion on changing content | 1.5 hours | Core | Cohort |
+| 2 | Training day 10: hooks (`before`, `after`, `beforeEach`, `afterEach`), one driver per suite, `driver.quit()` in `after`, test isolation | 1.5 hours | Core | Cohort |
+| 3 | Training day 10: writing a `spec/index.md` that agrees with the code | 1 hour | Core | Cohort |
+| 4 | Training day 10: convert the M4 walkthrough into a suite | 1 hour | Practice | All |
+| 5 | Training day 11: Given-When-Then as a shared language; workshop with product owners | 1.5 hours | Core | Cohort, product owners |
+| 6 | Training day 11: page objects; keeping test data out of test logic | 1 hour | Core | Cohort |
+| 7 | Training day 11: diagnosing failures: the Mocha spec reporter, screenshots and page source saved on failure into `test-results/`, and browser console logs | 1 hour | Core | Cohort |
+| 8a | Training day 11: scenario writing and pairing on automation | 1.5 hours | Breakout | B3, B4-QA, B4-TE, B7-TM, with mentor |
+| 8b | Training day 11: automating own cases | 1.5 hours | Breakout | B5-QA, B6-QA, B6-TE |
+| 8c | Training day 11: page object and shared driver set-up review, led by B7-TE | 1.5 hours | Breakout | B7-TE with others |
+| 9 | Training day 12: reading the NHS Wales worked example and its spec | 1 hour | Core | Cohort |
+| 10 | Training day 12: breakouts 8a to 8c, continued | 1.5 hours | Breakout | As 8a to 8c |
+| 11 | From training day 10: real automation on the team's product, under mentor review | 1.5 hours of each training day, days 10 to 17 | Team | Everyone |
+| 12 | From training day 10: L1 coaching starts, within breakout and real automation time | As agreed | Pairing | B6 and B7 coach lower bands |
+
+M5's own sessions add up to 12.5 hours: 5 on training day 10, 5 on training day 11, and 2.5 on training day 12, which also holds Gate 2. Real automation (row 11) is counted separately.
 
 ## Activities
 
@@ -65,7 +69,7 @@ See the [worked example](worked-example.md).
 
 ## Assessment
 
-Gate 2 (week 12) reviews E5 with E4. The Gate 2 Part D practical is "automate one given manual test case on the fixture site". B3 writes it as Given-When-Then and pairs.
+Gate 2 (training day 12) reviews E5 with E4. The Gate 2 Part D practical is "automate one given manual test case on the fixture site". B3 writes it as Given-When-Then and pairs.
 
 ## Resources
 

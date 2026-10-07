@@ -1,6 +1,6 @@
 # Capstone brief: B4-TE
 
-Evidence E10 for module M10. Weeks 20–24. Assessed at Gate 4.
+Evidence E10 for module M10. Training days 20 to 24. Assessed at Gate 4.
 
 | Field | Value |
 | --- | --- |
@@ -13,20 +13,20 @@ Evidence E10 for module M10. Weeks 20–24. Assessed at Gate 4.
 
 ## The capstone, from the spec
 
-> Automate 10 cases, including 2 API tests, and maintain an existing suite for 4 weeks.
+> Automate 10 cases, including 2 API tests, and maintain an existing suite for 4 training days.
 
 ## Scope
 
-10 manual cases from your E1 sample, at least 2 at the API layer, and your team's existing automated suite for weeks 20 to 24.
+10 manual cases from your E1 sample, at least 2 at the API layer, and your team's existing automated suite on training days 20 to 24.
 
-Agree the exact scope with the product owner and mentor at the start of week 20, using the [scope agreement](capstone-scope-agreement.md), your E1 analysis, and your E9 estimate.
+Agree the exact scope with the product owner and mentor at the start of training day 20, using the [scope agreement](capstone-scope-agreement.md), your E1 analysis, and your E9 estimate.
 
 ## Deliverables
 
 - [ ] 10 automated tests: browser tests with a page object, and at least 2 API tests.
 - [ ] A `spec/index.md` that agrees with the code.
 - [ ] The tests running in CI.
-- [ ] A maintenance log for the existing suite for 4 weeks: each failure triaged, each fix made through a pull request.
+- [ ] A maintenance log for the existing suite for 4 training days: each failure triaged, each fix made through a pull request.
 - [ ] Synthetic data, and traceability rows for tests that protect a hazard.
 - [ ] A README: how to run and extend the tests.
 

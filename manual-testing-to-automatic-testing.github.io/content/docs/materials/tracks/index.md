@@ -19,7 +19,7 @@ The track guides are generated from the spec's tables, so the expected levels ma
 
 ## Track modules
 
-| Module | Tracks | Weeks | Materials |
+| Module | Tracks | Training days | Materials |
 | --- | --- | --- | --- |
 | R1 Role foundations | All | 1–24 | [Role practice guide](r1-role-foundations/index.md) |
 | R2 Health care foundations | All | 2–8 | [Session plans](r2-health-care-foundations/index.md) |

@@ -1,6 +1,6 @@
 # M1 Why and what to automate
 
-Weeks 1–2. Reviewed at Gate 1.
+Training days 1 and 2, about 4.5 hours. Reviewed at Gate 1.
 
 ## Purpose
 
@@ -20,14 +20,15 @@ Testers already know how to find risk. M1 turns that skill into automation decis
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | What automatic testing is, and what it is for | 1.5 hours | Core | Cohort |
-| 2 | The testing pyramid and browser test trade-offs | 1.5 hours | Core | Cohort |
-| 3 | Manual repetition as variation: the Six Sigma view; why exploratory and usability testing stay human | 1 hour | Core | Cohort |
-| 4 | Workshop with a developer: what the team's unit and integration tests already cover | 1.5 hours | Team | Each person, a developer from their team |
-| 5a | Candidate analysis, sample of 10 cases | 2 hours | Breakout | B3, B4-QA, B4-TE, with mentor |
-| 5b | Candidate analysis, own area | 3 hours | Breakout | B5-QA, B6-TE |
-| 5c | Candidate analysis, whole product or programme, with the team | 4 hours | Breakout | B6-QA, B7-TE, B7-TM |
-| 6 | Share and challenge: each person presents three decisions | 1 hour | Core | Cohort; B6-QA and B7 facilitate |
+| 1 | Training day 1: what automatic testing is and what it is for; the testing pyramid and browser test trade-offs | 1 hour | Core | Cohort |
+| 2 | Training day 2: manual repetition as variation, the Six Sigma view; why exploratory and usability testing stay human | 30 minutes | Core | Cohort |
+| 3 | Training day 2: workshop with a developer: what the team's unit and integration tests already cover | 1 hour | Team | Each person, a developer from their team |
+| 4a | Training day 2: candidate analysis, sample of 10 cases | 1.5 hours | Breakout | B3, B4-QA, B4-TE, with mentor |
+| 4b | Training day 2: candidate analysis, own area | 1.5 hours | Breakout | B5-QA, B6-TE |
+| 4c | Training day 2: candidate analysis, whole product or programme: the person leads the decisions, and the team helps with the counting | 1.5 hours | Breakout | B6-QA, B7-TE, B7-TM |
+| 5 | Training day 2: share and challenge: each person presents three decisions | 30 minutes | Core | Cohort; B6-QA and B7 facilitate |
+
+Each person's sessions add up to 4.5 hours: 1 hour on training day 1 and 3.5 hours on training day 2.
 
 ## Activities
 
@@ -51,7 +52,7 @@ Use [automation-candidate-analysis.md](automation-candidate-analysis.md) and [au
 
 ## Assessment
 
-Gate 1 (week 6) reviews E1 with E2 and E3. E1 is reused in M5, M10, and the capstone.
+Gate 1 (training day 6) reviews E1 with E2 and E3. E1 is reused in M5, M10, and the capstone.
 
 ## Resources
 

@@ -1,6 +1,6 @@
 # Gate 4 panel guide
 
-Gate 4 (week 24) decides whether a person completes the programme. The panel reviews the full capability self-assessment, the Part D practical, and evidence E8 to E10.
+Gate 4 (training day 24) decides whether a person completes the programme. The panel reviews the full capability self-assessment, the Part D practical, and evidence E8 to E10.
 
 ## The panel
 
@@ -33,7 +33,7 @@ The training lead sends the panel, at least 5 working days before:
 | --- | --- |
 | 5 minutes | Chair welcomes the person, explains the session and that it is developmental only. |
 | 10 or 20 minutes | Capstone presentation, aimed at a non-technical audience: 10 minutes for B3 and B4, 20 minutes for B5 to B7. |
-| 15 minutes | Part D practical: live run, explanation, and one small change the panel asks for (see [Part D practicals](part-d-practicals.md#gate-4-week-24-live-run-and-explanation-of-the-capstone)). |
+| 15 minutes | Part D practical: live run, explanation, and one small change the panel asks for (see [Part D practicals](part-d-practicals.md#gate-4-training-day-24-live-run-and-explanation-of-the-capstone)). |
 | 15 to 25 minutes | Questions (see below). |
 | 5 minutes | The person's own reflection: what changed most, and what they will work on next. |
 
@@ -69,8 +69,8 @@ The panel checks every Gate 4 threshold:
 
 The panel may change an agreed rating only where the session shows clear evidence against it. It records each change and its reason on the [gate review form](gate-review-form.md).
 
-- **All thresholds met:** the person completes the programme. Gate 5 at week 48 confirms the capability holds.
-- **Not met:** up to 3 extra weeks on the items below threshold, with a written plan and extra mentor time, and one repeat of the panel. If the repeat is not met, the person, line manager, and training lead agree a next step.
+- **All thresholds met:** the person completes the programme. Gate 5, about six months after Gate 4, confirms the capability holds.
+- **Not met:** up to 3 extra training days on the items below threshold, with a written plan and extra mentor time, and one repeat of the panel. If the repeat is not met, the person, line manager, and training lead agree a next step.
 
 ## What the panel does not decide
 

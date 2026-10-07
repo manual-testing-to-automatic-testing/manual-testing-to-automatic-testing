@@ -21,7 +21,7 @@ You complete every item at every gate, even items you rated last time. The same 
 
 ## The steps
 
-1. **Participant rates first.** In the week before the gate, complete every item with a short, specific piece of evidence. You may do this with your mentor's help, in writing or in conversation.
+1. **Participant rates first.** Before the gate's training day, complete every item with a short, specific piece of evidence. You may do this with your mentor's help, in writing or in conversation.
 2. **Manager rates independently.** Your line manager rates every item without seeing your ratings.
 3. **Meet and agree.** You meet, compare, and agree each rating. Start with the items where you differ most.
 4. **Evidence decides.** Where ratings differ by more than one level, the evidence decides. If you still disagree, the mentor or training lead moderates.

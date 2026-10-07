@@ -1,6 +1,6 @@
 # M6 API, integration, and FHIR tests
 
-Weeks 13–15. Reviewed at Gate 3.
+Training days 13 to 15, about 15 hours. Reviewed at Gate 3.
 
 ## Purpose
 
@@ -16,24 +16,29 @@ Push tests down the pyramid. Much of what a manual tester checks through screens
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M6 API, integration, and FHIR tests | — | R | S | S | I | I | L | R |
 
-B3 does not take M6. B3 time in weeks 13 to 15 goes to R1 role foundations and weekly real automation at B3 depth.
+B3 does not take M6. B3's M6 hours on training days 13 to 15 go to R1 role foundations and real automation at B3 depth.
 
 ## Session plan
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Week 13: HTTP, REST, JSON, status codes, headers | 2 hours | Core | All except B3 |
-| 2 | Week 13: starting the FHIR sandbox with `npm run fhir`; calling it with Node's built-in `fetch` from Mocha tests | 1.5 hours | Core | All except B3 |
-| 3 | Week 13: HL7 FHIR: resources, references, bundles, profiles, terminology | 2 hours | Core | All except B3 |
-| 4 | Week 14: mocks, stubs, and simulators; contract and integration testing | 1.5 hours | Core | All except B3 |
-| 5 | Week 14: HL7 version 2 awareness | 30 minutes | Core | All except B3 |
-| 6 | Week 14: read an existing suite | 2 hours | Breakout | B4-QA, B7-TM |
-| 7 | Week 14–15: write 5 tests, with support | 4 hours | Breakout | B4-TE, B5-QA, with mentor |
-| 8 | Week 14–15: write the full suite | 6 hours | Breakout | B6-QA, B6-TE, B7-TE |
-| 9 | Week 15: partner system simulator | 3 hours | Breakout | B7-TE |
-| 10 | Week 15: pair with a developer to move one browser test from E5 down to the API layer | 1.5 hours | Team | All except B3 |
+| 1 | Training day 13: HTTP, REST, JSON, status codes, headers | 1.5 hours | Core | All except B3 |
+| 2 | Training day 13: starting the FHIR sandbox with `npm run fhir`; calling it with Node's built-in `fetch` from Mocha tests | 1.5 hours | Core | All except B3 |
+| 3 | Training day 13: HL7 FHIR: resources, references, bundles, profiles, terminology | 2 hours | Core | All except B3 |
+| 4 | Training day 14: mocks, stubs, and simulators; contract and integration testing | 1 hour | Core | All except B3 |
+| 5 | Training day 14: HL7 version 2 awareness | 30 minutes | Core | All except B3 |
+| 6a | Training day 14: read an existing suite | 2 hours | Breakout | B4-QA, B7-TM |
+| 6b | Training days 14 and 15: write 5 tests, with support | 3.5 hours each day | Breakout | B4-TE, B5-QA, with mentor |
+| 6c | Training days 14 and 15: write the full suite | 3.5 hours each day | Breakout | B6-QA, B6-TE |
+| 6d | Training day 14: write the full suite; training day 15: partner system simulator | 3.5 hours each day | Breakout | B7-TE |
+| 7 | Training day 14: run the suite, break and restore one assertion, and explain the failure to the mentor | 1.5 hours | Breakout | B4-QA, B7-TM |
+| 8 | Training day 15: write one test with support (B4-QA); start planning L5 adoption (B7-TM) | 3.5 hours | Breakout | B4-QA, B7-TM |
+| 9 | Training day 15: pair with a developer to move one browser test from E5 down to the API layer | 1.5 hours | Team | All except B3 |
 
-L4 Acceptance test automation for B6-QA also starts in week 13. See `materials/tracks/`.
+Each person's sessions add up to 15 hours: 5 hours on each of training days 13, 14, and 15. Real automation (1.5 hours of each training day) and R1 (1 hour) fill the rest of each day.
+
+
+L4 Acceptance test automation for B6-QA also starts on training day 13, within B6-QA's breakout time. See `materials/tracks/`.
 
 ## Activities
 
@@ -60,7 +65,7 @@ L4 Acceptance test automation for B6-QA also starts in week 13. See `materials/t
 
 ## Assessment
 
-Gate 3 (week 18) reviews E6 with E7. The Gate 3 Part D practical is "triage and fix a failing CI run", plus an API test for B6 and B7-TE, and reading and explaining an API test failure for B7-TM.
+Gate 3 (start of training day 18) reviews E6 with E7. The Gate 3 Part D practical is "triage and fix a failing CI run", plus an API test for B6 and B7-TE, and reading and explaining an API test failure for B7-TM.
 
 ## Resources
 

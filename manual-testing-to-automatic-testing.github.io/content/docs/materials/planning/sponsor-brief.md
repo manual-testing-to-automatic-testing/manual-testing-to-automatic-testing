@@ -9,18 +9,18 @@
 
 ## The proposal
 
-A formal 24-week programme for manual testers at Bands 3 to 7:
+A formal programme of 24 training days for manual testers at Bands 3 to 7: one training day (7.5 hours, 20% time) a week, over about 24 calendar weeks.
 
 - **Eight tuned tracks**, by band and assigned PCF role, sharing one schedule and set of gates, so one mixed cohort learns together.
 - **Six gates**, each repeating a full self-assessment against the person's band (21 dimensions), PCF role aspects, and every skill in the role, rated by the manager too. Pass marks rise from 60% to 90%.
-- **Automation on real work** from week 10: each person automates tests on their own team's product every week.
+- **Automation on real work** from training day 10: each person automates tests on their own team's product in every training day.
 - **No band changes.** People grow into the roles they already hold.
 
 Full design: [spec/index.md](../../spec/index.md). Reasoning: [plan.md](../../plan.md).
 
 ## What it costs
 
-For an illustrative cohort of 12, about 3,800 hours of participants' protected time and about 1,650 hours from mentors, managers, the training lead, and others. Details: [resource-estimate.md](resource-estimate.md). Tools are open source; the only optional spend is a TypeScript course (D3).
+For an illustrative cohort of 12, about 2,160 hours of participants' protected time (24 training days of 7.5 hours each) and about 1,160 hours from mentors, managers, the training lead, and others. Details: [resource-estimate.md](resource-estimate.md). Tools are open source; the only optional spend is a JavaScript course (D3).
 
 ## What we get
 
@@ -33,7 +33,7 @@ For an illustrative cohort of 12, about 3,800 hours of participants' protected t
 ## What we need from you
 
 1. Agree to sponsor the programme, and chair the Gate 4 panels for Band 7 participants.
-2. Name a training lead (about 1 day a week).
+2. Name a training lead (about half a day, 3.75 hours, per training day).
 3. Release mentors: at least one band above each participant, up to 3 participants each.
 4. Support the HR request in [hr-briefing.md](hr-briefing.md).
 5. Decide, with the training lead, the tool and CI defaults (D1, D2) in [decision-log.md](decision-log.md).

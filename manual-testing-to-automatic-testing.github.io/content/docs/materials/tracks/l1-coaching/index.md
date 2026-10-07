@@ -1,6 +1,6 @@
 # L1 Coaching others in automation
 
-**Tracks:** B6-QA, B6-TE, B7-TE, B7-TM. **Weeks:** 10 to 20.
+**Tracks:** B6-QA, B6-TE, B7-TE, B7-TM. **Training days:** 10 to 20.
 
 **Outcome:** guide and coach others in automation, as the Practitioner and Expert level descriptions require. It also supports Part A dimensions A4 Leadership and A14 Responsibility for people.
 
@@ -8,10 +8,10 @@
 
 ## How it works
 
-1. **Pairing.** In week 10 the training lead pairs each coach with one or two cohort members from a lower band. Coaches do not coach people they line manage.
-2. **First meeting.** Agree what the coachee wants help with, from their ILP and current module. Agree how often to meet: 30 to 45 minutes a week is typical.
+1. **Pairing.** On training day 10 the training lead pairs each coach with one or two cohort members from a lower band. Coaches do not coach people they line manage.
+2. **First meeting.** Agree what the coachee wants help with, from their ILP and current module. Agree how often to meet: 30 to 45 minutes in each training day is typical.
 3. **Sessions.** Use the session pattern below. Log each one.
-4. **Feedback.** At weeks 15 and 20, the coachee writes a short piece of feedback in the log.
+4. **Feedback.** On training days 15 and 20, the coachee writes a short piece of feedback in the log.
 5. **Review.** The coach brings the log to Gate 3 and Gate 4.
 
 The coach's mentor remains the coachee's mentor. The coach adds practice and confidence; they do not replace the mentor or mark gates.

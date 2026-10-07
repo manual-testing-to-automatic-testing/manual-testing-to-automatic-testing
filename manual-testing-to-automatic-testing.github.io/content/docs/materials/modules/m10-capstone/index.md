@@ -1,6 +1,6 @@
 # M10 Capstone
 
-Weeks 20–24. Spiral pass 3: the person's own product. Assessed at Gate 4.
+Training days 20 to 24, about 27.5 hours. Spiral pass 3: the person's own product. Assessed at Gate 4.
 
 ## Purpose
 
@@ -21,33 +21,33 @@ The capstone brings every outcome together, at the person's track depth, on real
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Start of week 20: capstone scope agreement | 1 hour | One to one | Person, product owner, mentor |
-| 2 | Weekly: capstone review with the mentor | 1 hour a week | One to one | Person, mentor |
-| 3 | Weekly: capstone working time | Protected time | Individual | Person |
-| 4 | Week 22: mid-capstone show-and-tell to the team | 15 minutes each | Team | Person, their team |
-| 5 | Week 23: presentation rehearsal | 1 hour | Breakout | Small groups, mixed bands |
-| 6 | Week 24: Gate 4 panel | 45 minutes each | Panel | Person, Gate 4 panel |
+| 1 | Start of training day 20: capstone scope agreement | 1 hour | One to one | Person, product owner, mentor |
+| 2 | Each capstone training day: review with the mentor | 30 minutes a day | One to one | Person, mentor |
+| 3 | Each capstone training day: capstone working time | About 22.5 hours in all | Individual | Person |
+| 4 | Training day 22: mid-capstone show-and-tell to the team | 15 minutes each | Team | Person, their team |
+| 5 | Training day 23: presentation rehearsal | 1 hour | Breakout | Small groups, mixed bands |
+| 6 | Training day 24: Gate 4 panel, within Gate 4's time | 45 minutes each | Panel | Person, Gate 4 panel |
 
-Protected time in weeks 20 to 24 follows the person's track: 1.5 days a week for B3, B4, and B7; 2 days a week for B5 and B6.
+M10 has about 27.5 hours, the same for every track: 4 hours on training day 20, after M9; 6.5 hours on each of training days 21, 22, and 23; and 4 hours on training day 24, which also holds Gate 4. R1 takes 1 hour of each of these days.
 
 ## Activities
 
-1. Agree the scope at the start of week 20, using your E1 analysis and E9 estimate. Record it in the brief for your track.
-2. Build or lead the work, with weekly mentor review.
+1. Agree the scope at the start of training day 20, using your E1 analysis and E9 estimate. Record it in the brief for your track.
+2. Build or lead the work, with a mentor review each training day.
 3. Get pull requests reviewed by developers on your team.
-4. Show your progress to the team in week 22.
+4. Show your progress to the team on training day 22.
 5. Prepare and rehearse the presentation using [presentation-outline.md](presentation-outline.md).
 6. Present to the Gate 4 panel, including a live run.
 
 ## Evidence
 
-**E10:** a capstone on the person's own team's product, agreed with the product owner and mentor at the start of week 20, and a presentation to the gate panel aimed at a non-technical audience.
+**E10:** a capstone on the person's own team's product, agreed with the product owner and mentor at the start of training day 20, and a presentation to the gate panel aimed at a non-technical audience.
 
 | Track | Capstone | Brief |
 | --- | --- | --- |
 | B3 | Triage one week of CI results and raise defects; write 5 Given-When-Then scenarios; make 2 reviewed changes to existing tests. | [brief-b3.md](brief-b3.md) |
 | B4-QA | Automate 5 manual cases with support, with a spec, running in CI. | [brief-b4-qa.md](brief-b4-qa.md) |
-| B4-TE | Automate 10 cases, including 2 API tests, and maintain an existing suite for 4 weeks. | [brief-b4-te.md](brief-b4-te.md) |
+| B4-TE | Automate 10 cases, including 2 API tests, and maintain an existing suite for 4 training days. | [brief-b4-te.md](brief-b4-te.md) |
 | B5-QA | Automation candidate analysis for the area, and 10 cases automated at browser and API layers, with traceability, with some support. | [brief-b5-qa.md](brief-b5-qa.md) |
 | B6-QA | A risk-based automation approach for the area, automated acceptance checks agreed with clinical users, and coaching a B4 or B5 colleague through their capstone. | [brief-b6-qa.md](brief-b6-qa.md) |
 | B6-TE | An automated regression suite for a product slice of 15–30 manual cases: plan, browser and API tests, spec, synthetic data, CI, traceability, and handover README. | [brief-b6-te.md](brief-b6-te.md) |
@@ -58,7 +58,7 @@ Presentation: 10 minutes for B3 and B4, 20 minutes for B5 to B7.
 
 ## Assessment
 
-Gate 4 (week 24) reviews E8, E9, and E10, with the full capability self-assessment and the Part D practical: a live run and explanation of the capstone.
+Gate 4 (training day 24) reviews E8, E9, and E10, with the full capability self-assessment and the Part D practical: a live run and explanation of the capstone.
 
 The Gate 4 panel has three people: a lead test engineer or test manager at least one band above the person (chair, not their mentor), a developer from another team, and the training lead. For B7 tracks the chair is the head of test or a lead from outside the person's area. The clinical safety officer reviews traceability evidence in writing.
 

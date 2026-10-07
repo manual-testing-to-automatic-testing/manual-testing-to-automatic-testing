@@ -77,9 +77,9 @@ Not in this role level: Business and user acceptance testing, Health data intero
 
 | Protected time | Approximate guided hours | Optional extension |
 | --- | --- | --- |
-| 1.5 days a week | 270 | To 32 weeks |
+| One training day (7.5 hours) a week | 180 | To 32 training days (240 hours) |
 
-From week 10 you automate real work on your team's product every week, at this track's depth.
+From training day 10, part of every training day is real automation on your team's product, at this track's depth.
 
 ## Learning outcomes, at this track's depth
 
@@ -122,7 +122,7 @@ From week 10 you automate real work on your team's product every week, at this t
 - [R1 Role foundations](../r1-role-foundations/index.md)
 - [R2 Health care foundations](../r2-health-care-foundations/index.md)
 
-## Capstone (M10, weeks 20 to 24)
+## Capstone (M10, training days 20 to 24)
 
 Automate 5 manual cases with support, with a spec, running in CI.
 
@@ -130,9 +130,9 @@ You present it to the Gate 4 panel for 10 minutes, aimed at a non-technical audi
 
 ## Gates and practicals
 
-Gates are in weeks 0, 6, 12, 18, 24, and 48. Each Part D practical takes **30 minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#b4-qa). Thresholds and conditions are in the [gates overview](../../gates/index.md).
+Gates are on training days 1, 6, 12, 18, and 24, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **30 minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#b4-qa). Thresholds and conditions are in the [gates overview](../../gates/index.md).
 
-With the optional 32-week extension, the gates move to weeks 0, 8, 16, 24, 32, and 56.
+With the optional extension to 32 training days, the gates move to training days 1, 8, 16, 24, and 32.
 
 ## Mentor
 

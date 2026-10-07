@@ -1,19 +1,19 @@
 # R1 Role foundations: role practice guide
 
-R1 runs from week 1 to week 24 for every track. It closes the role and skill gaps that are not about automation, because each person is measured against their whole role.
+R1 runs from training day 1 to training day 24 for every track. It closes the role and skill gaps that are not about automation, because each person is measured against their whole role.
 
 - **Content:** set by the individual learning plan (ILP) from the Gate 0 gaps in Parts A, B, and C.
-- **Time:** a weekly 1-hour role practice slot with the mentor or line manager, plus stretch tasks in normal work.
+- **Time:** 1 hour of each training day for role practice with the mentor or line manager, plus stretch tasks in normal work.
 - **Evidence:** progress on each ILP action, reviewed at every gate, and the agreed ratings in the instrument.
 
-## Turning ILP gaps into weekly practice
+## Turning ILP gaps into practice in every training day
 
 1. **Pick the gap.** Take one of the top 3 ILP gaps for this gate period. Clinical risk management and information governance come first if they are gaps, because they must meet expectations by Gate 2.
 2. **Read the target.** Read the expectation for the item: the band outline text (A1 to A5), the factor level summary (A6 to A21), the PCF statement (Part B), or the "You can …" statements at the expected level (Part C).
 3. **Name one behaviour.** Write one thing the person will do regularly that would show the item. Keep it small and observable, such as "I write the risk summary in every sprint test report".
 4. **Choose a practice activity** from the tables below, or agree one.
-5. **Do it for real.** Use the person's own team and product. Where possible, combine it with the week's automation work.
-6. **Reflect in the slot.** In the weekly hour: what happened, what went well, what to change. Record it in the learning log.
+5. **Do it for real.** Use the person's own team and product. Where possible, combine it with the training day's automation work.
+6. **Reflect in the slot.** In the hour: what happened, what went well, what to change. Record it in the learning log.
 7. **Collect evidence.** When the behaviour is regular, write a short, specific example against the item id.
 8. **Move on.** Once an item is Meets at a gate, pick the next gap.
 
