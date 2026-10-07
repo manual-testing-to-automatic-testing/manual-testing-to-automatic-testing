@@ -15,10 +15,10 @@ Pages change. Re-run the scan before each cohort.
 | <https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/run-job-variations> | Issues found | 1 | `target-size`: serious, 4 |
 | <https://git-scm.com/book/en/v2> | Issues found | 4 | `image-alt`: critical, 4; `color-contrast`: serious, 119; `link-in-text-block`: serious, 4; `link-name`: serious, 2 |
 | <https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverjs> | Issues found | 1 | `target-size`: serious, 18 |
-| <https://github.com/joelparkerhenderson/demo-playwright-javascript> | Issues found | 2 | `target-size`: serious, 3; `valid-lang`: serious, 2 |
-| <https://github.com/joelparkerhenderson/demo-selenium-javascript-for-nhs-wales> | Issues found | 2 | `target-size`: serious, 3; `valid-lang`: serious, 2 |
 | <https://github.com/testingexamples> | No automated issues | 0 | — |
+| <https://github.com/testingexamples/demo-playwright-javascript> | Issues found | 2 | `target-size`: serious, 3; `valid-lang`: serious, 2 |
 | <https://github.com/testingexamples/demo-selenium-javascript> | Issues found | 2 | `target-size`: serious, 3; `valid-lang`: serious, 2 |
+| <https://github.com/testingexamples/demo-selenium-javascript-for-nhs-wales> | Issues found | 2 | `target-size`: serious, 3; `valid-lang`: serious, 2 |
 | <https://github.com/testingexamples/selenium-javascript-skill> | Issues found | 1 | `target-size`: serious, 3 |
 | <https://github.com/testingexamples/testingexamples.github.io/blob/main/spec/index.md> | Issues found | 1 | `scrollable-region-focusable`: serious, 1 |
 | <https://hapifhir.io/> | Issues found | 3 | `image-alt`: critical, 2; `select-name`: critical, 1; `color-contrast`: serious, 30 |

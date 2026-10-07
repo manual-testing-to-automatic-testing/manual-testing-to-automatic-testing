@@ -8,7 +8,7 @@ The programme writes new tests with Selenium WebDriver. Many teams also have Pla
 
 ## Set up
 
-1. Clone the demo: `git clone https://github.com/joelparkerhenderson/demo-playwright-javascript`
+1. Clone the demo: `git clone https://github.com/testingexamples/demo-playwright-javascript`
 2. Follow its `README.md` to install: `npm install`, then `npx playwright install chromium` to download Playwright's own browser.
 3. Run it: `npm test` (which runs `node src/demo.js`).
 4. Watch Chromium open the fixture page, then read the printed HTML output.

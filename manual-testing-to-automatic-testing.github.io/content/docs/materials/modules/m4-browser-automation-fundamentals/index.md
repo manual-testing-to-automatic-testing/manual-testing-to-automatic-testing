@@ -69,7 +69,7 @@ Gate 2 (week 12) reviews E4 with E5. The Gate 2 Part D practical is "automate on
 - Fixture contract: <https://github.com/testingexamples/testingexamples.github.io/blob/main/spec/index.md>
 - Selenium JavaScript skill: <https://github.com/testingexamples/selenium-javascript-skill>
 - Selenium JavaScript demo: <https://github.com/testingexamples/demo-selenium-javascript>
-- Playwright JavaScript demo, for the reading exercise: <https://github.com/joelparkerhenderson/demo-playwright-javascript>
+- Playwright JavaScript demo, for the reading exercise: <https://github.com/testingexamples/demo-playwright-javascript>
 - Selenium documentation, WebDriver: <https://www.selenium.dev/documentation/webdriver/>
 - Selenium documentation, locators: <https://www.selenium.dev/documentation/webdriver/elements/locators/>
 - Selenium documentation, waits: <https://www.selenium.dev/documentation/webdriver/waits/>

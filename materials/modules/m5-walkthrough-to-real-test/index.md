@@ -71,7 +71,7 @@ Gate 2 (week 12) reviews E5 with E4. The Gate 2 Part D practical is "automate on
 
 - [Given-When-Then Examples](https://testingexamples.github.io/en-001/given-when-then/)
 - `selenium-javascript-skill`, section "From walkthrough to real test": <https://github.com/testingexamples/selenium-javascript-skill>
-- NHS Wales worked example: <https://github.com/joelparkerhenderson/demo-selenium-javascript-for-nhs-wales>
+- NHS Wales worked example: <https://github.com/testingexamples/demo-selenium-javascript-for-nhs-wales>
 - Mocha: <https://mochajs.org/>
 - Node.js `assert`: <https://nodejs.org/docs/latest-v24.x/api/assert.html>
 - Selenium documentation, waits: <https://www.selenium.dev/documentation/webdriver/waits/>

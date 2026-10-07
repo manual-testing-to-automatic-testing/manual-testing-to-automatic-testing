@@ -58,7 +58,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | Fixture contract | <https://github.com/testingexamples/testingexamples.github.io/blob/main/spec/index.md> | Markdown |
 | Selenium JavaScript skill | <https://github.com/testingexamples/selenium-javascript-skill> | Markdown |
 | Selenium JavaScript demo | <https://github.com/testingexamples/demo-selenium-javascript> | Code |
-| Playwright JavaScript demo, for the reading exercise | <https://github.com/joelparkerhenderson/demo-playwright-javascript> | Code |
+| Playwright JavaScript demo, for the reading exercise | <https://github.com/testingexamples/demo-playwright-javascript> | Code |
 | Selenium: WebDriver | <https://www.selenium.dev/documentation/webdriver/> | Web |
 | Selenium: locators | <https://www.selenium.dev/documentation/webdriver/elements/locators/> | Web |
 | Selenium: waits | <https://www.selenium.dev/documentation/webdriver/waits/> | Web |
@@ -71,7 +71,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | --- | --- | --- |
 | Given-When-Then Examples | <https://testingexamples.github.io/en-001/given-when-then/> | Article |
 | Selenium JavaScript skill, "From walkthrough to real test" | <https://github.com/testingexamples/selenium-javascript-skill> | Markdown |
-| NHS Wales worked example and spec (read, do not repeatedly run) | <https://github.com/joelparkerhenderson/demo-selenium-javascript-for-nhs-wales> | Code |
+| NHS Wales worked example and spec (read, do not repeatedly run) | <https://github.com/testingexamples/demo-selenium-javascript-for-nhs-wales> | Code |
 | Mocha | <https://mochajs.org/> | Web |
 | Node.js `assert` | <https://nodejs.org/docs/latest-v24.x/api/assert.html> | Web |
 | Selenium: page object models | <https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/> | Web |
