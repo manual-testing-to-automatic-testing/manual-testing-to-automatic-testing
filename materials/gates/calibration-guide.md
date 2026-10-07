@@ -5,13 +5,13 @@ This guide is for participants and line managers. It explains how to complete th
 ## First, the most important points
 
 - **The gates are developmental only.** A gate result never starts a capability, performance, or conduct procedure by itself. Any such procedure follows the organisation's HR policy, separately (spec Principle 13).
-- **A gap is not a failing.** An informal review suggests most people start at about 50% of their role. Gaps are expected. They show where development is most useful.
+- **A gap is not a failing.** Gaps are expected. They show where development is most useful.
 - **Nobody changes band.** You are rated against the band and PCF role you already hold. Rating above expectation is a strength, not a claim for regrading.
 - **Honest ratings help you.** Your individual learning plan (ILP) is built from your gaps. Inflated ratings hide the gaps you most need help with.
 
 ## The instrument
 
-Your track's file is `instruments/<track>.tsv` (see `instruments/README.md`). It has:
+Your track's file is the track's file in `instruments/`, such as `instruments/band-5-quality-assurance.tsv` (see `instruments/README.md`). It has:
 
 - **Part A, band (21 items):** A1 to A5 are the band outline dimensions, rated Not yet, Partly, or Meets. A6 to A21 are the 16 job evaluation factors: you choose the factor level that best describes what you do regularly now.
 - **Part B, PCF role aspects:** every statement in your PCF role description and role level description, and every reference responsibility, rated Not yet, Partly, or Meets.
@@ -53,7 +53,7 @@ The **agreed** rating is the one that counts.
 - Rate the person against **their** band and reference role level, from their track guide in `materials/tracks/`.
 - Rate independently and before you see the self-ratings. Do not adjust your ratings to match.
 - Base each rating on evidence you have seen, or evidence the person can show.
-- Look for under-rating as well as over-rating. People who know the starting point is about 50% may rate themselves down.
+- Look for under-rating as well as over-rating. People who expect gaps may rate themselves down.
 - Keep the conversation developmental. Talk about what would move each item to Meets, not about performance procedures.
 - Agree the top 3 gaps for the next gate period and update the ILP.
 

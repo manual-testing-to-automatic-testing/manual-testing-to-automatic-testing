@@ -11,7 +11,9 @@ const RAW = import.meta.glob('/content/instruments/*.tsv', {
 }) as Record<string, string>;
 
 export type Track = {
+  /** The track id, such as B5-QA. */
   id: string;
+  /** The instrument's file name in words, such as band-5-quality-assurance, also its URL slug. */
   slug: string;
   band: string;
   role: string;
@@ -26,12 +28,12 @@ const ORDER = ['B3', 'B4-QA', 'B4-TE', 'B5-QA', 'B6-QA', 'B6-TE', 'B7-TE', 'B7-T
 const TRACKS: Track[] = Object.entries(RAW)
   .filter(([key]) => !key.endsWith('/index.tsv'))
   .map(([key, text]) => {
-    const id = key.replace(/^.*\//, '').replace(/\.tsv$/, '');
+    const slug = key.replace(/^.*\//, '').replace(/\.tsv$/, '');
     const items = parseTsv(text) as unknown as Track['items'];
     const first = items[0];
     return {
-      id,
-      slug: id.toLowerCase(),
+      id: first.track,
+      slug,
       band: first.band,
       role: first.role,
       roleLevel: first.role_level,

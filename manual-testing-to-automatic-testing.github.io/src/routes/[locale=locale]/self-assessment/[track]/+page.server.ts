@@ -14,8 +14,9 @@ export const load = ({ params }) => {
     locale,
     track: { id: track.id, band: track.band, role: track.role, roleLevel: track.roleLevel, counts: track.counts },
     items: track.items,
-    blank: `/downloads/instruments/${track.id}.tsv`,
-    guide: localeHref(locale, `materials/tracks/${track.slug}`),
+    file: track.slug,
+    blank: `/downloads/instruments/${track.slug}.tsv`,
+    guide: localeHref(locale, `materials/tracks/${track.id.toLowerCase()}`),
     crumbs: [
       { href: localeHref(locale), label: 'Home' },
       { href: localeHref(locale, 'self-assessment'), label: 'Self-assessment' }

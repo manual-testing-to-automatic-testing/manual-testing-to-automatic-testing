@@ -31,9 +31,10 @@
 
   let {
     track,
+    file,
     items,
     blankHref
-  }: { track: string; items: TrackItem[]; blankHref: string } = $props();
+  }: { track: string; file: string; items: TrackItem[]; blankHref: string } = $props();
 
   const STORAGE_KEY = $derived(`manual-testing-to-automatic-testing:self-assessment:${track}`);
   const emptyEntry = (): Entry => ({ self: '', manager: '', agreed: '', evidence: '', ilp: '', expected: '' });
@@ -141,7 +142,7 @@
     const url = URL.createObjectURL(new Blob([text], { type: 'text/tab-separated-values' }));
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${track}--gate-${gate}.tsv`;
+    a.download = `${file}--gate-${gate}.tsv`;
     a.click();
     URL.revokeObjectURL(url);
     message = `Downloaded ${a.download}. It is a personal record: keep it in your organisation's HR or learning system.`;

@@ -4,9 +4,9 @@
 
 This programme upskills **manual testers at Bands 3 to 7** into **automatic testers**, over **24 weeks**, while each person **stays in their current band and their assigned UK GDaD PCF role**. Nobody changes band because of this programme.
 
-Each person has already been given a UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager) at a role level. An informal review suggests each person is perhaps only **about 50% capable** of their assigned role and skills. So the programme has two aims, in this order:
+Each person has already been given a UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager) at a role level. The programme has two aims, in this order:
 
-1. **Close the capability gap in the role the person already holds**, from about 50% to at least 90% at Gate 4, measured formally at every gate.
+1. **Close the capability gap in the role the person already holds**, to at least 90% at Gate 4, measured formally at every gate.
 2. **Build automated testing capability** to a target set for each band and role, which for some tracks is above what the role itself requires.
 
 The programme comes in **eight tuned tracks**, one for each band and assigned role combination (B3, B4-QA, B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM). All tracks share one schedule, one set of gates, and one set of core modules, so a mixed cohort learns together. The tracks differ in depth, weekly hours, extra modules, gate evidence, and capstone.
@@ -29,7 +29,7 @@ In scope:
 - Manual testers at Bands 3, 4, 5, 6, and 7 in the quality assurance testing role family, each with an assigned PCF role.
 - A cohort of up to 12 people, in any mix of tracks, sharing mentors and core sessions.
 - Formal measurement of each person's capability against their **current** band, PCF role level, and skills, at every gate.
-- Closing role and skill gaps that are not about automation, because the 50% gap covers the whole role.
+- Closing role and skill gaps that are not about automation, because capability is measured across the whole role.
 - Automated testing: browser, API and integration tests, an introduction to unit tests, CI pipelines, test code quality, synthetic test data, and traceability to clinical safety evidence, at a depth set per track.
 - For Band 7 senior test engineers: reusable frameworks and performance, load, and resilience testing.
 - For Band 7 test managers: automation strategy, metrics, and leading adoption.
@@ -47,7 +47,7 @@ Out of scope:
 2. **Measure the whole role, every gate.** Every gate repeats the full capability self-assessment (Parts A to D), not just the items the module taught, so progress and regression across the whole role are both visible.
 3. **Self-assessment first, then calibration.** The person rates themselves, the manager rates independently, and the two then agree a rating, with evidence. The agreed rating counts.
 4. **Evidence for every "meets".** An item rated as meeting expectations must have a short, specific example of regular work. Rate what the person does regularly, not what they did once.
-5. **A gap is not a failing.** At about 50% capability, gaps are expected. Gaps show where development is most useful, and the programme says so openly.
+5. **A gap is not a failing.** Gaps are expected. They show where development is most useful, and the programme says so openly.
 6. **Backward design.** Every module starts from its outcomes, then its evidence, then its activities.
 7. **Tuned, not separate.** All tracks share the core modules and gate dates. Tracks differ in depth, hours, extra modules, and evidence.
 8. **Build on the tester's strengths.** Each person's own team's manual regression pack and product are the practice material.
@@ -70,9 +70,8 @@ Each participant:
 - is a manual tester at Band 3, 4, 5, 6, or 7
 - has an assigned UK GDaD PCF role and role level in the quality assurance testing role family
 - stays in that band and role during and after the programme
-- is estimated by informal review to be about 50% capable of that role and its skills.
 
-Gate 0 replaces the informal estimate with a formal, evidenced baseline for each person.
+Gate 0 sets a formal, evidenced baseline for each person.
 
 ### Tracks
 
@@ -403,7 +402,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 
 #### R1 Role foundations (weeks 1–24, individual)
 
-- **Purpose:** close the role and skill gaps that are not about automation, because the informal review suggests the gap covers about half of each person's whole role.
+- **Purpose:** close the role and skill gaps that are not about automation, because each person is measured against their whole role.
 - **Content:** set by the ILP from Gate 0 gaps in Parts A to C. Typical items: test analysis, test and quality planning, defect management, communicating with non-technical stakeholders, planning own work (A9), freedom to act (A17), and the role-level statements in Part B.
 - **Activities:** a weekly 1-hour role practice slot with the mentor or manager, stretch tasks on the team, shadowing, and the community of practice.
 - **Evidence:** progress on each ILP action, reviewed at every gate.
@@ -519,7 +518,7 @@ The training lead evaluates the programme with Goodlad's levels of curriculum:
 
 Impact measures, taken at Gate 0, Gate 4, and Gate 5:
 
-- Capability index per person, per track, and for the cohort, against the roughly 50% informal starting point.
+- Capability index per person, per track, and for the cohort, against the Gate 0 baseline.
 - Test engineering ratings against the automation targets.
 - Manual regression cases automated, and manual regression hours saved per release.
 - Time from a defect report to a regression test existing for it.
@@ -595,5 +594,5 @@ Coverage check, outcome to evidence:
 | Date | Change |
 | --- | --- |
 | 2026-10-07 | First version: one learner moving from Band 5 to Band 6. |
-| 2026-10-07 | Rewritten: eight tuned tracks for Bands 3 to 7, no band changes, a full capability self-assessment (21 band dimensions, PCF role aspects, all role skills) at every gate, a roughly 50% starting point, and capability thresholds per gate. |
+| 2026-10-07 | Rewritten: eight tuned tracks for Bands 3 to 7, no band changes, a full capability self-assessment (21 band dimensions, PCF role aspects, all role skills) at every gate, and capability thresholds per gate. |
 | 2026-10-07 | Implemented: instruments generated per track; Partly defined for Part C; LO2 (B7-TE) and LO11 (B7-TM) depths aligned with modules; Gate 3 timing, B3 in weeks 13–15, L4 weeks, Band 7 mentors, and the capstone rehearsal made explicit. |

@@ -2,7 +2,8 @@
 """Build the capability self-assessment instrument for every track.
 
 Reads the roles-skills reference (reference.json) and writes one TSV per track
-to instruments/, plus instruments/index.tsv. The instrument is defined in
+to instruments/, named in words (B5-QA is band-5-quality-assurance.tsv), plus
+instruments/index.tsv. The instrument is defined in
 spec/index.md, section "Capability self-assessment":
 
 - Part A: 5 band outline dimensions (A1-A5) and 16 job evaluation factors (A6-A21)
@@ -37,6 +38,18 @@ TRACKS = [
     ("B7-TE", "7", "test-engineer", "Senior test engineer"),
     ("B7-TM", "7", "test-manager", "Test manager"),
 ]
+
+# Each track's file name, in words: lower case, with dashes.
+FILE_NAMES = {
+    "B3": "band-3",
+    "B4-QA": "band-4-quality-assurance",
+    "B4-TE": "band-4-test-engineer",
+    "B5-QA": "band-5-quality-assurance",
+    "B6-QA": "band-6-quality-assurance",
+    "B6-TE": "band-6-test-engineer",
+    "B7-TE": "band-7-test-engineer",
+    "B7-TM": "band-7-test-manager",
+}
 
 # Tracks whose job evaluation factor levels are agreed at Gate 0, because the
 # reference has no role level at their band (spec, "Tracks", Band 3).
@@ -238,7 +251,7 @@ def main():
     summary = []
     for track, band_id, role_id, level_title in TRACKS:
         rows = build_rows(ref, track, band_id, role_id, level_title)
-        path = os.path.join(args.out, f"{track}.tsv")
+        path = os.path.join(args.out, f"{FILE_NAMES[track]}.tsv")
         with open(path, "w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=COLUMNS, delimiter="\t", lineterminator="\n")
             writer.writeheader()
@@ -253,7 +266,7 @@ def main():
                 "part_b_items": counts["B"],
                 "part_c_items": counts["C"],
                 "total_items": len(rows),
-                "file": f"{track}.tsv",
+                "file": f"{FILE_NAMES[track]}.tsv",
             }
         )
         print(f"{track}: {counts['A']} + {counts['B']} + {counts['C']} = {len(rows)} items -> {path}")

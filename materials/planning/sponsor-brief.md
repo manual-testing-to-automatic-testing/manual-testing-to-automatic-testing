@@ -5,7 +5,7 @@
 ## The problem
 
 - Our testing is mostly manual. Manual regression is slow, gives different results from person to person, and cannot run on every change.
-- Our testers hold UK GDaD PCF roles they are, by informal review, only about 50% capable of.
+- Our testers hold UK GDaD PCF roles whose skills, including test automation, they do not yet fully use.
 
 ## The proposal
 
@@ -24,7 +24,7 @@ For an illustrative cohort of 12, about 3,800 hours of participants' protected t
 
 ## What we get
 
-- Each person's capability index measured from about 50% to at least 90% of their current role.
+- Each person's capability index measured from their Gate 0 baseline to at least 90% of their current role.
 - Each person at their track's automation target.
 - Real automated regression suites running in team CI, built during the programme.
 - Lower manual regression hours per release, and a shorter time from a defect report to a regression test.

@@ -8,7 +8,7 @@ We plan a 24-week development programme for manual testers at Bands 3 to 7. It b
 
 ## Background
 
-- Each tester has been given a UK GDaD PCF role and role level. An informal review suggests each person is perhaps about 50% capable of that role and its skills.
+- Each tester has been given a UK GDaD PCF role and role level.
 - The programme measures each person at six gates against their own band, their PCF role, and their role's skills, using a self-assessment that the manager also rates. The full design is in [spec/index.md](../../spec/index.md).
 - The self-assessment uses the organisation's band outlines and the 16 job evaluation factors, from the illustrative roles-skills reference. The factors are used as a self-assessment of how fully a person works at their job's level. **This is not a job evaluation and never changes a job's band.**
 
@@ -20,7 +20,7 @@ We plan a 24-week development programme for manual testers at Bands 3 to 7. It b
 - It never starts a capability, performance, or conduct procedure by itself.
 - If a manager has a separate concern, it follows the normal HR policy, separately from the programme, and does not use gate records as its basis without HR advice.
 
-**Why:** the gates only work if people rate themselves honestly. With a roughly 50% baseline, people will see many gaps. If they fear the result, self-ratings will be inflated and the programme will not find the real gaps.
+**Why:** the gates only work if people rate themselves honestly. Measured against their whole role, people will see gaps. If they fear the result, self-ratings will be inflated and the programme will not find the real gaps.
 
 ### 2. No band or grade changes follow from the programme
 

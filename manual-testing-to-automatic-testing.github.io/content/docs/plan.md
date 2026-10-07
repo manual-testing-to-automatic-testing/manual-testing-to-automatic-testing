@@ -4,10 +4,10 @@
 
 Create a comprehensive, formal training programme that upskills manual testers at **Bands 3 to 7** into automatic testers, with a **tuned version for each band** and assigned role, while every person **stays in their current band and role**.
 
-Each person already has an assigned UK GDaD PCF role. An informal review suggests each person is perhaps only about 50% capable of that role and its skills. So the programme must:
+Each person already has an assigned UK GDaD PCF role. The programme must:
 
 1. **Measure capability formally**, at every gate, against the person's own band (all 21 dimensions), their PCF role aspects, and all of their role's skills.
-2. **Close the gap in the role they hold**, from about 50% to at least 90% by Gate 4.
+2. **Close the gap in the role they hold**, to at least 90% by Gate 4.
 3. **Build automated testing capability** to a target suited to each band and role.
 
 [spec/index.md](spec/index.md) is the single source of truth for the programme. This plan explains why it is shaped this way. [tasks.md](tasks.md) lists the work.
@@ -15,7 +15,7 @@ Each person already has an assigned UK GDaD PCF role. An informal review suggest
 ## Context
 
 - **The people** are manual testers in the quality assurance testing role family, at Bands 3 to 7. Each has a UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager) at a role level. They are not changing band.
-- **The starting point** is about 50% capability, from an informal review. That means the gap is not only automation: it covers test analysis, planning, defects, communication, health care skills, and working at the band's level of autonomy and scope.
+- **The starting point** is measured at Gate 0. The gap is not only automation: it can cover test analysis, planning, defects, communication, health care skills, and working at the band's level of autonomy and scope.
 - **The organisation** is the generic digital health care organisation in the roles-skills reference. It builds clinical and patient-facing services, exchanges data using HL7 FHIR, runs clinical risk management with hazard logs and safety cases, and never allows real patient data in test environments.
 - **The reference data** comes from roles-skills, which aligns with the UK GDaD PCF and ESCO:
   - each **band** has a 5-dimension outline (knowledge, autonomy, scope, leadership, accountability) and a points range
@@ -30,7 +30,7 @@ Each person already has an assigned UK GDaD PCF role. An informal review suggest
 
 | Area | This programme |
 | --- | --- |
-| **Context:** why this, why now | People hold roles they are only about half capable of, and testing is still manual: slow, variable, and unable to run on every change. Growing the people already in post keeps their product and clinical knowledge, and needs no regrading. |
+| **Context:** why this, why now | People hold roles whose skills they do not yet fully use, and testing is still manual: slow, variable, and unable to run on every change. Growing the people already in post keeps their product and clinical knowledge, and needs no regrading. |
 | **Intent:** what to teach | Each person's own role, band, and skills, in full (LO13), plus automated testing to a per-track target (LO1 to LO12). |
 | **Implementation:** how to teach | Eight tuned tracks sharing one 24-week schedule, core modules, and gate dates, with individual role foundations (R1) and track modules for Bands 6 and 7. |
 | **Impact:** how to assess | The full capability self-assessment at six gates, calibrated with the manager, with rising thresholds, plus automation practicals and module evidence. |
@@ -47,7 +47,7 @@ The programme measures people against the band they hold. Where the automation t
 
 ### Gates built on a full self-assessment
 
-The user's requirement, and the 50% starting point, put gates at the centre. Each gate repeats the **same full instrument**:
+The requirement to measure the whole role puts gates at the centre. Each gate repeats the **same full instrument**:
 
 - **Part A, band, 21 dimensions:** the 5 band outline dimensions and all 16 job evaluation factors, so the whole band is seen, not just skills.
 - **Part B, PCF role aspects:** every role and role-level statement, plus the health care responsibilities.
@@ -60,15 +60,15 @@ The job evaluation factors are used as a self-assessment of how fully the person
 
 ### Self-rating, then calibration
 
-People rate themselves first, managers rate independently, and evidence settles differences. This follows the roles-skills self-assessment guide, and reduces both over- and under-rating, which are likely when people know they are about 50% capable.
+People rate themselves first, managers rate independently, and evidence settles differences. This follows the roles-skills self-assessment guide, and reduces both over- and under-rating, which are both likely when people know they have gaps.
 
 ### Rising thresholds
 
-From about 50%, a single pass/fail at the end would be demoralising and too late to act on. The thresholds rise by about 10 points a gate (60, 70, 80, 90%), so each step is achievable and problems show early. Clinical risk management and information governance must meet expectations by Gate 2, because they protect patients and data whatever else is open.
+A single pass/fail at the end would be demoralising and too late to act on. The thresholds rise by about 10 points a gate (60, 70, 80, 90%), so each step is achievable and problems show early. Clinical risk management and information governance must meet expectations by Gate 2, because they protect patients and data whatever else is open.
 
 ### Developmental, not disciplinary
 
-Telling people that informal review puts them at about 50% is sensitive. The gates only work if self-assessment is honest. So the spec states that gate results never start capability or performance procedures by themselves, and HR confirms this (Decision D7).
+Rating people against their whole role is sensitive. The gates only work if self-assessment is honest. So the spec states that gate results never start capability or performance procedures by themselves, and HR confirms this (Decision D7).
 
 ### Shared core, tuned depth
 
@@ -89,7 +89,7 @@ Playwright with TypeScript is the primary toolset. Auto-waiting removes the most
 | **PADDIE+M** | The programme life cycle, and the structure of [tasks.md](tasks.md). | A formal, multi-track programme in a regulated organisation needs planning and HR agreement up front, and maintenance as the reference data and tools change. |
 | **Understanding by Design** | Each module: outcomes, then evidence, then activities. | Makes the evidence the assessment, and keeps every activity tied to an outcome. |
 | **Bruner's spiral** | Locate, act, wait, assert taught three times; the same capability instrument repeated at every gate. | Durable skill and accurate self-knowledge both need revisiting at rising depth. |
-| **Taba's grassroots** | Practice material from each person's own regression pack and product; ILPs from each person's own gaps. | Starting from the person's real gaps is the only sensible response to a roughly 50% baseline. |
+| **Taba's grassroots** | Practice material from each person's own regression pack and product; ILPs from each person's own gaps. | Starting from each person's own measured gaps makes the programme fit them. |
 | **SAM** | Revising the programme after every gate for the first cohort. | Fast feedback, which a first multi-track run needs. |
 | **Universal Design for Instruction** | Inclusion, flexible pacing, the 32-week option, assisted self-assessment. | A cohort across five bands has a wide range of starting points and needs. |
 | **Goodlad's levels** | Evaluation, including calibration differences as the "perceived" level. | Shows the gap between what the spec says and what people experienced. |
@@ -110,7 +110,7 @@ The programme follows PADDIE+M. Tasks for each phase are in [tasks.md](tasks.md)
 
 | Risk | Likelihood | Impact | Mitigation |
 | --- | --- | --- | --- |
-| People inflate self-ratings, or feel threatened by a roughly 50% baseline | High | High | Developmental-only gates (D7); briefing at M0; independent manager ratings; evidence for every "Meets". |
+| People inflate self-ratings, or feel threatened by the baseline | High | High | Developmental-only gates (D7); briefing at M0; independent manager ratings; evidence for every "Meets". |
 | Managers rate inconsistently across teams | High | Medium | Calibration with evidence; training lead moderates a 1 in 5 sample; calibration differences tracked in evaluation. |
 | Mixed-band cohort is too wide to teach together | Medium | Medium | Shared core sessions, track breakouts, depth table, coaching by Bands 6 and 7. |
 | Protected time is eroded by delivery pressure | High | High | Signed learning agreement; time in calendars; escalation if more than 2 days are lost in a gate period. |
@@ -124,7 +124,7 @@ The programme follows PADDIE+M. Tasks for each phase are in [tasks.md](tasks.md)
 
 ## Success measures
 
-- The cohort's mean capability index rises from about 50% at Gate 0 to at least 90% at Gate 4, and holds at Gate 5.
+- The cohort's mean capability index rises from its Gate 0 baseline to at least 90% at Gate 4, and holds at Gate 5.
 - Every participant reaches their track's automation target.
 - No participant changes band as a result of the programme, and no gate result is used in an HR procedure.
 - Manual regression hours per release fall, and the time from a defect report to a regression test falls.

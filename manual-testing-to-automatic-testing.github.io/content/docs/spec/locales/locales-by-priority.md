@@ -2,10 +2,12 @@
 
 Translate into these locales. Translate serially NOT subagents. After each locale: commit, push, publish, verify, stop, and prompt to continue.
 
-- en-001
-- cy-001
-- zh-001
-- hi-001
+Every code is `<language>-<region>`; see [index.md](index.md#locale-codes). Done locales are marked; [index.md](index.md#status) has the details.
+
+- en-001 (done)
+- cy-001 (also cy-gb)
+- zh-001 (also zh-cn)
+- hi-001 (also hi-in)
 - es-001
 - fr-001
 - ar-001
@@ -30,20 +32,20 @@ Translate into these locales. Translate serially NOT subagents. After each local
 Where I live:
 
 - en-gb English - Great Britain
-- cy-gb Cymreag - Great Britain
+- cy-gb Cymraeg - Great Britain
 
 Worldwide top 10 order by count:
 
 - en-us English - United States
 - zh-cn Chinese - China
-- hi-id Hindi - India
+- hi-in Hindi - India
 - es-es Spanish - Spain
 - fr-fr French - France
 - ar-eg Arabic - Egypt
 - bn-bd Bengali - Bangladesh
 - ru-ru Russian - Russia
 - pt-pt Portuguese - Portugal
-- ur-pn Urdu - Pakistan
+- ur-pk Urdu - Pakistan
 
 Worldwide by country population:
 
@@ -51,7 +53,7 @@ Worldwide by country population:
 - pt-br Portuguese - Brazil
 - es-mx Spanish - Mexico
 
-Eurpean Union top 3:
+European Union top 3:
 
 - de-de German - Germany
 - fr-fr French - France
@@ -97,7 +99,7 @@ Countries that welcomed me:
 
 Celtic top 3 order by proximity:
 
-- cy-cy Cymraeg - Cymru
+- cy-gb Cymraeg - Cymru
 - gd-gb Scottish Gaelic - Scotland
 - ga-ie Irish - Ireland
 
@@ -107,7 +109,7 @@ North America:
 - es-mx
 - fr-ca
 
-Eurpean Union order by speaker count:
+European Union order by speaker count:
 
 - de-de German - Germany
 - fr-fr France - French
@@ -135,7 +137,7 @@ Eurpean Union order by speaker count:
 - el-cy Greek - Cyprus
 - lb-lu Luxembourgish - Luxembourg
 - mt-mt Maltese - Malta
-- ga-it Irish - Ireland
+- ga-ie Irish - Ireland
 
 TODO:
 

@@ -16,7 +16,7 @@ If your band and assigned role have no reference role level, the mapping rule in
 
 ## Your capability self-assessment
 
-At every gate you complete the full instrument for this track: `instruments/B4-QA.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).
+At every gate you complete the full instrument for this track: `instruments/band-4-quality-assurance.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).
 
 ### Part A: band outline (Band 4)
 

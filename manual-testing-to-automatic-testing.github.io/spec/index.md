@@ -57,7 +57,7 @@ Trailing slashes always. Every page is under a locale (see `spec/locales/index.m
 | `/<locale>/` | Home: how the programme works, the tracks, and the key documents by audience |
 | `/<locale>/<slug>/` | A document. `spec/index.md` is `spec`, `plan.md` is `plan`, a folder's `index.md` or `README.md` is the folder, the root `README.md` is `about` |
 | `/<locale>/self-assessment/` | The tracks, with their item counts and blank TSVs |
-| `/<locale>/self-assessment/<track>/` | The capability self-assessment for one track, for example `b5-qa` |
+| `/<locale>/self-assessment/<file name>/` | The capability self-assessment for one track, named as its instrument file, for example `band-5-quality-assurance` |
 | `/<locale>/search/?<query>` | Search results, from the search picker |
 | `/<locale>/search-index.json` | The search index |
 | `/downloads/<path>.tsv` | A vendored TSV |
@@ -85,7 +85,7 @@ Each document is rendered from its Markdown at build time:
 
 The summary shows the capability index for Parts A, B, and C and overall, for each of Self, Manager, and Agreed (only Agreed counts). It checks the chosen gate's threshold, lists skills more than one level below expected at Gates 4 and 5, states the gate's other conditions to check by hand, and lists items where Self and Manager differ by more than one level, to discuss first.
 
-Answers are saved to `localStorage` under `manual-testing-to-automatic-testing:self-assessment:<track>` and restored on the next visit. **Export TSV** downloads `<track>--gate-<n>.tsv` in the instrument's columns, with `self_rating`, `manager_rating`, `agreed_rating`, `status`, `evidence`, and `ilp_action` filled in, which `scripts/capability_index.py` scores. **Import TSV** reads such a file back, and refuses a file for another track. **Clear** asks first. Nothing is sent anywhere.
+Answers are saved to `localStorage` under `manual-testing-to-automatic-testing:self-assessment:<track>` and restored on the next visit. **Export TSV** downloads `<file name>--gate-<n>.tsv`, such as `band-5-quality-assurance--gate-1.tsv`, in the instrument's columns, with `self_rating`, `manager_rating`, `agreed_rating`, `status`, `evidence`, and `ilp_action` filled in, which `scripts/capability_index.py` scores. **Import TSV** reads such a file back, and refuses a file for another track. **Clear** asks first. Nothing is sent anywhere.
 
 ### Site tools
 

@@ -31,9 +31,9 @@ Protect your person's learning time, rate them honestly and independently at eac
 4. You meet and agree each rating. Where you differ by more than one level, the evidence decides. If you still disagree, the mentor or training lead moderates.
 5. The training lead samples 1 in 5 assessments across the cohort for consistency.
 
-## 4. Talking about a roughly 50% starting point
+## 4. Talking about the baseline
 
-The informal review suggests people are about 50% capable of their roles. Gate 0 replaces that guess with an evidenced baseline. How you talk about it decides whether people self-assess honestly.
+Gate 0 sets an evidenced baseline against the person's whole role, so most people will see gaps. How you talk about them decides whether people self-assess honestly.
 
 Say:
 

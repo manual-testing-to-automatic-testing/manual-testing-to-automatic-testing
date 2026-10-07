@@ -1,9 +1,9 @@
 track	band	role_level	part_a_items	part_b_items	part_c_items	total_items	file
-B3	3	Associate quality assurance test analyst	21	15	9	45	B3.tsv
-B4-QA	4	Associate quality assurance test analyst	21	15	9	45	B4-QA.tsv
-B4-TE	4	Associate test engineer	21	15	9	45	B4-TE.tsv
-B5-QA	5	Quality assurance test analyst	21	18	10	49	B5-QA.tsv
-B6-QA	6	Senior quality assurance test analyst	21	16	11	48	B6-QA.tsv
-B6-TE	6	Test engineer	21	16	10	47	B6-TE.tsv
-B7-TE	7	Senior test engineer	21	14	11	46	B7-TE.tsv
-B7-TM	7	Test manager	21	19	12	52	B7-TM.tsv
+B3	3	Associate quality assurance test analyst	21	15	9	45	band-3.tsv
+B4-QA	4	Associate quality assurance test analyst	21	15	9	45	band-4-quality-assurance.tsv
+B4-TE	4	Associate test engineer	21	15	9	45	band-4-test-engineer.tsv
+B5-QA	5	Quality assurance test analyst	21	18	10	49	band-5-quality-assurance.tsv
+B6-QA	6	Senior quality assurance test analyst	21	16	11	48	band-6-quality-assurance.tsv
+B6-TE	6	Test engineer	21	16	10	47	band-6-test-engineer.tsv
+B7-TE	7	Senior test engineer	21	14	11	46	band-7-test-engineer.tsv
+B7-TM	7	Test manager	21	19	12	52	band-7-test-manager.tsv

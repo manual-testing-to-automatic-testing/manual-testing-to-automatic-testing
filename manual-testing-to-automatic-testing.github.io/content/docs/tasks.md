@@ -65,7 +65,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [ ] Calibrate each assessment; the training lead moderates a 1 in 5 sample
 - [ ] Place each participant in a track, and record any mapping decision (D6)
 - [ ] Agree Band 3 factor levels from job descriptions (D6)
-- [ ] Record each participant's capability index, and compare the cohort with the informal 50% estimate
+- [ ] Record each participant's capability index as their baseline
 - [ ] Write and sign each participant's ILP and learning agreement
 - [ ] Run the M0 diagnostic coding exercise, and decide who takes the 32-week option
 - [ ] Inventory each team's manual regression pack, and its existing automated tests at each layer

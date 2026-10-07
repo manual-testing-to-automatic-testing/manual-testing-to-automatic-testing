@@ -15,8 +15,9 @@ export const load = ({ params }) => {
       roleLevel: t.roleLevel,
       counts: t.counts,
       href: localeHref(locale, `self-assessment/${t.slug}`),
-      guide: localeHref(locale, `materials/tracks/${t.slug}`),
-      blank: `/downloads/instruments/${t.id}.tsv`
+      guide: localeHref(locale, `materials/tracks/${t.id.toLowerCase()}`),
+      file: `${t.slug}.tsv`,
+      blank: `/downloads/instruments/${t.slug}.tsv`
     })),
     calibration: localeHref(locale, 'materials/gates/calibration-guide'),
     instruments: localeHref(locale, 'instruments'),

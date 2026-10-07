@@ -47,7 +47,7 @@
             <td>{track.roleLevel}</td>
             <td>{track.counts.A} + {track.counts.B} + {track.counts.C} = {track.counts.total}</td>
             <td><a href={track.guide}>Guide<span class="visually-hidden"> for {track.id}</span></a></td>
-            <td><a href={track.blank} download>{track.id}.tsv</a></td>
+            <td><a href={track.blank} download>{track.file}</a></td>
           </tr>
         {/each}
       </tbody>

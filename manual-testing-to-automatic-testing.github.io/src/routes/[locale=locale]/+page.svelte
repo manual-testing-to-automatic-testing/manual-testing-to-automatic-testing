@@ -40,7 +40,7 @@
     how: [
       'Eight tuned tracks, one for each band and assigned role, share one schedule and one set of gates.',
       'At every gate, each person repeats a full capability self-assessment: the band (21 dimensions), the PCF role aspects, and every skill in the role. Their manager rates it too.',
-      'The capability index rises from about 50% at the start to at least 90% at Gate 4.',
+      'The capability index rises from each person’s Gate 0 baseline to at least 90% at Gate 4.',
       'From week 10, everyone automates real tests on their own team’s product, every week.'
     ],
     tracksHeading: 'Tracks',

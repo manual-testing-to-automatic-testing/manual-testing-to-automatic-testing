@@ -1,6 +1,6 @@
 # Gate review form
 
-Complete one form per person per gate. Attach the completed instrument file (`instruments/<track>.tsv`, with agreed ratings) and link the evidence. Thresholds are in the [gates overview](index.md).
+Complete one form per person per gate. Attach the completed instrument file (the track's file in `instruments/`, such as `instruments/band-5-quality-assurance.tsv`, with agreed ratings) and link the evidence. Thresholds are in the [gates overview](index.md).
 
 Gate results are developmental only. They never start a capability, performance, or conduct procedure by themselves.
 

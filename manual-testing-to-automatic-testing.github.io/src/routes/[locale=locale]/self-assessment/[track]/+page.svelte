@@ -17,4 +17,4 @@
   <p><a href={data.guide}>Read the {data.track.id} track guide</a></p>
 </div>
 
-<SelfAssessment track={data.track.id} items={data.items} blankHref={data.blank} />
+<SelfAssessment track={data.track.id} file={data.file} items={data.items} blankHref={data.blank} />

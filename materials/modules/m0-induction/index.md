@@ -4,7 +4,7 @@ Weeks 0–1. Gate 0.
 
 ## Purpose
 
-Each person, their line manager, and the training lead agree where the person starts, which track they join, and how they will be supported. M0 replaces the informal estimate of about 50% capability with a formal, evidenced baseline.
+Each person, their line manager, and the training lead agree where the person starts, which track they join, and how they will be supported. M0 sets a formal, evidenced baseline.
 
 ## Outcomes
 

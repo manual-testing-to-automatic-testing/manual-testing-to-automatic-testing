@@ -27,7 +27,7 @@ export const load = ({ params }) => {
     id: t.id,
     band: t.band,
     roleLevel: t.roleLevel,
-    guide: localeHref(locale, `materials/tracks/${t.slug}`),
+    guide: localeHref(locale, `materials/tracks/${t.id.toLowerCase()}`),
     assessment: localeHref(locale, `self-assessment/${t.slug}`)
   }));
   return {

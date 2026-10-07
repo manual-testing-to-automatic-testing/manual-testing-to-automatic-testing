@@ -30,6 +30,7 @@ def find(first, contains=None):
             return h, rows
     raise KeyError(first)
 
+FILE_NAMES = {"B3": "band-3", "B4-QA": "band-4-quality-assurance", "B4-TE": "band-4-test-engineer", "B5-QA": "band-5-quality-assurance", "B6-QA": "band-6-quality-assurance", "B6-TE": "band-6-test-engineer", "B7-TE": "band-7-test-engineer", "B7-TM": "band-7-test-manager"}
 TRACKS = ["B3", "B4-QA", "B4-TE", "B5-QA", "B6-QA", "B6-TE", "B7-TE", "B7-TM"]
 tr_h, tr_rows = find("Track", "Reference role level")
 fac_h, fac_rows = find("Id", "B3")
@@ -93,7 +94,7 @@ for t in TRACKS:
     out.append(f"| {tr[1]} | {tr[2]} | {tr[3]} | {tr[4]} | {tr[5]} |\n")
     out.append("If your band and assigned role have no reference role level, the mapping rule in the spec places you, and your individual learning plan (ILP) records the decision.\n")
     out.append("## Your capability self-assessment\n")
-    out.append(f"At every gate you complete the full instrument for this track: `instruments/{t}.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).\n")
+    out.append(f"At every gate you complete the full instrument for this track: `instruments/{FILE_NAMES[t]}.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).\n")
     out.append(f"### Part A: band outline (Band {BAND[t]})\n")
     bh, brows = find("Band", "Knowledge")
     br = next(r for r in brows if r[0] == BAND[t])

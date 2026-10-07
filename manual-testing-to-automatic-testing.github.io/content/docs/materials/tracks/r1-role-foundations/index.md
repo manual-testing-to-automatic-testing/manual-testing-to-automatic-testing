@@ -1,6 +1,6 @@
 # R1 Role foundations: role practice guide
 
-R1 runs from week 1 to week 24 for every track. It closes the role and skill gaps that are not about automation, because the informal review suggests the gap covers about half of each person's whole role.
+R1 runs from week 1 to week 24 for every track. It closes the role and skill gaps that are not about automation, because each person is measured against their whole role.
 
 - **Content:** set by the individual learning plan (ILP) from the Gate 0 gaps in Parts A, B, and C.
 - **Time:** a weekly 1-hour role practice slot with the mentor or line manager, plus stretch tasks in normal work.
