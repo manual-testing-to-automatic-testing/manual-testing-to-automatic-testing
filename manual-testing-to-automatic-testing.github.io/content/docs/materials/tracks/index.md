@@ -19,14 +19,14 @@ The track guides are generated from the spec's tables, so the expected levels ma
 
 ## Track modules
 
-| Module | Tracks | Training days | Materials |
+| Module | Tracks | Programme hours | Materials |
 | --- | --- | --- | --- |
-| R1 Role foundations | All | 1–24 | [Role practice guide](r1-role-foundations/index.md) |
-| R2 Health care foundations | All | 2–8 | [Session plans](r2-health-care-foundations/index.md) |
-| L1 Coaching others in automation | B6-QA, B6-TE, B7-TE, B7-TM | 10–20 | [Guide and coaching log](l1-coaching/index.md) |
-| L2 Automation strategy and metrics | B6-QA, B7-TE, B7-TM | 16–20 | [Strategy and metrics templates](l2-strategy-metrics/index.md) |
-| L3 Frameworks and non-functional testing | B7-TE (B6-TE read only) | 16–20 | [Exercises](l3-frameworks-nonfunctional/index.md) |
-| L4 Acceptance test automation | B6-QA | 13–17 | [Exercise and UAT plan](l4-acceptance-automation/index.md) |
-| L5 Leading teams through automation adoption | B7-TM | 16–20 | [Team development and adoption plans](l5-adoption/index.md) |
+| R1 Role foundations | All | 0–180 | [Role practice guide](r1-role-foundations/index.md) |
+| R2 Health care foundations | All | 7.5–60 | [Session plans](r2-health-care-foundations/index.md) |
+| L1 Coaching others in automation | B6-QA, B6-TE, B7-TE, B7-TM | 67.5–150 | [Guide and coaching log](l1-coaching/index.md) |
+| L2 Automation strategy and metrics | B6-QA, B7-TE, B7-TM | 112.5–150 | [Strategy and metrics templates](l2-strategy-metrics/index.md) |
+| L3 Frameworks and non-functional testing | B7-TE (B6-TE read only) | 112.5–150 | [Exercises](l3-frameworks-nonfunctional/index.md) |
+| L4 Acceptance test automation | B6-QA | 90–127.5 | [Exercise and UAT plan](l4-acceptance-automation/index.md) |
+| L5 Leading teams through automation adoption | B7-TM | 112.5–150 | [Team development and adoption plans](l5-adoption/index.md) |
 
 Gate materials are in [../gates/](../gates/index.md).

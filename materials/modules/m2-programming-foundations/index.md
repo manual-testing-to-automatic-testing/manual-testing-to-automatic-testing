@@ -1,6 +1,6 @@
 # M2 Programming foundations in JavaScript
 
-Training days 2 to 6, about 14.5 hours. Reviewed at Gate 1.
+Hours 7.5–45, about 14.5 hours. Reviewed at Gate 1.
 
 ## Purpose
 
@@ -18,22 +18,22 @@ A browser automation tool is a library you call from a programming language. M2 
 
 ## Session plan
 
-M2 shares training days 2 to 6 with M1, M3, R1, R2, and Gate 1. Its sessions add up to 14.5 hours. The structured course (Decision D3) is the reference for the sessions, and for anyone who wants more practice in their own time.
+M2 shares hours 7.5–45 with M1, M3, R1, R2, and Gate 1. Its sessions add up to 14.5 hours. The structured course (Decision D3) is the reference for the sessions, and for anyone who wants more practice in their own time.
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Training day 2: terminal, npm, VS Code, running a file with `node`, the debugger, ESLint | 1 hour | Core | Cohort |
-| 2 | Training day 2: variables (`const`, `let`), types and `typeof`, functions | 1 hour | Core | Cohort |
-| 3 | Training day 3: control flow, arrays, objects | 1.5 hours | Core | Cohort |
-| 4 | Training day 3: a first unit test with Mocha and `node:assert/strict`, and reading test output | 1 hour | Core | Cohort |
-| 5 | Training day 3: kata practice | 3 hours | Practice | All; the mentor pairs with B3, B4-QA, B4-TE, and B5-QA |
-| 6 | Training day 4: modules (`import` and `export`), errors (`throw`, `try`, `catch`) | 1 hour | Core | Cohort |
-| 7 | Training day 4: kata practice; B7-TE starts the harder katas | 2 hours | Practice | All, with mentor review |
-| 8 | Training day 5: Promises, `async` and `await`, and why every WebDriver call must be awaited | 1.5 hours | Core | Cohort |
-| 9 | Training day 5: kata practice | 1 hour | Practice | All, with mentor review |
-| 10 | Training day 6: refactoring and code style; kata review, including B7-TE's harder katas | 1.5 hours | Core | Cohort |
+| 1 | Hours 7.5–15: terminal, npm, VS Code, running a file with `node`, the debugger, ESLint | 1 hour | Core | Cohort |
+| 2 | Hours 7.5–15: variables (`const`, `let`), types and `typeof`, functions | 1 hour | Core | Cohort |
+| 3 | Hours 15–22.5: control flow, arrays, objects | 1.5 hours | Core | Cohort |
+| 4 | Hours 15–22.5: a first unit test with Mocha and `node:assert/strict`, and reading test output | 1 hour | Core | Cohort |
+| 5 | Hours 15–22.5: kata practice | 3 hours | Practice | All; the mentor pairs with B3, B4-QA, B4-TE, and B5-QA |
+| 6 | Hours 22.5–30: modules (`import` and `export`), errors (`throw`, `try`, `catch`) | 1 hour | Core | Cohort |
+| 7 | Hours 22.5–30: kata practice; B7-TE starts the harder katas | 2 hours | Practice | All, with mentor review |
+| 8 | Hours 30–37.5: Promises, `async` and `await`, and why every WebDriver call must be awaited | 1.5 hours | Core | Cohort |
+| 9 | Hours 30–37.5: kata practice | 1 hour | Practice | All, with mentor review |
+| 10 | Hours 37.5–45: refactoring and code style; kata review, including B7-TE's harder katas | 1.5 hours | Core | Cohort |
 
-Mentor pairing: on training days 2 and 3, the mentor pairs with B3, B4-QA, B4-TE, and B5-QA during the sessions and practice. From training day 4, and for B6 and B7 throughout, the mentor reviews katas instead.
+Mentor pairing: in hours 7.5–22.5, the mentor pairs with B3, B4-QA, B4-TE, and B5-QA during the sessions and practice. From hour 22.5, and for B6 and B7 throughout, the mentor reviews katas instead.
 
 ## Activities
 
@@ -71,7 +71,7 @@ At least two katas check test-shaped data, such as a date of birth or an NHS num
 
 ## Assessment
 
-Gate 1 (training day 6) reviews E2 with E1 and E3. The Gate 1 Part D practical is "fix a failing unit test and open a pull request", so M2 and M3 together prepare for it.
+Gate 1 (hour 45) reviews E2 with E1 and E3. The Gate 1 Part D practical is "fix a failing unit test and open a pull request", so M2 and M3 together prepare for it.
 
 ## Resources
 

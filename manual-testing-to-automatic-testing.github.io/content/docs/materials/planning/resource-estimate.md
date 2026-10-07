@@ -1,19 +1,19 @@
 # Resource estimate
 
-Hours by role, from the time commitments in [spec/index.md](../../spec/index.md#roles-and-responsibilities) and the training days in its schedule. The example cohort is **illustrative**: replace the mix with the real roster.
+Hours by role, from the time commitments in [spec/index.md](../../spec/index.md#roles-and-responsibilities) and the hours in its schedule. The example cohort is **illustrative**: replace the mix with the real roster.
 
-A **training day** is 7.5 hours of protected learning time, 20% of a 37.5-hour week. The programme is 24 training days, one a week, for every track: 24 × 7.5 = **180 hours** per participant. Tracks differ in depth, not in hours.
+The programme is **180 hours** of protected learning time per participant, for every track, by default 7.5 hours a week (20% of a 37.5-hour week). Tracks differ in depth, not in hours. Rates below are per 7.5 learning hours, so a 180-hour programme has 24 of them.
 
 ## Assumptions
 
 | Role | Assumption | Hours |
 | --- | --- | --- |
-| Participant | 24 training days of 7.5 hours | 180 per participant |
-| Mentor | 1.5 hours per training day on training days 1–6 (6 × 1.5 = 9), then 1 hour per training day on training days 7–24 (18 × 1 = 18), per participant | 27 per participant |
-| Line manager | 1 hour every second training day (12 × 1 = 12), plus 2 hours at each of 6 gates (6 × 2 = 12) | 24 per participant |
-| Training lead | Half a day (3.75 hours) per training day for 24 training days, for a cohort of up to 12 (24 × 3.75) | 90 per cohort |
+| Participant | 180 learning hours | 180 per participant |
+| Mentor | 1.5 hours per 7.5 learning hours in hours 0–45 (6 × 1.5 = 9), then 1 hour per 7.5 learning hours in hours 45–180 (18 × 1 = 18), per participant | 27 per participant |
+| Line manager | 1 hour per 15 learning hours (12 × 1 = 12), plus 2 hours at each of 6 gates (6 × 2 = 12) | 24 per participant |
+| Training lead | 3.75 hours per 7.5 cohort learning hours, for a cohort of up to 12 (24 × 3.75) | 90 per cohort |
 | Head of test | 2 hours a month for 6 months | 12 per cohort |
-| Developers | About 1 hour per training day for 24 training days, per participant's team | 24 per participant |
+| Developers | About 1 hour per 7.5 learning hours, per participant's team (24 × 1) | 24 per participant |
 | Product owner | 3 hours per participant | 3 per participant |
 | Clinical safety officer | 6 hours per cohort, plus 30 minutes per traceability review | 6 + 0.5 per participant |
 | Information governance lead | 3 hours per cohort | 3 per cohort |
@@ -21,22 +21,22 @@ A **training day** is 7.5 hours of protected learning time, 20% of a 37.5-hour w
 
 ## Example cohort of 12
 
-| Track | People | Training days each | Hours each | Hours |
+| Track | People | Hours each | Hours |
 | --- | --- | --- | --- | --- |
-| B3 | 1 | 24 | 180 | 180 |
-| B4-QA | 2 | 24 | 180 | 360 |
-| B4-TE | 1 | 24 | 180 | 180 |
-| B5-QA | 3 | 24 | 180 | 540 |
-| B6-QA | 2 | 24 | 180 | 360 |
-| B6-TE | 1 | 24 | 180 | 180 |
-| B7-TE | 1 | 24 | 180 | 180 |
-| B7-TM | 1 | 24 | 180 | 180 |
-| **Total** | **12** | | | **2,160** |
+| B3 | 1 | 180 | 180 |
+| B4-QA | 2 | 180 | 360 |
+| B4-TE | 1 | 180 | 180 |
+| B5-QA | 3 | 180 | 540 |
+| B6-QA | 2 | 180 | 360 |
+| B6-TE | 1 | 180 | 180 |
+| B7-TE | 1 | 180 | 180 |
+| B7-TM | 1 | 180 | 180 |
+| **Total** | **12** | | **2,160** |
 
 | Role | Arithmetic | Hours for the cohort |
 | --- | --- | --- |
 | Participants (protected time) | 12 × 180 | 2,160 |
-| Mentors (4 mentors at 3 participants each, about 4.5 hours per training day each on training days 1–6, then 3 hours) | 12 × 27 | 324 |
+| Mentors (4 mentors at 3 participants each, about 4.5 hours per 7.5 learning hours each in hours 0–45, then 3 hours) | 12 × 27 | 324 |
 | Line managers | 12 × 24 | 288 |
 | Developers | 12 × 24 | 288 |
 | Gate 4 panels | 12 × 9 | 108 |
@@ -48,7 +48,7 @@ A **training day** is 7.5 hours of protected learning time, 20% of a 37.5-hour w
 | **Everyone other than participants** | 324 + 288 + 288 + 108 + 90 + 36 + 12 + 12 + 3 | **1,161** |
 | **Total** | 2,160 + 1,161 | **3,321** |
 
-Gate 5 (about six months after Gate 4) and the 32-training-day extension for B3 and B4 add a little more: about 2 hours per participant for Gate 5, and, for each participant who extends, 8 more training days (8 × 7.5 = 60 hours) plus 8 more training days of mentor and manager time.
+Gate 5 (about six months after Gate 4) and the extension to 240 hours for B3 and B4 add a little more: about 2 hours per participant for Gate 5, and, for each participant who extends, 60 more learning hours, about 8 more hours of mentor time (8 × 1), and about 4 more hours of manager time (4 × 1).
 
 ## Money
 

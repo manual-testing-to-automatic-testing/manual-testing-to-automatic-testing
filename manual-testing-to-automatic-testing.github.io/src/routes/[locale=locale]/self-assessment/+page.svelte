@@ -17,7 +17,7 @@
 <section class="section prose" aria-labelledby="how">
   <h2 id="how">How to use it</h2>
   <ol>
-    <li>Before the gate's training day, rate yourself on every item and write evidence. Rate what you do regularly.</li>
+    <li>Before the gate, rate yourself on every item and write evidence. Rate what you do regularly.</li>
     <li>Your line manager rates you separately, in their own browser or on the exported file.</li>
     <li>Meet, agree each rating using the evidence, and record the agreed rating. Only agreed ratings count.</li>
     <li>Export the TSV for your gate review. Your mentor or training lead can also score it with <code>scripts/capability_index.py</code>.</li>

@@ -8,7 +8,7 @@ The decisions in [spec/index.md](../../spec/index.md#decisions). Record each dec
 | D2 | CI service | The organisation's existing CI service; GitHub Actions for the practice repository | GitHub Actions, GitLab CI, Azure Pipelines, Jenkins | Training lead | Open | | |
 | D3 | JavaScript foundations course | A structured, free or already-licensed course with exercises | The practice repository katas with free JavaScript material, such as MDN's JavaScript guide; a licensed course | Training lead | Open | | |
 | D4 | Practice FHIR server | The practice repository's local FHIR sandbox (`practice-repo/fhir-sandbox/server.js`, run with `npm run fhir`): Node.js, no Docker, synthetic data only | A shared team test server with synthetic data | Mentors | Open | | |
-| D5 | Capstone scope per person | As in the spec's M10 table, agreed at the start of training day 20 | — | Product owner, mentor | Open (decided per person on training day 20) | | |
+| D5 | Capstone scope per person | As in the spec's M10 table, agreed at hour 142.5 | — | Product owner, mentor | Open (decided per person in hours 142.5–150) | | |
 | D6 | Mapping for band and role combinations without a reference level, and Band 3 factor levels | The spec's mapping rule; Band 3 factor levels agreed at Gate 0 from the job description, total within 216 to 270 points | — | Line manager, training lead, HR | Open | | See [hr-briefing.md](hr-briefing.md) |
 | D7 | Developmental status of gates | Gates are developmental only (spec Principle 14) | — | HR, head of test | Open | | See [hr-briefing.md](hr-briefing.md) |
 

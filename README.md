@@ -1,8 +1,8 @@
 # Formal training programme: manual testing to automatic testing
 
-A formal, gated training programme of 24 training days that upskills manual testers at Bands 3 to 7 into automatic testers, while each person stays in their current band and assigned UK GDaD PCF role. There are eight tuned tracks. Every gate repeats a full capability self-assessment: the band (21 dimensions), the PCF role aspects, and every skill in the role.
+A formal, gated training programme of 180 hours that upskills manual testers at Bands 3 to 7 into automatic testers, while each person stays in their current band and assigned UK GDaD PCF role. There are eight tuned tracks. Every gate repeats a full capability self-assessment: the band (21 dimensions), the PCF role aspects, and every skill in the role.
 
-A training day is 7.5 hours of protected learning time (20% of a 37.5-hour week); the programme is 24 training days, one a week. The stack is JavaScript with Selenium WebDriver and Mocha. Participants need only Node.js 24, Google Chrome, VS Code, and git: nothing needs Docker.
+The programme is 180 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week). The stack is JavaScript with Selenium WebDriver and Mocha. Participants need only Node.js 24, Google Chrome, VS Code, and git: nothing needs Docker.
 
 ## Start here
 
@@ -53,13 +53,13 @@ Find your role, and work down its checklist. The roles are listed in the order t
 - [ ] Read the [manager briefing](materials/planning/manager-briefing.md) and the [calibration guide](materials/gates/calibration-guide.md).
 - [ ] Sign the [learning agreement](materials/gates/learning-agreement-template.md), and protect the learning time in both calendars.
 - [ ] At every gate, rate your person independently in their track's [self-assessment](instruments/README.md), then agree each rating with them using evidence.
-- [ ] Agree the [individual learning plan](materials/gates/ilp-template.md) after each gate, and check in every second training day.
+- [ ] Agree the [individual learning plan](materials/gates/ilp-template.md) after each gate, and check in every 15 learning hours.
 
 ### Mentor
 
 - [ ] Read your participants' [track guides](materials/tracks/index.md) and the [modules](materials/modules/index.md).
 - [ ] Get the [practice repository](practice-repo/README.md) working on your own machine: `npm ci`, then `npm test`.
-- [ ] Pair with each participant, review their pull requests, and run the [role foundations](materials/tracks/r1-role-foundations/index.md) practice in each training day.
+- [ ] Pair with each participant, review their pull requests, and run the [role foundations](materials/tracks/r1-role-foundations/index.md) practice in every 7.5 hours of learning.
 - [ ] Prepare participants for each gate, including the [Part D practicals](materials/gates/part-d-practicals.md).
 
 ### Participant

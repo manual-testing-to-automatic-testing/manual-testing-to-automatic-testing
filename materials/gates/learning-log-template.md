@@ -1,6 +1,6 @@
 # Learning log
 
-Keep one entry for each training day. It takes about 10 minutes. It is your private record and a channel for questions; share entries with your mentor when you choose. Bring it to each gate as a source of evidence.
+Keep one entry for every 7.5 hours of learning. It takes about 10 minutes. It is your private record and a channel for questions; share entries with your mentor when you choose. Bring it to each gate as a source of evidence.
 
 | Field | Entry |
 | --- | --- |
@@ -8,13 +8,13 @@ Keep one entry for each training day. It takes about 10 minutes. It is your priv
 | Track | |
 | Mentor | |
 
-## Training day entry
+## Session entry
 
-Copy this block for each training day.
+Copy this block for every 7.5 hours of learning.
 
-### Training day __ (date: )
+### Session: hours __ to __ (date: )
 
-**Protected time used:** __ of __ days. If less, why:
+**Protected time used:** __ of __ hours. If less, why:
 
 **What I learned:**
 
@@ -24,7 +24,7 @@ Copy this block for each training day.
 
 -
 
-**Real work automated on my team's product** (from training day 10):
+**Real work automated on my team's product** (from hour 67.5):
 
 -
 
@@ -42,4 +42,4 @@ Copy this block for each training day.
 
 **Questions for my mentor:**
 
-**Next training day I will:**
+**Next session I will:**

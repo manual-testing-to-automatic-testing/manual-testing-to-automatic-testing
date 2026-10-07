@@ -17,16 +17,16 @@ Gate results are developmental only. They never start a capability, performance,
 
 ## Schedule
 
-| Gate | Training day | Module evidence | Part D practical | Reviewers |
+| Gate | Programme hour | Module evidence | Part D practical | Reviewers |
 | --- | --- | --- | --- | --- |
-| Gate 0 | 1 | E0 | — (unscored diagnostic only) | Person, line manager, training lead |
-| Gate 1 | 6 | E1–E3 | Fix a failing unit test and open a pull request | Line manager, mentor |
-| Gate 2 | 12 | E4–E5 | Automate one given manual test case on the fixture site (B3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
-| Gate 3 | 18 | E6–E7 | Triage and fix a failing CI run (B6, B7: plus an API test) | Line manager, mentor, training lead |
-| Gate 4 | 24 | E8–E10 | Live run and explanation of the capstone | Gate 4 panel |
-| Gate 5 | About six months after Gate 4 (not a training day) | Six months of work | Demonstrate a recent automated change | Line manager, training lead |
+| Gate 0 | 0 | E0 | — (unscored diagnostic only) | Person, line manager, training lead |
+| Gate 1 | 45 | E1–E3 | Fix a failing unit test and open a pull request | Line manager, mentor |
+| Gate 2 | 90 | E4–E5 | Automate one given manual test case on the fixture site (B3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
+| Gate 3 | 127.5 | E6–E7 | Triage and fix a failing CI run (B6 and B7-TE: plus an API test; B7-TM: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
+| Gate 4 | 180 | E8–E10 | Live run and explanation of the capstone | Gate 4 panel |
+| Gate 5 | About six months after Gate 4, outside the 180 hours | Six months of work | Demonstrate a recent automated change | Line manager, training lead |
 
-With the optional 32-training-day extension for B3 and B4, the gates move to training days 1, 8, 16, 24, and 32, and Gate 5 to about six months after Gate 4.
+With the optional extension to 240 hours for B3 and B4, the gates move to hours 0, 60, 120, 172.5, and 240, and Gate 5 to about six months after Gate 4.
 
 ## Thresholds
 
@@ -53,8 +53,8 @@ For Part C, a skill **meets** when the gap (expected level minus agreed rating) 
 
 ## If a gate is not met
 
-1. The person gets up to 3 extra training days on the items below threshold, with a written plan and extra mentor time, and the gate is repeated once.
-2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the 32-training-day extension, a different automation target, more R1 support, or pausing the programme.
+1. The person gets up to 22.5 extra learning hours on the items below threshold, with a written plan and extra mentor time, and the gate is repeated once.
+2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the extension to 240 hours, a different automation target, more R1 support, or pausing the programme.
 3. None of these is a capability or performance procedure.
 
 ## Completion

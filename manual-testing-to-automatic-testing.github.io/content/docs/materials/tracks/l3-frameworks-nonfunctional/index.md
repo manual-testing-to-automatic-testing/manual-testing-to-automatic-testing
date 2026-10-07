@@ -1,6 +1,6 @@
 # L3 Frameworks and non-functional testing
 
-**Tracks:** B7-TE (apply and lead). B6-TE reads the material and joins the discussions only. **Training days:** 16 to 20.
+**Tracks:** B7-TE (apply and lead). B6-TE reads the material and joins the discussions only. **Programme hours:** 112.5 to 150.
 
 **Outcomes:** extend, standardise, and build reusable frameworks; plan and run performance, load, and resilience tests based on real clinical demand; maintain and adapt CI/CD pipelines.
 
@@ -8,7 +8,7 @@
 
 The exercises are written to be tool-neutral where possible. The defaults are JavaScript with Selenium WebDriver and Mocha for shared helpers, and **k6** for load tests, because k6 scripts are JavaScript, run headless in CI, and keep load generation separate from browser tests. Install k6 as its standalone binary from <https://grafana.com/docs/k6/latest/set-up/install-k6/>, not as a container: participants have no Docker. Another load tool is fine if the organisation already uses one (spec Decision D1).
 
-## Exercise 1: Reusable helpers and hooks (training days 16 to 17)
+## Exercise 1: Reusable helpers and hooks (hours 112.5–127.5)
 
 **Goal:** turn repeated set-up code across the cohort's suites into shared helpers and Mocha hooks.
 
@@ -25,7 +25,7 @@ The exercises are written to be tool-neutral where possible. The defaults are Ja
 
 **Done when:** at least two suites use the helpers, all tests still pass in CI, and test isolation is unchanged (each test can run alone, with `mocha --grep`, and the suite can run with `--parallel`).
 
-## Exercise 2: Pipeline maintenance (training day 17)
+## Exercise 2: Pipeline maintenance (hours 120–127.5)
 
 **Goal:** keep the pipeline fast and reliable as suites grow.
 
@@ -37,7 +37,7 @@ The exercises are written to be tool-neutral where possible. The defaults are Ja
 
 **Done when:** the pull request pipeline is faster than before with no loss of the checks that block merging, and the quarantine rule is in use.
 
-## Exercise 3: Performance and load test based on clinical demand (training days 18 to 20)
+## Exercise 3: Performance and load test based on clinical demand (hours 127.5–150)
 
 **Goal:** plan and run a load test that models real clinical demand, not an arbitrary number of users.
 

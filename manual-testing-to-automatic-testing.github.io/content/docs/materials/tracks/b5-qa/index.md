@@ -78,9 +78,9 @@ Not in this role level: Business and user acceptance testing, Medical device sof
 
 | Protected time | Approximate guided hours | Optional extension |
 | --- | --- | --- |
-| One training day (7.5 hours) a week | 180 | — |
+| 7.5 hours a week, by default | 180 | — |
 
-From training day 10, part of every training day is real automation on your team's product, at this track's depth.
+From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at this track's depth.
 
 ## Learning outcomes, at this track's depth
 
@@ -123,7 +123,7 @@ From training day 10, part of every training day is real automation on your team
 - [R1 Role foundations](../r1-role-foundations/index.md)
 - [R2 Health care foundations](../r2-health-care-foundations/index.md)
 
-## Capstone (M10, training days 20 to 24)
+## Capstone (M10, hours 142.5 to 180)
 
 Automation candidate analysis for the area, and 10 cases automated at browser and API layers, with traceability, with some support.
 
@@ -131,7 +131,7 @@ You present it to the Gate 4 panel for 20 minutes, aimed at a non-technical audi
 
 ## Gates and practicals
 
-Gates are on training days 1, 6, 12, 18, and 24, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **60 minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#b5-qa). Thresholds and conditions are in the [gates overview](../../gates/index.md).
+Gates are at programme hours 0, 45, 90, 127.5, and 180, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **60 minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#b5-qa). Thresholds and conditions are in the [gates overview](../../gates/index.md).
 
 ## Mentor
 

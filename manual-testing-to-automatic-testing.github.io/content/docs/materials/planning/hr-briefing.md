@@ -4,7 +4,7 @@
 
 ## Summary
 
-We plan a development programme of 24 training days, one a week over about 24 calendar weeks, for manual testers at Bands 3 to 7. It builds automated testing skills, and closes gaps in each person's current role. **Nobody changes band.** We ask HR to agree four things before the programme starts.
+We plan a development programme of 180 hours of protected learning time, by default 7.5 hours a week over about 24 calendar weeks, for manual testers at Bands 3 to 7. It builds automated testing skills, and closes gaps in each person's current role. **Nobody changes band.** We ask HR to agree four things before the programme starts.
 
 ## Background
 
@@ -46,7 +46,7 @@ The completed self-assessments, individual learning plans, learning logs, and ga
 
 ## What else HR will see
 
-- A signed learning agreement for each person, covering protected time (one training day of 7.5 hours a week, 20% time) and reasonable adjustments.
+- A signed learning agreement for each person, covering protected time (7.5 hours a week, 20% time) and reasonable adjustments.
 - Reasonable adjustments agreed at Gate 0 and reviewed at every gate.
 - An evaluation report after Gate 4 that confirms no band changes and no HR procedures resulted from gate results.
 

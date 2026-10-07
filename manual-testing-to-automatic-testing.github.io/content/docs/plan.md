@@ -32,7 +32,7 @@ Each person already has an assigned UK GDaD PCF role. The programme must:
 | --- | --- |
 | **Context:** why this, why now | People hold roles whose skills they do not yet fully use, and testing is still manual: slow, variable, and unable to run on every change. Growing the people already in post keeps their product and clinical knowledge, and needs no regrading. |
 | **Intent:** what to teach | Each person's own role, band, and skills, in full (LO13), plus automated testing to a per-track target (LO1 to LO12). |
-| **Implementation:** how to teach | Eight tuned tracks sharing one schedule of 24 training days (one a week, 7.5 hours each, 20% time), core modules, and gate dates, with individual role foundations (R1) and track modules for Bands 6 and 7. |
+| **Implementation:** how to teach | Eight tuned tracks sharing one schedule of 180 hours (by default 7.5 hours a week, 20% time), core modules, and gate dates, with individual role foundations (R1) and track modules for Bands 6 and 7. |
 | **Impact:** how to assess | The full capability self-assessment at six gates, calibrated with the manager, with rising thresholds, plus automation practicals and module evidence. |
 
 ## Key design choices
@@ -76,11 +76,11 @@ A shared schedule and gate dates let one mixed cohort learn together, let Band 6
 
 ### Role foundations alongside automation
 
-Because the gap covers the whole role, R1 gives every person an hour of role practice in each training day, driven by their own Gate 0 gaps, and R2 brings health care skills up early.
+Because the gap covers the whole role, R1 gives every person an hour of role practice in every 7.5 hours of learning, driven by their own Gate 0 gaps, and R2 brings health care skills up early.
 
-### Training days
+### Hours
 
-The programme is counted in training days, not weeks. A training day is 7.5 hours of protected learning time, 20% of a 37.5-hour week, so a person keeps four days a week for their delivery work. Every track has the same 24 training days (180 hours), one a week; tracks differ in depth, not in hours, which keeps the cost the same for every band and makes protected time simple to plan and defend. B3 and B4 may extend to 32 training days.
+The programme is counted in hours of protected learning time, not weeks or days. Every track has the same 180 hours; tracks differ in depth, not in hours, which keeps the cost the same for every band and makes protected time simple to plan and defend. The default pace is 7.5 hours a week, 20% of a 37.5-hour week, so a person keeps 30 hours a week for their delivery work and the programme runs over about 24 weeks. The learning agreement may set another pace, such as two sessions of 3.75 hours a week. B3 and B4 may extend to 240 hours.
 
 ### Toolset
 
@@ -99,7 +99,7 @@ Participants do not have Docker, so nothing in the programme needs it. Every too
 | **Bruner's spiral** | Locate, act, wait, assert taught three times; the same capability instrument repeated at every gate. | Durable skill and accurate self-knowledge both need revisiting at rising depth. |
 | **Taba's grassroots** | Practice material from each person's own regression pack and product; ILPs from each person's own gaps. | Starting from each person's own measured gaps makes the programme fit them. |
 | **SAM** | Revising the programme after every gate for the first cohort. | Fast feedback, which a first multi-track run needs. |
-| **Universal Design for Instruction** | Inclusion, flexible pacing, the option of 32 training days, assisted self-assessment. | A cohort across five bands has a wide range of starting points and needs. |
+| **Universal Design for Instruction** | Inclusion, flexible pacing, the option of 240 hours, assisted self-assessment. | A cohort across five bands has a wide range of starting points and needs. |
 | **Goodlad's levels** | Evaluation, including calibration differences as the "perceived" level. | Shows the gap between what the spec says and what people experienced. |
 
 ## Phases
@@ -121,8 +121,8 @@ The programme follows PADDIE+M. Tasks for each phase are in [tasks.md](tasks.md)
 | People inflate self-ratings, or feel threatened by the baseline | High | High | Developmental-only gates (D7); briefing at M0; independent manager ratings; evidence for every "Meets". |
 | Managers rate inconsistently across teams | High | Medium | Calibration with evidence; training lead moderates a 1 in 5 sample; calibration differences tracked in evaluation. |
 | Mixed-band cohort is too wide to teach together | Medium | Medium | Shared core sessions, track breakouts, depth table, coaching by Bands 6 and 7. |
-| Protected time is eroded by delivery pressure | High | High | Signed learning agreement; time in calendars; escalation by the training lead if a training day is lost in a gate period. |
-| B3 and B4 learners are overwhelmed by programming | Medium | High | Lower automation targets, pairing on every M2 training day, the option of 32 training days. |
+| Protected time is eroded by delivery pressure | High | High | Signed learning agreement; time in calendars; escalation by the training lead if more than 7.5 hours are lost in a gate period. |
+| B3 and B4 learners are overwhelmed by programming | Medium | High | Lower automation targets, mentor pairing in the first M2 sessions (hours 7.5–22.5), the option of 240 hours. |
 | Too few mentors at the right band and automation level | High | High | 3 participants per mentor at most; B7-TE participants mentor lower tracks under L1; external mentors for B7-TE if needed. |
 | The automation target is read as a claim for regrading | Medium | Medium | Scope and Principle 1 in the spec; HR briefing; targets above role recorded as strengths only. |
 | Reference gaps (Band 3, and other unmapped combinations) cause disputes | Medium | Medium | Mapping rule and Decision D6, recorded in the ILP at Gate 0. |

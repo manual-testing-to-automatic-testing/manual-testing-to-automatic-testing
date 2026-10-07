@@ -1,6 +1,6 @@
 # M0 Induction and baseline
 
-Training day 1, about 6.5 hours. Gate 0.
+Hours 0–7.5, about 6.5 hours. Gate 0.
 
 ## Purpose
 
@@ -33,7 +33,7 @@ M0 supports LO13 (fully meet the person's own band and PCF role).
 | 7 | Environment set-up pairing | 1 hour | Pairing | Each person, mentor |
 | 8 | ILP and learning agreement meeting, which also starts R1 role foundations | 30 minutes | One to one | Person, line manager, training lead |
 
-The participant's sessions add up to 6.5 hours. The last hour of training day 1 starts M1.
+The participant's sessions add up to 6.5 hours. The last hour of the first 7.5 hours starts M1.
 
 ## Activities
 
@@ -42,7 +42,7 @@ The participant's sessions add up to 6.5 hours. The last hour of training day 1 
 3. **Manager rating.** The line manager rates independently, without seeing the self-ratings.
 4. **Calibration.** Agree each rating. Where the two differ by more than one level, the evidence decides. If they still disagree, the mentor or training lead moderates.
 5. **Track placement.** Place the person by band and assigned PCF role. Apply the mapping rule from the spec where there is no reference role level. For Band 3, agree the expected job evaluation factor levels from the person's job description, with a total of 216 to 270 points.
-6. **Diagnostic.** A short, unscored coding exercise. Its only use is to tune M2 pacing and to decide whether B3 and B4 people take the 32-training-day option.
+6. **Diagnostic.** A short, unscored coding exercise. Its only use is to tune M2 pacing and to decide whether B3 and B4 people take the 240-hour option.
 7. **Environment set-up.** Install Node.js, Google Chrome, VS Code with the ESLint extension, and git. No Docker is needed. Check access to the team's repository and CI.
 8. **ILP and learning agreement.**
 
@@ -83,7 +83,7 @@ Use the templates in this folder:
 
 ## Assessment
 
-Gate 0 (training day 1). Baseline only: no threshold. Gate 0 passes when the ILP is agreed and signed.
+Gate 0 (hour 0). Baseline only: no threshold. Gate 0 passes when the ILP is agreed and signed.
 
 ## Resources
 

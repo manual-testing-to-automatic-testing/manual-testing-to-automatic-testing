@@ -1,6 +1,6 @@
 # L4 Acceptance test automation
 
-**Track:** B6-QA. **Training days:** 13 to 17.
+**Track:** B6-QA. **Programme hours:** 90 to 127.5.
 
 **Outcomes:** Practitioner in business and user acceptance testing, applied to automation: turn acceptance criteria into automated checks, plan user acceptance testing with clinicians, and report residual risk.
 
@@ -8,15 +8,15 @@
 
 ## Exercise: from acceptance criteria to automated checks, with clinicians
 
-### Step 1: Choose a feature (training day 13)
+### Step 1: Choose a feature (hours 90–97.5)
 
 With the product owner, choose a feature in the capstone area that clinical users will accept, with 5 to 10 acceptance criteria.
 
-### Step 2: Rewrite the criteria as scenarios (training day 13)
+### Step 2: Rewrite the criteria as scenarios (hours 90–97.5)
 
 Rewrite each acceptance criterion as one or more Given-When-Then scenarios. Make vague criteria concrete: "the clinician can find the patient quickly" becomes "Given a synthetic patient with the family name Example, When the clinician searches for Example, Then the patient appears in the first page of results within 2 seconds".
 
-### Step 3: Review with clinical users (training day 14)
+### Step 3: Review with clinical users (hours 97.5–105)
 
 Hold a 45-minute session with one or two clinical users and the product owner:
 
@@ -26,15 +26,15 @@ Hold a 45-minute session with one or two clinical users and the product owner:
 
 Record who agreed what. AI may help draft scenarios, but people must confirm the AI understood the real need (testingexamples, "How does artificial intelligence help automatic testing?").
 
-### Step 4: Decide the layer and automate (training days 15 to 16)
+### Step 4: Decide the layer and automate (hours 105–120)
 
 For each agreed scenario, decide: automate at the API layer, automate in the browser, or keep for manual acceptance by clinicians (for example usability and clinical judgement). Automate the chosen ones with the B6-QA automation target (Working), linking each test to its scenario in `spec/index.md`.
 
-### Step 5: Plan user acceptance testing (training day 16)
+### Step 5: Plan user acceptance testing (hours 112.5–120)
 
 Use the UAT plan below. The automated checks run first, so clinicians' scarce time goes to what only people can judge.
 
-### Step 6: Report readiness (training day 17)
+### Step 6: Report readiness (hours 120–127.5)
 
 Write a one-page readiness report for the product owner and clinical safety officer: what the automated checks show, what clinicians accepted, the defects open, and the residual risks.
 

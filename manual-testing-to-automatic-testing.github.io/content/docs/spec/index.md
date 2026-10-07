@@ -2,14 +2,14 @@
 
 ## Summary
 
-This programme upskills **manual testers at Bands 3 to 7** into **automatic testers**, over **24 training days**, while each person **stays in their current band and their assigned UK GDaD PCF role**. Nobody changes band because of this programme.
+This programme upskills **manual testers at Bands 3 to 7** into **automatic testers**, over **180 hours** of protected learning time, while each person **stays in their current band and their assigned UK GDaD PCF role**. Nobody changes band because of this programme.
 
 Each person has already been given a UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager) at a role level. The programme has two aims, in this order:
 
 1. **Close the capability gap in the role the person already holds**, to at least 90% at Gate 4, measured formally at every gate.
 2. **Build automated testing capability** to a target set for each band and role, which for some tracks is above what the role itself requires.
 
-The programme comes in **eight tuned tracks**, one for each band and assigned role combination (B3, B4-QA, B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM). All tracks share one schedule, one set of gates, and one set of core modules, so a mixed cohort learns together. The tracks differ in depth, extra modules, gate evidence, and capstone; every track has the same 24 training days.
+The programme comes in **eight tuned tracks**, one for each band and assigned role combination (B3, B4-QA, B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM). All tracks share one schedule, one set of gates, and one set of core modules, so a mixed cohort learns together. The tracks differ in depth, extra modules, gate evidence, and capstone; every track has the same 180 hours.
 
 **Gates are the backbone of the programme.** At every gate, each person completes the same full **capability self-assessment**, which their manager also rates:
 
@@ -58,7 +58,7 @@ Out of scope:
 13. **Safety and governance first.** Synthetic data only, no real patient data, and no secrets in source control. Clinical risk management and information governance must meet expectations by Gate 2, whatever else is still open.
 14. **Developmental, not disciplinary.** Gate results support development planning. They do not start capability, performance, or conduct procedures. Any such procedure follows the organisation's HR policy, separately.
 15. **AI is an aid that is reviewed.** People may use AI assistants and must be able to explain every line they submit.
-16. **Protected time is protected.** Each training day is in calendars and is not reassigned without the training lead's agreement. A training day lost in a gate period is escalated to the training lead, because it is the person's whole week of learning.
+16. **Protected time is protected.** Learning hours are in calendars and are not reassigned without the training lead's agreement. If more than 7.5 hours are lost in a gate period, that is escalated to the training lead, because it is a whole week of learning at the default pace.
 17. **Inclusive by design.** Every module offers more than one way to learn and to show evidence. Reasonable adjustments are agreed at Gate 0.
 18. **Read, don't hammer, third-party sites.** Practise on the testingexamples fixture site, local services, and the organisation's own test environments.
 
@@ -198,7 +198,7 @@ For each part, the **capability index** is the percentage of items rated **Meets
 
 #### Calibration
 
-1. The person completes the self-assessment, with evidence, before the gate's training day.
+1. The person completes the self-assessment, with evidence, before the gate.
 2. The line manager rates independently, without seeing the self-ratings.
 3. They meet and agree each rating. Where they differ by more than one level, the evidence decides. If they still disagree, the mentor or training lead moderates.
 4. The training lead samples 1 in 5 assessments across the cohort for consistency.
@@ -225,63 +225,63 @@ Each track meets each outcome at a set depth: **R** read and explain, **S** with
 
 ### Schedule and time
 
-The programme is measured in **training days**. A training day is **7.5 hours** of protected learning time: 20% of a 37.5-hour working week. The programme is **24 training days**, one a week, so it runs over about 24 calendar weeks. Every track has the same 24 training days and the same gates, so a mixed cohort can learn together; the tracks differ in depth, not in hours.
+The programme is measured in **hours** of protected learning time. Every track has **180 hours** and the same gates, so a mixed cohort can learn together; the tracks differ in depth, not in hours. The default pace is **7.5 hours a week**, 20% of a 37.5-hour working week, so the programme runs over about 24 calendar weeks. The learning agreement may set another pace, such as two sessions of 3.75 hours a week; `scripts/gate_calendar.py` turns a pace into dates.
 
 | Track | Protected time | Approximate guided hours | Optional extension |
 | --- | --- | --- | --- |
-| B3 | One training day (7.5 hours) a week | 180 | To 32 training days (240 hours) |
-| B4-QA, B4-TE | One training day (7.5 hours) a week | 180 | To 32 training days (240 hours) |
-| B5-QA | One training day (7.5 hours) a week | 180 | — |
-| B6-QA, B6-TE | One training day (7.5 hours) a week | 180 | — |
-| B7-TE, B7-TM | One training day (7.5 hours) a week | 180 | — |
+| B3 | 7.5 hours a week, by default | 180 | To 240 hours |
+| B4-QA, B4-TE | 7.5 hours a week, by default | 180 | To 240 hours |
+| B5-QA | 7.5 hours a week, by default | 180 | — |
+| B6-QA, B6-TE | 7.5 hours a week, by default | 180 | — |
+| B7-TE, B7-TM | 7.5 hours a week, by default | 180 | — |
 
-Training days are numbered from 1 to 24. The schedule below says which training days each module takes.
+The timeline is in programme hours, counted from 0 to 180: "hours 7.5–45" means after 7.5 and up to 45 hours of learning. The schedule below says in which hours each module runs.
 
 Where the 180 hours go, for every track:
 
-| Item | Training days | Hours |
+| Item | Programme hours | Hours |
 | --- | --- | --- |
-| M0 Induction and baseline, including Gate 0 | 1 | 6.5 |
-| M1 Why and what to automate | 1–2 | 4.5 |
-| M2 Programming foundations in JavaScript | 2–6 | 14.5 |
-| M3 Version control and collaboration | 4–6 | 7 |
-| M4 Browser automation fundamentals | 7–9 | 17.5 |
-| M5 From walkthrough to real test | 10–12 | 12.5 |
-| M6 API, integration, and FHIR tests | 13–15 | 15 |
-| M7 Continuous integration and DevOps | 16–17 | 10 |
-| M8 Safe and lawful test automation in health care | 18–19 | 7 |
-| M9 Quality engineering practice | 19–20 | 6 |
-| M10 Capstone | 20–24 | 27.5 |
-| R1 Role foundations: 1 hour of each training day, from training day 2 | 2–24 | 23 |
-| R2 Health care foundations: five sessions | 2–8 | 7 |
-| Gates 1 to 4: 2.5 hours each | 6, 12, 18, 24 | 10 |
-| Real automation on the team's product: 1.5 hours of each training day (from training day 18, M8 and M10 work on the team's product) | 10–17 | 12 |
-| **Total** | **24 training days** | **180** |
+| M0 Induction and baseline, including Gate 0 | 0–7.5 | 6.5 |
+| M1 Why and what to automate | 0–15 | 4.5 |
+| M2 Programming foundations in JavaScript | 7.5–45 | 14.5 |
+| M3 Version control and collaboration | 22.5–45 | 7 |
+| M4 Browser automation fundamentals | 45–67.5 | 17.5 |
+| M5 From walkthrough to real test | 67.5–90 | 12.5 |
+| M6 API, integration, and FHIR tests | 90–112.5 | 15 |
+| M7 Continuous integration and DevOps | 112.5–127.5 | 10 |
+| M8 Safe and lawful test automation in health care | 127.5–142.5 | 7 |
+| M9 Quality engineering practice | 135–150 | 6 |
+| M10 Capstone | 142.5–180 | 27.5 |
+| R1 Role foundations: 1 hour in every 7.5 hours of learning, from hour 7.5 | 7.5–180 | 23 |
+| R2 Health care foundations: five sessions | 7.5–60 | 7 |
+| Gates 1 to 4: 2.5 hours each | At 45, 90, 127.5, 180 | 10 |
+| Real automation on the team's product: 1.5 hours in every 7.5 hours of learning (from hour 127.5, M8 and M10 work on the team's product) | 67.5–127.5 | 12 |
+| **Total** | **0–180** | **180** |
 
-Track modules L1 to L5 take part of B6 and B7 participants' track breakouts and real automation time. B3 uses its M6 time for R1 and real automation. Each module's page in `materials/modules/` shows how its hours split across its training days.
+Track modules L1 to L5 take part of B6 and B7 participants' track breakouts and real automation time. B3 uses its M6 time for R1 and real automation. Each module's page in `materials/modules/` shows how its hours split into sessions.
 
-From training day 10, part of every training day is real automation on the person's own team's product, at their track's depth.
+From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automation on the person's own team's product, at their track's depth.
 
-B3 does not take M6, so on training days 13 to 15 B3 participants spend that time on R1 role foundations and real automation.
+B3 does not take M6, so in hours 90–112.5 B3 participants spend that time on R1 role foundations and real automation.
 
-Gate 3 takes place at the start of training day 18, before M8 begins. It reviews E6 and E7; E8 is reviewed at Gate 4.
+Gate 3 takes place at hour 127.5, before M8 begins. It reviews E6 and E7; E8 is reviewed at Gate 4.
 
-| Training days | Core modules | Track modules | Gate |
+| Programme hours | Core modules | Track modules | Gate |
 | --- | --- | --- | --- |
-| 1 | M0 Induction and baseline | — | **Gate 0** (training day 1, baseline) |
-| 1–2 | M1 Why and what to automate | R1 Role foundations starts (runs all programme) | — |
-| 2–6 | M2 Programming foundations in JavaScript | R2 Health care foundations (training days 2–8) | — |
-| 4–6 | M3 Version control and collaboration | — | **Gate 1** (training day 6) |
-| 7–9 | M4 Browser automation fundamentals | — | — |
-| 10–12 | M5 From walkthrough to real test | L1 Coaching others in automation (B6, B7, training days 10–20) | **Gate 2** (training day 12) |
-| 13–15 | M6 API, integration, and FHIR tests | L4 Acceptance test automation (B6-QA, training days 13–17) | — |
-| 16–17 | M7 Continuous integration and DevOps | L3 Frameworks and non-functional testing (B7-TE, training days 16–20) | — |
-| 18–19 | M8 Safe and lawful test automation in health care | L2 Automation strategy and metrics (B6-QA, B7, training days 16–20) | **Gate 3** (start of training day 18) |
-| 19–20 | M9 Quality engineering practice | L5 Leading teams through automation adoption (B7-TM, training days 16–20) | — |
-| 20–24 | M10 Capstone (tuned per track) | — | **Gate 4** (training day 24) |
+| 0–7.5 | M0 Induction and baseline | — | **Gate 0** (hour 0, baseline) |
+| 0–15 | M1 Why and what to automate | R1 Role foundations starts (runs all programme) | — |
+| 7.5–45 | M2 Programming foundations in JavaScript | R2 Health care foundations (hours 7.5–60) | — |
+| 22.5–45 | M3 Version control and collaboration | — | **Gate 1** (hour 45) |
+| 45–67.5 | M4 Browser automation fundamentals | — | — |
+| 67.5–90 | M5 From walkthrough to real test | L1 Coaching others in automation (B6, B7, hours 67.5–150) | **Gate 2** (hour 90) |
+| 90–112.5 | M6 API, integration, and FHIR tests | L4 Acceptance test automation (B6-QA, hours 90–127.5) | — |
+| 112.5–127.5 | M7 Continuous integration and DevOps | L3 Frameworks and non-functional testing (B7-TE, hours 112.5–150) | — |
+| 127.5–142.5 | M8 Safe and lawful test automation in health care | L2 Automation strategy and metrics (B6-QA, B7, hours 112.5–150) | **Gate 3** (hour 127.5) |
+| 135–150 | M9 Quality engineering practice | L5 Leading teams through automation adoption (B7-TM, hours 112.5–150) | — |
+| 142.5–180 | M10 Capstone (tuned per track) | — | **Gate 4** (hour 180) |
 | After 24 | Consolidation: the six months after Gate 4 | — | **Gate 5** (follow-up, about six months after Gate 4) |
 
-With the optional extension to 32 training days for B3 and B4, the gates move to training days 1, 8, 16, 24, and 32, and Gate 5 follows about six months after Gate 4.
+With the optional extension to 240 hours for B3 and B4, the gates move to hours 0, 60, 120, 172.5, and 240, and Gate 5 follows about six months after Gate 4.
 
 ### Module depth by track
 
@@ -314,7 +314,7 @@ With the optional extension to 32 training days for B3 and B4, the gates move to
 
 Each module lists its outcomes, evidence, activities, and resources. The evidence ids (E0 to E10) are reviewed at the gates. Where the evidence differs by track, the module says so. Otherwise every track produces the evidence at its depth from the table above.
 
-#### M0 Induction and baseline (training day 1)
+#### M0 Induction and baseline (hours 0–7.5)
 
 - **Outcomes:** each person, their manager, and the training lead agree where the person starts, their track, and their support.
 - **Evidence E0:**
@@ -326,7 +326,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 - **Activities:** induction with manager, mentor, and training lead; a briefing on how to self-assess honestly (a gap is not a failing); an unscored diagnostic coding exercise to tune M2 pacing; environment set-up with the mentor.
 - **Resources:** the roles-skills reference pages for the person's role and band; the roles-skills self-assessment guide; this specification.
 
-#### M1 Why and what to automate (training days 1–2)
+#### M1 Why and what to automate (hours 0–15)
 
 - **Outcomes:** LO1.
 - **Evidence E1:** an **automation candidate analysis** of the team's manual regression pack. For each case: keep manual, automate (and at which layer), or retire, with a reason based on risk, frequency, stability, and cost.
@@ -336,21 +336,21 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 - **Activities:** the testingexamples Learn articles: automatic testing, purpose, pyramid, browser trade-offs, CI; manual repetition as a variation problem (the Six Sigma view); why exploratory and usability testing stay human; a workshop with a developer on existing unit and integration tests.
 - **Resources:** testingexamples.github.io articles "What is automatic testing?", "What is the purpose of automatic testing?", "What is the automatic testing pyramid?", "What is browser automatic testing?", "How does Six Sigma lead manual testing into automatic testing?".
 
-#### M2 Programming foundations in JavaScript (training days 2–6)
+#### M2 Programming foundations in JavaScript (hours 7.5–45)
 
 - **Outcomes:** LO2.
 - **Evidence E2:** small programming exercises (katas), each with unit tests the person wrote: 5 for B3, 8 for B4 and B7-TM, 10 for B5 and B6, 10 harder ones for B7-TE. At least two check test-shaped data, such as a date of birth or an NHS number check digit.
-- **Activities:** variables, values and `typeof`, functions, control flow, arrays and objects, modules with `import` and `export`, errors; Promises, `async`, and `await`, and why every WebDriver call must be awaited; the terminal, npm, ESLint, and the VS Code debugger; a first Mocha unit test with `node:assert/strict`; pairing with the mentor on every M2 training day for B3 to B5, and on training days 2 and 3 for the other tracks.
+- **Activities:** variables, values and `typeof`, functions, control flow, arrays and objects, modules with `import` and `export`, errors; Promises, `async`, and `await`, and why every WebDriver call must be awaited; the terminal, npm, ESLint, and the VS Code debugger; a first Mocha unit test with `node:assert/strict`; pairing with the mentor in hours 7.5–22.5 for B3 to B5, then kata review by the mentor; kata review by the mentor throughout for B6 and B7.
 - **Resources:** a structured JavaScript course (Decision D3), such as MDN's JavaScript guide; the practice repository's katas; testingexamples "What are related concepts for automatic testing?".
 
-#### M3 Version control and collaboration (training days 4–6)
+#### M3 Version control and collaboration (hours 22.5–45)
 
 - **Outcomes:** LO3.
 - **Evidence E3:** reviewed pull requests to a practice repository, with comments addressed: 2 for B3 and B4, 3 for B5 to B7. Every track also reviews one pull request by someone else. B7-TE reviews three.
 - **Activities:** clone, branch, commit, diff, log, revert; pull requests and review etiquette; a simple merge conflict; reading the history of a testingexamples repository.
 - **Resources:** testingexamples "What are related concepts for automatic testing?"; the team's contribution guidelines.
 
-#### M4 Browser automation fundamentals (training days 7–9), spiral pass 1
+#### M4 Browser automation fundamentals (hours 45–67.5), spiral pass 1
 
 - **Outcomes:** LO4, LO11.
 - **Evidence E4:**
@@ -360,7 +360,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 - **Activities:** locate, act, wait, assert; locator strategy (ids and agreed test ids first, then CSS and link text, XPath last); explicit waits with `driver.wait(until...)`, and why Selenium does not wait for you; clicking only when an element is in view and on top; always quitting the driver; recording with Selenium IDE, exporting to JavaScript Mocha, then rewriting the recording by hand and explaining every line.
 - **Resources:** testingexamples `selenium-javascript-skill`, `demo-selenium-javascript`, `playwright-javascript-skill`, `demo-playwright-javascript`; the fixture contract `testingexamples.github.io/spec/index.md`; the Selenium WebDriver documentation; Selenium IDE.
 
-#### M5 From walkthrough to real test (training days 10–12), spiral pass 2
+#### M5 From walkthrough to real test (hours 67.5–90), spiral pass 2
 
 - **Outcomes:** LO5.
 - **Evidence E5:**
@@ -370,7 +370,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 - **Activities:** Mocha's `describe`, `it`, and hooks (`before`, `beforeEach`, `afterEach`, `after`); assertions; test isolation; Given-When-Then as a shared language; page objects as JavaScript classes that hold the locators and the waits; diagnosing failures from the message, a screenshot, the page source, and the browser console log; reading the NHS Wales worked example and its spec.
 - **Resources:** testingexamples "Given-When-Then Examples"; `demo-selenium-javascript-for-nhs-wales` and its `spec/index.md`; the practice repository's `tests/ui/`.
 
-#### M6 API, integration, and FHIR tests (training days 13–15)
+#### M6 API, integration, and FHIR tests (hours 90–112.5)
 
 - **Outcomes:** LO6.
 - **Evidence E6:** an API test suite, in Mocha with Node's built-in `fetch`, against the practice repository's FHIR sandbox (a small local FHIR R4 server in JavaScript, started with `npm run fhir`, loaded with synthetic data), which creates, reads, searches, and updates `Patient` and `Observation` resources, checks status codes and bodies, validates against a FHIR profile, checks a clinical code's meaning, and includes a negative test.
@@ -380,7 +380,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 - **Activities:** HTTP, REST, JSON; `fetch` and its responses; why Selenium is for browsers only; mocks, stubs, and simulators; HL7 FHIR resources, profiles, and terminology; HL7 version 2 awareness; moving one browser test down to the API layer.
 - **Resources:** HL7 FHIR (<https://hl7.org/fhir/>); the FHIR sandbox's README; the team's interface specifications; HAPI FHIR, as an example of a production FHIR server.
 
-#### M7 Continuous integration and DevOps (training days 16–17)
+#### M7 Continuous integration and DevOps (hours 112.5–127.5)
 
 - **Outcomes:** LO7.
 - **Evidence E7:** a CI pipeline that runs the person's suites on every pull request, publishes the JUnit report and, for failed browser tests, screenshots and page source, and blocks merging on failure, plus a written triage of real CI failures (product, test, or environment).
@@ -390,74 +390,74 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 - **Activities:** CI configuration, caching, headless Chrome, secrets, environment variables; keeping pipelines fast; quarantining flaky tests with an owner and a deadline; feature flags, canary releases, and monitoring.
 - **Resources:** testingexamples "What is continuous integration automatic testing?" and "What is DevOps for automatic testing?"; the organisation's CI documentation.
 
-#### M8 Safe and lawful test automation in health care (training days 18–19)
+#### M8 Safe and lawful test automation in health care (hours 127.5–142.5)
 
 - **Outcomes:** LO8, LO9.
 - **Evidence E8:** synthetic data for the person's tests, including rare or edge clinical cases; a repository scan showing no secrets or personal data; a traceability matrix from automated tests to hazards and safety controls, agreed with the clinical safety officer; automated accessibility checks on browser tests with `@axe-core/webdriverjs`, with a note on what they cannot find. B6-QA and B7 also review one other person's traceability matrix.
 - **Activities:** how automated regression tests protect safety controls; the team's hazard log; IEC 62304 awareness; information governance for test data and pipelines.
 - **Resources:** the organisation's clinical risk management process and hazard log; information governance policy.
 
-#### M9 Quality engineering practice (training days 19–20)
+#### M9 Quality engineering practice (hours 135–150)
 
 - **Outcomes:** LO10.
 - **Evidence E9:** a flaky-test investigation with root cause and fix (B4-TE and above; B3 and B4-QA describe one with the mentor); a suite-health report using flow metrics (time from a defect report to a regression test, quarantined tests, run time, failure causes) (B5 and above); an effort estimate for the capstone (all).
 - **Activities:** maintainable test code; reviewing test pull requests; using AI assistants critically, including the risk of self-healing locators passing on the wrong element; awareness of performance, load, and security testing.
 - **Resources:** testingexamples "What metrics help automatic testing?" and "How does artificial intelligence help automatic testing?".
 
-#### M10 Capstone (training days 20–24), spiral pass 3
+#### M10 Capstone (hours 142.5–180), spiral pass 3
 
 - **Outcomes:** LO12, with every other outcome applied at track depth.
-- **Evidence E10:** a capstone on the person's own team's product, agreed with the product owner and mentor at the start of training day 20, and a presentation to the gate panel aimed at a non-technical audience (10 minutes for B3 and B4, 20 minutes for B5 to B7):
+- **Evidence E10:** a capstone on the person's own team's product, agreed with the product owner and mentor at hour 142.5, and a presentation to the gate panel aimed at a non-technical audience (10 minutes for B3 and B4, 20 minutes for B5 to B7):
 
 | Track | Capstone |
 | --- | --- |
 | B3 | Triage one week of CI results and raise defects; write 5 Given-When-Then scenarios; make 2 reviewed changes to existing tests. |
 | B4-QA | Automate 5 manual cases with support, with a spec, running in CI. |
-| B4-TE | Automate 10 cases, including 2 API tests, and maintain an existing suite over 4 training days. |
+| B4-TE | Automate 10 cases, including 2 API tests, and maintain an existing suite over 30 learning hours. |
 | B5-QA | Automation candidate analysis for the area, and 10 cases automated at browser and API layers, with traceability, with some support. |
 | B6-QA | A risk-based automation approach for the area, automated acceptance checks agreed with clinical users, and coaching a B4 or B5 colleague through their capstone. |
 | B6-TE | An automated regression suite for a product slice of 15–30 manual cases: plan, browser and API tests, spec, synthetic data, CI, traceability, and handover README. |
 | B7-TE | Reusable fixtures or framework for an area, a pipeline with test selection, one performance or load test based on real clinical demand, and coaching two colleagues. |
 | B7-TM | An automation strategy and metrics for a product or programme, a business case, an adoption and team development plan, and a small automated suite of their own at the Working target. |
 
-- **Activities:** a review with the mentor on each training day; pull requests reviewed by developers on the team (at least two for B5 and above); a mid-capstone show-and-tell to the team; an optional presentation rehearsal with the mentor on training day 23.
+- **Activities:** a review with the mentor in every 7.5 hours of learning; pull requests reviewed by developers on the team (at least two for B5 and above); a mid-capstone show-and-tell to the team; an optional presentation rehearsal with the mentor in hours 165–172.5.
 
 ### Track modules
 
-#### R1 Role foundations (training days 1–24, individual)
+#### R1 Role foundations (hours 0–180, individual)
 
 - **Purpose:** close the role and skill gaps that are not about automation, because each person is measured against their whole role.
 - **Content:** set by the ILP from Gate 0 gaps in Parts A to C. Typical items: test analysis, test and quality planning, defect management, communicating with non-technical stakeholders, planning own work (A9), freedom to act (A17), and the role-level statements in Part B.
-- **Activities:** 1 hour of each training day for role practice with the mentor or manager, stretch tasks on the team, shadowing, and the community of practice.
+- **Activities:** 1 hour in every 7.5 hours of learning for role practice with the mentor or manager, stretch tasks on the team, shadowing, and the community of practice.
 - **Evidence:** progress on each ILP action, reviewed at every gate.
 
-#### R2 Health care foundations (training days 2–8)
+#### R2 Health care foundations (hours 7.5–60)
 
 - **Purpose:** meet the expected levels in understanding health and care services, clinical risk management, and information governance by Gate 2 (Principle 13).
 - **Activities:** sessions with the clinical safety officer and information governance lead; a hazard workshop; a shadowing session with a clinical or care user. B7-TM leads one session for the cohort.
 - **Evidence:** reflected in Part C ratings at Gate 2.
 
-#### L1 Coaching others in automation (B6, B7; training days 10–20)
+#### L1 Coaching others in automation (B6, B7; hours 67.5–150)
 
 - **Outcomes:** guide and coach others, as the Practitioner and Expert level descriptions require.
 - **Evidence:** coaching log for one or two cohort members from a lower band, with their feedback.
 
-#### L2 Automation strategy and metrics (B6-QA, B7; training days 16–20)
+#### L2 Automation strategy and metrics (B6-QA, B7; hours 112.5–150)
 
 - **Outcomes:** contribute to (B6-QA, B7-TE) or own (B7-TM) the automation strategy for an area; define metrics for monitoring and controlling test activities.
 - **Evidence:** a strategy document and a metrics proposal, reviewed by the head of test.
 
-#### L3 Frameworks and non-functional testing (B7-TE; B6-TE read only; training days 16–20)
+#### L3 Frameworks and non-functional testing (B7-TE; B6-TE read only; hours 112.5–150)
 
 - **Outcomes:** extend, standardise, and build reusable frameworks; plan and run performance, load, and resilience tests based on real clinical demand; maintain and adapt CI/CD pipelines.
 - **Evidence:** folded into the B7-TE capstone.
 
-#### L4 Acceptance test automation (B6-QA; training days 13–17)
+#### L4 Acceptance test automation (B6-QA; hours 90–127.5)
 
 - **Outcomes:** Practitioner in business and user acceptance testing, applied to automation: turn acceptance criteria into automated checks, plan user acceptance testing with clinicians, and report residual risk.
 - **Evidence:** folded into the B6-QA capstone.
 
-#### L5 Leading teams through automation adoption (B7-TM; training days 16–20)
+#### L5 Leading teams through automation adoption (B7-TM; hours 112.5–150)
 
 - **Outcomes:** people management at Practitioner, and medical device software regulation at Working, applied to automation adoption: team development plans, supplier testers, and regulated testing records.
 - **Evidence:** folded into the B7-TM capstone.
@@ -466,13 +466,13 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 
 Every gate repeats the full capability self-assessment (Parts A to C) with calibration, adds the Part D practical from Gate 1, and reviews module evidence. The gate updates the ILP.
 
-| Gate | Training day | Module evidence | Part D practical | Reviewers |
+| Gate | Programme hour | Module evidence | Part D practical | Reviewers |
 | --- | --- | --- | --- | --- |
-| Gate 0 | 1 | E0 | — (unscored diagnostic only) | Person, line manager, training lead |
-| Gate 1 | 6 | E1–E3 | Fix a failing unit test and open a pull request | Line manager, mentor |
-| Gate 2 | 12 | E4–E5 | Automate one given manual test case on the fixture site (B3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
-| Gate 3 | 18 | E6–E7 | Triage and fix a failing CI run (B6 and B7-TE: plus an API test; B7-TM: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
-| Gate 4 | 24 | E8–E10 | Live run and explanation of the capstone | Gate 4 panel |
+| Gate 0 | 0 | E0 | — (unscored diagnostic only) | Person, line manager, training lead |
+| Gate 1 | 45 | E1–E3 | Fix a failing unit test and open a pull request | Line manager, mentor |
+| Gate 2 | 90 | E4–E5 | Automate one given manual test case on the fixture site (B3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
+| Gate 3 | 127.5 | E6–E7 | Triage and fix a failing CI run (B6 and B7-TE: plus an API test; B7-TM: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
+| Gate 4 | 180 | E8–E10 | Live run and explanation of the capstone | Gate 4 panel |
 | Gate 5 | About six months after Gate 4 | Six months of work | Demonstrate a recent automated change | Line manager, training lead |
 
 #### Gate thresholds
@@ -490,8 +490,8 @@ Using agreed ratings and the capability index:
 
 #### If a gate is not met
 
-1. The person gets up to 3 extra training days on the items below threshold, with a written plan and extra mentor time, and the gate is repeated once.
-2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the extension to 32 training days, a different automation target, more R1 support, or pausing the programme.
+1. The person gets up to 22.5 extra learning hours on the items below threshold, with a written plan and extra mentor time, and the gate is repeated once.
+2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the extension to 240 hours, a different automation target, more R1 support, or pausing the programme.
 3. In line with Principle 14, none of these is a capability or performance procedure.
 
 #### Gate 4 panel
@@ -506,12 +506,12 @@ A person completes the programme at Gate 4 when every threshold for Gate 4 is me
 
 | Role | Responsibilities | Time commitment |
 | --- | --- | --- |
-| Participant | Completes the self-assessment honestly at every gate, follows the ILP, produces evidence, keeps a learning log entry for each training day. | One training day (7.5 hours) a week, protected: 24 training days, 180 hours |
-| Line manager | Protects learning time; rates each gate independently and calibrates; owns the ILP with the participant. | 1 hour every second training day, plus 2 hours a gate: about 24 hours |
-| Mentor | Pairs, reviews code, runs R1 practice, prepares for gates. At least one band above the participant and at or above their automation target; for Band 7 tracks, a Band 8a or higher lead, or an external mentor if none is available. One mentor supports up to 3 participants. | 1.5 hours per training day on training days 1–6, then 1 hour per training day: 27 hours per participant |
-| Training lead (programme owner) | Owns this specification and the instrument; runs gates; moderates calibration; evaluates and maintains the programme. | Half a training day (3.75 hours) per training day, for a cohort of up to 12: 90 hours |
+| Participant | Completes the self-assessment honestly at every gate, follows the ILP, produces evidence, keeps a learning log entry for each learning session. | 180 hours, protected; by default 7.5 hours a week |
+| Line manager | Protects learning time; rates each gate independently and calibrates; owns the ILP with the participant. | 1 hour per 15 learning hours, plus 2 hours a gate: about 24 hours |
+| Mentor | Pairs, reviews code, runs R1 practice, prepares for gates. At least one band above the participant and at or above their automation target; for Band 7 tracks, a Band 8a or higher lead, or an external mentor if none is available. One mentor supports up to 3 participants. | 1.5 hours per 7.5 learning hours in hours 0–45, then 1 hour per 7.5 learning hours: 27 hours per participant |
+| Training lead (programme owner) | Owns this specification and the instrument; runs gates; moderates calibration; evaluates and maintains the programme. | 3.75 hours per 7.5 cohort learning hours, for a cohort of up to 12: 90 hours |
 | Head of test (sponsor) | Sponsors the programme; reviews L2 strategies; chairs B7 Gate 4 panels. | 2 hours a month |
-| Developers | Review pull requests, pair on M6, join Gate 2 and 3 reviews and Gate 4 panels. | About 1 hour per training day |
+| Developers | Review pull requests, pair on M6, join Gate 2 and 3 reviews and Gate 4 panels. | About 1 hour per 7.5 learning hours |
 | Product owners | Review Given-When-Then scenarios; agree and accept capstones. | 3 hours per participant |
 | Clinical safety officer | Runs R2 and M8 sessions; reviews traceability evidence. | 6 hours per cohort, plus reviews |
 | Information governance lead | Runs R2 and M8 sessions on test and personal data. | 3 hours per cohort |
@@ -525,7 +525,7 @@ Following Universal Design for Instruction:
 - Evidence can be shown in more than one way where the outcome allows, for example a recorded walkthrough instead of a written explanation.
 - The self-assessment can be completed with the mentor's help, in writing or in conversation.
 - Tools are checked for accessibility: editor screen reader support, high-contrast themes, captioned videos.
-- Pacing is flexible within each gate period, and B3 and B4 can extend to 32 training days.
+- Pacing is flexible within each gate period, and B3 and B4 can extend to 240 hours.
 - Mixed-band pairing, show-and-tells, and coaching build a community of learners, and the learning log gives a private channel for questions.
 - Reasonable adjustments are recorded at Gate 0 and reviewed at every gate.
 
@@ -566,7 +566,7 @@ Following PADDIE+M, the training lead:
 | D2 | CI service | The organisation's existing CI service; GitHub Actions for the practice repository | Training lead |
 | D3 | JavaScript foundations course | A structured, free or already-licensed course with exercises | Training lead |
 | D4 | Practice FHIR server | The practice repository's local FHIR sandbox (Node.js, no Docker), with synthetic data; a shared team test server with synthetic data as the alternative | Mentors |
-| D5 | Capstone scope per person | As in the M10 table, agreed at the start of training day 20 | Product owner, mentor |
+| D5 | Capstone scope per person | As in the M10 table, agreed at hour 142.5 | Product owner, mentor |
 | D6 | Mapping for band and role combinations without a reference level, and Band 3 factor levels | The mapping rule in [Tracks](#tracks) | Line manager, training lead, HR |
 | D7 | Developmental status of gates | Gates are developmental only (Principle 14) | HR, head of test |
 
@@ -619,6 +619,6 @@ Coverage check, outcome to evidence:
 | --- | --- |
 | 2026-10-07 | First version: one learner moving from Band 5 to Band 6. |
 | 2026-10-07 | Rewritten: eight tuned tracks for Bands 3 to 7, no band changes, a full capability self-assessment (21 band dimensions, PCF role aspects, all role skills) at every gate, and capability thresholds per gate. |
-| 2026-10-07 | Revised: timelines in training days. A training day is 7.5 hours (20% of a 37.5-hour week); the programme is 24 training days, one a week, 180 hours, for every track; B3 and B4 may extend to 32 training days. |
+| 2026-10-07 | Revised: timelines in hours. Every track has 180 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), with an hour budget that totals 180; the schedule, gates, and time commitments are in programme hours; B3 and B4 may extend to 240 hours. |
 | 2026-10-07 | Revised: JavaScript with Selenium WebDriver and Mocha replaces TypeScript with Playwright (Playwright becomes the reading-only tool for LO11); no Docker anywhere, with a JavaScript FHIR sandbox; Principle 10, wait explicitly; the informal capability estimate removed. |
-| 2026-10-07 | Implemented: instruments generated per track; Partly defined for Part C; LO2 (B7-TE) and LO11 (B7-TM) depths aligned with modules; Gate 3 timing, B3 on training days 13–15, L4 timing, Band 7 mentors, and the capstone rehearsal made explicit. |
+| 2026-10-07 | Implemented: instruments generated per track; Partly defined for Part C; LO2 (B7-TE) and LO11 (B7-TM) depths aligned with modules; Gate 3 timing, B3 in hours 90–112.5, L4 timing, Band 7 mentors, and the capstone rehearsal made explicit. |

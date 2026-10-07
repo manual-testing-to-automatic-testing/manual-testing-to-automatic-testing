@@ -2,7 +2,7 @@
 
 Evidence E7 for **B3**, **B4-QA**, and **B4-TE**: triage of 3 failures in an existing pipeline. You do not need to change the pipeline.
 
-Time: about 4 hours, in the training day 16 and 17 breakouts, with the mentor.
+Time: about 4 hours, in the breakouts in hours 112.5–127.5, with the mentor.
 
 ## Set-up (mentor)
 

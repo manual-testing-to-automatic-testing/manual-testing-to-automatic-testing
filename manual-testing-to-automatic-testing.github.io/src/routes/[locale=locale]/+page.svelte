@@ -30,7 +30,7 @@
   const EN_001: Messages = {
     heading: 'Manual testing to automatic testing',
     lede:
-      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers, over 24 training days of 7.5 hours each, one a week, while each person stays in the band and UK GDaD PCF role they already hold.',
+      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers, over 180 hours of protected learning time, by default 7.5 hours a week, while each person stays in the band and UK GDaD PCF role they already hold.',
     start: 'Start with the programme specification: it is the single source of truth.',
     startCta: 'Read the programme',
     assessCta: 'Open the self-assessment',

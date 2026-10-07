@@ -5,7 +5,7 @@ Evidence E6 for **B4-QA** and **B7-TM**. Instead of writing a suite, read the ex
 - **B4-QA:** so you can run API tests, read their results, and raise good defects from them.
 - **B7-TM:** so you can judge API test coverage across your teams, and ask the right questions in reviews.
 
-Time: about 2 hours, in the training day 14 breakout, with the mentor.
+Time: about 2 hours, in the hours 97.5–105 breakout, with the mentor.
 
 ## 1. Run it
 

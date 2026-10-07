@@ -1,6 +1,6 @@
 # M7 Continuous integration and DevOps
 
-Training days 16 and 17, about 10 hours. Reviewed at Gate 3.
+Hours 112.5–127.5, about 10 hours. Reviewed at Gate 3.
 
 ## Purpose
 
@@ -20,20 +20,20 @@ A test suite that only runs on one laptop, when someone remembers, catches far l
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Training day 16: what CI is; reading a pipeline run, its logs, the JUnit test report, and the screenshots and page source saved on failure | 1.5 hours | Core | Cohort |
-| 2 | Training day 16: failure triage: product defect, test defect, or environment problem | 1 hour | Core | Cohort |
-| 3 | Training day 16: pipeline configuration: caching, Chrome in headless mode, secrets, environment variables | 1 hour | Core | Cohort |
-| 4 | Training day 17: keeping pipelines fast: test selection, and splitting test files across parallel CI jobs | 1 hour | Core | Cohort |
-| 5 | Training day 17: flaky tests: quarantine with an owner and a deadline, never silent skips | 1 hour | Core | Cohort |
-| 6 | Training day 17: DevOps: feature flags, canary releases, monitoring as a complement to pre-release testing | 30 minutes | Core | Cohort |
-| 7a | Training days 16 and 17: triage exercise on an existing pipeline | 1.5 hours on day 16, 2.5 hours on day 17 | Breakout | B3, B4-QA, B4-TE, with mentor |
-| 7b | Training days 16 and 17: build the practice pipeline, and triage | 1.5 hours on day 16, 2.5 hours on day 17 | Breakout | B5-QA, B6-QA, B6-TE, B7-TM |
-| 7c | Training days 16 and 17: team pipeline with parallel jobs, test selection, and quarantine policy | 1.5 hours on day 16, 2.5 hours on day 17 | Breakout | B7-TE, with the team |
+| 1 | Hours 112.5–120: what CI is; reading a pipeline run, its logs, the JUnit test report, and the screenshots and page source saved on failure | 1.5 hours | Core | Cohort |
+| 2 | Hours 112.5–120: failure triage: product defect, test defect, or environment problem | 1 hour | Core | Cohort |
+| 3 | Hours 112.5–120: pipeline configuration: caching, Chrome in headless mode, secrets, environment variables | 1 hour | Core | Cohort |
+| 4 | Hours 120–127.5: keeping pipelines fast: test selection, and splitting test files across parallel CI jobs | 1 hour | Core | Cohort |
+| 5 | Hours 120–127.5: flaky tests: quarantine with an owner and a deadline, never silent skips | 1 hour | Core | Cohort |
+| 6 | Hours 120–127.5: DevOps: feature flags, canary releases, monitoring as a complement to pre-release testing | 30 minutes | Core | Cohort |
+| 7a | Hours 112.5–127.5: triage exercise on an existing pipeline | 1.5 hours in hours 112.5–120, 2.5 hours in hours 120–127.5 | Breakout | B3, B4-QA, B4-TE, with mentor |
+| 7b | Hours 112.5–127.5: build the practice pipeline, and triage | 1.5 hours in hours 112.5–120, 2.5 hours in hours 120–127.5 | Breakout | B5-QA, B6-QA, B6-TE, B7-TM |
+| 7c | Hours 112.5–127.5: team pipeline with parallel jobs, test selection, and quarantine policy | 1.5 hours in hours 112.5–120, 2.5 hours in hours 120–127.5 | Breakout | B7-TE, with the team |
 
-Each person's sessions add up to 10 hours: 5 hours on each of training days 16 and 17.
+Each person's sessions add up to 10 hours: 5 hours in each of the blocks 112.5–120 and 120–127.5.
 
 
-L2, L3, and L5 for B6-QA and B7 also start on training day 16, within their breakout time. See `materials/tracks/`.
+L2, L3, and L5 for B6-QA and B7 also start in hours 112.5–120, within their breakout time. See `materials/tracks/`.
 
 ## Activities
 
@@ -55,7 +55,7 @@ L2, L3, and L5 for B6-QA and B7 also start on training day 16, within their brea
 
 ## Assessment
 
-Gate 3 (start of training day 18) reviews E7 with E6. The Gate 3 Part D practical is "triage and fix a failing CI run".
+Gate 3 (hour 127.5) reviews E7 with E6. The Gate 3 Part D practical is "triage and fix a failing CI run".
 
 ## Resources
 

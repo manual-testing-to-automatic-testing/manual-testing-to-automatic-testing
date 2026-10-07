@@ -8,21 +8,21 @@ Protect your person's learning time, rate them honestly and independently at eac
 
 ## 1. What the programme is
 
-- 24 training days, one a week, so about 24 calendar weeks. Gates on training days 1, 6, 12, 18, and 24, and a follow-up about six months after Gate 4. Use `scripts/gate_calendar.py` for the dates.
+- 180 hours of protected learning time, by default 7.5 hours a week, so about 24 calendar weeks. Gates at hours 0, 45, 90, 127.5, and 180, and a follow-up about six months after Gate 4. Use `scripts/gate_calendar.py` for the dates.
 - Your person joins the track for their band and assigned PCF role. Their band and role do not change.
 - Their guide is in `materials/tracks/<track>/index.md`. Read it.
 
 ## 2. Protected time
 
-Every track has the same protected time: one **training day** a week. A training day is 7.5 hours, 20% of a 37.5-hour week. The programme is 24 training days (180 hours); B3 and B4 may extend to 32 (240 hours).
+Every track has the same protected time: **180 learning hours**, by default **7.5 hours a week**, 20% of a 37.5-hour week. B3 and B4 may extend to 240 hours. Agree the pace in the learning agreement.
 
-- Put it in both calendars before Gate 0, on a fixed day of the week.
+- Put it in both calendars before Gate 0, at fixed times each week.
 - Reduce their delivery work to match. Agree this with their product owner.
-- If you must take back time, agree it with the training lead first. If a training day is lost in a gate period, the training lead escalates.
+- If you must take back time, agree it with the training lead first. If more than 7.5 hours are lost in a gate period, the training lead escalates.
 
 ## 3. Rating at a gate
 
-1. Your person completes the self-assessment before the gate's training day.
+1. Your person completes the self-assessment before the gate.
 2. **You rate independently, without looking at their ratings.** Use the instrument for their track in `instruments/`.
 3. Rate what they do **regularly**, not what they did once or could do.
 4. You meet and agree each rating. Where you differ by more than one level, the evidence decides. If you still disagree, the mentor or training lead moderates.
@@ -47,14 +47,14 @@ Avoid:
 
 ## 5. Between gates
 
-- A 1-hour check-in every second training day: progress on the individual learning plan, blockers, protected time.
-- Help find real work to automate: from training day 10, part of every training day is real automation on the team's product.
+- A 1-hour check-in every 15 learning hours: progress on the individual learning plan, blockers, protected time.
+- Help find real work to automate: from hour 67.5, part of every 7.5 hours of learning is real automation on the team's product.
 - Recognise progress publicly, for example at team show-and-tells.
 
 ## 6. If a gate is not met
 
-The person gets up to 3 extra training days on the items below threshold, with a written plan, and the gate is repeated once. If it is still not met, you, the person, and the training lead agree a next step. None of this is a capability procedure.
+The person gets up to 22.5 extra learning hours on the items below threshold, with a written plan, and the gate is repeated once. If it is still not met, you, the person, and the training lead agree a next step. None of this is a capability procedure.
 
 ## Time you'll need
 
-About 1 hour every second training day, plus about 2 hours for each gate: around 24 hours over the programme for each person you manage.
+About 1 hour every 15 learning hours, plus about 2 hours for each gate: around 24 hours over the programme for each person you manage.

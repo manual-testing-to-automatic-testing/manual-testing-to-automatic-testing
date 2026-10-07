@@ -1,6 +1,6 @@
 # M9 Quality engineering practice
 
-Training days 19 and 20, about 6 hours. Reviewed at Gate 4.
+Hours 135–150, about 6 hours. Reviewed at Gate 4.
 
 ## Purpose
 
@@ -20,19 +20,19 @@ A suite that nobody trusts is worse than no suite. M9 is about keeping automated
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Training day 19: maintainable test code: names, duplication, helpers, data builders | 1 hour | Core | Cohort |
-| 2 | Training day 19: flaky tests are variation: root causes and fixes | 1 hour | Core | Cohort |
-| 3 | Training day 19: flow metrics for testing | 30 minutes | Core | Cohort |
-| 4a | Training day 19: flaky-test exercise, hands on | 1 hour | Breakout | B4-TE and above |
-| 4b | Training day 19: describe a flaky test with the mentor | 1 hour | Breakout | B3, B4-QA |
-| 5 | Training day 20: AI assistants: drafting and explaining tests, and reviewing the output critically, including self-healing locators | 30 minutes | Core | Cohort |
-| 6 | Training day 20: awareness: performance, load, and security testing, and who owns them | 30 minutes | Core | Cohort |
-| 7 | Training day 20: estimating test effort for the capstone | 30 minutes | Core | Cohort |
-| 8a | Training day 20: suite-health report | 1 hour | Breakout | B5-QA, B6-QA, B6-TE, B7-TM |
-| 8b | Training day 20: reviewing test pull requests, led by B7-TE, then B7-TE's own suite-health report | 1 hour | Breakout | B7-TE, with others |
-| 8c | Training day 20: flaky-test follow-up with the mentor | 1 hour | Breakout | B3, B4-QA, B4-TE |
+| 1 | Hours 135–142.5: maintainable test code: names, duplication, helpers, data builders | 1 hour | Core | Cohort |
+| 2 | Hours 135–142.5: flaky tests are variation: root causes and fixes | 1 hour | Core | Cohort |
+| 3 | Hours 135–142.5: flow metrics for testing | 30 minutes | Core | Cohort |
+| 4a | Hours 135–142.5: flaky-test exercise, hands on | 1 hour | Breakout | B4-TE and above |
+| 4b | Hours 135–142.5: describe a flaky test with the mentor | 1 hour | Breakout | B3, B4-QA |
+| 5 | Hours 142.5–150: AI assistants: drafting and explaining tests, and reviewing the output critically, including self-healing locators | 30 minutes | Core | Cohort |
+| 6 | Hours 142.5–150: awareness: performance, load, and security testing, and who owns them | 30 minutes | Core | Cohort |
+| 7 | Hours 142.5–150: estimating test effort for the capstone | 30 minutes | Core | Cohort |
+| 8a | Hours 142.5–150: suite-health report | 1 hour | Breakout | B5-QA, B6-QA, B6-TE, B7-TM |
+| 8b | Hours 142.5–150: reviewing test pull requests, led by B7-TE, then B7-TE's own suite-health report | 1 hour | Breakout | B7-TE, with others |
+| 8c | Hours 142.5–150: flaky-test follow-up with the mentor | 1 hour | Breakout | B3, B4-QA, B4-TE |
 
-Each person's sessions add up to 6 hours: 3.5 hours on training day 19 and 2.5 hours on training day 20.
+Each person's sessions add up to 6 hours: 3.5 hours in hours 135–142.5 and 2.5 hours in hours 142.5–150.
 
 ## Activities
 
@@ -59,11 +59,11 @@ Each person's sessions add up to 6 hours: 3.5 hours on training day 19 and 2.5 h
 | | | | |
 | **Total** | | | |
 
-Compare the total with the capstone's hours: about 27.5 hours across training days 20 to 24. If it does not fit, cut scope with the product owner now, not on training day 23.
+Compare the total with the capstone's hours: about 27.5 hours across hours 142.5–180. If it does not fit, cut scope with the product owner now, not in hours 165–172.5.
 
 ## Assessment
 
-E9 is assessed at Gate 4 (training day 24), with E8 and E10.
+E9 is assessed at Gate 4 (hour 180), with E8 and E10.
 
 ## Resources
 

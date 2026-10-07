@@ -1,6 +1,6 @@
 # Capstone brief: B5-QA
 
-Evidence E10 for module M10. Training days 20 to 24. Assessed at Gate 4.
+Evidence E10 for module M10. Hours 142.5–180. Assessed at Gate 4.
 
 | Field | Value |
 | --- | --- |
@@ -19,7 +19,7 @@ Evidence E10 for module M10. Training days 20 to 24. Assessed at Gate 4.
 
 Your own area of the product.
 
-Agree the exact scope with the product owner and mentor at the start of training day 20, using the [scope agreement](capstone-scope-agreement.md), your E1 analysis, and your E9 estimate.
+Agree the exact scope with the product owner and mentor at hour 142.5, using the [scope agreement](capstone-scope-agreement.md), your E1 analysis, and your E9 estimate.
 
 ## Deliverables
 
@@ -45,7 +45,7 @@ The product owner and the Gate 4 panel will look for:
 
 ## Support
 
-Some support: a mentor review each training day, and help on request.
+Some support: a mentor review every 7.5 hours of learning, and help on request.
 
 ## Presentation
 

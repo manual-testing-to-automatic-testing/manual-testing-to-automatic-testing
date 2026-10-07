@@ -1,6 +1,6 @@
 # Capstone scope agreement
 
-Agree at the start of training day 20 (Decision D5). Signed by the person, the product owner, and the mentor.
+Agree at hour 142.5 (Decision D5). Signed by the person, the product owner, and the mentor.
 
 | Field | Value |
 | --- | --- |
@@ -32,7 +32,7 @@ ______
 
 ## Estimate
 
-From E9: ______ hours. Protected time available on training days 20 to 24: about 27.5 hours. If the estimate is larger, cut scope now.
+From E9: ______ hours. Protected time available in hours 142.5–180: about 27.5 hours. If the estimate is larger, cut scope now.
 
 ## Acceptance
 
