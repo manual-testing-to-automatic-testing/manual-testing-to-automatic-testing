@@ -2,14 +2,14 @@
 
 ## Summary
 
-This programme upskills **manual testers at Bands 3 to 7** into **automatic testers**, over **180 hours** of protected learning time, while each person **stays in their current band and their assigned UK GDaD PCF role**. Nobody changes band because of this programme.
+This programme upskills **manual testers at Bands 3 to 7** into **automatic testers**, over **220 hours** of protected learning time, ending with a **Lean Six Sigma Green Belt** lifetime certification, while each person **stays in their current band and their assigned UK GDaD PCF role**. Nobody changes band because of this programme.
 
 Each person has already been given a UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager) at a role level. The programme has two aims, in this order:
 
 1. **Close the capability gap in the role the person already holds**, to at least 90% at Gate 4, measured formally at every gate.
 2. **Build automated testing capability** to a target set for each band and role, which for some tracks is above what the role itself requires.
 
-The programme comes in **eight tuned tracks**, one for each band and assigned role combination (B3, B4-QA, B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM). All tracks share one schedule, one set of gates, and one set of core modules, so a mixed cohort learns together. The tracks differ in depth, extra modules, gate evidence, and capstone; every track has the same 180 hours.
+The programme comes in **eight tuned tracks**, one for each band and assigned role combination (B3, B4-QA, B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM). All tracks share one schedule, one set of gates, and one set of core modules, so a mixed cohort learns together. The tracks differ in depth, extra modules, gate evidence, and capstone; every track has the same 220 hours, ending with the Lean Six Sigma Green Belt.
 
 **Gates are the backbone of the programme.** At every gate, each person completes the same full **capability self-assessment**, which their manager also rates:
 
@@ -30,6 +30,7 @@ In scope:
 - A cohort of up to 12 people, in any mix of tracks, sharing mentors and core sessions.
 - Formal measurement of each person's capability against their **current** band, PCF role level, and skills, at every gate.
 - Closing role and skill gaps that are not about automation, because capability is measured across the whole role.
+- A Lean Six Sigma Green Belt, with a lifetime certification, for every participant, applied to their own team's testing process.
 - Automated testing: browser, API and integration tests, an introduction to unit tests, CI pipelines, test code quality, synthetic test data, and traceability to clinical safety evidence, at a depth set per track.
 - For Band 7 senior test engineers: reusable frameworks and performance, load, and resilience testing.
 - For Band 7 test managers: automation strategy, metrics, and leading adoption.
@@ -222,22 +223,23 @@ Each track meets each outcome at a set depth: **R** read and explain, **S** with
 | LO11 | Read and make a small change to an existing Playwright suite. | — | R | S | S | S | I | I | S |
 | LO12 | Plan, build or lead, and explain an automated regression suite for a real service. | S | S | S | I | L | I | L | L |
 | LO13 | Fully meet the person's own band and PCF role, measured by the capability self-assessment. | All tracks: overall capability index of at least 90% at Gate 4 |
+| LO14 | Apply Lean Six Sigma (DMAIC) to measure and improve a testing process, and hold a Green Belt certification that does not expire. | S | S | S | I | L | I | L | L |
 
 ### Schedule and time
 
-The programme is measured in **hours** of protected learning time. Every track has **180 hours** and the same gates, so a mixed cohort can learn together; the tracks differ in depth, not in hours. The default pace is **7.5 hours a week**, 20% of a 37.5-hour working week, so the programme runs over about 24 calendar weeks. The learning agreement may set another pace, such as two sessions of 3.75 hours a week; `scripts/gate_calendar.py` turns a pace into dates.
+The programme is measured in **hours** of protected learning time. Every track has **220 hours** and the same gates, so a mixed cohort can learn together; the tracks differ in depth, not in hours. The default pace is **7.5 hours a week**, 20% of a 37.5-hour working week, so the programme runs over about 30 calendar weeks. The learning agreement may set another pace, such as two sessions of 3.75 hours a week; `scripts/gate_calendar.py` turns a pace into dates.
 
 | Track | Protected time | Approximate guided hours | Optional extension |
 | --- | --- | --- | --- |
-| B3 | 7.5 hours a week, by default | 180 | To 240 hours |
-| B4-QA, B4-TE | 7.5 hours a week, by default | 180 | To 240 hours |
-| B5-QA | 7.5 hours a week, by default | 180 | — |
-| B6-QA, B6-TE | 7.5 hours a week, by default | 180 | — |
-| B7-TE, B7-TM | 7.5 hours a week, by default | 180 | — |
+| B3 | 7.5 hours a week, by default | 220 | To 280 hours |
+| B4-QA, B4-TE | 7.5 hours a week, by default | 220 | To 280 hours |
+| B5-QA | 7.5 hours a week, by default | 220 | — |
+| B6-QA, B6-TE | 7.5 hours a week, by default | 220 | — |
+| B7-TE, B7-TM | 7.5 hours a week, by default | 220 | — |
 
-The timeline is in programme hours, counted from 0 to 180: "hours 7.5–45" means after 7.5 and up to 45 hours of learning. The schedule below says in which hours each module runs.
+The timeline is in programme hours, counted from 0 to 220: "hours 7.5–45" means after 7.5 and up to 45 hours of learning. The schedule below says in which hours each module runs.
 
-Where the 180 hours go, for every track:
+Where the 220 hours go, for every track:
 
 | Item | Programme hours | Hours |
 | --- | --- | --- |
@@ -256,7 +258,8 @@ Where the 180 hours go, for every track:
 | R2 Health care foundations: five sessions | 7.5–60 | 7 |
 | Gates 1 to 4: 2.5 hours each | At 45, 90, 127.5, 180 | 10 |
 | Real automation on the team's product: 1.5 hours in every 7.5 hours of learning (from hour 127.5, M8 and M10 work on the team's product) | 67.5–127.5 | 12 |
-| **Total** | **0–180** | **180** |
+| M11 Lean Six Sigma Green Belt, lifetime certification | 180–220 | 40 |
+| **Total** | **0–220** | **220** |
 
 Track modules L1 to L5 take part of B6 and B7 participants' track breakouts and real automation time. B3 uses its M6 time for R1 and real automation. Each module's page in `materials/modules/` shows how its hours split into sessions.
 
@@ -279,9 +282,10 @@ Gate 3 takes place at hour 127.5, before M8 begins. It reviews E6 and E7; E8 is 
 | 127.5–142.5 | M8 Safe and lawful test automation in health care | L2 Automation strategy and metrics (B6-QA, B7, hours 112.5–150) | **Gate 3** (hour 127.5) |
 | 135–150 | M9 Quality engineering practice | L5 Leading teams through automation adoption (B7-TM, hours 112.5–150) | — |
 | 142.5–180 | M10 Capstone (tuned per track) | — | **Gate 4** (hour 180) |
+| 180–220 | M11 Lean Six Sigma Green Belt, lifetime certification | — | **Certification** (by hour 220) |
 | After 24 | Consolidation: the six months after Gate 4 | — | **Gate 5** (follow-up, about six months after Gate 4) |
 
-With the optional extension to 240 hours for B3 and B4, the gates move to hours 0, 60, 120, 172.5, and 240, and Gate 5 follows about six months after Gate 4.
+With the optional extension to 280 hours for B3 and B4, the gates move to hours 0, 60, 120, 172.5, and 240, M11 runs in hours 240–280, and Gate 5 follows about six months after Gate 4.
 
 ### Module depth by track
 
@@ -300,6 +304,7 @@ With the optional extension to 240 hours for B3 and B4, the gates move to hours 
 | M8 Safe and lawful test automation | I | I | I | I | L | I | L | L |
 | M9 Quality engineering practice | R | R | S | S | I | I | L | L |
 | M10 Capstone | S | S | S | I | L | I | L | L |
+| M11 Lean Six Sigma Green Belt | S | S | S | I | L | I | L | L |
 | R1 Role foundations | ILP | ILP | ILP | ILP | ILP | ILP | ILP | ILP |
 | R2 Health care foundations | I | I | I | I | I | I | I | L |
 | L1 Coaching others in automation | — | — | — | — | L | L | L | L |
@@ -312,7 +317,7 @@ With the optional extension to 240 hours for B3 and B4, the gates move to hours 
 
 ### Core modules
 
-Each module lists its outcomes, evidence, activities, and resources. The evidence ids (E0 to E10) are reviewed at the gates. Where the evidence differs by track, the module says so. Otherwise every track produces the evidence at its depth from the table above.
+Each module lists its outcomes, evidence, activities, and resources. The evidence ids (E0 to E11) are reviewed at the gates, and E11 also by the certification body. Where the evidence differs by track, the module says so. Otherwise every track produces the evidence at its depth from the table above.
 
 #### M0 Induction and baseline (hours 0–7.5)
 
@@ -422,6 +427,26 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 
 - **Activities:** a review with the mentor in every 7.5 hours of learning; pull requests reviewed by developers on the team (at least two for B5 and above); a mid-capstone show-and-tell to the team; an optional presentation rehearsal with the mentor in hours 165–172.5.
 
+#### M11 Lean Six Sigma Green Belt, lifetime certification (hours 180–220)
+
+- **Outcomes:** LO14.
+- **Evidence E11:**
+  - a Lean Six Sigma **Green Belt certificate** from a certification body whose Green Belt does not expire (Decision D8)
+  - a **Green Belt project** on the person's own team's testing process, using DMAIC: a project charter, a SIPOC and process map, a baseline measure with real data, a root-cause analysis, an improvement, and a control plan. Typical measures: flaky test rate, time from a defect report to a regression test, manual regression hours per release, defects found after release, and CI run time. The project uses synthetic data only, and builds on the E1 analysis and the E9 suite-health report.
+    - B3, B4: a part of a team project, led by a mentor or a B6 or B7 colleague, with their own part named in the charter.
+    - B5, B6-TE: a small project of their own.
+    - B6-QA, B7-TE: lead a project, and coach a lower-band colleague's part.
+    - B7-TM: lead a project for their area, and sponsor the cohort's other projects with the product owners.
+- **Activities:** 27.5 hours on the Green Belt body of knowledge and exam preparation, 10 hours on the project, and 2.5 hours for the certification exam:
+  - Lean: value and flow; the eight wastes (TIMWOODS) in testing; value stream mapping of the test process; kaizen.
+  - Define: voice of the customer, critical-to-quality requirements, SIPOC, the project charter.
+  - Measure: data collection plans, measurement system analysis, descriptive statistics, variation, process capability, and sigma level.
+  - Analyse: Pareto charts, fishbone diagrams, the five whys, hypothesis testing, correlation and regression, FMEA.
+  - Improve: generating and piloting solutions; automation as an improvement, measured, not assumed.
+  - Control: control charts and statistical process control, control plans, and handing the process to its owner.
+- **Assessment:** the certification body's exam, and a project review by the training lead and mentor, with the product owner as sponsor. Certification completes the programme with Gate 4 (see [Completion](#completion)).
+- **Resources:** testingexamples "How does Six Sigma lead manual testing into automatic testing?"; the certification body's Green Belt body of knowledge (Decision D8); the flow metrics from M9.
+
 ### Track modules
 
 #### R1 Role foundations (hours 0–180, individual)
@@ -473,6 +498,7 @@ Every gate repeats the full capability self-assessment (Parts A to C) with calib
 | Gate 2 | 90 | E4–E5 | Automate one given manual test case on the fixture site (B3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
 | Gate 3 | 127.5 | E6–E7 | Triage and fix a failing CI run (B6 and B7-TE: plus an API test; B7-TM: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
 | Gate 4 | 180 | E8–E10 | Live run and explanation of the capstone | Gate 4 panel |
+| Certification | By 220 | E11 | The Green Belt certification exam, set by the certification body (Decision D8) | Certification body; the training lead and mentor review the project |
 | Gate 5 | About six months after Gate 4 | Six months of work | Demonstrate a recent automated change | Line manager, training lead |
 
 #### Gate thresholds
@@ -491,7 +517,7 @@ Using agreed ratings and the capability index:
 #### If a gate is not met
 
 1. The person gets up to 22.5 extra learning hours on the items below threshold, with a written plan and extra mentor time, and the gate is repeated once.
-2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the extension to 240 hours, a different automation target, more R1 support, or pausing the programme.
+2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the extension to 280 hours, a different automation target, more R1 support, or pausing the programme.
 3. In line with Principle 14, none of these is a capability or performance procedure.
 
 #### Gate 4 panel
@@ -500,19 +526,20 @@ Three people: a lead test engineer or test manager at least one band above the p
 
 #### Completion
 
-A person completes the programme at Gate 4 when every threshold for Gate 4 is met. Gate 5 confirms that the capability holds in normal work.
+A person completes the programme when every threshold for Gate 4 is met, and they hold the Lean Six Sigma Green Belt certification with an accepted Green Belt project (E11). Gate 5 confirms that the capability holds in normal work.
 
 ### Roles and responsibilities
 
 | Role | Responsibilities | Time commitment |
 | --- | --- | --- |
-| Participant | Completes the self-assessment honestly at every gate, follows the ILP, produces evidence, keeps a learning log entry for each learning session. | 180 hours, protected; by default 7.5 hours a week |
-| Line manager | Protects learning time; rates each gate independently and calibrates; owns the ILP with the participant. | 1 hour per 15 learning hours, plus 2 hours a gate: about 24 hours |
-| Mentor | Pairs, reviews code, runs R1 practice, prepares for gates. At least one band above the participant and at or above their automation target; for Band 7 tracks, a Band 8a or higher lead, or an external mentor if none is available. One mentor supports up to 3 participants. | 1.5 hours per 7.5 learning hours in hours 0–45, then 1 hour per 7.5 learning hours: 27 hours per participant |
-| Training lead (programme owner) | Owns this specification and the instrument; runs gates; moderates calibration; evaluates and maintains the programme. | 3.75 hours per 7.5 cohort learning hours, for a cohort of up to 12: 90 hours |
+| Participant | Completes the self-assessment honestly at every gate, follows the ILP, produces evidence, keeps a learning log entry for each learning session. | 220 hours, protected; by default 7.5 hours a week |
+| Line manager | Protects learning time; rates each gate independently and calibrates; owns the ILP with the participant. | 1 hour per 15 learning hours, plus 2 hours a gate: about 27 hours |
+| Mentor | Pairs, reviews code, runs R1 practice, prepares for gates. At least one band above the participant and at or above their automation target; for Band 7 tracks, a Band 8a or higher lead, or an external mentor if none is available. One mentor supports up to 3 participants. | 1.5 hours per 7.5 learning hours in hours 0–45, then 1 hour per 7.5 learning hours, including Green Belt project support in M11: about 32 hours per participant |
+| Training lead (programme owner) | Owns this specification and the instrument; runs gates; moderates calibration; evaluates and maintains the programme. | 3.75 hours per 7.5 cohort learning hours to hour 180, plus about 20 hours in M11, for a cohort of up to 12: about 110 hours |
 | Head of test (sponsor) | Sponsors the programme; reviews L2 strategies; chairs B7 Gate 4 panels. | 2 hours a month |
 | Developers | Review pull requests, pair on M6, join Gate 2 and 3 reviews and Gate 4 panels. | About 1 hour per 7.5 learning hours |
-| Product owners | Review Given-When-Then scenarios; agree and accept capstones. | 3 hours per participant |
+| Product owners | Review Given-When-Then scenarios; agree and accept capstones; sponsor Green Belt projects. | 4 hours per participant |
+| Lean Six Sigma trainer and certification body | Teach the Green Belt body of knowledge in M11, set the certification exam, and issue a certificate that does not expire (Decision D8). | 30 hours of teaching per cohort |
 | Clinical safety officer | Runs R2 and M8 sessions; reviews traceability evidence. | 6 hours per cohort, plus reviews |
 | Information governance lead | Runs R2 and M8 sessions on test and personal data. | 3 hours per cohort |
 | HR | Confirms the developmental status of gates (Principle 14); agrees mapping decisions. | As needed |
@@ -525,7 +552,8 @@ Following Universal Design for Instruction:
 - Evidence can be shown in more than one way where the outcome allows, for example a recorded walkthrough instead of a written explanation.
 - The self-assessment can be completed with the mentor's help, in writing or in conversation.
 - Tools are checked for accessibility: editor screen reader support, high-contrast themes, captioned videos.
-- Pacing is flexible within each gate period, and B3 and B4 can extend to 240 hours.
+- Pacing is flexible within each gate period, and B3 and B4 can extend to 280 hours.
+- The Green Belt exam is booked with the certification body's own reasonable adjustments, such as extra time or a reader.
 - Mixed-band pairing, show-and-tells, and coaching build a community of learners, and the learning log gives a private channel for questions.
 - Reasonable adjustments are recorded at Gate 0 and reviewed at every gate.
 
@@ -547,6 +575,7 @@ Impact measures, taken at Gate 0, Gate 4, and Gate 5:
 - Manual regression cases automated, and manual regression hours saved per release.
 - Time from a defect report to a regression test existing for it.
 - Quarantined tests and CI suite run time.
+- The improvement each Green Belt project achieved in its testing process measure.
 - Retention of participants at 12 months.
 
 ### Maintenance
@@ -569,6 +598,7 @@ Following PADDIE+M, the training lead:
 | D5 | Capstone scope per person | As in the M10 table, agreed at hour 142.5 | Product owner, mentor |
 | D6 | Mapping for band and role combinations without a reference level, and Band 3 factor levels | The mapping rule in [Tracks](#tracks) | Line manager, training lead, HR |
 | D7 | Developmental status of gates | Gates are developmental only (Principle 14) | HR, head of test |
+| D8 | Lean Six Sigma Green Belt certification body | An accredited body whose Green Belt certification does not expire, with an exam and a project requirement; the course may be delivered in house or by the body | Training lead, with the head of test |
 
 ## Acceptance criteria
 
@@ -599,6 +629,7 @@ Coverage check, outcome to evidence:
 | LO11 | E4 |
 | LO12 | E10 |
 | LO13 | Capability self-assessment at every gate |
+| LO14 | E11 |
 
 ## Related topics
 
@@ -611,6 +642,7 @@ Coverage check, outcome to evidence:
 - Digital health care job roles reference (roles-skills), in `~/git/agenda-for-change/`: `data/bands.yaml` (band outlines and points ranges), `data/job-evaluation.yaml` (16 factors), `data/roles/quality-assurance-test-analyst.yaml`, `data/roles/test-engineer.yaml`, `data/roles/test-manager.yaml`, `exports/self-assessment/`, `guides/self-assessment/index.md`, `research/pcf-role-levels.tsv`, and `roles-skills.github.io/content/reference.json`; published at <https://roles-skills.github.io>. The reference profiles are illustrative, not official job descriptions, and its job evaluation scores are not a formal evaluation.
 - UK Government Digital and Data Profession Capability Framework: <https://understand-digital-data-roles-skills.service.gov.uk/>. Contains public sector information licensed under the Open Government Licence v3.0. © Crown copyright.
 - Testing Examples: `~/git/testingexamples/`, published at <https://testingexamples.github.io>.
+- Lean Six Sigma: testingexamples "How does Six Sigma lead manual testing into automatic testing?" (<https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/>); the certification body's Green Belt body of knowledge (Decision D8).
 - HL7 FHIR: <https://hl7.org/fhir/>. Selenium: <https://www.selenium.dev/>. Mocha: <https://mochajs.org/>. Playwright: <https://playwright.dev/>.
 
 ## Change log
@@ -619,6 +651,7 @@ Coverage check, outcome to evidence:
 | --- | --- |
 | 2026-10-07 | First version: one learner moving from Band 5 to Band 6. |
 | 2026-10-07 | Rewritten: eight tuned tracks for Bands 3 to 7, no band changes, a full capability self-assessment (21 band dimensions, PCF role aspects, all role skills) at every gate, and capability thresholds per gate. |
+| 2026-10-07 | Added M11 Lean Six Sigma Green Belt, lifetime certification: 40 hours at the end of every track (hours 180–220), with LO14, E11, and Decision D8. The programme is 220 hours (280 with the B3 and B4 extension); completion needs Gate 4 and the certification. |
 | 2026-10-07 | Revised: timelines in hours. Every track has 180 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), with an hour budget that totals 180; the schedule, gates, and time commitments are in programme hours; B3 and B4 may extend to 240 hours. |
 | 2026-10-07 | Revised: JavaScript with Selenium WebDriver and Mocha replaces TypeScript with Playwright (Playwright becomes the reading-only tool for LO11); no Docker anywhere, with a JavaScript FHIR sandbox; Principle 10, wait explicitly; the informal capability estimate removed. |
 | 2026-10-07 | Implemented: instruments generated per track; Partly defined for Part C; LO2 (B7-TE) and LO11 (B7-TM) depths aligned with modules; Gate 3 timing, B3 in hours 90–112.5, L4 timing, Band 7 mentors, and the capstone rehearsal made explicit. |

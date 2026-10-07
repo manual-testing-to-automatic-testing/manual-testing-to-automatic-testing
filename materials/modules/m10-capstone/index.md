@@ -60,6 +60,8 @@ Presentation: 10 minutes for B3 and B4, 20 minutes for B5 to B7.
 
 Gate 4 (hour 180) reviews E8, E9, and E10, with the full capability self-assessment and the Part D practical: a live run and explanation of the capstone.
 
+After Gate 4, [M11 Lean Six Sigma Green Belt](../m11-lean-six-sigma-green-belt/index.md) runs in hours 180–220. Its Green Belt project often builds on the capstone and its data.
+
 The Gate 4 panel has three people: a lead test engineer or test manager at least one band above the person (chair, not their mentor), a developer from another team, and the training lead. For B7 tracks the chair is the head of test or a lead from outside the person's area. The clinical safety officer reviews traceability evidence in writing.
 
 The capstone must be accepted by the product owner. Gate 4 thresholds are in the spec: at least 90% in each of Parts A, B, and C; Part D Meets; no skill more than one level below expected; test engineering at the automation target; capstone accepted.

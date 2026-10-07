@@ -1,6 +1,6 @@
 # Gate 4 panel guide
 
-Gate 4 (hour 180) decides whether a person completes the programme. The panel reviews the full capability self-assessment, the Part D practical, and evidence E8 to E10.
+Gate 4 (hour 180) decides whether a person's capability meets the programme's standard. Completion also needs the Lean Six Sigma Green Belt that follows (M11, E11). The panel reviews the full capability self-assessment, the Part D practical, and evidence E8 to E10.
 
 ## The panel
 
@@ -69,7 +69,7 @@ The panel checks every Gate 4 threshold:
 
 The panel may change an agreed rating only where the session shows clear evidence against it. It records each change and its reason on the [gate review form](gate-review-form.md).
 
-- **All thresholds met:** the person completes the programme. Gate 5, about six months after Gate 4, confirms the capability holds.
+- **All thresholds met:** the person goes on to M11, the Lean Six Sigma Green Belt, and completes the programme when they hold the certification with an accepted Green Belt project (E11). Gate 5, about six months after Gate 4, confirms the capability holds.
 - **Not met:** up to 22.5 extra learning hours on the items below threshold, with a written plan and extra mentor time, and one repeat of the panel. If the repeat is not met, the person, line manager, and training lead agree a next step.
 
 ## What the panel does not decide

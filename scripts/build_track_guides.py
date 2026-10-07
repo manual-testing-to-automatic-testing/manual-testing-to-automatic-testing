@@ -35,6 +35,17 @@ def find(first, contains=None):
 import csv
 with open(root / "instruments" / "index.tsv", encoding="utf-8") as _f:
     FILE_NAMES = {row["track"]: row["file"].removesuffix(".tsv") for row in csv.DictReader(_f, delimiter="\t")}
+# Each track's Green Belt project scope, as in the M11 module page.
+GREEN_BELT = {
+    "B3": "Your Green Belt project is a named part of a team project, led by your mentor or a B6 or B7 colleague.",
+    "B4-QA": "Your Green Belt project is a named part of a team project, led by your mentor or a B6 or B7 colleague.",
+    "B4-TE": "Your Green Belt project is a named part of a team project, led by your mentor or a B6 or B7 colleague.",
+    "B5-QA": "Your Green Belt project is a small project of your own, on your team's testing process.",
+    "B6-QA": "You lead a Green Belt project on your team's testing process, and coach a lower-band colleague's part.",
+    "B6-TE": "Your Green Belt project is a small project of your own, on your team's testing process.",
+    "B7-TE": "You lead a Green Belt project on your team's testing process, and coach a lower-band colleague's part.",
+    "B7-TM": "You lead a Green Belt project for your area, and sponsor the cohort's other projects with the product owners.",
+}
 TRACKS = ["B3", "B4-QA", "B4-TE", "B5-QA", "B6-QA", "B6-TE", "B7-TE", "B7-TM"]
 tr_h, tr_rows = find("Track", "Reference role level")
 fac_h, fac_rows = find("Id", "B3")
@@ -159,10 +170,13 @@ for t in TRACKS:
     out.append("## Capstone (M10, hours 142.5 to 180)\n")
     out.append(cap[1] + "\n")
     out.append(f"You present it to the Gate 4 panel for {'10' if t[1] in '34' else '20'} minutes, aimed at a non-technical audience.\n")
+    out.append("## Lean Six Sigma Green Belt (M11, hours 180 to 220)\n")
+    out.append("After Gate 4, every track takes the same 40-hour Lean Six Sigma Green Belt, with a certification that does not expire. You complete the programme when Gate 4 is met and you hold the certificate with an accepted Green Belt project (E11).\n")
+    out.append(GREEN_BELT[t] + " See the [M11 module](../../modules/m11-lean-six-sigma-green-belt/index.md).\n")
     out.append("## Gates and practicals\n")
     out.append(f"Gates are at programme hours 0, 45, 90, 127.5, and 180, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **{MINUTES[t]} minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#{t.lower()}). Thresholds and conditions are in the [gates overview](../../gates/index.md).\n")
     if t[1] in "34":
-        out.append("With the optional extension to 240 hours, the gates move to hours 0, 60, 120, 172.5, and 240.\n")
+        out.append("With the optional extension to 280 hours, the gates move to hours 0, 60, 120, 172.5, and 240, and M11 runs in hours 240 to 280.\n")
     out.append("## Mentor\n")
     out.append(f"Your mentor is at least one band above you (Band {int(BAND[t])+1} or higher) and at or above your automation target in test engineering ({at[2].replace('**','')}). One mentor supports up to 3 participants." + (" For B7 tracks, an external mentor may be used if no internal mentor meets these rules." if t.startswith("B7") else "") + "\n")
     out.append("## Related\n")

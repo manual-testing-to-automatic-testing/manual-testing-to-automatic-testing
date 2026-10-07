@@ -2,7 +2,7 @@
 
 **For:** product owners, the clinical safety officer, the information governance lead, and developers on participants' teams. **Status:** draft.
 
-We are running a programme of 180 hours of protected learning time, by default 7.5 hours a week, that helps manual testers at Bands 3 to 7 automate testing on their own teams' products. You will see real automated tests arrive in your repositories from hour 67.5. Here is what we ask of you. The full design is in [spec/index.md](../../spec/index.md).
+We are running a programme of 220 hours of protected learning time, by default 7.5 hours a week, that helps manual testers at Bands 3 to 7 automate testing on their own teams' products. You will see real automated tests arrive in your repositories from hour 67.5. Here is what we ask of you. The full design is in [spec/index.md](../../spec/index.md).
 
 ## Product owners
 
@@ -12,8 +12,9 @@ We are running a programme of 180 hours of protected learning time, by default 7
 | Hours 67.5–90 (M5) | Review the participant's Given-When-Then scenarios for the manual tests they automate | 1 hour |
 | Hour 142.5 (M10) | Agree the capstone scope: which product area, which manual cases | 1 hour |
 | Hour 180 (Gate 4) | Review and accept (or not) the capstone | 1 hour |
+| Hours 180–220 (M11) | Sponsor the participant's Lean Six Sigma Green Belt project: agree its charter, and review its result | 1 hour |
 
-About 3 hours per participant, plus the capstone review.
+About 4 hours per participant, plus the capstone review.
 
 ## Clinical safety officer
 

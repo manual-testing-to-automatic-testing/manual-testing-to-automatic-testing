@@ -4,7 +4,7 @@
 
 ## Summary
 
-We plan a development programme of 180 hours of protected learning time, by default 7.5 hours a week over about 24 calendar weeks, for manual testers at Bands 3 to 7. It builds automated testing skills, and closes gaps in each person's current role. **Nobody changes band.** We ask HR to agree four things before the programme starts.
+We plan a development programme of 220 hours of protected learning time, by default 7.5 hours a week over about 30 calendar weeks, ending with a Lean Six Sigma Green Belt with a lifetime certification, for manual testers at Bands 3 to 7. It builds automated testing skills, and closes gaps in each person's current role. **Nobody changes band.** We ask HR to agree four things before the programme starts.
 
 ## Background
 

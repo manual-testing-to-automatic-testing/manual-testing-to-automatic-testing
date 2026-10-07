@@ -67,7 +67,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [ ] Agree Band 3 factor levels from job descriptions (D6)
 - [ ] Record each participant's capability index as their baseline
 - [ ] Write and sign each participant's ILP and learning agreement
-- [ ] Run the M0 diagnostic coding exercise, and decide who takes the option of 240 hours
+- [ ] Run the M0 diagnostic coding exercise, and decide who takes the option of 280 hours
 - [ ] Inventory each team's manual regression pack, and its existing automated tests at each layer
 - [ ] Check every participant's tools, repository access, test environments, and CI access
 
@@ -77,6 +77,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [ ] Confirm gate thresholds and conditions with the training lead and HR
 - [x] Confirm every learning outcome has a depth for every track, and maps to evidence (checked by script: 12 outcomes with 8 depths each, LO13 for all tracks, 13 coverage rows)
 - [ ] Choose the JavaScript foundations course (D3)
+- [ ] Choose the Lean Six Sigma Green Belt certification body, with a certificate that does not expire, and agree the course and exam budget (D8)
 - [ ] Agree capstone areas for each participant with product owners (D5)
 - [ ] Review the design against Universal Design for Instruction
 - [ ] Sign off the spec for this cohort
@@ -104,6 +105,8 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [x] M8 traceability matrix template (drafted; review with the clinical safety officer)
 - [x] M9 flaky-test exercise and suite-health report template
 - [x] M10 capstone briefs for each of the eight tracks, and a presentation template
+- [x] M11 Lean Six Sigma Green Belt module page and Green Belt project charter template
+- [ ] M11 course materials and exam booking, from the certification body (D8)
 - [x] Reading list for each module, from the spec's resources
 - [ ] Accessibility check of every resource (checklist and resource table in `materials/accessibility-check.md`, all "not yet checked")
 
@@ -167,10 +170,16 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [ ] M10 Capstone (hours 142.5–180): E10 complete
 - [ ] Gate 4 (hour 180): full self-assessment, calibration, panel, capstone acceptance
 
+### Lean Six Sigma Green Belt
+
+- [ ] M11 Lean Six Sigma Green Belt (hours 180–220): Green Belt projects chartered with product owners as sponsors
+- [ ] Green Belt exams booked with the certification body, with reasonable adjustments
+- [ ] E11 complete: certificates issued and projects accepted; record programme completion
+
 ### Consolidation and follow-up
 
 - [ ] Monthly mentor check-ins (the six months after Gate 4)
-- [ ] Run the extension to 240 hours for B3 and B4 participants who chose it
+- [ ] Run the extension to 280 hours for B3 and B4 participants who chose it
 - [ ] Gate 5 (about six months after Gate 4): full self-assessment, calibration, Part D, plan for remaining gaps
 
 ## 6. Evaluation

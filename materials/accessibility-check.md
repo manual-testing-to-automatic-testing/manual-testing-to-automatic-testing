@@ -98,6 +98,9 @@ The scan supports checks 3 and 8 only, so every status below stays **not yet che
 | M9 | Selenium documentation: waits (flaky tests) | not yet checked | | | |
 | M9 | Flaky-test investigation and suite-health report templates | not yet checked | | | |
 | M10 | Capstone briefs, scope agreement, presentation outline | not yet checked | | | |
+| M11 | How does Six Sigma lead manual testing into automatic testing? | not yet checked | | | |
+| M11 | Certification body's Green Belt course materials and exam (D8) | not yet checked | | | Ask the body for its accessible formats and exam adjustments |
+| M11 | Green Belt project charter template | not yet checked | | | |
 
 ## When a check fails
 

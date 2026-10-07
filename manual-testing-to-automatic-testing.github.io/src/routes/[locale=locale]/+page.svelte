@@ -30,7 +30,7 @@
   const EN_001: Messages = {
     heading: 'Manual testing to automatic testing',
     lede:
-      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers, over 180 hours of protected learning time, by default 7.5 hours a week, while each person stays in the band and UK GDaD PCF role they already hold.',
+      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers, over 220 hours of protected learning time, by default 7.5 hours a week, ending with a Lean Six Sigma Green Belt with a lifetime certification, while each person stays in the band and UK GDaD PCF role they already hold.',
     start: 'Start with the programme specification: it is the single source of truth.',
     startCta: 'Read the programme',
     assessCta: 'Open the self-assessment',
@@ -53,7 +53,7 @@
   const m = $derived(MESSAGES[data.locale as Locale]);
 
   const groups = $derived([
-    { heading: m.participantsHeading, slugs: ['materials/tracks', 'materials/modules', 'materials/reading-list', 'instruments'] },
+    { heading: m.participantsHeading, slugs: ['materials/tracks', 'materials/modules', 'materials/modules/m11-lean-six-sigma-green-belt', 'materials/reading-list', 'instruments'] },
     { heading: m.gatesHeading, slugs: ['materials/gates', 'materials/gates/calibration-guide', 'materials/gates/part-d-practicals', 'materials/gates/gate-review-form'] },
     { heading: m.organisersHeading, slugs: ['plan', 'tasks', 'materials/planning', 'materials/planning/sponsor-brief', 'materials/planning/hr-briefing', 'materials/planning/decision-log'] },
     { heading: m.practiceHeading, slugs: ['practice-repo', 'practice-repo/fhir-sandbox'] }

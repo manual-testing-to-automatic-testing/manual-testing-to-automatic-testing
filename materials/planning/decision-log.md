@@ -11,6 +11,7 @@ The decisions in [spec/index.md](../../spec/index.md#decisions). Record each dec
 | D5 | Capstone scope per person | As in the spec's M10 table, agreed at hour 142.5 | — | Product owner, mentor | Open (decided per person in hours 142.5–150) | | |
 | D6 | Mapping for band and role combinations without a reference level, and Band 3 factor levels | The spec's mapping rule; Band 3 factor levels agreed at Gate 0 from the job description, total within 216 to 270 points | — | Line manager, training lead, HR | Open | | See [hr-briefing.md](hr-briefing.md) |
 | D7 | Developmental status of gates | Gates are developmental only (spec Principle 14) | — | HR, head of test | Open | | See [hr-briefing.md](hr-briefing.md) |
+| D8 | Lean Six Sigma Green Belt certification body | An accredited body whose Green Belt certification does not expire, with an exam, a project requirement, and a resit policy | Course in house with an external exam; course and exam from the same body | Training lead, with the head of test | Open | | See [M11](../modules/m11-lean-six-sigma-green-belt/index.md) |
 
 ## Open questions from the plan
 
@@ -25,3 +26,4 @@ From [plan.md](../../plan.md#open-questions):
 | 5 | Is there budget for a paid JavaScript course? | D3 | | | |
 | 6 | Can participants install Node.js 24 and Chrome, and run a local server on port 8080? | D4 | | | |
 | 7 | How many people are in the first cohort, in which tracks, and who are the mentors? | — | | | |
+| 8 | Which Lean Six Sigma body certifies the Green Belt, with a certificate that does not expire, and what is the budget for its course and exam? | D8 | | | |

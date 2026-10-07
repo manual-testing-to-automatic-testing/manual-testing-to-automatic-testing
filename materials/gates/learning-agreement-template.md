@@ -11,7 +11,7 @@ This agreement is signed at Gate 0. It records the commitments that make the pro
 | Assigned PCF role and role level | |
 | Track | |
 | Programme dates | Start: End of Gate 4: Gate 5: |
-| Programme length | 180 hours / 240 hours (B3 and B4 only) |
+| Programme length | 220 hours / 280 hours (B3 and B4 only), including the 40-hour Lean Six Sigma Green Belt |
 
 ## 2. What this programme is, and is not
 
@@ -23,7 +23,7 @@ This agreement is signed at Gate 0. It records the commitments that make the pro
 
 | Field | Entry |
 | --- | --- |
-| Protected time | 180 learning hours (240 with the B3 and B4 extension), the same for every track; by default 7.5 hours a week (20% of a 37.5-hour week). Agreed pace: ____ hours a week |
+| Protected time | 220 learning hours (280 with the B3 and B4 extension), the same for every track; by default 7.5 hours a week (20% of a 37.5-hour week). Agreed pace: ____ hours a week |
 | When in the week | Monday / Tuesday / Wednesday / Thursday / Friday, and times: ____ |
 | Booked in calendars by | |
 
@@ -38,6 +38,7 @@ Protected time is not reassigned to delivery work without the training lead's ag
 | Gate 2 | 90 (120) | |
 | Gate 3 | 127.5 (172.5) | |
 | Gate 4 | 180 (240) | |
+| Green Belt certification exam | By 220 (280) | |
 | Gate 5 | About six months after Gate 4, outside the learning hours | |
 
 ## 5. Commitments

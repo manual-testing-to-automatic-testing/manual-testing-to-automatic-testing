@@ -79,7 +79,7 @@ Not in this role level: Medical device software regulation, People management.
 
 | Protected time | Approximate guided hours | Optional extension |
 | --- | --- | --- |
-| 7.5 hours a week, by default | 180 | — |
+| 7.5 hours a week, by default | 220 | — |
 
 From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at this track's depth.
 
@@ -100,6 +100,7 @@ From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automatio
 | LO11 | Read and make a small change to an existing Playwright suite. | With support |
 | LO12 | Plan, build or lead, and explain an automated regression suite for a real service. | Leads or coaches others |
 | LO13 | Fully meet the person's own band and PCF role, measured by the capability self-assessment. | Overall capability index of at least 90% at Gate 4 |
+| LO14 | Apply Lean Six Sigma (DMAIC) to measure and improve a testing process, and hold a Green Belt certification that does not expire. | Leads or coaches others |
 
 ## Module depths
 
@@ -116,6 +117,7 @@ From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automatio
 | M8 Safe and lawful test automation | Lead or coach |
 | M9 Quality engineering practice | Independent |
 | M10 Capstone | Lead or coach |
+| M11 Lean Six Sigma Green Belt | Lead or coach |
 | R1 Role foundations | Set by ILP |
 | R2 Health care foundations | Independent |
 | L1 Coaching others in automation | Lead or coach |
@@ -135,6 +137,12 @@ From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automatio
 A risk-based automation approach for the area, automated acceptance checks agreed with clinical users, and coaching a B4 or B5 colleague through their capstone.
 
 You present it to the Gate 4 panel for 20 minutes, aimed at a non-technical audience.
+
+## Lean Six Sigma Green Belt (M11, hours 180 to 220)
+
+After Gate 4, every track takes the same 40-hour Lean Six Sigma Green Belt, with a certification that does not expire. You complete the programme when Gate 4 is met and you hold the certificate with an accepted Green Belt project (E11).
+
+You lead a Green Belt project on your team's testing process, and coach a lower-band colleague's part. See the [M11 module](../../modules/m11-lean-six-sigma-green-belt/index.md).
 
 ## Gates and practicals
 

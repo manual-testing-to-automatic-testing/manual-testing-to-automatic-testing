@@ -1,8 +1,8 @@
 # Formal training programme: manual testing to automatic testing
 
-A formal, gated training programme of 180 hours that upskills manual testers at Bands 3 to 7 into automatic testers, while each person stays in their current band and assigned UK GDaD PCF role. There are eight tuned tracks. Every gate repeats a full capability self-assessment: the band (21 dimensions), the PCF role aspects, and every skill in the role.
+A formal, gated training programme of 220 hours that upskills manual testers at Bands 3 to 7 into automatic testers, while each person stays in their current band and assigned UK GDaD PCF role. There are eight tuned tracks. Every gate repeats a full capability self-assessment: the band (21 dimensions), the PCF role aspects, and every skill in the role.
 
-The programme is 180 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week). The stack is JavaScript with Selenium WebDriver and Mocha. Participants need only Node.js 24, Google Chrome, VS Code, and git: nothing needs Docker.
+The programme is 220 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), and ends on every track with a Lean Six Sigma Green Belt, lifetime certification (40 hours). The stack is JavaScript with Selenium WebDriver and Mocha. Participants need only Node.js 24, Google Chrome, VS Code, and git: nothing needs Docker.
 
 ## Start here
 
@@ -25,7 +25,7 @@ Find your role, and work down its checklist. The roles are listed in the order t
 - [ ] Read the [sponsor brief](materials/planning/sponsor-brief.md) and the [resource estimate](materials/planning/resource-estimate.md).
 - [ ] Agree to sponsor the programme, and name a training lead.
 - [ ] Release mentors: at least one band above each participant, at most 3 participants each.
-- [ ] Decide D1 (tool) and D2 (CI service) with the training lead, in the [decision log](materials/planning/decision-log.md).
+- [ ] Decide D1 (tool), D2 (CI service), and D8 (Green Belt certification body) with the training lead, in the [decision log](materials/planning/decision-log.md).
 - [ ] Chair the Gate 4 panels for Band 7 participants.
 
 ### Training lead
@@ -70,6 +70,7 @@ Find your role, and work down its checklist. The roles are listed in the order t
 - [ ] Before Gate 0, complete your track's [self-assessment](instruments/README.md), with evidence, following the [calibration guide](materials/gates/calibration-guide.md). The website has an interactive version of each.
 - [ ] Agree your [individual learning plan](materials/gates/ilp-template.md) and sign your [learning agreement](materials/gates/learning-agreement-template.md).
 - [ ] Work through the [modules](materials/modules/index.md) for your track, and keep a [learning log](materials/gates/learning-log-template.md).
+- [ ] After Gate 4, complete the [Lean Six Sigma Green Belt](materials/modules/m11-lean-six-sigma-green-belt/index.md): your Green Belt project and the certification exam.
 - [ ] Repeat the self-assessment before every gate, and give [feedback](materials/gates/participant-feedback-form.md) after each one.
 
 ### Product owner, clinical safety officer, information governance lead, and developers
@@ -90,7 +91,7 @@ Find your role, and work down its checklist. The roles are listed in the order t
 | --- | --- |
 | [instruments/](instruments/) | The capability self-assessment for each track, generated from the roles-skills reference |
 | [scripts/](scripts/) | `build_instrument.py` builds the instruments; `capability_index.py` scores a completed one; `build_track_guides.py` rebuilds the track guides from the spec; `gate_calendar.py` prints a cohort's dates; `accessibility-scan/` scans the reading list's web resources |
-| [materials/modules/](materials/modules/) | Core modules M0 to M10: session plans, exercises, templates, capstone briefs |
+| [materials/modules/](materials/modules/) | Core modules M0 to M11: session plans, exercises, templates, capstone briefs, and the Lean Six Sigma Green Belt |
 | [materials/tracks/](materials/tracks/) | Track guides (B3 to B7-TM) and track modules R1, R2, L1 to L5 |
 | [materials/planning/](materials/planning/) | Planning pack: sponsor brief, HR briefing, manager and stakeholder briefings, decision log, resource estimate, cohort roster template |
 | [materials/gates/](materials/gates/) | Gate overview, Part D practicals, review form, calibration guide, panel guide, ILP and other templates |

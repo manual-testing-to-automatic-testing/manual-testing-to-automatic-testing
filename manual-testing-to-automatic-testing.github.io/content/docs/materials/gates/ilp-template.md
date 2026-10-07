@@ -15,7 +15,7 @@ The ILP is written at Gate 0 from the calibrated baseline, and updated at every 
 | Band 3 factor levels agreed from job description (B3 only) | A6: A7: A8: A9: A10: A11: A12: A13: A14: A15: A16: A17: A18: A19: A20: A21: Total points (216 to 270): |
 | Line manager | |
 | Mentor | |
-| Programme length | 180 hours / 240 hours (B3 and B4 only) |
+| Programme length | 220 hours / 280 hours (B3 and B4 only), including the 40-hour Lean Six Sigma Green Belt |
 
 ## 2. Baseline and progress
 

@@ -130,6 +130,15 @@ Everything above, plus:
 | --- | --- | --- |
 | Capstone briefs, scope agreement, and presentation outline | [modules/m10-capstone/](modules/m10-capstone/index.md) | Markdown |
 
+## M11 Lean Six Sigma Green Belt
+
+| Resource | Link | Format |
+| --- | --- | --- |
+| How does Six Sigma lead manual testing into automatic testing? | <https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/> | Web |
+| What metrics help automatic testing? (flow metrics, revisited) | <https://testingexamples.github.io/en-001/what-are-flow-metrics-for-automatic-testing/> | Web |
+| The certification body's Green Belt body of knowledge and practice exams | Chosen under Decision D8 | Course materials |
+| M11 module page and Green Belt project charter | [modules/m11-lean-six-sigma-green-belt/](modules/m11-lean-six-sigma-green-belt/index.md) | Markdown |
+
 ## Other languages and tools (after Gate 2)
 
 Principle 9 says one language and one tool first. After Gate 2, people who want to compare can read the sibling skills and demos for Python, TypeScript, Java, C#, and Rust, for both Selenium and Playwright, at <https://github.com/testingexamples>.

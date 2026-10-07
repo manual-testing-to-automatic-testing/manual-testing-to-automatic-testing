@@ -10,7 +10,7 @@ const LINKED = [
   'materials/modules', 'materials/tracks', 'materials/gates', 'materials/planning',
   'materials/gates/calibration-guide', 'materials/gates/part-d-practicals', 'materials/gates/gate-review-form',
   'materials/planning/sponsor-brief', 'materials/planning/hr-briefing', 'materials/planning/decision-log',
-  'materials/reading-list', 'instruments', 'practice-repo', 'practice-repo/fhir-sandbox'
+  'materials/reading-list', 'materials/modules/m11-lean-six-sigma-green-belt', 'instruments', 'practice-repo', 'practice-repo/fhir-sandbox'
 ];
 
 export const load = ({ params }) => {
@@ -36,6 +36,6 @@ export const load = ({ params }) => {
     tracks,
     title: SITE_NAME,
     description:
-      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 180 hours, in the band and role they already hold.'
+      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 220 hours, ending with a Lean Six Sigma Green Belt, in the band and role they already hold.'
   };
 };

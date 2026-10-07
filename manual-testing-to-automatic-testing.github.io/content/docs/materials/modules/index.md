@@ -1,6 +1,6 @@
 # Core module materials
 
-These are the materials for the core modules M0 to M10. [../../spec/index.md](../../spec/index.md) is the single source of truth. If anything here disagrees with the spec, the spec wins, and the difference is a defect to fix.
+These are the materials for the core modules M0 to M11. [../../spec/index.md](../../spec/index.md) is the single source of truth. If anything here disagrees with the spec, the spec wins, and the difference is a defect to fix.
 
 | Module | Programme hours | Hours | Folder |
 | --- | --- | --- | --- |
@@ -15,6 +15,7 @@ These are the materials for the core modules M0 to M10. [../../spec/index.md](..
 | M8 Safe and lawful test automation in health care | 127.5–142.5 | 7 | [m8-safe-and-lawful-automation](m8-safe-and-lawful-automation/index.md) |
 | M9 Quality engineering practice | 135–150 | 6 | [m9-quality-engineering](m9-quality-engineering/index.md) |
 | M10 Capstone | 142.5–180 | 27.5 | [m10-capstone](m10-capstone/index.md) |
+| M11 Lean Six Sigma Green Belt, lifetime certification | 180–220 | 40 | [m11-lean-six-sigma-green-belt](m11-lean-six-sigma-green-belt/index.md) |
 
 See also the [reading list](../reading-list.md) and the [accessibility check](../accessibility-check.md).
 
@@ -27,15 +28,15 @@ Each module page has the same sections:
 - **Depth by track:** copied from the spec. **R** read and discuss, **S** apply with support, **I** apply independently, **L** apply and lead or coach others, **—** not taken.
 - **Session plan:** sessions, durations, and format. **Core** sessions are shared by the whole cohort. **Breakout** sessions are for named tracks.
 - **Activities.**
-- **Evidence:** the evidence id (E0 to E10), with the variants for each track.
+- **Evidence:** the evidence id (E0 to E11), with the variants for each track.
 - **Assessment:** which gate reviews the evidence.
 - **Resources.**
 
 ## Time
 
-The programme is **180 hours** of protected learning time for every track. Tracks differ in depth, evidence, and capstone, not in hours. The default pace is 7.5 hours a week, 20% of a 37.5-hour working week, so the programme runs over about 24 calendar weeks; the learning agreement may set another pace. B3 and B4 may extend to 240 hours; their gates then fall at hours 0, 60, 120, 172.5, and 240.
+The programme is **220 hours** of protected learning time for every track: 180 hours for M0 to M10, the role and health care foundations, and Gates 0 to 4, then 40 hours for M11, the Lean Six Sigma Green Belt. Tracks differ in depth, evidence, and capstone, not in hours. The default pace is 7.5 hours a week, 20% of a 37.5-hour working week, so the programme runs over about 30 calendar weeks; the learning agreement may set another pace. B3 and B4 may extend to 280 hours; their gates then fall at hours 0, 60, 120, 172.5, and 240, and M11 runs in hours 240–280.
 
-The timeline is in programme hours, counted from 0. The table below splits the 180 hours into blocks of 7.5 hours (a week at the default pace), and every block adds up to 7.5 hours. Besides the core modules, the blocks hold:
+The timeline is in programme hours, counted from 0. The table below splits the 220 hours into blocks of 7.5 hours (a week at the default pace); every block adds up to 7.5 hours, except the last, which holds the 2.5-hour exam. Besides the core modules, the blocks hold:
 
 - **R1 role foundations:** 1 hour in every 7.5 hours of learning from hour 7.5 (the ILP meeting in hours 0–7.5 starts it): 23 hours.
 - **R2 health care foundations:** 1 hour in each block from hour 7.5 to hour 60: 7 hours.
@@ -68,10 +69,16 @@ The timeline is in programme hours, counted from 0. The table below splits the 1
 | 157.5–165 | M10 6.5 | 1 | — | — | — | 7.5 |
 | 165–172.5 | M10 6.5 | 1 | — | — | — | 7.5 |
 | 172.5–180 | M10 4 | 1 | — | Gate 4, 2.5 | — | 7.5 |
-| **All** | **128** | **23** | **7** | **10** | **12** | **180** |
+| 180–187.5 | M11 7.5 | — | — | — | — | 7.5 |
+| 187.5–195 | M11 7.5 | — | — | — | — | 7.5 |
+| 195–202.5 | M11 7.5 | — | — | — | — | 7.5 |
+| 202.5–210 | M11 7.5 | — | — | — | — | 7.5 |
+| 210–217.5 | M11 7.5 | — | — | — | — | 7.5 |
+| 217.5–220 | M11 2.5, the certification exam | — | — | — | — | 2.5 |
+| **All** | **168** | **23** | **7** | **10** | **12** | **220** |
 
 Track modules for B6 and B7 (L1 from hour 67.5; L4 for B6-QA from hour 90; L2, L3, and L5 from hour 112.5) take part of those tracks' breakout and real automation time. B3 does not take M6, so B3's M6 hours go to R1 and real automation at B3 depth.
 
-Gate 5 is a follow-up about six months after Gate 4, outside the 180 hours.
+Gate 5 is a follow-up about six months after Gate 4, outside the 220 hours. M11 has no gate of its own: the certification body's exam and the project review assess it, and a person completes the programme with Gate 4 and E11.
 
 Other people's time, per participant: the mentor gives 1.5 hours per 7.5 learning hours for hours 0–45, then 1 hour per 7.5 learning hours (about 27 hours); the line manager 1 hour per 15 learning hours plus 2 hours per gate (about 24 hours); developers about 1 hour per 7.5 learning hours; the training lead 3.75 hours per 7.5 cohort learning hours for a cohort of up to 12 (90 hours).

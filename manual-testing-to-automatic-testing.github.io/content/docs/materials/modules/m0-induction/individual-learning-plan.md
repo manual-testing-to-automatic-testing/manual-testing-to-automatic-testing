@@ -15,7 +15,7 @@ Agreed at Gate 0. Updated at every gate.
 | Mapping decision (if any) | |
 | Line manager | |
 | Mentor | |
-| 240-hour option (B3, B4 only) | Yes / No |
+| 280-hour option (B3, B4 only) | Yes / No |
 
 ## Baseline (Gate 0)
 

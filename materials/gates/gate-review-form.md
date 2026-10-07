@@ -86,7 +86,7 @@ Record every item where self and manager ratings differed by more than one level
 
 - [ ] **Gate met.** Continue to the next stage.
 - [ ] **Gate not met.** Up to 22.5 extra learning hours on the items below threshold, with the written plan below and extra mentor time. Repeat date: ______
-- [ ] **Repeated gate not met.** Next step agreed (tick one): extension to 240 hours / different automation target / more R1 support / pause the programme / other: ______
+- [ ] **Repeated gate not met.** Next step agreed (tick one): extension to 280 hours / different automation target / more R1 support / pause the programme / other: ______
 
 ### Extra learning hours plan (if not met)
 
