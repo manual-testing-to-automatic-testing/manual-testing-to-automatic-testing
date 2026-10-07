@@ -1,17 +1,25 @@
 // @ts-check
 import js from '@eslint/js';
-import tseslint from 'typescript-eslint';
+import globals from 'globals';
 
-export default tseslint.config(
-  { ignores: ['node_modules', 'playwright-report', 'test-results'] },
+export default [
+  { ignores: ['node_modules', 'test-results'] },
   js.configs.recommended,
-  ...tseslint.configs.recommended,
   {
+    languageOptions: {
+      ecmaVersion: 2024,
+      sourceType: 'module',
+      globals: { ...globals.node },
+    },
+  },
+  {
+    files: ['tests/**/*.js'],
+    languageOptions: { globals: { ...globals.mocha } },
     rules: {
       // Never commit a focused test: it silently skips every other test.
       'no-restricted-properties': [
         'error',
-        { object: 'test', property: 'only', message: 'Remove test.only before committing.' },
+        { object: 'it', property: 'only', message: 'Remove it.only before committing.' },
         {
           object: 'describe',
           property: 'only',
@@ -20,4 +28,8 @@ export default tseslint.config(
       ],
     },
   },
-);
+  {
+    files: ['.mocharc.cjs'],
+    languageOptions: { sourceType: 'commonjs' },
+  },
+];

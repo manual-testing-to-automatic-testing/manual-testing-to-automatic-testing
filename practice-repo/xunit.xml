@@ -1,0 +1,8 @@
+<testsuite name="Mocha Tests" tests="6" failures="0" errors="0" skipped="0" timestamp="Wed, 07 Oct 2026 19:31:37 GMT" time="0.003">
+<testcase classname="" name="accepts valid test-range numbers" file="/Users/jph/git/formal-training-plan-for-manual-testing-to-automatic-testing/practice-repo/tests/katas/07-nhs-number.test.js" time="0"/>
+<testcase classname="" name="accepts spaces in the usual 3-3-4 format" file="/Users/jph/git/formal-training-plan-for-manual-testing-to-automatic-testing/practice-repo/tests/katas/07-nhs-number.test.js" time="0"/>
+<testcase classname="" name="rejects a wrong check digit" file="/Users/jph/git/formal-training-plan-for-manual-testing-to-automatic-testing/practice-repo/tests/katas/07-nhs-number.test.js" time="0"/>
+<testcase classname="" name="rejects numbers whose check digit would be 10" file="/Users/jph/git/formal-training-plan-for-manual-testing-to-automatic-testing/practice-repo/tests/katas/07-nhs-number.test.js" time="0"/>
+<testcase classname="" name="rejects the wrong length and non-digits" file="/Users/jph/git/formal-training-plan-for-manual-testing-to-automatic-testing/practice-repo/tests/katas/07-nhs-number.test.js" time="0"/>
+<testcase classname="" name="identifies the test range" file="/Users/jph/git/formal-training-plan-for-manual-testing-to-automatic-testing/practice-repo/tests/katas/07-nhs-number.test.js" time="0"/>
+</testsuite>

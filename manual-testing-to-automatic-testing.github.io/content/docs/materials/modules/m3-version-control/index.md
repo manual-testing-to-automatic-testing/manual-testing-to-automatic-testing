@@ -64,6 +64,6 @@ Gate 1 (week 6) reviews E3 with E1 and E2. The Gate 1 Part D practical is "fix a
 ## Resources
 
 - [What are related concepts for automatic testing?](https://testingexamples.github.io/en-001/what-are-related-concepts-for-automatic-testing/) (version control, GitHub, pull requests).
-- Any testingexamples demo repository, for example <https://github.com/testingexamples/demo-playwright-typescript>.
+- Any testingexamples demo repository, for example <https://github.com/testingexamples/demo-selenium-javascript>.
 - The team's contribution guidelines.
 - Pro Git book: <https://git-scm.com/book/en/v2>

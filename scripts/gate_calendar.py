@@ -20,7 +20,7 @@ STANDARD = {
         ("M0 Induction and baseline", 1, 1),
         ("M1 Why and what to automate", 1, 2),
         ("R1 Role foundations", 1, 24),
-        ("M2 Programming foundations in TypeScript", 2, 6),
+        ("M2 Programming foundations in JavaScript", 2, 6),
         ("R2 Health care foundations", 2, 8),
         ("M3 Version control and collaboration", 4, 6),
         ("M4 Browser automation fundamentals", 7, 9),

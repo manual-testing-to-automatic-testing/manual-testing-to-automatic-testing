@@ -1,6 +1,6 @@
 # R2 Health care foundations
 
-R2 runs in weeks 2 to 8 for every track. Its purpose is that every person meets the expected levels in **understanding health and care services**, **clinical risk management**, and **information governance and data protection** by Gate 2 (spec Principle 12). R2 is reflected in Part C ratings at Gate 2.
+R2 runs in weeks 2 to 8 for every track. Its purpose is that every person meets the expected levels in **understanding health and care services**, **clinical risk management**, and **information governance and data protection** by Gate 2 (spec Principle 13). R2 is reflected in Part C ratings at Gate 2.
 
 | Session | Week | Led by | Length | Who |
 | --- | --- | --- | --- | --- |

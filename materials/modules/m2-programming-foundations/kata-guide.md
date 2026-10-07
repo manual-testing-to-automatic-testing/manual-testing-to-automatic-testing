@@ -1,6 +1,6 @@
 # Kata guide
 
-Evidence E2 for M2. Each kata is a source file in `practice-repo/src/katas/` with its tests in `practice-repo/tests/katas/`. To do a kata, empty the function body (keep its signature), then write the code until the tests pass, and add at least one test of your own. `practice-repo/tests/katas/README.md` has the same steps.
+Evidence E2 for M2. Each kata is a JavaScript source file in `practice-repo/src/katas/`, such as `07-nhs-number.js`, with its Mocha tests in `practice-repo/tests/katas/`, such as `07-nhs-number.test.js`. To do a kata, empty the function body (keep its signature), then write the code until the tests pass, and add at least one test of your own. `practice-repo/tests/katas/README.md` has the same steps.
 
 ## How to do a kata
 

@@ -23,7 +23,7 @@ Agree the exact scope with the product owner and mentor at the start of week 20,
 
 ## Deliverables
 
-- [ ] 5 browser tests with web-first assertions, using a page object.
+- [ ] 5 Selenium browser tests with real assertions and explicit waits, using a page object.
 - [ ] A `spec/index.md` that agrees with the code.
 - [ ] The tests running in CI on every pull request.
 - [ ] Synthetic data only.

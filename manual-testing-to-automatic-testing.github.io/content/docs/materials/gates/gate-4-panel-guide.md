@@ -43,13 +43,13 @@ Choose from these, tuned to the track:
 
 - **Automation choices (LO1):** Which manual tests did you keep manual, and why?
 - **Pyramid:** Which test did you move below the UI, and what did that gain?
-- **Real assertions (Principle 11):** Show me a test that would fail if this behaviour were wrong.
-- **Spec and code (Principle 11):** Where does your `spec/index.md` describe this test?
+- **Real assertions (Principle 12):** Show me a test that would fail if this behaviour were wrong.
+- **Spec and code (Principle 12):** Where does your `spec/index.md` describe this test?
 - **CI (LO7):** Tell me about a CI failure you triaged. Was it the product, the test, or the environment?
 - **Safety (LO8, LO9):** Which hazard does this test protect? What would a clinical safety officer see as evidence?
 - **Data:** How do you know there is no real patient data or secret in this repository?
 - **Flaky tests (LO10):** What would you do if this test started failing one run in ten?
-- **AI (Principle 14):** Did you use an AI assistant? Explain this line it helped with.
+- **AI (Principle 15):** Did you use an AI assistant? Explain this line it helped with.
 - **Role, not just automation (LO13):** Pick one Part B item you moved from Not yet to Meets. What do you now do differently?
 - **B6 and B7:** How did you coach others (L1)? What did they learn?
 - **B6-QA:** How were acceptance checks agreed with clinical users (L4)?

@@ -68,4 +68,4 @@ E9 is assessed at Gate 4 (week 24), with E8 and E10.
 - [How does Six Sigma lead manual testing into automatic testing?](https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/)
 - [How does artificial intelligence help automatic testing?](https://testingexamples.github.io/en-001/how-does-artificial-intelligence-help-automatic-testing/)
 - The flaky-test exercise: `practice-repo/tests/flaky/README.md`
-- Playwright retries and flaky tests: <https://playwright.dev/docs/test-retries>
+- Selenium documentation, waits (most flaky Selenium tests are missing an explicit wait): <https://www.selenium.dev/documentation/webdriver/waits/>

@@ -4,7 +4,7 @@ This guide is for participants and line managers. It explains how to complete th
 
 ## First, the most important points
 
-- **The gates are developmental only.** A gate result never starts a capability, performance, or conduct procedure by itself. Any such procedure follows the organisation's HR policy, separately (spec Principle 13).
+- **The gates are developmental only.** A gate result never starts a capability, performance, or conduct procedure by itself. Any such procedure follows the organisation's HR policy, separately (spec Principle 14).
 - **A gap is not a failing.** Gaps are expected. They show where development is most useful.
 - **Nobody changes band.** You are rated against the band and PCF role you already hold. Rating above expectation is a strength, not a claim for regrading.
 - **Honest ratings help you.** Your individual learning plan (ILP) is built from your gaps. Inflated ratings hide the gaps you most need help with.

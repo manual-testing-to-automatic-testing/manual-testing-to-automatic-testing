@@ -88,16 +88,16 @@ From week 10 you automate real work on your team's product every week, at this t
 | Id | Outcome | Depth |
 | --- | --- | --- |
 | LO1 | Decide which manual tests to automate, at which layer, and which to keep manual, by risk and cost. | Read and explain |
-| LO2 | Write, run, debug, and refactor TypeScript code to the team's standards. | Read and explain |
+| LO2 | Write, run, debug, and refactor JavaScript code to the team's standards. | Read and explain |
 | LO3 | Change test code through git and pull requests, and give and respond to review. | With support |
-| LO4 | Locate, act, wait, and assert with Playwright, using resilient locators. | With support |
+| LO4 | Locate, act, wait explicitly, and assert with Selenium WebDriver, using resilient locators. | With support |
 | LO5 | Turn a manual test or Given-When-Then scenario into a maintainable automated test. | With support |
 | LO6 | Write automated API and integration tests, including HL7 FHIR validation. | Not required |
 | LO7 | Run suites in CI on every change, triage failures, and keep the suite fast and reliable. | With support |
 | LO8 | Use synthetic data and keep secrets and personal data out of tests and pipelines. | Independently |
 | LO9 | Trace automated tests to hazards and produce test evidence for a clinical safety case. | Read and explain |
 | LO10 | Diagnose flaky tests and measure suite health with flow metrics. | Read and explain |
-| LO11 | Read and make a small change to an existing Selenium suite. | Not required |
+| LO11 | Read and make a small change to an existing Playwright suite. | Not required |
 | LO12 | Plan, build or lead, and explain an automated regression suite for a real service. | With support |
 | LO13 | Fully meet the person's own band and PCF role, measured by the capability self-assessment. | Overall capability index of at least 90% at Gate 4 |
 

@@ -6,7 +6,7 @@ Part D is a short, supervised automation practical at Gates 1 to 5. It shows wha
 - **Rating:** Meets, Partly, or Not yet.
 - **Thresholds:** Partly or better at Gates 1 and 2. Meets at Gates 3, 4, and 5.
 - **Supervisor:** the mentor, or another reviewer from the gate, who is not the person's line manager where possible.
-- **Help allowed:** documentation, the person's own notes and code, and the testingexamples skills. AI assistants are allowed only if the person explains every line they submit (spec Principle 14). The supervisor answers questions about the task, not about the solution.
+- **Help allowed:** documentation, the person's own notes and code, and the testingexamples skills. AI assistants are allowed only if the person explains every line they submit (spec Principle 15). The supervisor answers questions about the task, not about the solution.
 - **Accessibility:** reasonable adjustments in the ILP apply, for example extra time or a spoken explanation instead of a written one.
 
 Gate 0 has no Part D. The M0 diagnostic coding exercise is unscored and only tunes M2 pacing.
@@ -19,26 +19,26 @@ For every practical:
 - **Partly:** the main part of the task is done, but with a gap: an assertion is missing or weak, a step needed a hint, or the explanation is incomplete.
 - **Not yet:** the task is not done, the result is wrong, or the person cannot explain what they did.
 
-A walkthrough that acts on a page and prints output, without assertions, is never Meets (spec Principle 11).
+A walkthrough that acts on a page and prints output, without assertions, is never Meets (spec Principle 12).
 
 ## Setup checklist for supervisors
 
-- [ ] The person's development environment works (Node.js, VS Code, git, Playwright browsers).
+- [ ] The person's development environment works (Node.js 24, Chrome, VS Code, git), and `npm run test:katas` passes. Selenium Manager downloads the Chrome driver on the first browser run.
 - [ ] The practice repository is cloned, and a branch for the practical is ready.
 - [ ] For Gate 3: a CI run that fails for a known reason is prepared on the practice repository.
-- [ ] For Gate 3 B6 and B7, and any API task: the FHIR sandbox is running with synthetic data.
+- [ ] For Gate 3 B6 and B7, and any API task: the FHIR sandbox starts with `npm run fhir` (the API tests also start it themselves). It needs no Docker.
 - [ ] A timer is set, and reasonable adjustments are applied.
 - [ ] The marking notes for the person's track are to hand.
 
 ## Gate 1 (week 6): fix a failing unit test and open a pull request
 
-**Setup:** a small TypeScript module in the practice repository with a unit test that fails because of a bug in the code, not in the test. The bug suits the track:
+**Setup:** a small JavaScript kata in the practice repository (`src/katas/`) with a Mocha test in `tests/katas/` that fails because of a bug in the code, not in the test. The bug suits the track:
 
 - B3, B4: an off-by-one error in a function that counts items in a list.
 - B5, B6, B7-TM: a date-of-birth validator that wrongly accepts a future date.
 - B7-TE: an NHS number check-digit function that fails for one valid edge case, and a test name that hides the real case.
 
-**Task:** run the tests, read the failure, find and fix the bug, run the tests again, commit with a clear message, and open a pull request that explains the change.
+**Task:** run `npm run test:katas`, read the Mocha failure and the `node:assert/strict` message, find and fix the bug, run the tests again, commit with a clear message, and open a pull request that explains the change.
 
 | Track | Meets | Partly | Not yet |
 | --- | --- | --- | --- |
@@ -52,28 +52,28 @@ A walkthrough that acts on a page and prints output, without assertions, is neve
 
 **Setup:** a written manual test case for <https://testingexamples.github.io>, for example: "Fill the text input with `hello`, check the checkbox, choose the first radio option, and select the first option in the select list. Expect each control to show the new value."
 
-**Task:** automate it with `@playwright/test`, using web-first assertions, then show it failing when an expected value is changed.
+**Task:** automate it as a Mocha test with Selenium WebDriver and `node:assert/strict`, in `tests/ui/`. Wait explicitly with `driver.wait(until…)` wherever the page could change, never with a sleep, and quit the driver in an `after` hook. Then show the test failing when an expected value is changed.
 
 | Track | Meets | Partly | Not yet |
 | --- | --- | --- | --- |
-| B3 | Writes the case as a Given-When-Then scenario, then pairs with the supervisor to automate it, choosing the locators and assertions and explaining each line. | Writes a good scenario, but cannot choose locators or assertions in the pairing. | Cannot write the scenario. |
-| B4-QA, B4-TE | Automates the case with at least one assertion per control, using one hint at most, and shows it failing when an expected value is wrong. | Automates the actions but misses assertions, or needs several hints. | Produces a walkthrough without assertions, or no working script. |
-| B5-QA, B6-QA, B6-TE, B7-TM | Automates the case independently, with resilient locators (role, label, or id), an assertion per behaviour, and a `spec/index.md` entry that matches. Shows it failing. | Test works but uses brittle locators, misses the spec entry, or misses one assertion. | Walkthrough only, or the test does not run. |
-| B7-TE | As B5 Meets, and extracts a page object and a fixture so a second test can reuse them, and explains the trade-off. | As B5 Meets, without the page object or fixture. | As B5 Partly or worse. |
+| B3 | Writes the case as a Given-When-Then scenario, then pairs with the supervisor to automate it, choosing the `By` locators and assertions and explaining each line. | Writes a good scenario, but cannot choose locators or assertions in the pairing. | Cannot write the scenario. |
+| B4-QA, B4-TE | Automates the case with at least one assertion per control (for example `isSelected()` for the checkbox, `getAttribute('value')` for the text input), using one hint at most, and shows it failing when an expected value is wrong. | Automates the actions but misses assertions, adds a sleep instead of an explicit wait, or needs several hints. | Produces a walkthrough without assertions, or no working script. |
+| B5-QA, B6-QA, B6-TE, B7-TM | Automates the case independently, with resilient locators (`By.id`, `By.name`, or a short CSS selector, not a long XPath), explicit waits where needed, an assertion per behaviour, the `Select` helper for the select list, and a `spec/index.md` entry that matches. Shows it failing. | Test works but uses brittle locators, a sleep, misses the spec entry, or misses one assertion. | Walkthrough only, or the test does not run. |
+| B7-TE | As B5 Meets, and extracts a page object (a JavaScript class like `tests/ui/pages/fixture-page.js`) and a shared driver helper so a second test can reuse them, and explains the trade-off. | As B5 Meets, without the page object or helper. | As B5 Partly or worse. |
 
 ## Gate 3 (week 18): triage and fix a failing CI run
 
-**Setup:** a CI run on the practice repository that fails for one prepared reason. Use a different reason for each person in a cohort, drawn from: a product defect (the page or API changed behaviour), a test defect (a brittle locator or a missing wait), or an environment problem (a missing secret or a browser not installed). For B6 and B7 tracks, the FHIR sandbox is also running.
+**Setup:** a CI run on the practice repository that fails for one prepared reason. Use a different reason for each person in a cohort, drawn from: a product defect (the page or API changed behaviour), a test defect (a brittle locator, or a missing explicit wait that gives a `NoSuchElementError` or `StaleElementReferenceError`), or an environment problem (a missing secret, Chrome not installed, or the FHIR sandbox port already in use).
 
-**Task:** read the CI output and artifacts (report, trace, logs), classify the failure as product, test, or environment, and act: fix the test or pipeline, or raise a clear defect report. B6 and B7 tracks also add one API test against the FHIR sandbox.
+**Task:** read the CI output and artifacts (the Mocha log, the JUnit XML report, and the failure screenshot and page source that the `afterEach` hook saves to `test-results/`), classify the failure as product, test, or environment, and act: fix the test or pipeline, or raise a clear defect report. B6 and B7 tracks also add one API test against the FHIR sandbox, as a Mocha test using the built-in `fetch`.
 
 | Track | Meets | Partly | Not yet |
 | --- | --- | --- | --- |
-| B3, B4-QA | Classifies the failure correctly from the report or trace, and writes a clear defect report or fix request with steps, data, and evidence. | Classifies correctly but the report lacks evidence. | Cannot classify the failure. |
+| B3, B4-QA | Classifies the failure correctly from the log, screenshot, or page source, and writes a clear defect report or fix request with steps, data, and evidence. | Classifies correctly but the report lacks evidence. | Cannot classify the failure. |
 | B4-TE | Classifies correctly and fixes a test defect, or raises a clear defect report for a product or environment problem. | Classifies correctly but needs help with the fix. | Cannot classify the failure. |
 | B5-QA | Classifies, fixes or reports, and re-runs the pipeline to green where the fix is theirs to make. | Classifies and reports, but cannot fix a test defect. | Cannot classify the failure. |
-| B7-TM | As B5-QA Meets, and adds one API test that reads a synthetic `Patient` and checks status and body. Because M6 is read-only for B7-TM, one hint is allowed on the API test. | Triage is Meets, but the API test needs several hints or is incomplete. | Triage is not Meets. |
-| B6-QA, B6-TE | As B5 Meets, and adds one API test that reads a synthetic `Patient` and checks status and body. | Triage is Meets, but the API test is incomplete. | Triage is not Meets. |
+| B7-TM | As B5-QA Meets, and adds one API test that reads a synthetic `Patient` with `fetch` and checks the status and body with `assert`. Because M6 is read-only for B7-TM, one hint is allowed on the API test. | Triage is Meets, but the API test needs several hints or is incomplete. | Triage is not Meets. |
+| B6-QA, B6-TE | As B5 Meets, and adds one API test that reads a synthetic `Patient` with `fetch` and checks the status and body with `assert`. | Triage is Meets, but the API test is incomplete. | Triage is not Meets. |
 | B7-TE | As B6 Meets, and proposes a pipeline change that would catch or prevent this failure earlier, such as a quarantine rule or a smoke stage. | As B6 Meets, without the proposal. | As B6 Partly or worse. |
 
 ## Gate 4 (week 24): live run and explanation of the capstone

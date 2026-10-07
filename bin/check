@@ -6,9 +6,13 @@
 #      roles-skills reference is available)
 #   3. the website type-checks, builds (strict prerendering: no broken
 #      internal links), and passes its tests
+#   4. the practice repository lints, and its katas and API tests pass; with
+#      CHECK_BROWSER=1, its Selenium browser tests too (they need Chrome and
+#      the network)
 #
-#   bin/check           # everything
-#   bin/check --quiet   # less output
+#   bin/check                    # everything except the browser tests
+#   CHECK_BROWSER=1 bin/check    # everything
+#   bin/check --quiet            # less output
 set -eu
 
 root="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
@@ -46,5 +50,17 @@ run pnpm install --frozen-lockfile
 run pnpm check
 run pnpm build
 run pnpm test
+
+say "practice repository lint, katas, and API tests"
+cd "$root/practice-repo"
+run npm ci
+run npm run lint
+run npm run format:check
+run npm run test:katas
+run npm run test:api
+if [ -n "${CHECK_BROWSER:-}" ]; then
+    say "practice repository browser tests"
+    HEADLESS=1 run npm run test:ui
+fi
 
 say "all checks passed"

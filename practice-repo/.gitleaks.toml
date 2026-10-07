@@ -14,4 +14,4 @@ keywords = ["nhs", "nhsnumber", "nhs-number", "nhs_number"]
 
 [allowlist]
 description = "Generated reports and dependencies"
-paths = ['''node_modules/''', '''playwright-report/''', '''test-results/''', '''package-lock\.json''']
+paths = ['''node_modules/''', '''test-results/''', '''package-lock\.json''']

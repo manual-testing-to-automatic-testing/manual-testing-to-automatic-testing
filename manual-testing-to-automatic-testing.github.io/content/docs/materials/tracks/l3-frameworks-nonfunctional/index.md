@@ -6,31 +6,33 @@
 
 **Evidence:** folded into the B7-TE capstone (M10).
 
-The exercises are written to be tool-neutral where possible. The defaults are Playwright with TypeScript for fixtures, and **k6** for load tests, because k6 scripts are JavaScript, run headless in CI, and keep load generation separate from browser tests. Another load tool is fine if the organisation already uses one (spec Decision D1).
+The exercises are written to be tool-neutral where possible. The defaults are JavaScript with Selenium WebDriver and Mocha for shared helpers, and **k6** for load tests, because k6 scripts are JavaScript, run headless in CI, and keep load generation separate from browser tests. Install k6 as its standalone binary from <https://grafana.com/docs/k6/latest/set-up/install-k6/>, not as a container: participants have no Docker. Another load tool is fine if the organisation already uses one (spec Decision D1).
 
-## Exercise 1: Reusable fixtures (weeks 16 to 17)
+## Exercise 1: Reusable helpers and hooks (weeks 16 to 17)
 
-**Goal:** turn repeated set-up code across the cohort's suites into shared, typed fixtures.
+**Goal:** turn repeated set-up code across the cohort's suites into shared helpers and Mocha hooks.
 
 1. Read three participants' M5 and M6 suites. List repeated code: logging in, creating a synthetic patient, opening a page, calling the FHIR server.
-2. Design fixtures with `test.extend` in `@playwright/test`, for example:
-   - `syntheticPatient`: creates a synthetic `Patient` in the FHIR sandbox before a test and deletes it after
-   - `fhir`: a typed API client using Playwright's `request` fixture, with the base URL from configuration
-   - page objects for the most used pages.
+2. Design shared helpers in `tests/support/`, for example:
+   - a driver factory that builds one configured Chrome driver (headless in CI, window size, timeouts), with Mocha root hooks that start it before a suite and always quit it after
+   - an `afterEach` hook that saves a screenshot and the page source to `test-results/` when a test fails
+   - `syntheticPatient()`: creates a synthetic `Patient` in the FHIR sandbox with `fetch` before a test, and deletes it after
+   - `fhir`: a small API client over the built-in `fetch`, with the base URL from `FHIR_BASE_URL`
+   - page objects, as JavaScript classes, for the most used pages, with their explicit waits inside them.
 3. Put them in a shared package or folder with its own tests and a `spec/index.md`.
 4. Migrate one participant's suite to use them, by pull request, with that participant reviewing.
-5. Write a short guide: when to add a fixture, naming, and how to avoid hidden shared state between tests.
+5. Write a short guide: when to add a helper or hook, naming, and how to avoid hidden shared state between tests, such as one driver or one patient reused by tests that change it.
 
-**Done when:** at least two suites use the fixtures, all tests still pass in CI, and test isolation is unchanged (each test can run alone and in parallel).
+**Done when:** at least two suites use the helpers, all tests still pass in CI, and test isolation is unchanged (each test can run alone, with `mocha --grep`, and the suite can run with `--parallel`).
 
 ## Exercise 2: Pipeline maintenance (week 17)
 
 **Goal:** keep the pipeline fast and reliable as suites grow.
 
 1. Measure the current pull request pipeline time and failure causes.
-2. Add sharding and caching of dependencies and browsers.
+2. Add caching of npm dependencies, split the UI suite across parallel CI jobs, and run Mocha with `--parallel` where tests are isolated.
 3. Add test selection: a fast smoke stage on every pull request, the full suite on merge or nightly.
-4. Write the quarantine rule: a flaky test is tagged, gets an owner and a deadline, and is reported, never silently skipped.
+4. Write the quarantine rule: a flaky test is tagged (for example `@quarantine` in its title, excluded with `--grep @quarantine --invert`), gets an owner and a deadline, and is reported, never silently skipped.
 5. Document the pipeline in the repository.
 
 **Done when:** the pull request pipeline is faster than before with no loss of the checks that block merging, and the quarantine rule is in use.
@@ -96,13 +98,13 @@ Replace the rates and thresholds with the numbers from your demand model. Use sy
 ### Step 4: Run, read, and report
 
 1. Run a baseline at normal rate, then the peak, then a stress run above peak until it fails or reaches an agreed limit.
-2. For resilience: during the peak run, restart the FHIR sandbox container and watch error rates and recovery time.
+2. For resilience: during the peak run, stop the FHIR sandbox process (Ctrl+C in its terminal) and start it again with `npm run fhir`, then watch error rates and recovery time. Remember that it reloads only its synthetic data on restart.
 3. Report in plain language: does the service meet the target at peak? Where does it break? How does it recover? What is the clinical impact?
 
 **Done when:** the report is reviewed by the product owner and an operations colleague, and the k6 script runs on demand from CI, not on every pull request.
 
 ## Discussion topics for B6-TE readers
 
-- When is a browser-based performance measure (for example Playwright timing a page load) more useful than a protocol-level load test, and when is it misleading?
-- How do shared fixtures help, and when do they create hidden coupling?
+- When is a browser-based performance measure (for example Selenium reading the browser's `performance.timing` with `executeScript`) more useful than a protocol-level load test, and when is it misleading?
+- How do shared helpers and hooks help, and when do they create hidden coupling?
 - Who owns performance testing in the team, and how does it link to the clinical safety case?

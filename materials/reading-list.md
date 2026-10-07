@@ -2,7 +2,7 @@
 
 Every resource named in the spec's core modules, with links. Track module resources (R1, R2, L1 to L5) are in `materials/tracks/`.
 
-testingexamples.github.io articles use the English canonical address `/locales/en-001/<slug>/`. The site is also available in Welsh, Chinese, Arabic, Korean, French, and other English variants. Choose a locale from the site's picker.
+testingexamples.github.io articles use the English canonical address `/en-001/<slug>/`. The site is also available in Welsh, Chinese, Arabic, Korean, French, and other English variants. Choose a locale from the site's picker.
 
 Practice on the fixture site, local services, and your own test environments. Read, but do not repeatedly run, worked examples that target live third-party sites (Google Search, Google Maps, NHS Wales).
 
@@ -27,16 +27,19 @@ Practice on the fixture site, local services, and your own test environments. Re
 | How does Six Sigma lead manual testing into automatic testing? | <https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/> | Article |
 | Learn hub | <https://testingexamples.github.io/en-001/learn/> | Web |
 
-## M2 Programming foundations in TypeScript
+## M2 Programming foundations in JavaScript
 
 | Resource | Link | Format |
 | --- | --- | --- |
-| Structured TypeScript course | Chosen by the training lead (Decision D3) | Course |
-| TypeScript handbook | <https://www.typescriptlang.org/docs/handbook/intro.html> | Web |
+| Structured JavaScript course | Chosen by the training lead (Decision D3) | Course |
+| MDN JavaScript Guide | <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide> | Web |
+| MDN: using Promises | <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises> | Web |
+| Mocha | <https://mochajs.org/> | Web |
+| Node.js `assert` | <https://nodejs.org/docs/latest-v24.x/api/assert.html> | Web |
 | What are related concepts for automatic testing? (code editors) | <https://testingexamples.github.io/en-001/what-are-related-concepts-for-automatic-testing/> | Article |
 | How to start learning automatic testing? | <https://testingexamples.github.io/en-001/how-to-start-learning-automatic-testing/> | Article |
 | Visual Studio Code documentation | <https://code.visualstudio.com/docs> | Web, video |
-| Kata files | `practice-repo/tests/katas/` | Code |
+| Kata files | `practice-repo/src/katas/` and `practice-repo/tests/katas/` | Code |
 
 ## M3 Version control and collaboration
 
@@ -44,7 +47,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | --- | --- | --- |
 | What are related concepts for automatic testing? (version control, pull requests) | <https://testingexamples.github.io/en-001/what-are-related-concepts-for-automatic-testing/> | Article |
 | Pro Git book | <https://git-scm.com/book/en/v2> | Book, web |
-| A testingexamples repository to read the history of | <https://github.com/testingexamples/demo-playwright-typescript> | Code |
+| A testingexamples repository to read the history of | <https://github.com/testingexamples/demo-selenium-javascript> | Code |
 | The team's contribution guidelines | Team repository | Markdown |
 
 ## M4 Browser automation fundamentals
@@ -53,36 +56,36 @@ Practice on the fixture site, local services, and your own test environments. Re
 | --- | --- | --- |
 | Fixture site | <https://testingexamples.github.io> | Web |
 | Fixture contract | <https://github.com/testingexamples/testingexamples.github.io/blob/main/spec/index.md> | Markdown |
-| Playwright TypeScript skill | <https://github.com/testingexamples/playwright-typescript-skill> | Markdown |
-| Playwright TypeScript demo | <https://github.com/testingexamples/demo-playwright-typescript> | Code |
-| Selenium TypeScript skill | <https://github.com/testingexamples/selenium-typescript-skill> | Markdown |
-| Selenium TypeScript demo | <https://github.com/testingexamples/demo-selenium-typescript> | Code |
-| Playwright: locators | <https://playwright.dev/docs/locators> | Web |
-| Playwright: auto-waiting | <https://playwright.dev/docs/actionability> | Web |
-| Playwright: codegen | <https://playwright.dev/docs/codegen> | Web, video |
+| Selenium JavaScript skill | <https://github.com/testingexamples/selenium-javascript-skill> | Markdown |
+| Selenium JavaScript demo | <https://github.com/testingexamples/demo-selenium-javascript> | Code |
+| Playwright JavaScript demo, for the reading exercise | <https://github.com/joelparkerhenderson/demo-playwright-javascript> | Code |
+| Selenium: WebDriver | <https://www.selenium.dev/documentation/webdriver/> | Web |
+| Selenium: locators | <https://www.selenium.dev/documentation/webdriver/elements/locators/> | Web |
 | Selenium: waits | <https://www.selenium.dev/documentation/webdriver/waits/> | Web |
+| Selenium: select lists | <https://www.selenium.dev/documentation/webdriver/support_features/select_lists/> | Web |
+| Selenium IDE | <https://www.selenium.dev/selenium-ide/> | Web, browser extension |
 
 ## M5 From walkthrough to real test
 
 | Resource | Link | Format |
 | --- | --- | --- |
 | Given-When-Then Examples | <https://testingexamples.github.io/en-001/given-when-then/> | Article |
-| Playwright TypeScript skill, "From walkthrough to real test" | <https://github.com/testingexamples/playwright-typescript-skill> | Markdown |
-| NHS Wales worked example and spec (read, do not repeatedly run) | <https://github.com/testingexamples/demo-playwright-typescript-for-nhs-wales> | Code |
-| Playwright: assertions | <https://playwright.dev/docs/test-assertions> | Web |
-| Playwright: page object models | <https://playwright.dev/docs/pom> | Web |
-| Playwright: trace viewer | <https://playwright.dev/docs/trace-viewer> | Web, video |
+| Selenium JavaScript skill, "From walkthrough to real test" | <https://github.com/testingexamples/selenium-javascript-skill> | Markdown |
+| NHS Wales worked example and spec (read, do not repeatedly run) | <https://github.com/joelparkerhenderson/demo-selenium-javascript-for-nhs-wales> | Code |
+| Mocha | <https://mochajs.org/> | Web |
+| Node.js `assert` | <https://nodejs.org/docs/latest-v24.x/api/assert.html> | Web |
+| Selenium: page object models | <https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/> | Web |
 
 ## M6 API, integration, and FHIR tests
 
 | Resource | Link | Format |
 | --- | --- | --- |
 | HL7 FHIR R4 specification | <https://hl7.org/fhir/R4/> | Web |
-| HAPI FHIR | <https://hapifhir.io/> | Web |
-| Playwright: API testing | <https://playwright.dev/docs/api-testing> | Web |
+| HAPI FHIR, a widely used open source FHIR server (background only) | <https://hapifhir.io/> | Web |
+| MDN: using the Fetch API | <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch> | Web |
 | LOINC | <https://loinc.org/> | Web |
 | FHIR sandbox | `practice-repo/fhir-sandbox/README.md` | Markdown |
-| Example FHIR suite | `practice-repo/tests/api/fhir.spec.ts` | Code |
+| Example FHIR suite | `practice-repo/tests/api/fhir.test.js` | Code |
 | The team's interface specifications | Team documentation | Various |
 
 ## M7 Continuous integration and DevOps
@@ -91,8 +94,9 @@ Practice on the fixture site, local services, and your own test environments. Re
 | --- | --- | --- |
 | What is continuous integration automatic testing? | <https://testingexamples.github.io/en-001/what-is-continuous-integration-testing/> | Article |
 | What is DevOps for automatic testing? | <https://testingexamples.github.io/en-001/what-is-devops-for-automatic-testing/> | Article |
-| Playwright: continuous integration | <https://playwright.dev/docs/ci> | Web |
-| Playwright: sharding | <https://playwright.dev/docs/test-sharding> | Web |
+| Selenium: Chrome options, including headless | <https://www.selenium.dev/documentation/webdriver/browsers/chrome/> | Web |
+| Mocha: reporters and parallel mode | <https://mochajs.org/#reporters> | Web |
+| GitHub Actions: running jobs in a matrix | <https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/run-job-variations> | Web |
 | Practice pipeline | `practice-repo/.github/workflows/ci.yml` | Code |
 | The organisation's CI documentation | Decision D2 | Various |
 
@@ -105,7 +109,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | roles-skills: clinical risk management and information governance skills | <https://roles-skills.github.io> | Web |
 | Synthea synthetic patient generator | <https://synthetichealth.github.io/synthea/> | Web, code |
 | FHIR sandbox synthetic data | `practice-repo/fhir-sandbox/data/synthetic-bundle.json` | Data |
-| Playwright: accessibility testing with axe | <https://playwright.dev/docs/accessibility-testing> | Web |
+| axe-core for Selenium WebDriver (`@axe-core/webdriverjs`) | <https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverjs> | Web, code |
 | IEC 62304 | <https://www.iso.org/standard/38421.html> | Standard (summary page) |
 
 ## M9 Quality engineering practice
@@ -116,7 +120,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | How does Six Sigma lead manual testing into automatic testing? | <https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/> | Article |
 | How does artificial intelligence help automatic testing? | <https://testingexamples.github.io/en-001/how-does-artificial-intelligence-help-automatic-testing/> | Article |
 | Flaky-test exercise | `practice-repo/tests/flaky/README.md` | Code |
-| Playwright: retries | <https://playwright.dev/docs/test-retries> | Web |
+| Selenium: waits (the usual cause of flaky Selenium tests) | <https://www.selenium.dev/documentation/webdriver/waits/> | Web |
 
 ## M10 Capstone
 
@@ -128,4 +132,4 @@ Everything above, plus:
 
 ## Other languages and tools (after Gate 2)
 
-Principle 9 says one language and one tool first. After Gate 2, people who want to compare can read the sibling skills and demos for Python, JavaScript, Java, C#, and Rust, for both Playwright and Selenium, at <https://github.com/testingexamples>.
+Principle 9 says one language and one tool first. After Gate 2, people who want to compare can read the sibling skills and demos for Python, TypeScript, Java, C#, and Rust, for both Selenium and Playwright, at <https://github.com/testingexamples>.

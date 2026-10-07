@@ -1,6 +1,6 @@
 # Read an existing suite
 
-Evidence E6 for **B4-QA** and **B7-TM**. Instead of writing a suite, read the example suite `practice-repo/tests/api/fhir.spec.ts` and explain it.
+Evidence E6 for **B4-QA** and **B7-TM**. Instead of writing a suite, read the example suite `practice-repo/tests/api/fhir.test.js` and explain it.
 
 - **B4-QA:** so you can run API tests, read their results, and raise good defects from them.
 - **B7-TM:** so you can judge API test coverage across your teams, and ask the right questions in reviews.
@@ -9,10 +9,10 @@ Time: about 2 hours, in the week 14 breakout, with the mentor.
 
 ## 1. Run it
 
-1. Start the sandbox (see [fhir-sandbox-guide.md](fhir-sandbox-guide.md), sections 1 and 2).
-2. From `practice-repo/`, run `npm run test:api`.
-3. Open the HTML report with `npx playwright show-report`.
-4. Stop the sandbox and run again. What happens? Why does the suite skip rather than fail?
+1. Start the sandbox with `npm run fhir`, and look around by hand (see [fhir-sandbox-guide.md](fhir-sandbox-guide.md), sections 1 and 2). Stop it with Ctrl+C.
+2. From `practice-repo/`, run `npm run test:api`. The tests start the sandbox for themselves.
+3. Read the Mocha spec reporter's output: one line per test, with passes, failures, and skips.
+4. Run it again with `FHIR_BASE_URL=http://localhost:9/fhir npm run test:api`, which points at a server that does not exist. What happens? Is that a product defect, a test defect, or an environment problem, and how can you tell from the message?
 
 ## 2. Map it
 

@@ -22,7 +22,7 @@ For each failed pull request:
 
 1. Open the pipeline run. Find the step that failed.
 2. Read the log. Copy the short error message.
-3. Download and open the HTML report, and the trace if there is one.
+3. Download the `test-results` artifact. Read the JUnit report, and open the screenshot and page source for each failed browser test.
 4. Use the [triage template](ci-failure-triage-template.md) to decide the kind: product defect, test defect, or environment problem.
 5. Write what you would do next, and who you would tell.
 6. Explain your decision to the mentor.
@@ -32,7 +32,7 @@ B4-TE: for the test defect, also fix the test, push the fix, and show the pipeli
 ## What good looks like
 
 - Each failure has the right kind, with a reason based on evidence, not a guess.
-- The product defect is raised as a clear defect report, with steps, data, and the trace.
+- The product defect is raised as a clear defect report, with steps, data, and the screenshot and page source.
 - Nothing is "fixed" by re-running until it passes.
 
 ## Track notes

@@ -1,32 +1,34 @@
 # Exercise sheet: every fixture on testingexamples.github.io
 
-Evidence E4, part 1. Write one Playwright TypeScript script that does every exercise below against <https://testingexamples.github.io>.
+Evidence E4, part 1. Write one Selenium WebDriver JavaScript script that does every exercise below against <https://testingexamples.github.io>.
 
 The fixtures come from the site's contract, `testingexamples.github.io/spec/index.md`. That contract is stable: the ids, names, classes, and text below will not change without notice.
 
-Start with `practice-repo/tests/ui/` and the walkthrough pattern from the `playwright-typescript-skill`:
+Save it on your own branch of the practice repository, for example as `walkthroughs/fixtures.js`, and run it with `node walkthroughs/fixtures.js`. Start from the walkthrough pattern in the `selenium-javascript-skill`:
 
-```typescript
-import { chromium, Browser, Page, Locator } from 'playwright';
+```javascript
+import { Browser, Builder, By, Select, until } from 'selenium-webdriver';
 
-async function walkthrough(): Promise<void> {
-  const browser: Browser = await chromium.launch();
-  const page: Page = await browser.newPage();
+async function walkthrough() {
+  // Selenium Manager finds Chrome and downloads a matching driver.
+  const driver = await new Builder().forBrowser(Browser.CHROME).build();
   try {
-    await page.goto('https://testingexamples.github.io');
+    await driver.get('https://testingexamples.github.io');
+    // Wait until the fixtures are on the page before you look for them.
+    await driver.wait(until.elementLocated(By.id('id-example-1')), 10_000);
     // ... exercises go here ...
   } finally {
-    await browser.close();
+    await driver.quit();
   }
 }
 
-walkthrough().catch((err: Error): void => {
+walkthrough().catch((err) => {
   console.error(err);
   process.exit(1);
 });
 ```
 
-For each exercise, log what you found, for example with `console.log(await locator.textContent())`. In M5 you turn this walkthrough into a real test with assertions.
+Every WebDriver call returns a Promise, so `await` each one. For each exercise, log what you found, for example with `console.log(await element.getText())`. In M5 you turn this walkthrough into a real Mocha test with assertions.
 
 ## 1. Id examples
 
@@ -47,7 +49,7 @@ For each exercise, log what you found, for example with `console.log(await locat
 <p name="name-example-3">Name Example 3</p>
 ```
 
-- [ ] 2.1 Locate `[name="name-example-1"]` and log its text.
+- [ ] 2.1 Locate it with `By.name('name-example-1')` and log its text.
 - [ ] 2.2 Locate the other two by name.
 
 ## 3. Class examples
@@ -58,7 +60,8 @@ For each exercise, log what you found, for example with `console.log(await locat
 <p class="class-example-3">Class Example 3</p>
 ```
 
-- [ ] 3.1 Locate `.class-example-1` and log its text.
+- [ ] 3.1 Locate it with `By.className('class-example-1')` and log its text.
+- [ ] 3.1a Locate the same element with `By.css('.class-example-1')`.
 - [ ] 3.2 Locate the other two by class.
 
 ## 4. Link examples
@@ -69,9 +72,9 @@ For each exercise, log what you found, for example with `console.log(await locat
 <p><a href="https://3.example.com">Link Example 3</a></p>
 ```
 
-- [ ] 4.1 Locate the link with text `Link Example 1`, using `page.locator('a', { hasText: 'Link Example 1' })`.
-- [ ] 4.2 Locate the same link by role: `page.getByRole('link', { name: 'Link Example 1' })`.
-- [ ] 4.3 Log the `href` of each of the three links. Do not click them: they go to example domains.
+- [ ] 4.1 Locate the link with text `Link Example 1`, using `By.linkText('Link Example 1')`.
+- [ ] 4.2 Locate the same link with `By.partialLinkText('Example 1')`. Why is a partial match riskier?
+- [ ] 4.3 Log the `href` of each of the three links with `getAttribute('href')`. Do not click them: they go to example domains.
 
 ## 5. Ordered list example
 
@@ -83,9 +86,9 @@ For each exercise, log what you found, for example with `console.log(await locat
 </ol>
 ```
 
-- [ ] 5.1 Locate the list by id and count its items.
+- [ ] 5.1 Locate the list by id, then count its items with `driver.findElements(By.css('#ol-example-1 li'))`.
 - [ ] 5.2 Log the text of each item, in order.
-- [ ] 5.3 Locate the second item by role: `page.getByRole('listitem').filter({ hasText: 'bravo' })`. How many matches are there, and why? (Hint: look at the unordered list.)
+- [ ] 5.3 Locate every item whose text is `bravo` with `By.xpath("//li[text()='bravo']")`. How many matches are there, and why? (Hint: look at the unordered list.)
 
 ## 6. Unordered list example
 
@@ -98,7 +101,8 @@ For each exercise, log what you found, for example with `console.log(await locat
 ```
 
 - [ ] 6.1 Locate the list by id and count its items.
-- [ ] 6.2 Locate `bravo` inside the unordered list only, by chaining: `page.locator('#ul-example-1').getByText('bravo')`.
+- [ ] 6.2 Locate `bravo` inside the unordered list only, by searching inside the list element: `(await driver.findElement(By.id('ul-example-1'))).findElement(By.xpath(".//li[text()='bravo']"))`.
+- [ ] 6.3 `findElement` throws `NoSuchElementError` when nothing matches; `findElements` returns an empty array. Use `findElements` to check that `#ul-example-1` has no fourth item.
 
 ## 7. Form input examples
 
@@ -111,9 +115,9 @@ The form has id `form-1`.
 <input type="text" id="text-example-1-id" name="text-example-1-name" value="Text Example 1 Value">
 ```
 
-- [ ] 7.1.1 Locate the input by id and log its starting value (`inputValue()`).
-- [ ] 7.1.2 Locate the same input by label: `page.getByLabel('Text Example 1')`.
-- [ ] 7.1.3 Fill it with `hello` and log the new value.
+- [ ] 7.1.1 Locate the input by id and log its starting value (`getAttribute('value')`).
+- [ ] 7.1.2 Locate the same input by name: `By.name('text-example-1-name')`.
+- [ ] 7.1.3 `clear()` it, type `hello` with `sendKeys('hello')`, and log the new value.
 
 ### 7.2 Checkbox
 
@@ -122,8 +126,8 @@ The form has id `form-1`.
 <input type="checkbox" id="checkbox-example-1-id" name="checkbox-example-1-name" value="1" />
 ```
 
-- [ ] 7.2.1 Check it, and log `isChecked()`.
-- [ ] 7.2.2 Uncheck it, and log `isChecked()` again.
+- [ ] 7.2.1 Click it, and log `isSelected()`.
+- [ ] 7.2.2 Click it again, and log `isSelected()` again.
 
 ### 7.3 Radio
 
@@ -133,8 +137,8 @@ The form has id `form-1`.
 <input type="radio" id="radio-example-1-option-3-id" name="radio-example-1-name" value="3" />3
 ```
 
-- [ ] 7.3.1 Check option 1, and log which options are checked.
-- [ ] 7.3.2 Check option 3. Log again. What happened to option 1, and why?
+- [ ] 7.3.1 Click option 1, and log which options are selected.
+- [ ] 7.3.2 Click option 3. Log again. What happened to option 1, and why?
 
 ### 7.4 Select
 
@@ -146,9 +150,11 @@ The form has id `form-1`.
 </select>
 ```
 
-- [ ] 7.4.1 Select by index 0, and log the value (expect `a`).
-- [ ] 7.4.2 Select by value `b`, and log the value.
-- [ ] 7.4.3 Select by label `charlie`, and log the value.
+Use the `Select` helper, not a plain click: `const select = new Select(await driver.findElement(By.id('select-example-1-id')))`.
+
+- [ ] 7.4.1 Select by index 0 (`selectByIndex(0)`), and log the value of `getFirstSelectedOption()` (expect `a`).
+- [ ] 7.4.2 Select by value `b` (`selectByValue('b')`), and log the value.
+- [ ] 7.4.3 Select by visible text `charlie` (`selectByVisibleText('charlie')`), and log the value.
 
 ### 7.5 Submit
 
@@ -156,20 +162,20 @@ The form has id `form-1`.
 <input type="submit" value="Submit">
 ```
 
-- [ ] 7.5.1 Locate the submit button by XPath: `page.locator('xpath=//input[@type="submit"]')`.
-- [ ] 7.5.2 Locate it by CSS: `page.locator('input[type="submit"]')`.
-- [ ] 7.5.3 Locate it by role: `page.getByRole('button', { name: 'Submit' })`.
+- [ ] 7.5.1 Locate the submit button by XPath: `By.xpath("//input[@type='submit']")`.
+- [ ] 7.5.2 Locate it by CSS: `By.css('input[type="submit"]')`.
+- [ ] 7.5.3 Locate it by CSS with its value: `By.css('#form-1 input[value="Submit"]')`.
 - [ ] 7.5.4 Which of the three locators would you choose for a real test, and why? Write one sentence.
 
-## 8. Codegen
+## 8. Selenium IDE
 
-- [ ] 8.1 Run `npx playwright codegen https://testingexamples.github.io`. Fill the text input, check the checkbox, and select `bravo`.
-- [ ] 8.2 Copy the generated code into your script. Rewrite it by hand so every line has a clear name and a comment. Explain every line to your mentor.
+- [ ] 8.1 Install the Selenium IDE extension in Chrome (<https://www.selenium.dev/selenium-ide/>). Record a session on <https://testingexamples.github.io>: type in the text input, click the checkbox, and select `bravo`.
+- [ ] 8.2 Export the recording as JavaScript Mocha. Copy the code into your script. Rewrite it by hand so every line has a clear name and a comment, replace any pauses with explicit waits, and explain every line to your mentor.
 
 ## 9. Reflect
 
 - [ ] 9.1 Which locators would break if a developer changed the page's styling? Which would survive?
-- [ ] 9.2 Where did Playwright wait for you without you writing any wait?
+- [ ] 9.2 This page is static, so most steps work without waits. Which steps would need an explicit wait on a real product page, and which `until` condition would you use?
 
 ## Track notes
 

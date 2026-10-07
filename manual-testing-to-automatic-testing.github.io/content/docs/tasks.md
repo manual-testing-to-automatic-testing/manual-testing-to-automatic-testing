@@ -14,7 +14,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 ## Development verification
 
 - [x] Practice repository: typecheck, lint, and format checks clean; 50 kata tests and 11 fixture-site browser tests pass
-- [x] FHIR sandbox: loads 6 synthetic patients and the profile; 15 API tests pass against HAPI FHIR v8.12.0-2
+- [x] FHIR sandbox: a JavaScript FHIR R4 server (`npm run fhir`, no Docker) loads 6 synthetic patients and the profile; 15 API tests pass
 - [x] Run the CI job steps locally: typecheck, lint, format, katas, browser, and API tests (76 passed) with the sandbox loaded; gitleaks scan clean, and its NHS number rule catches planted non-test numbers
 - [ ] Run the practice repository's CI workflow on the organisation's CI service (D2)
 - [x] Move the FHIR sandbox into the practice repository (`practice-repo/fhir-sandbox/`), so the CI API job can load it
@@ -76,7 +76,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [ ] Review the eight tracks, automation targets, and module depths with mentors and the head of test
 - [ ] Confirm gate thresholds and conditions with the training lead and HR
 - [x] Confirm every learning outcome has a depth for every track, and maps to evidence (checked by script: 12 outcomes with 8 depths each, LO13 for all tracks, 13 coverage rows)
-- [ ] Choose the TypeScript foundations course (D3)
+- [ ] Choose the JavaScript foundations course (D3)
 - [ ] Agree capstone areas for each participant with product owners (D5)
 - [ ] Review the design against Universal Design for Instruction
 - [ ] Sign off the spec for this cohort
@@ -85,19 +85,19 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 
 ### Practice environment
 
-- [x] Create the practice repository: TypeScript, `@playwright/test`, linting, formatting, pinned versions
+- [x] Create the practice repository: JavaScript, Selenium WebDriver, Mocha, linting, formatting, pinned versions
 - [x] Add a `spec/index.md` template for participant test suites
-- [x] Add a CI pipeline template that runs headless and publishes reports and traces
+- [x] Add a CI pipeline template that runs headless Chrome and publishes JUnit results, screenshots, and page source
 - [x] Add a secrets scan to the CI template (gitleaks; not yet run)
 - [x] Add a pull request template and contribution guide
-- [x] Build the FHIR sandbox: HAPI FHIR container, synthetic `Patient` and `Observation` data, one FHIR profile (D4)
+- [x] Build the FHIR sandbox: a JavaScript FHIR R4 server with no Docker, synthetic `Patient` and `Observation` data, one FHIR profile (D4)
 
 ### Core module materials
 
 - [x] M1 automation candidate analysis template, with B3 and B4, B5, and B6 and B7 variants
 - [x] M2 kata sets for each track (5, 8, 10, and 10 harder)
 - [x] M4 exercise sheet for every fixture on testingexamples.github.io
-- [x] M4 Selenium change exercise, from `demo-selenium-typescript`
+- [x] M4 Playwright reading exercise, from `demo-playwright-javascript`
 - [x] M5 Given-When-Then template
 - [x] M6 existing FHIR test suite for B4-QA and B7-TM to read
 - [x] M7 existing pipeline with real failures for B3 and B4 triage (exercise written in `materials/modules/m7-continuous-integration/`; the failing runs must be created once the practice repository is on the organisation's CI)

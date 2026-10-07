@@ -6,7 +6,7 @@ These are the materials for the core modules M0 to M10. [../../spec/index.md](..
 | --- | --- | --- |
 | M0 Induction and baseline | 0–1 | [m0-induction](m0-induction/index.md) |
 | M1 Why and what to automate | 1–2 | [m1-why-and-what-to-automate](m1-why-and-what-to-automate/index.md) |
-| M2 Programming foundations in TypeScript | 2–6 | [m2-programming-foundations](m2-programming-foundations/index.md) |
+| M2 Programming foundations in JavaScript | 2–6 | [m2-programming-foundations](m2-programming-foundations/index.md) |
 | M3 Version control and collaboration | 4–6 | [m3-version-control](m3-version-control/index.md) |
 | M4 Browser automation fundamentals | 7–9 | [m4-browser-automation-fundamentals](m4-browser-automation-fundamentals/index.md) |
 | M5 From walkthrough to real test | 10–12 | [m5-walkthrough-to-real-test](m5-walkthrough-to-real-test/index.md) |

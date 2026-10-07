@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Slow status</title>
+  </head>
+  <body>
+    <!-- A tiny page for the flaky-test exercise. The status message usually appears
+         at once, but half the time it takes 300 ms, the way a real page
+         sometimes waits on a slow API. -->
+    <button id="save">Save</button>
+    <p id="status" role="status"></p>
+    <script>
+      const status = document.getElementById('status');
+      document.getElementById('save').addEventListener('click', () => {
+        // Like a real API call: half the time the answer is already cached and
+        // shows at once; the other half it takes 300 ms.
+        if (Math.random() < 0.5) {
+          status.textContent = 'Saved';
+        } else {
+          setTimeout(() => {
+            status.textContent = 'Saved';
+          }, 300);
+        }
+      });
+    </script>
+  </body>
+</html>

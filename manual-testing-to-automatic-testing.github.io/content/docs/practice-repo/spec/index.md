@@ -11,19 +11,19 @@ See spec/example/index.md for a filled-in example.
 
 <!-- One paragraph: what this suite tests, with which tool, against which system, and why. -->
 
-This suite uses Playwright with TypeScript to test <system or feature> on <environment>. It automates <number> manual test cases from <regression pack or source> that cover <user journey or risk>.
+This suite uses Selenium WebDriver and Mocha, in JavaScript, to test <system or feature> on <environment>. It automates <number> manual test cases from <regression pack or source> that cover <user journey or risk>.
 
 ## Scope
 
 <!-- What this spec covers, and what it does not. Name the test files. -->
 
-This spec covers `<tests/.../file.spec.ts>` only: the scenarios it runs, the selectors and data it uses, and the criteria for it to pass.
+This spec covers `<tests/.../file.test.js>` only: the scenarios it runs, the selectors and data it uses, and the criteria for it to pass.
 
 Out of scope: <what is deliberately not tested here, and where it is tested instead, for example at the API layer, or manually>.
 
 ## Principles and rules
 
-- `<tests/.../file.spec.ts>` is the implementation. This file is the specification. They must agree exactly. If they ever disagree, that is a defect in one of them: fix it before doing anything else.
+- `<tests/.../file.test.js>` is the implementation. This file is the specification. They must agree exactly. If they ever disagree, that is a defect in one of them: fix it before doing anything else.
 - Every test makes real assertions, and each has been seen to fail when the behaviour is wrong.
 - Only synthetic test data is used. Any NHS numbers are from the 999 test range.
 - <Any other rule specific to this suite, for example "runs against the test environment only, never production".>

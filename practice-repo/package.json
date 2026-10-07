@@ -2,29 +2,35 @@
   "name": "practice-repo",
   "version": "1.0.0",
   "private": true,
-  "description": "Practice repository for the manual-to-automatic testing training programme.",
+  "description": "Practice repository for the manual-to-automatic testing training programme: JavaScript, Selenium WebDriver, and Mocha.",
   "type": "module",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
-    "test": "playwright test --project=katas --project=ui --project=api",
-    "test:katas": "playwright test --project=katas",
-    "test:ui": "playwright test --project=ui",
-    "test:api": "playwright test --project=api",
-    "test:flaky": "playwright test --project=flaky",
-    "typecheck": "tsc --noEmit",
+    "test": "npm run test:katas && npm run test:ui && npm run test:api",
+    "test:katas": "mocha 'tests/katas/**/*.test.js'",
+    "test:ui": "mocha 'tests/ui/**/*.test.js'",
+    "test:api": "mocha --require tests/support/fhir-server.js 'tests/api/**/*.test.js'",
+    "test:flaky": "mocha 'tests/flaky/**/*.test.js'",
+    "fhir": "node fhir-sandbox/server.js",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
   "devDependencies": {
+    "@axe-core/webdriverjs": "4.13.0",
     "@eslint/js": "10.0.1",
-    "@playwright/test": "1.63.0",
-    "@types/node": "24.19.1",
     "eslint": "10.12.0",
+    "globals": "17.13.0",
+    "mocha": "11.8.0",
+    "mocha-junit-reporter": "2.2.1",
+    "mocha-multi-reporters": "1.5.2",
     "prettier": "3.9.9",
-    "typescript": "5.9.3",
-    "typescript-eslint": "8.71.1"
+    "selenium-webdriver": "4.50.0"
+  },
+  "overrides": {
+    "diff": "^8.0.3",
+    "serialize-javascript": "^7.0.5"
   }
 }

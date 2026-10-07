@@ -50,7 +50,7 @@ Exploratory, usability, accessibility judgement, and acceptance by clinical user
 
 ## 7. Tools and frameworks
 
-Tools (default: Playwright with TypeScript, the organisation's CI service), shared fixtures or frameworks (see L3), and how existing Selenium suites are handled.
+Tools (default: JavaScript with Selenium WebDriver and Mocha, the organisation's CI service), shared helpers or frameworks (see L3), and how existing Playwright suites are handled.
 
 ## 8. Pipelines
 

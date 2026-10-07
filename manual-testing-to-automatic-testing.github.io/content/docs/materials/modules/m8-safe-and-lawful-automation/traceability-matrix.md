@@ -37,7 +37,7 @@ The matrix links each automated test to the hazard it protects against, the safe
 Agree with the CSO what form the evidence takes. Typical answer:
 
 - the CI run link and date
-- the HTML report artifact for that run, kept for the agreed retention period
+- the JUnit test report artifact for that run, kept for the agreed retention period
 - the test name and the assertion that checks the control
 - the version of the software tested.
 

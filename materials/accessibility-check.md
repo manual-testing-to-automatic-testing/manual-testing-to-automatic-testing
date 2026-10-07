@@ -30,7 +30,9 @@ npx playwright install chromium
 npm run scan
 ```
 
-The scan supports checks 3 and 8 only, so every status below stays **not yet checked** until a person completes the manual checks. Findings from the 2026-10-07 scan that need action before the cohort starts:
+The scan is an organiser's tool, run by the training lead, not by participants. Re-run it before each cohort, and whenever the reading list changes.
+
+The scan supports checks 3 and 8 only, so every status below stays **not yet checked** until a person completes the manual checks. Findings from the 2026-10-07 scan of the JavaScript and Selenium reading list that need action before the cohort starts:
 
 - **testingexamples.github.io fixture page:** form fields without labels (`label`, `select-name`). The fixture markup is a fixed contract, so do not change it for the course. Instead, tell screen reader users which fields are which, and give them the exercise sheet in [modules/m4-browser-automation-fundamentals/exercise-sheet.md](modules/m4-browser-automation-fundamentals/exercise-sheet.md), which names every fixture.
 - **testingexamples Given-When-Then page and the fixture spec on GitHub:** scrollable code blocks cannot be reached by keyboard (`scrollable-region-focusable`). Provide the code as text files, or report the issue to the site's maintainer.
@@ -53,8 +55,9 @@ The scan supports checks 3 and 8 only, so every status below stays **not yet che
 | M1 | What is continuous integration automatic testing? | not yet checked | | | |
 | M1 | How does Six Sigma lead manual testing into automatic testing? | not yet checked | | | |
 | M1 | Automation candidate analysis template (TSV) | not yet checked | | | Check in the spreadsheet tools people use |
-| M2 | Structured TypeScript course (D3) | not yet checked | | | Videos need captions |
-| M2 | TypeScript handbook | not yet checked | | | |
+| M2 | Structured JavaScript course (D3) | not yet checked | | | Videos need captions |
+| M2 | MDN JavaScript Guide, and using Promises | not yet checked | | | |
+| M2 | Mocha and Node.js `assert` documentation | not yet checked | | | |
 | M2 | What are related concepts for automatic testing? | not yet checked | | | |
 | M2 | How to start learning automatic testing? | not yet checked | | | |
 | M2 | Visual Studio Code and its documentation | not yet checked | | | Check screen reader mode and high-contrast themes |
@@ -63,36 +66,36 @@ The scan supports checks 3 and 8 only, so every status below stays **not yet che
 | M3 | The team's git hosting service (pull requests, review) | not yet checked | | | |
 | M4 | Fixture site | not yet checked | | | |
 | M4 | Fixture contract | not yet checked | | | |
-| M4 | Playwright TypeScript skill | not yet checked | | | |
-| M4 | Playwright TypeScript demo | not yet checked | | | |
-| M4 | Selenium TypeScript skill | not yet checked | | | |
-| M4 | Selenium TypeScript demo | not yet checked | | | |
-| M4 | Playwright documentation: locators, auto-waiting, codegen | not yet checked | | | Codegen opens a browser window: check with assistive technology |
-| M4 | Selenium documentation: waits | not yet checked | | | |
+| M4 | Selenium JavaScript skill | not yet checked | | | |
+| M4 | Selenium JavaScript demo | not yet checked | | | |
+| M4 | Playwright JavaScript demo, and the Playwright reading exercise | not yet checked | | | |
+| M4 | Selenium documentation: WebDriver, locators, waits, select lists | not yet checked | | | |
+| M4 | Selenium IDE browser extension | not yet checked | | | Recording happens in a browser extension panel: check it with a screen reader and keyboard only, and plan an alternative, such as writing the steps by hand with the mentor |
 | M4 | Exercise sheet | not yet checked | | | |
 | M5 | Given-When-Then Examples | not yet checked | | | |
 | M5 | NHS Wales worked example and spec | not yet checked | | | |
-| M5 | Playwright documentation: assertions, page objects, trace viewer | not yet checked | | | The trace viewer is highly visual: check, and plan an alternative |
+| M5 | Selenium documentation: page object models | not yet checked | | | |
+| M5 | Failure evidence in `test-results/` (screenshots, page source, console logs) | not yet checked | | | Screenshots are images: the page source and Mocha messages are the text alternative |
 | M5 | Given-When-Then template and worked example | not yet checked | | | |
 | M6 | HL7 FHIR R4 specification | not yet checked | | | |
-| M6 | HAPI FHIR | not yet checked | | | |
-| M6 | Playwright documentation: API testing | not yet checked | | | |
+| M6 | HAPI FHIR (background only) | not yet checked | | | |
+| M6 | MDN: using the Fetch API | not yet checked | | | |
 | M6 | LOINC | not yet checked | | | |
 | M6 | FHIR sandbox guide | not yet checked | | | |
 | M6 | Read-an-existing-suite exercise | not yet checked | | | |
 | M7 | What is DevOps for automatic testing? | not yet checked | | | |
-| M7 | Playwright documentation: CI, sharding | not yet checked | | | |
+| M7 | Selenium documentation: Chrome options; Mocha reporters; GitHub Actions job matrix | not yet checked | | | |
 | M7 | The organisation's CI service | not yet checked | | | Check pipeline logs and reports with a screen reader |
 | M7 | CI failure triage template and triage exercise | not yet checked | | | |
 | M8 | Clinical risk management process and hazard log | not yet checked | | | |
 | M8 | Information governance policy | not yet checked | | | |
 | M8 | Synthea | not yet checked | | | |
-| M8 | Playwright documentation: accessibility testing | not yet checked | | | |
+| M8 | `@axe-core/webdriverjs` documentation | not yet checked | | | |
 | M8 | Traceability matrix template (TSV) | not yet checked | | | |
 | M8 | Synthetic data and secrets checklist | not yet checked | | | |
 | M9 | What metrics help automatic testing? | not yet checked | | | Check any embedded video has captions |
 | M9 | How does artificial intelligence help automatic testing? | not yet checked | | | |
-| M9 | Playwright documentation: retries | not yet checked | | | |
+| M9 | Selenium documentation: waits (flaky tests) | not yet checked | | | |
 | M9 | Flaky-test investigation and suite-health report templates | not yet checked | | | |
 | M10 | Capstone briefs, scope agreement, presentation outline | not yet checked | | | |
 

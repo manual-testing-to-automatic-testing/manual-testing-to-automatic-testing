@@ -18,7 +18,7 @@ A formal, gated training programme that upskills manual testers at Bands 3 to 7 
 | [materials/tracks/](materials/tracks/) | Track guides (B3 to B7-TM) and track modules R1, R2, L1 to L5 |
 | [materials/planning/](materials/planning/) | Planning pack: sponsor brief, HR briefing, manager and stakeholder briefings, decision log, resource estimate, cohort roster template |
 | [materials/gates/](materials/gates/) | Gate overview, Part D practicals, review form, calibration guide, panel guide, ILP and other templates |
-| [practice-repo/](practice-repo/) | The participants' Playwright TypeScript practice repository, with katas, UI and API tests, CI, and the FHIR sandbox (`practice-repo/fhir-sandbox/`): a local HAPI FHIR server with synthetic data and a profile, for module M6 |
+| [practice-repo/](practice-repo/) | The participants' practice repository in JavaScript, with Selenium WebDriver and Mocha: katas, browser and API tests, CI, and the FHIR sandbox (`practice-repo/fhir-sandbox/`): a small local FHIR server in JavaScript, with no Docker, with synthetic data and a profile, for module M6 |
 
 ## Website
 

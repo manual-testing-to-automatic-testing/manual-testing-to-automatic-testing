@@ -24,7 +24,7 @@ Each person already has an assigned UK GDaD PCF role. The programme must:
   - **self-assessment exports** and a self-assessment guide already exist for every role level.
 - **The reference has gaps** that matter here: there is no testing role level at Band 3, no test engineer at Band 5, and no quality assurance test analyst at Band 7.
 - **The PCF expects little automation from some roles.** Quality assurance test analysts at every level, and test managers, need test engineering only at Awareness. Only test engineers need Working (Band 6) or Practitioner (Band 7).
-- **The materials** come largely from Testing Examples: a stable fixture site, the Learn articles, Playwright and Selenium skills, and demo repositories with specs that must agree with their code.
+- **The materials** come largely from Testing Examples: a stable fixture site, the Learn articles, Selenium and Playwright skills, and demo repositories with specs that must agree with their code.
 
 ## The four core areas
 
@@ -80,7 +80,11 @@ Because the gap covers the whole role, R1 gives every person a weekly role pract
 
 ### Toolset
 
-Playwright with TypeScript is the primary toolset. Auto-waiting removes the most common cause of flaky beginner tests, codegen and the trace viewer help newcomers see what is happening, and Testing Examples has a skill and demos for exactly this pair. Selenium is taught for reading existing suites only.
+JavaScript with Selenium WebDriver and Mocha is the primary toolset. Selenium is the longest-established browser automation project, built on the W3C WebDriver standard, and is what many organisations' existing suites and job adverts use. Because it does not wait for elements by itself, it makes people learn waiting properly: every wait is an explicit wait for a stated condition, which is the habit that prevents flaky tests in any tool. JavaScript runs everywhere with Node.js, with no build step, and Testing Examples has a skill and demos for exactly this pair. Playwright is taught for reading and making small changes to existing suites.
+
+### No Docker
+
+Participants do not have Docker, so nothing in the programme needs it. Every tool runs with Node.js and Chrome alone. The FHIR sandbox for M6 is a small FHIR R4 server written in plain JavaScript inside the practice repository, started with `npm run fhir`, or automatically by the API tests. Selenium Manager downloads the Chrome driver, so there is nothing else to install.
 
 ## Choice of curriculum model
 
@@ -139,6 +143,6 @@ These need answers from the sponsor and HR before Implementation. Defaults are i
 2. How should Band 3 job evaluation factor levels, and any unmapped band and role combinations, be agreed (D6)?
 3. Has the organisation standardised on an automation tool or language (D1)?
 4. Which CI service will teams use, and can participants change pipelines (D2)?
-5. Is there budget for a paid TypeScript course (D3)?
-6. Can participants run containers locally for the FHIR sandbox (D4)?
+5. Is there budget for a paid JavaScript course (D3)?
+6. Can participants install Node.js 24 and Chrome, and run a local server on port 8080 (D4)?
 7. How many people are in the first cohort, in which tracks, and who are the mentors?

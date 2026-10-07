@@ -18,7 +18,7 @@ The programme comes in **eight tuned tracks**, one for each band and assigned ro
 - **Part C, skills:** every UK GDaD PCF skill in the assigned role, plus the health care skills.
 - **Part D, automation practical:** a short performance task for the track.
 
-The toolset is Playwright with TypeScript, run by `@playwright/test`, in Visual Studio Code, with git and the organisation's continuous integration (CI) service. Selenium WebDriver is taught for reading and maintaining existing suites.
+The toolset is **JavaScript** on Node.js, **Selenium WebDriver** for the browser, and **Mocha** with Node's built-in `node:assert/strict` for tests, in Visual Studio Code, with git and the organisation's continuous integration (CI) service. Playwright is taught for reading and making small changes to existing suites. Nothing in the programme needs Docker: every tool, including the FHIR sandbox, runs with Node.js and Chrome alone.
 
 This document is the **single source of truth** for the programme. [../plan.md](../plan.md) explains why it is shaped this way. [../tasks.md](../tasks.md) lists the work to build and run it. If the three disagree, this document wins, and the disagreement is a defect to fix before doing anything else.
 
@@ -37,7 +37,7 @@ In scope:
 Out of scope:
 
 - **Changing band, re-banding, or regrading.** The programme measures people against the band they hold. A person who exceeds their role's expectations has a strength, recorded as a negative gap. That does not change their band.
-- Formal capability or performance procedures. The programme supports development. A gate result never starts an HR procedure by itself (see [Principle 13](#principles-and-rules)).
+- Formal capability or performance procedures. The programme supports development. A gate result never starts an HR procedure by itself (see [Principle 14](#principles-and-rules)).
 - Staff outside the quality assurance testing role family.
 - Choosing an organisation-wide automation tool (see [Decision D1](#decisions)).
 
@@ -52,14 +52,15 @@ Out of scope:
 7. **Tuned, not separate.** All tracks share the core modules and gate dates. Tracks differ in depth, hours, extra modules, and evidence.
 8. **Build on the tester's strengths.** Each person's own team's manual regression pack and product are the practice material.
 9. **One language, one tool, first.** Do not add a second language or tool before Gate 2.
-10. **Spiral, not single pass.** The core skills of **locate, act, wait, assert** are taught three times, at rising depth: on the fixture site, on a worked example, and on the person's own product. The capability self-assessment also spirals: the same instrument at every gate.
-11. **A walkthrough is not a test.** Assessed test code must make real assertions that fail when the behaviour is wrong, and must have a `spec/index.md` that agrees with the code.
-12. **Safety and governance first.** Synthetic data only, no real patient data, and no secrets in source control. Clinical risk management and information governance must meet expectations by Gate 2, whatever else is still open.
-13. **Developmental, not disciplinary.** Gate results support development planning. They do not start capability, performance, or conduct procedures. Any such procedure follows the organisation's HR policy, separately.
-14. **AI is an aid that is reviewed.** People may use AI assistants and must be able to explain every line they submit.
-15. **Protected time is protected.** Learning time is in calendars and is not reassigned without the training lead's agreement.
-16. **Inclusive by design.** Every module offers more than one way to learn and to show evidence. Reasonable adjustments are agreed at Gate 0.
-17. **Read, don't hammer, third-party sites.** Practise on the testingexamples fixture site, local services, and the organisation's own test environments.
+10. **Wait explicitly, never sleep.** Selenium does not wait for elements by itself. Every wait in assessed code is an explicit wait for a stated condition, with `driver.wait(until...)`. Fixed sleeps, implicit waits, and retries that hide timing are not accepted.
+11. **Spiral, not single pass.** The core skills of **locate, act, wait, assert** are taught three times, at rising depth: on the fixture site, on a worked example, and on the person's own product. The capability self-assessment also spirals: the same instrument at every gate.
+12. **A walkthrough is not a test.** Assessed test code must make real assertions that fail when the behaviour is wrong, and must have a `spec/index.md` that agrees with the code.
+13. **Safety and governance first.** Synthetic data only, no real patient data, and no secrets in source control. Clinical risk management and information governance must meet expectations by Gate 2, whatever else is still open.
+14. **Developmental, not disciplinary.** Gate results support development planning. They do not start capability, performance, or conduct procedures. Any such procedure follows the organisation's HR policy, separately.
+15. **AI is an aid that is reviewed.** People may use AI assistants and must be able to explain every line they submit.
+16. **Protected time is protected.** Learning time is in calendars and is not reassigned without the training lead's agreement.
+17. **Inclusive by design.** Every module offers more than one way to learn and to show evidence. Reasonable adjustments are agreed at Gate 0.
+18. **Read, don't hammer, third-party sites.** Practise on the testingexamples fixture site, local services, and the organisation's own test environments.
 
 ## Detail
 
@@ -209,16 +210,16 @@ Each track meets each outcome at a set depth: **R** read and explain, **S** with
 | Id | Outcome | B3 | B4-QA | B4-TE | B5-QA | B6-QA | B6-TE | B7-TE | B7-TM |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LO1 | Decide which manual tests to automate, at which layer, and which to keep manual, by risk and cost. | R | S | S | I | L | I | L | L |
-| LO2 | Write, run, debug, and refactor TypeScript code to the team's standards. | R | S | S | S | I | I | I | S |
+| LO2 | Write, run, debug, and refactor JavaScript code to the team's standards. | R | S | S | S | I | I | I | S |
 | LO3 | Change test code through git and pull requests, and give and respond to review. | S | S | S | I | I | I | L | I |
-| LO4 | Locate, act, wait, and assert with Playwright, using resilient locators. | S | S | I | I | I | I | L | S |
+| LO4 | Locate, act, wait explicitly, and assert with Selenium WebDriver, using resilient locators. | S | S | I | I | I | I | L | S |
 | LO5 | Turn a manual test or Given-When-Then scenario into a maintainable automated test. | S | S | S | I | I | I | L | S |
 | LO6 | Write automated API and integration tests, including HL7 FHIR validation. | — | R | S | S | I | I | L | R |
 | LO7 | Run suites in CI on every change, triage failures, and keep the suite fast and reliable. | S | S | S | I | I | I | L | I |
 | LO8 | Use synthetic data and keep secrets and personal data out of tests and pipelines. | I | I | I | I | I | I | L | L |
 | LO9 | Trace automated tests to hazards and produce test evidence for a clinical safety case. | R | S | S | I | L | I | L | L |
 | LO10 | Diagnose flaky tests and measure suite health with flow metrics. | R | R | S | S | I | I | L | L |
-| LO11 | Read and make a small change to an existing Selenium suite. | — | R | S | S | S | I | I | S |
+| LO11 | Read and make a small change to an existing Playwright suite. | — | R | S | S | S | I | I | S |
 | LO12 | Plan, build or lead, and explain an automated regression suite for a real service. | S | S | S | I | L | I | L | L |
 | LO13 | Fully meet the person's own band and PCF role, measured by the capability self-assessment. | All tracks: overall capability index of at least 90% at Gate 4 |
 
@@ -246,7 +247,7 @@ Gate 3 takes place at the start of week 18, before M8 begins. It reviews E6 and 
 | --- | --- | --- | --- |
 | 0–1 | M0 Induction and baseline | — | **Gate 0** (baseline) |
 | 1–2 | M1 Why and what to automate | R1 Role foundations starts (runs all programme) | — |
-| 2–6 | M2 Programming foundations in TypeScript | R2 Health care foundations (weeks 2–8) | — |
+| 2–6 | M2 Programming foundations in JavaScript | R2 Health care foundations (weeks 2–8) | — |
 | 4–6 | M3 Version control and collaboration | — | **Gate 1** (week 6) |
 | 7–9 | M4 Browser automation fundamentals | — | — |
 | 10–12 | M5 From walkthrough to real test | L1 Coaching others in automation (B6, B7, weeks 10–20) | **Gate 2** (week 12) |
@@ -298,7 +299,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
   - the person's track, and any mapping decision (see [Tracks](#tracks))
   - an **individual learning plan (ILP)**: the gaps that matter most from Parts A to C, an action, owner, and date for each, the automation target, reasonable adjustments, and preferred learning formats
   - a signed learning agreement: protected time, mentor, and gate dates
-  - a working development environment: Node.js, VS Code with the Playwright extension, git, and access to the team's repository and CI.
+  - a working development environment: Node.js 24, Google Chrome, VS Code with the ESLint extension, git, the practice repository with `npm run test:katas` passing, and access to the team's repository and CI. No Docker or other container tools are needed.
 - **Activities:** induction with manager, mentor, and training lead; a briefing on how to self-assess honestly (a gap is not a failing); an unscored diagnostic coding exercise to tune M2 pacing; environment set-up with the mentor.
 - **Resources:** the roles-skills reference pages for the person's role and band; the roles-skills self-assessment guide; this specification.
 
@@ -312,12 +313,12 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 - **Activities:** the testingexamples Learn articles: automatic testing, purpose, pyramid, browser trade-offs, CI; manual repetition as a variation problem (the Six Sigma view); why exploratory and usability testing stay human; a workshop with a developer on existing unit and integration tests.
 - **Resources:** testingexamples.github.io articles "What is automatic testing?", "What is the purpose of automatic testing?", "What is the automatic testing pyramid?", "What is browser automatic testing?", "How does Six Sigma lead manual testing into automatic testing?".
 
-#### M2 Programming foundations in TypeScript (weeks 2–6)
+#### M2 Programming foundations in JavaScript (weeks 2–6)
 
 - **Outcomes:** LO2.
 - **Evidence E2:** small programming exercises (katas), each with unit tests the person wrote: 5 for B3, 8 for B4 and B7-TM, 10 for B5 and B6, 10 harder ones for B7-TE. At least two check test-shaped data, such as a date of birth or an NHS number check digit.
-- **Activities:** variables, types, functions, control flow, arrays and objects, modules, errors; `async` and `await`; the terminal, npm, and the VS Code debugger; a first unit test; pairing with the mentor, daily in weeks 2 and 3 for B3 to B5, twice a week otherwise.
-- **Resources:** a structured TypeScript course (Decision D3); testingexamples "What are related concepts for automatic testing?".
+- **Activities:** variables, values and `typeof`, functions, control flow, arrays and objects, modules with `import` and `export`, errors; Promises, `async`, and `await`, and why every WebDriver call must be awaited; the terminal, npm, ESLint, and the VS Code debugger; a first Mocha unit test with `node:assert/strict`; pairing with the mentor, daily in weeks 2 and 3 for B3 to B5, twice a week otherwise.
+- **Resources:** a structured JavaScript course (Decision D3), such as MDN's JavaScript guide; the practice repository's katas; testingexamples "What are related concepts for automatic testing?".
 
 #### M3 Version control and collaboration (weeks 4–6)
 
@@ -330,46 +331,46 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 
 - **Outcomes:** LO4, LO11.
 - **Evidence E4:**
-  - a Playwright TypeScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class, link text, XPath, and role) and acts on every form input. B3 and B4-QA may complete this by pairing.
-  - a one-page comparison of how Playwright and Selenium wait (B5 and above)
-  - one new locator added to `demo-selenium-typescript` (B4-TE, B5 and above).
-- **Activities:** locate, act, wait, assert; locator strategy (role, label, text, and test ids first; XPath last); auto-waiting and explicit waits; codegen, then rewriting the recording by hand and explaining every line.
-- **Resources:** testingexamples `playwright-typescript-skill`, `demo-playwright-typescript`, `selenium-typescript-skill`, `demo-selenium-typescript`; the fixture contract `testingexamples.github.io/spec/index.md`; Playwright documentation.
+  - a Selenium WebDriver JavaScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class name, link text, CSS, and XPath), waits explicitly, and acts on every form input, including the select with Selenium's `Select` helper. B3 and B4-QA may complete this by pairing.
+  - a one-page comparison of how Selenium and Playwright wait, and why `sleep` is never the answer (B5 and above)
+  - one small change to the `demo-playwright-javascript` example, run successfully (B4-TE, B5 and above; B7-TM with support).
+- **Activities:** locate, act, wait, assert; locator strategy (ids and agreed test ids first, then CSS and link text, XPath last); explicit waits with `driver.wait(until...)`, and why Selenium does not wait for you; clicking only when an element is in view and on top; always quitting the driver; recording with Selenium IDE, exporting to JavaScript Mocha, then rewriting the recording by hand and explaining every line.
+- **Resources:** testingexamples `selenium-javascript-skill`, `demo-selenium-javascript`, `playwright-javascript-skill`, `demo-playwright-javascript`; the fixture contract `testingexamples.github.io/spec/index.md`; the Selenium WebDriver documentation; Selenium IDE.
 
 #### M5 From walkthrough to real test (weeks 10–12), spiral pass 2
 
 - **Outcomes:** LO5.
 - **Evidence E5:**
-  - the M4 walkthrough converted into a `@playwright/test` suite with web-first assertions and a `spec/index.md` that agrees with the code
+  - the M4 walkthrough converted into a Mocha suite with `node:assert/strict` assertions, explicit waits, a driver quit in `after`, and a `spec/index.md` that agrees with the code
   - manual test cases from E1 rewritten as Given-When-Then scenarios, reviewed by the product owner, and automated with a page object: 3 for B3 (scenarios only; automation by pairing), 3 for B4, 5 for B5 and B6, 8 for B7-TE, 3 for B7-TM
   - a demonstration that each test fails when the behaviour is wrong.
-- **Activities:** `test`, `expect`, hooks, fixtures, isolation, parallel runs; Given-When-Then as a shared language; page objects; reports and the trace viewer; reading the NHS Wales worked example and its spec.
-- **Resources:** testingexamples "Given-When-Then Examples"; `demo-playwright-typescript-for-nhs-wales`.
+- **Activities:** Mocha's `describe`, `it`, and hooks (`before`, `beforeEach`, `afterEach`, `after`); assertions; test isolation; Given-When-Then as a shared language; page objects as JavaScript classes that hold the locators and the waits; diagnosing failures from the message, a screenshot, the page source, and the browser console log; reading the NHS Wales worked example and its spec.
+- **Resources:** testingexamples "Given-When-Then Examples"; `demo-selenium-javascript-for-nhs-wales` and its `spec/index.md`; the practice repository's `tests/ui/`.
 
 #### M6 API, integration, and FHIR tests (weeks 13–15)
 
 - **Outcomes:** LO6.
-- **Evidence E6:** an API test suite against a local HAPI FHIR server loaded with synthetic data, which creates, reads, searches, and updates `Patient` and `Observation` resources, checks status codes and bodies, validates against a FHIR profile, checks a clinical code's meaning, and includes a negative test.
+- **Evidence E6:** an API test suite, in Mocha with Node's built-in `fetch`, against the practice repository's FHIR sandbox (a small local FHIR R4 server in JavaScript, started with `npm run fhir`, loaded with synthetic data), which creates, reads, searches, and updates `Patient` and `Observation` resources, checks status codes and bodies, validates against a FHIR profile, checks a clinical code's meaning, and includes a negative test.
   - B4-QA, B7-TM: read and explain an existing suite instead.
   - B4-TE, B5-QA: 5 tests, with support.
   - B6, B7-TE: the full suite; B7-TE also adds a simulator for a partner system.
-- **Activities:** HTTP, REST, JSON; Playwright's `request` fixture; mocks, stubs, and simulators; HL7 FHIR resources, profiles, and terminology; HL7 version 2 awareness; moving one browser test down to the API layer.
-- **Resources:** HL7 FHIR (<https://hl7.org/fhir/>); HAPI FHIR; the team's interface specifications.
+- **Activities:** HTTP, REST, JSON; `fetch` and its responses; why Selenium is for browsers only; mocks, stubs, and simulators; HL7 FHIR resources, profiles, and terminology; HL7 version 2 awareness; moving one browser test down to the API layer.
+- **Resources:** HL7 FHIR (<https://hl7.org/fhir/>); the FHIR sandbox's README; the team's interface specifications; HAPI FHIR, as an example of a production FHIR server.
 
 #### M7 Continuous integration and DevOps (weeks 16–17)
 
 - **Outcomes:** LO7.
-- **Evidence E7:** a CI pipeline that runs the person's suites on every pull request, publishes reports and traces, and blocks merging on failure, plus a written triage of real CI failures (product, test, or environment).
+- **Evidence E7:** a CI pipeline that runs the person's suites on every pull request, publishes the JUnit report and, for failed browser tests, screenshots and page source, and blocks merging on failure, plus a written triage of real CI failures (product, test, or environment).
   - B3, B4: triage of 3 failures in an existing pipeline; no pipeline change required.
   - B5, B6, B7-TM: the pipeline on the practice repository, and 3 triaged failures.
-  - B7-TE: the pipeline on the team's repository, with sharding and test selection, and a quarantine policy for flaky tests.
-- **Activities:** CI configuration, caching, browsers, secrets, environment variables; keeping pipelines fast; quarantining flaky tests with an owner and a deadline; feature flags, canary releases, and monitoring.
+  - B7-TE: the pipeline on the team's repository, with parallel jobs and test selection, and a quarantine policy for flaky tests.
+- **Activities:** CI configuration, caching, headless Chrome, secrets, environment variables; keeping pipelines fast; quarantining flaky tests with an owner and a deadline; feature flags, canary releases, and monitoring.
 - **Resources:** testingexamples "What is continuous integration automatic testing?" and "What is DevOps for automatic testing?"; the organisation's CI documentation.
 
 #### M8 Safe and lawful test automation in health care (weeks 18–19)
 
 - **Outcomes:** LO8, LO9.
-- **Evidence E8:** synthetic data for the person's tests, including rare or edge clinical cases; a repository scan showing no secrets or personal data; a traceability matrix from automated tests to hazards and safety controls, agreed with the clinical safety officer; automated accessibility checks on browser tests, with a note on what they cannot find. B6-QA and B7 also review one other person's traceability matrix.
+- **Evidence E8:** synthetic data for the person's tests, including rare or edge clinical cases; a repository scan showing no secrets or personal data; a traceability matrix from automated tests to hazards and safety controls, agreed with the clinical safety officer; automated accessibility checks on browser tests with `@axe-core/webdriverjs`, with a note on what they cannot find. B6-QA and B7 also review one other person's traceability matrix.
 - **Activities:** how automated regression tests protect safety controls; the team's hazard log; IEC 62304 awareness; information governance for test data and pipelines.
 - **Resources:** the organisation's clinical risk management process and hazard log; information governance policy.
 
@@ -409,7 +410,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 
 #### R2 Health care foundations (weeks 2–8)
 
-- **Purpose:** meet the expected levels in understanding health and care services, clinical risk management, and information governance by Gate 2 (Principle 12).
+- **Purpose:** meet the expected levels in understanding health and care services, clinical risk management, and information governance by Gate 2 (Principle 13).
 - **Activities:** sessions with the clinical safety officer and information governance lead; a hazard workshop; a shadowing session with a clinical or care user. B7-TM leads one session for the cohort.
 - **Evidence:** reflected in Part C ratings at Gate 2.
 
@@ -468,7 +469,7 @@ Using agreed ratings and the capability index:
 
 1. The person gets up to 3 extra weeks on the items below threshold, with a written plan and extra mentor time, and the gate is repeated once.
 2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the 32-week extension, a different automation target, more R1 support, or pausing the programme.
-3. In line with Principle 13, none of these is a capability or performance procedure.
+3. In line with Principle 14, none of these is a capability or performance procedure.
 
 #### Gate 4 panel
 
@@ -491,7 +492,7 @@ A person completes the programme at Gate 4 when every threshold for Gate 4 is me
 | Product owners | Review Given-When-Then scenarios; agree and accept capstones. | 3 hours per participant |
 | Clinical safety officer | Runs R2 and M8 sessions; reviews traceability evidence. | 6 hours per cohort, plus reviews |
 | Information governance lead | Runs R2 and M8 sessions on test and personal data. | 3 hours per cohort |
-| HR | Confirms the developmental status of gates (Principle 13); agrees mapping decisions. | As needed |
+| HR | Confirms the developmental status of gates (Principle 14); agrees mapping decisions. | As needed |
 
 ### Inclusion and reasonable adjustments
 
@@ -531,20 +532,20 @@ Following PADDIE+M, the training lead:
 
 - reviews this specification after every cohort, and at least once a year
 - rebuilds the capability self-assessment whenever the roles-skills reference changes a band, factor, role level, or skill
-- checks tool versions (Node.js, Playwright, TypeScript, Selenium) and links every 6 months
+- checks tool versions (Node.js, Chrome, Selenium WebDriver, Mocha, Playwright) and links every 6 months
 - records every change in the [change log](#change-log).
 
 ### Decisions
 
 | Id | Decision | Default | Who decides |
 | --- | --- | --- | --- |
-| D1 | Primary language and tool | Playwright with TypeScript; Python if the team's codebase is Python | Training lead, with the head of test |
+| D1 | Primary language and tool | JavaScript with Selenium WebDriver and Mocha; Python with Selenium and pytest if the team's codebase is Python | Training lead, with the head of test |
 | D2 | CI service | The organisation's existing CI service; GitHub Actions for the practice repository | Training lead |
-| D3 | TypeScript foundations course | A structured, free or already-licensed course with exercises | Training lead |
-| D4 | Practice FHIR server | Local HAPI FHIR in a container, with synthetic data | Mentors |
+| D3 | JavaScript foundations course | A structured, free or already-licensed course with exercises | Training lead |
+| D4 | Practice FHIR server | The practice repository's local FHIR sandbox (Node.js, no Docker), with synthetic data; a shared team test server with synthetic data as the alternative | Mentors |
 | D5 | Capstone scope per person | As in the M10 table, agreed at week 20 | Product owner, mentor |
 | D6 | Mapping for band and role combinations without a reference level, and Band 3 factor levels | The mapping rule in [Tracks](#tracks) | Line manager, training lead, HR |
-| D7 | Developmental status of gates | Gates are developmental only (Principle 13) | HR, head of test |
+| D7 | Developmental status of gates | Gates are developmental only (Principle 14) | HR, head of test |
 
 ## Acceptance criteria
 
@@ -587,7 +588,7 @@ Coverage check, outcome to evidence:
 - Digital health care job roles reference (roles-skills), in `~/git/agenda-for-change/`: `data/bands.yaml` (band outlines and points ranges), `data/job-evaluation.yaml` (16 factors), `data/roles/quality-assurance-test-analyst.yaml`, `data/roles/test-engineer.yaml`, `data/roles/test-manager.yaml`, `exports/self-assessment/`, `guides/self-assessment/index.md`, `research/pcf-role-levels.tsv`, and `roles-skills.github.io/content/reference.json`; published at <https://roles-skills.github.io>. The reference profiles are illustrative, not official job descriptions, and its job evaluation scores are not a formal evaluation.
 - UK Government Digital and Data Profession Capability Framework: <https://understand-digital-data-roles-skills.service.gov.uk/>. Contains public sector information licensed under the Open Government Licence v3.0. © Crown copyright.
 - Testing Examples: `~/git/testingexamples/`, published at <https://testingexamples.github.io>.
-- HL7 FHIR: <https://hl7.org/fhir/>. Playwright: <https://playwright.dev/>. Selenium: <https://www.selenium.dev/>.
+- HL7 FHIR: <https://hl7.org/fhir/>. Selenium: <https://www.selenium.dev/>. Mocha: <https://mochajs.org/>. Playwright: <https://playwright.dev/>.
 
 ## Change log
 
@@ -595,4 +596,5 @@ Coverage check, outcome to evidence:
 | --- | --- |
 | 2026-10-07 | First version: one learner moving from Band 5 to Band 6. |
 | 2026-10-07 | Rewritten: eight tuned tracks for Bands 3 to 7, no band changes, a full capability self-assessment (21 band dimensions, PCF role aspects, all role skills) at every gate, and capability thresholds per gate. |
+| 2026-10-07 | Revised: JavaScript with Selenium WebDriver and Mocha replaces TypeScript with Playwright (Playwright becomes the reading-only tool for LO11); no Docker anywhere, with a JavaScript FHIR sandbox; Principle 10, wait explicitly; the informal capability estimate removed. |
 | 2026-10-07 | Implemented: instruments generated per track; Partly defined for Part C; LO2 (B7-TE) and LO11 (B7-TM) depths aligned with modules; Gate 3 timing, B3 in weeks 13–15, L4 weeks, Band 7 mentors, and the capstone rehearsal made explicit. |

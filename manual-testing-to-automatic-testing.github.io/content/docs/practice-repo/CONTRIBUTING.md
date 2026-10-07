@@ -54,8 +54,8 @@ When your change is reviewed:
 
 - Every test must make real assertions. A script that only acts and prints is
   a walkthrough, not a test.
-- Prefer user-facing locators (role, label, text), then test ids, then CSS.
-  Use XPath last.
-- Never use fixed sleeps. Use web-first assertions, which retry.
+- Prefer ids and agreed test ids, then CSS and link text. Use XPath last.
+  Keep locators and waits in page objects, not in the tests.
+- Never use fixed sleeps. Wait explicitly for the condition you need, with `driver.wait(until...)`, and quit the driver in an `after` hook.
 - Never skip a failing test silently. Quarantine it with an owner and a date,
   and raise a defect.

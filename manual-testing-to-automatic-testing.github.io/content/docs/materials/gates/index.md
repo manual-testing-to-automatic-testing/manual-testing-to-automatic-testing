@@ -13,7 +13,7 @@ Every gate:
 5. updates the [individual learning plan (ILP)](ilp-template.md)
 6. is recorded on the [gate review form](gate-review-form.md).
 
-Gate results are developmental only. They never start a capability, performance, or conduct procedure by themselves (spec Principle 13).
+Gate results are developmental only. They never start a capability, performance, or conduct procedure by themselves (spec Principle 14).
 
 ## Schedule
 

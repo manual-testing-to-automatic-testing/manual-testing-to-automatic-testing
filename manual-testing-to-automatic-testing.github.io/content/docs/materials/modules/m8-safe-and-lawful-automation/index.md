@@ -38,7 +38,7 @@ R2 Health care foundations (weeks 2–8) has already brought clinical risk manag
 2. Fill in the [traceability matrix](traceability-matrix.md) for your E5 and E6 tests.
 3. Create synthetic data for your tests, including at least three rare or edge clinical cases. Use the [synthetic data and secrets checklist](synthetic-data-and-secrets-checklist.md).
 4. Scan your repositories for secrets and personal data. Record the result and the controls that keep it clean.
-5. Add automated accessibility checks, for example with `@axe-core/playwright`, to at least two browser tests. Write a note on what they cannot find.
+5. Add automated accessibility checks, for example with `@axe-core/webdriverjs`, to at least two Selenium browser tests. Write a note on what they cannot find.
 
 ## Evidence
 
@@ -65,5 +65,5 @@ E8 is assessed at **Gate 4** (week 24), with E9 and E10. Gate 3 takes place at t
 - roles-skills skill definitions for clinical risk management and information governance: <https://roles-skills.github.io>
 - Synthea synthetic patient generator: <https://synthetichealth.github.io/synthea/>
 - The FHIR sandbox synthetic data: `practice-repo/fhir-sandbox/data/synthetic-bundle.json`
-- axe-core for Playwright: <https://playwright.dev/docs/accessibility-testing>
+- axe-core for Selenium WebDriver (`@axe-core/webdriverjs`): <https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverjs>
 - IEC 62304 overview: <https://www.iso.org/standard/38421.html>

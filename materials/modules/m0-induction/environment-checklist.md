@@ -8,12 +8,12 @@ Complete in the M0 set-up pairing session. The mentor ticks each item when it wo
 | 2 | npm installed | `npm -v` | [ ] |
 | 3 | git installed and configured with name and work email | `git config --get user.name` | [ ] |
 | 4 | VS Code installed | Opens | [ ] |
-| 5 | VS Code Playwright extension installed | Testing sidebar shows Playwright | [ ] |
+| 5 | VS Code ESLint extension installed | Problems panel shows lint results for a `.js` file | [ ] |
 | 6 | Practice repository cloned | `git clone` succeeds | [ ] |
 | 7 | Dependencies installed | `npm install` succeeds in `practice-repo/` | [ ] |
-| 8 | Playwright browsers installed | `npx playwright install` succeeds | [ ] |
-| 9 | First test runs | `npx playwright test` runs and shows a report | [ ] |
-| 10 | Container runtime available, for the M6 FHIR sandbox | `docker version` or the agreed equivalent (Decision D4) | [ ] |
+| 8 | Google Chrome installed | Opens; Selenium Manager downloads the matching driver on the first test run | [ ] |
+| 9 | First tests run | `npm run test:katas` and `npm run test:ui` pass in `practice-repo/` | [ ] |
+| 10 | FHIR sandbox starts, for M6 | `npm run fhir` prints its address; stop it with Ctrl+C. Node.js only: no Docker | [ ] |
 | 11 | Access to the team's repository | Can clone and open a pull request | [ ] |
 | 12 | Access to the team's test environments | Can sign in with a test account | [ ] |
 | 13 | Access to the team's CI service | Can see pipeline runs | [ ] |

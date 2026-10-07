@@ -50,7 +50,7 @@ Gate 5 (week 48) and the 32-week extension for B3 and B4 add a little more: abou
 
 ## Money
 
-- Tools: Playwright, TypeScript, HAPI FHIR, gitleaks, and axe-core are open source.
+- Tools: Node.js, Selenium WebDriver, Mocha, the practice repository's FHIR sandbox, k6, gitleaks, and axe-core are open source. Nothing needs Docker.
 - CI minutes: depends on D2; the practice repository's workflow is small.
-- Optional: a paid TypeScript course (D3).
+- Optional: a paid JavaScript course (D3).
 - External mentors for Band 7 participants, if no Band 8a lead is available.

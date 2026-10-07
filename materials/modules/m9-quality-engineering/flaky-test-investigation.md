@@ -2,7 +2,7 @@
 
 Evidence E9, part 1. A flaky test passes sometimes and fails sometimes, with no change to the code. It is variation, and variation has a cause. Find the cause. Do not re-run until it goes green, and do not add retries or a longer sleep: that hides the variation instead of removing it.
 
-Use the deliberately flaky test in `practice-repo/tests/flaky/flaky.spec.ts`, or a real flaky test from your team.
+Use the deliberately flaky Selenium test in `practice-repo/tests/flaky/flaky.test.js`, or a real flaky test from your team. It is not part of `npm test` or CI; run it with `npm run test:flaky`.
 
 ## Record
 
@@ -14,10 +14,10 @@ Use the deliberately flaky test in `practice-repo/tests/flaky/flaky.spec.ts`, or
 
 ### 1. Measure
 
-Run it many times and count:
+Run it many times and count. Mocha has no repeat option, so use a loop in the terminal, from `practice-repo/`:
 
 ```sh
-npx playwright test --project=flaky tests/flaky/flaky.spec.ts --repeat-each=20
+for i in $(seq 1 20); do npx mocha tests/flaky/flaky.test.js > /dev/null 2>&1 && echo pass || echo fail; done | sort | uniq -c
 ```
 
 | Runs | Failures | Failure rate |
@@ -26,7 +26,7 @@ npx playwright test --project=flaky tests/flaky/flaky.spec.ts --repeat-each=20
 
 ### 2. Look
 
-Open a failing run in the trace viewer (`npx playwright show-trace <trace.zip>`) or the HTML report (`npx playwright show-report`).
+Open the evidence the practice repository saves for a failing browser test: the screenshot, the page source, and the browser console log in `test-results/`. Read the Mocha error message too.
 
 - Which step failed?
 - What was on the page at that moment?
@@ -45,9 +45,9 @@ Explanation: ______
 
 ### 4. Fix
 
-Describe the fix. Write it yourself before you read `fixed.spec.ts`. Then compare.
+Describe the fix. Write it yourself before you read `fixed.test.js`. Then compare.
 
-| | Your fix | `fixed.spec.ts` |
+| | Your fix | `fixed.test.js` |
 | --- | --- | --- |
 | What changed | | |
 | Why it removes the cause | | |
@@ -57,7 +57,7 @@ Describe the fix. Write it yourself before you read `fixed.spec.ts`. Then compar
 Run the fixed test 50 times:
 
 ```sh
-npx playwright test --project=flaky <your fixed test file> --repeat-each=50
+for i in $(seq 1 50); do npx mocha <your fixed test file> > /dev/null 2>&1 && echo pass || echo fail; done | sort | uniq -c
 ```
 
 | Runs | Failures |
@@ -66,7 +66,7 @@ npx playwright test --project=flaky <your fixed test file> --repeat-each=50
 
 ### 6. Prevent
 
-One sentence: what would stop this kind of flakiness coming back? For example: a review checklist item, a lint rule against `waitForTimeout`, or giving every test its own data.
+One sentence: what would stop this kind of flakiness coming back? For example: a review checklist item that every `findElement` after an action has an explicit wait, a lint rule against `driver.sleep`, or giving every test its own data.
 
 ## B3 and B4-QA: describe one with the mentor
 

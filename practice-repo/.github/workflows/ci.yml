@@ -32,7 +32,7 @@ jobs:
           GITLEAKS_CONFIG: .gitleaks.toml
 
   static:
-    name: Typecheck, lint, and format
+    name: Lint and format
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -41,7 +41,6 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - run: npm run typecheck
       - run: npm run lint
       - run: npm run format:check
 
@@ -56,6 +55,12 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run test:katas
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: results-katas
+          path: test-results/
+          retention-days: 14
 
   ui:
     name: Browser tests (fixture site)
@@ -68,32 +73,22 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
-      - run: npm run test:ui
+      # The runner has Google Chrome; Selenium Manager fetches the matching
+      # driver. CI is set, so the driver factory runs Chrome headless.
+      - run: npm run test:ui -- --grep @quarantine --invert
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
-          name: playwright-report-ui
-          path: |
-            playwright-report/
-            test-results/
+          name: results-ui
+          # JUnit XML, plus a screenshot, page source, and console log for
+          # every failed test.
+          path: test-results/
           retention-days: 14
 
   api:
     name: API tests (FHIR sandbox)
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-    services:
-      fhir:
-        image: hapiproject/hapi:v8.12.0-2
-        ports:
-          - 8080:8080
-        env:
-          hapi.fhir.fhir_version: R4
-          hapi.fhir.allow_external_references: 'true'
-          hapi.fhir.enforce_referential_integrity_on_write: 'false'
-    env:
-      FHIR_BASE_URL: http://localhost:8080/fhir
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -101,14 +96,11 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - name: Load synthetic data and profile
-        run: sh fhir-sandbox/scripts/load.sh "$FHIR_BASE_URL"
-      - run: npm run test:api
+      # The tests start the local FHIR sandbox themselves: no service container.
+      - run: npm run test:api -- --grep @quarantine --invert
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
-          name: playwright-report-api
-          path: |
-            playwright-report/
-            test-results/
+          name: results-api
+          path: test-results/
           retention-days: 14

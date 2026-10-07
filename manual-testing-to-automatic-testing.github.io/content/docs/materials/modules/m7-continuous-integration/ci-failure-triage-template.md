@@ -6,7 +6,7 @@ Every failure is one of three kinds:
 
 | Kind | Meaning | Usual action |
 | --- | --- | --- |
-| **Product defect** | The software is wrong. The test did its job. | Raise a defect with steps, data, and the trace. Do not change the test. |
+| **Product defect** | The software is wrong. The test did its job. | Raise a defect with steps, data, and the screenshot and page source. Do not change the test. |
 | **Test defect** | The test is wrong: a bad locator, a wrong expected value, shared state, timing. | Fix the test. If it is flaky, quarantine it with an owner and a deadline until fixed. |
 | **Environment problem** | Something around the test failed: the test environment, network, a partner system, an expired certificate, CI capacity. | Raise it with the owner of the environment. Re-run only after the cause is known. |
 
@@ -22,7 +22,7 @@ Never re-run a failure until it goes green without knowing why it failed. A fail
 | Failed test(s) | |
 | Failing step | |
 | Error message (short) | |
-| Evidence looked at | Log / HTML report / trace / screenshot / video |
+| Evidence looked at | Log / JUnit report / screenshot / page source / browser console log |
 | **Kind** | Product defect / Test defect / Environment problem |
 | Why you think so | |
 | Action taken | |
@@ -35,7 +35,7 @@ Never re-run a failure until it goes green without knowing why it failed. A fail
 
 1. Did it fail on this change only, or on other branches too? (Other branches too: suspect environment.)
 2. Does it fail every time, or sometimes? (Sometimes: suspect a flaky test or environment.)
-3. What does the trace show at the failing step? Is the element there? Is the value wrong?
+3. What do the screenshot and page source show at the failing step? Is the element there? Is the value wrong? Was an explicit wait missing?
 4. Did the code under test change in this pull request?
 5. Did the test change in this pull request?
 6. Is any external service, certificate, or account involved?

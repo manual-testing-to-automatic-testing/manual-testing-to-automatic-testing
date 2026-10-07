@@ -40,7 +40,7 @@ git subtree push --prefix=manual-testing-to-automatic-testing.github.io github-p
 The remote is always named `github-pages`, the same as the task and the script. The script, not the Makefile, carries the safety checks, so they live in one place:
 
 - an uncommitted-changes guard
-- a validation pass: `bin/check`, which checks that the vendored content is up to date, and that the site checks and builds
+- a validation pass: `bin/check`, which checks that the vendored content is up to date, that the instruments rebuild unchanged, that the site checks, builds, and passes its tests, and that the practice repository lints and passes its katas and API tests (and, with `CHECK_BROWSER=1`, its Selenium browser tests)
 
 ```make
 .PHONY: github-pages
