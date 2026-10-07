@@ -1,0 +1,15 @@
+# Local HAPI FHIR R4 server for the training programme (module M6).
+# In-memory H2 database: every restart starts empty, so reload with scripts/load.sh.
+services:
+  hapi:
+    image: hapiproject/hapi:v8.12.0-2
+    container_name: fhir-sandbox
+    ports:
+      - '8080:8080'
+    environment:
+      spring.datasource.url: 'jdbc:h2:mem:hapi'
+      spring.datasource.driverClassName: 'org.h2.Driver'
+      spring.jpa.properties.hibernate.dialect: 'ca.uhn.fhir.jpa.model.dialect.HapiFhirH2Dialect'
+      hapi.fhir.fhir_version: 'R4'
+      hapi.fhir.allow_external_references: 'true'
+      hapi.fhir.enforce_referential_integrity_on_write: 'false'

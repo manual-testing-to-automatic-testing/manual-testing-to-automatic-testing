@@ -1,12 +1,12 @@
 # FHIR sandbox guide
 
-The sandbox is a local HAPI FHIR R4 server loaded with synthetic patients and observations. It lives in `fhir-sandbox/`. Its README is the source of truth for versions, data, and commands. This guide is the learner's walk-through.
+The sandbox is a local HAPI FHIR R4 server loaded with synthetic patients and observations. It lives in `practice-repo/fhir-sandbox/`. Its README is the source of truth for versions, data, and commands. This guide is the learner's walk-through.
 
 Everything in the sandbox is synthetic. NHS numbers are from the `999` range reserved for testing. Never load real patient data into it, even briefly.
 
 ## 1. Start and load
 
-You need Docker with Compose (Decision D4). From `fhir-sandbox/`:
+You need Docker with Compose (Decision D4). From `practice-repo/fhir-sandbox/`:
 
 ```sh
 docker compose up -d        # start HAPI FHIR at http://localhost:8080/fhir

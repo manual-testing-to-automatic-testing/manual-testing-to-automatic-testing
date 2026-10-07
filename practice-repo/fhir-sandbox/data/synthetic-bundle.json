@@ -30,9 +30,7 @@
           {
             "use": "official",
             "family": "Testpatient",
-            "given": [
-              "Alex"
-            ]
+            "given": ["Alex"]
           }
         ],
         "gender": "female",
@@ -71,9 +69,7 @@
           {
             "use": "official",
             "family": "Oldtest",
-            "given": [
-              "Edith"
-            ]
+            "given": ["Edith"]
           }
         ],
         "gender": "female",
@@ -112,9 +108,7 @@
           {
             "use": "official",
             "family": "Newtest",
-            "given": [
-              "Baby"
-            ]
+            "given": ["Baby"]
           }
         ],
         "gender": "male",
@@ -153,9 +147,7 @@
           {
             "use": "official",
             "family": "Unknowntest",
-            "given": [
-              "Sam"
-            ]
+            "given": ["Sam"]
           }
         ],
         "gender": "unknown",
@@ -194,10 +186,7 @@
           {
             "use": "official",
             "family": "O'Tëst-Ñúñez",
-            "given": [
-              "Siân",
-              "Zoë"
-            ]
+            "given": ["Siân", "Zoë"]
           }
         ],
         "gender": "other",
@@ -236,9 +225,7 @@
           {
             "use": "official",
             "family": "Deceasedtest",
-            "given": [
-              "Morgan"
-            ]
+            "given": ["Morgan"]
           }
         ],
         "gender": "male",

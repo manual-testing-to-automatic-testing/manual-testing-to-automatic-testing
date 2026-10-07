@@ -19,13 +19,13 @@ Practice on the fixture site, local services, and your own test environments. Re
 
 | Resource | Link | Format |
 | --- | --- | --- |
-| What is automatic testing? | <https://testingexamples.github.io/locales/en-001/what-is-automatic-testing/> | Article |
-| What is the purpose of automatic testing? | <https://testingexamples.github.io/locales/en-001/what-is-the-purpose-of-automatic-testing/> | Article |
-| What is the automatic testing pyramid? | <https://testingexamples.github.io/locales/en-001/what-is-the-testing-pyramid/> | Article |
-| What is browser automatic testing? | <https://testingexamples.github.io/locales/en-001/what-is-browser-automation-testing/> | Article |
-| What is continuous integration automatic testing? | <https://testingexamples.github.io/locales/en-001/what-is-continuous-integration-testing/> | Article |
-| How does Six Sigma lead manual testing into automatic testing? | <https://testingexamples.github.io/locales/en-001/what-is-lean-six-sigma-for-automatic-testing/> | Article |
-| Learn hub | <https://testingexamples.github.io/locales/en-001/learn/> | Web |
+| What is automatic testing? | <https://testingexamples.github.io/en-001/what-is-automatic-testing/> | Article |
+| What is the purpose of automatic testing? | <https://testingexamples.github.io/en-001/what-is-the-purpose-of-automatic-testing/> | Article |
+| What is the automatic testing pyramid? | <https://testingexamples.github.io/en-001/what-is-the-testing-pyramid/> | Article |
+| What is browser automatic testing? | <https://testingexamples.github.io/en-001/what-is-browser-automation-testing/> | Article |
+| What is continuous integration automatic testing? | <https://testingexamples.github.io/en-001/what-is-continuous-integration-testing/> | Article |
+| How does Six Sigma lead manual testing into automatic testing? | <https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/> | Article |
+| Learn hub | <https://testingexamples.github.io/en-001/learn/> | Web |
 
 ## M2 Programming foundations in TypeScript
 
@@ -33,8 +33,8 @@ Practice on the fixture site, local services, and your own test environments. Re
 | --- | --- | --- |
 | Structured TypeScript course | Chosen by the training lead (Decision D3) | Course |
 | TypeScript handbook | <https://www.typescriptlang.org/docs/handbook/intro.html> | Web |
-| What are related concepts for automatic testing? (code editors) | <https://testingexamples.github.io/locales/en-001/what-are-related-concepts-for-automatic-testing/> | Article |
-| How to start learning automatic testing? | <https://testingexamples.github.io/locales/en-001/how-to-start-learning-automatic-testing/> | Article |
+| What are related concepts for automatic testing? (code editors) | <https://testingexamples.github.io/en-001/what-are-related-concepts-for-automatic-testing/> | Article |
+| How to start learning automatic testing? | <https://testingexamples.github.io/en-001/how-to-start-learning-automatic-testing/> | Article |
 | Visual Studio Code documentation | <https://code.visualstudio.com/docs> | Web, video |
 | Kata files | `practice-repo/tests/katas/` | Code |
 
@@ -42,7 +42,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 
 | Resource | Link | Format |
 | --- | --- | --- |
-| What are related concepts for automatic testing? (version control, pull requests) | <https://testingexamples.github.io/locales/en-001/what-are-related-concepts-for-automatic-testing/> | Article |
+| What are related concepts for automatic testing? (version control, pull requests) | <https://testingexamples.github.io/en-001/what-are-related-concepts-for-automatic-testing/> | Article |
 | Pro Git book | <https://git-scm.com/book/en/v2> | Book, web |
 | A testingexamples repository to read the history of | <https://github.com/testingexamples/demo-playwright-typescript> | Code |
 | The team's contribution guidelines | Team repository | Markdown |
@@ -66,7 +66,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 
 | Resource | Link | Format |
 | --- | --- | --- |
-| Given-When-Then Examples | <https://testingexamples.github.io/locales/en-001/given-when-then/> | Article |
+| Given-When-Then Examples | <https://testingexamples.github.io/en-001/given-when-then/> | Article |
 | Playwright TypeScript skill, "From walkthrough to real test" | <https://github.com/testingexamples/playwright-typescript-skill> | Markdown |
 | NHS Wales worked example and spec (read, do not repeatedly run) | <https://github.com/testingexamples/demo-playwright-typescript-for-nhs-wales> | Code |
 | Playwright: assertions | <https://playwright.dev/docs/test-assertions> | Web |
@@ -81,7 +81,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | HAPI FHIR | <https://hapifhir.io/> | Web |
 | Playwright: API testing | <https://playwright.dev/docs/api-testing> | Web |
 | LOINC | <https://loinc.org/> | Web |
-| FHIR sandbox | `fhir-sandbox/README.md` | Markdown |
+| FHIR sandbox | `practice-repo/fhir-sandbox/README.md` | Markdown |
 | Example FHIR suite | `practice-repo/tests/api/fhir.spec.ts` | Code |
 | The team's interface specifications | Team documentation | Various |
 
@@ -89,8 +89,8 @@ Practice on the fixture site, local services, and your own test environments. Re
 
 | Resource | Link | Format |
 | --- | --- | --- |
-| What is continuous integration automatic testing? | <https://testingexamples.github.io/locales/en-001/what-is-continuous-integration-testing/> | Article |
-| What is DevOps for automatic testing? | <https://testingexamples.github.io/locales/en-001/what-is-devops-for-automatic-testing/> | Article |
+| What is continuous integration automatic testing? | <https://testingexamples.github.io/en-001/what-is-continuous-integration-testing/> | Article |
+| What is DevOps for automatic testing? | <https://testingexamples.github.io/en-001/what-is-devops-for-automatic-testing/> | Article |
 | Playwright: continuous integration | <https://playwright.dev/docs/ci> | Web |
 | Playwright: sharding | <https://playwright.dev/docs/test-sharding> | Web |
 | Practice pipeline | `practice-repo/.github/workflows/ci.yml` | Code |
@@ -104,7 +104,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | The organisation's information governance policy | Internal | Document |
 | roles-skills: clinical risk management and information governance skills | <https://roles-skills.github.io> | Web |
 | Synthea synthetic patient generator | <https://synthetichealth.github.io/synthea/> | Web, code |
-| FHIR sandbox synthetic data | `fhir-sandbox/data/synthetic-bundle.json` | Data |
+| FHIR sandbox synthetic data | `practice-repo/fhir-sandbox/data/synthetic-bundle.json` | Data |
 | Playwright: accessibility testing with axe | <https://playwright.dev/docs/accessibility-testing> | Web |
 | IEC 62304 | <https://www.iso.org/standard/38421.html> | Standard (summary page) |
 
@@ -112,9 +112,9 @@ Practice on the fixture site, local services, and your own test environments. Re
 
 | Resource | Link | Format |
 | --- | --- | --- |
-| What metrics help automatic testing? | <https://testingexamples.github.io/locales/en-001/what-are-flow-metrics-for-automatic-testing/> | Article |
-| How does Six Sigma lead manual testing into automatic testing? | <https://testingexamples.github.io/locales/en-001/what-is-lean-six-sigma-for-automatic-testing/> | Article |
-| How does artificial intelligence help automatic testing? | <https://testingexamples.github.io/locales/en-001/how-does-artificial-intelligence-help-automatic-testing/> | Article |
+| What metrics help automatic testing? | <https://testingexamples.github.io/en-001/what-are-flow-metrics-for-automatic-testing/> | Article |
+| How does Six Sigma lead manual testing into automatic testing? | <https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/> | Article |
+| How does artificial intelligence help automatic testing? | <https://testingexamples.github.io/en-001/how-does-artificial-intelligence-help-automatic-testing/> | Article |
 | Flaky-test exercise | `practice-repo/tests/flaky/README.md` | Code |
 | Playwright: retries | <https://playwright.dev/docs/test-retries> | Web |
 

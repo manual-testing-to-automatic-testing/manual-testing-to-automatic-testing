@@ -28,7 +28,7 @@ export default defineConfig({
       },
     },
     {
-      // M6: API tests against the local FHIR sandbox (../fhir-sandbox).
+      // M6: API tests against the local FHIR sandbox (fhir-sandbox/).
       name: 'api',
       testDir: './tests/api',
       use: {

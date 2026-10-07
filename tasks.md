@@ -15,22 +15,23 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 
 - [x] Practice repository: typecheck, lint, and format checks clean; 50 kata tests and 11 fixture-site browser tests pass
 - [x] FHIR sandbox: loads 6 synthetic patients and the profile; 15 API tests pass against HAPI FHIR v8.12.0-2
-- [ ] Run the practice repository's CI workflow on the organisation's CI service, with the gitleaks scan
-- [ ] Copy `fhir-sandbox/` into the practice repository when it becomes its own repository, so the CI API job can start it
+- [x] Run the CI job steps locally: typecheck, lint, format, katas, browser, and API tests (76 passed) with the sandbox loaded; gitleaks scan clean, and its NHS number rule catches planted non-test numbers
+- [ ] Run the practice repository's CI workflow on the organisation's CI service (D2)
+- [x] Move the FHIR sandbox into the practice repository (`practice-repo/fhir-sandbox/`), so the CI API job can load it
 
 ## 1. Planning
 
-- [ ] Name the programme sponsor (head of test) and the training lead
-- [ ] Get HR agreement that gates are developmental only and that no band changes follow (D7)
+- [ ] Name the programme sponsor (head of test) and the training lead (draft: `materials/planning/sponsor-brief.md`)
+- [ ] Get HR agreement that gates are developmental only and that no band changes follow (D7) (draft: `materials/planning/hr-briefing.md`)
 - [ ] Agree with HR the rule for Band 3 factor levels and unmapped band and role combinations (D6)
-- [ ] Get answers to the other open questions in plan.md, and record decisions D1 to D5 in the spec
-- [ ] Choose the first cohort (up to 12 people) and list each person's band and assigned PCF role
+- [ ] Get answers to the other open questions in plan.md, and record decisions D1 to D5 in the spec (log: `materials/planning/decision-log.md`)
+- [ ] Choose the first cohort (up to 12 people) and list each person's band and assigned PCF role (template: `materials/planning/cohort-roster.tsv`)
 - [ ] Name mentors: at least one band above each participant, at or above their automation target, and at most 3 participants each
-- [ ] Agree budget: course licences, mentor time, panel time
-- [ ] Book Gates 0 to 5 and the Gate 4 panels in calendars
-- [ ] Brief line managers on self-assessment, independent rating, and calibration
-- [ ] Brief product owners, the clinical safety officer, and the information governance lead
-- [ ] Pin the roles-skills reference version for this cohort
+- [ ] Agree budget: course licences, mentor time, panel time (estimate: `materials/planning/resource-estimate.md`)
+- [ ] Book Gates 0 to 5 and the Gate 4 panels in calendars (dates: `python3 scripts/gate_calendar.py <start Monday>`)
+- [ ] Brief line managers on self-assessment, independent rating, and calibration (draft: `materials/planning/manager-briefing.md`)
+- [ ] Brief product owners, the clinical safety officer, and the information governance lead (draft: `materials/planning/stakeholder-briefing.md`)
+- [x] Pin the roles-skills reference version (recorded in `instruments/README.md`; re-check before the cohort)
 
 ## 2. Analysis
 
@@ -62,7 +63,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 
 - [ ] Review the eight tracks, automation targets, and module depths with mentors and the head of test
 - [ ] Confirm gate thresholds and conditions with the training lead and HR
-- [ ] Confirm every learning outcome has a depth for every track, and maps to evidence
+- [x] Confirm every learning outcome has a depth for every track, and maps to evidence (checked by script: 12 outcomes with 8 depths each, LO13 for all tracks, 13 coverage rows)
 - [ ] Choose the TypeScript foundations course (D3)
 - [ ] Agree capstone areas for each participant with product owners (D5)
 - [ ] Review the design against Universal Design for Instruction

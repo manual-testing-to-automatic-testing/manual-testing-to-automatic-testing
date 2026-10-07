@@ -19,6 +19,24 @@ Every resource in the [reading list](reading-list.md) is checked before the coho
 
 Status values: **not yet checked**, **passed**, **passed with alternative** (say which), **failed** (say what replaces it).
 
+## Automated scan
+
+[accessibility-scan-results.md](accessibility-scan-results.md) holds the latest automated axe-core scan of every web resource in the reading list. To re-run it before each cohort:
+
+```sh
+cd scripts/accessibility-scan
+npm install
+npx playwright install chromium
+npm run scan
+```
+
+The scan supports checks 3 and 8 only, so every status below stays **not yet checked** until a person completes the manual checks. Findings from the 2026-10-07 scan that need action before the cohort starts:
+
+- **testingexamples.github.io fixture page:** form fields without labels (`label`, `select-name`). The fixture markup is a fixed contract, so do not change it for the course. Instead, tell screen reader users which fields are which, and give them the exercise sheet in [modules/m4-browser-automation-fundamentals/exercise-sheet.md](modules/m4-browser-automation-fundamentals/exercise-sheet.md), which names every fixture.
+- **testingexamples Given-When-Then page and the fixture spec on GitHub:** scrollable code blocks cannot be reached by keyboard (`scrollable-region-focusable`). Provide the code as text files, or report the issue to the site's maintainer.
+- **roles-skills.github.io:** colour contrast failures on 14 elements (`color-contrast`). Offer the self-assessment TSV files in `instruments/` as the alternative format, and report the issue to the site's maintainer.
+- **loinc.org and iso.org:** blocked the automated browser (HTTP 403). Check them by hand.
+
 ## Resources
 
 | Module | Resource | Status | Checked by | Date | Notes |

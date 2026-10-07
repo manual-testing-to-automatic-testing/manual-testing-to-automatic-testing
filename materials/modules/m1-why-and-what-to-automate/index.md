@@ -55,9 +55,9 @@ Gate 1 (week 6) reviews E1 with E2 and E3. E1 is reused in M5, M10, and the caps
 
 ## Resources
 
-- [What is automatic testing?](https://testingexamples.github.io/locales/en-001/what-is-automatic-testing/)
-- [What is the purpose of automatic testing?](https://testingexamples.github.io/locales/en-001/what-is-the-purpose-of-automatic-testing/)
-- [What is the automatic testing pyramid?](https://testingexamples.github.io/locales/en-001/what-is-the-testing-pyramid/)
-- [What is browser automatic testing?](https://testingexamples.github.io/locales/en-001/what-is-browser-automation-testing/)
-- [What is continuous integration automatic testing?](https://testingexamples.github.io/locales/en-001/what-is-continuous-integration-testing/)
-- [How does Six Sigma lead manual testing into automatic testing?](https://testingexamples.github.io/locales/en-001/what-is-lean-six-sigma-for-automatic-testing/)
+- [What is automatic testing?](https://testingexamples.github.io/en-001/what-is-automatic-testing/)
+- [What is the purpose of automatic testing?](https://testingexamples.github.io/en-001/what-is-the-purpose-of-automatic-testing/)
+- [What is the automatic testing pyramid?](https://testingexamples.github.io/en-001/what-is-the-testing-pyramid/)
+- [What is browser automatic testing?](https://testingexamples.github.io/en-001/what-is-browser-automation-testing/)
+- [What is continuous integration automatic testing?](https://testingexamples.github.io/en-001/what-is-continuous-integration-testing/)
+- [How does Six Sigma lead manual testing into automatic testing?](https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/)

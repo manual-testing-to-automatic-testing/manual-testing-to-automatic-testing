@@ -30,16 +30,16 @@ npm run test:katas                    # check everything works
 
 ## Where each module's work lives
 
-| Module                        | Folder                                                                               | What you do                                                                                                                                                                                |
-| ----------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| M2 Programming foundations    | [`src/katas/`](src/katas/), [`tests/katas/`](tests/katas/)                           | Solve the katas for your track. See [tests/katas/README.md](tests/katas/README.md).                                                                                                        |
-| M3 Version control            | the whole repository                                                                 | Branch, commit, open pull requests, review. See [CONTRIBUTING.md](CONTRIBUTING.md).                                                                                                        |
-| M4 Browser automation         | [`tests/ui/`](tests/ui/)                                                             | Write a walkthrough that locates and acts on every fixture on the testingexamples home page.                                                                                               |
-| M5 Walkthrough to real test   | [`tests/ui/`](tests/ui/), [`tests/ui/pages/`](tests/ui/pages/), [`spec/`](spec/)     | Turn the walkthrough into a real suite with web-first assertions, a page object, and a spec. [`tests/ui/fixtures.spec.ts`](tests/ui/fixtures.spec.ts) is a worked answer: try yours first. |
-| M6 API and FHIR tests         | [`tests/api/`](tests/api/)                                                           | Write API tests against the FHIR sandbox. [`tests/api/fhir.spec.ts`](tests/api/fhir.spec.ts) is the worked suite that B4-QA and B7-TM read and others extend.                              |
-| M7 Continuous integration     | [`.github/workflows/ci.yml`](.github/workflows/ci.yml)                               | Read, run, and change the pipeline; triage failures.                                                                                                                                       |
-| M8 Safe and lawful automation | [`.gitleaks.toml`](.gitleaks.toml), [`../fhir-sandbox/data/`](../fhir-sandbox/data/) | Keep secrets and real data out; build synthetic data; trace tests to hazards.                                                                                                              |
-| M9 Quality engineering        | [`tests/flaky/`](tests/flaky/)                                                       | Find and fix the root cause of a flaky test.                                                                                                                                               |
+| Module                        | Folder                                                                           | What you do                                                                                                                                                                                |
+| ----------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| M2 Programming foundations    | [`src/katas/`](src/katas/), [`tests/katas/`](tests/katas/)                       | Solve the katas for your track. See [tests/katas/README.md](tests/katas/README.md).                                                                                                        |
+| M3 Version control            | the whole repository                                                             | Branch, commit, open pull requests, review. See [CONTRIBUTING.md](CONTRIBUTING.md).                                                                                                        |
+| M4 Browser automation         | [`tests/ui/`](tests/ui/)                                                         | Write a walkthrough that locates and acts on every fixture on the testingexamples home page.                                                                                               |
+| M5 Walkthrough to real test   | [`tests/ui/`](tests/ui/), [`tests/ui/pages/`](tests/ui/pages/), [`spec/`](spec/) | Turn the walkthrough into a real suite with web-first assertions, a page object, and a spec. [`tests/ui/fixtures.spec.ts`](tests/ui/fixtures.spec.ts) is a worked answer: try yours first. |
+| M6 API and FHIR tests         | [`tests/api/`](tests/api/)                                                       | Write API tests against the FHIR sandbox. [`tests/api/fhir.spec.ts`](tests/api/fhir.spec.ts) is the worked suite that B4-QA and B7-TM read and others extend.                              |
+| M7 Continuous integration     | [`.github/workflows/ci.yml`](.github/workflows/ci.yml)                           | Read, run, and change the pipeline; triage failures.                                                                                                                                       |
+| M8 Safe and lawful automation | [`.gitleaks.toml`](.gitleaks.toml), [`fhir-sandbox/data/`](fhir-sandbox/data/)   | Keep secrets and real data out; build synthetic data; trace tests to hazards.                                                                                                              |
+| M9 Quality engineering        | [`tests/flaky/`](tests/flaky/)                                                   | Find and fix the root cause of a flaky test.                                                                                                                                               |
 
 ## Writing a new suite
 
@@ -51,17 +51,17 @@ npm run test:katas                    # check everything works
 
 ## The FHIR sandbox
 
-The API tests need the local FHIR server in [`../fhir-sandbox/`](../fhir-sandbox/):
+The API tests need the local FHIR server in [`fhir-sandbox/`](fhir-sandbox/):
 
 ```sh
-cd ../fhir-sandbox
+cd fhir-sandbox
 docker compose up -d
 scripts/load.sh
-cd ../practice-repo
+cd ..
 npm run test:api
 ```
 
-When you set up a practice repository for a cohort as its own git repository, copy `fhir-sandbox/` into it, so the CI `api` job can load the same data.
+The sandbox is part of this repository, so the CI `api` job loads the same data. When you set up a cohort's practice repository, copy this whole folder.
 
 ## CI
 

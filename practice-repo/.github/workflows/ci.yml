@@ -95,21 +95,12 @@ jobs:
     env:
       FHIR_BASE_URL: http://localhost:8080/fhir
     steps:
-      # The FHIR sandbox files live next to this repository in the training
-      # programme. If you copied this repository on its own, copy fhir-sandbox/
-      # into it and change this path.
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - name: Check the FHIR sandbox files are present
-        run: |
-          if [ ! -f fhir-sandbox/scripts/load.sh ]; then
-            echo "::error::Copy the programme's fhir-sandbox/ folder into this repository (see README)."
-            exit 1
-          fi
       - name: Load synthetic data and profile
         run: sh fhir-sandbox/scripts/load.sh "$FHIR_BASE_URL"
       - run: npm run test:api

@@ -56,8 +56,8 @@ Gate 3 (week 18) reviews E7 with E6. The Gate 3 Part D practical is "triage and 
 
 ## Resources
 
-- [What is continuous integration automatic testing?](https://testingexamples.github.io/locales/en-001/what-is-continuous-integration-testing/)
-- [What is DevOps for automatic testing?](https://testingexamples.github.io/locales/en-001/what-is-devops-for-automatic-testing/)
+- [What is continuous integration automatic testing?](https://testingexamples.github.io/en-001/what-is-continuous-integration-testing/)
+- [What is DevOps for automatic testing?](https://testingexamples.github.io/en-001/what-is-devops-for-automatic-testing/)
 - Playwright continuous integration: <https://playwright.dev/docs/ci>
 - Playwright sharding: <https://playwright.dev/docs/test-sharding>
 - The practice pipeline: `practice-repo/.github/workflows/ci.yml`

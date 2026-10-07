@@ -68,6 +68,6 @@ Gate 3 (week 18) reviews E6 with E7. The Gate 3 Part D practical is "triage and 
 - HAPI FHIR: <https://hapifhir.io/>
 - Playwright API testing: <https://playwright.dev/docs/api-testing>
 - LOINC: <https://loinc.org/>
-- The FHIR sandbox: `fhir-sandbox/README.md`
+- The FHIR sandbox: `practice-repo/fhir-sandbox/README.md`
 - The example suite: `practice-repo/tests/api/fhir.spec.ts`
 - The team's interface specifications.

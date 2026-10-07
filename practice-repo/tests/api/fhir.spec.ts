@@ -1,6 +1,6 @@
 import { test, expect, type APIRequestContext } from '@playwright/test';
 
-// API tests against the local FHIR sandbox (../fhir-sandbox), module M6.
+// API tests against the local FHIR sandbox (fhir-sandbox/), module M6.
 // Start it with `docker compose up -d` and load it with `scripts/load.sh`.
 // Every resource here is synthetic, and NHS numbers are from the 999 test range.
 
@@ -28,7 +28,7 @@ async function serverIsReachable(request: APIRequestContext): Promise<boolean> {
 test.beforeEach(async ({ request }) => {
   test.skip(
     !(await serverIsReachable(request)),
-    'FHIR sandbox not reachable: run `docker compose up -d` and `scripts/load.sh` in ../fhir-sandbox',
+    'FHIR sandbox not reachable: run `docker compose up -d` and `scripts/load.sh` in fhir-sandbox/',
   );
 });
 

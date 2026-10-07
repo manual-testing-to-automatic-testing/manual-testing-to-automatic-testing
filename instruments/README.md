@@ -54,4 +54,8 @@ Part D, the automation practical, is not in these files. See `../materials/gates
 python3 scripts/build_instrument.py --reference ~/git/agenda-for-change/roles-skills.github.io/content/reference.json
 ```
 
-Built from the Digital health care job roles reference (UK GDaD PCF accessed 2026-10-06). Contains public sector information from the UK Government Digital and Data Profession Capability Framework, licensed under the Open Government Licence v3.0. © Crown copyright.
+Built from the Digital health care job roles reference (UK GDaD PCF accessed 2026-10-06).
+
+**Pinned reference version:** `agenda-for-change` commit `cc1f9f5563a298fca8683984b8c1307f6fb26876` (2026-10-07); `reference.json` SHA-256 `382e4062e230d49bce668871649664987fd7c73eb6a58f66c3d89223ba2e02f9`. Before each cohort, rebuild; if the files change, review the change and update this line and the spec's change log.
+
+Contains public sector information from the UK Government Digital and Data Profession Capability Framework, licensed under the Open Government Licence v3.0. © Crown copyright.

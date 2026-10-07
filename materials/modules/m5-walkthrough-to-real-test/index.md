@@ -69,7 +69,7 @@ Gate 2 (week 12) reviews E5 with E4. The Gate 2 Part D practical is "automate on
 
 ## Resources
 
-- [Given-When-Then Examples](https://testingexamples.github.io/locales/en-001/given-when-then/)
+- [Given-When-Then Examples](https://testingexamples.github.io/en-001/given-when-then/)
 - `playwright-typescript-skill`, section "From walkthrough to real test": <https://github.com/testingexamples/playwright-typescript-skill>
 - NHS Wales worked example: <https://github.com/testingexamples/demo-playwright-typescript-for-nhs-wales>
 - Playwright test assertions: <https://playwright.dev/docs/test-assertions>

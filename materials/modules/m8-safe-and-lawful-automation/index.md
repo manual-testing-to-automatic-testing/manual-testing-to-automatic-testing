@@ -64,6 +64,6 @@ E8 is assessed at **Gate 4** (week 24), with E9 and E10. Gate 3 takes place at t
 - The organisation's information governance policy.
 - roles-skills skill definitions for clinical risk management and information governance: <https://roles-skills.github.io>
 - Synthea synthetic patient generator: <https://synthetichealth.github.io/synthea/>
-- The FHIR sandbox synthetic data: `fhir-sandbox/data/synthetic-bundle.json`
+- The FHIR sandbox synthetic data: `practice-repo/fhir-sandbox/data/synthetic-bundle.json`
 - axe-core for Playwright: <https://playwright.dev/docs/accessibility-testing>
 - IEC 62304 overview: <https://www.iso.org/standard/38421.html>

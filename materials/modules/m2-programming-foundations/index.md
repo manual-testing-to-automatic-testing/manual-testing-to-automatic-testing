@@ -62,6 +62,6 @@ Gate 1 (week 6) reviews E2 with E1 and E3. The Gate 1 Part D practical is "fix a
 ## Resources
 
 - A structured TypeScript course chosen by the training lead (Decision D3).
-- [What are related concepts for automatic testing?](https://testingexamples.github.io/locales/en-001/what-are-related-concepts-for-automatic-testing/) (code editors).
+- [What are related concepts for automatic testing?](https://testingexamples.github.io/en-001/what-are-related-concepts-for-automatic-testing/) (code editors).
 - The TypeScript handbook: <https://www.typescriptlang.org/docs/handbook/intro.html>
 - The kata files: `practice-repo/tests/katas/`.
