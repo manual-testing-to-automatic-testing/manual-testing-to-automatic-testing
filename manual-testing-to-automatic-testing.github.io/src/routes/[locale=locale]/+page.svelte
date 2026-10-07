@@ -12,8 +12,6 @@
     start: string;
     startCta: string;
     assessCta: string;
-    howHeading: string;
-    how: string[];
     tracksHeading: string;
     tracksIntro: string;
     trackCol: string;
@@ -36,13 +34,6 @@
     start: 'Start with the programme specification: it is the single source of truth.',
     startCta: 'Read the programme',
     assessCta: 'Open the self-assessment',
-    howHeading: 'How it works',
-    how: [
-      'Eight tuned tracks, one for each band and assigned role, share one schedule and one set of gates.',
-      'At every gate, each person repeats a full capability self-assessment: the band (21 dimensions), the PCF role aspects, and every skill in the role. Their manager rates it too.',
-      'The capability index rises from each person’s Gate 0 baseline to at least 90% at Gate 4.',
-      'From week 10, everyone automates real tests on their own team’s product, every week.'
-    ],
     tracksHeading: 'Tracks',
     tracksIntro: 'Find the track for your band and assigned PCF role.',
     trackCol: 'Track',
@@ -78,15 +69,6 @@
     <a class="button" href={localeHref(data.locale as Locale, 'self-assessment')}>{m.assessCta}</a>
   </p>
 </div>
-
-<section class="section" aria-labelledby="how">
-  <h2 id="how">{m.howHeading}</h2>
-  <ul class="prose">
-    {#each m.how as point (point)}
-      <li>{point}</li>
-    {/each}
-  </ul>
-</section>
 
 <section class="section" aria-labelledby="tracks">
   <h2 id="tracks">{m.tracksHeading}</h2>
