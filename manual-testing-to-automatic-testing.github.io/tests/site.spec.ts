@@ -13,7 +13,7 @@ test('the site root redirects to the default locale', async ({ page }) => {
 test('the sitemap lists every page', () => {
   expect(paths.length).toBeGreaterThan(90);
   expect(paths).toContain('/en-001/spec/');
-  expect(paths).toContain('/en-001/self-assessment/band-5-quality-assurance/');
+  expect(paths).toContain('/en-001/self-assessment/band-5-quality-assurance-test-analyst/');
 });
 
 test('every page has one h1, a title, a language, and the picker bar', async ({ page }) => {
@@ -47,9 +47,9 @@ test('document links point at site pages, downloads, and headings', async ({ pag
   await expect(page.locator('#capability-self-assessment')).toBeAttached();
 
   await page.goto('/en-001/instruments/');
-  const download = page.locator('a[href="/downloads/instruments/band-3.tsv"]').first();
+  const download = page.locator('a[href="/downloads/instruments/band-3-associate-quality-assurance-test-analyst.tsv"]').first();
   await expect(download).toBeAttached();
-  const tsv = await page.request.get('/downloads/instruments/band-3.tsv');
+  const tsv = await page.request.get('/downloads/instruments/band-3-associate-quality-assurance-test-analyst.tsv');
   expect(tsv.ok()).toBe(true);
   expect((await tsv.text()).split('\t')[0]).toBe('track');
 });

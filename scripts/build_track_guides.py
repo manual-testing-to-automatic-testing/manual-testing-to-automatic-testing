@@ -30,7 +30,11 @@ def find(first, contains=None):
             return h, rows
     raise KeyError(first)
 
-FILE_NAMES = {"B3": "band-3", "B4-QA": "band-4-quality-assurance", "B4-TE": "band-4-test-engineer", "B5-QA": "band-5-quality-assurance", "B6-QA": "band-6-quality-assurance", "B6-TE": "band-6-test-engineer", "B7-TE": "band-7-test-engineer", "B7-TM": "band-7-test-manager"}
+# Each track's instrument file name, from instruments/index.tsv (written by
+# scripts/build_instrument.py), so the two can never disagree.
+import csv
+with open(root / "instruments" / "index.tsv", encoding="utf-8") as _f:
+    FILE_NAMES = {row["track"]: row["file"].removesuffix(".tsv") for row in csv.DictReader(_f, delimiter="\t")}
 TRACKS = ["B3", "B4-QA", "B4-TE", "B5-QA", "B6-QA", "B6-TE", "B7-TE", "B7-TM"]
 tr_h, tr_rows = find("Track", "Reference role level")
 fac_h, fac_rows = find("Id", "B3")

@@ -2,7 +2,8 @@
 """Build the capability self-assessment instrument for every track.
 
 Reads the roles-skills reference (reference.json) and writes one TSV per track
-to instruments/, named in words (B5-QA is band-5-quality-assurance.tsv), plus
+to instruments/, named by band and reference role level in words (B6-QA is
+band-6-senior-quality-assurance-test-analyst.tsv), plus
 instruments/index.tsv. The instrument is defined in
 spec/index.md, section "Capability self-assessment":
 
@@ -39,17 +40,12 @@ TRACKS = [
     ("B7-TM", "7", "test-manager", "Test manager"),
 ]
 
-# Each track's file name, in words: lower case, with dashes.
-FILE_NAMES = {
-    "B3": "band-3",
-    "B4-QA": "band-4-quality-assurance",
-    "B4-TE": "band-4-test-engineer",
-    "B5-QA": "band-5-quality-assurance",
-    "B6-QA": "band-6-quality-assurance",
-    "B6-TE": "band-6-test-engineer",
-    "B7-TE": "band-7-test-engineer",
-    "B7-TM": "band-7-test-manager",
-}
+def file_name(band_id, level_title):
+    """A track's file name, in words: the band, then the reference role level,
+    lower case, with dashes. B6-QA is band-6-senior-quality-assurance-test-analyst."""
+    words = re.sub(r"[^a-z0-9]+", "-", level_title.lower()).strip("-")
+    return f"band-{band_id}-{words}"
+
 
 # Tracks whose job evaluation factor levels are agreed at Gate 0, because the
 # reference has no role level at their band (spec, "Tracks", Band 3).
@@ -251,7 +247,7 @@ def main():
     summary = []
     for track, band_id, role_id, level_title in TRACKS:
         rows = build_rows(ref, track, band_id, role_id, level_title)
-        path = os.path.join(args.out, f"{FILE_NAMES[track]}.tsv")
+        path = os.path.join(args.out, f"{file_name(band_id, level_title)}.tsv")
         with open(path, "w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=COLUMNS, delimiter="\t", lineterminator="\n")
             writer.writeheader()
@@ -266,7 +262,7 @@ def main():
                 "part_b_items": counts["B"],
                 "part_c_items": counts["C"],
                 "total_items": len(rows),
-                "file": f"{FILE_NAMES[track]}.tsv",
+                "file": f"{file_name(band_id, level_title)}.tsv",
             }
         )
         print(f"{track}: {counts['A']} + {counts['B']} + {counts['C']} = {len(rows)} items -> {path}")

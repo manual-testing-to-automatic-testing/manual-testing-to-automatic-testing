@@ -4,7 +4,7 @@
 
 export type Part = 'A' | 'B' | 'C';
 
-/** One row of a track's instrument, such as instruments/band-5-quality-assurance.tsv. */
+/** One row of a track's instrument, such as instruments/band-5-quality-assurance-test-analyst.tsv. */
 export type Item = {
   part: Part;
   item_id: string;

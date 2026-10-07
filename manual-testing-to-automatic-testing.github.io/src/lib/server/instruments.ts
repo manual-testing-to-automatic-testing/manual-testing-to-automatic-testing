@@ -13,7 +13,7 @@ const RAW = import.meta.glob('/content/instruments/*.tsv', {
 export type Track = {
   /** The track id, such as B5-QA. */
   id: string;
-  /** The instrument's file name in words, such as band-5-quality-assurance, also its URL slug. */
+  /** The instrument's file name in words, such as band-5-quality-assurance-test-analyst, also its URL slug. */
   slug: string;
   band: string;
   role: string;

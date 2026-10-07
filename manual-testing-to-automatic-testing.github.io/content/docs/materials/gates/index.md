@@ -6,7 +6,7 @@ Gates are the backbone of the programme. This page is copied from [spec/index.md
 
 Every gate:
 
-1. repeats the **full capability self-assessment** (Parts A, B, and C) for the person's track, using the track's file in `instruments/`, such as `instruments/band-5-quality-assurance.tsv` (see `instruments/README.md`)
+1. repeats the **full capability self-assessment** (Parts A, B, and C) for the person's track, using the track's file in `instruments/`, such as `instruments/band-5-quality-assurance-test-analyst.tsv` (see `instruments/README.md`)
 2. calibrates the ratings: the person rates first, the line manager rates independently, and they agree each rating with evidence (see the [calibration guide](calibration-guide.md))
 3. adds the **Part D practical** from Gate 1 (see [Part D practicals](part-d-practicals.md))
 4. reviews the module evidence for that gate

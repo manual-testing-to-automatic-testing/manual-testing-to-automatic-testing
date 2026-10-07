@@ -11,7 +11,7 @@ This guide is for participants and line managers. It explains how to complete th
 
 ## The instrument
 
-Your track's file is the track's file in `instruments/`, such as `instruments/band-5-quality-assurance.tsv` (see `instruments/README.md`). It has:
+Your track's file is the track's file in `instruments/`, such as `instruments/band-5-quality-assurance-test-analyst.tsv` (see `instruments/README.md`). It has:
 
 - **Part A, band (21 items):** A1 to A5 are the band outline dimensions, rated Not yet, Partly, or Meets. A6 to A21 are the 16 job evaluation factors: you choose the factor level that best describes what you do regularly now.
 - **Part B, PCF role aspects:** every statement in your PCF role description and role level description, and every reference responsibility, rated Not yet, Partly, or Meets.

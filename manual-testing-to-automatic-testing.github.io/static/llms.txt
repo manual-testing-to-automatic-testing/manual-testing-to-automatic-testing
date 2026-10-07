@@ -14,5 +14,5 @@
 
 ## Data
 
-- [Instruments](https://manual-testing-to-automatic-testing.github.io/en-001/instruments/): one TSV per track, for example [band-5-quality-assurance.tsv](https://manual-testing-to-automatic-testing.github.io/downloads/instruments/band-5-quality-assurance.tsv)
+- [Instruments](https://manual-testing-to-automatic-testing.github.io/en-001/instruments/): one TSV per track, for example [band-5-quality-assurance-test-analyst.tsv](https://manual-testing-to-automatic-testing.github.io/downloads/instruments/band-5-quality-assurance-test-analyst.tsv)
 - [Sitemap](https://manual-testing-to-automatic-testing.github.io/sitemap.xml)

@@ -1,6 +1,6 @@
 import { test, expect, type Page } from '@playwright/test';
 
-const TRACK = '/en-001/self-assessment/band-5-quality-assurance/';
+const TRACK = '/en-001/self-assessment/band-5-quality-assurance-test-analyst/';
 
 /** Choose the best option (the last one) in every select whose id ends with the suffix. */
 async function rateAll(page: Page, suffix: string, pick: 'best' | 'first' = 'best') {
@@ -60,7 +60,7 @@ test('answers persist in this browser, and export as a scored TSV', async ({ pag
   const downloadPromise = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Export TSV' }).click();
   const download = await downloadPromise;
-  expect(download.suggestedFilename()).toBe('band-5-quality-assurance--gate-0.tsv');
+  expect(download.suggestedFilename()).toBe('band-5-quality-assurance-test-analyst--gate-0.tsv');
   const text = await (await download.createReadStream()).toArray().then((chunks) => Buffer.concat(chunks).toString('utf8'));
   const [header, first] = text.split('\n');
   expect(header.split('\t')).toContain('agreed_rating');
@@ -94,7 +94,7 @@ test('an exported TSV imports back, and a file for another track is refused', as
 });
 
 test('Band 3 factor levels are agreed at Gate 0 before they count', async ({ page }) => {
-  await page.goto('/en-001/self-assessment/band-3/');
+  await page.goto('/en-001/self-assessment/band-3-associate-quality-assurance-test-analyst/');
   await expect(page.locator('select[id$="-expected"]')).toHaveCount(16);
   await page.locator('select[id="A6-agreed"]').selectOption('3');
   await expect(page.getByRole('row', { name: /Agreed/ }).getByRole('cell').first()).toHaveText(/—/);

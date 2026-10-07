@@ -4,13 +4,13 @@ One instrument for each track, named in words (lower case, with dashes), generat
 
 | File | Track | Description | Items (Part A + B + C) |
 | --- | --- | --- | --- |
-| [band-3.tsv](band-3.tsv) | B3 | Band 3, associate level | 21 + 15 + 9 = 45 |
-| [band-4-quality-assurance.tsv](band-4-quality-assurance.tsv) | B4-QA | Band 4, Associate quality assurance test analyst | 21 + 15 + 9 = 45 |
-| [band-4-test-engineer.tsv](band-4-test-engineer.tsv) | B4-TE | Band 4, Associate test engineer | 21 + 15 + 9 = 45 |
-| [band-5-quality-assurance.tsv](band-5-quality-assurance.tsv) | B5-QA | Band 5, Quality assurance test analyst | 21 + 18 + 10 = 49 |
-| [band-6-quality-assurance.tsv](band-6-quality-assurance.tsv) | B6-QA | Band 6, Senior quality assurance test analyst | 21 + 16 + 11 = 48 |
+| [band-3-associate-quality-assurance-test-analyst.tsv](band-3-associate-quality-assurance-test-analyst.tsv) | B3 | Band 3, associate level | 21 + 15 + 9 = 45 |
+| [band-4-associate-quality-assurance-test-analyst.tsv](band-4-associate-quality-assurance-test-analyst.tsv) | B4-QA | Band 4, Associate quality assurance test analyst | 21 + 15 + 9 = 45 |
+| [band-4-associate-test-engineer.tsv](band-4-associate-test-engineer.tsv) | B4-TE | Band 4, Associate test engineer | 21 + 15 + 9 = 45 |
+| [band-5-quality-assurance-test-analyst.tsv](band-5-quality-assurance-test-analyst.tsv) | B5-QA | Band 5, Quality assurance test analyst | 21 + 18 + 10 = 49 |
+| [band-6-senior-quality-assurance-test-analyst.tsv](band-6-senior-quality-assurance-test-analyst.tsv) | B6-QA | Band 6, Senior quality assurance test analyst | 21 + 16 + 11 = 48 |
 | [band-6-test-engineer.tsv](band-6-test-engineer.tsv) | B6-TE | Band 6, Test engineer | 21 + 16 + 10 = 47 |
-| [band-7-test-engineer.tsv](band-7-test-engineer.tsv) | B7-TE | Band 7, Senior test engineer | 21 + 14 + 11 = 46 |
+| [band-7-senior-test-engineer.tsv](band-7-senior-test-engineer.tsv) | B7-TE | Band 7, Senior test engineer | 21 + 14 + 11 = 46 |
 | [band-7-test-manager.tsv](band-7-test-manager.tsv) | B7-TM | Band 7, Test manager | 21 + 19 + 12 = 52 |
 
 [index.tsv](index.tsv) lists the same counts.
@@ -25,14 +25,14 @@ Part D, the automation practical, is not in these files. See `../materials/gates
 
 ## How to use at a gate
 
-1. Copy the track's file to the person's private folder, named `<person>--<file name>--gate-<n>.tsv`, for example `jo--band-5-quality-assurance--gate-1.tsv`. Personal assessments never go in this repository.
+1. Copy the track's file to the person's private folder, named `<person>--<file name>--gate-<n>.tsv`, for example `jo--band-5-quality-assurance-test-analyst--gate-1.tsv`. Personal assessments never go in this repository.
 2. The person fills in `self_rating` and `evidence`.
 3. The line manager fills in `manager_rating` separately.
 4. They agree `agreed_rating` together, following the calibration guide in `../materials/gates/`, and add `ilp_action` for the gaps that matter most.
 5. Calculate the capability index:
 
    ```sh
-   python3 scripts/capability_index.py path/to/jo--band-5-quality-assurance--gate-1.tsv --gate 1 --write
+   python3 scripts/capability_index.py path/to/jo--band-5-quality-assurance-test-analyst--gate-1.tsv --gate 1 --write
    ```
 
    This prints the index for Parts A, B, and C and overall, checks the gate's percentage threshold, and fills the `status` column. Check the gate's other conditions and Part D by hand.
@@ -46,7 +46,7 @@ Part D, the automation practical, is not in these files. See `../materials/gates
 
 ## Example
 
-[examples/band-5-quality-assurance-fictional-gate-0.tsv](examples/band-5-quality-assurance-fictional-gate-0.tsv) is a **fictional** completed instrument, made with random ratings to test the calculator. It is not about a real person.
+[examples/band-5-quality-assurance-test-analyst-fictional-gate-0.tsv](examples/band-5-quality-assurance-test-analyst-fictional-gate-0.tsv) is a **fictional** completed instrument, made with random ratings to test the calculator. It is not about a real person.
 
 ## Rebuild
 
