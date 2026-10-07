@@ -20,7 +20,8 @@ Out of scope: the practice repository's code (linked on GitHub, not rendered), a
 4. **Same scoring as the monorepo.** The self-assessment scores exactly as `scripts/capability_index.py` does.
 5. **Private by design.** Self-assessment answers stay in the reader's browser. Nothing is sent anywhere.
 6. **Generic.** The theme picker offers only Lily's generic themes, not national government or public-sector themes, because the programme is written for a generic organisation.
-7. **Accessible.** Semantic HTML, one `h1` per page, visible focus, a skip link, breadcrumbs, labelled form controls, focusable scroll regions, and WCAG 2.2 AA contrast in the default theme. No colour-only signalling: every status is also written as text.
+7. **Single column, no sidebars.** Every page is one column: no left or right sidebars, and no sticky side panels. Navigation that a sidebar might hold, such as a document's contents list, sits in the flow of the page.
+8. **Accessible.** Semantic HTML, one `h1` per page, visible focus, a skip link, breadcrumbs, labelled form controls, focusable scroll regions, and WCAG 2.2 AA contrast in the default theme. No colour-only signalling: every status is also written as text.
 
 ## Stack
 
@@ -70,7 +71,7 @@ Each document is rendered from its Markdown at build time:
 - Headings get GitHub's anchor ids, so links such as `spec/#decisions` work as they do on GitHub.
 - A relative link to another document becomes that document's page. A link to a vendored TSV becomes its download. Any other relative link, such as practice repository code, goes to that path in the monorepo on GitHub. A link outside the monorepo goes to the monorepo's home on GitHub.
 - Wide tables and code blocks scroll inside focusable regions.
-- Documents with more than two second-level headings get a contents list.
+- Documents with more than two second-level headings get a contents list, under the document's `h1`, in the flow of the page.
 - Every document page ends with a link to its source on GitHub.
 
 ### Self-assessment

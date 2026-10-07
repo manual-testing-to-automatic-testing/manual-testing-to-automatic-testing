@@ -1287,24 +1287,16 @@ th {
   color: var(--site-page-bg);
 }
 
-/* Rendered Markdown documents. */
-.doc-layout {
-  display: grid;
-  gap: 2rem;
+/* Rendered Markdown documents. Single column, with no sidebars: the
+ * contents list sits in the flow of the page, under the document's h1. */
+.doc-contents {
+  margin: 1rem 0 2rem;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--site-primary);
+  background: var(--site-surface);
+  border-radius: var(--site-radius);
 }
-@media (min-width: 64rem) {
-  .doc-layout:has(.doc-contents) {
-    grid-template-columns: 14rem minmax(0, 1fr);
-  }
-  .doc-contents {
-    position: sticky;
-    top: 1rem;
-    align-self: start;
-    max-height: calc(100vh - 2rem);
-    overflow: auto;
-  }
-}
-.doc-contents-heading {
+.doc .doc-contents .doc-contents-heading {
   font-size: 1rem;
   margin: 0 0 0.5rem;
 }
@@ -1315,7 +1307,6 @@ th {
 }
 .doc-contents li {
   margin: 0 0 0.35rem;
-  font-size: 0.95rem;
 }
 .doc {
   min-width: 0;

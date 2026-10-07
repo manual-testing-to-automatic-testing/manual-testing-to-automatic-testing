@@ -38,6 +38,7 @@ pnpm test      # Playwright, against the production build (run pnpm build first)
 
 ## Things that bite
 
+- **No sidebars.** Every page is a single column; a document's contents list sits under its `h1`. `tests/site.spec.ts` checks it.
 - **Lily themes style `.hero`.** Use `.page-intro` and `.page-lede` for page headers.
 - **`{#each}` keys must be unique.** A duplicate key throws at hydration and blanks the page, while the prerendered HTML looks fine.
 - **Prerendering crawls every link.** A broken internal link fails the build. A page reached only by a form (search) needs `entries`.

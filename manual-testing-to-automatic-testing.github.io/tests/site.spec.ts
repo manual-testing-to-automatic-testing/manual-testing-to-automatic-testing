@@ -59,3 +59,18 @@ test('search finds documents', async ({ page }) => {
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Search');
   await expect(page.getByRole('link', { name: 'Calibration guide' }).first()).toBeVisible();
 });
+
+test('pages are a single column, with no sidebars', async ({ page }) => {
+  await page.setViewportSize({ width: 1600, height: 1000 });
+  await page.goto('/en-001/spec/');
+  const h1 = await page.locator('article h1').boundingBox();
+  const contents = await page.getByRole('navigation', { name: 'Contents' }).boundingBox();
+  const firstSection = await page.locator('article h2').nth(1).boundingBox();
+  expect(h1 && contents && firstSection).toBeTruthy();
+  // The contents list sits under the heading, in the same column, and the
+  // document continues under it: nothing sits beside the text.
+  expect(contents!.y).toBeGreaterThan(h1!.y + h1!.height - 1);
+  expect(Math.abs(contents!.x - h1!.x)).toBeLessThan(2);
+  expect(firstSection!.y).toBeGreaterThan(contents!.y + contents!.height - 1);
+  expect(Math.abs(firstSection!.x - h1!.x)).toBeLessThan(2);
+});

@@ -5,12 +5,21 @@
 
   let { data } = $props();
   const chrome = $derived(chromeFor(data.locale as Locale));
-  // The document's own h1 is rendered from its Markdown.
+
+  // Single column, no sidebars: the document's own h1 (rendered from its
+  // Markdown) comes first, then the contents list, then the rest.
+  const split = $derived.by(() => {
+    const end = data.html.indexOf('</h1>');
+    return end === -1
+      ? { head: '', body: data.html }
+      : { head: data.html.slice(0, end + 5), body: data.html.slice(end + 5) };
+  });
 </script>
 
 <Breadcrumbs crumbs={data.crumbs} current={data.heading} label={chrome.breadcrumbLabel} />
 
-<div class="doc-layout">
+<article class="doc prose">
+  {@html split.head}
   {#if data.headings.length > 2}
     <nav class="doc-contents" aria-label={chrome.doc.contents}>
       <h2 class="doc-contents-heading">{chrome.doc.contents}</h2>
@@ -21,8 +30,6 @@
       </ul>
     </nav>
   {/if}
-  <article class="doc prose">
-    {@html data.html}
-    <p class="doc-source"><a href={data.source}>{chrome.doc.viewSource}</a> <code>{data.path}</code></p>
-  </article>
-</div>
+  {@html split.body}
+  <p class="doc-source"><a href={data.source}>{chrome.doc.viewSource}</a> <code>{data.path}</code></p>
+</article>
