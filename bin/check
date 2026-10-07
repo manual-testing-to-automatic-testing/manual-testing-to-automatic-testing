@@ -1,0 +1,50 @@
+#!/bin/sh
+# Check the monorepo before publishing the website:
+#
+#   1. the website's vendored documents and instruments are up to date
+#   2. the instruments rebuild from the reference without changes (if the
+#      roles-skills reference is available)
+#   3. the website type-checks, builds (strict prerendering: no broken
+#      internal links), and passes its tests
+#
+#   bin/check           # everything
+#   bin/check --quiet   # less output
+set -eu
+
+root="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
+site="$root/manual-testing-to-automatic-testing.github.io"
+quiet=""
+[ "${1:-}" = "--quiet" ] && quiet=1
+
+say() { [ -n "$quiet" ] || echo "check: $*"; }
+run() { if [ -n "$quiet" ]; then "$@" >/dev/null; else "$@"; fi; }
+
+cd "$root"
+
+say "vendored website content"
+"$site/bin/sync" --check
+
+reference="${ROLES_SKILLS_REFERENCE:-$HOME/git/agenda-for-change/roles-skills.github.io/content/reference.json}"
+if [ -f "$reference" ]; then
+    say "instruments rebuild from the reference"
+    tmp="$(mktemp -d)"
+    trap 'rm -rf "$tmp"' EXIT
+    python3 scripts/build_instrument.py --reference "$reference" --out "$tmp" >/dev/null
+    for f in "$tmp"/*.tsv; do
+        if ! cmp -s "$f" "instruments/$(basename "$f")"; then
+            echo "check: instruments/$(basename "$f") differs from a rebuild; run scripts/build_instrument.py" >&2
+            exit 1
+        fi
+    done
+else
+    say "skipping the instruments rebuild; reference not found at $reference"
+fi
+
+say "website check, build, and tests"
+cd "$site"
+run pnpm install --frozen-lockfile
+run pnpm check
+run pnpm build
+run pnpm test
+
+say "all checks passed"

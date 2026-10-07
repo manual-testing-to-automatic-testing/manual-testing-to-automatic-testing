@@ -1,0 +1,22 @@
+# Planning pack
+
+Drafts for the Planning phase in [tasks.md](../../tasks.md). Each needs a named owner to review it, agree it with the right people, and send it. None of them has been sent.
+
+| Document | For | Purpose |
+| --- | --- | --- |
+| [sponsor-brief.md](sponsor-brief.md) | Head of test (sponsor) | One-page case for the programme, and the decisions needed |
+| [hr-briefing.md](hr-briefing.md) | HR | Agree developmental gates, no band changes, the Band 3 and mapping rules, and how assessment records are handled (D6, D7) |
+| [manager-briefing.md](manager-briefing.md) | Line managers | Protected time, independent rating, calibration, and how to talk about a roughly 50% baseline |
+| [stakeholder-briefing.md](stakeholder-briefing.md) | Product owners, clinical safety officer, information governance lead, developers | What the programme asks of them, and when |
+| [decision-log.md](decision-log.md) | Training lead | Decisions D1 to D7: default, options, owner, status |
+| [resource-estimate.md](resource-estimate.md) | Sponsor, training lead | Hours by role for a cohort, from the spec's time commitments |
+| [cohort-roster.tsv](cohort-roster.tsv) | Training lead | Template: one row per participant, with track, mentor, and options |
+
+The cohort calendar comes from `scripts/gate_calendar.py`:
+
+```sh
+python3 scripts/gate_calendar.py 2027-01-11            # 24-week programme
+python3 scripts/gate_calendar.py 2027-01-11 --extended # 32-week gates for B3 and B4
+```
+
+Keep the filled-in roster in the organisation's HR or learning system, not in this repository: it names people.

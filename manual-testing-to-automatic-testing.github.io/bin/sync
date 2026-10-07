@@ -1,0 +1,118 @@
+#!/bin/sh
+# Vendor everything this site builds from into the site project itself, so the
+# project stays buildable on its own once it is pushed to its public repository.
+#
+#   1. Lily Design System reference themes   -> static/assets/themes/
+#   2. The monorepo's Markdown documents      -> content/docs/<same path>
+#   3. The capability self-assessment TSVs    -> content/instruments/, for the
+#                                                self-assessment pages
+#   4. Every TSV in instruments/ and materials/, to download
+#                                             -> static/downloads/<same path>
+#
+# The Lily Design System Svelte components are real npm dependencies (see
+# package.json) and are not vendored. Only the reference themes have no npm
+# package, so this script copies them.
+#
+# The monorepo is the source of truth. Edit the documents there, then re-run:
+#
+#   ./bin/sync           # refresh the vendored copies
+#   ./bin/sync --check   # exit 1 if the vendored copies are stale
+set -eu
+
+site="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
+repo="$(CDPATH= cd -- "$site/.." && pwd)"
+lily="${LILY_DESIGN_SYSTEM:-$HOME/git/lilydesignsystem/lily-design-system}"
+
+check=""
+case "${1:-}" in
+    "")       ;;
+    --check)  check=1 ;;
+    *)        echo "sync: usage: bin/sync [--check]" >&2; exit 2 ;;
+esac
+
+# The Markdown documents to publish, as paths relative to the monorepo root.
+# Practice repository code, node_modules, and this site are never included.
+documents() {
+    cd "$repo"
+    for f in README.md plan.md tasks.md; do
+        [ -f "$f" ] && echo "$f"
+    done
+    find spec materials instruments -name '*.md' -type f 2>/dev/null
+    for f in practice-repo/README.md practice-repo/CONTRIBUTING.md practice-repo/fhir-sandbox/README.md; do
+        [ -f "$f" ] && echo "$f"
+    done
+    find practice-repo/spec practice-repo/tests -name '*.md' -type f -not -path '*/node_modules/*' 2>/dev/null
+}
+
+downloads() {
+    cd "$repo"
+    find instruments materials -name '*.tsv' -type f 2>/dev/null
+}
+
+# Write the vendored tree into a target directory.
+build_into() {
+    target="$1"
+    mkdir -p "$target/content/docs" "$target/content/instruments" "$target/static/downloads"
+
+    documents | sort | while read -r path; do
+        mkdir -p "$target/content/docs/$(dirname "$path")"
+        cp "$repo/$path" "$target/content/docs/$path"
+    done
+
+    for f in "$repo"/instruments/*.tsv; do
+        cp "$f" "$target/content/instruments/"
+    done
+
+    downloads | sort | while read -r path; do
+        mkdir -p "$target/static/downloads/$(dirname "$path")"
+        cp "$repo/$path" "$target/static/downloads/$path"
+    done
+}
+
+if [ -n "$check" ]; then
+    tmp="$(mktemp -d)"
+    trap 'rm -rf "$tmp"' EXIT
+    build_into "$tmp"
+    stale=""
+    for dir in content/docs content/instruments static/downloads; do
+        if ! diff -r -q "$tmp/$dir" "$site/$dir" >/dev/null 2>&1; then
+            stale=1
+            echo "sync: $dir is stale" >&2
+            diff -r -q "$tmp/$dir" "$site/$dir" >&2 || true
+        fi
+    done
+    if [ -n "$stale" ]; then
+        echo "sync: run ./bin/sync, then commit" >&2
+        exit 1
+    fi
+    echo "sync: vendored content is up to date"
+    exit 0
+fi
+
+# 1. Lily Design System generic reference themes, loaded by PickerBar at
+# runtime. The national government and public-sector themes are left out,
+# because the programme is written for a generic organisation.
+lily_themes="$lily/themes"
+if [ -d "$lily_themes" ]; then
+    rm -rf "$site/static/assets/themes"
+    mkdir -p "$site/static/assets/themes"
+    while read -r slug; do
+        [ -n "$slug" ] || continue
+        if [ -f "$lily_themes/$slug.css" ]; then
+            cp "$lily_themes/$slug.css" "$site/static/assets/themes/$slug.css"
+        else
+            echo "sync: missing Lily theme: $slug" >&2
+            exit 1
+        fi
+    done < "$site/bin/lily-themes.txt"
+    echo "sync: Lily themes -> static/assets/themes/"
+else
+    echo "sync: skipping Lily themes; not found at $lily_themes" >&2
+fi
+
+# 2 to 4. Documents, instruments, and downloads.
+rm -rf "$site/content/docs" "$site/content/instruments" "$site/static/downloads"
+build_into "$site"
+echo "sync: $(documents | wc -l | tr -d ' ') documents -> content/docs/"
+echo "sync: instruments/*.tsv -> content/instruments/"
+echo "sync: $(downloads | wc -l | tr -d ' ') TSV files -> static/downloads/"

@@ -1,0 +1,18 @@
+# Manual testing to automatic testing
+
+> A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers, over 24 weeks, while each person stays in the band and UK GDaD PCF role they already hold. Eight tuned tracks share one schedule. Every gate repeats a full capability self-assessment: the band (21 dimensions: 5 band outline dimensions and 16 job evaluation factors), the PCF role aspects, and every skill in the role. Pass marks rise from 60% at Gate 1 to 90% at Gate 4.
+
+## Pages
+
+- [Programme specification](https://manual-testing-to-automatic-testing.github.io/en-001/spec/): the single source of truth
+- [Plan](https://manual-testing-to-automatic-testing.github.io/en-001/plan/): why the programme is shaped this way
+- [Tasks](https://manual-testing-to-automatic-testing.github.io/en-001/tasks/): the work to build and run it
+- [Tracks](https://manual-testing-to-automatic-testing.github.io/en-001/materials/tracks/): one guide per band and role
+- [Modules](https://manual-testing-to-automatic-testing.github.io/en-001/materials/modules/): M0 to M10
+- [Gates](https://manual-testing-to-automatic-testing.github.io/en-001/materials/gates/): thresholds, practicals, forms
+- [Self-assessment](https://manual-testing-to-automatic-testing.github.io/en-001/self-assessment/): the capability self-assessment for each track, scored in the browser
+
+## Data
+
+- [Instruments](https://manual-testing-to-automatic-testing.github.io/en-001/instruments/): one TSV per track, for example [B5-QA.tsv](https://manual-testing-to-automatic-testing.github.io/downloads/instruments/B5-QA.tsv)
+- [Sitemap](https://manual-testing-to-automatic-testing.github.io/sitemap.xml)
