@@ -37,6 +37,13 @@
     { href: localeHref(locale, 'materials/modules'), label: chrome.nav.materials }
   ]);
 
+  // The same pages for the link picker: a home icon, first in the PickerBar,
+  // so the main pages are one tap away on every screen size.
+  const pageLinks = $derived([
+    ...navLinks.map((link) => ({ id: link.href, label: link.label, href: link.href, current: isCurrent(link.href) })),
+    { id: 'github', label: chrome.nav.github, href: SOURCE_REPO }
+  ]);
+
   function isCurrent(href: string): boolean {
     const path = decodeURI(page.url.pathname);
     return href === localeHref(locale) ? path === href : path.startsWith(href);
@@ -111,7 +118,10 @@
     </nav>
     <PickerBar
       class="site-tools"
+      links={pageLinks}
+      linkProps={{ navigate: (href: string) => void goto(href) }}
       labels={{
+        link: chrome.pickerLabels.link,
         search: chrome.pickerLabels.search,
         searchInput: chrome.pickerLabels.searchInput,
         searchSubmit: chrome.pickerLabels.searchSubmit,

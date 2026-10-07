@@ -21,6 +21,7 @@ export type Chrome = {
     github: string;
   };
   pickerLabels: {
+    link: string;
     search: string;
     searchInput: string;
     searchSubmit: string;
@@ -61,6 +62,7 @@ const EN_001: Chrome = {
     github: 'GitHub'
   },
   pickerLabels: {
+    link: 'Pages',
     search: 'Search',
     searchInput: 'Search the programme',
     searchSubmit: 'Search',

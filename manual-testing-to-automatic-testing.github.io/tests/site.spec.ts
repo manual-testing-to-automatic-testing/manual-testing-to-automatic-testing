@@ -74,3 +74,18 @@ test('pages are a single column, with no sidebars', async ({ page }) => {
   expect(firstSection!.y).toBeGreaterThan(contents!.y + contents!.height - 1);
   expect(Math.abs(firstSection!.x - h1!.x)).toBeLessThan(2);
 });
+
+for (const width of [1024, 1280, 1600]) {
+  test(`the PickerBar shares the brand's row at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 800 });
+    await page.goto('/en-001/materials/tracks/b3/');
+    const brand = await page.locator('.site-brand').boundingBox();
+    const tools = await page.locator('.site-tools').boundingBox();
+    const nav = await page.getByRole('navigation', { name: 'Main' }).boundingBox();
+    // Same row as the brand, on the right; the navigation is below both.
+    expect(tools!.y).toBeLessThan(brand!.y + brand!.height);
+    expect(tools!.x).toBeGreaterThan(brand!.x + brand!.width);
+    expect(nav!.y).toBeGreaterThanOrEqual(tools!.y + tools!.height - 1);
+    await expect(page.getByRole('button', { name: 'Pages' })).toBeVisible();
+  });
+}

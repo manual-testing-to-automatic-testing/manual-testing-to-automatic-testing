@@ -650,11 +650,17 @@ th {
   background: var(--site-page-bg);
 }
 .site-header-inner {
-  display: flex;
-  flex-wrap: wrap;
+  /* Two rows: the brand and the PickerBar share the first row, with the
+   * PickerBar pinned to the right; the navigation has the second row to
+   * itself. So the PickerBar never wraps under the brand, however many
+   * navigation links there are. */
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    'brand tools'
+    'nav nav';
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  gap: 0.75rem 1rem;
   max-width: var(--site-content-max);
   margin: 0 auto;
   padding: 1rem 1.5rem;
@@ -1448,4 +1454,91 @@ th {
 .search-results h2 {
   font-size: 1.15rem;
   margin-bottom: 0.25rem;
+}
+
+/* Header grid areas (see .site-header-inner). */
+.site-brand {
+  grid-area: brand;
+  min-width: 0;
+}
+.site-header-inner > .site-tools {
+  grid-area: tools;
+  justify-self: end;
+  flex-wrap: nowrap;
+}
+.site-header-inner > .site-nav {
+  grid-area: nav;
+}
+/* On narrow screens the PickerBar takes its own row under the brand; the
+ * link picker (the home icon) still offers every page. */
+@media (max-width: 40rem) {
+  .site-header-inner {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'brand'
+      'tools'
+      'nav';
+  }
+  .site-header-inner > .site-tools {
+    justify-self: start;
+  }
+}
+
+/* The link and search pickers: drop-down panels, like the other pickers. */
+.link-picker,
+.search-picker {
+  position: relative;
+  display: inline-block;
+}
+.link-picker-list,
+.search-picker-panel {
+  position: absolute;
+  z-index: 10;
+  inset-block-start: calc(100% + 0.35rem);
+  inset-inline-start: 0;
+  min-inline-size: 13rem;
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  border: 1px solid var(--site-border);
+  border-radius: var(--site-radius);
+  background: var(--site-card-bg);
+  box-shadow: var(--site-shadow-lg);
+}
+.link-picker-list[hidden],
+.search-picker-panel[hidden] {
+  display: none;
+}
+.link-picker-link {
+  display: block;
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--site-radius);
+  color: var(--site-text);
+  text-decoration: none;
+}
+.link-picker-link:hover,
+.link-picker-link:focus-visible {
+  background: var(--site-surface);
+}
+.link-picker-link[aria-current='page'] {
+  font-weight: 700;
+}
+.search-picker-form {
+  display: flex;
+  gap: 0.35rem;
+}
+.search-picker-input {
+  min-inline-size: 14rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--site-border);
+  border-radius: var(--site-radius);
+  font: inherit;
+}
+.search-picker-submit {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--site-border);
+  border-radius: var(--site-radius);
+  background: var(--site-page-bg);
+  color: var(--site-text);
+  cursor: pointer;
 }

@@ -90,7 +90,7 @@ Answers are saved to `localStorage` under `manual-testing-to-automatic-testing:s
 
 ### Site tools
 
-Every page carries `PickerBar` in the header: search, theme, language, text size, and share. The theme defaults to `corporate` and is stored under `manual-testing-to-automatic-testing:theme`. The text size is stored under `manual-testing-to-automatic-testing:text-size`. A phase banner marks the programme as a draft and links to the decision log.
+Every page carries `PickerBar` (`@lilydesignsystem/svelte-picker-bar`) in the header: a link picker (a home icon offering every main page, so navigation is one tap away on any screen), search, theme, language, text size, and share. The header is a grid: the brand and the PickerBar share the first row, with the PickerBar on the right, and the navigation links have the second row, so the PickerBar never wraps under the brand. On screens narrower than 40rem, the PickerBar takes its own row under the brand. The theme defaults to `corporate` and is stored under `manual-testing-to-automatic-testing:theme`. The text size is stored under `manual-testing-to-automatic-testing:text-size`. A phase banner marks the programme as a draft and links to the decision log.
 
 ## Acceptance criteria
 
