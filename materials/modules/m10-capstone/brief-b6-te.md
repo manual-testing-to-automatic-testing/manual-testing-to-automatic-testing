@@ -1,0 +1,61 @@
+# Capstone brief: B6-TE
+
+Evidence E10 for module M10. Weeks 20–24. Assessed at Gate 4.
+
+| Field | Value |
+| --- | --- |
+| Track | B6-TE |
+| Band | 6 |
+| Assigned PCF role | Test engineer |
+| M10 depth | I, apply independently |
+| Automation target | Working |
+| Presentation | 20 minutes, aimed at a non-technical audience |
+
+## The capstone, from the spec
+
+> An automated regression suite for a product slice of 15–30 manual cases: plan, browser and API tests, spec, synthetic data, CI, traceability, and handover README.
+
+## Scope
+
+A product slice with 15 to 30 manual regression cases.
+
+Agree the exact scope with the product owner and mentor at the start of week 20, using the [scope agreement](capstone-scope-agreement.md), your E1 analysis, and your E9 estimate.
+
+## Deliverables
+
+- [ ] A short test plan: scope, risks, layers, what stays manual, and the E9 estimate.
+- [ ] Browser tests for the critical user journeys, and API or integration tests for everything that can be checked below the UI.
+- [ ] A `spec/index.md` that agrees with the code.
+- [ ] Synthetic data.
+- [ ] The suite in CI, blocking merges on failure.
+- [ ] A traceability matrix agreed with the clinical safety officer.
+- [ ] A handover README that lets another tester run and extend the suite.
+- [ ] At least two pull requests reviewed by developers on the team.
+
+## Acceptance
+
+The product owner and the Gate 4 panel will look for:
+
+- The suite runs green in CI and every test fails when behaviour is wrong.
+- Spec and code agree.
+- Synthetic data only.
+- The product owner accepts the suite.
+- The team agrees to maintain it.
+- Synthetic data only, and no secrets in source control.
+- You can explain every line you submitted.
+
+## Support
+
+Independent, with weekly mentor review.
+
+## Presentation
+
+20 minutes, plus questions, following the [presentation outline](presentation-outline.md). Include a live run: it is the Gate 4 Part D practical.
+
+## Panel
+
+Chair: a lead test engineer or test manager at least one band above you, not your mentor. A developer from another team. The training lead. The clinical safety officer reviews traceability evidence in writing.
+
+## Gate 4 thresholds
+
+At least 90% in each of Parts A, B, and C of the capability self-assessment; Part D Meets; no skill more than one level below expected; test engineering at your automation target; capstone accepted by the product owner. See the spec for the full rules.

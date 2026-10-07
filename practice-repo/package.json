@@ -1,0 +1,30 @@
+{
+  "name": "practice-repo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practice repository for the manual-to-automatic testing training programme.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "playwright test --project=katas --project=ui --project=api",
+    "test:katas": "playwright test --project=katas",
+    "test:ui": "playwright test --project=ui",
+    "test:api": "playwright test --project=api",
+    "test:flaky": "playwright test --project=flaky",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.63.0",
+    "@types/node": "24.19.1",
+    "eslint": "10.12.0",
+    "prettier": "3.9.9",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.71.1"
+  }
+}

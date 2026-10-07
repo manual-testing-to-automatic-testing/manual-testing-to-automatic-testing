@@ -1,0 +1,33 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "training-patient",
+  "url": "https://example.org/fhir/StructureDefinition/training-patient",
+  "name": "TrainingPatient",
+  "title": "Training Patient",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "description": "Training profile: a Patient must have at least one identifier and a birthDate.",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient",
+        "path": "Patient"
+      },
+      {
+        "id": "Patient.identifier",
+        "path": "Patient.identifier",
+        "min": 1
+      },
+      {
+        "id": "Patient.birthDate",
+        "path": "Patient.birthDate",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# Personal assessments and learning records never go in this repository.
+people/
+*--gate-*.tsv
+!instruments/examples/*.tsv
+
+node_modules/
+playwright-report/
+test-results/
+blob-report/
+.DS_Store
+__pycache__/

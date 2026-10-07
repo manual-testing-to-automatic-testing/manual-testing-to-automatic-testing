@@ -1,0 +1,554 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Patient/synthetic-adult",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "synthetic-adult",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic",
+              "display": "Synthetic test data - not a real person"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNTHETIC: Typical adult</div>"
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9990010005"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Testpatient",
+            "given": [
+              "Alex"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1985-04-12"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/synthetic-adult"
+      }
+    },
+    {
+      "fullUrl": "Patient/synthetic-centenarian",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "synthetic-centenarian",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic",
+              "display": "Synthetic test data - not a real person"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNTHETIC: Edge case: very old age (over 100)</div>"
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9990011370"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Oldtest",
+            "given": [
+              "Edith"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1921-02-28"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/synthetic-centenarian"
+      }
+    },
+    {
+      "fullUrl": "Patient/synthetic-newborn",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "synthetic-newborn",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic",
+              "display": "Synthetic test data - not a real person"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNTHETIC: Edge case: newborn, days old</div>"
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9990012741"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Newtest",
+            "given": [
+              "Baby"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2026-10-01"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/synthetic-newborn"
+      }
+    },
+    {
+      "fullUrl": "Patient/synthetic-unknown-gender",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "synthetic-unknown-gender",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic",
+              "display": "Synthetic test data - not a real person"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNTHETIC: Edge case: gender unknown</div>"
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9990014116"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Unknowntest",
+            "given": [
+              "Sam"
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "1999-12-31"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/synthetic-unknown-gender"
+      }
+    },
+    {
+      "fullUrl": "Patient/synthetic-apostrophe",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "synthetic-apostrophe",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic",
+              "display": "Synthetic test data - not a real person"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNTHETIC: Edge case: apostrophe, hyphen, and diacritics in name</div>"
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9990015481"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "O'Tëst-Ñúñez",
+            "given": [
+              "Siân",
+              "Zoë"
+            ]
+          }
+        ],
+        "gender": "other",
+        "birthDate": "1970-01-01"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/synthetic-apostrophe"
+      }
+    },
+    {
+      "fullUrl": "Patient/synthetic-deceased",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "synthetic-deceased",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic",
+              "display": "Synthetic test data - not a real person"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNTHETIC: Edge case: deceased patient</div>"
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9990016852"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Deceasedtest",
+            "given": [
+              "Morgan"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1950-06-15",
+        "deceasedDateTime": "2025-11-03"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/synthetic-deceased"
+      }
+    },
+    {
+      "fullUrl": "Observation/synthetic-obs-1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "synthetic-obs-1",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "Patient/synthetic-adult"
+        },
+        "effectiveDateTime": "2026-10-02T09:00:00Z",
+        "valueQuantity": {
+          "value": 72,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "{beats}/min"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/synthetic-obs-1"
+      }
+    },
+    {
+      "fullUrl": "Observation/synthetic-obs-2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "synthetic-obs-2",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "subject": {
+          "reference": "Patient/synthetic-adult"
+        },
+        "effectiveDateTime": "2026-10-02T09:00:00Z",
+        "valueQuantity": {
+          "value": 36.8,
+          "unit": "Cel",
+          "system": "http://unitsofmeasure.org",
+          "code": "Cel"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/synthetic-obs-2"
+      }
+    },
+    {
+      "fullUrl": "Observation/synthetic-obs-3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "synthetic-obs-3",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "subject": {
+          "reference": "Patient/synthetic-centenarian"
+        },
+        "effectiveDateTime": "2026-10-02T09:00:00Z",
+        "valueQuantity": {
+          "value": 165,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/synthetic-obs-3"
+      }
+    },
+    {
+      "fullUrl": "Observation/synthetic-obs-4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "synthetic-obs-4",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "Patient/synthetic-newborn"
+        },
+        "effectiveDateTime": "2026-10-02T09:00:00Z",
+        "valueQuantity": {
+          "value": 3.2,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/synthetic-obs-4"
+      }
+    },
+    {
+      "fullUrl": "Observation/synthetic-obs-5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "synthetic-obs-5",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            }
+          ],
+          "text": "Body height"
+        },
+        "subject": {
+          "reference": "Patient/synthetic-unknown-gender"
+        },
+        "effectiveDateTime": "2026-10-02T09:00:00Z",
+        "valueQuantity": {
+          "value": 172,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/synthetic-obs-5"
+      }
+    },
+    {
+      "fullUrl": "Observation/synthetic-obs-6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "synthetic-obs-6",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://example.org/fhir/tags",
+              "code": "synthetic"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "Patient/synthetic-apostrophe"
+        },
+        "effectiveDateTime": "2026-10-02T09:00:00Z",
+        "valueQuantity": {
+          "value": 5.4,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/synthetic-obs-6"
+      }
+    }
+  ]
+}

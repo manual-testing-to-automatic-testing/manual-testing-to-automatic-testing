@@ -1,0 +1,2 @@
+case_id	title	area	hazard_id	runs_per_release	minutes_per_run	risk	frequency	stability	cost_to_automate	decision	reason	existing_coverage	reviewed_by
+REG-014	Patient search by NHS number returns the right patient	Patient search	HAZ-007	1	10	3	3	3	1	automate-browser	Critical journey; wrong patient is a hazard; stable screen.	None	

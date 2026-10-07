@@ -1,0 +1,147 @@
+# Track guide: B3
+
+This is the one-page guide for track **B3**. It is copied from [spec/index.md](../../../spec/index.md), which is the single source of truth. If this page and the spec disagree, the spec wins.
+
+Nobody changes band or role because of this programme. Reaching an automation target above the role's expectation is a strength, not a regrade.
+
+## Who it is for
+
+Manual testers at Band 3 who hold an associate-level PCF role (Quality assurance test analyst or Test engineer). The reference has no testing role level at Band 3, so this track uses the associate PCF role level for Parts B and C, and the Band 3 outline for Part A.
+
+| Band | Assigned PCF role | Reference role level | Reference points | Band points range |
+| --- | --- | --- | --- | --- |
+| 3 | Quality assurance test analyst or Test engineer, associate level | Associate quality assurance test analyst or Associate test engineer, tuned to Band 3 | Agreed at Gate 0 | 216–270 |
+
+If your band and assigned role have no reference role level, the mapping rule in the spec places you, and your individual learning plan (ILP) records the decision.
+
+## Your capability self-assessment
+
+At every gate you complete the full instrument for this track: `instruments/B3.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).
+
+### Part A: band outline (Band 3)
+
+| Dimension | Band expectation |
+| --- | --- |
+| A1 Knowledge | Knowledge of a range of procedures, some non-routine; typically a level 3 qualification or equivalent experience. |
+| A2 Autonomy | Works within procedures; decides how to organise own work; refers problems upward. |
+| A3 Scope | Own work and some tasks for the wider team. |
+| A4 Leadership | May allocate routine work or train others in procedures. |
+| A5 Accountability | Accuracy of own work and of records kept. |
+
+### Part A: job evaluation factors (reference levels)
+
+| Id | Factor | Reference level |
+| --- | --- | --- |
+| A6 | Communication and relationship skills | Agreed at Gate 0 |
+| A7 | Knowledge, training, and experience | Agreed at Gate 0 |
+| A8 | Analytical and judgemental skills | Agreed at Gate 0 |
+| A9 | Planning and organisational skills | Agreed at Gate 0 |
+| A10 | Physical skills | Agreed at Gate 0 |
+| A11 | Responsibility for patient and client care | Agreed at Gate 0 |
+| A12 | Responsibility for policy and service development | Agreed at Gate 0 |
+| A13 | Responsibility for financial and physical resources | Agreed at Gate 0 |
+| A14 | Responsibility for people | Agreed at Gate 0 |
+| A15 | Responsibility for information resources | Agreed at Gate 0 |
+| A16 | Responsibility for research and development | Agreed at Gate 0 |
+| A17 | Freedom to act | Agreed at Gate 0 |
+| A18 | Physical effort | Agreed at Gate 0 |
+| A19 | Mental effort | Agreed at Gate 0 |
+| A20 | Emotional effort | Agreed at Gate 0 |
+| A21 | Working conditions | Agreed at Gate 0 |
+
+For B3, every factor level is agreed at Gate 0 from your own job description, with a total within 216 to 270 points.
+
+A factor meets when the agreed level is at or above the reference level. One level below is Partly. Two or more below is Not yet. A skill in Part C meets when the gap is 0 or less, is Partly when the gap is 1, and is Not yet when the gap is 2 or more.
+
+### Part C: expected skill levels
+
+| Skill | Source | Expected level |
+| --- | --- | --- |
+| Test analysis | UK GDaD PCF | Awareness |
+| Test and quality planning | UK GDaD PCF | Awareness |
+| Designing and executing tests | UK GDaD PCF | Awareness |
+| Test engineering | UK GDaD PCF | Awareness |
+| Managing, reporting and resolving defects | UK GDaD PCF | Awareness |
+| Communicating between the technical and non-technical | UK GDaD PCF | Awareness |
+| Understanding health and care services | Health care | Awareness |
+| Clinical risk management | Health care | Awareness |
+| Information governance and data protection | Health care | Awareness |
+
+Not in this role level: Business and user acceptance testing, Health data interoperability, Medical device software regulation, People management.
+
+## Automation target
+
+| Test engineering expected by role | Programme automation target | In practice |
+| --- | --- | --- |
+| Awareness | Awareness | Runs existing automated suites, reads results, raises defects from failures, writes Given-When-Then scenarios, makes small changes to existing tests with support. |
+
+## Time
+
+| Protected time | Approximate guided hours | Optional extension |
+| --- | --- | --- |
+| 1.5 days a week | 270 | To 32 weeks |
+
+From week 10 you automate real work on your team's product every week, at this track's depth.
+
+## Learning outcomes, at this track's depth
+
+| Id | Outcome | Depth |
+| --- | --- | --- |
+| LO1 | Decide which manual tests to automate, at which layer, and which to keep manual, by risk and cost. | Read and explain |
+| LO2 | Write, run, debug, and refactor TypeScript code to the team's standards. | Read and explain |
+| LO3 | Change test code through git and pull requests, and give and respond to review. | With support |
+| LO4 | Locate, act, wait, and assert with Playwright, using resilient locators. | With support |
+| LO5 | Turn a manual test or Given-When-Then scenario into a maintainable automated test. | With support |
+| LO6 | Write automated API and integration tests, including HL7 FHIR validation. | Not required |
+| LO7 | Run suites in CI on every change, triage failures, and keep the suite fast and reliable. | With support |
+| LO8 | Use synthetic data and keep secrets and personal data out of tests and pipelines. | Independently |
+| LO9 | Trace automated tests to hazards and produce test evidence for a clinical safety case. | Read and explain |
+| LO10 | Diagnose flaky tests and measure suite health with flow metrics. | Read and explain |
+| LO11 | Read and make a small change to an existing Selenium suite. | Not required |
+| LO12 | Plan, build or lead, and explain an automated regression suite for a real service. | With support |
+| LO13 | Fully meet the person's own band and PCF role, measured by the capability self-assessment. | Overall capability index of at least 90% at Gate 4 |
+
+## Module depths
+
+| Module | Depth |
+| --- | --- |
+| M0 Induction and baseline | Independent |
+| M1 Why and what to automate | Read and discuss |
+| M2 Programming foundations | Read and discuss |
+| M3 Version control and collaboration | With support |
+| M4 Browser automation fundamentals | With support |
+| M5 From walkthrough to real test | With support |
+| M7 Continuous integration and DevOps | With support |
+| M8 Safe and lawful test automation | Independent |
+| M9 Quality engineering practice | Read and discuss |
+| M10 Capstone | With support |
+| R1 Role foundations | Set by ILP |
+| R2 Health care foundations | Independent |
+
+## Track modules
+
+- [R1 Role foundations](../r1-role-foundations/index.md)
+- [R2 Health care foundations](../r2-health-care-foundations/index.md)
+
+## Capstone (M10, weeks 20 to 24)
+
+Triage one week of CI results and raise defects; write 5 Given-When-Then scenarios; make 2 reviewed changes to existing tests.
+
+You present it to the Gate 4 panel for 10 minutes, aimed at a non-technical audience.
+
+## Gates and practicals
+
+Gates are in weeks 0, 6, 12, 18, 24, and 48. Each Part D practical takes **30 minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#b3). Thresholds and conditions are in the [gates overview](../../gates/index.md).
+
+With the optional 32-week extension, the gates move to weeks 0, 8, 16, 24, 32, and 56.
+
+## Mentor
+
+Your mentor is at least one band above you (Band 4 or higher) and at or above your automation target in test engineering (Awareness). One mentor supports up to 3 participants.
+
+## Related
+
+- [Gates overview](../../gates/index.md)
+- [Calibration guide](../../gates/calibration-guide.md)
+- [Individual learning plan template](../../gates/ilp-template.md)
+- [Learning agreement template](../../gates/learning-agreement-template.md)

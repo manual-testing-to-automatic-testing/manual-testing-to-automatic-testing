@@ -1,0 +1,17 @@
+# Gitleaks configuration: the default rules, plus rules for this programme.
+title = "practice-repo gitleaks config"
+
+[extend]
+useDefault = true
+
+# Flag NHS numbers that are NOT in the 999 test range.
+# Synthetic test data must only use 999-prefixed numbers.
+[[rules]]
+id = "nhs-number-outside-test-range"
+description = "Possible real NHS number (only 999-prefixed test numbers are allowed)"
+regex = '''\b([0-8]\d{2})[ -]?\d{3}[ -]?\d{4}\b'''
+keywords = ["nhs", "nhsnumber", "nhs-number", "nhs_number"]
+
+[allowlist]
+description = "Generated reports and dependencies"
+paths = ['''node_modules/''', '''playwright-report/''', '''test-results/''', '''package-lock\.json''']

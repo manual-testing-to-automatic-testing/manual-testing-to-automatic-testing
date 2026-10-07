@@ -1,0 +1,137 @@
+# Part D practicals
+
+Part D is a short, supervised automation practical at Gates 1 to 5. It shows what the person can do, live, without long preparation. It is reported separately from the capability index.
+
+- **Timing:** 30 minutes for B3, B4-QA, and B4-TE. 60 minutes for B5-QA, B6-QA, B6-TE, B7-TE, and B7-TM.
+- **Rating:** Meets, Partly, or Not yet.
+- **Thresholds:** Partly or better at Gates 1 and 2. Meets at Gates 3, 4, and 5.
+- **Supervisor:** the mentor, or another reviewer from the gate, who is not the person's line manager where possible.
+- **Help allowed:** documentation, the person's own notes and code, and the testingexamples skills. AI assistants are allowed only if the person explains every line they submit (spec Principle 14). The supervisor answers questions about the task, not about the solution.
+- **Accessibility:** reasonable adjustments in the ILP apply, for example extra time or a spoken explanation instead of a written one.
+
+Gate 0 has no Part D. The M0 diagnostic coding exercise is unscored and only tunes M2 pacing.
+
+## Common marking notes
+
+For every practical:
+
+- **Meets:** the task is done, the result is correct, and the person can explain every step and every line in their own words. Any test written makes real assertions that would fail if the behaviour were wrong.
+- **Partly:** the main part of the task is done, but with a gap: an assertion is missing or weak, a step needed a hint, or the explanation is incomplete.
+- **Not yet:** the task is not done, the result is wrong, or the person cannot explain what they did.
+
+A walkthrough that acts on a page and prints output, without assertions, is never Meets (spec Principle 11).
+
+## Setup checklist for supervisors
+
+- [ ] The person's development environment works (Node.js, VS Code, git, Playwright browsers).
+- [ ] The practice repository is cloned, and a branch for the practical is ready.
+- [ ] For Gate 3: a CI run that fails for a known reason is prepared on the practice repository.
+- [ ] For Gate 3 B6 and B7, and any API task: the FHIR sandbox is running with synthetic data.
+- [ ] A timer is set, and reasonable adjustments are applied.
+- [ ] The marking notes for the person's track are to hand.
+
+## Gate 1 (week 6): fix a failing unit test and open a pull request
+
+**Setup:** a small TypeScript module in the practice repository with a unit test that fails because of a bug in the code, not in the test. The bug suits the track:
+
+- B3, B4: an off-by-one error in a function that counts items in a list.
+- B5, B6, B7-TM: a date-of-birth validator that wrongly accepts a future date.
+- B7-TE: an NHS number check-digit function that fails for one valid edge case, and a test name that hides the real case.
+
+**Task:** run the tests, read the failure, find and fix the bug, run the tests again, commit with a clear message, and open a pull request that explains the change.
+
+| Track | Meets | Partly | Not yet |
+| --- | --- | --- | --- |
+| B3 | With prompts allowed, runs the tests, explains the failure message, and makes the fix and pull request with the supervisor's guidance on git. | Explains the failure, but needs the fix shown. | Cannot run the tests or explain the failure. |
+| B4-QA, B4-TE | Fixes the bug and opens the pull request, with at most one hint. | Fixes the bug, but needs help with git or the pull request. | Cannot find the bug. |
+| B5-QA, B6-QA, B7-TM | Fixes the bug without hints, adds one more test for the edge case, and writes a clear pull request. | Fixes the bug but adds no extra test, or the pull request is unclear. | Cannot fix the bug in time. |
+| B6-TE | As B5, and the new test name describes the behaviour. | As B5 Partly. | As B5 Not yet. |
+| B7-TE | Fixes the bug, renames the misleading test, adds edge-case tests, and explains in the pull request why the old test hid the bug. | Fixes the bug but leaves the test misleading. | Cannot fix the bug in time. |
+
+## Gate 2 (week 12): automate one given manual test case on the fixture site
+
+**Setup:** a written manual test case for <https://testingexamples.github.io>, for example: "Fill the text input with `hello`, check the checkbox, choose the first radio option, and select the first option in the select list. Expect each control to show the new value."
+
+**Task:** automate it with `@playwright/test`, using web-first assertions, then show it failing when an expected value is changed.
+
+| Track | Meets | Partly | Not yet |
+| --- | --- | --- | --- |
+| B3 | Writes the case as a Given-When-Then scenario, then pairs with the supervisor to automate it, choosing the locators and assertions and explaining each line. | Writes a good scenario, but cannot choose locators or assertions in the pairing. | Cannot write the scenario. |
+| B4-QA, B4-TE | Automates the case with at least one assertion per control, using one hint at most, and shows it failing when an expected value is wrong. | Automates the actions but misses assertions, or needs several hints. | Produces a walkthrough without assertions, or no working script. |
+| B5-QA, B6-QA, B6-TE, B7-TM | Automates the case independently, with resilient locators (role, label, or id), an assertion per behaviour, and a `spec/index.md` entry that matches. Shows it failing. | Test works but uses brittle locators, misses the spec entry, or misses one assertion. | Walkthrough only, or the test does not run. |
+| B7-TE | As B5 Meets, and extracts a page object and a fixture so a second test can reuse them, and explains the trade-off. | As B5 Meets, without the page object or fixture. | As B5 Partly or worse. |
+
+## Gate 3 (week 18): triage and fix a failing CI run
+
+**Setup:** a CI run on the practice repository that fails for one prepared reason. Use a different reason for each person in a cohort, drawn from: a product defect (the page or API changed behaviour), a test defect (a brittle locator or a missing wait), or an environment problem (a missing secret or a browser not installed). For B6 and B7 tracks, the FHIR sandbox is also running.
+
+**Task:** read the CI output and artifacts (report, trace, logs), classify the failure as product, test, or environment, and act: fix the test or pipeline, or raise a clear defect report. B6 and B7 tracks also add one API test against the FHIR sandbox.
+
+| Track | Meets | Partly | Not yet |
+| --- | --- | --- | --- |
+| B3, B4-QA | Classifies the failure correctly from the report or trace, and writes a clear defect report or fix request with steps, data, and evidence. | Classifies correctly but the report lacks evidence. | Cannot classify the failure. |
+| B4-TE | Classifies correctly and fixes a test defect, or raises a clear defect report for a product or environment problem. | Classifies correctly but needs help with the fix. | Cannot classify the failure. |
+| B5-QA | Classifies, fixes or reports, and re-runs the pipeline to green where the fix is theirs to make. | Classifies and reports, but cannot fix a test defect. | Cannot classify the failure. |
+| B7-TM | As B5-QA Meets, and adds one API test that reads a synthetic `Patient` and checks status and body. Because M6 is read-only for B7-TM, one hint is allowed on the API test. | Triage is Meets, but the API test needs several hints or is incomplete. | Triage is not Meets. |
+| B6-QA, B6-TE | As B5 Meets, and adds one API test that reads a synthetic `Patient` and checks status and body. | Triage is Meets, but the API test is incomplete. | Triage is not Meets. |
+| B7-TE | As B6 Meets, and proposes a pipeline change that would catch or prevent this failure earlier, such as a quarantine rule or a smoke stage. | As B6 Meets, without the proposal. | As B6 Partly or worse. |
+
+## Gate 4 (week 24): live run and explanation of the capstone
+
+**Setup:** the person's capstone suite in the team's repository or practice repository, with CI. Run in front of the [Gate 4 panel](gate-4-panel-guide.md).
+
+**Task:** run the suite live, explain what it covers and what stays manual, and then make one small change the panel asks for, such as adding an assertion, changing an expected value to show a failure, or explaining one test line by line.
+
+| Track | Meets | Partly | Not yet |
+| --- | --- | --- | --- |
+| B3 | Runs the existing suite, explains the results, walks through their Given-When-Then scenarios, and makes the panel's small change with pairing. | Runs and explains, but cannot make the change. | Cannot run or explain the suite. |
+| B4-QA, B4-TE | Runs their capstone tests, explains them, and makes the change with one hint at most. | Runs and explains, but needs several hints. | Cannot run or explain the tests. |
+| B5-QA, B6-TE | Runs, explains coverage and residual risks, and makes the change independently. | Needs a hint for the change, or cannot explain residual risk. | Cannot make the change or explain the tests. |
+| B6-QA | As B5 Meets, and explains the risk-based approach and how acceptance checks were agreed with clinical users. | As B5 Meets, without a clear risk-based explanation. | As B5 Partly or worse. |
+| B7-TE | As B5 Meets, and explains the framework design, the performance test, and how others now use them. | As B5 Meets, but framework or performance work is unclear. | As B5 Partly or worse. |
+| B7-TM | Runs their own small suite and makes the change, then explains the strategy, metrics, and adoption plan, and how a manager would use the metrics to decide. | Strategy is strong, but own suite or change needs help. | Cannot run their own suite or explain the strategy. |
+
+## Gate 5 (week 48): demonstrate a recent automated change
+
+**Setup:** a pull request the person merged in the last 3 months, in normal work.
+
+**Task:** walk through the pull request: why it was needed, what it tests, how it was reviewed, how it runs in CI, and how it traces to risk or hazards. Then make one small follow-on change live.
+
+| Track | Meets | Partly | Not yet |
+| --- | --- | --- | --- |
+| B3 | Shows a small reviewed change to a test or scenario, explains it, and makes the follow-on change with pairing. | Explains it but cannot make the follow-on change. | No recent change, or cannot explain it. |
+| B4-QA, B4-TE | Shows a test they wrote or maintained, explains it, and makes the follow-on change with one hint at most. | Needs several hints. | No recent change, or cannot explain it. |
+| B5-QA, B6-QA, B6-TE, B7-TM | Shows a test or suite change that runs in CI, explains its risk and traceability, and makes the follow-on change independently. | Explains it well, but the follow-on change needs help. | No recent change in CI, or cannot explain it. |
+| B7-TE | As B5 Meets, and shows how the change was reused or reviewed by others. | As B5 Meets, without reuse or coaching. | As B5 Partly or worse. |
+
+## B3
+
+B3 practicals are 30 minutes. See the B3 rows in each gate above.
+
+## B4-QA
+
+B4-QA practicals are 30 minutes. See the B4-QA rows in each gate above.
+
+## B4-TE
+
+B4-TE practicals are 30 minutes. See the B4-TE rows in each gate above.
+
+## B5-QA
+
+B5-QA practicals are 60 minutes. See the B5-QA rows in each gate above.
+
+## B6-QA
+
+B6-QA practicals are 60 minutes. See the B6-QA rows in each gate above.
+
+## B6-TE
+
+B6-TE practicals are 60 minutes. See the B6-TE rows in each gate above.
+
+## B7-TE
+
+B7-TE practicals are 60 minutes. See the B7-TE rows in each gate above.
+
+## B7-TM
+
+B7-TM practicals are 60 minutes. See the B7-TM rows in each gate above.
