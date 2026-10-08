@@ -6,32 +6,32 @@ Do each item in order. Tick it when it is done.
 
 - [ ] Agree your protected time and pace with your stakeholders.
 - [ ] Meet your mentor for a 30-minute start.
-- [ ] [Module 1 Basics of a programming language](../../modules/module-1-basics-of-a-programming-language/index.md), hours 0–20: Evidence 1 (independent).
-- [ ] [Module 2 Basics of a browser automator](../../modules/module-2-basics-of-a-browser-automator/index.md), hours 20–40: Evidence 2 (independent).
-- [ ] [Module 3 Basics of an AI assistant](../../modules/module-3-basics-of-an-ai-assistant/index.md), hours 40–60: Evidence 3 (independent).
-- [ ] [Module 4 ISTQB Certified Tester Foundation Level v4.0](../../modules/module-4-istqb-certified-tester-foundation-level/index.md), hours 60–64: Evidence 4 (independent).
-- [ ] [Module 5 ISTQB Certified Tester Advanced Level Test Automation Engineer](../../modules/module-5-istqb-certified-tester-advanced-level-test-automation-engineer/index.md), hours 64–88: Evidence 5 (independent).
+- [ ] [Module 1 Basics of a programming language](../../modules/module-1-basics-of-a-programming-language/index.md) (20 hours): Evidence 1 (independent).
+- [ ] [Module 2 Basics of a browser automator](../../modules/module-2-basics-of-a-browser-automator/index.md) (20 hours): Evidence 2 (independent).
+- [ ] [Module 3 Basics of an AI assistant](../../modules/module-3-basics-of-an-ai-assistant/index.md) (20 hours): Evidence 3 (independent).
+- [ ] [Module 4 ISTQB Certified Tester Foundation Level v4.0](../../modules/module-4-istqb-certified-tester-foundation-level/index.md) (4 hours): Evidence 4 (independent).
+- [ ] [Module 5 ISTQB Certified Tester Advanced Level Test Automation Engineer](../../modules/module-5-istqb-certified-tester-advanced-level-test-automation-engineer/index.md) (24 hours): Evidence 5 (independent).
 - [ ] **Gate 0**, hour 88: have your three basics walkthroughs signed off, and your two ISTQB certificates recorded; complete your [self-assessment](#your-capability-self-assessment); rate and calibrate with your line manager; agree your individual learning plan; and sign your learning agreement.
-- [ ] [Role foundations](../role-foundations/index.md), hours 88–268, alongside the core modules.
-- [ ] [Module 6 Induction and baseline](../../modules/module-6-induction/index.md), hours 88–95.5: Evidence 6 (independent).
-- [ ] [Health care foundations](../health-care-foundations/index.md), hours 95.5–148, alongside the core modules.
-- [ ] [Module 7 Why and what to automate](../../modules/module-7-why-and-what-to-automate/index.md), hours 88–103: Evidence 7 (independent).
-- [ ] [Module 8 Programming foundations in JavaScript](../../modules/module-8-programming-foundations/index.md), hours 95.5–133: Evidence 8 (independent).
-- [ ] [Module 9 Version control and collaboration](../../modules/module-9-version-control/index.md), hours 110.5–133: Evidence 9 (independent).
+- [ ] [Role foundations](../role-foundations/index.md) (23 hours), alongside the core modules.
+- [ ] [Module 6 Induction and baseline](../../modules/module-6-induction/index.md) (6.5 hours): Evidence 6 (independent).
+- [ ] [Health care foundations](../health-care-foundations/index.md) (7 hours), alongside the core modules.
+- [ ] [Module 7 Why and what to automate](../../modules/module-7-why-and-what-to-automate/index.md) (4.5 hours): Evidence 7 (independent).
+- [ ] [Module 8 Programming foundations in JavaScript](../../modules/module-8-programming-foundations/index.md) (14.5 hours): Evidence 8 (independent).
+- [ ] [Module 9 Version control and collaboration](../../modules/module-9-version-control/index.md) (7 hours): Evidence 9 (independent).
 - [ ] **Gate 1**, hour 133: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-6-test-engineering): fix a failing unit test and open a pull request.
-- [ ] [Module 10 Browser automation fundamentals](../../modules/module-10-browser-automation-fundamentals/index.md), hours 133–155.5: Evidence 10 (independent).
-- [ ] [Coaching others in automation](../coaching-others-in-automation/index.md), hours 155.5–238, alongside the core modules.
-- [ ] [Module 11 From walkthrough to real test](../../modules/module-11-walkthrough-to-real-test/index.md), hours 155.5–178: Evidence 11 (independent).
+- [ ] [Module 10 Browser automation fundamentals](../../modules/module-10-browser-automation-fundamentals/index.md) (17.5 hours): Evidence 10 (independent).
+- [ ] [Coaching others in automation](../coaching-others-in-automation/index.md), alongside the core modules.
+- [ ] [Module 11 From walkthrough to real test](../../modules/module-11-walkthrough-to-real-test/index.md) (12.5 hours): Evidence 11 (independent).
 - [ ] **Gate 2**, hour 178: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-6-test-engineering): automate one given manual test case on the fixture site.
-- [ ] [Module 12 API, integration, and FHIR tests](../../modules/module-12-api-integration-fhir/index.md), hours 178–200.5: Evidence 12 (independent).
-- [ ] [Frameworks and non-functional testing (read only)](../frameworks-and-non-functional-testing/index.md), hours 200.5–238, alongside the core modules.
-- [ ] [Module 13 Continuous integration and DevOps](../../modules/module-13-continuous-integration/index.md), hours 200.5–215.5: Evidence 13 (independent).
+- [ ] [Module 12 API, integration, and FHIR tests](../../modules/module-12-api-integration-fhir/index.md) (15 hours): Evidence 12 (independent).
+- [ ] [Frameworks and non-functional testing (read only)](../frameworks-and-non-functional-testing/index.md), alongside the core modules.
+- [ ] [Module 13 Continuous integration and DevOps](../../modules/module-13-continuous-integration/index.md) (10 hours): Evidence 13 (independent).
 - [ ] **Gate 3**, hour 215.5: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-6-test-engineering): triage and fix a failing CI run.
-- [ ] [Module 14 Safe and lawful test automation in health care](../../modules/module-14-safe-and-lawful-automation/index.md), hours 215.5–230.5: Evidence 14 (independent).
-- [ ] [Module 15 Quality engineering practice](../../modules/module-15-quality-engineering/index.md), hours 223–238: Evidence 15 (independent).
-- [ ] [Module 16 Capstone](../../modules/module-16-capstone/index.md), hours 230.5–268: Evidence 16 (independent).
+- [ ] [Module 14 Safe and lawful test automation in health care](../../modules/module-14-safe-and-lawful-automation/index.md) (7 hours): Evidence 14 (independent).
+- [ ] [Module 15 Quality engineering practice](../../modules/module-15-quality-engineering/index.md) (6 hours): Evidence 15 (independent).
+- [ ] [Module 16 Capstone](../../modules/module-16-capstone/index.md) (27.5 hours): Evidence 16 (independent).
 - [ ] **Gate 4**, hour 268: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-6-test-engineering): live run and explanation of the capstone.
-- [ ] [Module 17 Lean Six Sigma Green Belt, lifetime certification](../../modules/module-17-lean-six-sigma-green-belt/index.md), hours 268–308: Evidence 17 (independent).
+- [ ] [Module 17 Lean Six Sigma Green Belt, lifetime certification](../../modules/module-17-lean-six-sigma-green-belt/index.md) (40 hours): Evidence 17 (independent).
 - [ ] **Green Belt certification exam**, by hour 308, with your Green Belt project accepted.
 - [ ] **Gate 5**, about six months after Gate 4: complete your self-assessment once more, and demonstrate a recent automated change.
 
@@ -160,7 +160,7 @@ From hour 155.5, about 1.5 hours in every 7.5 hours of learning is real automati
 - [Coaching others in automation](../coaching-others-in-automation/index.md)
 - [Frameworks and non-functional testing (read only)](../frameworks-and-non-functional-testing/index.md)
 
-## Capstone (Module 16, hours 230.5 to 268)
+## Capstone (Module 16, 27.5 hours)
 
 An automated regression suite for a product slice of 15–30 manual cases: plan, browser and API tests, spec, synthetic data, CI, traceability, and handover README.
 

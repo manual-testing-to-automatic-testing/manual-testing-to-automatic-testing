@@ -134,6 +134,12 @@ test('a track page starts with a checklist of real checkboxes that are remembere
   const boxes = page.locator('article input[type="checkbox"][data-check]');
   expect(await boxes.count()).toBeGreaterThan(20);
   await expect(boxes.first()).toBeEnabled();
+  // Each item is the box and one span of text, so links and bold text stay in one line of flow.
+  const childCounts = await page.locator('article .checklist-item label').evaluateAll((labels) => labels.map((l) => l.children.length));
+  expect(childCounts.every((n) => n === 2)).toBe(true);
+  const gate0 = page.locator('article .checklist-item label', { hasText: 'Gate 0' });
+  const [label, text] = await Promise.all([gate0.boundingBox(), gate0.locator('span').boundingBox()]);
+  expect(text!.width).toBeGreaterThan(label!.width * 0.8);
   await boxes.nth(1).check();
   await page.reload();
   await expect(boxes.nth(1)).toBeChecked();

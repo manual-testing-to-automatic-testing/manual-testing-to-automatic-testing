@@ -97,6 +97,22 @@ MODULE_FOLDERS = {int(p.name.split("-")[1]): p.name for p in (root / "materials/
 gate_h, gate_rows = find("Gate", "Part D practical")
 
 
+# Each item's hours, from the spec's hour budget ("Where the ... hours go").
+BUDGET = {}
+for _line in lines:
+    _m = re.match(r"^\| (Module \d+ [^|]+?|Role foundations|Health care foundations)(?:[,:][^|]*)? \| [^|]* \| ([\d.]+) \|$", _line)
+    if _m:
+        BUDGET[_m[1].strip()] = float(_m[2])
+
+
+def duration(name):
+    """ (14.5 hours)" for an item in the budget, or "" for one without fixed hours."""
+    for key, value in BUDGET.items():
+        if name.startswith(key) or key.startswith(name):
+            return f" ({value:g} hours)"
+    return ""
+
+
 def hours_text(a, b):
     return f"hours {a:g}–{b:g}"
 
@@ -114,11 +130,11 @@ def checklist(t, mi):
             full = next(k for k in MODULE_HOURS if k.startswith(f"Module {n} "))
             a, b = MODULE_HOURS[full]
             link = f"../../modules/{MODULE_FOLDERS[n]}/index.md"
-            events.append((b, 0, f"[{full}]({link}), {hours_text(a, b)}: Evidence {n} ({DEPTH.get(depth, depth).lower()})."))
+            events.append((b, 0, f"[{full}]({link}){duration(full)}: Evidence {n} ({DEPTH.get(depth, depth).lower()})."))
     for m in TRACK_MODULES[t]:
         base = m.split(" (")[0]
         a, b = MODULE_HOURS[base]
-        events.append((a, 1, f"[{m}]({MODULE_LINKS[base]}), {hours_text(a, b)}, alongside the core modules."))
+        events.append((a, 1, f"[{m}]({MODULE_LINKS[base]}){duration(base)}, alongside the core modules."))
     for r in gate_rows:
         gate, hour, part_d = r[0], r[1], r[3]
         if gate == "Gate 0":
@@ -209,7 +225,7 @@ for t in TRACKS:
     for m in TRACK_MODULES[t]:
         out.append(f"- [{m}]({MODULE_LINKS[m.split(' (')[0]]})")
     out.append("")
-    out.append("## Capstone (Module 16, hours 230.5 to 268)\n")
+    out.append(f"## Capstone (Module 16,{duration('Module 16 Capstone')[:-1]})\n".replace(", (", ", ").replace("(Module 16, ", "(Module 16, "))
     out.append(cap[1] + "\n")
     out.append(f"You present it to the Gate 4 panel for {'10' if BAND[t] in '34' else '20'} minutes, aimed at a non-technical audience.\n")
     out.append("## Lean Six Sigma Green Belt (40 hours)\n")
@@ -218,7 +234,7 @@ for t in TRACKS:
     out.append("## Gates and practicals\n")
     out.append(f"Gates are at programme hours 88, 133, 178, 215.5, and 268, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **{MINUTES[t]} minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#{SLUG[t]}). Thresholds and conditions are in the [gates overview](../../gates/index.md).\n")
     if BAND[t] in "34":
-        out.append("With the optional extension to 368 hours, the gates move to hours 88, 148, 208, 260.5, and 328, and Module 17 runs in hours 328 to 368.\n")
+        out.append("With the optional extension to 368 hours, the gates move to hours 88, 148, 208, 260.5, and 328, and Module 17 (40 hours) runs from hour 328.\n")
     out.append("## Mentor\n")
     out.append(f"Your mentor is at least one band above you (Band {int(BAND[t])+1} or higher) and at or above your automation target in test engineering ({at[2].replace('**','')}). One mentor supports up to 3 participants." + (" For Band 7 tracks, an external mentor may be used if no internal mentor meets these rules." if BAND[t] == "7" else "") + "\n")
     out.append("## Related\n")

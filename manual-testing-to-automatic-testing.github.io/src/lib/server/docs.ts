@@ -221,7 +221,9 @@ export function renderDoc(doc: Doc, locale: Locale = DEFAULT_LOCALE): RenderedDo
     let item = 0;
     html = html.replace(
       /<li><input (?:checked="" )?disabled="" type="checkbox"> ?([\s\S]*?)<\/li>/g,
-      (_, text: string) => `<li class="checklist-item"><label><input type="checkbox" data-check="${item++}"> ${text}</label></li>`
+      // The text is one span, so the label's flex layout has two items: the box and the text.
+      (_, text: string) =>
+        `<li class="checklist-item"><label><input type="checkbox" data-check="${item++}"> <span>${text}</span></label></li>`
     );
   }
   return { html, headings };
