@@ -17,7 +17,7 @@ test('the sitemap lists every page', () => {
   expect(paths).toContain('/en-001/calibration-guide/');
   // Flat URLs, except a module's training content under curriculum/.
   expect(
-    paths.filter((p) => p.split('/').length > 4 && !p.includes('/curriculum/') && !p.includes('-engineering-syllabus/'))
+    paths.filter((p) => p.split('/').length > 4 && !p.includes('/curriculum/') && !p.includes('/istqb/certified-tester-advanced-level/'))
   ).toEqual([]);
   expect(paths).toContain('/en-001/curriculum/basics-of-an-ai-assistant/');
 });
@@ -175,11 +175,14 @@ test('the ISTQB module pages have their own addresses', async ({ page }) => {
 });
 
 test('the CTAL-TAE syllabus is explained, one page per heading', async ({ page }) => {
-  const base = '/en-001/istqb-certified-tester-advanced-level-test-automation-engineering-syllabus/';
+  const base = '/en-001/istqb/certified-tester-advanced-level/test-automation-engineering/syllabus/';
   await page.goto(base);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('ISTQB CTAL-TAE syllabus, explained');
   await page.goto(`${base}7-1-3-identify-where-test-automation-produces-unexpected-results/`);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('7.1.3 Identify Where Test Automation Produces Unexpected Results');
   await page.getByRole('link', { name: '7.1.4 Explain How Static Analysis Can Aid Test Automation Code Quality' }).click();
   await expect(page).toHaveURL(new RegExp(`${base}7-1-4-explain-how-static-analysis-can-aid-test-automation-code-quality/$`));
+  // The first, one-segment addresses forward to the new ones.
+  await page.goto('/en-001/istqb-certified-tester-advanced-level-test-automation-engineering-syllabus/7-1-3-identify-where-test-automation-produces-unexpected-results/');
+  await expect(page).toHaveURL(new RegExp(`${base}7-1-3-identify-where-test-automation-produces-unexpected-results/$`));
 });

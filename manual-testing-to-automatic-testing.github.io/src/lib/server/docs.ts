@@ -30,6 +30,11 @@ export type Doc = {
 
 export type Heading = { depth: number; text: string; id: string };
 
+/** The CTAL-TAE syllabus pages' address, in segments. */
+const SYLLABUS_BASE = 'istqb/certified-tester-advanced-level/test-automation-engineering/syllabus';
+/** Its first address, as one segment. */
+const OLD_SYLLABUS_BASE = 'istqb-certified-tester-advanced-level-test-automation-engineering-syllabus';
+
 /** Documents whose URL is not their own file or folder name. */
 const SLUGS: Record<string, string> = {
   'README.md': 'about',
@@ -61,10 +66,10 @@ export function slugForPath(path: string): string {
   // without its number: materials/modules/module-3-basics-of-an-ai-assistant/
   // training.md -> curriculum/basics-of-an-ai-assistant.
   // The CTAL-TAE syllabus pages, explained, under one address:
-  // istqb-certified-tester-advanced-level-test-automation-engineering-syllabus/7-1-3-...
+  // istqb/certified-tester-advanced-level/test-automation-engineering/syllabus/7-1-3-...
   const syllabus = path.match(/^materials\/modules\/module-\d+-istqb-certified-tester-advanced-level-test-automation-engineer\/syllabus\/([^/]+)\.md$/);
   if (syllabus) {
-    const base = 'istqb-certified-tester-advanced-level-test-automation-engineering-syllabus';
+    const base = SYLLABUS_BASE;
     return syllabus[1] === 'index' ? base : `${base}/${syllabus[1]}`;
   }
   const training = path.match(/^materials\/modules\/module-\d+-([^/]+)\/training\.md$/);
@@ -120,6 +125,8 @@ function abbreviate(slug: string): string {
 function oldSlugs(path: string): string[] {
   const nested = nestedSlug(path) || 'about';
   const slugs = [nested, abbreviate(nested)];
+  const current = slugForPath(path);
+  if (current.startsWith(`${SYLLABUS_BASE}`)) slugs.push(current.replace(SYLLABUS_BASE, OLD_SYLLABUS_BASE));
   for (const earlier of earlierPaths(path)) {
     // Flat, nested by folder, and with abbreviations, as each was published.
     slugs.push(slugForPath(earlier), nestedSlug(earlier), abbreviate(nestedSlug(earlier)));
