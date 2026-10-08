@@ -11,7 +11,7 @@ This agreement is signed at Gate 0. It records the commitments that make the pro
 | UK GDaD PCF role and role level | |
 | Track | |
 | Programme dates | Start: End of Gate 4: Gate 5: |
-| Programme length | 308 hours / 368 hours (Band 3 and Band 4 only), including the 40-hour Lean Six Sigma Green Belt |
+| Programme length | 320 hours / 380 hours (Band 3 and Band 4 only), including the 40-hour Lean Six Sigma Green Belt |
 
 ## 2. What this programme is, and is not
 
@@ -23,7 +23,7 @@ This agreement is signed at Gate 0. It records the commitments that make the pro
 
 | Field | Entry |
 | --- | --- |
-| Protected time | 308 learning hours (368 with the Band 3 and Band 4 extension), the same for every track; by default 7.5 hours a week (20% of a 37.5-hour week). Agreed pace: ____ hours a week |
+| Protected time | 320 learning hours (380 with the Band 3 and Band 4 extension), the same for every track; by default 7.5 hours a week (20% of a 37.5-hour week). Agreed pace: ____ hours a week |
 | When in the week | Monday / Tuesday / Wednesday / Thursday / Friday, and times: ____ |
 | Booked in calendars by | |
 
@@ -33,12 +33,12 @@ Protected time is not reassigned to delivery work without the training lead's ag
 
 | Gate | Programme hour | Date |
 | --- | --- | --- |
-| Gate 0 | 88 | |
-| Gate 1 | 133 (148 with extension) | |
-| Gate 2 | 178 (208) | |
-| Gate 3 | 215.5 (260.5) | |
-| Gate 4 | 268 (328) | |
-| Green Belt certification exam | By 308 (368) | |
+| Gate 0 | 88.5 | |
+| Gate 1 | 136.5 (152.5 with extension) | |
+| Gate 2 | 183 (213.5) | |
+| Gate 3 | 221.5 (269.5) | |
+| Gate 4 | 279.5 (340) | |
+| Green Belt certification exam | By 320 (380) | |
 | Gate 5 | About six months after Gate 4, outside the learning hours | |
 
 ## 5. Commitments
@@ -48,7 +48,7 @@ Protected time is not reassigned to delivery work without the training lead's ag
 - complete the full self-assessment honestly, with evidence, before every gate
 - follow the individual learning plan and produce the module evidence for the track
 - keep a [learning log](learning-log-template.md) entry for every 7.5 hours of learning
-- from hour 155.5, spend part of every 7.5 hours of learning automating real work on the team's product
+- from hour 160.5, spend part of every 7.5 hours of learning automating real work on the team's product
 - use synthetic data only, and keep secrets and personal data out of code
 - raise blockers early with the mentor or training lead.
 
@@ -62,7 +62,7 @@ Protected time is not reassigned to delivery work without the training lead's ag
 **The mentor will:**
 
 - pair, review code, and run Role foundations practice
-- give 1.5 hours per 7.5 learning hours in hours 88–133, then 1 hour per 7.5 learning hours
+- give 1.5 hours per 7.5 learning hours in hours 88.5–136.5, then 1 hour per 7.5 learning hours
 - prepare the participant for each gate and supervise Part D practicals.
 
 **The training lead will:**

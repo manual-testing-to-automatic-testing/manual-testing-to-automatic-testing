@@ -121,7 +121,7 @@ test('the tracks page links each track to its page', async ({ page }) => {
 test('the mentor and line manager pages explain the role and its time', async ({ page }) => {
   await page.goto('/en-001/mentor/');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Mentor');
-  await expect(page.getByText(/About 38\.5 per participant/)).toBeVisible();
+  await expect(page.getByText(/About 41\.5 per participant/)).toBeVisible();
   await page.goto('/en-001/manager/');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Line manager');
   await expect(page.getByText(/About 33 per person/)).toBeVisible();

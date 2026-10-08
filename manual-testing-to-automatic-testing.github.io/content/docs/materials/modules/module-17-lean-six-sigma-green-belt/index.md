@@ -26,27 +26,27 @@ The course sessions are taught by the Lean Six Sigma trainer chosen under Decisi
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 268–275.5: Lean: value, flow, the eight wastes (TIMWOODS) in testing, kaizen | 2 hours | Core | Cohort, trainer |
-| 2 | Hours 268–275.5: Define: voice of the customer, critical-to-quality requirements, SIPOC, the project charter | 2 hours | Core | Cohort, trainer |
-| 3 | Hours 268–275.5: value stream mapping of the team's test process | 1.5 hours | Practice | Each person, their team's process |
-| 4 | Hours 268–275.5: write the Green Belt project charter, and agree it with the sponsor | 2 hours | Project | Each person, product owner, mentor |
-| 5 | Hours 275.5–283: Measure: data collection plans and measurement system analysis | 2 hours | Core | Cohort, trainer |
-| 6 | Hours 275.5–283: descriptive statistics and variation | 2 hours | Core | Cohort, trainer |
-| 7 | Hours 275.5–283: process capability and sigma level | 1.5 hours | Core | Cohort, trainer |
-| 8 | Hours 275.5–283: collect the project's baseline data | 2 hours | Project | Each person, mentor |
-| 9 | Hours 283–290.5: Analyse: Pareto charts, fishbone diagrams, the five whys | 2 hours | Core | Cohort, trainer |
-| 10 | Hours 283–290.5: hypothesis testing | 2 hours | Core | Cohort, trainer |
-| 11 | Hours 283–290.5: correlation and regression | 1.5 hours | Core | Cohort, trainer |
-| 12 | Hours 283–290.5: FMEA, linked to the clinical hazard log from Module 14 | 1 hour | Core | Cohort, trainer |
-| 13 | Hours 283–290.5: analyse the project's root causes | 1 hour | Project | Each person, mentor |
-| 14 | Hours 290.5–298: Improve: generating, choosing, and piloting solutions; automation as an improvement that is measured, not assumed | 2 hours | Core | Cohort, trainer |
-| 15 | Hours 290.5–298: Control: control charts and statistical process control | 2 hours | Core | Cohort, trainer |
-| 16 | Hours 290.5–298: control plans, and handing a process to its owner | 1 hour | Core | Cohort, trainer |
-| 17 | Hours 290.5–298: pilot the project's improvement | 2.5 hours | Project | Each person, mentor, team |
-| 18 | Hours 298–305.5: measure the result, write the control plan, and finish the project report | 1.5 hours | Project | Each person, mentor |
-| 19 | Hours 298–305.5: project review with the sponsor and mentor | 1 hour | Project | Each person, product owner, mentor |
-| 20 | Hours 298–305.5: practice exam, and review of the answers | 5 hours | Core | Cohort, trainer |
-| 21 | Hours 305.5–308: the Green Belt certification exam | 2.5 hours | Exam | Each person, certification body |
+| 1 | Hours 279.5–287: Lean: value, flow, the eight wastes (TIMWOODS) in testing, kaizen | 2 hours | Core | Cohort, trainer |
+| 2 | Hours 279.5–287: Define: voice of the customer, critical-to-quality requirements, SIPOC, the project charter | 2 hours | Core | Cohort, trainer |
+| 3 | Hours 279.5–287: value stream mapping of the team's test process | 1.5 hours | Practice | Each person, their team's process |
+| 4 | Hours 279.5–287: write the Green Belt project charter, and agree it with the sponsor | 2 hours | Project | Each person, product owner, mentor |
+| 5 | Hours 287–294.5: Measure: data collection plans and measurement system analysis | 2 hours | Core | Cohort, trainer |
+| 6 | Hours 287–294.5: descriptive statistics and variation | 2 hours | Core | Cohort, trainer |
+| 7 | Hours 287–294.5: process capability and sigma level | 1.5 hours | Core | Cohort, trainer |
+| 8 | Hours 287–294.5: collect the project's baseline data | 2 hours | Project | Each person, mentor |
+| 9 | Hours 294.5–302: Analyse: Pareto charts, fishbone diagrams, the five whys | 2 hours | Core | Cohort, trainer |
+| 10 | Hours 294.5–302: hypothesis testing | 2 hours | Core | Cohort, trainer |
+| 11 | Hours 294.5–302: correlation and regression | 1.5 hours | Core | Cohort, trainer |
+| 12 | Hours 294.5–302: FMEA, linked to the clinical hazard log from Module 14 | 1 hour | Core | Cohort, trainer |
+| 13 | Hours 294.5–302: analyse the project's root causes | 1 hour | Project | Each person, mentor |
+| 14 | Hours 302–309.5: Improve: generating, choosing, and piloting solutions; automation as an improvement that is measured, not assumed | 2 hours | Core | Cohort, trainer |
+| 15 | Hours 302–309.5: Control: control charts and statistical process control | 2 hours | Core | Cohort, trainer |
+| 16 | Hours 302–309.5: control plans, and handing a process to its owner | 1 hour | Core | Cohort, trainer |
+| 17 | Hours 302–309.5: pilot the project's improvement | 2.5 hours | Project | Each person, mentor, team |
+| 18 | Hours 309.5–317: measure the result, write the control plan, and finish the project report | 1.5 hours | Project | Each person, mentor |
+| 19 | Hours 309.5–317: project review with the sponsor and mentor | 1 hour | Project | Each person, product owner, mentor |
+| 20 | Hours 309.5–317: practice exam, and review of the answers | 5 hours | Core | Cohort, trainer |
+| 21 | Hours 317–320: the Green Belt certification exam | 2.5 hours | Exam | Each person, certification body |
 
 Each person's sessions add up to 40 hours: 27.5 hours on the body of knowledge and exam preparation, 10 hours on the project, and 2.5 hours for the exam.
 

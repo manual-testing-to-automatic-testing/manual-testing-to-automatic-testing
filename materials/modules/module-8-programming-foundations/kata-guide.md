@@ -9,7 +9,7 @@ Evidence 8 for Module 8. Each kata is a JavaScript source file in `practice-repo
 3. Write just enough code to make it pass.
 4. Add another test for another case. Repeat.
 5. When the tests pass, tidy the code (refactor) and run the tests again.
-6. Commit, and (from hour 110.5) open a pull request for the mentor to review.
+6. Commit, and (from hour 113.5) open a pull request for the mentor to review.
 
 Run the tests from the practice repository folder:
 

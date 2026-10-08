@@ -24,7 +24,7 @@ The live run is the Gate 4 Part D practical.
 - Use plain words. Explain any technical term the first time you use it.
 - Show, do not tell: the live run is worth more than slides.
 - Be honest about gaps. Residual risks are part of good test reporting.
-- Practise once in the hours 253–260.5 rehearsal.
+- Practise once in the hours 262–269.5 rehearsal.
 
 ## What the panel looks for
 

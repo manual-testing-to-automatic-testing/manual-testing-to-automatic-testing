@@ -223,13 +223,13 @@ Then:
 Good development goals are **specific, measurable, achievable, relevant, and time-bound**. For example:
 
 - Weak: "Get better at automation."
-- Strong: "By hour 178, write and run three automated browser tests for my team's referral form, reviewed by a developer, so that I meet my track's automation target in test engineering."
+- Strong: "By hour 183, write and run three automated browser tests for my team's referral form, reviewed by a developer, so that I meet my track's automation target in test engineering."
 
 The assistant can help you find the words and the structure. It cannot tell you your real gaps: those come from your self-assessment and your manager.
 
 ### Try it
 
-> Help me draft a development plan for the next 12 months. I'm a [your band and UK GDaD PCF role, for example: Band 4 associate quality assurance test analyst]. My goals are to [your goals, for example: write automated browser tests, and get better at planning tests]. I'm on a 308-hour training programme that covers JavaScript, Selenium, continuous integration, safe testing in health care, and a Lean Six Sigma Green Belt. Give me four goals, each specific, measurable, achievable, relevant, and time-bound, in a table with columns: goal, why it matters, how I'll do it, evidence, and by when.
+> Help me draft a development plan for the next 12 months. I'm a [your band and UK GDaD PCF role, for example: Band 4 associate quality assurance test analyst]. My goals are to [your goals, for example: write automated browser tests, and get better at planning tests]. I'm on a 320-hour training programme that covers JavaScript, Selenium, continuous integration, safe testing in health care, and a Lean Six Sigma Green Belt. Give me four goals, each specific, measurable, achievable, relevant, and time-bound, in a table with columns: goal, why it matters, how I'll do it, evidence, and by when.
 
 Do not include your name, your organisation's name, or anything about patients or colleagues.
 

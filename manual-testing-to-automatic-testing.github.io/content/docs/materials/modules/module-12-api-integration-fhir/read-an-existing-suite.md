@@ -5,7 +5,7 @@ Evidence 12 for **Band 4 quality assurance** and **Band 7 test management**. Ins
 - **Band 4 quality assurance:** so you can run API tests, read their results, and raise good defects from them.
 - **Band 7 test management:** so you can judge API test coverage across your teams, and ask the right questions in reviews.
 
-Time: about 2 hours, in the hours 185.5–193 breakout, with the mentor.
+Time: about 2 hours, in the hours 190.5–198 breakout, with the mentor.
 
 ## 1. Run it
 

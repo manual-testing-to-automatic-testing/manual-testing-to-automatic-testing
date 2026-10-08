@@ -22,7 +22,7 @@ A TAS is defined by the functional, non-functional, and technical requirements o
 
 Before building your capstone suite, write one page that answers each bullet for your team's product: which tools, what you will build yourself (such as page objects), what you need to connect to (and whether the network allows it), where results go, and which repository holds the code.
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Give groups a blank one-page TAA template with the five headings. Each group fills it in for the practice repository, then for their own team's product, and notes what is different.
 

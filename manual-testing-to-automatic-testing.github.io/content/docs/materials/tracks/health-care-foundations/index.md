@@ -1,17 +1,17 @@
 # Health care foundations
 
-Health care foundations runs in hours 95.5–148 for every track. Its purpose is that every person meets the expected levels in **understanding health and care services**, **clinical risk management**, and **information governance and data protection** by Gate 2 (spec Principle 13). Health care foundations is reflected in Part C ratings at Gate 2.
+Health care foundations runs in hours 97.5–152.5 for every track. Its purpose is that every person meets the expected levels in **understanding health and care services**, **clinical risk management**, and **information governance and data protection** by Gate 2 (spec Principle 13). Health care foundations is reflected in Part C ratings at Gate 2.
 
 | Session | Programme hours | Led by | Length | Who |
 | --- | --- | --- | --- | --- |
-| 1 How the organisation's services support care | 95.5–103 | Band 7 test management participant, with a clinical colleague | 1.5 hours | All |
-| 2 Information governance for testers | 103–110.5 | Information governance lead | 1.5 hours | All |
-| 3 Clinical risk management for testers | 110.5–118 | Clinical safety officer | 1.5 hours | All |
-| 4 Hazard workshop | 118–133 | Clinical safety officer | 1.5 hours | All, in small groups |
-| 5 Shadowing a clinical or care user | Between hours 110.5 and 148, in normal working time | Line manager arranges | About 3.5 hours, outside the learning hours | All |
-| 6 Wrap-up and Part C self-check | 140.5–148 | Training lead | 1 hour | All |
+| 1 How the organisation's services support care | 97.5–106 | Band 7 test management participant, with a clinical colleague | 2.5 hours | All |
+| 2 Information governance for testers | 106–113.5 | Information governance lead | 1.5 hours | All |
+| 3 Clinical risk management for testers | 113.5–121 | Clinical safety officer | 1.5 hours | All |
+| 4 Hazard workshop | 121–136.5 | Clinical safety officer | 1.5 hours | All, in small groups |
+| 5 Shadowing a clinical or care user | Between hours 113.5 and 152.5, in normal working time | Line manager arranges | About 3.5 hours, outside the learning hours | All |
+| 6 Wrap-up and Part C self-check | 144–152.5 | Training lead | 1 hour | All |
 
-Health care foundations takes 7 learning hours in all (sessions 1, 2, 3, 4, and 6), within hours 95.5–148. Shadowing happens in normal working time, because it is part of knowing the work. The cohort total for the clinical safety officer is 3 hours here, within the spec's 6 hours per cohort, leaving about 3 hours for Module 14. The information governance lead gives 1.5 hours here and the rest of their 3 hours in Module 14.
+Health care foundations takes 8 learning hours in all (sessions 1, 2, 3, 4, and 6), within hours 97.5–152.5. Shadowing happens in normal working time, because it is part of knowing the work. The cohort total for the clinical safety officer is 3 hours here, within the spec's 6 hours per cohort, leaving about 3 hours for Module 14. The information governance lead gives 1.5 hours here and the rest of their 3 hours in Module 14.
 
 ## Session 1: How the organisation's services support care
 
@@ -20,11 +20,11 @@ Health care foundations takes 7 learning hours in all (sessions 1, 2, 3, 4, and 
 **Plan:**
 
 1. (20 minutes) The health and care system in outline, and where the organisation's services fit.
-2. (30 minutes) A clinical colleague walks through one real care pathway the organisation supports, and where digital services touch it.
-3. (30 minutes) Small groups: each person maps their own product onto the pathway and marks one point where a defect could affect care.
+2. (1 hour) A clinical colleague walks through one real care pathway the organisation supports, and where digital services touch it.
+3. (1 hour) Small groups: each person maps their own product onto the pathway and marks one point where a defect could affect care.
 4. (10 minutes) Common clinical terms testers should use correctly.
 
-**Leader note:** the Band 7 test management participant leads this session, as their track requires. The training lead reviews the plan with them in hours 88–95.5.
+**Leader note:** the Band 7 test management participant leads this session, as their track requires. The training lead reviews the plan with them in hours 88.5–97.5.
 
 ## Session 2: Information governance for testers
 

@@ -5,32 +5,32 @@
 Do each item in order. Tick it when it is done.
 
 - [ ] Agree your protected time and pace with your stakeholders.
-- [ ] Meet your mentor for a 30-minute start.
+- [ ] Meet your mentor for a 1-hour start.
 - [ ] [Module 1 Basics of a programming language](../../modules/module-1-basics-of-a-programming-language/index.md) (20 hours): Evidence 1 (independent).
 - [ ] [Module 2 Basics of a browser automator](../../modules/module-2-basics-of-a-browser-automator/index.md) (20 hours): Evidence 2 (independent).
 - [ ] [Module 3 Basics of an AI assistant](../../modules/module-3-basics-of-an-ai-assistant/index.md) (20 hours): Evidence 3 (independent).
 - [ ] [Module 4 ISTQB Certified Tester Foundation Level v4.0](../../modules/module-4-istqb-certified-tester-foundation-level/index.md) (4 hours): Evidence 4 (independent).
 - [ ] [Module 5 ISTQB Certified Tester Advanced Level Test Automation Engineer](../../modules/module-5-istqb-certified-tester-advanced-level-test-automation-engineer/index.md) (24 hours): Evidence 5 (independent).
-- [ ] **Gate 0**, hour 88: have your three basics walkthroughs signed off, and your two ISTQB certificates recorded; complete your [self-assessment](#your-capability-self-assessment); rate and calibrate with your line manager; agree your individual learning plan; and sign your learning agreement.
+- [ ] **Gate 0**, hour 88.5: have your three basics walkthroughs signed off, and your two ISTQB certificates recorded; complete your [self-assessment](#your-capability-self-assessment); rate and calibrate with your line manager; agree your individual learning plan; and sign your learning agreement.
 - [ ] [Role foundations](../role-foundations/index.md) (23 hours), alongside the core modules.
-- [ ] [Module 6 Induction and baseline](../../modules/module-6-induction/index.md) (6 hours): Evidence 6 (independent).
-- [ ] [Health care foundations](../health-care-foundations/index.md) (7 hours), alongside the core modules.
-- [ ] [Module 7 Why and what to automate](../../modules/module-7-why-and-what-to-automate/index.md) (4 hours): Evidence 7 (independent).
+- [ ] [Module 6 Induction and baseline](../../modules/module-6-induction/index.md) (8 hours): Evidence 6 (independent).
+- [ ] [Health care foundations](../health-care-foundations/index.md) (8 hours), alongside the core modules.
+- [ ] [Module 7 Why and what to automate](../../modules/module-7-why-and-what-to-automate/index.md) (5 hours): Evidence 7 (independent).
 - [ ] [Module 8 Programming foundations in JavaScript](../../modules/module-8-programming-foundations/index.md) (14 hours): Evidence 8 (with support).
 - [ ] [Module 9 Version control and collaboration](../../modules/module-9-version-control/index.md) (7 hours): Evidence 9 (independent).
-- [ ] **Gate 1**, hour 133: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-5-quality-assurance): fix a failing unit test and open a pull request.
-- [ ] [Module 10 Browser automation fundamentals](../../modules/module-10-browser-automation-fundamentals/index.md) (17 hours): Evidence 10 (independent).
+- [ ] **Gate 1**, hour 136.5: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-5-quality-assurance): fix a failing unit test and open a pull request.
+- [ ] [Module 10 Browser automation fundamentals](../../modules/module-10-browser-automation-fundamentals/index.md) (18 hours): Evidence 10 (independent).
 - [ ] [Module 11 From walkthrough to real test](../../modules/module-11-walkthrough-to-real-test/index.md) (12 hours): Evidence 11 (independent).
-- [ ] **Gate 2**, hour 178: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-5-quality-assurance): automate one given manual test case on the fixture site.
+- [ ] **Gate 2**, hour 183: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-5-quality-assurance): automate one given manual test case on the fixture site.
 - [ ] [Module 12 API, integration, and FHIR tests](../../modules/module-12-api-integration-fhir/index.md) (15 hours): Evidence 12 (with support).
 - [ ] [Module 13 Continuous integration and DevOps](../../modules/module-13-continuous-integration/index.md) (10 hours): Evidence 13 (independent).
-- [ ] **Gate 3**, hour 215.5: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-5-quality-assurance): triage and fix a failing CI run.
-- [ ] [Module 14 Safe and lawful test automation in health care](../../modules/module-14-safe-and-lawful-automation/index.md) (7 hours): Evidence 14 (independent).
-- [ ] [Module 15 Quality engineering practice](../../modules/module-15-quality-engineering/index.md) (6 hours): Evidence 15 (with support).
-- [ ] [Module 16 Capstone](../../modules/module-16-capstone/index.md) (27 hours): Evidence 16 (independent).
-- [ ] **Gate 4**, hour 268: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-5-quality-assurance): live run and explanation of the capstone.
+- [ ] **Gate 3**, hour 221.5: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-5-quality-assurance): triage and fix a failing CI run.
+- [ ] [Module 14 Safe and lawful test automation in health care](../../modules/module-14-safe-and-lawful-automation/index.md) (8 hours): Evidence 14 (independent).
+- [ ] [Module 15 Quality engineering practice](../../modules/module-15-quality-engineering/index.md) (8 hours): Evidence 15 (with support).
+- [ ] [Module 16 Capstone](../../modules/module-16-capstone/index.md) (30 hours): Evidence 16 (independent).
+- [ ] **Gate 4**, hour 279.5: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-5-quality-assurance): live run and explanation of the capstone.
 - [ ] [Module 17 Lean Six Sigma Green Belt, lifetime certification](../../modules/module-17-lean-six-sigma-green-belt/index.md) (40 hours): Evidence 17 (independent).
-- [ ] **Green Belt certification exam**, by hour 308, with your Green Belt project accepted.
+- [ ] **Green Belt certification exam**, by hour 320, with your Green Belt project accepted.
 - [ ] **Gate 5**, about six months after Gate 4: complete your self-assessment once more, and demonstrate a recent automated change.
 
 ## Your capability self-assessment
@@ -97,9 +97,9 @@ Not in this role level: Business and user acceptance testing, Medical device sof
 
 | Protected time | Approximate guided hours | Optional extension |
 | --- | --- | --- |
-| 7.5 hours a week, by default | 308 | — |
+| 7.5 hours a week, by default | 320 | — |
 
-From hour 155.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at this track's depth.
+From hour 160.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at this track's depth.
 
 ## Learning outcomes, at this track's depth
 
@@ -154,7 +154,7 @@ From hour 155.5, about 1.5 hours in every 7.5 hours of learning is real automati
 - [Role foundations](../role-foundations/index.md)
 - [Health care foundations](../health-care-foundations/index.md)
 
-## Capstone (Module 16, 27 hours)
+## Capstone (Module 16, 30 hours)
 
 Automation candidate analysis for the area, and 10 cases automated at browser and API layers, with traceability, with some support.
 
@@ -168,7 +168,7 @@ Your Green Belt project is a small project of your own, on your team's testing p
 
 ## Gates and practicals
 
-Gates are at programme hours 88, 133, 178, 215.5, and 268, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **60 minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#band-5-quality-assurance). Thresholds and conditions are in the [gates overview](../../gates/index.md).
+Gates are at programme hours 88.5, 136.5, 183, 221.5, and 279.5, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **60 minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#band-5-quality-assurance). Thresholds and conditions are in the [gates overview](../../gates/index.md).
 
 ## Mentor
 

@@ -20,7 +20,7 @@ When a test fails, or passes, unexpectedly, find the root cause: it may be in th
 
 A walkthrough that only prints, like the original testingexamples demos, always "passes", which is why [Module 11 From walkthrough to real test](../../module-11-walkthrough-to-real-test/index.md) adds real assertions, and why every exercise asks you to change an expected value and watch the test fail.
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Give pairs four tests: one with no assertions, one with a fixed sleep, one that depends on another test's data, and one that is correct. Pairs predict which can give unexpected results, and why, then run them to check.
 

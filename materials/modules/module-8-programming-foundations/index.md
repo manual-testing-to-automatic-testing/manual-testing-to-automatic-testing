@@ -18,22 +18,22 @@ A browser automation tool is a library you call from a programming language. Mod
 
 ## Session plan
 
-Module 8 shares hours 95.5–133 with Module 7, Module 9, Role foundations, Health care foundations, and Gate 1. Its sessions add up to 14.5 hours. The structured course (Decision 3) is the reference for the sessions, and for anyone who wants more practice in their own time.
+Module 8 shares hours 97.5–136.5 with Module 7, Module 9, Role foundations, Health care foundations, and Gate 1. Its sessions add up to 14.5 hours. The structured course (Decision 3) is the reference for the sessions, and for anyone who wants more practice in their own time.
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 95.5–103: terminal, npm, VS Code, running a file with `node`, the debugger, ESLint | 1 hour | Core | Cohort |
-| 2 | Hours 95.5–103: variables (`const`, `let`), types and `typeof`, functions | 1 hour | Core | Cohort |
-| 3 | Hours 103–110.5: control flow, arrays, objects | 1.5 hours | Core | Cohort |
-| 4 | Hours 103–110.5: a first unit test with Mocha and `node:assert/strict`, and reading test output | 1 hour | Core | Cohort |
-| 5 | Hours 103–110.5: kata practice | 3 hours | Practice | All; the mentor pairs with Band 3, Band 4 quality assurance, Band 4 test engineering, and Band 5 quality assurance |
-| 6 | Hours 110.5–118: modules (`import` and `export`), errors (`throw`, `try`, `catch`) | 1 hour | Core | Cohort |
-| 7 | Hours 110.5–118: kata practice; Band 7 test engineering starts the harder katas | 2 hours | Practice | All, with mentor review |
-| 8 | Hours 118–125.5: Promises, `async` and `await`, and why every WebDriver call must be awaited | 1.5 hours | Core | Cohort |
-| 9 | Hours 118–125.5: kata practice | 1 hour | Practice | All, with mentor review |
-| 10 | Hours 125.5–133: refactoring and code style; kata review, including Band 7 test engineering's harder katas | 1.5 hours | Core | Cohort |
+| 1 | Hours 97.5–106: terminal, npm, VS Code, running a file with `node`, the debugger, ESLint | 1 hour | Core | Cohort |
+| 2 | Hours 97.5–106: variables (`const`, `let`), types and `typeof`, functions | 1 hour | Core | Cohort |
+| 3 | Hours 106–113.5: control flow, arrays, objects | 1.5 hours | Core | Cohort |
+| 4 | Hours 106–113.5: a first unit test with Mocha and `node:assert/strict`, and reading test output | 1 hour | Core | Cohort |
+| 5 | Hours 106–113.5: kata practice | 3 hours | Practice | All; the mentor pairs with Band 3, Band 4 quality assurance, Band 4 test engineering, and Band 5 quality assurance |
+| 6 | Hours 113.5–121: modules (`import` and `export`), errors (`throw`, `try`, `catch`) | 1 hour | Core | Cohort |
+| 7 | Hours 113.5–121: kata practice; Band 7 test engineering starts the harder katas | 2 hours | Practice | All, with mentor review |
+| 8 | Hours 121–128.5: Promises, `async` and `await`, and why every WebDriver call must be awaited | 1.5 hours | Core | Cohort |
+| 9 | Hours 121–128.5: kata practice | 1 hour | Practice | All, with mentor review |
+| 10 | Hours 128.5–136.5: refactoring and code style; kata review, including Band 7 test engineering's harder katas | 1.5 hours | Core | Cohort |
 
-Mentor pairing: in hours 95.5–110.5, the mentor pairs with Band 3, Band 4 quality assurance, Band 4 test engineering, and Band 5 quality assurance during the sessions and practice. From hour 110.5, and for Band 6 and Band 7 throughout, the mentor reviews katas instead.
+Mentor pairing: in hours 97.5–113.5, the mentor pairs with Band 3, Band 4 quality assurance, Band 4 test engineering, and Band 5 quality assurance during the sessions and practice. From hour 113.5, and for Band 6 and Band 7 throughout, the mentor reviews katas instead.
 
 ## Activities
 
@@ -71,7 +71,7 @@ At least two katas check test-shaped data, such as a date of birth or an NHS num
 
 ## Assessment
 
-Gate 1 (hour 133) reviews Evidence 8 with Evidence 7 and Evidence 9. The Gate 1 Part D practical is "fix a failing unit test and open a pull request", so Module 8 and Module 9 together prepare for it.
+Gate 1 (hour 136.5) reviews Evidence 8 with Evidence 7 and Evidence 9. The Gate 1 Part D practical is "fix a failing unit test and open a pull request", so Module 8 and Module 9 together prepare for it.
 
 ## Resources
 

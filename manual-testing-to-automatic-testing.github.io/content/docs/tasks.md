@@ -67,7 +67,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [ ] Agree Band 3 factor levels from job descriptions (Decision 6)
 - [ ] Record each participant's capability index as their baseline
 - [ ] Write and sign each participant's individual learning plan and learning agreement
-- [ ] Run the Module 6 diagnostic coding exercise, and decide who takes the option of 368 hours
+- [ ] Run the Module 6 diagnostic coding exercise, and decide who takes the option of 380 hours
 - [ ] Inventory each team's manual regression pack, and its existing automated tests at each layer
 - [ ] Check every participant's tools, repository access, test environments, and CI access
 
@@ -138,53 +138,53 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 
 ### Induction and foundations
 
-- [ ] Gate 0 (hour 88): baseline, tracks, individual learning plans, learning agreements
+- [ ] Gate 0 (hour 88.5): baseline, tracks, individual learning plans, learning agreements
 - [ ] Module 6 Induction and baseline: Evidence 6 complete for every participant
-- [ ] Module 7 Why and what to automate (hours 88–103): Evidence 7 complete
-- [ ] Role foundations: an hour of role practice in every 7.5 hours of learning, for every participant (hours 88–268)
-- [ ] Module 8 Programming foundations (hours 95.5–133): Evidence 8 complete
-- [ ] Health care foundations (hours 95.5–148)
-- [ ] Module 9 Version control and collaboration (hours 110.5–133): Evidence 9 complete
-- [ ] Gate 1 (hour 133): full self-assessment, calibration, Part D, individual learning plan update
+- [ ] Module 7 Why and what to automate (hours 88.5–106): Evidence 7 complete
+- [ ] Role foundations: an hour of role practice in every 7.5 hours of learning, for every participant (hours 88.5–279.5)
+- [ ] Module 8 Programming foundations (hours 97.5–136.5): Evidence 8 complete
+- [ ] Health care foundations (hours 97.5–152.5)
+- [ ] Module 9 Version control and collaboration (hours 113.5–136.5): Evidence 9 complete
+- [ ] Gate 1 (hour 136.5): full self-assessment, calibration, Part D, individual learning plan update
 
 ### Browser automation
 
-- [ ] Module 10 Browser automation fundamentals (hours 133–155.5): Evidence 10 complete
-- [ ] Module 11 From walkthrough to real test (hours 155.5–178): Evidence 11 complete
-- [ ] Real automation on each team's product in every 7.5 hours of learning (from hour 155.5)
-- [ ] Coaching others in automation starts for Band 6 and Band 7 (hours 155.5–238)
-- [ ] Gate 2 (hour 178): full self-assessment, calibration, Part D, clinical risk and information governance condition, individual learning plan update
+- [ ] Module 10 Browser automation fundamentals (hours 136.5–160.5): Evidence 10 complete
+- [ ] Module 11 From walkthrough to real test (hours 160.5–183): Evidence 11 complete
+- [ ] Real automation on each team's product in every 7.5 hours of learning (from hour 160.5)
+- [ ] Coaching others in automation starts for Band 6 and Band 7 (hours 160.5–247)
+- [ ] Gate 2 (hour 183): full self-assessment, calibration, Part D, clinical risk and information governance condition, individual learning plan update
 
 ### Below the UI and pipelines
 
-- [ ] Module 12 API, integration, and FHIR tests (hours 178–200.5): Evidence 12 complete
-- [ ] Acceptance test automation for Band 6 quality assurance (hours 178–215.5)
-- [ ] Module 13 Continuous integration and DevOps (hours 200.5–215.5): Evidence 13 complete
-- [ ] Automation strategy and metrics, Frameworks and non-functional testing, and Leading teams through automation adoption for Band 6 quality assurance and Band 7 (hours 200.5–238)
-- [ ] Gate 3 (hour 215.5): full self-assessment, calibration, Part D, individual learning plan update
+- [ ] Module 12 API, integration, and FHIR tests (hours 183–206): Evidence 12 complete
+- [ ] Acceptance test automation for Band 6 quality assurance (hours 183–221.5)
+- [ ] Module 13 Continuous integration and DevOps (hours 206–221.5): Evidence 13 complete
+- [ ] Automation strategy and metrics, Frameworks and non-functional testing, and Leading teams through automation adoption for Band 6 quality assurance and Band 7 (hours 206–247)
+- [ ] Gate 3 (hour 221.5): full self-assessment, calibration, Part D, individual learning plan update
 
 ### Health care practice and quality engineering
 
-- [ ] Module 14 Safe and lawful test automation (hours 215.5–230.5): Evidence 14 complete
-- [ ] Module 15 Quality engineering practice (hours 223–238): Evidence 15 complete
+- [ ] Module 14 Safe and lawful test automation (hours 221.5–237.5): Evidence 14 complete
+- [ ] Module 15 Quality engineering practice (hours 229–247): Evidence 15 complete
 
 ### Capstone
 
-- [ ] Agree each capstone scope (hour 230.5)
+- [ ] Agree each capstone scope (hour 237.5)
 - [ ] Mid-capstone show-and-tell to each team
-- [ ] Module 16 Capstone (hours 230.5–268): Evidence 16 complete
-- [ ] Gate 4 (hour 268): full self-assessment, calibration, panel, capstone acceptance
+- [ ] Module 16 Capstone (hours 237.5–279.5): Evidence 16 complete
+- [ ] Gate 4 (hour 279.5): full self-assessment, calibration, panel, capstone acceptance
 
 ### Lean Six Sigma Green Belt
 
-- [ ] Module 17 Lean Six Sigma Green Belt (hours 268–308): Green Belt projects chartered with product owners as sponsors
+- [ ] Module 17 Lean Six Sigma Green Belt (hours 279.5–320): Green Belt projects chartered with product owners as sponsors
 - [ ] Green Belt exams booked with the certification body, with reasonable adjustments
 - [ ] Evidence 17 complete: certificates issued and projects accepted; record programme completion
 
 ### Consolidation and follow-up
 
 - [ ] Monthly mentor check-ins (the six months after Gate 4)
-- [ ] Run the extension to 368 hours for Band 3 and Band 4 participants who chose it
+- [ ] Run the extension to 380 hours for Band 3 and Band 4 participants who chose it
 - [ ] Gate 5 (about six months after Gate 4): full self-assessment, calibration, Part D, plan for remaining gaps
 
 ## 6. Evaluation

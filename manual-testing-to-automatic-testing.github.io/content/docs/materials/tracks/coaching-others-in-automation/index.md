@@ -8,10 +8,10 @@
 
 ## How it works
 
-1. **Pairing.** In hours 155.5–163 the training lead pairs each coach with one or two cohort members from a lower band. Coaches do not coach people they line manage.
+1. **Pairing.** In hours 160.5–168 the training lead pairs each coach with one or two cohort members from a lower band. Coaches do not coach people they line manage.
 2. **First meeting.** Agree what the coachee wants help with, from their individual learning plan and current module. Agree how often to meet: 30 to 45 minutes in every 7.5 hours of learning is typical.
 3. **Sessions.** Use the session pattern below. Log each one.
-4. **Feedback.** In hours 193–238, the coachee writes a short piece of feedback in the log.
+4. **Feedback.** In hours 198–247, the coachee writes a short piece of feedback in the log.
 5. **Review.** The coach brings the log to Gate 3 and Gate 4.
 
 The coach's mentor remains the coachee's mentor. The coach adds practice and confidence; they do not replace the mentor or mark gates.

@@ -19,7 +19,7 @@ Choose tools by first analysing the system under test and the project's requirem
 
 The programme's own choice is a worked example: JavaScript, Selenium, and Mocha (Decision 1 in the [decision log](../../../planning/decision-log.md)). The web products the teams test are built with JavaScript, Selenium is open source and standard, and the basics modules teach the language first, so the team can grow into a coded solution rather than a recorder.
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Give pairs a short description of two systems: a patient-facing web booking site, and a FHIR API with no user interface. Ask them to list three requirements for a tool for each, and say whether the same tool could serve both.
 

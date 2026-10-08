@@ -30,7 +30,7 @@ The **generic test automation architecture (gTAA)** is a map of what test automa
 
 The practice repository has all four, except generation: test definitions are the `*.test.js` files and their `spec/index.md`; Mocha executes and reports; Selenium WebDriver and Node's `fetch` are the adaptors to the browser and the FHIR API; and GitHub Actions is the configuration management interface.
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Draw the gTAA as four boxes around a central "test automation" box. Ask pairs to label each part with the tool or file that plays that role in the practice repository.
 

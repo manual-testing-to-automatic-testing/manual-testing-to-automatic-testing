@@ -8,7 +8,7 @@
 
 The exercises are written to be tool-neutral where possible. The defaults are JavaScript with Selenium and Mocha for shared helpers, and **k6** for load tests, because k6 scripts are JavaScript, run headless in CI, and keep load generation separate from browser tests. Install k6 as its standalone binary from <https://grafana.com/docs/k6/latest/set-up/install-k6/>, not as a container: participants have no Docker. Another load tool is fine if the organisation already uses one (spec Decision 1).
 
-## Exercise 1: Reusable helpers and hooks (hours 200.5–215.5)
+## Exercise 1: Reusable helpers and hooks (hours 206–221.5)
 
 **Goal:** turn repeated set-up code across the cohort's suites into shared helpers and Mocha hooks.
 
@@ -25,7 +25,7 @@ The exercises are written to be tool-neutral where possible. The defaults are Ja
 
 **Done when:** at least two suites use the helpers, all tests still pass in CI, and test isolation is unchanged (each test can run alone, with `mocha --grep`, and the suite can run with `--parallel`).
 
-## Exercise 2: Pipeline maintenance (hours 208–215.5)
+## Exercise 2: Pipeline maintenance (hours 213.5–221.5)
 
 **Goal:** keep the pipeline fast and reliable as suites grow.
 
@@ -37,7 +37,7 @@ The exercises are written to be tool-neutral where possible. The defaults are Ja
 
 **Done when:** the pull request pipeline is faster than before with no loss of the checks that block merging, and the quarantine rule is in use.
 
-## Exercise 3: Performance and load test based on clinical demand (hours 215.5–238)
+## Exercise 3: Performance and load test based on clinical demand (hours 221.5–247)
 
 **Goal:** plan and run a load test that models real clinical demand, not an arbitrary number of users.
 

@@ -24,16 +24,16 @@ The default assistant is Google Gemini AI Mode. A person may use another AI assi
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 40–45: what an AI assistant is and is not; the organisation's AI use policy; what never goes into a prompt | 2 hours | Core | Cohort |
-| 2 | Hours 40–45: prompting: context, goal, format, and examples; follow-up prompts | 3 hours | Core | Cohort |
-| 3 | Hours 45–52.5: asking for training advice, and checking it against the programme | 1.5 hours | Practice | Each person |
-| 4 | Hours 45–52.5: planning your own continuing professional development with an assistant | 2 hours | Practice | Each person |
-| 5 | Hours 45–52.5: comparing and contrasting concepts, such as manual and automated regression testing | 1.5 hours | Practice | Pairs |
-| 6 | Hours 45–52.5: explaining source code, checked against the code: your Module 1 function and Module 2 script | 1.5 hours | Practice | Each person |
-| 7 | Hours 45–52.5: check-in with the mentor | 1 hour | One to one | Person, mentor |
-| 8 | Hours 52.5–60: converting a user story into Given-When-Then (Gherkin) scenarios | 2 hours | Practice | Each person |
-| 9 | Hours 52.5–60: converting the scenarios into Selenium JavaScript, running it, and converting back | 3 hours | Practice | Each person |
-| 10 | Hours 52.5–60: rehearse, then the walkthrough to the mentor | 2.5 hours | One to one | Person, mentor |
+| 1 | Hours 40.5–45.5: what an AI assistant is and is not; the organisation's AI use policy; what never goes into a prompt | 2 hours | Core | Cohort |
+| 2 | Hours 40.5–45.5: prompting: context, goal, format, and examples; follow-up prompts | 3 hours | Core | Cohort |
+| 3 | Hours 45.5–53: asking for training advice, and checking it against the programme | 1.5 hours | Practice | Each person |
+| 4 | Hours 45.5–53: planning your own continuing professional development with an assistant | 2 hours | Practice | Each person |
+| 5 | Hours 45.5–53: comparing and contrasting concepts, such as manual and automated regression testing | 1.5 hours | Practice | Pairs |
+| 6 | Hours 45.5–53: explaining source code, checked against the code: your Module 1 function and Module 2 script | 1.5 hours | Practice | Each person |
+| 7 | Hours 45.5–53: check-in with the mentor | 1 hour | One to one | Person, mentor |
+| 8 | Hours 53–60.5: converting a user story into Given-When-Then (Gherkin) scenarios | 2 hours | Practice | Each person |
+| 9 | Hours 53–60.5: converting the scenarios into Selenium JavaScript, running it, and converting back | 3 hours | Practice | Each person |
+| 10 | Hours 53–60.5: rehearse, then the walkthrough to the mentor | 2.5 hours | One to one | Person, mentor |
 
 Each person's sessions add up to 20 hours.
 
@@ -59,7 +59,7 @@ Each person's sessions add up to 20 hours.
 
 ## Assessment
 
-The mentor signs off the walkthrough when the person can do each step on their own system, show where they checked and corrected the assistant, and has kept every prompt free of real patient data, personal data, and secrets. Gate 0 (hour 88) records the sign-off.
+The mentor signs off the walkthrough when the person can do each step on their own system, show where they checked and corrected the assistant, and has kept every prompt free of real patient data, personal data, and secrets. Gate 0 (hour 88.5) records the sign-off.
 
 | Walkthrough sign-off | Entry |
 | --- | --- |

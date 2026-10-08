@@ -6,7 +6,7 @@
 
 A walkthrough acts on a page and prints what it finds. It "passes" even when the page is wrong. A real test makes assertions that fail when the behaviour is wrong. Module 11 turns the Module 10 walkthrough into a real test suite, then automates the person's own manual test cases.
 
-From hour 155.5, about 1.5 hours in every 7.5 hours of learning is real automation on the person's team's product, at their track's depth, until hour 215.5, then the Module 14 work and the capstone, which use the team's product directly.
+From hour 160.5, about 1.5 hours in every 7.5 hours of learning is real automation on the person's team's product, at their track's depth, until hour 221.5, then the Module 14 work and the capstone, which use the team's product directly.
 
 ## Outcomes
 
@@ -22,22 +22,22 @@ From hour 155.5, about 1.5 hours in every 7.5 hours of learning is real automati
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 155.5–163: walkthrough versus test; Mocha's `describe` and `it`, and `node:assert/strict`; explicit waits before every assertion on changing content | 1.5 hours | Core | Cohort |
-| 2 | Hours 155.5–163: hooks (`before`, `after`, `beforeEach`, `afterEach`), one driver per suite, `driver.quit()` in `after`, test isolation | 1.5 hours | Core | Cohort |
-| 3 | Hours 155.5–163: writing a `spec/index.md` that agrees with the code | 1 hour | Core | Cohort |
-| 4 | Hours 155.5–163: convert the Module 10 walkthrough into a suite | 1 hour | Practice | All |
-| 5 | Hours 163–170.5: Given-When-Then as a shared language; workshop with product owners | 1.5 hours | Core | Cohort, product owners |
-| 6 | Hours 163–170.5: page objects; keeping test data out of test logic | 1 hour | Core | Cohort |
-| 7 | Hours 163–170.5: diagnosing failures: the Mocha spec reporter, screenshots and page source saved on failure into `test-results/`, and browser console logs | 1 hour | Core | Cohort |
-| 8a | Hours 163–170.5: scenario writing and pairing on automation | 1.5 hours | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering, Band 7 test management, with mentor |
-| 8b | Hours 163–170.5: automating own cases | 1.5 hours | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering |
-| 8c | Hours 163–170.5: page object and shared driver set-up review, led by Band 7 test engineering | 1.5 hours | Breakout | Band 7 test engineering with others |
-| 9 | Hours 170.5–178: reading the NHS Wales worked example and its spec | 1 hour | Core | Cohort |
-| 10 | Hours 170.5–178: breakouts 8a to 8c, continued | 1.5 hours | Breakout | As 8a to 8c |
-| 11 | From hour 155.5: real automation on the team's product, under mentor review | 1.5 hours in every 7.5 hours of learning, in hours 155.5–215.5 | Team | Everyone |
-| 12 | From hour 155.5: Coaching others in automation starts, within breakout and real automation time | As agreed | Pairing | Band 6 and Band 7 coach lower bands |
+| 1 | Hours 160.5–168: walkthrough versus test; Mocha's `describe` and `it`, and `node:assert/strict`; explicit waits before every assertion on changing content | 1.5 hours | Core | Cohort |
+| 2 | Hours 160.5–168: hooks (`before`, `after`, `beforeEach`, `afterEach`), one driver per suite, `driver.quit()` in `after`, test isolation | 1.5 hours | Core | Cohort |
+| 3 | Hours 160.5–168: writing a `spec/index.md` that agrees with the code | 1 hour | Core | Cohort |
+| 4 | Hours 160.5–168: convert the Module 10 walkthrough into a suite | 1 hour | Practice | All |
+| 5 | Hours 168–175.5: Given-When-Then as a shared language; workshop with product owners | 1.5 hours | Core | Cohort, product owners |
+| 6 | Hours 168–175.5: page objects; keeping test data out of test logic | 1 hour | Core | Cohort |
+| 7 | Hours 168–175.5: diagnosing failures: the Mocha spec reporter, screenshots and page source saved on failure into `test-results/`, and browser console logs | 1 hour | Core | Cohort |
+| 8a | Hours 168–175.5: scenario writing and pairing on automation | 1.5 hours | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering, Band 7 test management, with mentor |
+| 8b | Hours 168–175.5: automating own cases | 1.5 hours | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering |
+| 8c | Hours 168–175.5: page object and shared driver set-up review, led by Band 7 test engineering | 1.5 hours | Breakout | Band 7 test engineering with others |
+| 9 | Hours 175.5–183: reading the NHS Wales worked example and its spec | 1 hour | Core | Cohort |
+| 10 | Hours 175.5–183: breakouts 8a to 8c, continued | 1.5 hours | Breakout | As 8a to 8c |
+| 11 | From hour 160.5: real automation on the team's product, under mentor review | 1.5 hours in every 7.5 hours of learning, in hours 160.5–221.5 | Team | Everyone |
+| 12 | From hour 160.5: Coaching others in automation starts, within breakout and real automation time | As agreed | Pairing | Band 6 and Band 7 coach lower bands |
 
-Module 11's own sessions add up to 12.5 hours: 5 in hours 155.5–163, 5 in hours 163–170.5, and 2.5 in hours 170.5–178, which also holds Gate 2. Real automation (row 11) is counted separately.
+Module 11's own sessions add up to 12.5 hours: 5 in hours 160.5–168, 5 in hours 168–175.5, and 2.5 in hours 175.5–183, which also holds Gate 2. Real automation (row 11) is counted separately.
 
 ## Activities
 
@@ -69,7 +69,7 @@ See the [worked example](worked-example.md).
 
 ## Assessment
 
-Gate 2 (hour 178) reviews Evidence 11 with Evidence 10. The Gate 2 Part D practical is "automate one given manual test case on the fixture site". Band 3 writes it as Given-When-Then and pairs.
+Gate 2 (hour 183) reviews Evidence 11 with Evidence 10. The Gate 2 Part D practical is "automate one given manual test case on the fixture site". Band 3 writes it as Given-When-Then and pairs.
 
 ## Resources
 

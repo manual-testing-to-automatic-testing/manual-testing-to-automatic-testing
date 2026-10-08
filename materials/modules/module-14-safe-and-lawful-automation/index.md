@@ -1,12 +1,12 @@
 # Module 14 Safe and lawful test automation in health care
 
-7 hours. Reviewed at Gate 4.
+8 hours. Reviewed at Gate 4.
 
 ## Purpose
 
 In health care, test automation is part of keeping patients safe. Automated regression tests protect the safety controls in the hazard log, and their results are evidence for the clinical safety case. Test data must never expose real patients, and secrets must never reach source control. Module 14 makes these part of test engineering, not an add-on.
 
-Health care foundations (hours 95.5–148) has already brought clinical risk management and information governance up to the expected level by Gate 2. Module 14 applies them to automation.
+Health care foundations (hours 97.5–152.5) has already brought clinical risk management and information governance up to the expected level by Gate 2. Module 14 applies them to automation.
 
 ## Outcomes
 
@@ -23,15 +23,15 @@ Health care foundations (hours 95.5–148) has already brought clinical risk man
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 215.5–223: how automated regression tests protect safety controls; the team's hazard log | 1.5 hours | Core | Cohort, clinical safety officer |
-| 2 | Hours 215.5–223: information governance for test data and pipelines | 1 hour | Core | Cohort, information governance lead |
-| 3 | Hours 215.5–223: synthetic data: generators, data builders, rare and edge clinical cases | 1.5 hours | Core | Cohort |
-| 4 | Hours 223–230.5: secrets and personal data: scanning, environment variables, CI secrets | 30 minutes | Core | Cohort |
-| 5 | Hours 223–230.5: automated accessibility checks, and what they cannot find | 1 hour | Core | Cohort |
-| 6 | Hours 223–230.5: IEC 62304 awareness for software as a medical device | 30 minutes | Core | Cohort |
-| 7 | Hours 223–230.5: traceability matrix working session with the clinical safety officer; Band 6 quality assurance, Band 7 test engineering, and Band 7 test management end with a peer review of another person's matrix | 1 hour | Breakout | Small groups by team |
+| 1 | Hours 221.5–229: how automated regression tests protect safety controls; the team's hazard log | 1.5 hours | Core | Cohort, clinical safety officer |
+| 2 | Hours 221.5–229: information governance for test data and pipelines | 1 hour | Core | Cohort, information governance lead |
+| 3 | Hours 221.5–229: synthetic data: generators, data builders, rare and edge clinical cases | 1.5 hours | Core | Cohort |
+| 4 | Hours 229–237.5: secrets and personal data: scanning, environment variables, CI secrets | 1 hour | Core | Cohort |
+| 5 | Hours 229–237.5: automated accessibility checks, and what they cannot find | 1 hour | Core | Cohort |
+| 6 | Hours 229–237.5: IEC 62304 awareness for software as a medical device | 1 hour | Core | Cohort |
+| 7 | Hours 229–237.5: traceability matrix working session with the clinical safety officer; Band 6 quality assurance, Band 7 test engineering, and Band 7 test management end with a peer review of another person's matrix | 1 hour | Breakout | Small groups by team |
 
-Each person's sessions add up to 7 hours: 4 hours in hours 215.5–223, after Gate 3, and 3 hours in hours 223–230.5. The Module 14 work is done on the person's own team's tests, so it is also their real automation for those hours.
+Each person's sessions add up to 8 hours.
 
 ## Activities
 
@@ -57,7 +57,7 @@ Track depth notes:
 
 ## Assessment
 
-Evidence 14 is assessed at **Gate 4** (hour 268), with Evidence 15 and Evidence 16. Gate 3 takes place at hour 215.5 and does not review Evidence 14. The clinical safety officer reviews traceability evidence in writing for the Gate 4 panel.
+Evidence 14 is assessed at **Gate 4** (hour 279.5), with Evidence 15 and Evidence 16. Gate 3 takes place at hour 221.5 and does not review Evidence 14. The clinical safety officer reviews traceability evidence in writing for the Gate 4 panel.
 
 ## Resources
 

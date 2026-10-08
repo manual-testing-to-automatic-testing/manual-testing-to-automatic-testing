@@ -1,6 +1,6 @@
 # Module 2 Basics of a browser automator
 
-20 hours, the same for every track. Signed off by the mentor with a walkthrough. Reviewed at Gate 0.
+20.5 hours, the same for every track. Signed off by the mentor with a walkthrough. Reviewed at Gate 0.
 
 ## Purpose
 
@@ -29,11 +29,11 @@ The default automator is Selenium with JavaScript. A person may use another brow
 | 5 | Hours 22.5–30: practice on the fixture site | 1.5 hours | Practice | Pairs |
 | 6 | Hours 30–37.5: clicking links and buttons, and choosing in select boxes with `Select` | 2.5 hours | Core | Cohort |
 | 7 | Hours 30–37.5: filling in form fields with `sendKeys`, and submitting a form | 2.5 hours | Core | Cohort |
-| 8 | Hours 30–37.5: closing the browser with `driver.quit`, always, in `finally` | 30 minutes | Core | Cohort |
+| 8 | Hours 30–37.5: closing the browser with `driver.quit`, always, in `finally` | 1 hour | Core | Cohort |
 | 9 | Hours 30–37.5: write your walkthrough script | 2 hours | Practice | Each person |
-| 10 | Hours 37.5–40: rehearse, then the walkthrough to the mentor | 2.5 hours | One to one | Person, mentor |
+| 10 | Hours 37.5–40.5: rehearse, then the walkthrough to the mentor | 2.5 hours | One to one | Person, mentor |
 
-Each person's sessions add up to 20 hours.
+Each person's sessions add up to 20.5 hours.
 
 ## Activities
 
@@ -75,7 +75,7 @@ The person runs it on their own system and explains each step: what it finds, wh
 
 ## Assessment
 
-The mentor signs off the walkthrough when the script runs on the person's own system, does every step, and the person can explain each one. Gate 0 (hour 88) records the sign-off.
+The mentor signs off the walkthrough when the script runs on the person's own system, does every step, and the person can explain each one. Gate 0 (hour 88.5) records the sign-off.
 
 | Walkthrough sign-off | Entry |
 | --- | --- |

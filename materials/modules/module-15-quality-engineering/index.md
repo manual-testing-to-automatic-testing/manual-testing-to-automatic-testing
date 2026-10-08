@@ -1,6 +1,6 @@
 # Module 15 Quality engineering practice
 
-6 hours. Reviewed at Gate 4.
+8 hours. Reviewed at Gate 4.
 
 ## Purpose
 
@@ -20,19 +20,19 @@ A suite that nobody trusts is worse than no suite. Module 15 is about keeping au
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 223–230.5: maintainable test code: names, duplication, helpers, data builders | 1 hour | Core | Cohort |
-| 2 | Hours 223–230.5: flaky tests are variation: root causes and fixes | 1 hour | Core | Cohort |
-| 3 | Hours 223–230.5: flow metrics for testing | 30 minutes | Core | Cohort |
-| 4a | Hours 223–230.5: flaky-test exercise, hands on | 1 hour | Breakout | Band 4 test engineering and above |
-| 4b | Hours 223–230.5: describe a flaky test with the mentor | 1 hour | Breakout | Band 3, Band 4 quality assurance |
-| 5 | Hours 230.5–238: AI assistants: drafting and explaining tests, and reviewing the output critically, including self-healing locators | 30 minutes | Core | Cohort |
-| 6 | Hours 230.5–238: awareness: performance, load, and security testing, and who owns them | 30 minutes | Core | Cohort |
-| 7 | Hours 230.5–238: estimating test effort for the capstone | 30 minutes | Core | Cohort |
-| 8a | Hours 230.5–238: suite-health report | 1 hour | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test management |
-| 8b | Hours 230.5–238: reviewing test pull requests, led by Band 7 test engineering, then Band 7 test engineering's own suite-health report | 1 hour | Breakout | Band 7 test engineering, with others |
-| 8c | Hours 230.5–238: flaky-test follow-up with the mentor | 1 hour | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering |
+| 1 | Hours 229–237.5: maintainable test code: names, duplication, helpers, data builders | 1 hour | Core | Cohort |
+| 2 | Hours 229–237.5: flaky tests are variation: root causes and fixes | 1 hour | Core | Cohort |
+| 3 | Hours 229–237.5: flow metrics for testing | 1 hour | Core | Cohort |
+| 4a | Hours 229–237.5: flaky-test exercise, hands on | 1 hour | Breakout | Band 4 test engineering and above |
+| 4b | Hours 229–237.5: describe a flaky test with the mentor | 1 hour | Breakout | Band 3, Band 4 quality assurance |
+| 5 | Hours 237.5–247: AI assistants: drafting and explaining tests, and reviewing the output critically, including self-healing locators | 1 hour | Core | Cohort |
+| 6 | Hours 237.5–247: awareness: performance, load, and security testing, and who owns them | 1 hour | Core | Cohort |
+| 7 | Hours 237.5–247: estimating test effort for the capstone | 1 hour | Core | Cohort |
+| 8a | Hours 237.5–247: suite-health report | 1 hour | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test management |
+| 8b | Hours 237.5–247: reviewing test pull requests, led by Band 7 test engineering, then Band 7 test engineering's own suite-health report | 1 hour | Breakout | Band 7 test engineering, with others |
+| 8c | Hours 237.5–247: flaky-test follow-up with the mentor | 1 hour | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering |
 
-Each person's sessions add up to 6 hours: 3.5 hours in hours 223–230.5 and 2.5 hours in hours 230.5–238.
+Each person's sessions add up to 8 hours.
 
 ## Activities
 
@@ -59,11 +59,11 @@ Each person's sessions add up to 6 hours: 3.5 hours in hours 223–230.5 and 2.5
 | | | | |
 | **Total** | | | |
 
-Compare the total with the capstone's hours: about 27.5 hours across hours 230.5–268. If it does not fit, cut scope with the product owner now, not in hours 253–260.5.
+Compare the total with the capstone's hours: about 27.5 hours across hours 237.5–279.5. If it does not fit, cut scope with the product owner now, not in hours 262–269.5.
 
 ## Assessment
 
-Evidence 15 is assessed at Gate 4 (hour 268), with Evidence 14 and Evidence 16.
+Evidence 15 is assessed at Gate 4 (hour 279.5), with Evidence 14 and Evidence 16.
 
 ## Resources
 

@@ -19,7 +19,7 @@ Check that test suites are complete, consistent, repeatable, and do not change t
 
 The practice repository's `tests/flaky/` folder holds a deliberately flaky test, kept apart from the main suite, which is how the syllabus says to treat unreliable tests until their cause is found ([Module 15](../../module-15-quality-engineering/index.md)).
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Run one browser test ten times in a row, in a loop. Pairs record the results, and, if any run differs, find what made it unrepeatable.
 

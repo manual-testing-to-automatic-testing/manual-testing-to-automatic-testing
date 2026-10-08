@@ -1,6 +1,6 @@
 # Module 13 Continuous integration and DevOps
 
-10 hours. Reviewed at Gate 3.
+10.5 hours. Reviewed at Gate 3.
 
 ## Purpose
 
@@ -20,20 +20,20 @@ A test suite that only runs on one laptop, when someone remembers, catches far l
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 200.5–208: what CI is; reading a pipeline run, its logs, the JUnit test report, and the screenshots and page source saved on failure | 1.5 hours | Core | Cohort |
-| 2 | Hours 200.5–208: failure triage: product defect, test defect, or environment problem | 1 hour | Core | Cohort |
-| 3 | Hours 200.5–208: pipeline configuration: caching, Chrome in headless mode, secrets, environment variables | 1 hour | Core | Cohort |
-| 4 | Hours 208–215.5: keeping pipelines fast: test selection, and splitting test files across parallel CI jobs | 1 hour | Core | Cohort |
-| 5 | Hours 208–215.5: flaky tests: quarantine with an owner and a deadline, never silent skips | 1 hour | Core | Cohort |
-| 6 | Hours 208–215.5: DevOps: feature flags, canary releases, monitoring as a complement to pre-release testing | 30 minutes | Core | Cohort |
-| 7a | Hours 200.5–215.5: triage exercise on an existing pipeline | 1.5 hours in hours 200.5–208, 2.5 hours in hours 208–215.5 | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering, with mentor |
-| 7b | Hours 200.5–215.5: build the practice pipeline, and triage | 1.5 hours in hours 200.5–208, 2.5 hours in hours 208–215.5 | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test management |
-| 7c | Hours 200.5–215.5: team pipeline with parallel jobs, test selection, and quarantine policy | 1.5 hours in hours 200.5–208, 2.5 hours in hours 208–215.5 | Breakout | Band 7 test engineering, with the team |
+| 1 | Hours 206–213.5: what CI is; reading a pipeline run, its logs, the JUnit test report, and the screenshots and page source saved on failure | 1.5 hours | Core | Cohort |
+| 2 | Hours 206–213.5: failure triage: product defect, test defect, or environment problem | 1 hour | Core | Cohort |
+| 3 | Hours 206–213.5: pipeline configuration: caching, Chrome in headless mode, secrets, environment variables | 1 hour | Core | Cohort |
+| 4 | Hours 213.5–221.5: keeping pipelines fast: test selection, and splitting test files across parallel CI jobs | 1 hour | Core | Cohort |
+| 5 | Hours 213.5–221.5: flaky tests: quarantine with an owner and a deadline, never silent skips | 1 hour | Core | Cohort |
+| 6 | Hours 213.5–221.5: DevOps: feature flags, canary releases, monitoring as a complement to pre-release testing | 1 hour | Core | Cohort |
+| 7a | Hours 206–221.5: triage exercise on an existing pipeline | 1.5 hours in hours 206–213.5, 2.5 hours in hours 213.5–221.5 | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering, with mentor |
+| 7b | Hours 206–221.5: build the practice pipeline, and triage | 1.5 hours in hours 206–213.5, 2.5 hours in hours 213.5–221.5 | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test management |
+| 7c | Hours 206–221.5: team pipeline with parallel jobs, test selection, and quarantine policy | 1.5 hours in hours 206–213.5, 2.5 hours in hours 213.5–221.5 | Breakout | Band 7 test engineering, with the team |
 
-Each person's sessions add up to 10 hours: 5 hours in each of the blocks 112.5–120 and 120–127.5.
+Each person's sessions add up to 10.5 hours.
 
 
-Automation strategy and metrics, Frameworks and non-functional testing, and Leading teams through automation adoption for Band 6 quality assurance and Band 7 also start in hours 200.5–208, within their breakout time. See `materials/tracks/`.
+Automation strategy and metrics, Frameworks and non-functional testing, and Leading teams through automation adoption for Band 6 quality assurance and Band 7 also start in hours 206–213.5, within their breakout time. See `materials/tracks/`.
 
 ## Activities
 
@@ -55,7 +55,7 @@ Automation strategy and metrics, Frameworks and non-functional testing, and Lead
 
 ## Assessment
 
-Gate 3 (hour 215.5) reviews Evidence 13 with Evidence 12. The Gate 3 Part D practical is "triage and fix a failing CI run".
+Gate 3 (hour 221.5) reviews Evidence 13 with Evidence 12. The Gate 3 Part D practical is "triage and fix a failing CI run".
 
 ## Resources
 

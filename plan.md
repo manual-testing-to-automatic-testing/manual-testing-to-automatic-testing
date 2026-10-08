@@ -32,7 +32,7 @@ Each person already has a UK GDaD PCF role. The programme must:
 | --- | --- |
 | **Context:** why this, why now | People hold roles whose skills they do not yet fully use, and testing is still manual: slow, variable, and unable to run on every change. Growing the people already in post keeps their product and clinical knowledge, and needs no regrading. |
 | **Intent:** what to teach | Each person's own role, band, and skills, in full (Learning outcome 13), plus automated testing to a per-track target (Learning outcomes 1 to 12). |
-| **Implementation:** how to teach | Eight tuned tracks sharing one schedule of 308 hours (by default 7.5 hours a week, 20% time), core modules, and gate dates, ending with a Lean Six Sigma Green Belt for everyone, with individual role foundations (Role foundations) and track modules for Bands 6 and 7. |
+| **Implementation:** how to teach | Eight tuned tracks sharing one schedule of 320 hours (by default 7.5 hours a week, 20% time), core modules, and gate dates, ending with a Lean Six Sigma Green Belt for everyone, with individual role foundations (Role foundations) and track modules for Bands 6 and 7. |
 | **Impact:** how to assess | The full capability self-assessment at six gates, calibrated with the manager, with rising thresholds, plus automation practicals and module evidence. |
 
 ## Key design choices
@@ -80,11 +80,11 @@ Because the gap covers the whole role, Role foundations gives every person an ho
 
 ### Hours
 
-The programme is counted in hours of protected learning time, not weeks or days. Every track has the same 308 hours; tracks differ in depth, not in hours, which keeps the cost the same for every band and makes protected time simple to plan and defend. The default pace is 7.5 hours a week, 20% of a 37.5-hour week, so a person keeps 30 hours a week for their delivery work and the programme runs over about 41 weeks. The learning agreement may set another pace, such as two sessions of 3.75 hours a week. Band 3 and Band 4 may extend to 368 hours.
+The programme is counted in hours of protected learning time, not weeks or days. Every track has the same 320 hours; tracks differ in depth, not in hours, which keeps the cost the same for every band and makes protected time simple to plan and defend. The default pace is 7.5 hours a week, 20% of a 37.5-hour week, so a person keeps 30 hours a week for their delivery work and the programme runs over about 43 weeks. The learning agreement may set another pace, such as two sessions of 3.75 hours a week. Band 3 and Band 4 may extend to 380 hours.
 
 ### Basics to start
 
-Every track starts with three basics modules of 20 hours each, before induction: Module 1 Basics of a programming language, Module 2 Basics of a browser automator, and Module 3 Basics of an AI assistant. A manual tester who has never written code meets it first in a short, low-stakes pass, ending with a walkthrough to their mentor rather than a scored test, so the Gate 0 baseline measures someone who has already run their own code, their own browser script, and their own AI-assisted plan. The later modules then go deeper, rather than starting from nothing.
+Every track starts with three basics modules of about 20 hours each, before induction: Module 1 Basics of a programming language, Module 2 Basics of a browser automator, and Module 3 Basics of an AI assistant. A manual tester who has never written code meets it first in a short, low-stakes pass, ending with a walkthrough to their mentor rather than a scored test, so the Gate 0 baseline measures someone who has already run their own code, their own browser script, and their own AI-assisted plan. The later modules then go deeper, rather than starting from nothing.
 
 ### Lean Six Sigma Green Belt to finish
 
@@ -107,7 +107,7 @@ Participants do not have Docker, so nothing in the programme needs it. Every too
 | **Bruner's spiral** | Locate, act, wait, assert taught three times; the same capability instrument repeated at every gate. | Durable skill and accurate self-knowledge both need revisiting at rising depth. |
 | **Taba's grassroots** | Practice material from each person's own regression pack and product; individual learning plans from each person's own gaps. | Starting from each person's own measured gaps makes the programme fit them. |
 | **SAM** | Revising the programme after every gate for the first cohort. | Fast feedback, which a first multi-track run needs. |
-| **Universal Design for Instruction** | Inclusion, flexible pacing, the option of 368 hours, assisted self-assessment. | A cohort across five bands has a wide range of starting points and needs. |
+| **Universal Design for Instruction** | Inclusion, flexible pacing, the option of 380 hours, assisted self-assessment. | A cohort across five bands has a wide range of starting points and needs. |
 | **Goodlad's levels** | Evaluation, including calibration differences as the "perceived" level. | Shows the gap between what the spec says and what people experienced. |
 
 ## Phases
@@ -131,7 +131,7 @@ The programme follows PADDIE+M. Tasks for each phase are in [tasks.md](tasks.md)
 | Mixed-band cohort is too wide to teach together | Medium | Medium | Shared core sessions, track breakouts, depth table, coaching by Bands 6 and 7. |
 | The Green Belt exam is failed, or the certification body is unsuitable | Low | Medium | Choose an accredited body with a lifetime certificate and a resit policy (Decision 8); exam preparation within Module 17; one resit within three months. |
 | Protected time is eroded by delivery pressure | High | High | Signed learning agreement; time in calendars; escalation by the training lead if more than 7.5 hours are lost in a gate period. |
-| Band 3 and Band 4 learners are overwhelmed by programming | Medium | High | Lower automation targets, mentor pairing in the first Module 8 sessions (hours 95.5–110.5), the option of 368 hours. |
+| Band 3 and Band 4 learners are overwhelmed by programming | Medium | High | Lower automation targets, mentor pairing in the first Module 8 sessions (hours 97.5–113.5), the option of 380 hours. |
 | Too few mentors at the right band and automation level | High | High | 3 participants per mentor at most; Band 7 test engineering participants mentor lower tracks under Coaching others in automation; external mentors for Band 7 test engineering if needed. |
 | The automation target is read as a claim for regrading | Medium | Medium | Scope and Principle 1 in the spec; HR briefing; targets above role recorded as strengths only. |
 | Reference gaps (Band 3, and other unmapped combinations) cause disputes | Medium | Medium | Mapping rule and Decision 6, recorded in the individual learning plan at Gate 0. |

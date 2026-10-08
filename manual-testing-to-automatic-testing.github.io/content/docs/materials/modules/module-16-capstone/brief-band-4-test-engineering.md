@@ -1,6 +1,6 @@
 # Capstone brief: Band 4 test engineering
 
-Evidence 16 for Module 16. Hours 230.5–268. Assessed at Gate 4.
+Evidence 16 for Module 16. Hours 237.5–279.5. Assessed at Gate 4.
 
 | Field | Value |
 | --- | --- |
@@ -17,9 +17,9 @@ Evidence 16 for Module 16. Hours 230.5–268. Assessed at Gate 4.
 
 ## Scope
 
-10 manual cases from your Evidence 7 sample, at least 2 at the API layer, and your team's existing automated suite in hours 230.5–268.
+10 manual cases from your Evidence 7 sample, at least 2 at the API layer, and your team's existing automated suite in hours 237.5–279.5.
 
-Agree the exact scope with the product owner and mentor at hour 230.5, using the [scope agreement](capstone-scope-agreement.md), your Evidence 7 analysis, and your Evidence 15 estimate.
+Agree the exact scope with the product owner and mentor at hour 237.5, using the [scope agreement](capstone-scope-agreement.md), your Evidence 7 analysis, and your Evidence 15 estimate.
 
 ## Deliverables
 

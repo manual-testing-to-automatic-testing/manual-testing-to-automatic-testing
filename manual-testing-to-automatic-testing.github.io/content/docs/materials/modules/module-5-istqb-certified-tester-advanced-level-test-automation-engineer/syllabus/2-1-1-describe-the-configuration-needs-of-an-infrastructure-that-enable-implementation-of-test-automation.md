@@ -28,7 +28,7 @@ Automation needs a **testable** system: one that lets tests see what it is doing
 
 The testingexamples fixture site is designed for testability: every element has a stable id, such as `select-example-1-id`, so tests never depend on page layout. When your team's product lacks ids, ask developers to add them: it is the single biggest improvement to browser automation.
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Open your team's product in the browser's developer tools. Find five elements a test would need. For each, note whether it has a stable id or test id. Write a short request to the developers for the ones that do not.
 

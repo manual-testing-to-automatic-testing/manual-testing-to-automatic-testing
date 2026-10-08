@@ -1,6 +1,6 @@
 # Module 9 Version control and collaboration
 
-7 hours. Reviewed at Gate 1.
+7.5 hours. Reviewed at Gate 1.
 
 ## Purpose
 
@@ -20,16 +20,16 @@ Test code is code. It lives in git, changes through pull requests, and is review
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 110.5–118: clone, status, add, commit, log, diff | 1.5 hours | Core | Cohort |
-| 2 | Hours 110.5–118: branches and pull requests | 1 hour | Core | Cohort |
-| 3 | Hours 118–125.5: code review etiquette: how to give and receive review | 1 hour | Core | Cohort |
-| 4 | Hours 118–125.5: revert, and a simple merge conflict | 1 hour | Core | Cohort |
-| 5 | Hours 118–125.5: reading the history of a testingexamples repository | 1 hour | Core | Cohort |
-| 6a | Hours 125.5–133: review clinic: Band 7 test engineering reviews and coaches others' pull requests | 1 hour | Breakout | Band 7 test engineering with Band 3, Band 4 |
-| 6b | Hours 125.5–133: open and review pull requests for Evidence 9 | 1 hour | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test management |
-| 7 | Hours 125.5–133: team contribution guidelines | 30 minutes | Team | Each person, their team |
+| 1 | Hours 113.5–121: clone, status, add, commit, log, diff | 1.5 hours | Core | Cohort |
+| 2 | Hours 113.5–121: branches and pull requests | 1 hour | Core | Cohort |
+| 3 | Hours 121–128.5: code review etiquette: how to give and receive review | 1 hour | Core | Cohort |
+| 4 | Hours 121–128.5: revert, and a simple merge conflict | 1 hour | Core | Cohort |
+| 5 | Hours 121–128.5: reading the history of a testingexamples repository | 1 hour | Core | Cohort |
+| 6a | Hours 128.5–136.5: review clinic: Band 7 test engineering reviews and coaches others' pull requests | 1 hour | Breakout | Band 7 test engineering with Band 3, Band 4 |
+| 6b | Hours 128.5–136.5: open and review pull requests for Evidence 9 | 1 hour | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test management |
+| 7 | Hours 128.5–136.5: team contribution guidelines | 1 hour | Team | Each person, their team |
 
-Each person's sessions add up to 7 hours: 2.5 in hours 110.5–118, 3 in hours 118–125.5, and 1.5 in hours 125.5–133.
+Each person's sessions add up to 7.5 hours.
 
 ## Activities
 
@@ -62,7 +62,7 @@ Each person's sessions add up to 7 hours: 2.5 in hours 110.5–118, 3 in hours 1
 
 ## Assessment
 
-Gate 1 (hour 133) reviews Evidence 9 with Evidence 7 and Evidence 8. The Gate 1 Part D practical is "fix a failing unit test and open a pull request".
+Gate 1 (hour 136.5) reviews Evidence 9 with Evidence 7 and Evidence 8. The Gate 1 Part D practical is "fix a failing unit test and open a pull request".
 
 ## Resources
 

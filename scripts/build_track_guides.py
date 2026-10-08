@@ -81,7 +81,7 @@ MODULE_LINKS = {
 # "Band 4 quality assurance" -> "4"; "Band 4 quality assurance" -> "band-4-quality-assurance".
 BAND = {t: t.split()[1] for t in TRACKS}
 SLUG = {t: t.lower().replace(" ", "-") for t in TRACKS}
-MINUTES = {t: ("30" if BAND[t] in "34" else "60") for t in TRACKS}
+MINUTES = {t: "60" for t in TRACKS}
 
 def col(h, name): return h.index(name)
 
@@ -146,9 +146,9 @@ def checklist(t, mi):
             task = re.sub(r" \([^)]*\)", "", part_d)
             events.append((float(hour), 2, f"**{gate}**, hour {hour}: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#{SLUG[t]}): {task[0].lower()}{task[1:]}."))
         elif gate == "Certification":
-            events.append((float(hour.split()[-1]), 2, "**Green Belt certification exam**, by hour 308, with your Green Belt project accepted."))
+            events.append((float(hour.split()[-1]), 2, "**Green Belt certification exam**, by hour 320, with your Green Belt project accepted."))
     events.sort(key=lambda e: (e[0], e[1]))
-    items = ["Agree your protected time and pace with your stakeholders.", "Meet your mentor for a 30-minute start."]
+    items = ["Agree your protected time and pace with your stakeholders.", "Meet your mentor for a 1-hour start."]
     items += [e[2] for e in events]
     items.append("**Gate 5**, about six months after Gate 4: complete your self-assessment once more, and demonstrate a recent automated change.")
     return [f"- [ ] {i}" for i in items]
@@ -205,7 +205,7 @@ for t in TRACKS:
     out.append("| Protected time | Approximate guided hours | Optional extension |")
     out.append("| --- | --- | --- |")
     out.append(f"| {time[1]} | {time[2]} | {time[3]} |\n")
-    out.append("From hour 155.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at this track's depth.\n")
+    out.append("From hour 160.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at this track's depth.\n")
     out.append("## Learning outcomes, at this track's depth\n")
     out.append("| Id | Outcome | Depth |")
     out.append("| --- | --- | --- |")
@@ -233,9 +233,9 @@ for t in TRACKS:
     out.append("Every track has Lean Six Sigma training. You will earn your Lean Six Sigma Green Belt lifetime certification. You will work with your real team on your Lean Six Sigma Green Belt project. Estimate 40 hours for Lean Six Sigma training.\n")
     out.append(GREEN_BELT[t] + " See the [Module 17 module](../../modules/module-17-lean-six-sigma-green-belt/index.md).\n")
     out.append("## Gates and practicals\n")
-    out.append(f"Gates are at programme hours 88, 133, 178, 215.5, and 268, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **{MINUTES[t]} minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#{SLUG[t]}). Thresholds and conditions are in the [gates overview](../../gates/index.md).\n")
+    out.append(f"Gates are at programme hours 88.5, 136.5, 183, 221.5, and 279.5, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **{MINUTES[t]} minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#{SLUG[t]}). Thresholds and conditions are in the [gates overview](../../gates/index.md).\n")
     if BAND[t] in "34":
-        out.append("With the optional extension to 368 hours, the gates move to hours 88, 148, 208, 260.5, and 328, and Module 17 (40 hours) runs from hour 328.\n")
+        out.append("With the optional extension to 380 hours, the gates move to hours 88.5, 152.5, 213.5, 269.5, and 340, and Module 17 (40 hours) runs from hour 340.\n")
     out.append("## Mentor\n")
     out.append(f"Your mentor is at least one band above you (Band {int(BAND[t])+1} or higher) and at or above your automation target in test engineering ({at[2].replace('**','')}). One mentor supports up to 3 participants." + (" For Band 7 tracks, an external mentor may be used if no internal mentor meets these rules." if BAND[t] == "7" else "") + "\n")
     out.append("## Related\n")

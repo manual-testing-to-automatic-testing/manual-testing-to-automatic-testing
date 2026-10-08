@@ -1,6 +1,6 @@
 # Module 7 Why and what to automate
 
-4.5 hours. Reviewed at Gate 1.
+5.5 hours. Reviewed at Gate 1.
 
 ## Purpose
 
@@ -20,15 +20,15 @@ Testers already know how to find risk. Module 7 turns that skill into automation
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 88–95.5: what automatic testing is and what it is for; the testing pyramid and browser test trade-offs | 1 hour | Core | Cohort |
-| 2 | Hours 95.5–103: manual repetition as variation, the Six Sigma view; why exploratory and usability testing stay human | 30 minutes | Core | Cohort |
-| 3 | Hours 95.5–103: workshop with a developer: what the team's unit and integration tests already cover | 1 hour | Team | Each person, a developer from their team |
-| 4a | Hours 95.5–103: candidate analysis, sample of 10 cases | 1.5 hours | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering, with mentor |
-| 4b | Hours 95.5–103: candidate analysis, own area | 1.5 hours | Breakout | Band 5 quality assurance, Band 6 test engineering |
-| 4c | Hours 95.5–103: candidate analysis, whole product or programme: the person leads the decisions, and the team helps with the counting | 1.5 hours | Breakout | Band 6 quality assurance, Band 7 test engineering, Band 7 test management |
-| 5 | Hours 95.5–103: share and challenge: each person presents three decisions | 30 minutes | Core | Cohort; Band 6 quality assurance and Band 7 facilitate |
+| 1 | Hours 88.5–97.5: what automatic testing is and what it is for; the testing pyramid and browser test trade-offs | 1 hour | Core | Cohort |
+| 2 | Hours 97.5–106: manual repetition as variation, the Six Sigma view; why exploratory and usability testing stay human | 1 hour | Core | Cohort |
+| 3 | Hours 97.5–106: workshop with a developer: what the team's unit and integration tests already cover | 1 hour | Team | Each person, a developer from their team |
+| 4a | Hours 97.5–106: candidate analysis, sample of 10 cases | 1.5 hours | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering, with mentor |
+| 4b | Hours 97.5–106: candidate analysis, own area | 1.5 hours | Breakout | Band 5 quality assurance, Band 6 test engineering |
+| 4c | Hours 97.5–106: candidate analysis, whole product or programme: the person leads the decisions, and the team helps with the counting | 1.5 hours | Breakout | Band 6 quality assurance, Band 7 test engineering, Band 7 test management |
+| 5 | Hours 97.5–106: share and challenge: each person presents three decisions | 1 hour | Core | Cohort; Band 6 quality assurance and Band 7 facilitate |
 
-Each person's sessions add up to 4.5 hours: 1 hour in hours 88–95.5 and 3.5 hours in hours 95.5–103.
+Each person's sessions add up to 5.5 hours.
 
 ## Activities
 
@@ -52,7 +52,7 @@ Use [automation-candidate-analysis.md](automation-candidate-analysis.md) and [au
 
 ## Assessment
 
-Gate 1 (hour 133) reviews Evidence 7 with Evidence 8 and Evidence 9. Evidence 7 is reused in Module 11, Module 16, and the capstone.
+Gate 1 (hour 136.5) reviews Evidence 7 with Evidence 8 and Evidence 9. Evidence 7 is reused in Module 11, Module 16, and the capstone.
 
 ## Resources
 

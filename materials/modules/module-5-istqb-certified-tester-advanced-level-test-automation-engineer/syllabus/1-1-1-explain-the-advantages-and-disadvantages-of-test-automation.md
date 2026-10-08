@@ -34,7 +34,7 @@ Test automation is worth it when its benefits (more tests, faster feedback, cons
 
 [Module 7 Why and what to automate](../../module-7-why-and-what-to-automate/index.md) asks you to sort your team's manual regression pack into *keep manual*, *automate*, or *retire*. This learning objective is the reasoning behind that sort. A check that the NHS number on a referral form is validated is a good candidate: it is repeated every release, and a machine can judge it. A check that a letter to a patient reads kindly is not.
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 1. In pairs, list ten manual tests from your team's pack.
 2. For each, write one advantage of automating it and one cost.

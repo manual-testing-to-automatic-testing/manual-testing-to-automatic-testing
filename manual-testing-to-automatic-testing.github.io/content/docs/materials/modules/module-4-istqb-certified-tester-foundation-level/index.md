@@ -34,7 +34,7 @@ Each person's sessions add up to 4 hours.
 
 ## Assessment
 
-The exam provider sets and marks the certification test. Gate 0 (hour 88) records the certificate. If a person does not pass, they agree more study with their mentor and resit before they start Module 5, because the Foundation Level is its prerequisite.
+The exam provider sets and marks the certification test. Gate 0 (hour 88.5) records the certificate. If a person does not pass, they agree more study with their mentor and resit before they start Module 5, because the Foundation Level is its prerequisite.
 
 ## Is ISTQB certification still relevant?
 

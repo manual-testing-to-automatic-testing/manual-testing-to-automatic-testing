@@ -26,7 +26,7 @@ Developers or test automation engineers can automate API tests; with **shift lef
 
 The FHIR sandbox in [Module 12 API, integration, and FHIR tests](../../module-12-api-integration-fhir/index.md) is a provider; your tests are a consumer. The HL7 FHIR specification itself works like a published, provider-driven contract: a `Patient` resource has defined fields and types, which your tests check.
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Pairs read the FHIR `Patient` resource definition and write three contract rules a consumer depends on (for example, "every Patient has an `id`, a string"), then one test for each against the sandbox.
 

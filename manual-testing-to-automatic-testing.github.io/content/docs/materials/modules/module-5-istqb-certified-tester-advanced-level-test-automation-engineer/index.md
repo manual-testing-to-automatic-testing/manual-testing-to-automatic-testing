@@ -50,7 +50,7 @@ Each person's sessions add up to 24 hours. The course days are protected time: t
 
 ## Assessment
 
-The exam provider sets and marks the exam. Gate 0 (hour 88) records the certificate. If a person does not pass, they agree more revision with their mentor, and resit within three months.
+The exam provider sets and marks the exam. Gate 0 (hour 88.5) records the certificate. If a person does not pass, they agree more revision with their mentor, and resit within three months.
 
 ## Resources
 

@@ -28,7 +28,7 @@ Logs are detail; a **test progress report** is the overview. Build it after each
 
 Evidence 15 in [Module 15](../../module-15-quality-engineering/index.md) is a suite-health report, a test progress report written for your team: one page for the product owner, with the detail linked for developers.
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Take one run's JUnit report. Pairs write three versions of a summary in three sentences each: for the delivery manager, for the product owner, and for the developers.
 

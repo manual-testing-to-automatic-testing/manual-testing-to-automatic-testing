@@ -1,6 +1,6 @@
 # Module 16 Capstone
 
-27.5 hours. Spiral pass 3: the person's own product. Assessed at Gate 4.
+30 hours. Spiral pass 3: the person's own product. Assessed at Gate 4.
 
 ## Purpose
 
@@ -21,27 +21,27 @@ The capstone brings every outcome together, at the person's track depth, on real
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hour 230.5: capstone scope agreement | 1 hour | One to one | Person, product owner, mentor |
-| 2 | In each 7.5-hour block of the capstone: review with the mentor | 30 minutes a block | One to one | Person, mentor |
+| 1 | Hour 237.5: capstone scope agreement | 1 hour | One to one | Person, product owner, mentor |
+| 2 | In each 7.5-hour block of the capstone: review with the mentor | 1 hour a block | One to one | Person, mentor |
 | 3 | In each 7.5-hour block of the capstone: capstone working time | About 22.5 hours in all | Individual | Person |
-| 4 | Hours 245.5–253: mid-capstone show-and-tell to the team | 15 minutes each | Team | Person, their team |
-| 5 | Hours 253–260.5: presentation rehearsal | 1 hour | Breakout | Small groups, mixed bands |
-| 6 | Hours 260.5–268: Gate 4 panel, within Gate 4's time | 45 minutes each | Panel | Person, Gate 4 panel |
+| 4 | Hours 254.5–262: mid-capstone show-and-tell to the team | 15 minutes each | Team | Person, their team |
+| 5 | Hours 262–269.5: presentation rehearsal | 1 hour | Breakout | Small groups, mixed bands |
+| 6 | Hours 269.5–279.5: Gate 4 panel, within Gate 4's time | 45 minutes each | Panel | Person, Gate 4 panel |
 
-Module 16 has about 27.5 hours, the same for every track: 4 hours in hours 230.5–238, after Module 15; 6.5 hours in each of the blocks 150–157.5, 157.5–165, and 165–172.5; and 4 hours in hours 260.5–268, which also holds Gate 4. Role foundations takes 1 hour of each of these blocks.
+Module 16 has about 27.5 hours, the same for every track: 4 hours in hours 237.5–247, after Module 15; 6.5 hours in each of the blocks 150–157.5, 157.5–165, and 165–172.5; and 4 hours in hours 269.5–279.5, which also holds Gate 4. Role foundations takes 1 hour of each of these blocks.
 
 ## Activities
 
-1. Agree the scope at hour 230.5, using your Evidence 7 analysis and Evidence 15 estimate. Record it in the brief for your track.
+1. Agree the scope at hour 237.5, using your Evidence 7 analysis and Evidence 15 estimate. Record it in the brief for your track.
 2. Build or lead the work, with a mentor review every 7.5 hours of learning.
 3. Get pull requests reviewed by developers on your team.
-4. Show your progress to the team in hours 245.5–253.
+4. Show your progress to the team in hours 254.5–262.
 5. Prepare and rehearse the presentation using [presentation-outline.md](presentation-outline.md).
 6. Present to the Gate 4 panel, including a live run.
 
 ## Evidence
 
-**Evidence 16:** a capstone on the person's own team's product, agreed with the product owner and mentor at hour 230.5, and a presentation to the gate panel aimed at a non-technical audience.
+**Evidence 16:** a capstone on the person's own team's product, agreed with the product owner and mentor at hour 237.5, and a presentation to the gate panel aimed at a non-technical audience.
 
 | Track | Capstone | Brief |
 | --- | --- | --- |
@@ -58,9 +58,9 @@ Presentation: 10 minutes for Band 3 and Band 4, 20 minutes for Band 5 to Band 7.
 
 ## Assessment
 
-Gate 4 (hour 268) reviews Evidence 14, Evidence 15, and Evidence 16, with the full capability self-assessment and the Part D practical: a live run and explanation of the capstone.
+Gate 4 (hour 279.5) reviews Evidence 14, Evidence 15, and Evidence 16, with the full capability self-assessment and the Part D practical: a live run and explanation of the capstone.
 
-After Gate 4, [Module 17 Lean Six Sigma Green Belt](../module-17-lean-six-sigma-green-belt/index.md) runs in hours 268–308. Its Green Belt project often builds on the capstone and its data.
+After Gate 4, [Module 17 Lean Six Sigma Green Belt](../module-17-lean-six-sigma-green-belt/index.md) runs in hours 279.5–320. Its Green Belt project often builds on the capstone and its data.
 
 The Gate 4 panel has three people: a lead test engineer or test manager at least one band above the person (chair, not their mentor), a developer from another team, and the training lead. For Band 7 tracks the chair is the head of test or a lead from outside the person's area. The clinical safety officer reviews traceability evidence in writing.
 

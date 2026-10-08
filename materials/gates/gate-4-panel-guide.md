@@ -1,6 +1,6 @@
 # Gate 4 panel guide
 
-Gate 4 (hour 268) decides whether a person's capability meets the programme's standard. Completion also needs the Lean Six Sigma Green Belt that follows (Module 17, Evidence 17). The panel reviews the full capability self-assessment, the Part D practical, and evidence Evidence 14 to 16.
+Gate 4 (hour 279.5) decides whether a person's capability meets the programme's standard. Completion also needs the Lean Six Sigma Green Belt that follows (Module 17, Evidence 17). The panel reviews the full capability self-assessment, the Part D practical, and evidence Evidence 14 to 16.
 
 ## The panel
 
@@ -12,7 +12,7 @@ Three people:
 
 The clinical safety officer reviews the traceability parts of Evidence 14 and Evidence 16 **in writing**, before the panel meets.
 
-Each panel member needs about 3 hours per person: 1.5 hours reading beforehand, 1 hour for the session, and 30 minutes to agree and record the result.
+Each panel member needs about 3.5 hours per person: 1.5 hours reading beforehand, 1 hour for the session, and 1 hour to agree and record the result.
 
 ## Before the session
 
@@ -33,7 +33,7 @@ The training lead sends the panel, at least 5 working days before:
 | --- | --- |
 | 5 minutes | Chair welcomes the person, explains the session and that it is developmental only. |
 | 10 or 20 minutes | Capstone presentation, aimed at a non-technical audience: 10 minutes for Band 3 and Band 4, 20 minutes for Band 5 to Band 7. |
-| 15 minutes | Part D practical: live run, explanation, and one small change the panel asks for (see [Part D practicals](part-d-practicals.md#gate-4-hour-268-live-run-and-explanation-of-the-capstone)). |
+| 15 minutes | Part D practical: live run, explanation, and one small change the panel asks for (see [Part D practicals](part-d-practicals.md#gate-4-hour-2795-live-run-and-explanation-of-the-capstone)). |
 | 15 to 25 minutes | Questions (see below). |
 | 5 minutes | The person's own reflection: what changed most, and what they will work on next. |
 

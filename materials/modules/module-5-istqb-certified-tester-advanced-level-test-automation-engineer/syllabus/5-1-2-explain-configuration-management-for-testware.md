@@ -23,7 +23,7 @@ The same tests run against many environments and versions, so manage three thing
 
 The practice repository's API tests read the FHIR server's address from `FHIR_BASE_URL`, with a local default, rather than writing it into tests: that is environment configuration. Point it at another server, and the same tests run there. Credentials never go in the repository; CI secrets hold them ([Module 14 Safe and lawful test automation](../../module-14-safe-and-lawful-automation/index.md)).
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Pairs list every value in their team's tests that differs between environments, and decide where each should live: a configuration file, an environment variable, a CI secret, or test data.
 

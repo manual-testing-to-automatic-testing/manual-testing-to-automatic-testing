@@ -18,7 +18,7 @@ The default language is JavaScript, which the rest of the programme uses. A pers
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Start with the mentor: the programme, the three basics modules, and how a walkthrough works | 30 minutes | One to one | Person, mentor |
+| 1 | Start with the mentor: the programme, the three basics modules, and how a walkthrough works | 1 hour | One to one | Person, mentor |
 | 2 | Install Node.js on your own system and try it | 1 hour | Practice | Each person, with the mentor |
 | 3 | Install Visual Studio Code on your own system and try it | 1 hour | Practice | Each person, with the mentor |
 | 4 | Values, variables, and printing results | 1 hour | Core | Cohort |
@@ -27,7 +27,7 @@ The default language is JavaScript, which the rest of the programme uses. A pers
 | 7 | Loops: `for`, `for...of`, and `while` | 1 hour | Core | Cohort |
 | 8 | Arrays | 1 hour | Core | Cohort |
 | 9 | Objects | 1 hour | Core | Cohort |
-| 10 | Practice: write and run small programs of your own, with mentor help | 6.5 hours | Practice | Each person, with the mentor |
+| 10 | Practice: write and run small programs of your own, with mentor help | 6 hours | Practice | Each person, with the mentor |
 | 11 | Code commenting, including using AI for annotation and explanation | 1 hour | Core | Cohort |
 | 12 | Check-in with the mentor | 1 hour | One to one | Person, mentor |
 | 13 | Reading other people's short functions aloud, and predicting what they print | 1 hour | Practice | Pairs |
@@ -68,7 +68,7 @@ console.log(countResults(["pass", "fail", "pass"]));
 
 ## Assessment
 
-The mentor signs off the walkthrough when the person can run the code and explain every line without help. If not, they agree what to practise and repeat the walkthrough within the module's hours. Gate 0 (hour 88) records the sign-off.
+The mentor signs off the walkthrough when the person can run the code and explain every line without help. If not, they agree what to practise and repeat the walkthrough within the module's hours. Gate 0 (hour 88.5) records the sign-off.
 
 | Walkthrough sign-off | Entry |
 | --- | --- |

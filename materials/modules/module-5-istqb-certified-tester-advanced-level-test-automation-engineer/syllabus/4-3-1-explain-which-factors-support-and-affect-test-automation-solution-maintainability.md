@@ -31,7 +31,7 @@ Test code stays maintainable when it follows clean code principles, avoids hard-
 
 The practice repository runs ESLint and Prettier in CI ([Module 13](../../module-13-continuous-integration/index.md)), reads the FHIR server's address from `FHIR_BASE_URL`, with a local default, instead of writing URLs into tests, and asks for small pull requests on feature branches ([Module 9 Version control and collaboration](../../module-9-version-control/index.md)).
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Show a deliberately messy 40-line test with hard-coded values, vague names, and one long function. In pairs, list every clean code principle it breaks, then refactor one part.
 

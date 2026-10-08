@@ -1,6 +1,6 @@
 # Capstone scope agreement
 
-Agree at hour 230.5 (Decision 5). Signed by the person, the product owner, and the mentor.
+Agree at hour 237.5 (Decision 5). Signed by the person, the product owner, and the mentor.
 
 | Field | Value |
 | --- | --- |
@@ -32,7 +32,7 @@ ______
 
 ## Estimate
 
-From Evidence 15: ______ hours. Protected time available in hours 230.5–268: about 27.5 hours. If the estimate is larger, cut scope now.
+From Evidence 15: ______ hours. Protected time available in hours 237.5–279.5: about 27.5 hours. If the estimate is larger, cut scope now.
 
 ## Acceptance
 

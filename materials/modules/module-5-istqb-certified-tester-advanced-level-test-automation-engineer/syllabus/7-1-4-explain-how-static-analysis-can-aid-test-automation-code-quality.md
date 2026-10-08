@@ -20,7 +20,7 @@ Scan test code, not just product code, with **static analysis**: it finds defect
 
 The practice repository runs ESLint and gitleaks, a secret scanner, on every pull request, so a password or token in a test fails the pipeline before it is merged. [Module 14 Safe and lawful test automation](../../module-14-safe-and-lawful-automation/index.md) explains why secrets and personal data never belong in test code.
 
-## Teach it (30 minutes)
+## Teach it (1 hour)
 
 Plant three problems in a copy of a test file: an unused variable, a missing `await`, and a fake password. Pairs run the linter and a secret scanner, and see which tool finds which problem.
 

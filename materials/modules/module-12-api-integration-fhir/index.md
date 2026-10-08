@@ -1,6 +1,6 @@
 # Module 12 API, integration, and FHIR tests
 
-15 hours. Reviewed at Gate 3.
+15.5 hours. Reviewed at Gate 3.
 
 ## Purpose
 
@@ -16,29 +16,29 @@ Push tests down the pyramid. Much of what a manual tester checks through screens
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Module 12 API, integration, and FHIR tests | — | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Read and discuss |
 
-Band 3 does not take Module 12. Band 3's Module 12 hours in hours 178–200.5 go to Role foundations and real automation at Band 3 depth.
+Band 3 does not take Module 12. Band 3's Module 12 hours in hours 183–206 go to Role foundations and real automation at Band 3 depth.
 
 ## Session plan
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 178–185.5: HTTP, REST, JSON, status codes, headers | 1.5 hours | Core | All except Band 3 |
-| 2 | Hours 178–185.5: starting the FHIR sandbox with `npm run fhir`; calling it with Node's built-in `fetch` from Mocha tests | 1.5 hours | Core | All except Band 3 |
-| 3 | Hours 178–185.5: HL7 FHIR: resources, references, bundles, profiles, terminology | 2 hours | Core | All except Band 3 |
-| 4 | Hours 185.5–193: mocks, stubs, and simulators; contract and integration testing | 1 hour | Core | All except Band 3 |
-| 5 | Hours 185.5–193: HL7 version 2 awareness | 30 minutes | Core | All except Band 3 |
-| 6a | Hours 185.5–193: read an existing suite | 2 hours | Breakout | Band 4 quality assurance, Band 7 test management |
-| 6b | Hours 185.5–200.5: write 5 tests, with support | 3.5 hours in each 7.5-hour block | Breakout | Band 4 test engineering, Band 5 quality assurance, with mentor |
-| 6c | Hours 185.5–200.5: write the full suite | 3.5 hours in each 7.5-hour block | Breakout | Band 6 quality assurance, Band 6 test engineering |
-| 6d | Hours 185.5–193: write the full suite; hours 193–200.5: partner system simulator | 3.5 hours in each 7.5-hour block | Breakout | Band 7 test engineering |
-| 7 | Hours 185.5–193: run the suite, break and restore one assertion, and explain the failure to the mentor | 1.5 hours | Breakout | Band 4 quality assurance, Band 7 test management |
-| 8 | Hours 193–200.5: write one test with support (Band 4 quality assurance); start planning Leading teams through automation adoption (Band 7 test management) | 3.5 hours | Breakout | Band 4 quality assurance, Band 7 test management |
-| 9 | Hours 193–200.5: pair with a developer to move one browser test from Evidence 11 down to the API layer | 1.5 hours | Team | All except Band 3 |
+| 1 | Hours 183–190.5: HTTP, REST, JSON, status codes, headers | 1.5 hours | Core | All except Band 3 |
+| 2 | Hours 183–190.5: starting the FHIR sandbox with `npm run fhir`; calling it with Node's built-in `fetch` from Mocha tests | 1.5 hours | Core | All except Band 3 |
+| 3 | Hours 183–190.5: HL7 FHIR: resources, references, bundles, profiles, terminology | 2 hours | Core | All except Band 3 |
+| 4 | Hours 190.5–198: mocks, stubs, and simulators; contract and integration testing | 1 hour | Core | All except Band 3 |
+| 5 | Hours 190.5–198: HL7 version 2 awareness | 1 hour | Core | All except Band 3 |
+| 6a | Hours 190.5–198: read an existing suite | 2 hours | Breakout | Band 4 quality assurance, Band 7 test management |
+| 6b | Hours 190.5–206: write 5 tests, with support | 3.5 hours in each 7.5-hour block | Breakout | Band 4 test engineering, Band 5 quality assurance, with mentor |
+| 6c | Hours 190.5–206: write the full suite | 3.5 hours in each 7.5-hour block | Breakout | Band 6 quality assurance, Band 6 test engineering |
+| 6d | Hours 190.5–198: write the full suite; hours 198–206: partner system simulator | 3.5 hours in each 7.5-hour block | Breakout | Band 7 test engineering |
+| 7 | Hours 190.5–198: run the suite, break and restore one assertion, and explain the failure to the mentor | 1.5 hours | Breakout | Band 4 quality assurance, Band 7 test management |
+| 8 | Hours 198–206: write one test with support (Band 4 quality assurance); start planning Leading teams through automation adoption (Band 7 test management) | 3.5 hours | Breakout | Band 4 quality assurance, Band 7 test management |
+| 9 | Hours 198–206: pair with a developer to move one browser test from Evidence 11 down to the API layer | 1.5 hours | Team | All except Band 3 |
 
-Each person's sessions add up to 15 hours: 5 hours in each of the blocks 90–97.5, 97.5–105, and 105–112.5. Real automation (1.5 hours in every 7.5 hours of learning) and Role foundations (1 hour) fill the rest of each block.
+Each person's sessions add up to 15.5 hours.
 
 
-Acceptance test automation for Band 6 quality assurance also starts in hours 178–185.5, within Band 6 quality assurance's breakout time. See `materials/tracks/`.
+Acceptance test automation for Band 6 quality assurance also starts in hours 183–190.5, within Band 6 quality assurance's breakout time. See `materials/tracks/`.
 
 ## Activities
 
@@ -65,7 +65,7 @@ Acceptance test automation for Band 6 quality assurance also starts in hours 178
 
 ## Assessment
 
-Gate 3 (hour 215.5) reviews Evidence 12 with Evidence 13. The Gate 3 Part D practical is "triage and fix a failing CI run", plus an API test for Band 6 and Band 7 test engineering, and reading and explaining an API test failure for Band 7 test management.
+Gate 3 (hour 221.5) reviews Evidence 12 with Evidence 13. The Gate 3 Part D practical is "triage and fix a failing CI run", plus an API test for Band 6 and Band 7 test engineering, and reading and explaining an API test failure for Band 7 test management.
 
 ## Resources
 

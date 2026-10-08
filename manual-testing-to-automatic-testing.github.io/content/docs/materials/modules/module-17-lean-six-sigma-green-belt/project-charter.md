@@ -1,6 +1,6 @@
 # Green Belt project charter
 
-Part of Evidence 17 for Module 17. Agree it with the sponsor (the product owner) and the mentor in hours 268–275.5. One page is enough.
+Part of Evidence 17 for Module 17. Agree it with the sponsor (the product owner) and the mentor in hours 279.5–287. One page is enough.
 
 | Field | Entry |
 | --- | --- |
@@ -15,7 +15,7 @@ Part of Evidence 17 for Module 17. Agree it with the sponsor (the product owner)
 
 **Problem statement.** What is wrong with the testing process, where, since when, and how big is it? No causes or solutions yet.
 
-**Goal.** The measure, its baseline, the target, and the date. For example: "Reduce the flaky test rate in the team's browser suite from 8% of runs to under 2% of runs by hour 305.5."
+**Goal.** The measure, its baseline, the target, and the date. For example: "Reduce the flaky test rate in the team's browser suite from 8% of runs to under 2% of runs by hour 317."
 
 **Customer and critical-to-quality requirement.** Who suffers from the problem (developers, testers, clinicians, patients), and what they need.
 

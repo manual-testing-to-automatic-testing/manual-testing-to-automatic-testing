@@ -1,6 +1,6 @@
 # Capstone brief: Band 3
 
-Evidence 16 for Module 16. Hours 230.5–268. Assessed at Gate 4.
+Evidence 16 for Module 16. Hours 237.5–279.5. Assessed at Gate 4.
 
 | Field | Value |
 | --- | --- |
@@ -19,7 +19,7 @@ Evidence 16 for Module 16. Hours 230.5–268. Assessed at Gate 4.
 
 One week of CI results for your team's existing automated suite, and 5 manual cases from your Evidence 7 sample that are marked to automate.
 
-Agree the exact scope with the product owner and mentor at hour 230.5, using the [scope agreement](capstone-scope-agreement.md), your Evidence 7 analysis, and your Evidence 15 estimate.
+Agree the exact scope with the product owner and mentor at hour 237.5, using the [scope agreement](capstone-scope-agreement.md), your Evidence 7 analysis, and your Evidence 15 estimate.
 
 ## Deliverables
 
