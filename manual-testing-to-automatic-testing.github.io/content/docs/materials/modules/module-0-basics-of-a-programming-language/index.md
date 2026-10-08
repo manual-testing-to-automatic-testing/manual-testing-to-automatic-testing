@@ -12,18 +12,12 @@ The default language is JavaScript, which the rest of the programme uses. A pers
 
 - **Learning outcome 15:** read, run, and explain a simple program with variables, functions, conditionals, and loops, in JavaScript or another language.
 
-## Depth by track
-
-| Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 0 Basics of a programming language | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Independent |
-
 ## Session plan
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the mentor: the programme, the three basics modules, and how a walkthrough works | 30 minutes | One to one | Person, mentor |
-| 2 | Set up Node.js, Visual Studio Code, and git on your own system, and run your first `node hello.js` | 2 hours | Practice | Each person, with the mentor |
+| 2 | Set up Node.js and Visual Studio Code on your own system, and run your first `node hello.js` | 2 hours | Practice | Each person, with the mentor |
 | 3 | Values, variables, and printing results | 2.5 hours | Core | Cohort |
 | 4 | Functions: parameters, return values, and calling them | 2.5 hours | Core | Cohort |
 | 5 | Conditionals: `if`, `else`, comparisons, and true and false | 2.5 hours | Core | Cohort |
@@ -38,7 +32,7 @@ Each person's sessions add up to 20 hours.
 
 ## Activities
 
-1. Install Node.js (the long-term support version), Visual Studio Code, and git. Run `node --version`.
+1. Install Node.js (the long-term support version) and Visual Studio Code. Run `node --version`.
 2. Write and run small programs that use each of: variables, a function, an `if` and `else`, a loop, an array, and an object.
 3. Read three short functions written by someone else. Before running each one, say what it will print. Then run it and check.
 4. Write the function for your walkthrough. For example, a function that takes a list of test results and returns how many passed and failed, using a loop and a conditional:
