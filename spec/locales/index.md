@@ -85,6 +85,7 @@ Write a translation with its links exactly as they are in the English source; `p
 
 - **Translated:** every document's prose, headings, tables, and lists; the website's interface strings; the band outlines, job evaluation factors, health care skills, and reference responsibilities in the self-assessment, from the roles-skills reference's translation.
 - **Never translated:** quotations from the UK GDaD PCF (role and role level statements, UK GDaD PCF skill names and level descriptions), which stay in English as quotations; product and tool names (Selenium, Mocha, Node.js, HAPI FHIR, GitHub); code, commands, file names, and paths; ids (`Band 5 quality assurance`, `Learning outcome 4`, `Evidence 16`, `Decision 7`, `Part A item 17`); and the rating codes in exported TSV files (`Meets`, `Partly`, `Not yet`), so that `scripts/capability_index.py` reads every locale's export.
+- **Voice:** translate pages for participants in the second person, addressing the reader (in English, "You may", "your mentor"), in the form of address that is usual in the target language for professional training. Pages written about the participant for others, such as the spec and the guides for managers, mentors, and panels, stay in the third person, as in English.
 
 ## URLs
 
