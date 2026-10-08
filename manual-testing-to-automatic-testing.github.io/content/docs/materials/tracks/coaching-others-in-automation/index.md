@@ -2,7 +2,7 @@
 
 **Tracks:** Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, Band 7 test management. **Programme hours:** 67.5 to 150.
 
-**Outcome:** guide and coach others in automation, as the Practitioner and Expert level descriptions require. It also supports Part A dimensions A4 Leadership and A14 Responsibility for people.
+**Outcome:** guide and coach others in automation, as the Practitioner and Expert level descriptions require. It also supports Part A dimensions Part A item 4: Leadership and Part A item 14: Responsibility for people.
 
 **Evidence:** a [coaching log](coaching-log.tsv) for one or two cohort members from a lower band, with their feedback. Band 6 quality assurance also coaches a Band 4 or Band 5 colleague through their capstone (Module 10).
 

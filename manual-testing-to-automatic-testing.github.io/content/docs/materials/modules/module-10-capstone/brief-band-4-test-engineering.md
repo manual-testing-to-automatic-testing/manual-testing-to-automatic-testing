@@ -7,7 +7,7 @@ Evidence 10 for Module 10. Hours 142.5–180. Assessed at Gate 4.
 | Track | Band 4 test engineering |
 | Band | 4 |
 | UK GDaD PCF role | Test engineer |
-| Module 10 depth | S, apply with support |
+| Module 10 depth | Apply with support |
 | Automation target | Awareness, with maintained tests |
 | Presentation | 10 minutes, aimed at a non-technical audience |
 

@@ -31,7 +31,7 @@ We plan a development programme of 220 hours of protected learning time, by defa
 ### 3. The Band 3 rule, and the mapping rule (Decision 6)
 
 - The reference has no testing role level at Band 3. For Band 3 participants, the job evaluation factor levels are agreed at Gate 0 from the person's own job description, with a total within the Band 3 range of 216 to 270 points.
-- Where a person's band and assigned role have no reference level (for example a Band 5 test engineer), the spec's mapping rule applies: Part A uses their own band; Parts B and C use the assigned role's nearest level below their band. The line manager, training lead, and HR record the decision in the person's individual learning plan.
+- Where a person's band and UK GDaD PCF role have no reference level (for example a Band 5 test engineer), the spec's mapping rule applies: Part A uses their own band; Parts B and C use the assigned role's nearest level below their band. The line manager, training lead, and HR record the decision in the person's individual learning plan.
 
 We ask HR to agree these rules, and to name who signs off each mapping.
 

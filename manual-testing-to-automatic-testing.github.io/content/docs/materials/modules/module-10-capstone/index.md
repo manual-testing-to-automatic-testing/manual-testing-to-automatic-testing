@@ -15,7 +15,7 @@ The capstone brings every outcome together, at the person's track depth, on real
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 10 Capstone | S | S | S | I | L | I | L | L |
+| Module 10 Capstone | With support | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
 
 ## Session plan
 

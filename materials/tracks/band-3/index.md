@@ -10,32 +10,32 @@ At every gate you complete the full instrument for this track: `instruments/band
 
 | Dimension | Band expectation |
 | --- | --- |
-| A1 Knowledge | Knowledge of a range of procedures, some non-routine; typically a level 3 qualification or equivalent experience. |
-| A2 Autonomy | Works within procedures; decides how to organise own work; refers problems upward. |
-| A3 Scope | Own work and some tasks for the wider team. |
-| A4 Leadership | May allocate routine work or train others in procedures. |
-| A5 Accountability | Accuracy of own work and of records kept. |
+| Part A item 1: Knowledge | Knowledge of a range of procedures, some non-routine; typically a level 3 qualification or equivalent experience. |
+| Part A item 2: Autonomy | Works within procedures; decides how to organise own work; refers problems upward. |
+| Part A item 3: Scope | Own work and some tasks for the wider team. |
+| Part A item 4: Leadership | May allocate routine work or train others in procedures. |
+| Part A item 5: Accountability | Accuracy of own work and of records kept. |
 
 ### Part A: job evaluation factors (reference levels)
 
 | Id | Factor | Reference level |
 | --- | --- | --- |
-| A6 | Communication and relationship skills | Agreed at Gate 0 |
-| A7 | Knowledge, training, and experience | Agreed at Gate 0 |
-| A8 | Analytical and judgemental skills | Agreed at Gate 0 |
-| A9 | Planning and organisational skills | Agreed at Gate 0 |
-| A10 | Physical skills | Agreed at Gate 0 |
-| A11 | Responsibility for patient and client care | Agreed at Gate 0 |
-| A12 | Responsibility for policy and service development | Agreed at Gate 0 |
-| A13 | Responsibility for financial and physical resources | Agreed at Gate 0 |
-| A14 | Responsibility for people | Agreed at Gate 0 |
-| A15 | Responsibility for information resources | Agreed at Gate 0 |
-| A16 | Responsibility for research and development | Agreed at Gate 0 |
-| A17 | Freedom to act | Agreed at Gate 0 |
-| A18 | Physical effort | Agreed at Gate 0 |
-| A19 | Mental effort | Agreed at Gate 0 |
-| A20 | Emotional effort | Agreed at Gate 0 |
-| A21 | Working conditions | Agreed at Gate 0 |
+| Part A item 6 | Communication and relationship skills | Agreed at Gate 0 |
+| Part A item 7 | Knowledge, training, and experience | Agreed at Gate 0 |
+| Part A item 8 | Analytical and judgemental skills | Agreed at Gate 0 |
+| Part A item 9 | Planning and organisational skills | Agreed at Gate 0 |
+| Part A item 10 | Physical skills | Agreed at Gate 0 |
+| Part A item 11 | Responsibility for patient and client care | Agreed at Gate 0 |
+| Part A item 12 | Responsibility for policy and service development | Agreed at Gate 0 |
+| Part A item 13 | Responsibility for financial and physical resources | Agreed at Gate 0 |
+| Part A item 14 | Responsibility for people | Agreed at Gate 0 |
+| Part A item 15 | Responsibility for information resources | Agreed at Gate 0 |
+| Part A item 16 | Responsibility for research and development | Agreed at Gate 0 |
+| Part A item 17 | Freedom to act | Agreed at Gate 0 |
+| Part A item 18 | Physical effort | Agreed at Gate 0 |
+| Part A item 19 | Mental effort | Agreed at Gate 0 |
+| Part A item 20 | Emotional effort | Agreed at Gate 0 |
+| Part A item 21 | Working conditions | Agreed at Gate 0 |
 
 For Band 3, every factor level is agreed at Gate 0 from your own job description, with a total within 216 to 270 points.
 

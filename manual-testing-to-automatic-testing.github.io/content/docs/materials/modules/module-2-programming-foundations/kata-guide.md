@@ -42,9 +42,9 @@ Katas 06 and 07 check test-shaped data (a date of birth and an NHS number), so e
 
 ## Depth by track
 
-- **Band 3 (R):** pair with the mentor on each kata. The mentor may type; you explain what each line does and write at least one test yourself for each kata.
-- **Band 4, Band 5, Band 7 test management (S):** write the code and tests yourself, with the mentor on hand.
-- **Band 6, Band 7 test engineering (I):** work independently. Ask for review, not help.
+- **Band 3 (read and discuss):** pair with the mentor on each kata. The mentor may type; you explain what each line does and write at least one test yourself for each kata.
+- **Band 4, Band 5, Band 7 test management (with support):** write the code and tests yourself, with the mentor on hand.
+- **Band 6, Band 7 test engineering (independently):** work independently. Ask for review, not help.
 
 ## What reviewers look for
 

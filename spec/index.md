@@ -2,7 +2,7 @@
 
 ## Summary
 
-This programme upskills **manual testers at Bands 3 to 7** into **automatic testers**, over **220 hours** of protected learning time, ending with a **Lean Six Sigma Green Belt** lifetime certification, while each person **stays in their current band and their assigned UK GDaD PCF role**. Nobody changes band because of this programme.
+This programme upskills **manual testers at Bands 3 to 7** into **automatic testers**, over **220 hours** of protected learning time, ending with a **Lean Six Sigma Green Belt** lifetime certification, while each person **stays in their current band and their UK GDaD PCF role**. Nobody changes band because of this programme.
 
 Each person has already been given a UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager) at a role level. The programme has two aims, in this order:
 
@@ -15,7 +15,7 @@ The programme comes in **eight tuned tracks**, one for each band and UK GDaD PCF
 
 - **Part A, band:** all 21 band dimensions. These are the 5 band outline dimensions and the 16 job evaluation factors.
 - **Part B, UK GDaD PCF role aspects:** every UK GDaD PCF role and role level statement, plus the reference responsibilities.
-- **Part C, skills:** every UK GDaD PCF skill in the assigned role, plus the health care skills.
+- **Part C, skills:** every UK GDaD PCF skill in the person's UK GDaD PCF role, plus the health care skills.
 - **Part D, automation practical:** a short performance task for the track.
 
 The toolset is **JavaScript** on Node.js, **Selenium** for the browser, and **Mocha** with Node's built-in `node:assert/strict` for tests, in Visual Studio Code, with git and the organisation's continuous integration (CI) service.
@@ -62,6 +62,7 @@ Out of scope:
 16. **Protected time is protected.** Learning hours are in calendars and are not reassigned without the training lead's agreement. If more than 7.5 hours are lost in a gate period, that is escalated to the training lead, because it is a whole week of learning at the default pace.
 17. **Inclusive by design.** Every module offers more than one way to learn and to show evidence. Reasonable adjustments are agreed at Gate 0.
 18. **Read, don't hammer, third-party sites.** Practise on the testingexamples fixture site, local services, and the organisation's own test environments.
+19. **Full words, not abbreviations.** All coursework, materials, file names, and website URLs use full words for the programme's own names, never short codes. For example: "Module 1", not "M1"; "Part A item 1", not "A1"; "Part B item 1.2", not "B1.2"; "Learning outcome 4", not "LO4"; "Evidence 5", not "E5"; "Decision 3", not "D3"; "Band 5 quality assurance", not "B5-QA"; "With support", not "S"; "Working", not "W"; "individual learning plan", not "ILP"; "UK GDaD PCF role", not "PCF role". Recognised names of standards, tools, and organisations, such as HL7 FHIR, CI, and NHS, keep their usual form.
 
 ## Detail
 
@@ -70,7 +71,7 @@ Out of scope:
 Each participant:
 
 - is a manual tester at Band 3, 4, 5, 6, or 7
-- has an assigned UK GDaD PCF role and role level in the quality assurance testing role family
+- has a UK GDaD PCF role and role level in the quality assurance testing role family
 - stays in that band and role during and after the programme
 
 Gate 0 sets a formal, evidenced baseline for each person.
@@ -92,10 +93,10 @@ Each person joins the track for their **band** and **UK GDaD PCF role**.
 
 **Band 3:** the roles-skills reference has no quality assurance testing role level at Band 3. Its associate levels sit at Band 4, at 275 points. The Band 3 track therefore uses the associate UK GDaD PCF role level for Parts B and C, and the Band 3 outline for Part A. The expected job evaluation factor levels for Part A are agreed at Gate 0 from the person's own job description, with a total within 216 to 270 points.
 
-**Mapping rule for other combinations.** If a person's band and assigned role have no reference role level, for example a Band 5 test engineer or a Band 7 quality assurance test analyst:
+**Mapping rule for other combinations.** If a person's band and UK GDaD PCF role have no reference role level, for example a Band 5 test engineer or a Band 7 quality assurance test analyst:
 
 1. Part A uses the person's **own band** outline, and factor levels agreed at Gate 0 from their job description.
-2. Parts B and C use the assigned role's reference level with the **closest band below** the person's band.
+2. Parts B and C use the UK GDaD PCF role's reference level with the **closest band below** the person's band.
 3. The person joins the track for that reference level, at the depth and hours of their own band.
 4. The line manager, training lead, and HR record the mapping in the individual learning plan (see [Decision 6](#decisions)).
 
@@ -105,7 +106,7 @@ This is the gate instrument. Each person completes it in full at every gate. It 
 
 #### Part A: band (21 dimensions)
 
-**A1 to A5, band outline dimensions.** Rate each against the person's own band:
+**Part A items 1 to 5, band outline dimensions.** Rate each against the person's own band:
 
 | Band | Knowledge | Autonomy | Scope | Leadership | Accountability |
 | --- | --- | --- | --- | --- | --- |
@@ -117,36 +118,36 @@ This is the gate instrument. Each person completes it in full at every gate. It 
 
 Rating: **Not yet**, **Partly**, or **Meets**.
 
-**A6 to A21, job evaluation factors.** For each of the 16 factors, the person chooses the factor level whose summary best describes what they do regularly now. That level is compared with the reference level for their track. The level summaries are in `data/job-evaluation.yaml`. As the scheme itself says, a real job evaluation scores the job, not the person. Here the factors are used as a self-assessment of how fully the person is working at the level their job requires. That is not a job evaluation, and it never changes the job's band.
+**Part A items 6 to 21, job evaluation factors.** For each of the 16 factors, the person chooses the factor level whose summary best describes what they do regularly now. That level is compared with the reference level for their track. The level summaries are in `data/job-evaluation.yaml`. As the scheme itself says, a real job evaluation scores the job, not the person. Here the factors are used as a self-assessment of how fully the person is working at the level their job requires. That is not a job evaluation, and it never changes the job's band.
 
 | Id | Factor | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| A6 | Communication and relationship skills | G0 | 3 | 3 | 4 | 4 | 4 | 4 | 5 |
-| A7 | Knowledge, training, and experience | G0 | 4 | 4 | 5 | 6 | 6 | 7 | 7 |
-| A8 | Analytical and judgemental skills | G0 | 3 | 3 | 3 | 4 | 4 | 4 | 4 |
-| A9 | Planning and organisational skills | G0 | 2 | 2 | 2 | 3 | 3 | 3 | 4 |
-| A10 | Physical skills | G0 | 3 | 3 | 3 | 3 | 3 | 3 | 2 |
-| A11 | Responsibility for patient and client care | G0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| A12 | Responsibility for policy and service development | G0 | 2 | 2 | 2 | 2 | 2 | 3 | 3 |
-| A13 | Responsibility for financial and physical resources | G0 | 1 | 1 | 1 | 1 | 1 | 1 | 2 |
-| A14 | Responsibility for people | G0 | 1 | 1 | 1 | 2 | 1 | 2 | 3 |
-| A15 | Responsibility for information resources | G0 | 3 | 3 | 3 | 3 | 4 | 5 | 4 |
-| A16 | Responsibility for research and development | G0 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| A17 | Freedom to act | G0 | 2 | 2 | 3 | 4 | 4 | 4 | 4 |
-| A18 | Physical effort | G0 | 2 | 2 | 2 | 1 | 1 | 1 | 1 |
-| A19 | Mental effort | G0 | 3 | 3 | 3 | 3 | 4 | 4 | 4 |
-| A20 | Emotional effort | G0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| A21 | Working conditions | G0 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| Part A item 6 | Communication and relationship skills | Agreed at Gate 0 | 3 | 3 | 4 | 4 | 4 | 4 | 5 |
+| Part A item 7 | Knowledge, training, and experience | Agreed at Gate 0 | 4 | 4 | 5 | 6 | 6 | 7 | 7 |
+| Part A item 8 | Analytical and judgemental skills | Agreed at Gate 0 | 3 | 3 | 3 | 4 | 4 | 4 | 4 |
+| Part A item 9 | Planning and organisational skills | Agreed at Gate 0 | 2 | 2 | 2 | 3 | 3 | 3 | 4 |
+| Part A item 10 | Physical skills | Agreed at Gate 0 | 3 | 3 | 3 | 3 | 3 | 3 | 2 |
+| Part A item 11 | Responsibility for patient and client care | Agreed at Gate 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Part A item 12 | Responsibility for policy and service development | Agreed at Gate 0 | 2 | 2 | 2 | 2 | 2 | 3 | 3 |
+| Part A item 13 | Responsibility for financial and physical resources | Agreed at Gate 0 | 1 | 1 | 1 | 1 | 1 | 1 | 2 |
+| Part A item 14 | Responsibility for people | Agreed at Gate 0 | 1 | 1 | 1 | 2 | 1 | 2 | 3 |
+| Part A item 15 | Responsibility for information resources | Agreed at Gate 0 | 3 | 3 | 3 | 3 | 4 | 5 | 4 |
+| Part A item 16 | Responsibility for research and development | Agreed at Gate 0 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| Part A item 17 | Freedom to act | Agreed at Gate 0 | 2 | 2 | 3 | 4 | 4 | 4 | 4 |
+| Part A item 18 | Physical effort | Agreed at Gate 0 | 2 | 2 | 2 | 1 | 1 | 1 | 1 |
+| Part A item 19 | Mental effort | Agreed at Gate 0 | 3 | 3 | 3 | 3 | 4 | 4 | 4 |
+| Part A item 20 | Emotional effort | Agreed at Gate 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Part A item 21 | Working conditions | Agreed at Gate 0 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 
-"G0" means agreed at Gate 0 (see [Tracks](#tracks)). A factor **meets** when the agreed level is at or above the reference level. A factor at one level below is **Partly**. Two or more levels below is **Not yet**. Effort and working-conditions factors (A18 to A21) describe the job's demands. They are rated so the picture is complete, are almost always **Meets**, and are reviewed only if the person reports a mismatch, which may need a reasonable adjustment.
+"Agreed at Gate 0" means the level is agreed at Gate 0, from the person's own job description (see [Tracks](#tracks)). A factor **meets** when the agreed level is at or above the reference level. A factor at one level below is **Partly**. Two or more levels below is **Not yet**. Effort and working-conditions factors (Part A items 18 to 21) describe the job's demands. They are rated so the picture is complete, are almost always **Meets**, and are reviewed only if the person reports a mismatch, which may need a reasonable adjustment.
 
 #### Part B: UK GDaD PCF role aspects
 
 Part B has one item for each statement in:
 
-- **B1, the UK GDaD PCF role description:** each "In this role, you will" statement for the UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager).
-- **B2, the UK GDaD PCF role level description:** each "At this role level, you will" statement for the person's reference role level.
-- **B3, the reference responsibilities:** each responsibility listed for the reference role level in `data/roles/<role>.yaml`, which adds the health care context.
+- **Part B group 1, the UK GDaD PCF role description:** each "In this role, you will" statement for the UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager).
+- **Part B group 2, the UK GDaD PCF role level description:** each "At this role level, you will" statement for the person's reference role level.
+- **Part B group 3, the reference responsibilities:** each responsibility listed for the reference role level in `data/roles/<role>.yaml`, which adds the health care context.
 
 Rating: **Not yet**, **Partly**, or **Meets**, each with evidence.
 
@@ -156,23 +157,23 @@ Part C has one item for **every UK GDaD PCF skill in the UK GDaD PCF role**, plu
 
 Rating: the self-assessment scale from the roles-skills guide: **0 Not yet, 1 Awareness, 2 Working, 3 Practitioner, 4 Expert**. Gap = expected level minus agreed rating. A skill **meets** when the gap is 0 or less, is **Partly** when the gap is 1, and is **Not yet** when the gap is 2 or more.
 
-Expected levels (A Awareness, W Working, P Practitioner, E Expert, — not in this role level):
+Expected levels (a dash means the skill is not in this role level):
 
 | Skill | Source | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Test analysis | UK GDaD PCF | A | A | A | W | P | W | P | P |
-| Test and quality planning | UK GDaD PCF | A | A | A | W | P | W | P | E |
-| Designing and executing tests | UK GDaD PCF | A | A | A | W | P | W | P | P |
-| Test engineering | UK GDaD PCF | A | A | A | A | A | W | P | A |
-| Managing, reporting and resolving defects | UK GDaD PCF | A | A | A | W | P | W | P | E |
-| Communicating between the technical and non-technical | UK GDaD PCF | A | A | A | W | P | W | P | E |
-| Business and user acceptance testing | UK GDaD PCF | — | — | — | — | P | — | — | — |
-| Understanding health and care services | Health care | A | A | A | W | W | W | W | P |
-| Clinical risk management | Health care | A | A | A | W | W | W | W | P |
-| Information governance and data protection | Health care | A | A | A | W | W | W | W | W |
-| Health data interoperability | Health care | — | — | — | A | W | W | P | W |
-| Medical device software regulation | Health care | — | — | — | — | — | — | A | W |
-| People management | Health care | — | — | — | — | — | — | — | P |
+| Test analysis | UK GDaD PCF | Awareness | Awareness | Awareness | Working | Practitioner | Working | Practitioner | Practitioner |
+| Test and quality planning | UK GDaD PCF | Awareness | Awareness | Awareness | Working | Practitioner | Working | Practitioner | Expert |
+| Designing and executing tests | UK GDaD PCF | Awareness | Awareness | Awareness | Working | Practitioner | Working | Practitioner | Practitioner |
+| Test engineering | UK GDaD PCF | Awareness | Awareness | Awareness | Awareness | Awareness | Working | Practitioner | Awareness |
+| Managing, reporting and resolving defects | UK GDaD PCF | Awareness | Awareness | Awareness | Working | Practitioner | Working | Practitioner | Expert |
+| Communicating between the technical and non-technical | UK GDaD PCF | Awareness | Awareness | Awareness | Working | Practitioner | Working | Practitioner | Expert |
+| Business and user acceptance testing | UK GDaD PCF | — | — | — | — | Practitioner | — | — | — |
+| Understanding health and care services | Health care | Awareness | Awareness | Awareness | Working | Working | Working | Working | Practitioner |
+| Clinical risk management | Health care | Awareness | Awareness | Awareness | Working | Working | Working | Working | Practitioner |
+| Information governance and data protection | Health care | Awareness | Awareness | Awareness | Working | Working | Working | Working | Working |
+| Health data interoperability | Health care | — | — | — | Awareness | Working | Working | Practitioner | Working |
+| Medical device software regulation | Health care | — | — | — | — | — | — | Awareness | Working |
+| People management | Health care | — | — | — | — | — | — | — | Practitioner |
 
 #### Automation targets
 
@@ -206,24 +207,24 @@ For each part, the **capability index** is the percentage of items rated **Meets
 
 ### Programme learning outcomes
 
-Each track meets each outcome at a set depth: **R** read and explain, **S** with support, **I** independently, **L** leads or coaches others, **—** not required.
+Each track meets each outcome at a set depth: **Read and explain**, **With support**, **Independently**, or **Leads or coaches others**. A dash means not required.
 
 | Id | Outcome | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Learning outcome 1 | Decide which manual tests to automate, at which layer, and which to keep manual, by risk and cost. | R | S | S | I | L | I | L | L |
-| Learning outcome 2 | Write, run, debug, and refactor JavaScript code to the team's standards. | R | S | S | S | I | I | I | S |
-| Learning outcome 3 | Change test code through git and pull requests, and give and respond to review. | S | S | S | I | I | I | L | I |
-| Learning outcome 4 | Locate, act, wait explicitly, and assert with Selenium, using resilient locators. | S | S | I | I | I | I | L | S |
-| Learning outcome 5 | Turn a manual test or Given-When-Then scenario into a maintainable automated test. | S | S | S | I | I | I | L | S |
-| Learning outcome 6 | Write automated API and integration tests, including HL7 FHIR validation. | — | R | S | S | I | I | L | R |
-| Learning outcome 7 | Run suites in CI on every change, triage failures, and keep the suite fast and reliable. | S | S | S | I | I | I | L | I |
-| Learning outcome 8 | Use synthetic data and keep secrets and personal data out of tests and pipelines. | I | I | I | I | I | I | L | L |
-| Learning outcome 9 | Trace automated tests to hazards and produce test evidence for a clinical safety case. | R | S | S | I | L | I | L | L |
-| Learning outcome 10 | Diagnose flaky tests and measure suite health with flow metrics. | R | R | S | S | I | I | L | L |
-| Learning outcome 11 | Read, run, and make a small change to an existing Selenium suite that someone else wrote. | — | R | S | S | S | I | I | S |
-| Learning outcome 12 | Plan, build or lead, and explain an automated regression suite for a real service. | S | S | S | I | L | I | L | L |
+| Learning outcome 1 | Decide which manual tests to automate, at which layer, and which to keep manual, by risk and cost. | Read and explain | With support | With support | Independently | Leads or coaches others | Independently | Leads or coaches others | Leads or coaches others |
+| Learning outcome 2 | Write, run, debug, and refactor JavaScript code to the team's standards. | Read and explain | With support | With support | With support | Independently | Independently | Independently | With support |
+| Learning outcome 3 | Change test code through git and pull requests, and give and respond to review. | With support | With support | With support | Independently | Independently | Independently | Leads or coaches others | Independently |
+| Learning outcome 4 | Locate, act, wait explicitly, and assert with Selenium, using resilient locators. | With support | With support | Independently | Independently | Independently | Independently | Leads or coaches others | With support |
+| Learning outcome 5 | Turn a manual test or Given-When-Then scenario into a maintainable automated test. | With support | With support | With support | Independently | Independently | Independently | Leads or coaches others | With support |
+| Learning outcome 6 | Write automated API and integration tests, including HL7 FHIR validation. | — | Read and explain | With support | With support | Independently | Independently | Leads or coaches others | Read and explain |
+| Learning outcome 7 | Run suites in CI on every change, triage failures, and keep the suite fast and reliable. | With support | With support | With support | Independently | Independently | Independently | Leads or coaches others | Independently |
+| Learning outcome 8 | Use synthetic data and keep secrets and personal data out of tests and pipelines. | Independently | Independently | Independently | Independently | Independently | Independently | Leads or coaches others | Leads or coaches others |
+| Learning outcome 9 | Trace automated tests to hazards and produce test evidence for a clinical safety case. | Read and explain | With support | With support | Independently | Leads or coaches others | Independently | Leads or coaches others | Leads or coaches others |
+| Learning outcome 10 | Diagnose flaky tests and measure suite health with flow metrics. | Read and explain | Read and explain | With support | With support | Independently | Independently | Leads or coaches others | Leads or coaches others |
+| Learning outcome 11 | Read, run, and make a small change to an existing Selenium suite that someone else wrote. | — | Read and explain | With support | With support | With support | Independently | Independently | With support |
+| Learning outcome 12 | Plan, build or lead, and explain an automated regression suite for a real service. | With support | With support | With support | Independently | Leads or coaches others | Independently | Leads or coaches others | Leads or coaches others |
 | Learning outcome 13 | Fully meet the person's own band and UK GDaD PCF role, measured by the capability self-assessment. | All tracks: overall capability index of at least 90% at Gate 4 |
-| Learning outcome 14 | Apply Lean Six Sigma (DMAIC) to measure and improve a testing process, and hold a Green Belt certification that does not expire. | S | S | S | I | L | I | L | L |
+| Learning outcome 14 | Apply Lean Six Sigma (DMAIC) to measure and improve a testing process, and hold a Green Belt certification that does not expire. | With support | With support | With support | Independently | Leads or coaches others | Independently | Leads or coaches others | Leads or coaches others |
 
 ### Schedule and time
 
@@ -289,29 +290,29 @@ With the optional extension to 280 hours for Band 3 and Band 4, the gates move t
 
 ### Module depth by track
 
-**R** read and discuss, **S** apply with support, **I** apply independently, **L** apply and lead or coach others, **—** not taken.
+Each track takes each module at a set depth: **Read and discuss**, **With support** (apply with support), **Independent** (apply independently), or **Lead or coach** (apply and lead or coach others). A dash means the track does not take the module.
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 0 Induction and baseline | I | I | I | I | I | I | I | I |
-| Module 1 Why and what to automate | R | S | S | I | L | I | L | L |
-| Module 2 Programming foundations | R | S | S | S | I | I | I | S |
-| Module 3 Version control and collaboration | S | S | S | I | I | I | L | I |
-| Module 4 Browser automation fundamentals | S | S | I | I | I | I | L | S |
-| Module 5 From walkthrough to real test | S | S | S | I | I | I | L | S |
-| Module 6 API, integration, and FHIR tests | — | R | S | S | I | I | L | R |
-| Module 7 Continuous integration and DevOps | S | S | S | I | I | I | L | I |
-| Module 8 Safe and lawful test automation | I | I | I | I | L | I | L | L |
-| Module 9 Quality engineering practice | R | R | S | S | I | I | L | L |
-| Module 10 Capstone | S | S | S | I | L | I | L | L |
-| Module 11 Lean Six Sigma Green Belt | S | S | S | I | L | I | L | L |
+| Module 0 Induction and baseline | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Independent |
+| Module 1 Why and what to automate | Read and discuss | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
+| Module 2 Programming foundations | Read and discuss | With support | With support | With support | Independent | Independent | Independent | With support |
+| Module 3 Version control and collaboration | With support | With support | With support | Independent | Independent | Independent | Lead or coach | Independent |
+| Module 4 Browser automation fundamentals | With support | With support | Independent | Independent | Independent | Independent | Lead or coach | With support |
+| Module 5 From walkthrough to real test | With support | With support | With support | Independent | Independent | Independent | Lead or coach | With support |
+| Module 6 API, integration, and FHIR tests | — | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Read and discuss |
+| Module 7 Continuous integration and DevOps | With support | With support | With support | Independent | Independent | Independent | Lead or coach | Independent |
+| Module 8 Safe and lawful test automation | Independent | Independent | Independent | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
+| Module 9 Quality engineering practice | Read and discuss | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Lead or coach |
+| Module 10 Capstone | With support | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
+| Module 11 Lean Six Sigma Green Belt | With support | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
 | Role foundations | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan |
-| Health care foundations | I | I | I | I | I | I | I | L |
-| Coaching others in automation | — | — | — | — | L | L | L | L |
-| Automation strategy and metrics | — | — | — | — | L | — | L | L |
-| Frameworks and non-functional testing | — | — | — | — | — | R | L | — |
-| Acceptance test automation | — | — | — | — | L | — | — | — |
-| Leading teams through automation adoption | — | — | — | — | — | — | — | L |
+| Health care foundations | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Lead or coach |
+| Coaching others in automation | — | — | — | — | Lead or coach | Lead or coach | Lead or coach | Lead or coach |
+| Automation strategy and metrics | — | — | — | — | Lead or coach | — | Lead or coach | Lead or coach |
+| Frameworks and non-functional testing | — | — | — | — | — | Read and discuss | Lead or coach | — |
+| Acceptance test automation | — | — | — | — | Lead or coach | — | — | — |
+| Leading teams through automation adoption | — | — | — | — | — | — | — | Lead or coach |
 
 "individual learning plan" means the content is set by the person's individual learning plan from their Gate 0 gaps.
 
@@ -452,7 +453,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 #### Role foundations (hours 0–180, individual)
 
 - **Purpose:** close the role and skill gaps that are not about automation, because each person is measured against their whole role.
-- **Content:** set by the individual learning plan from Gate 0 gaps in Parts A to C. Typical items: test analysis, test and quality planning, defect management, communicating with non-technical stakeholders, planning own work (A9), freedom to act (A17), and the role-level statements in Part B.
+- **Content:** set by the individual learning plan from Gate 0 gaps in Parts A to C. Typical items: test analysis, test and quality planning, defect management, communicating with non-technical stakeholders, planning own work (Part A item 9), freedom to act (Part A item 17), and the role-level statements in Part B.
 - **Activities:** 1 hour in every 7.5 hours of learning for role practice with the mentor or manager, stretch tasks on the team, shadowing, and the community of practice.
 - **Evidence:** progress on each individual learning plan action, reviewed at every gate.
 
@@ -651,6 +652,7 @@ Coverage check, outcome to evidence:
 | --- | --- |
 | 2026-10-07 | First version: one learner moving from Band 5 to Band 6. |
 | 2026-10-07 | Rewritten: eight tuned tracks for Bands 3 to 7, no band changes, a full capability self-assessment (21 band dimensions, UK GDaD PCF role aspects, all role skills) at every gate, and capability thresholds per gate. |
+| 2026-10-08 | Revised: Principle 19, full words not abbreviations; instrument item ids in full words ("Part A item 1", "Part B item 1.2", "Part C item 5"), and depths and skill levels in full words in every table ("With support", "Working", "Agreed at Gate 0"). |
 | 2026-10-08 | Revised: abbreviations written in full words (Module 0, Learning outcome 1, Evidence 0, Decision 1, Band 5 quality assurance, Role foundations, individual learning plan), including file names and website URLs; added `curriculum.md`, generated from this spec. |
 | 2026-10-08 | Revised: "UK GDaD PCF" in full everywhere, and "UK GDaD PCF role" for the role a person has; Playwright removed from the training, so Learning outcome 11 and Evidence 4 use an existing Selenium suite that someone else wrote (`demo-selenium-javascript`); the toolset sentence about Docker removed. |
 | 2026-10-07 | Added Module 11 Lean Six Sigma Green Belt, lifetime certification: 40 hours at the end of every track (hours 180–220), with Learning outcome 14, Evidence 11, and Decision 8. The programme is 220 hours (280 with the Band 3 and Band 4 extension); completion needs Gate 4 and the certification. |

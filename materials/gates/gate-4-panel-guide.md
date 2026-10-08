@@ -74,7 +74,7 @@ The panel may change an agreed rating only where the session shows clear evidenc
 
 ## What the panel does not decide
 
-- The panel does not decide band, pay, or role. Nobody changes band because of this programme.
+- The panel does not decide band, pay, or role.
 - A panel result never starts a capability, performance, or conduct procedure.
 
 ## Feedback

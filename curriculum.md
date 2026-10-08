@@ -13,24 +13,24 @@ This page is generated from [spec/index.md](spec/index.md), the single source of
 
 ## Learning outcomes
 
-Each track meets each outcome at a set depth: **R** read and explain, **S** with support, **I** independently, **L** leads or coaches others, **—** not required.
+Each track meets each outcome at a set depth: **Read and explain**, **With support**, **Independently**, or **Leads or coaches others**. A dash means not required.
 
 | Id | Outcome | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Learning outcome 1 | Decide which manual tests to automate, at which layer, and which to keep manual, by risk and cost. | R | S | S | I | L | I | L | L |
-| Learning outcome 2 | Write, run, debug, and refactor JavaScript code to the team's standards. | R | S | S | S | I | I | I | S |
-| Learning outcome 3 | Change test code through git and pull requests, and give and respond to review. | S | S | S | I | I | I | L | I |
-| Learning outcome 4 | Locate, act, wait explicitly, and assert with Selenium, using resilient locators. | S | S | I | I | I | I | L | S |
-| Learning outcome 5 | Turn a manual test or Given-When-Then scenario into a maintainable automated test. | S | S | S | I | I | I | L | S |
-| Learning outcome 6 | Write automated API and integration tests, including HL7 FHIR validation. | — | R | S | S | I | I | L | R |
-| Learning outcome 7 | Run suites in CI on every change, triage failures, and keep the suite fast and reliable. | S | S | S | I | I | I | L | I |
-| Learning outcome 8 | Use synthetic data and keep secrets and personal data out of tests and pipelines. | I | I | I | I | I | I | L | L |
-| Learning outcome 9 | Trace automated tests to hazards and produce test evidence for a clinical safety case. | R | S | S | I | L | I | L | L |
-| Learning outcome 10 | Diagnose flaky tests and measure suite health with flow metrics. | R | R | S | S | I | I | L | L |
-| Learning outcome 11 | Read, run, and make a small change to an existing Selenium suite that someone else wrote. | — | R | S | S | S | I | I | S |
-| Learning outcome 12 | Plan, build or lead, and explain an automated regression suite for a real service. | S | S | S | I | L | I | L | L |
+| Learning outcome 1 | Decide which manual tests to automate, at which layer, and which to keep manual, by risk and cost. | Read and explain | With support | With support | Independently | Leads or coaches others | Independently | Leads or coaches others | Leads or coaches others |
+| Learning outcome 2 | Write, run, debug, and refactor JavaScript code to the team's standards. | Read and explain | With support | With support | With support | Independently | Independently | Independently | With support |
+| Learning outcome 3 | Change test code through git and pull requests, and give and respond to review. | With support | With support | With support | Independently | Independently | Independently | Leads or coaches others | Independently |
+| Learning outcome 4 | Locate, act, wait explicitly, and assert with Selenium, using resilient locators. | With support | With support | Independently | Independently | Independently | Independently | Leads or coaches others | With support |
+| Learning outcome 5 | Turn a manual test or Given-When-Then scenario into a maintainable automated test. | With support | With support | With support | Independently | Independently | Independently | Leads or coaches others | With support |
+| Learning outcome 6 | Write automated API and integration tests, including HL7 FHIR validation. | — | Read and explain | With support | With support | Independently | Independently | Leads or coaches others | Read and explain |
+| Learning outcome 7 | Run suites in CI on every change, triage failures, and keep the suite fast and reliable. | With support | With support | With support | Independently | Independently | Independently | Leads or coaches others | Independently |
+| Learning outcome 8 | Use synthetic data and keep secrets and personal data out of tests and pipelines. | Independently | Independently | Independently | Independently | Independently | Independently | Leads or coaches others | Leads or coaches others |
+| Learning outcome 9 | Trace automated tests to hazards and produce test evidence for a clinical safety case. | Read and explain | With support | With support | Independently | Leads or coaches others | Independently | Leads or coaches others | Leads or coaches others |
+| Learning outcome 10 | Diagnose flaky tests and measure suite health with flow metrics. | Read and explain | Read and explain | With support | With support | Independently | Independently | Leads or coaches others | Leads or coaches others |
+| Learning outcome 11 | Read, run, and make a small change to an existing Selenium suite that someone else wrote. | — | Read and explain | With support | With support | With support | Independently | Independently | With support |
+| Learning outcome 12 | Plan, build or lead, and explain an automated regression suite for a real service. | With support | With support | With support | Independently | Leads or coaches others | Independently | Leads or coaches others | Leads or coaches others |
 | Learning outcome 13 | Fully meet the person's own band and UK GDaD PCF role, measured by the capability self-assessment. | All tracks: overall capability index of at least 90% at Gate 4 |
-| Learning outcome 14 | Apply Lean Six Sigma (DMAIC) to measure and improve a testing process, and hold a Green Belt certification that does not expire. | S | S | S | I | L | I | L | L |
+| Learning outcome 14 | Apply Lean Six Sigma (DMAIC) to measure and improve a testing process, and hold a Green Belt certification that does not expire. | With support | With support | With support | Independently | Leads or coaches others | Independently | Leads or coaches others | Leads or coaches others |
 
 ## Schedule
 
@@ -96,29 +96,29 @@ With the optional extension to 280 hours for Band 3 and Band 4, the gates move t
 
 ## Module depth by track
 
-**R** read and discuss, **S** apply with support, **I** apply independently, **L** apply and lead or coach others, **—** not taken.
+Each track takes each module at a set depth: **Read and discuss**, **With support** (apply with support), **Independent** (apply independently), or **Lead or coach** (apply and lead or coach others). A dash means the track does not take the module.
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 0 Induction and baseline | I | I | I | I | I | I | I | I |
-| Module 1 Why and what to automate | R | S | S | I | L | I | L | L |
-| Module 2 Programming foundations | R | S | S | S | I | I | I | S |
-| Module 3 Version control and collaboration | S | S | S | I | I | I | L | I |
-| Module 4 Browser automation fundamentals | S | S | I | I | I | I | L | S |
-| Module 5 From walkthrough to real test | S | S | S | I | I | I | L | S |
-| Module 6 API, integration, and FHIR tests | — | R | S | S | I | I | L | R |
-| Module 7 Continuous integration and DevOps | S | S | S | I | I | I | L | I |
-| Module 8 Safe and lawful test automation | I | I | I | I | L | I | L | L |
-| Module 9 Quality engineering practice | R | R | S | S | I | I | L | L |
-| Module 10 Capstone | S | S | S | I | L | I | L | L |
-| Module 11 Lean Six Sigma Green Belt | S | S | S | I | L | I | L | L |
+| Module 0 Induction and baseline | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Independent |
+| Module 1 Why and what to automate | Read and discuss | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
+| Module 2 Programming foundations | Read and discuss | With support | With support | With support | Independent | Independent | Independent | With support |
+| Module 3 Version control and collaboration | With support | With support | With support | Independent | Independent | Independent | Lead or coach | Independent |
+| Module 4 Browser automation fundamentals | With support | With support | Independent | Independent | Independent | Independent | Lead or coach | With support |
+| Module 5 From walkthrough to real test | With support | With support | With support | Independent | Independent | Independent | Lead or coach | With support |
+| Module 6 API, integration, and FHIR tests | — | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Read and discuss |
+| Module 7 Continuous integration and DevOps | With support | With support | With support | Independent | Independent | Independent | Lead or coach | Independent |
+| Module 8 Safe and lawful test automation | Independent | Independent | Independent | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
+| Module 9 Quality engineering practice | Read and discuss | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Lead or coach |
+| Module 10 Capstone | With support | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
+| Module 11 Lean Six Sigma Green Belt | With support | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
 | Role foundations | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan |
-| Health care foundations | I | I | I | I | I | I | I | L |
-| Coaching others in automation | — | — | — | — | L | L | L | L |
-| Automation strategy and metrics | — | — | — | — | L | — | L | L |
-| Frameworks and non-functional testing | — | — | — | — | — | R | L | — |
-| Acceptance test automation | — | — | — | — | L | — | — | — |
-| Leading teams through automation adoption | — | — | — | — | — | — | — | L |
+| Health care foundations | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Lead or coach |
+| Coaching others in automation | — | — | — | — | Lead or coach | Lead or coach | Lead or coach | Lead or coach |
+| Automation strategy and metrics | — | — | — | — | Lead or coach | — | Lead or coach | Lead or coach |
+| Frameworks and non-functional testing | — | — | — | — | — | Read and discuss | Lead or coach | — |
+| Acceptance test automation | — | — | — | — | Lead or coach | — | — | — |
+| Leading teams through automation adoption | — | — | — | — | — | — | — | Lead or coach |
 
 "individual learning plan" means the content is set by the person's individual learning plan from their Gate 0 gaps.
 
@@ -271,7 +271,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 ### Role foundations (hours 0–180, individual)
 
 - **Purpose:** close the role and skill gaps that are not about automation, because each person is measured against their whole role.
-- **Content:** set by the individual learning plan from Gate 0 gaps in Parts A to C. Typical items: test analysis, test and quality planning, defect management, communicating with non-technical stakeholders, planning own work (A9), freedom to act (A17), and the role-level statements in Part B.
+- **Content:** set by the individual learning plan from Gate 0 gaps in Parts A to C. Typical items: test analysis, test and quality planning, defect management, communicating with non-technical stakeholders, planning own work (Part A item 9), freedom to act (Part A item 17), and the role-level statements in Part B.
 - **Activities:** 1 hour in every 7.5 hours of learning for role practice with the mentor or manager, stretch tasks on the team, shadowing, and the community of practice.
 - **Evidence:** progress on each individual learning plan action, reviewed at every gate.
 - **Materials:** [materials/tracks/role-foundations/](materials/tracks/role-foundations/index.md)

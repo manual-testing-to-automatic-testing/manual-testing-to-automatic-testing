@@ -7,9 +7,9 @@ band-6-senior-quality-assurance-test-analyst.tsv), plus
 instruments/index.tsv. The instrument is defined in
 spec/index.md, section "Capability self-assessment":
 
-- Part A: 5 band outline dimensions (A1-A5) and 16 job evaluation factors (A6-A21)
-- Part B: UK GDaD PCF role statements (B1), UK GDaD PCF role level statements (B2), and
-  reference responsibilities (B3)
+- Part A: 5 band outline dimensions (Part A items 1 to 5) and 16 job evaluation factors (Part A items 6 to 21)
+- Part B: UK GDaD PCF role statements (Part B group 1), UK GDaD PCF role level
+  statements (Part B group 2), and reference responsibilities (Part B group 3)
 - Part C: every skill in the reference role level
 
 Usage:
@@ -64,11 +64,11 @@ AUTOMATION_TARGET = {
 }
 
 OUTLINE = [
-    ("A1", "knowledge", "Knowledge"),
-    ("A2", "autonomy", "Autonomy"),
-    ("A3", "scope", "Scope"),
-    ("A4", "leadership", "Leadership"),
-    ("A5", "accountability", "Accountability"),
+    ("Part A item 1", "knowledge", "Knowledge"),
+    ("Part A item 2", "autonomy", "Autonomy"),
+    ("Part A item 3", "scope", "Scope"),
+    ("Part A item 4", "leadership", "Leadership"),
+    ("Part A item 5", "accountability", "Accountability"),
 ]
 
 LEVELS = ["awareness", "working", "practitioner", "expert"]
@@ -164,7 +164,7 @@ def build_rows(ref, track, band_id, role_id, level_title):
             note = f"Reference level {expected}: {factor['levels'][expected]} "
         add(
             part="A",
-            item_id=f"A{6 + i}",
+            item_id=f"Part A item {6 + i}",
             dimension=f"Job evaluation factor: {factor['name']}",
             source="roles-skills job-evaluation.yaml",
             statement=factor["description"],
@@ -179,7 +179,7 @@ def build_rows(ref, track, band_id, role_id, level_title):
     for n, text in enumerate(bullets(pcf_role.get("description", "")), 1):
         add(
             part="B",
-            item_id=f"B1.{n}",
+            item_id=f"Part B item 1.{n}",
             dimension=f"UK GDaD PCF role: {pcf_role.get('name', role['title'])}",
             source="UK GDaD PCF role description",
             statement=text,
@@ -189,7 +189,7 @@ def build_rows(ref, track, band_id, role_id, level_title):
     for n, text in enumerate(bullets(level.get("pcfLevelDescription", "")), 1):
         add(
             part="B",
-            item_id=f"B2.{n}",
+            item_id=f"Part B item 2.{n}",
             dimension=f"UK GDaD PCF role level: {level.get('pcfLevel', level_title)}",
             source="UK GDaD PCF role level description",
             statement=text,
@@ -199,7 +199,7 @@ def build_rows(ref, track, band_id, role_id, level_title):
     for n, text in enumerate(level.get("responsibilities", []), 1):
         add(
             part="B",
-            item_id=f"B3.{n}",
+            item_id=f"Part B item 3.{n}",
             dimension=f"Reference responsibility: {level_title}",
             source="roles-skills role level",
             statement=text,
@@ -219,7 +219,7 @@ def build_rows(ref, track, band_id, role_id, level_title):
             statement += f" Programme automation target for this track: {target.capitalize()}."
         add(
             part="C",
-            item_id=f"C{n}",
+            item_id=f"Part C item {n}",
             dimension=f"Skill: {skill['name']}",
             source=source,
             statement=statement,

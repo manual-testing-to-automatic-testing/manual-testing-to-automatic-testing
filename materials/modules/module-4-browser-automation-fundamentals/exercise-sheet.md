@@ -179,7 +179,7 @@ Use the `Select` helper, not a plain click: `const select = new Select(await dri
 
 ## Track notes
 
-- **Band 3 and Band 4 quality assurance (S):** you may complete this by pairing with your mentor. You drive for at least sections 1, 4, and 7.
-- **Band 4 test engineering, Band 5, Band 6 (I):** complete on your own; ask for review.
-- **Band 7 test engineering (L):** complete on your own, then lead the locator strategy clinic using sections 5, 6, and 7.5.
-- **Band 7 test management (S):** complete with support. Focus on section 7.5.4 and section 9: they are the questions you will ask your teams.
+- **Band 3 and Band 4 quality assurance (with support):** you may complete this by pairing with your mentor. You drive for at least sections 1, 4, and 7.
+- **Band 4 test engineering, Band 5, Band 6 (independently):** complete on your own; ask for review.
+- **Band 7 test engineering (lead or coach):** complete on your own, then lead the locator strategy clinic using sections 5, 6, and 7.5.
+- **Band 7 test management (with support):** complete with support. Focus on section 7.5.4 and section 9: they are the questions you will ask your teams.

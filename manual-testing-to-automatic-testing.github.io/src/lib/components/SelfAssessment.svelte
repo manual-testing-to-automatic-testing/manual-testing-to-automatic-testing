@@ -26,6 +26,9 @@
     type Part
   } from '#lib/capability.js';
 
+  /** An item's id for HTML: 'Part A item 2' -> 'part-a-item-2'. */
+  const domId = (item: { item_id: string }) => item.item_id.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+
   type TrackItem = Item & { track: string; band: string; role: string; role_level: string };
   type Entry = { self: string; manager: string; agreed: string; evidence: string; ilp: string; expected: string };
 
@@ -117,7 +120,7 @@
   const pct = (v: number | undefined) => (v === undefined ? '—' : `${Math.round(v)}%`);
   const PARTS: { id: Part; heading: string; intro: string }[] = [
     { id: 'A', heading: 'Part A: band', intro: 'The 5 band outline dimensions, and the 16 job evaluation factors rated as the level you work at regularly.' },
-    { id: 'B', heading: 'Part B: UK GDaD PCF role aspects', intro: 'Every UK GDaD PCF role statement (B1), role level statement (B2), and reference responsibility (B3).' },
+    { id: 'B', heading: 'Part B: UK GDaD PCF role aspects', intro: 'Every UK GDaD PCF role statement (Part B group 1), role level statement (Part B group 2), and reference responsibility (Part B group 3).' },
     { id: 'C', heading: 'Part C: skills', intro: 'Every skill in the reference role level, rated 0 to 4.' }
   ];
 
@@ -186,8 +189,8 @@
 
 {#snippet rater(item: TrackItem, who: Who, whoLabel: string)}
   <div class="rating">
-    <label for="{item.item_id}-{who}">{whoLabel}</label>
-    <Select id="{item.item_id}-{who}" label="{whoLabel} rating for {item.item_id} {item.dimension}" bind:value={entries[item.item_id][who]}>
+    <label for="{domId(item)}-{who}">{whoLabel}</label>
+    <Select id="{domId(item)}-{who}" label="{whoLabel} rating for {item.item_id} {item.dimension}" bind:value={entries[item.item_id][who]}>
       <option value="">Not rated</option>
       {#each optionsFor(item) as o (o.value)}<option value={o.value}>{o.label}</option>{/each}
     </Select>
@@ -271,7 +274,7 @@
     <p>Self and manager ratings differ by more than one level on these items. Agree them using the evidence.</p>
     <ul>
       {#each calibrate as item (item.item_id)}
-        <li><a href="#item-{item.item_id}">{item.item_id} {item.dimension}</a></li>
+        <li><a href="#item-{domId(item)}">{item.item_id} {item.dimension}</a></li>
       {/each}
     </ul>
   {/if}
@@ -294,7 +297,7 @@
     <p>{part.intro}</p>
     {#each items.filter((i) => i.part === part.id) as item (item.item_id)}
       {@const status = statusOf(item, entries[item.item_id].agreed, expectedOf(item))}
-      <div class="assessment-item" id="item-{item.item_id}">
+      <div class="assessment-item" id="item-{domId(item)}">
         <Fieldset legend="{item.item_id} {item.dimension}">
           <p class="assessment-statement">{item.statement}</p>
           {#if kindOf(item) === 'status'}
@@ -322,8 +325,8 @@
           <div class="rating-row">
             {#if needsExpected(item)}
               <div class="rating">
-                <label for="{item.item_id}-expected">Expected (Gate 0)</label>
-                <Select id="{item.item_id}-expected" label="Expected (Gate 0) for {item.item_id} {item.dimension}" bind:value={entries[item.item_id].expected}>
+                <label for="{domId(item)}-expected">Expected (Gate 0)</label>
+                <Select id="{domId(item)}-expected" label="Expected (Gate 0) for {item.item_id} {item.dimension}" bind:value={entries[item.item_id].expected}>
                   <option value="">Not agreed</option>
                   {#each optionsFor(item) as o (o.value)}<option value={o.value}>{o.label}</option>{/each}
                 </Select>
@@ -339,12 +342,12 @@
 
           <div class="note-row">
             <div>
-              <label for="{item.item_id}-evidence">Evidence</label>
-              <TextAreaInput id="{item.item_id}-evidence" label="Evidence for {item.item_id}" rows={2} bind:value={entries[item.item_id].evidence} />
+              <label for="{domId(item)}-evidence">Evidence</label>
+              <TextAreaInput id="{domId(item)}-evidence" label="Evidence for {item.item_id}" rows={2} bind:value={entries[item.item_id].evidence} />
             </div>
             <div>
-              <label for="{item.item_id}-ilp">Development action</label>
-              <TextAreaInput id="{item.item_id}-ilp" label="Development action for {item.item_id}" rows={2} bind:value={entries[item.item_id].ilp} />
+              <label for="{domId(item)}-development-action">Development action</label>
+              <TextAreaInput id="{domId(item)}-development-action" label="Development action for {item.item_id}" rows={2} bind:value={entries[item.item_id].ilp} />
             </div>
           </div>
         </Fieldset>

@@ -14,7 +14,7 @@ Test code is code. It lives in git, changes through pull requests, and is review
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 3 Version control and collaboration | S | S | S | I | I | I | L | I |
+| Module 3 Version control and collaboration | With support | With support | With support | Independent | Independent | Independent | Lead or coach | Independent |
 
 ## Session plan
 

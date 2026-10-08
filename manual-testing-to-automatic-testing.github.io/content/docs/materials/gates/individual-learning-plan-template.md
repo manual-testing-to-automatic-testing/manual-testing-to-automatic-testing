@@ -12,7 +12,7 @@ The individual learning plan is written at Gate 0 from the calibrated baseline, 
 | Track | |
 | Reference role level used (Parts B and C) | |
 | Mapping decision and who agreed it (Decision 6), if any | |
-| Band 3 factor levels agreed from job description (Band 3 only) | A6: A7: A8: A9: A10: A11: A12: A13: A14: A15: A16: A17: A18: A19: A20: A21: Total points (216 to 270): |
+| Band 3 factor levels agreed from job description (Band 3 only) | Part A item 6: Part A item 7: Part A item 8: Part A item 9: Part A item 10: Part A item 11: Part A item 12: Part A item 13: Part A item 14: Part A item 15: Part A item 16: Part A item 17: Part A item 18: Part A item 19: Part A item 20: Part A item 21: Total points (216 to 270): |
 | Line manager | |
 | Mentor | |
 | Programme length | 220 hours / 280 hours (Band 3 and Band 4 only), including the 40-hour Lean Six Sigma Green Belt |
@@ -36,7 +36,7 @@ The individual learning plan is written at Gate 0 from the calibrated baseline, 
 
 ## 4. Priority gaps
 
-Choose the gaps that matter most for the role and the team in the next gate period. Use item ids from the instrument (A1 to A21, B items, C skills). Clinical risk management and information governance must meet expectations by Gate 2, so list them first if they are gaps.
+Choose the gaps that matter most for the role and the team in the next gate period. Use item ids from the instrument (Part A items 1 to 21, B items, C skills). Clinical risk management and information governance must meet expectations by Gate 2, so list them first if they are gaps.
 
 | Id | Item | Gap now | Target by gate | Action (course, stretch task, shadowing, practice, mentoring) | Module | Owner | Due | How we will know | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

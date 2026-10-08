@@ -70,6 +70,6 @@ Write the one-page explanation for Evidence 4 part 2: how Selenium waits. Cover:
 
 ## Track notes
 
-- **Band 4 test engineering, Band 5 quality assurance, Band 6 quality assurance (S):** complete with support.
-- **Band 6 test engineering, Band 7 test engineering (I):** complete independently, and choose option B or C.
-- **Band 7 test management (S):** complete with support. The goal is to be able to talk credibly with teams about the suites they already own.
+- **Band 4 test engineering, Band 5 quality assurance, Band 6 quality assurance (with support):** complete with support.
+- **Band 6 test engineering, Band 7 test engineering (independently):** complete independently, and choose option B or C.
+- **Band 7 test management (with support):** complete with support. The goal is to be able to talk credibly with teams about the suites they already own.

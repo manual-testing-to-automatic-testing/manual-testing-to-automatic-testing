@@ -25,7 +25,7 @@ Each module page has the same sections:
 
 - **Purpose:** why the module exists.
 - **Outcomes:** the learning outcomes (learning outcome ids) from the spec.
-- **Depth by track:** copied from the spec. **R** read and discuss, **S** apply with support, **I** apply independently, **L** apply and lead or coach others, **—** not taken.
+- **Depth by track:** copied from the spec: Read and discuss, With support (apply with support), Independent (apply independently), or Lead or coach (apply and lead or coach others). A dash means the track does not take the module.
 - **Session plan:** sessions, durations, and format. **Core** sessions are shared by the whole cohort. **Breakout** sessions are for named tracks.
 - **Activities.**
 - **Evidence:** the evidence id (Evidence 0 to 11), with the variants for each track.

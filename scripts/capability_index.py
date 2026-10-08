@@ -3,8 +3,8 @@
 
 Rules, from spec/index.md, sections "Capability index" and "Gate thresholds":
 
-- Part A outline (A1-A5) and Part B: the agreed rating is Not yet, Partly, or Meets.
-- Part A factors (A6-A21): the agreed rating is a factor level. At or above the
+- Part A outline (Part A items 1 to 5) and Part B: the agreed rating is Not yet, Partly, or Meets.
+- Part A factors (Part A items 6 to 21): the agreed rating is a factor level. At or above the
   expected level is Meets; one level below is Partly; two or more below is Not yet.
 - Part C skills: the agreed rating is 0-4. Gap = expected - agreed. A gap of 0 or
   less is Meets; a gap of 1 is Partly; a gap of 2 or more is Not yet.
@@ -35,7 +35,7 @@ def status_of(row):
         return None, "no agreed rating"
     item = row["item_id"]
     part = row["part"]
-    if part == "A" and item not in {f"A{n}" for n in range(1, 6)}:
+    if part == "A" and item not in {f"Part A item {n}" for n in range(1, 6)}:
         if not row["expected_level_number"].strip():
             return None, "no expected factor level (agree at Gate 0)"
         gap = int(row["expected_level_number"]) - int(agreed)

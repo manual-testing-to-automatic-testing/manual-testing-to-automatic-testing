@@ -6,14 +6,13 @@ This guide is for participants and line managers. It explains how to complete th
 
 - **The gates are developmental only.** A gate result never starts a capability, performance, or conduct procedure by itself. Any such procedure follows the organisation's HR policy, separately (spec Principle 14).
 - **A gap is not a failing.** Gaps are expected. They show where development is most useful.
-- **Nobody changes band.** You are rated against the band and UK GDaD PCF role you already hold. Rating above expectation is a strength, not a claim for regrading.
 - **Honest ratings help you.** Your individual learning plan is built from your gaps. Inflated ratings hide the gaps you most need help with.
 
 ## The instrument
 
 Your track's file is the track's file in `instruments/`, such as `instruments/band-5-quality-assurance-test-analyst.tsv` (see `instruments/README.md`). It has:
 
-- **Part A, band (21 items):** A1 to A5 are the band outline dimensions, rated Not yet, Partly, or Meets. A6 to A21 are the 16 job evaluation factors: you choose the factor level that best describes what you do regularly now.
+- **Part A, band (21 items):** Part A items 1 to 5 are the band outline dimensions, rated Not yet, Partly, or Meets. Part A items 6 to 21 are the 16 job evaluation factors: you choose the factor level that best describes what you do regularly now.
 - **Part B, UK GDaD PCF role aspects:** every statement in your UK GDaD PCF role description and role level description, and every reference responsibility, rated Not yet, Partly, or Meets.
 - **Part C, skills:** every UK GDaD PCF skill and health care skill in your role, rated 0 Not yet, 1 Awareness, 2 Working, 3 Practitioner, 4 Expert.
 
@@ -37,13 +36,13 @@ The **agreed** rating is the one that counts.
 - **Use the level descriptions.** For Part C, read the "You can …" statements for each level in the skills catalogue, and pick the level that best describes you as a whole.
 - **Partly is a real answer.** Use Partly when you do some of the item, or do it only with substantial help.
 - **Don't aim to be Expert in everything.** Most people meet the expected level in most items and are above or below in a few.
-- **Effort and working conditions (A18 to A21)** describe the job's demands. They are almost always Meets. Tell your manager if they do not match your experience, because it may point to a reasonable adjustment.
+- **Effort and working conditions (Part A items 18 to 21)** describe the job's demands. They are almost always Meets. Tell your manager if they do not match your experience, because it may point to a reasonable adjustment.
 - **Job evaluation factors** are used here as a self-assessment of how fully you work at your job's level. This is not a job evaluation, and it never changes your band.
 
 ## How ratings become the capability index
 
 - Part A and Part B items: Meets, Partly, or Not yet.
-- Part A factors (A6 to A21): Meets when your agreed level is at or above the reference level, Partly when one level below, Not yet when two or more below.
+- Part A factors (Part A items 6 to 21): Meets when your agreed level is at or above the reference level, Partly when one level below, Not yet when two or more below.
 - Part C skills: gap = expected level minus agreed rating. Meets when the gap is 0 or less, Partly when it is 1, Not yet when it is 2 or more.
 - **Partly counts as half.** The index for each part is (Meets + 0.5 × Partly) ÷ number of items, as a percentage.
 - The overall index is the mean of Parts A, B, and C. Part D is reported separately.

@@ -27,11 +27,11 @@ test('no automated accessibility violations on a rated self-assessment', async (
   await page.evaluate(() => localStorage.clear());
   await page.reload();
   // One of each status, a calibration flag, and a gate result.
-  await page.locator('select[id="A1-agreed"]').selectOption('Meets');
-  await page.locator('select[id="A2-agreed"]').selectOption('Partly');
-  await page.locator('select[id="A3-agreed"]').selectOption('Not yet');
-  await page.locator('select[id="C1-self"]').selectOption('4');
-  await page.locator('select[id="C1-manager"]').selectOption('0');
+  await page.locator('select[id="part-a-item-1-agreed"]').selectOption('Meets');
+  await page.locator('select[id="part-a-item-2-agreed"]').selectOption('Partly');
+  await page.locator('select[id="part-a-item-3-agreed"]').selectOption('Not yet');
+  await page.locator('select[id="part-c-item-1-self"]').selectOption('4');
+  await page.locator('select[id="part-c-item-1-manager"]').selectOption('0');
   await page.getByRole('combobox', { name: 'Gate' }).selectOption('2');
   const results = await new AxeBuilder({ page })
     .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'])

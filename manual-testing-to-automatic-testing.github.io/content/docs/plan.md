@@ -4,7 +4,7 @@
 
 Create a comprehensive, formal training programme that upskills manual testers at **Bands 3 to 7** into automatic testers, with a **tuned version for each band** and assigned role, while every person **stays in their current band and role**.
 
-Each person already has an assigned UK GDaD PCF role. The programme must:
+Each person already has a UK GDaD PCF role. The programme must:
 
 1. **Measure capability formally**, at every gate, against the person's own band (all 21 dimensions), their UK GDaD PCF role aspects, and all of their role's skills.
 2. **Close the gap in the role they hold**, to at least 90% by Gate 4.
@@ -37,7 +37,7 @@ Each person already has an assigned UK GDaD PCF role. The programme must:
 
 ## Key design choices
 
-### Tune by band and assigned role, not band alone
+### Tune by band and UK GDaD PCF role, not band alone
 
 Two people at the same band can hold very different roles. A Band 7 test manager and a Band 7 senior test engineer have different skills and very different automation expectations. So there are eight tracks: Band 3, Band 4 quality assurance, Band 4 test engineering, Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, and Band 7 test management. A mapping rule covers any other combination, so every person is placed by their **assigned** role.
 
@@ -51,7 +51,7 @@ The requirement to measure the whole role puts gates at the centre. Each gate re
 
 - **Part A, band, 21 dimensions:** the 5 band outline dimensions and all 16 job evaluation factors, so the whole band is seen, not just skills.
 - **Part B, UK GDaD PCF role aspects:** every role and role-level statement, plus the health care responsibilities.
-- **Part C, skills:** every UK GDaD PCF skill in the assigned role and every health care skill, including skills only expected at Awareness.
+- **Part C, skills:** every UK GDaD PCF skill in the person's UK GDaD PCF role and every health care skill, including skills only expected at Awareness.
 - **Part D:** a short automation practical.
 
 Repeating the whole instrument is deliberate. It shows progress on the whole role, catches regression, and makes the self-assessment a habit. That habit is the spiral applied to self-knowledge.

@@ -15,7 +15,7 @@ All browser automation comes down to four things: **locate** an element, **act**
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 4 Browser automation fundamentals | S | S | I | I | I | I | L | S |
+| Module 4 Browser automation fundamentals | With support | With support | Independent | Independent | Independent | Independent | Lead or coach | With support |
 
 ## Session plan
 

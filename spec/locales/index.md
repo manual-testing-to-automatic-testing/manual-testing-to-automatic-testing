@@ -62,7 +62,7 @@ Each other locale's version of a document is a directory in `locales/<code>/`, w
 
 The peer id is the MD5 of `doc:` followed by the English document's path, for example `doc:materials/gates/calibration-guide.md`. It is identical in every locale's version of the same document, whatever its slug, and it is how the website resolves "this page, in locale X". The translation of the root `README.md` is `locales/<code>/index.md`, with its own peer id file in `locales/<code>/`.
 
-Translated folder names are slugs made from the translated titles, lower case, with hyphens, keeping accented and non-Latin letters. Ids that are codes stay as they are in every locale: track ids (`band-5-quality-assurance`), module ids (`m4`), and item ids (`A1`).
+Translated folder names are slugs made from the translated titles, lower case, with hyphens, keeping accented and non-Latin letters. Ids that are codes stay as they are in every locale: track ids (`band-5-quality-assurance`), module ids (`m4`), and item ids (`Part A item 1`).
 
 ### Working with translations
 
@@ -84,7 +84,7 @@ Write a translation with its links exactly as they are in the English source; `p
 ## What is translated
 
 - **Translated:** every document's prose, headings, tables, and lists; the website's interface strings; the band outlines, job evaluation factors, health care skills, and reference responsibilities in the self-assessment, from the roles-skills reference's translation.
-- **Never translated:** quotations from the UK GDaD PCF (role and role level statements, UK GDaD PCF skill names and level descriptions), which stay in English as quotations; product and tool names (Selenium, Mocha, Node.js, HAPI FHIR, GitHub); code, commands, file names, and paths; ids (`Band 5 quality assurance`, `Learning outcome 4`, `Evidence 10`, `Decision 7`, `A17`); and the rating codes in exported TSV files (`Meets`, `Partly`, `Not yet`), so that `scripts/capability_index.py` reads every locale's export.
+- **Never translated:** quotations from the UK GDaD PCF (role and role level statements, UK GDaD PCF skill names and level descriptions), which stay in English as quotations; product and tool names (Selenium, Mocha, Node.js, HAPI FHIR, GitHub); code, commands, file names, and paths; ids (`Band 5 quality assurance`, `Learning outcome 4`, `Evidence 10`, `Decision 7`, `Part A item 17`); and the rating codes in exported TSV files (`Meets`, `Partly`, `Not yet`), so that `scripts/capability_index.py` reads every locale's export.
 
 ## URLs
 

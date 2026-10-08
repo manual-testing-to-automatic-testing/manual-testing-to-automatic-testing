@@ -14,7 +14,7 @@ A test suite that only runs on one laptop, when someone remembers, catches far l
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 7 Continuous integration and DevOps | S | S | S | I | I | I | L | I |
+| Module 7 Continuous integration and DevOps | With support | With support | With support | Independent | Independent | Independent | Lead or coach | Independent |
 
 ## Session plan
 

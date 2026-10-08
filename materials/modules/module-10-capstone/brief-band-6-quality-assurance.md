@@ -7,7 +7,7 @@ Evidence 10 for Module 10. Hours 142.5–180. Assessed at Gate 4.
 | Track | Band 6 quality assurance |
 | Band | 6 |
 | UK GDaD PCF role | Quality assurance test analyst (Senior quality assurance test analyst) |
-| Module 10 depth | L, apply and lead or coach others |
+| Module 10 depth | Apply and lead or coach others |
 | Automation target | Working |
 | Presentation | 20 minutes, aimed at a non-technical audience |
 

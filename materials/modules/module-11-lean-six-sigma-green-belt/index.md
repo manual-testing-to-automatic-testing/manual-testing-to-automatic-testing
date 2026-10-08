@@ -16,7 +16,7 @@ Module 11 comes last because a Green Belt project needs what the earlier modules
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 11 Lean Six Sigma Green Belt | S | S | S | I | L | I | L | L |
+| Module 11 Lean Six Sigma Green Belt | With support | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
 
 The certification and its exam are the same for every track. The depth applies to the Green Belt project.
 

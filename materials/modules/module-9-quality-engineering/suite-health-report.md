@@ -48,6 +48,6 @@ A growing pile of skipped, quarantined, or flaky tests is work in progress that 
 
 ## Track notes
 
-- **Band 5 quality assurance (S):** cover your own tests from Evidence 5 and Evidence 6, with support.
-- **Band 6 quality assurance, Band 6 test engineering (I):** cover your area's suite.
-- **Band 7 test engineering, Band 7 test management (L):** cover the team's suite, and propose which metrics the team should track every month. Band 7 test management brings this to Automation strategy and metrics.
+- **Band 5 quality assurance (with support):** cover your own tests from Evidence 5 and Evidence 6, with support.
+- **Band 6 quality assurance, Band 6 test engineering (independently):** cover your area's suite.
+- **Band 7 test engineering, Band 7 test management (lead or coach):** cover the team's suite, and propose which metrics the team should track every month. Band 7 test management brings this to Automation strategy and metrics.

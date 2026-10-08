@@ -9,7 +9,7 @@ Agreed at Gate 0. Updated at every gate.
 | Name | |
 | Team | |
 | Band | |
-| Assigned UK GDaD PCF role | |
+| UK GDaD PCF role | |
 | Reference role level | |
 | Track | Band 3 / Band 4 quality assurance / Band 4 test engineering / Band 5 quality assurance / Band 6 quality assurance / Band 6 test engineering / Band 7 test engineering / Band 7 test management |
 | Mapping decision (if any) | |

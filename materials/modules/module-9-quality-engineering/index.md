@@ -14,7 +14,7 @@ A suite that nobody trusts is worse than no suite. Module 9 is about keeping aut
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 9 Quality engineering practice | R | R | S | S | I | I | L | L |
+| Module 9 Quality engineering practice | Read and discuss | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Lead or coach |
 
 ## Session plan
 

@@ -58,10 +58,9 @@ lo_h, lo_rows = find("Id", "Outcome")
 md_h, md_rows = find("Module", "Band 3")
 cap_h, cap_rows = find("Track", "Capstone")
 
-LEVEL = {"A": "Awareness", "W": "Working", "P": "Practitioner", "E": "Expert", "—": "—"}
-DEPTH = {"R": "Read and discuss", "S": "With support", "I": "Independent", "L": "Lead or coach",
-         "—": "Not taken", "Individual learning plan": "Set by the individual learning plan"}
-LODEPTH = {"R": "Read and explain", "S": "With support", "I": "Independently", "L": "Leads or coaches others", "—": "Not required"}
+# The spec writes depths in full words; these map the cells that need other words here.
+DEPTH = {"Individual learning plan": "Set by the individual learning plan"}
+LODEPTH = {"—": "Not required"}
 
 TRACK_MODULES = {
     "Band 3": ["Role foundations", "Health care foundations"],
@@ -104,7 +103,7 @@ for t in TRACKS:
     br = next(r for r in brows if r[0] == BAND[t])
     out.append("| Dimension | Band expectation |")
     out.append("| --- | --- |")
-    for i, name in enumerate(["A1 Knowledge", "A2 Autonomy", "A3 Scope", "A4 Leadership", "A5 Accountability"]):
+    for i, name in enumerate(["Part A item 1: Knowledge", "Part A item 2: Autonomy", "Part A item 3: Scope", "Part A item 4: Leadership", "Part A item 5: Accountability"]):
         out.append(f"| {name} | {br[i+1]} |")
     out.append("")
     out.append("### Part A: job evaluation factors (reference levels)\n")
@@ -112,7 +111,7 @@ for t in TRACKS:
     out.append("| --- | --- | --- |")
     for r in fac_rows:
         v = r[ci]
-        out.append(f"| {r[0]} | {r[1]} | {'Agreed at Gate 0' if v == 'G0' else v} |")
+        out.append(f"| {r[0]} | {r[1]} | {v} |")
     out.append("")
     if t == "Band 3":
         out.append("For Band 3, every factor level is agreed at Gate 0 from your own job description, with a total within 216 to 270 points.\n")
@@ -122,7 +121,7 @@ for t in TRACKS:
     out.append("| --- | --- | --- |")
     for r in sk_rows:
         if r[si] != "—":
-            out.append(f"| {r[0]} | {r[1]} | {LEVEL[r[si]]} |")
+            out.append(f"| {r[0]} | {r[1]} | {r[si]} |")
     out.append("")
     absent = [r[0] for r in sk_rows if r[si] == "—"]
     if absent:
@@ -143,14 +142,14 @@ for t in TRACKS:
         if r[0] == "Learning outcome 13":
             out.append(f"| Learning outcome 13 | {r[1]} | Overall capability index of at least 90% at Gate 4 |")
         else:
-            out.append(f"| {r[0]} | {r[1]} | {LODEPTH[r[li]]} |")
+            out.append(f"| {r[0]} | {r[1]} | {LODEPTH.get(r[li], r[li])} |")
     out.append("")
     out.append("## Module depths\n")
     out.append("| Module | Depth |")
     out.append("| --- | --- |")
     for r in md_rows:
         if r[mi] != "—":
-            out.append(f"| {r[0]} | {DEPTH[r[mi]]} |")
+            out.append(f"| {r[0]} | {DEPTH.get(r[mi], r[mi])} |")
     out.append("")
     out.append("## Track modules\n")
     for m in TRACK_MODULES[t]:

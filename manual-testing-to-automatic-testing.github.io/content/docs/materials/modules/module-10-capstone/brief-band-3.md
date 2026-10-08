@@ -7,7 +7,7 @@ Evidence 10 for Module 10. Hours 142.5–180. Assessed at Gate 4.
 | Track | Band 3 |
 | Band | 3 |
 | UK GDaD PCF role | Quality assurance test analyst or Test engineer, associate level |
-| Module 10 depth | S, apply with support |
+| Module 10 depth | Apply with support |
 | Automation target | Awareness |
 | Presentation | 10 minutes, aimed at a non-technical audience |
 

@@ -9,7 +9,7 @@ Role foundations runs from hour 0 to hour 180 for every track. It closes the rol
 ## Turning individual learning plan gaps into practice in every 7.5 hours of learning
 
 1. **Pick the gap.** Take one of the top 3 individual learning plan gaps for this gate period. Clinical risk management and information governance come first if they are gaps, because they must meet expectations by Gate 2.
-2. **Read the target.** Read the expectation for the item: the band outline text (A1 to A5), the factor level summary (A6 to A21), the UK GDaD PCF statement (Part B), or the "You can …" statements at the expected level (Part C).
+2. **Read the target.** Read the expectation for the item: the band outline text (Part A items 1 to 5), the factor level summary (Part A items 6 to 21), the UK GDaD PCF statement (Part B), or the "You can …" statements at the expected level (Part C).
 3. **Name one behaviour.** Write one thing the person will do regularly that would show the item. Keep it small and observable, such as "I write the risk summary in every sprint test report".
 4. **Choose a practice activity** from the tables below, or agree one.
 5. **Do it for real.** Use the person's own team and product. Where possible, combine it with the real automation work in the same hours.
@@ -82,33 +82,33 @@ Covered by the core modules. In Role foundations, use the slot to explain one re
 
 ## Practice activities for band dimensions
 
-### Band outline (A1 to A5)
+### Band outline (Part A items 1 to 5)
 
 | Dimension | Example practice |
 | --- | --- |
-| A1 Knowledge | Agree one area of the product or procedure to learn in depth this gate period, and teach it back to the mentor. |
-| A2 Autonomy | Agree a decision the person will now make alone, which they used to refer upward, and review how it went. |
-| A3 Scope | Take on one task for the wider team (Band 3), a defined process (Band 4), a whole product area (Band 6), or a cross-product task (Band 7). |
-| A4 Leadership | Show a new starter a procedure (Band 3), coordinate a small piece of shared work (Band 4), guide an apprentice (Band 5), mentor a colleague (Band 6), or lead a practice area such as test automation (Band 7). |
-| A5 Accountability | Own the accuracy of a record, the delivery of a process, or the outcome of a workstream, as the band requires, and report on it. |
+| Part A item 1: Knowledge | Agree one area of the product or procedure to learn in depth this gate period, and teach it back to the mentor. |
+| Part A item 2: Autonomy | Agree a decision the person will now make alone, which they used to refer upward, and review how it went. |
+| Part A item 3: Scope | Take on one task for the wider team (Band 3), a defined process (Band 4), a whole product area (Band 6), or a cross-product task (Band 7). |
+| Part A item 4: Leadership | Show a new starter a procedure (Band 3), coordinate a small piece of shared work (Band 4), guide an apprentice (Band 5), mentor a colleague (Band 6), or lead a practice area such as test automation (Band 7). |
+| Part A item 5: Accountability | Own the accuracy of a record, the delivery of a process, or the outcome of a workstream, as the band requires, and report on it. |
 
-### Job evaluation factors (A6 to A21)
+### Job evaluation factors (Part A items 6 to 21)
 
 The most common gaps for testers, with practice ideas:
 
 | Factor | Example practice |
 | --- | --- |
-| A6 Communication and relationship skills | Give complex or sensitive test results to stakeholders; train a small group on a procedure; negotiate a test scope. |
-| A7 Knowledge, training, and experience | Follow the individual learning plan's learning actions; the core modules close much of this gap. |
-| A8 Analytical and judgemental skills | Decide between options where facts conflict, such as whether a defect blocks release, and write down your reasoning. |
-| A9 Planning and organisational skills | Plan your own work for the sprint and review it at the end (Bands 3 to 5); plan test activities for a release with dependencies (Band 6); plan across teams or a programme (Band 7). |
-| A12 Responsibility for policy and service development | Propose an improvement to a team test procedure, then implement it (Bands 3 to 6); contribute to a policy or standard (Band 7). |
-| A14 Responsibility for people | Supervise or coach a colleague's work (Band 6 QA); manage or allocate work for others (Band 7). |
-| A15 Responsibility for information resources | Maintain a test data set, a test suite, or a set of records, and keep it accurate and current. |
-| A17 Freedom to act | Agree with the manager which decisions are now the person's to make, within guidelines (Band 4), broad objectives (Band 5), policy for their area (Band 6), or organisational policy (Band 7); review each decision in the slot. |
-| A19 Mental effort | Plan time for periods of concentrated work, such as test analysis or debugging, and protect it. |
+| Part A item 6: Communication and relationship skills | Give complex or sensitive test results to stakeholders; train a small group on a procedure; negotiate a test scope. |
+| Part A item 7: Knowledge, training, and experience | Follow the individual learning plan's learning actions; the core modules close much of this gap. |
+| Part A item 8: Analytical and judgemental skills | Decide between options where facts conflict, such as whether a defect blocks release, and write down your reasoning. |
+| Part A item 9: Planning and organisational skills | Plan your own work for the sprint and review it at the end (Bands 3 to 5); plan test activities for a release with dependencies (Band 6); plan across teams or a programme (Band 7). |
+| Part A item 12: Responsibility for policy and service development | Propose an improvement to a team test procedure, then implement it (Bands 3 to 6); contribute to a policy or standard (Band 7). |
+| Part A item 14: Responsibility for people | Supervise or coach a colleague's work (Band 6 QA); manage or allocate work for others (Band 7). |
+| Part A item 15: Responsibility for information resources | Maintain a test data set, a test suite, or a set of records, and keep it accurate and current. |
+| Part A item 17: Freedom to act | Agree with the manager which decisions are now the person's to make, within guidelines (Band 4), broad objectives (Band 5), policy for their area (Band 6), or organisational policy (Band 7); review each decision in the slot. |
+| Part A item 19: Mental effort | Plan time for periods of concentrated work, such as test analysis or debugging, and protect it. |
 
-Factors A10, A11, A13, A16, A18, A20, and A21 rarely show gaps for testers. If they do, discuss them with the line manager, because they may point to a job design question or a reasonable adjustment rather than a learning need.
+Factors Part A item 10, Part A item 11, Part A item 13, Part A item 16, Part A item 18, Part A item 20, and Part A item 21 rarely show gaps for testers. If they do, discuss them with the line manager, because they may point to a job design question or a reasonable adjustment rather than a learning need.
 
 ## Using Part B items
 

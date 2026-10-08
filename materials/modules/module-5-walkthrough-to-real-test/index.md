@@ -16,7 +16,7 @@ From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automatio
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 5 From walkthrough to real test | S | S | S | I | I | I | L | S |
+| Module 5 From walkthrough to real test | With support | With support | With support | Independent | Independent | Independent | Lead or coach | With support |
 
 ## Session plan
 

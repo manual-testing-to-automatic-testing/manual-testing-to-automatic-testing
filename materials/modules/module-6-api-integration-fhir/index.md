@@ -14,7 +14,7 @@ Push tests down the pyramid. Much of what a manual tester checks through screens
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 6 API, integration, and FHIR tests | — | R | S | S | I | I | L | R |
+| Module 6 API, integration, and FHIR tests | — | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Read and discuss |
 
 Band 3 does not take Module 6. Band 3's Module 6 hours in hours 90–112.5 go to Role foundations and real automation at Band 3 depth.
 

@@ -10,32 +10,32 @@ At every gate you complete the full instrument for this track: `instruments/band
 
 | Dimension | Band expectation |
 | --- | --- |
-| A1 Knowledge | Professional or technical knowledge, typically from a degree or equivalent experience. |
-| A2 Autonomy | Works to broad objectives within professional standards; plans own work. |
-| A3 Scope | Own professional work within a team or product. |
-| A4 Leadership | May guide and check the work of support staff and apprentices. |
-| A5 Accountability | Quality of own professional work. |
+| Part A item 1: Knowledge | Professional or technical knowledge, typically from a degree or equivalent experience. |
+| Part A item 2: Autonomy | Works to broad objectives within professional standards; plans own work. |
+| Part A item 3: Scope | Own professional work within a team or product. |
+| Part A item 4: Leadership | May guide and check the work of support staff and apprentices. |
+| Part A item 5: Accountability | Quality of own professional work. |
 
 ### Part A: job evaluation factors (reference levels)
 
 | Id | Factor | Reference level |
 | --- | --- | --- |
-| A6 | Communication and relationship skills | 4 |
-| A7 | Knowledge, training, and experience | 5 |
-| A8 | Analytical and judgemental skills | 3 |
-| A9 | Planning and organisational skills | 2 |
-| A10 | Physical skills | 3 |
-| A11 | Responsibility for patient and client care | 1 |
-| A12 | Responsibility for policy and service development | 2 |
-| A13 | Responsibility for financial and physical resources | 1 |
-| A14 | Responsibility for people | 1 |
-| A15 | Responsibility for information resources | 3 |
-| A16 | Responsibility for research and development | 2 |
-| A17 | Freedom to act | 3 |
-| A18 | Physical effort | 2 |
-| A19 | Mental effort | 3 |
-| A20 | Emotional effort | 1 |
-| A21 | Working conditions | 2 |
+| Part A item 6 | Communication and relationship skills | 4 |
+| Part A item 7 | Knowledge, training, and experience | 5 |
+| Part A item 8 | Analytical and judgemental skills | 3 |
+| Part A item 9 | Planning and organisational skills | 2 |
+| Part A item 10 | Physical skills | 3 |
+| Part A item 11 | Responsibility for patient and client care | 1 |
+| Part A item 12 | Responsibility for policy and service development | 2 |
+| Part A item 13 | Responsibility for financial and physical resources | 1 |
+| Part A item 14 | Responsibility for people | 1 |
+| Part A item 15 | Responsibility for information resources | 3 |
+| Part A item 16 | Responsibility for research and development | 2 |
+| Part A item 17 | Freedom to act | 3 |
+| Part A item 18 | Physical effort | 2 |
+| Part A item 19 | Mental effort | 3 |
+| Part A item 20 | Emotional effort | 1 |
+| Part A item 21 | Working conditions | 2 |
 
 A factor meets when the agreed level is at or above the reference level. One level below is Partly. Two or more below is Not yet. A skill in Part C meets when the gap is 0 or less, is Partly when the gap is 1, and is Not yet when the gap is 2 or more.
 

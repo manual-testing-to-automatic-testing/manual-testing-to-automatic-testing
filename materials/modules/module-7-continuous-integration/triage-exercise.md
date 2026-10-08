@@ -37,6 +37,6 @@ Band 4 test engineering: for the test defect, also fix the test, push the fix, a
 
 ## Track notes
 
-- **Band 3 (S):** the mentor may navigate the CI tool with you. You make the triage decision.
-- **Band 4 quality assurance (S):** navigate the CI tool yourself, with the mentor alongside.
-- **Band 4 test engineering (S):** as Band 4 quality assurance, plus fix the test defect.
+- **Band 3 (with support):** the mentor may navigate the CI tool with you. You make the triage decision.
+- **Band 4 quality assurance (with support):** navigate the CI tool yourself, with the mentor alongside.
+- **Band 4 test engineering (with support):** as Band 4 quality assurance, plus fix the test defect.

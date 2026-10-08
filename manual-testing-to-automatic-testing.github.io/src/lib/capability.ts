@@ -32,7 +32,7 @@ export const SKILL_OPTIONS = [
 
 export function kindOf(item: Item): Kind {
   if (item.part === 'C') return 'skill';
-  if (item.part === 'A' && !/^A[1-5]$/.test(item.item_id)) return 'factor';
+  if (item.part === 'A' && !/^Part A item [1-5]$/.test(item.item_id)) return 'factor';
   return 'status';
 }
 

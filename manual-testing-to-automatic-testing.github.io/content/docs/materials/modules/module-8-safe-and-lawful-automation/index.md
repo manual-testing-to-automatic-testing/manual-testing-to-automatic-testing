@@ -17,7 +17,7 @@ Health care foundations (hours 7.5–60) has already brought clinical risk manag
 
 | Module | Band 3 | Band 4 quality assurance | Band 4 test engineering | Band 5 quality assurance | Band 6 quality assurance | Band 6 test engineering | Band 7 test engineering | Band 7 test management |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Module 8 Safe and lawful test automation | I | I | I | I | L | I | L | L |
+| Module 8 Safe and lawful test automation | Independent | Independent | Independent | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
 
 ## Session plan
 
@@ -51,9 +51,9 @@ Each person's sessions add up to 7 hours: 4 hours in hours 127.5–135, after Ga
 
 Track depth notes:
 
-- **Band 3, Band 4 quality assurance (I):** the traceability matrix covers the tests you automated or wrote as scenarios in Evidence 5. Synthetic data may be an agreed set of records, not a generator.
-- **Band 4 test engineering, Band 5 quality assurance, Band 6 test engineering (I):** the matrix covers all your Evidence 5 and Evidence 6 tests.
-- **Band 6 quality assurance, Band 7 (L):** as above, plus the peer review. Band 7 test management also checks that the matrix format works for the team's safety case.
+- **Band 3, Band 4 quality assurance (independently):** the traceability matrix covers the tests you automated or wrote as scenarios in Evidence 5. Synthetic data may be an agreed set of records, not a generator.
+- **Band 4 test engineering, Band 5 quality assurance, Band 6 test engineering (independently):** the matrix covers all your Evidence 5 and Evidence 6 tests.
+- **Band 6 quality assurance, Band 7 (lead or coach):** as above, plus the peer review. Band 7 test management also checks that the matrix format works for the team's safety case.
 
 ## Assessment
 
