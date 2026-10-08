@@ -2,23 +2,23 @@
 
 Hours by role, from the time commitments in [spec/index.md](../../spec/index.md#roles-and-responsibilities) and the hours in its schedule. The example cohort is **illustrative**: replace the mix with the real roster.
 
-The programme is **280 hours** of protected learning time per participant, for every track, by default 7.5 hours a week (20% of a 37.5-hour week): 60 hours for the basics (Modules 0 to 2), 180 hours to Gate 4, then 40 hours for Module 14, the Lean Six Sigma Green Belt. Tracks differ in depth, not in hours. Rates below are per 7.5 learning hours, so hours 60–240 hold 24 of them, and the whole programme about 37.
+The programme is **280 hours** of protected learning time per participant, for every track, by default 7.5 hours a week (20% of a 37.5-hour week): 60 hours for the basics (Modules 1 to 3), 180 hours to Gate 4, then 40 hours for Module 15, the Lean Six Sigma Green Belt. Tracks differ in depth, not in hours. Rates below are per 7.5 learning hours, so hours 60–240 hold 24 of them, and the whole programme about 37.
 
 ## Assumptions
 
 | Role | Assumption | Hours |
 | --- | --- | --- |
 | Participant | 280 learning hours | 280 per participant |
-| Mentor | A 30-minute start, then a 1-hour check-in and a 1-hour walkthrough in each of Modules 0 to 2 (0.5 + 3 × 2 = 6.5), 1.5 hours per 7.5 learning hours in hours 60–105 (6 × 1.5 = 9), then 1 hour per 7.5 learning hours in hours 105–240 (18 × 1 = 18), and about 5 hours of Green Belt project support in Module 14, per participant | 38.5 per participant |
+| Mentor | A 30-minute start, then a 1-hour check-in and a 1-hour walkthrough in each of Modules 1 to 3 (0.5 + 3 × 2 = 6.5), 1.5 hours per 7.5 learning hours in hours 60–105 (6 × 1.5 = 9), then 1 hour per 7.5 learning hours in hours 105–240 (18 × 1 = 18), and about 5 hours of Green Belt project support in Module 15, per participant | 38.5 per participant |
 | Line manager | 1 hour per 15 learning hours (about 19 over 280 hours), plus 2 hours at each of 6 gates (6 × 2 = 12) | 31 per participant |
-| Training lead | 1 hour per 7.5 cohort learning hours in hours 0–60 (8 × 1 = 8), 3.75 hours per 7.5 cohort learning hours in hours 60–240 (24 × 3.75 = 90), plus about 20 hours in Module 14 working with the certification body and reviewing projects | 118 per cohort |
+| Training lead | 1 hour per 7.5 cohort learning hours in hours 0–60 (8 × 1 = 8), 3.75 hours per 7.5 cohort learning hours in hours 60–240 (24 × 3.75 = 90), plus about 20 hours in Module 15 working with the certification body and reviewing projects | 118 per cohort |
 | Head of test | 2 hours a month for 9 months | 18 per cohort |
 | Developers | About 1 hour per 7.5 learning hours to hour 240, per participant's team (24 × 1) | 24 per participant |
 | Product owner | 3 hours per participant, plus 1 hour sponsoring the Green Belt project | 4 per participant |
 | Clinical safety officer | 6 hours per cohort, plus 30 minutes per traceability review | 6 + 0.5 per participant |
 | Information governance lead | 3 hours per cohort | 3 per cohort |
 | Gate 4 panel | 3 people, 3 hours each, per participant | 9 per participant |
-| Lean Six Sigma trainer | Teaching the Green Belt body of knowledge in Module 14, for the cohort | 30 per cohort |
+| Lean Six Sigma trainer | Teaching the Green Belt body of knowledge in Module 15, for the cohort | 30 per cohort |
 
 ## Example cohort of 12
 

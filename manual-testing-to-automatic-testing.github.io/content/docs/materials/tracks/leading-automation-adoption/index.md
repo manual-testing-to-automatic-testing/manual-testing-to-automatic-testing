@@ -4,7 +4,7 @@
 
 **Outcomes:** people management at Practitioner, and medical device software regulation at Working, applied to automation adoption: team development plans, supplier testers, and regulated testing records.
 
-**Evidence:** folded into the Band 7 test management capstone (Module 13), with the Automation strategy and metrics work.
+**Evidence:** folded into the Band 7 test management capstone (Module 14), with the Automation strategy and metrics work.
 
 - [Team development plan template](team-development-plan-template.md)
 - [Adoption plan template](adoption-plan-template.md)

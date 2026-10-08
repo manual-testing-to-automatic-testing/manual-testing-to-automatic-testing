@@ -61,20 +61,20 @@ Tick only the row for this gate.
 
 | Evidence | Due at this gate? | Link | Reviewed by | Comment |
 | --- | --- | --- | --- | --- |
-| Evidence 0 Basics of a programming language: walkthrough signed off | Gate 0 | | | |
-| Evidence 1 Basics of a browser automator: walkthrough signed off | Gate 0 | | | |
-| Evidence 2 Basics of an AI assistant: walkthrough signed off | Gate 0 | | | |
-| Evidence 3 Induction and baseline | Gate 0 | | | |
-| Evidence 4 Automation candidate analysis | Gate 1 | | | |
-| Evidence 5 Programming exercises | Gate 1 | | | |
-| Evidence 6 Pull requests | Gate 1 | | | |
-| Evidence 7 Browser automation script | Gate 2 | | | |
-| Evidence 8 Real test suite and Given-When-Then | Gate 2 | | | |
-| Evidence 9 API and FHIR tests | Gate 3 | | | |
-| Evidence 10 CI pipeline and triage | Gate 3 | | | |
-| Evidence 11 Safe and lawful automation | Gate 4 | | | |
-| Evidence 12 Quality engineering | Gate 4 | | | |
-| Evidence 13 Capstone | Gate 4 | | | |
+| Evidence 1 Basics of a programming language: walkthrough signed off | Gate 0 | | | |
+| Evidence 2 Basics of a browser automator: walkthrough signed off | Gate 0 | | | |
+| Evidence 3 Basics of an AI assistant: walkthrough signed off | Gate 0 | | | |
+| Evidence 4 Induction and baseline | Gate 0 | | | |
+| Evidence 5 Automation candidate analysis | Gate 1 | | | |
+| Evidence 6 Programming exercises | Gate 1 | | | |
+| Evidence 7 Pull requests | Gate 1 | | | |
+| Evidence 8 Browser automation script | Gate 2 | | | |
+| Evidence 9 Real test suite and Given-When-Then | Gate 2 | | | |
+| Evidence 10 API and FHIR tests | Gate 3 | | | |
+| Evidence 11 CI pipeline and triage | Gate 3 | | | |
+| Evidence 12 Safe and lawful automation | Gate 4 | | | |
+| Evidence 13 Quality engineering | Gate 4 | | | |
+| Evidence 14 Capstone | Gate 4 | | | |
 | Track module evidence | As the track requires | | | |
 
 ## 6. Calibration notes

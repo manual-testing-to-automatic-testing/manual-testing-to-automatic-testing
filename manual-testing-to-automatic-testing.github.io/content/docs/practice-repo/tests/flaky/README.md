@@ -1,4 +1,4 @@
-# Flaky-test exercise (Module 12)
+# Flaky-test exercise (Module 13)
 
 `flaky.test.js` is deliberately flaky: it passes sometimes and fails sometimes, with no change to the code or the page. `fixed.test.js` is the same test, fixed. Neither runs in `npm test` or CI.
 
@@ -15,6 +15,6 @@ Both open [`slow-status.html`](slow-status.html), a tiny local page, so the exer
 4. Fix it without reading `fixed.test.js`, then compare.
 5. Run your fix 50 times with the same loop (`seq 1 50`) to show it is reliable.
 
-The evidence for Evidence 12 is your written root cause, your fix, and the two runs.
+The evidence for Evidence 13 is your written root cause, your fix, and the two runs.
 
 Never "fix" a flaky test by adding retries or a longer sleep. That hides the variation instead of removing it. Wait explicitly for the condition the test needs.

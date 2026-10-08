@@ -34,7 +34,7 @@ export type Heading = { depth: number; text: string; id: string };
 const SLUGS: Record<string, string> = {
   'README.md': 'about',
   'materials/planning/hr-briefing.md': 'human-resources-briefing',
-  'materials/modules/module-10-continuous-integration/ci-failure-triage-template.md':
+  'materials/modules/module-11-continuous-integration/ci-failure-triage-template.md':
     'continuous-integration-failure-triage-template',
   'practice-repo/README.md': 'practice-repository',
   'practice-repo/CONTRIBUTING.md': 'practice-repository-contributing',
@@ -49,13 +49,13 @@ const SLUGS: Record<string, string> = {
  * Every document's URL is flat and in full words: its file or folder name,
  * with no parent folders. spec/index.md -> spec; plan.md -> plan;
  * materials/gates/calibration-guide.md -> calibration-guide;
- * materials/modules/module-13-capstone/brief-band-3.md -> capstone-brief-band-3.
+ * materials/modules/module-14-capstone/brief-band-3.md -> capstone-brief-band-3.
  * Track guides are named by their title instead (see DOCS).
  */
 export function slugForPath(path: string): string {
   if (SLUGS[path]) return SLUGS[path];
   // A module's training content is under curriculum/, named for the module
-  // without its number: materials/modules/module-2-basics-of-an-ai-assistant/
+  // without its number: materials/modules/module-3-basics-of-an-ai-assistant/
   // training.md -> curriculum/basics-of-an-ai-assistant.
   const training = path.match(/^materials\/modules\/module-\d+-([^/]+)\/training\.md$/);
   if (training) return `curriculum/${training[1]}`;
@@ -86,26 +86,31 @@ const OLD_FOLDERS: [RegExp, string][] = [
 ];
 
 /**
- * A module's path before the three basics modules were added at the start,
- * when every later module's number was 3 lower: module-7-browser-automation-
- * fundamentals was module-4-browser-automation-fundamentals.
+ * A module's earlier paths. Modules were renumbered twice: three basics
+ * modules were added at the start (every later number grew by 3), then
+ * numbering moved to start at 1 (every number grew by 1). So today's
+ * module-8-browser-automation-fundamentals was module-7-... and, before the
+ * basics, module-4-...
  */
-function beforeBasics(path: string): string | undefined {
+function earlierPaths(path: string): string[] {
   const match = path.match(/\bmodule-(\d+)-/);
-  if (!match || Number(match[1]) < 3) return undefined;
-  return path.replace(/\bmodule-(\d+)-/, `module-${Number(match[1]) - 3}-`);
+  if (!match) return [];
+  const n = Number(match[1]);
+  return [n - 1, n - 4].filter((old) => old >= 0).map((old) => path.replace(/\bmodule-\d+-/, `module-${old}-`));
+}
+
+/** Its abbreviated form, from before abbreviations were written in full. */
+function abbreviate(slug: string): string {
+  return OLD_FOLDERS.reduce((s, [from, to]) => s.replace(from, to), slug);
 }
 
 /** The URLs a document used to have, so old links still arrive. */
 function oldSlugs(path: string): string[] {
-  const slugs = [nestedSlug(path) || 'about'];
-  const before = beforeBasics(path);
-  if (before) {
-    const nested = nestedSlug(before);
+  const nested = nestedSlug(path) || 'about';
+  const slugs = [nested, abbreviate(nested)];
+  for (const earlier of earlierPaths(path)) {
     // Flat, nested by folder, and with abbreviations, as each was published.
-    slugs.push(slugForPath(before), nested, OLD_FOLDERS.reduce((slug, [from, to]) => slug.replace(from, to), nested));
-  } else {
-    slugs.push(OLD_FOLDERS.reduce((slug, [from, to]) => slug.replace(from, to), slugs[0]));
+    slugs.push(slugForPath(earlier), nestedSlug(earlier), abbreviate(nestedSlug(earlier)));
   }
   return [...new Set(slugs)];
 }

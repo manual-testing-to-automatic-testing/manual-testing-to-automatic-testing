@@ -1,4 +1,4 @@
-// The flaky-test exercise (Module 12). This test is deliberately flaky: it
+// The flaky-test exercise (Module 13). This test is deliberately flaky: it
 // passes sometimes and fails sometimes, with no change to the code or the page.
 // Find out why before you read fixed.test.js.
 

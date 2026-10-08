@@ -84,11 +84,11 @@ The programme is counted in hours of protected learning time, not weeks or days.
 
 ### Basics to start
 
-Every track starts with three basics modules of 20 hours each, before induction: Module 0 Basics of a programming language, Module 1 Basics of a browser automator, and Module 2 Basics of an AI assistant. A manual tester who has never written code meets it first in a short, low-stakes pass, ending with a walkthrough to their mentor rather than a scored test, so the Gate 0 baseline measures someone who has already run their own code, their own browser script, and their own AI-assisted plan. The later modules then go deeper, rather than starting from nothing.
+Every track starts with three basics modules of 20 hours each, before induction: Module 1 Basics of a programming language, Module 2 Basics of a browser automator, and Module 3 Basics of an AI assistant. A manual tester who has never written code meets it first in a short, low-stakes pass, ending with a walkthrough to their mentor rather than a scored test, so the Gate 0 baseline measures someone who has already run their own code, their own browser script, and their own AI-assisted plan. The later modules then go deeper, rather than starting from nothing.
 
 ### Lean Six Sigma Green Belt to finish
 
-Every track ends with Module 14, a Lean Six Sigma Green Belt with a lifetime certification: 40 hours, after the capstone and Gate 4. Manual testing is itself the variation problem Six Sigma targets (testingexamples "How does Six Sigma lead manual testing into automatic testing?"), so the Green Belt gives every tester the method to measure a testing process, find root causes, and prove that automation improved it, rather than assume so. Each person's Green Belt project improves a real measure in their own team's testing, such as flaky tests or the time from a defect report to a regression test, and builds on the flow metrics from Module 12. A certificate that does not expire stays with the person, whatever their role later. It comes last because a Green Belt project needs the automation skills and the real data that the earlier modules produce.
+Every track ends with Module 15, a Lean Six Sigma Green Belt with a lifetime certification: 40 hours, after the capstone and Gate 4. Manual testing is itself the variation problem Six Sigma targets (testingexamples "How does Six Sigma lead manual testing into automatic testing?"), so the Green Belt gives every tester the method to measure a testing process, find root causes, and prove that automation improved it, rather than assume so. Each person's Green Belt project improves a real measure in their own team's testing, such as flaky tests or the time from a defect report to a regression test, and builds on the flow metrics from Module 13. A certificate that does not expire stays with the person, whatever their role later. It comes last because a Green Belt project needs the automation skills and the real data that the earlier modules produce.
 
 ### Toolset
 
@@ -96,7 +96,7 @@ JavaScript with Selenium and Mocha is the primary toolset. Selenium is the longe
 
 ### No Docker
 
-Participants do not have Docker, so nothing in the programme needs it. Every tool runs with Node.js and Chrome alone. The FHIR sandbox for Module 9 is a small FHIR R4 server written in plain JavaScript inside the practice repository, started with `npm run fhir`, or automatically by the API tests. Selenium Manager downloads the Chrome driver, so there is nothing else to install.
+Participants do not have Docker, so nothing in the programme needs it. Every tool runs with Node.js and Chrome alone. The FHIR sandbox for Module 10 is a small FHIR R4 server written in plain JavaScript inside the practice repository, started with `npm run fhir`, or automatically by the API tests. Selenium Manager downloads the Chrome driver, so there is nothing else to install.
 
 ## Choice of curriculum model
 
@@ -126,16 +126,16 @@ The programme follows PADDIE+M. Tasks for each phase are in [tasks.md](tasks.md)
 
 | Risk | Likelihood | Impact | Mitigation |
 | --- | --- | --- | --- |
-| People inflate self-ratings, or feel threatened by the baseline | High | High | Developmental-only gates (Decision 7); briefing at Module 3; independent manager ratings; evidence for every "Meets". |
+| People inflate self-ratings, or feel threatened by the baseline | High | High | Developmental-only gates (Decision 7); briefing at Module 4; independent manager ratings; evidence for every "Meets". |
 | Managers rate inconsistently across teams | High | Medium | Calibration with evidence; training lead moderates a 1 in 5 sample; calibration differences tracked in evaluation. |
 | Mixed-band cohort is too wide to teach together | Medium | Medium | Shared core sessions, track breakouts, depth table, coaching by Bands 6 and 7. |
-| The Green Belt exam is failed, or the certification body is unsuitable | Low | Medium | Choose an accredited body with a lifetime certificate and a resit policy (Decision 8); exam preparation within Module 14; one resit within three months. |
+| The Green Belt exam is failed, or the certification body is unsuitable | Low | Medium | Choose an accredited body with a lifetime certificate and a resit policy (Decision 8); exam preparation within Module 15; one resit within three months. |
 | Protected time is eroded by delivery pressure | High | High | Signed learning agreement; time in calendars; escalation by the training lead if more than 7.5 hours are lost in a gate period. |
-| Band 3 and Band 4 learners are overwhelmed by programming | Medium | High | Lower automation targets, mentor pairing in the first Module 5 sessions (hours 67.5–82.5), the option of 340 hours. |
+| Band 3 and Band 4 learners are overwhelmed by programming | Medium | High | Lower automation targets, mentor pairing in the first Module 6 sessions (hours 67.5–82.5), the option of 340 hours. |
 | Too few mentors at the right band and automation level | High | High | 3 participants per mentor at most; Band 7 test engineering participants mentor lower tracks under Coaching others in automation; external mentors for Band 7 test engineering if needed. |
 | The automation target is read as a claim for regrading | Medium | Medium | Scope and Principle 1 in the spec; HR briefing; targets above role recorded as strengths only. |
 | Reference gaps (Band 3, and other unmapped combinations) cause disputes | Medium | Medium | Mapping rule and Decision 6, recorded in the individual learning plan at Gate 0. |
-| Real patient data or secrets leak into tests | Low | High | Health care foundations and Module 11, repository scanning, and the Gate 2 condition on information governance. |
+| Real patient data or secrets leak into tests | Low | High | Health care foundations and Module 12, repository scanning, and the Gate 2 condition on information governance. |
 | Over-reliance on AI-generated tests | Medium | Medium | Every line must be explained at gates; Part D practicals are supervised. |
 | The reference data changes mid-programme | Low | Medium | Pin the reference version for the cohort; rebuild the instrument between cohorts. |
 

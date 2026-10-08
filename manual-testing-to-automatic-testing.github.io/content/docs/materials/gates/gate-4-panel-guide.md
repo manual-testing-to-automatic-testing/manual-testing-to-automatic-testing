@@ -1,6 +1,6 @@
 # Gate 4 panel guide
 
-Gate 4 (hour 240) decides whether a person's capability meets the programme's standard. Completion also needs the Lean Six Sigma Green Belt that follows (Module 14, Evidence 14). The panel reviews the full capability self-assessment, the Part D practical, and evidence Evidence 11 to 13.
+Gate 4 (hour 240) decides whether a person's capability meets the programme's standard. Completion also needs the Lean Six Sigma Green Belt that follows (Module 15, Evidence 15). The panel reviews the full capability self-assessment, the Part D practical, and evidence Evidence 12 to 14.
 
 ## The panel
 
@@ -10,7 +10,7 @@ Three people:
 - **A developer** from another team.
 - **The training lead.**
 
-The clinical safety officer reviews the traceability parts of Evidence 11 and Evidence 13 **in writing**, before the panel meets.
+The clinical safety officer reviews the traceability parts of Evidence 12 and Evidence 14 **in writing**, before the panel meets.
 
 Each panel member needs about 3 hours per person: 1.5 hours reading beforehand, 1 hour for the session, and 30 minutes to agree and record the result.
 
@@ -20,7 +20,7 @@ The training lead sends the panel, at least 5 working days before:
 
 - [ ] the person's track guide (`materials/tracks/<track>/index.md`)
 - [ ] the completed and calibrated instrument for Gate 4, and the Gate 3 one for comparison
-- [ ] Evidence 11 (safe and lawful automation), Evidence 12 (quality engineering), and Evidence 13 (capstone)
+- [ ] Evidence 12 (safe and lawful automation), Evidence 13 (quality engineering), and Evidence 14 (capstone)
 - [ ] track module evidence: Coaching others in automation log, Automation strategy and metrics work, Acceptance test automation or Leading teams through automation adoption outputs, as the track requires
 - [ ] the clinical safety officer's written review of traceability
 - [ ] the product owner's acceptance of the capstone
@@ -69,7 +69,7 @@ The panel checks every Gate 4 threshold:
 
 The panel may change an agreed rating only where the session shows clear evidence against it. It records each change and its reason on the [gate review form](gate-review-form.md).
 
-- **All thresholds met:** the person goes on to Module 14, the Lean Six Sigma Green Belt, and completes the programme when they hold the certification with an accepted Green Belt project (Evidence 14). Gate 5, about six months after Gate 4, confirms the capability holds.
+- **All thresholds met:** the person goes on to Module 15, the Lean Six Sigma Green Belt, and completes the programme when they hold the certification with an accepted Green Belt project (Evidence 15). Gate 5, about six months after Gate 4, confirms the capability holds.
 - **Not met:** up to 22.5 extra learning hours on the items below threshold, with a written plan and extra mentor time, and one repeat of the panel. If the repeat is not met, the person, line manager, and training lead agree a next step.
 
 ## What the panel does not decide

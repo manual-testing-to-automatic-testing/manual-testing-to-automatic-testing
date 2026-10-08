@@ -1,4 +1,4 @@
-# Katas (Module 5)
+# Katas (Module 6)
 
 Small programming exercises with unit tests. Each kata is a source file in
 [`../../src/katas/`](../../src/katas/) and a test file here. Run them with:
@@ -14,11 +14,11 @@ npm run test:katas
 3. Run `npm run test:katas` and watch the tests fail.
 4. Write the function until every test passes.
 5. Add at least one test of your own that the existing tests miss.
-6. Open a pull request (Module 6) and ask your mentor to review it.
+6. Open a pull request (Module 7) and ask your mentor to review it.
 
 ## Which katas each track does
 
-The spec sets the number of katas for each track (Evidence 5).
+The spec sets the number of katas for each track (Evidence 6).
 
 | Kata | Topic                                                | Band 3 (5) | Band 4, Band 7 test management (8) | Band 5, Band 6 (10) | Band 7 test engineering (10 harder) |
 | ---- | ---------------------------------------------------- | ---------- | ---------------------------------- | ------------------- | ----------------------------------- |

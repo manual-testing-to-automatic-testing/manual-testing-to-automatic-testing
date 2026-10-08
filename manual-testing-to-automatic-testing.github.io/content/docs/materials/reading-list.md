@@ -6,7 +6,7 @@ testingexamples.github.io articles use the English canonical address `/en-001/<s
 
 Practice on the fixture site, local services, and your own test environments. Read, but do not repeatedly run, worked examples that target live third-party sites (Google Search, Google Maps, NHS Wales).
 
-## Module 3 Induction and baseline
+## Module 4 Induction and baseline
 
 | Resource | Link | Format |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | UK GDaD PCF | <https://understand-digital-data-roles-skills.service.gov.uk/> | Web |
 | Programme specification | [../spec/index.md](../spec/index.md) | Markdown |
 
-## Module 4 Why and what to automate
+## Module 5 Why and what to automate
 
 | Resource | Link | Format |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | How does Six Sigma lead manual testing into automatic testing? | <https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/> | Article |
 | Learn hub | <https://testingexamples.github.io/en-001/learn/> | Web |
 
-## Module 5 Programming foundations in JavaScript
+## Module 6 Programming foundations in JavaScript
 
 | Resource | Link | Format |
 | --- | --- | --- |
@@ -41,7 +41,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | Visual Studio Code documentation | <https://code.visualstudio.com/docs> | Web, video |
 | Kata files | `practice-repo/src/katas/` and `practice-repo/tests/katas/` | Code |
 
-## Module 6 Version control and collaboration
+## Module 7 Version control and collaboration
 
 | Resource | Link | Format |
 | --- | --- | --- |
@@ -50,7 +50,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | A testingexamples repository to read the history of | <https://github.com/testingexamples/demo-selenium-javascript> | Code |
 | The team's contribution guidelines | Team repository | Markdown |
 
-## Module 7 Browser automation fundamentals
+## Module 8 Browser automation fundamentals
 
 | Resource | Link | Format |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | Selenium: select lists | <https://www.selenium.dev/documentation/webdriver/support_features/select_lists/> | Web |
 | Selenium IDE | <https://www.selenium.dev/selenium-ide/> | Web, browser extension |
 
-## Module 8 From walkthrough to real test
+## Module 9 From walkthrough to real test
 
 | Resource | Link | Format |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | Node.js `assert` | <https://nodejs.org/docs/latest-v24.x/api/assert.html> | Web |
 | Selenium: page object models | <https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/> | Web |
 
-## Module 9 API, integration, and FHIR tests
+## Module 10 API, integration, and FHIR tests
 
 | Resource | Link | Format |
 | --- | --- | --- |
@@ -88,7 +88,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | Example FHIR suite | `practice-repo/tests/api/fhir.test.js` | Code |
 | The team's interface specifications | Team documentation | Various |
 
-## Module 10 Continuous integration and DevOps
+## Module 11 Continuous integration and DevOps
 
 | Resource | Link | Format |
 | --- | --- | --- |
@@ -100,7 +100,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | Practice pipeline | `practice-repo/.github/workflows/ci.yml` | Code |
 | The organisation's CI documentation | Decision 2 | Various |
 
-## Module 11 Safe and lawful test automation in health care
+## Module 12 Safe and lawful test automation in health care
 
 | Resource | Link | Format |
 | --- | --- | --- |
@@ -112,7 +112,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | axe-core for Selenium (`@axe-core/webdriverjs`) | <https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverjs> | Web, code |
 | IEC 62304 | <https://www.iso.org/standard/38421.html> | Standard (summary page) |
 
-## Module 12 Quality engineering practice
+## Module 13 Quality engineering practice
 
 | Resource | Link | Format |
 | --- | --- | --- |
@@ -122,22 +122,22 @@ Practice on the fixture site, local services, and your own test environments. Re
 | Flaky-test exercise | `practice-repo/tests/flaky/README.md` | Code |
 | Selenium: waits (the usual cause of flaky Selenium tests) | <https://www.selenium.dev/documentation/webdriver/waits/> | Web |
 
-## Module 13 Capstone
+## Module 14 Capstone
 
 Everything above, plus:
 
 | Resource | Link | Format |
 | --- | --- | --- |
-| Capstone briefs, scope agreement, and presentation outline | [modules/module-13-capstone/](modules/module-13-capstone/index.md) | Markdown |
+| Capstone briefs, scope agreement, and presentation outline | [modules/module-14-capstone/](modules/module-14-capstone/index.md) | Markdown |
 
-## Module 14 Lean Six Sigma Green Belt
+## Module 15 Lean Six Sigma Green Belt
 
 | Resource | Link | Format |
 | --- | --- | --- |
 | How does Six Sigma lead manual testing into automatic testing? | <https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/> | Web |
 | What metrics help automatic testing? (flow metrics, revisited) | <https://testingexamples.github.io/en-001/what-are-flow-metrics-for-automatic-testing/> | Web |
 | The certification body's Green Belt body of knowledge and practice exams | Chosen under Decision 8 | Course materials |
-| Module 14 module page and Green Belt project charter | [modules/module-14-lean-six-sigma-green-belt/](modules/module-14-lean-six-sigma-green-belt/index.md) | Markdown |
+| Module 15 module page and Green Belt project charter | [modules/module-15-lean-six-sigma-green-belt/](modules/module-15-lean-six-sigma-green-belt/index.md) | Markdown |
 
 ## Other languages and tools (after Gate 2)
 

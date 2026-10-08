@@ -19,15 +19,15 @@ Gate results are developmental only. They never start a capability, performance,
 
 | Gate | Programme hour | Module evidence | Part D practical | Reviewers |
 | --- | --- | --- | --- | --- |
-| Gate 0 | 60 | Evidence 0–3 | — (unscored diagnostic only) | Person, line manager, mentor, training lead |
-| Gate 1 | 105 | Evidence 4–6 | Fix a failing unit test and open a pull request | Line manager, mentor |
-| Gate 2 | 150 | Evidence 7–8 | Automate one given manual test case on the fixture site (Band 3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
-| Gate 3 | 187.5 | Evidence 9–10 | Triage and fix a failing CI run (Band 6 and Band 7 test engineering: plus an API test; Band 7 test management: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
-| Gate 4 | 240 | Evidence 11–13 | Live run and explanation of the capstone | Gate 4 panel |
-| Certification | By 280 | Evidence 14 | The Lean Six Sigma Green Belt certification exam, set by the certification body (Decision 8) | Certification body; the training lead and mentor review the Green Belt project |
+| Gate 0 | 60 | Evidence 1–4 | — (unscored diagnostic only) | Person, line manager, mentor, training lead |
+| Gate 1 | 105 | Evidence 5–7 | Fix a failing unit test and open a pull request | Line manager, mentor |
+| Gate 2 | 150 | Evidence 8–9 | Automate one given manual test case on the fixture site (Band 3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
+| Gate 3 | 187.5 | Evidence 10–11 | Triage and fix a failing CI run (Band 6 and Band 7 test engineering: plus an API test; Band 7 test management: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
+| Gate 4 | 240 | Evidence 12–14 | Live run and explanation of the capstone | Gate 4 panel |
+| Certification | By 280 | Evidence 15 | The Lean Six Sigma Green Belt certification exam, set by the certification body (Decision 8) | Certification body; the training lead and mentor review the Green Belt project |
 | Gate 5 | About six months after Gate 4, outside the 340 hours | Six months of work | Demonstrate a recent automated change | Line manager, training lead |
 
-With the optional extension to 340 hours for Band 3 and Band 4, the gates move to hours 60, 120, 180, 232.5, and 300, Module 14 runs in hours 300–340, and Gate 5 follows about six months after Gate 4.
+With the optional extension to 340 hours for Band 3 and Band 4, the gates move to hours 60, 120, 180, 232.5, and 300, Module 15 runs in hours 300–340, and Gate 5 follows about six months after Gate 4.
 
 ## Thresholds
 
@@ -60,7 +60,7 @@ For Part C, a skill **meets** when the gap (expected level minus agreed rating) 
 
 ## Completion
 
-A person completes the programme when every threshold for Gate 4 is met, and they hold the Lean Six Sigma Green Belt certification with an accepted Green Belt project (Evidence 14, module [Module 14](../modules/module-14-lean-six-sigma-green-belt/index.md)). If the exam is not passed, there is one resit, within three months. Gate 5 confirms that the capability holds in normal work.
+A person completes the programme when every threshold for Gate 4 is met, and they hold the Lean Six Sigma Green Belt certification with an accepted Green Belt project (Evidence 15, module [Module 15](../modules/module-15-lean-six-sigma-green-belt/index.md)). If the exam is not passed, there is one resit, within three months. Gate 5 confirms that the capability holds in normal work.
 
 ## Materials
 

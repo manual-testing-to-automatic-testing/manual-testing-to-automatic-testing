@@ -4,7 +4,7 @@
 
 **Outcome:** guide and coach others in automation, as the Practitioner and Expert level descriptions require. It also supports Part A dimensions Part A item 4: Leadership and Part A item 14: Responsibility for people.
 
-**Evidence:** a [coaching log](coaching-log.tsv) for one or two cohort members from a lower band, with their feedback. Band 6 quality assurance also coaches a Band 4 or Band 5 colleague through their capstone (Module 13).
+**Evidence:** a [coaching log](coaching-log.tsv) for one or two cohort members from a lower band, with their feedback. Band 6 quality assurance also coaches a Band 4 or Band 5 colleague through their capstone (Module 14).
 
 ## How it works
 

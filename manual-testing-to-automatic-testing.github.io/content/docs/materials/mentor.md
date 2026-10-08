@@ -28,11 +28,11 @@ The training lead names each participant's mentor before hour 0, because the men
 
 | Programme hours | Stage | What the mentor does |
 | --- | --- | --- |
-| 0–60 | The basics: [Module 0](modules/module-0-basics-of-a-programming-language/index.md), [Module 1](modules/module-1-basics-of-a-browser-automator/index.md), [Module 2](modules/module-2-basics-of-an-ai-assistant/index.md) | A 30-minute start; a 1-hour check-in in each module; a 1-hour walkthrough at the end of each module, and the walkthrough sign-off (Evidence 0 to 2). Agrees any other language, browser automator, or AI assistant the person wants to use for the basics. |
-| 60 | Gate 0 and [Module 3 Induction](modules/module-3-induction/index.md) | Joins induction; helps set up the practice repository; moderates self and manager ratings if they differ by more than one level. |
-| 60–105 | [Module 5 Programming foundations](modules/module-5-programming-foundations/index.md) and [Module 6 Version control](modules/module-6-version-control/index.md) | Pairs on katas with Band 3, Band 4, and Band 5 participants in hours 67.5–82.5; reviews katas and pull requests; prepares the person for Gate 1. |
-| 105–240 | Modules 7 to 13 | Reviews pull requests; runs [Role foundations](tracks/role-foundations/index.md) practice; supervises Part D practicals where possible ([Part D practicals](gates/part-d-practicals.md)); agrees the capstone scope with the product owner at hour 202.5, and reviews the capstone in every 7.5-hour block. |
-| 240–280 | [Module 14 Lean Six Sigma Green Belt](modules/module-14-lean-six-sigma-green-belt/index.md) | Supports the Green Belt project; for Band 3 and Band 4, may lead the team project the person takes part in; reviews the project with the training lead and the product owner. |
+| 0–60 | The basics: [Module 1](modules/module-1-basics-of-a-programming-language/index.md), [Module 2](modules/module-2-basics-of-a-browser-automator/index.md), [Module 3](modules/module-3-basics-of-an-ai-assistant/index.md) | A 30-minute start; a 1-hour check-in in each module; a 1-hour walkthrough at the end of each module, and the walkthrough sign-off (Evidence 1 to 3). Agrees any other language, browser automator, or AI assistant the person wants to use for the basics. |
+| 60 | Gate 0 and [Module 4 Induction](modules/module-4-induction/index.md) | Joins induction; helps set up the practice repository; moderates self and manager ratings if they differ by more than one level. |
+| 60–105 | [Module 6 Programming foundations](modules/module-6-programming-foundations/index.md) and [Module 7 Version control](modules/module-7-version-control/index.md) | Pairs on katas with Band 3, Band 4, and Band 5 participants in hours 67.5–82.5; reviews katas and pull requests; prepares the person for Gate 1. |
+| 105–240 | Modules 8 to 14 | Reviews pull requests; runs [Role foundations](tracks/role-foundations/index.md) practice; supervises Part D practicals where possible ([Part D practicals](gates/part-d-practicals.md)); agrees the capstone scope with the product owner at hour 202.5, and reviews the capstone in every 7.5-hour block. |
+| 240–280 | [Module 15 Lean Six Sigma Green Belt](modules/module-15-lean-six-sigma-green-belt/index.md) | Supports the Green Belt project; for Band 3 and Band 4, may lead the team project the person takes part in; reviews the project with the training lead and the product owner. |
 | After Gate 4 | Gate 5 follow-up | No set time. |
 
 At every gate, the mentor helps the person prepare their evidence, but does not chair the Gate 4 panel for their own participants.
@@ -43,7 +43,7 @@ Per participant, from the [spec's roles and responsibilities](../spec/index.md#r
 
 | Programme hours | Rate | Hours |
 | --- | --- | --- |
-| 0–60, the basics | A 30-minute start, then a 1-hour check-in and a 1-hour walkthrough in each of Modules 0 to 2 | 6.5 |
+| 0–60, the basics | A 30-minute start, then a 1-hour check-in and a 1-hour walkthrough in each of Modules 1 to 3 | 6.5 |
 | 60–105 | 1.5 hours per 7.5 learning hours (6 blocks) | 9 |
 | 105–240 | 1 hour per 7.5 learning hours (18 blocks) | 18 |
 | 240–280 | Green Belt project support and review | About 5 |

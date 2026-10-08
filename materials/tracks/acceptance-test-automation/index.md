@@ -4,7 +4,7 @@
 
 **Outcomes:** Practitioner in business and user acceptance testing, applied to automation: turn acceptance criteria into automated checks, plan user acceptance testing with clinicians, and report residual risk.
 
-**Evidence:** folded into the Band 6 quality assurance capstone (Module 13).
+**Evidence:** folded into the Band 6 quality assurance capstone (Module 14).
 
 ## Exercise: from acceptance criteria to automated checks, with clinicians
 

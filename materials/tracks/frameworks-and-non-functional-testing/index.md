@@ -4,7 +4,7 @@
 
 **Outcomes:** extend, standardise, and build reusable frameworks; plan and run performance, load, and resilience tests based on real clinical demand; maintain and adapt CI/CD pipelines.
 
-**Evidence:** folded into the Band 7 test engineering capstone (Module 13).
+**Evidence:** folded into the Band 7 test engineering capstone (Module 14).
 
 The exercises are written to be tool-neutral where possible. The defaults are JavaScript with Selenium and Mocha for shared helpers, and **k6** for load tests, because k6 scripts are JavaScript, run headless in CI, and keep load generation separate from browser tests. Install k6 as its standalone binary from <https://grafana.com/docs/k6/latest/set-up/install-k6/>, not as a container: participants have no Docker. Another load tool is fine if the organisation already uses one (spec Decision 1).
 
@@ -12,7 +12,7 @@ The exercises are written to be tool-neutral where possible. The defaults are Ja
 
 **Goal:** turn repeated set-up code across the cohort's suites into shared helpers and Mocha hooks.
 
-1. Read three participants' Module 8 and Module 9 suites. List repeated code: logging in, creating a synthetic patient, opening a page, calling the FHIR server.
+1. Read three participants' Module 9 and Module 10 suites. List repeated code: logging in, creating a synthetic patient, opening a page, calling the FHIR server.
 2. Design shared helpers in `tests/support/`, for example:
    - a driver factory that builds one configured Chrome driver (headless in CI, window size, timeouts), with Mocha root hooks that start it before a suite and always quit it after
    - an `afterEach` hook that saves a screenshot and the page source to `test-results/` when a test fails

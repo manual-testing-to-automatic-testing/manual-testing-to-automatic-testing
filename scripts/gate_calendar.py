@@ -3,11 +3,11 @@
 
 The schedule comes from spec/index.md, section "Schedule and time", in
 programme hours: 280 hours of protected learning time, counted from 0. It starts
-with the basics, Modules 0 to 2 (hours 0-60), and ends with Module 14, the Lean
+with the basics, Modules 1 to 3 (hours 0-60), and ends with Module 15, the Lean
 Six Sigma Green Belt (hours 240-280). At the default pace of 7.5 hours a week
 (20% of a 37.5-hour week), the programme runs over about 38 weeks. Gate 5 is a follow-up about six months after Gate 4. With the extension
 to 340 hours for Band 3 and Band 4, the gates move to hours 60, 120, 180, 232.5, and 300,
-and Module 14 runs in hours 300-340.
+and Module 15 runs in hours 300-340.
 
 Usage:
     python3 scripts/gate_calendar.py 2027-01-11 [--hours-per-week 7.5] [--extended] [--tsv]
@@ -19,38 +19,38 @@ import math
 
 FOLLOW_UP_WEEKS = 26  # about six months after Gate 4
 
-GATES = [(60, "Gate 0 (baseline)"), (105, "Gate 1"), (150, "Gate 2"), (187.5, "Gate 3, before Module 11"), (240, "Gate 4"), (280, "Green Belt certification exam")]
-EXTENDED_GATES = [(60, "Gate 0 (baseline)"), (120, "Gate 1"), (180, "Gate 2"), (232.5, "Gate 3, before Module 11"), (300, "Gate 4"), (340, "Green Belt certification exam")]
+GATES = [(60, "Gate 0 (baseline)"), (105, "Gate 1"), (150, "Gate 2"), (187.5, "Gate 3, before Module 12"), (240, "Gate 4"), (280, "Green Belt certification exam")]
+EXTENDED_GATES = [(60, "Gate 0 (baseline)"), (120, "Gate 1"), (180, "Gate 2"), (232.5, "Gate 3, before Module 12"), (300, "Gate 4"), (340, "Green Belt certification exam")]
 
 # The basics, the same in both lengths.
 BASICS = [
-    ("Module 0 Basics of a programming language", 0, 20),
-    ("Module 1 Basics of a browser automator", 20, 40),
-    ("Module 2 Basics of an AI assistant", 40, 60),
+    ("Module 1 Basics of a programming language", 0, 20),
+    ("Module 2 Basics of a browser automator", 20, 40),
+    ("Module 3 Basics of an AI assistant", 40, 60),
 ]
 
 # (name, from hour, to hour), from the spec's schedule.
 MODULES = [
     *BASICS,
-    ("Module 3 Induction and baseline", 60, 67.5),
-    ("Module 4 Why and what to automate", 60, 75),
+    ("Module 4 Induction and baseline", 60, 67.5),
+    ("Module 5 Why and what to automate", 60, 75),
     ("Role foundations", 60, 240),
-    ("Module 5 Programming foundations in JavaScript", 67.5, 105),
+    ("Module 6 Programming foundations in JavaScript", 67.5, 105),
     ("Health care foundations", 67.5, 120),
-    ("Module 6 Version control and collaboration", 82.5, 105),
-    ("Module 7 Browser automation fundamentals", 105, 127.5),
-    ("Module 8 From walkthrough to real test", 127.5, 150),
+    ("Module 7 Version control and collaboration", 82.5, 105),
+    ("Module 8 Browser automation fundamentals", 105, 127.5),
+    ("Module 9 From walkthrough to real test", 127.5, 150),
     ("Coaching others in automation (Band 6, Band 7)", 127.5, 210),
-    ("Module 9 API, integration, and FHIR tests", 150, 172.5),
+    ("Module 10 API, integration, and FHIR tests", 150, 172.5),
     ("Acceptance test automation (Band 6 quality assurance)", 150, 187.5),
-    ("Module 10 Continuous integration and DevOps", 172.5, 187.5),
+    ("Module 11 Continuous integration and DevOps", 172.5, 187.5),
     ("Automation strategy and metrics (Band 6 quality assurance, Band 7)", 172.5, 210),
     ("Frameworks and non-functional testing (Band 7 test engineering)", 172.5, 210),
     ("Leading teams through automation adoption (Band 7 test management)", 172.5, 210),
-    ("Module 11 Safe and lawful test automation in health care", 187.5, 202.5),
-    ("Module 12 Quality engineering practice", 195, 210),
-    ("Module 13 Capstone", 202.5, 240),
-    ("Module 14 Lean Six Sigma Green Belt, lifetime certification", 240, 280),
+    ("Module 12 Safe and lawful test automation in health care", 187.5, 202.5),
+    ("Module 13 Quality engineering practice", 195, 210),
+    ("Module 14 Capstone", 202.5, 240),
+    ("Module 15 Lean Six Sigma Green Belt, lifetime certification", 240, 280),
 ]
 
 
@@ -97,7 +97,7 @@ def main():
     else:
         for name, first, last in BASICS:
             rows.append(("module", name, first, last, week_of(first, pace, True), week_of(last, pace, False)))
-        rows.append(("module", "Module 14 Lean Six Sigma Green Belt, lifetime certification", 300, 340, week_of(300, pace, True), week_of(340, pace, False)))
+        rows.append(("module", "Module 15 Lean Six Sigma Green Belt, lifetime certification", 300, 340, week_of(300, pace, True), week_of(340, pace, False)))
     rows.sort(key=lambda r: (r[4], r[0] != "gate", r[2]))
     gate4 = monday(week_of(max(hour for hour, name in gates if name == "Gate 4"), pace, False))
     follow_up = gate4 + dt.timedelta(weeks=FOLLOW_UP_WEEKS)

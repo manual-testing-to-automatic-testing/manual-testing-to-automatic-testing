@@ -9,7 +9,7 @@ Part D is a short, supervised automation practical at Gates 1 to 5. It shows wha
 - **Help allowed:** documentation, the person's own notes and code, and the testingexamples skills. AI assistants are allowed only if the person explains every line they submit (spec Principle 15). The supervisor answers questions about the task, not about the solution.
 - **Accessibility:** reasonable adjustments in the individual learning plan apply, for example extra time or a spoken explanation instead of a written one.
 
-Gate 0 has no Part D. The Module 3 diagnostic coding exercise is unscored and only tunes Module 5 pacing.
+Gate 0 has no Part D. The Module 4 diagnostic coding exercise is unscored and only tunes Module 6 pacing.
 
 ## Common marking notes
 
@@ -72,7 +72,7 @@ A walkthrough that acts on a page and prints output, without assertions, is neve
 | Band 3, Band 4 quality assurance | Classifies the failure correctly from the log, screenshot, or page source, and writes a clear defect report or fix request with steps, data, and evidence. | Classifies correctly but the report lacks evidence. | Cannot classify the failure. |
 | Band 4 test engineering | Classifies correctly and fixes a test defect, or raises a clear defect report for a product or environment problem. | Classifies correctly but needs help with the fix. | Cannot classify the failure. |
 | Band 5 quality assurance | Classifies, fixes or reports, and re-runs the pipeline to green where the fix is theirs to make. | Classifies and reports, but cannot fix a test defect. | Cannot classify the failure. |
-| Band 7 test management | As Band 5 quality assurance Meets, and adds one API test that reads a synthetic `Patient` with `fetch` and checks the status and body with `assert`. Because Module 9 is read-only for Band 7 test management, one hint is allowed on the API test. | Triage is Meets, but the API test needs several hints or is incomplete. | Triage is not Meets. |
+| Band 7 test management | As Band 5 quality assurance Meets, and adds one API test that reads a synthetic `Patient` with `fetch` and checks the status and body with `assert`. Because Module 10 is read-only for Band 7 test management, one hint is allowed on the API test. | Triage is Meets, but the API test needs several hints or is incomplete. | Triage is not Meets. |
 | Band 6 quality assurance, Band 6 test engineering | As Band 5 Meets, and adds one API test that reads a synthetic `Patient` with `fetch` and checks the status and body with `assert`. | Triage is Meets, but the API test is incomplete. | Triage is not Meets. |
 | Band 7 test engineering | As Band 6 Meets, and proposes a pipeline change that would catch or prevent this failure earlier, such as a quarantine rule or a smoke stage. | As Band 6 Meets, without the proposal. | As Band 6 Partly or worse. |
 

@@ -11,7 +11,7 @@ Health care foundations runs in hours 67.5–120 for every track. Its purpose is
 | 5 Shadowing a clinical or care user | Between hours 82.5 and 120, in normal working time | Line manager arranges | About 3.5 hours, outside the learning hours | All |
 | 6 Wrap-up and Part C self-check | 112.5–120 | Training lead | 1 hour | All |
 
-Health care foundations takes 7 learning hours in all (sessions 1, 2, 3, 4, and 6), within hours 67.5–120. Shadowing happens in normal working time, because it is part of knowing the work. The cohort total for the clinical safety officer is 3 hours here, within the spec's 6 hours per cohort, leaving about 3 hours for Module 11. The information governance lead gives 1.5 hours here and the rest of their 3 hours in Module 11.
+Health care foundations takes 7 learning hours in all (sessions 1, 2, 3, 4, and 6), within hours 67.5–120. Shadowing happens in normal working time, because it is part of knowing the work. The cohort total for the clinical safety officer is 3 hours here, within the spec's 6 hours per cohort, leaving about 3 hours for Module 12. The information governance lead gives 1.5 hours here and the rest of their 3 hours in Module 12.
 
 ## Session 1: How the organisation's services support care
 
@@ -61,7 +61,7 @@ Health care foundations takes 7 learning hours in all (sessions 1, 2, 3, 4, and 
 3. (25 minutes) For each hazard: the existing controls, and which tests (manual or automated) give evidence that the controls work.
 4. (20 minutes) Groups present; the clinical safety officer agrees which hazards go in the log.
 
-**Output:** each person records one hazard and its test evidence in their learning log. This seeds the Module 11 traceability matrix.
+**Output:** each person records one hazard and its test evidence in their learning log. This seeds the Module 12 traceability matrix.
 
 ## Session 5: Shadowing a clinical or care user
 
