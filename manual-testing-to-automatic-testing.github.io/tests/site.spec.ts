@@ -40,7 +40,7 @@ test('the home page sends people to the tracks page, which lists all eight track
   const find = page.getByRole('link', { name: 'Find your track' });
   await expect(find).toHaveAttribute('href', '/en-001/tracks/');
   await find.click();
-  const items = page.locator('#find-your-track + p + ul > li');
+  const items = page.locator('article h1 + p + ul > li');
   await expect(items).toHaveCount(8);
   for (const band of ['3', '4', '4', '5', '6', '6', '7', '7'].entries()) {
     await expect(items.nth(band[0])).toHaveText(new RegExp(`^Track for Band ${band[1]} `));
@@ -118,24 +118,6 @@ test('the tracks page links each track to its page', async ({ page }) => {
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Track for Band 3 associate quality assurance test analyst');
 });
 
-test('old URLs forward to the flat ones', async ({ page }) => {
-  await page.goto('/en-001/materials/tracks/b3/');
-  await expect(page).toHaveURL(/\/en-001\/track-for-band-3-associate-quality-assurance-test-analyst\/$/);
-  await page.goto('/en-001/materials/gates/calibration-guide/');
-  await expect(page).toHaveURL(/\/en-001\/calibration-guide\/$/);
-  // Each published numbering of Module 10 Browser automation fundamentals.
-  for (const old of ['module-4-browser-automation-fundamentals', 'module-7-browser-automation-fundamentals', 'module-8-browser-automation-fundamentals']) {
-    await page.goto(`/en-001/${old}/`);
-    await expect(page).toHaveURL(/\/en-001\/module-10-browser-automation-fundamentals\/$/);
-  }
-  await page.goto('/en-001/module-0-basics-of-a-programming-language/');
-  await expect(page).toHaveURL(/\/en-001\/module-1-basics-of-a-programming-language\/$/);
-  await page.goto('/en-001/materials/modules/m0-induction/');
-  await expect(page).toHaveURL(/\/en-001\/module-6-induction\/$/);
-  await page.goto('/en-001/self-assessment/band-5-quality-assurance-test-analyst/');
-  await expect(page).toHaveURL(/\/en-001\/track-for-band-5-quality-assurance-test-analyst\/#self-assessment$/);
-});
-
 test('the mentor and line manager pages explain the role and its time', async ({ page }) => {
   await page.goto('/en-001/mentor/');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Mentor');
@@ -168,8 +150,6 @@ test('the ISTQB module pages have their own addresses', async ({ page }) => {
   await page.goto('/en-001/istqb-certified-tester-foundation-level-4/');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Module 4 ISTQB Certified Tester Foundation Level v4.0');
   await expect(page.getByRole('heading', { name: 'Is ISTQB certification still relevant?' })).toBeVisible();
-  await page.goto('/en-001/istby-certified-tester-foundation-level-4/');
-  await expect(page).toHaveURL(/\/en-001\/istqb-certified-tester-foundation-level-4\/$/);
   await page.goto('/en-001/istqb-certified-tester-advanced-level-test-automation-engineer/');
   await expect(page.getByRole('link', { name: /ISTQB_CTAL-TAE_Syllabus_v2\.0\.pdf/ })).toBeVisible();
 });
@@ -182,7 +162,4 @@ test('the CTAL-TAE syllabus is explained, one page per heading', async ({ page }
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('7.1.3 Identify Where Test Automation Produces Unexpected Results');
   await page.getByRole('link', { name: '7.1.4 Explain How Static Analysis Can Aid Test Automation Code Quality' }).click();
   await expect(page).toHaveURL(new RegExp(`${base}7-1-4-explain-how-static-analysis-can-aid-test-automation-code-quality/$`));
-  // The first, one-segment addresses forward to the new ones.
-  await page.goto('/en-001/istqb-certified-tester-advanced-level-test-automation-engineering-syllabus/7-1-3-identify-where-test-automation-produces-unexpected-results/');
-  await expect(page).toHaveURL(new RegExp(`${base}7-1-3-identify-where-test-automation-produces-unexpected-results/$`));
 });

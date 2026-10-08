@@ -34,18 +34,6 @@
 
 </script>
 
-<svelte:head>
-  {#if data.redirect}
-    <meta http-equiv="refresh" content="0; url={data.redirect}" />
-    <link rel="canonical" href={data.redirect} />
-    <meta name="robots" content="noindex" />
-  {/if}
-</svelte:head>
-
-{#if data.redirect}
-  <h1>Moved</h1>
-  <p>This page has moved to <a href={data.redirect}>{data.redirect}</a>.</p>
-{:else}
 <article class="doc prose" bind:this={article}>
   {@html data.html}
   {#if data.assessment}
@@ -76,4 +64,3 @@
   {/if}
   <p class="doc-source"><a href={data.source}>{chrome.doc.viewSource}</a> <code>{data.path}</code></p>
 </article>
-{/if}

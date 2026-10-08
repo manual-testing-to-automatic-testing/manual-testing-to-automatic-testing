@@ -60,7 +60,6 @@ Trailing slashes always. Every page is under a locale (see `spec/locales/index.m
 | `/<locale>/track-for-<band and role level>/` | A track's page, named by its guide's title, for example `track-for-band-3-associate-quality-assurance-test-analyst`: the track guide from `materials/tracks/<track>/index.md`, then the track's capability self-assessment, at `#self-assessment` |
 | `/<locale>/curriculum/<module name>/` | A module's training content, from `materials/modules/module-<n>-<module name>/training.md`, for example `curriculum/basics-of-an-ai-assistant` |
 | `/<locale>/istqb/certified-tester-advanced-level/test-automation-engineering/syllabus/<section>/` | The CTAL-TAE syllabus explained, one page per chapter, section, and learning objective, from `materials/modules/module-5-istqb-certified-tester-advanced-level-test-automation-engineer/syllabus/`, for example `7-1-3-identify-where-test-automation-produces-unexpected-results`; the folder's `index.md` is the contents page |
-| Old URLs | Every document's earlier URL, nested by folder (such as `materials/gates/calibration-guide`) or with abbreviations (such as `materials/tracks/b3`), and the old `self-assessment/` pages, are static pages that forward to the current URL |
 | `/<locale>/search/?<query>` | Search results, from the search picker |
 | `/<locale>/search-index.json` | The search index |
 | `/downloads/<path>.tsv` | A vendored TSV |

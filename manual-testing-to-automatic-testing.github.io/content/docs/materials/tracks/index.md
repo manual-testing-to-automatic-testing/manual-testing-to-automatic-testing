@@ -1,9 +1,5 @@
 # Tracks
 
-The programme has eight tuned tracks, one for each band and UK GDaD PCF role combination. All tracks share one schedule, one set of gates, and one set of core modules. [spec/index.md](../../spec/index.md#tracks) is the single source of truth.
-
-## Find your track
-
 Find the track for your band and UK GDaD PCF role. Each track's page has its guide and its self-assessment.
 
 <!-- track list: written by scripts/build_track_guides.py -->

@@ -32,8 +32,6 @@ export type Heading = { depth: number; text: string; id: string };
 
 /** The CTAL-TAE syllabus pages' address, in segments. */
 const SYLLABUS_BASE = 'istqb/certified-tester-advanced-level/test-automation-engineering/syllabus';
-/** Its first address, as one segment. */
-const OLD_SYLLABUS_BASE = 'istqb-certified-tester-advanced-level-test-automation-engineering-syllabus';
 
 /** Documents whose URL is not their own file or folder name. */
 const SLUGS: Record<string, string> = {
@@ -78,60 +76,9 @@ export function slugForPath(path: string): string {
   return name.replace(/^brief-/, 'capstone-brief-');
 }
 
-/** The URL a document had when URLs followed its folders: materials/gates/calibration-guide. */
+/** A document's path without index.md or README.md: materials/gates/calibration-guide. */
 function nestedSlug(path: string): string {
   return path.replace(/(^|\/)(index|README)\.md$/, '').replace(/\.md$/, '');
-}
-
-/** Old track folder names, before abbreviations were written in full. */
-const OLD_FOLDERS: [RegExp, string][] = [
-  [/\bmodule-(\d+)-/g, 'm$1-'],
-  [/\bband-3\b/g, 'b3'],
-  [/\bband-([4-7])-quality-assurance\b/g, 'b$1-qa'],
-  [/\bband-([4-7])-test-engineering\b/g, 'b$1-te'],
-  [/\bband-7-test-management\b/g, 'b7-tm'],
-  [/\brole-foundations\b/g, 'r1-role-foundations'],
-  [/\bhealth-care-foundations\b/g, 'r2-health-care-foundations'],
-  [/\bcoaching-others-in-automation\b/g, 'l1-coaching'],
-  [/\bautomation-strategy-and-metrics\b/g, 'l2-strategy-metrics'],
-  [/\bframeworks-and-non-functional-testing\b/g, 'l3-frameworks-nonfunctional'],
-  [/\bacceptance-test-automation\b/g, 'l4-acceptance-automation'],
-  [/\bleading-automation-adoption\b/g, 'l5-adoption'],
-  [/\bindividual-learning-plan-template\b/g, 'ilp-template']
-];
-
-/**
- * A module's earlier paths, as each published numbering had them:
- * - before the basics modules, numbered from 0: today's Module N was N - 6
- * - with the basics, numbered from 0: Module N was N - 3 (a basics module, N - 1)
- * - numbered from 1, before the two ISTQB modules: Module N was N - 2.
- * The basics (Modules 1 to 3) and the ISTQB modules (4 and 5) are new since
- * those numberings, except that the basics were 0 to 2.
- */
-function earlierPaths(path: string): string[] {
-  const match = path.match(/\bmodule-(\d+)-/);
-  if (!match) return [];
-  const n = Number(match[1]);
-  const earlier = n >= 6 ? [n - 2, n - 3, n - 6] : n <= 3 ? [n - 1] : [];
-  return earlier.filter((old) => old >= 0).map((old) => path.replace(/\bmodule-\d+-/, `module-${old}-`));
-}
-
-/** Its abbreviated form, from before abbreviations were written in full. */
-function abbreviate(slug: string): string {
-  return OLD_FOLDERS.reduce((s, [from, to]) => s.replace(from, to), slug);
-}
-
-/** The URLs a document used to have, so old links still arrive. */
-function oldSlugs(path: string): string[] {
-  const nested = nestedSlug(path) || 'about';
-  const slugs = [nested, abbreviate(nested)];
-  const current = slugForPath(path);
-  if (current.startsWith(`${SYLLABUS_BASE}`)) slugs.push(current.replace(SYLLABUS_BASE, OLD_SYLLABUS_BASE));
-  for (const earlier of earlierPaths(path)) {
-    // Flat, nested by folder, and with abbreviations, as each was published.
-    slugs.push(slugForPath(earlier), nestedSlug(earlier), abbreviate(nestedSlug(earlier)));
-  }
-  return [...new Set(slugs)];
 }
 
 function titleOf(markdown: string, path: string): string {
@@ -183,28 +130,6 @@ for (const doc of DOCS) {
   if (winner && winner !== doc && posix.dirname(winner.path) !== posix.dirname(doc.path)) {
     throw new Error(`Two documents share the URL ${doc.slug}: ${winner.path} and ${doc.path}`);
   }
-}
-
-/** Old URL -> current URL, for every document. */
-const REDIRECTS = new Map<string, string>();
-for (const doc of BY_SLUG.values()) {
-  for (const old of oldSlugs(doc.path)) {
-    if (old !== doc.slug && !BY_SLUG.has(old)) REDIRECTS.set(old, doc.slug);
-  }
-}
-
-// Other addresses that forward to a document: a mistyped address that was shared.
-for (const [from, to] of [['istby-certified-tester-foundation-level-4', 'istqb-certified-tester-foundation-level-4']]) {
-  if (!BY_SLUG.has(from)) REDIRECTS.set(from, to);
-}
-
-/** Every old URL and where it now lives. */
-export function allRedirects(): [string, string][] {
-  return [...REDIRECTS.entries()];
-}
-
-export function redirectFor(slug: string): string | undefined {
-  return REDIRECTS.get(slug.replace(/^\/+|\/+$/g, ''));
 }
 
 export function allDocs(): Doc[] {
