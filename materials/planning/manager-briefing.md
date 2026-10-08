@@ -9,7 +9,7 @@ Protect your person's learning time, rate them honestly and independently at eac
 ## 1. What the programme is
 
 - 220 hours of protected learning time, by default 7.5 hours a week, so about 30 calendar weeks. Gates at hours 0, 45, 90, 127.5, and 180, then the Lean Six Sigma Green Belt (M11) in hours 180–220, and a follow-up about six months after Gate 4. Use `scripts/gate_calendar.py` for the dates.
-- Your person joins the track for their band and assigned PCF role. Their band and role do not change.
+- Your person joins the track for their band and UK GDaD PCF role. Their band and role do not change.
 - Their guide is in `materials/tracks/<track>/index.md`. Read it.
 
 ## 2. Protected time

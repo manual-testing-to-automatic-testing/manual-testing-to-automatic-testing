@@ -10,7 +10,7 @@
 <div class="page-intro">
   <h1>Self-assessment</h1>
   <p class="page-lede">
-    The capability self-assessment that every gate repeats. Choose the track for your band and assigned PCF role.
+    The capability self-assessment that every gate repeats. Choose the track for your band and UK GDaD PCF role.
   </p>
 </div>
 

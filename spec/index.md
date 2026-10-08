@@ -26,7 +26,7 @@ This document is the **single source of truth** for the programme. [../plan.md](
 
 In scope:
 
-- Manual testers at Bands 3, 4, 5, 6, and 7 in the quality assurance testing role family, each with an assigned PCF role.
+- Manual testers at Bands 3, 4, 5, 6, and 7 in the quality assurance testing role family, each with a UK GDaD PCF role.
 - A cohort of up to 12 people, in any mix of tracks, sharing mentors and core sessions.
 - Formal measurement of each person's capability against their **current** band, PCF role level, and skills, at every gate.
 - Closing role and skill gaps that are not about automation, because capability is measured across the whole role.
@@ -44,7 +44,7 @@ Out of scope:
 
 ## Principles and rules
 
-1. **Same band, full capability.** The first goal is that each person fully meets their current band and assigned PCF role. Automation is how most of the gap gets closed, but it is not the whole of it.
+1. **Same band, full capability.** The first goal is that each person fully meets their current band and UK GDaD PCF role. Automation is how most of the gap gets closed, but it is not the whole of it.
 2. **Measure the whole role, every gate.** Every gate repeats the full capability self-assessment (Parts A to D), not just the items the module taught, so progress and regression across the whole role are both visible.
 3. **Self-assessment first, then calibration.** The person rates themselves, the manager rates independently, and the two then agree a rating, with evidence. The agreed rating counts.
 4. **Evidence for every "meets".** An item rated as meeting expectations must have a short, specific example of regular work. Rate what the person does regularly, not what they did once.
@@ -77,9 +77,9 @@ Gate 0 sets a formal, evidenced baseline for each person.
 
 ### Tracks
 
-Each person joins the track for their **band** and **assigned PCF role**.
+Each person joins the track for their **band** and **UK GDaD PCF role**.
 
-| Track | Band | Assigned PCF role | Reference role level | Reference points | Band points range |
+| Track | Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |
 | --- | --- | --- | --- | --- | --- |
 | B3 | 3 | Quality assurance test analyst or Test engineer, associate level | Associate quality assurance test analyst or Associate test engineer, tuned to Band 3 | Agreed at Gate 0 | 216–270 |
 | B4-QA | 4 | Quality assurance test analyst | Associate quality assurance test analyst | 275 | 271–325 |
@@ -144,7 +144,7 @@ Rating: **Not yet**, **Partly**, or **Meets**.
 
 Part B has one item for each statement in:
 
-- **B1, the PCF role description:** each "In this role, you will" statement for the assigned PCF role (Quality assurance test analyst, Test engineer, or Test manager).
+- **B1, the PCF role description:** each "In this role, you will" statement for the UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager).
 - **B2, the PCF role level description:** each "At this role level, you will" statement for the person's reference role level.
 - **B3, the reference responsibilities:** each responsibility listed for the reference role level in `data/roles/<role>.yaml`, which adds the health care context.
 
@@ -152,7 +152,7 @@ Rating: **Not yet**, **Partly**, or **Meets**, each with evidence.
 
 #### Part C: skills
 
-Part C has one item for **every UK GDaD PCF skill in the assigned PCF role**, plus every health care skill in the reference role level. Every skill is rated at every gate, including skills the person's level expects only at Awareness, so progress beyond expectations shows as a strength.
+Part C has one item for **every UK GDaD PCF skill in the UK GDaD PCF role**, plus every health care skill in the reference role level. Every skill is rated at every gate, including skills the person's level expects only at Awareness, so progress beyond expectations shows as a strength.
 
 Rating: the self-assessment scale from the roles-skills guide: **0 Not yet, 1 Awareness, 2 Working, 3 Practitioner, 4 Expert**. Gap = expected level minus agreed rating. A skill **meets** when the gap is 0 or less, is **Partly** when the gap is 1, and is **Not yet** when the gap is 2 or more.
 

@@ -8,7 +8,7 @@ This agreement is signed at Gate 0. It records the commitments that make the pro
 | --- | --- |
 | Name | |
 | Band | |
-| Assigned PCF role and role level | |
+| UK GDaD PCF role and role level | |
 | Track | |
 | Programme dates | Start: End of Gate 4: Gate 5: |
 | Programme length | 220 hours / 280 hours (B3 and B4 only), including the 40-hour Lean Six Sigma Green Belt |

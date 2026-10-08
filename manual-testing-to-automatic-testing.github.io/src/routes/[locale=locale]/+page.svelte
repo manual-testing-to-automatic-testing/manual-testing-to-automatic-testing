@@ -37,7 +37,7 @@
     startCta: 'Read the programme',
     assessCta: 'Open the self-assessment',
     tracksHeading: 'Tracks',
-    tracksIntro: 'Find the track for your band and assigned PCF role.',
+    tracksIntro: 'Find the track for your band and UK GDaD PCF role.',
     trackCol: 'Track',
     bandCol: 'Band',
     roleCol: 'Reference role level',
@@ -52,7 +52,7 @@
     tiles: {
       'materials/tracks': {
         description:
-          'Eight tuned tracks, one for each band and assigned PCF role. Find yours: its expected levels, automation target, modules, and capstone.'
+          'Eight tuned tracks, one for each band and UK GDaD PCF role. Find yours: its expected levels, automation target, modules, and capstone.'
       },
       'materials/modules': {
         description:

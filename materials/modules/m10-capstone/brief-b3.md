@@ -6,7 +6,7 @@ Evidence E10 for module M10. Hours 142.5–180. Assessed at Gate 4.
 | --- | --- |
 | Track | B3 |
 | Band | 3 |
-| Assigned PCF role | Quality assurance test analyst or Test engineer, associate level |
+| UK GDaD PCF role | Quality assurance test analyst or Test engineer, associate level |
 | M10 depth | S, apply with support |
 | Automation target | Awareness |
 | Presentation | 10 minutes, aimed at a non-technical audience |

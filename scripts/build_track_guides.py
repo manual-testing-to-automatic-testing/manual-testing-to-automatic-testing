@@ -104,7 +104,7 @@ for t in TRACKS:
     out.append("Nobody changes band or role because of this programme. Reaching an automation target above the role's expectation is a strength, not a regrade.\n")
     out.append("## Who it is for\n")
     out.append(WHO[t] + "\n")
-    out.append("| Band | Assigned PCF role | Reference role level | Reference points | Band points range |")
+    out.append("| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |")
     out.append("| --- | --- | --- | --- | --- |")
     out.append(f"| {tr[1]} | {tr[2]} | {tr[3]} | {tr[4]} | {tr[5]} |\n")
     out.append("If your band and assigned role have no reference role level, the mapping rule in the spec places you, and your individual learning plan (ILP) records the decision.\n")

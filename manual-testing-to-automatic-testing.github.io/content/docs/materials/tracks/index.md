@@ -1,10 +1,10 @@
 # Tracks
 
-The programme has eight tuned tracks, one for each band and assigned PCF role combination. All tracks share one schedule, one set of gates, and one set of core modules. [spec/index.md](../../spec/index.md#tracks) is the single source of truth.
+The programme has eight tuned tracks, one for each band and UK GDaD PCF role combination. All tracks share one schedule, one set of gates, and one set of core modules. [spec/index.md](../../spec/index.md#tracks) is the single source of truth.
 
 ## Track guides
 
-| Track | Band | Assigned PCF role | Guide |
+| Track | Band | UK GDaD PCF role | Guide |
 | --- | --- | --- | --- |
 | B3 | 3 | Quality assurance test analyst or Test engineer, associate level | [B3](b3/index.md) |
 | B4-QA | 4 | Quality assurance test analyst | [B4-QA](b4-qa/index.md) |

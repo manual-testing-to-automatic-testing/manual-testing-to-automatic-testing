@@ -37,7 +37,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [ ] Get HR agreement that gates are developmental only and that no band changes follow (D7) (draft: `materials/planning/hr-briefing.md`)
 - [ ] Agree with HR the rule for Band 3 factor levels and unmapped band and role combinations (D6)
 - [ ] Get answers to the other open questions in plan.md, and record decisions D1 to D5 in the spec (log: `materials/planning/decision-log.md`)
-- [ ] Choose the first cohort (up to 12 people) and list each person's band and assigned PCF role (template: `materials/planning/cohort-roster.tsv`)
+- [ ] Choose the first cohort (up to 12 people) and list each person's band and UK GDaD PCF role (template: `materials/planning/cohort-roster.tsv`)
 - [ ] Name mentors: at least one band above each participant, at or above their automation target, and at most 3 participants each
 - [ ] Agree budget: course licences, mentor time, panel time (estimate: `materials/planning/resource-estimate.md`)
 - [ ] Book Gates 0 to 5 and the Gate 4 panels in calendars (dates: `python3 scripts/gate_calendar.py <start Monday>`)

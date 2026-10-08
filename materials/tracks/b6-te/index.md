@@ -8,7 +8,7 @@ Nobody changes band or role because of this programme. Reaching an automation ta
 
 Manual testers at Band 6 who hold the PCF role Test engineer.
 
-| Band | Assigned PCF role | Reference role level | Reference points | Band points range |
+| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |
 | --- | --- | --- | --- | --- |
 | 6 | Test engineer | Test engineer | 411 | 396–465 |
 

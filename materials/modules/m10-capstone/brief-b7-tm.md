@@ -6,7 +6,7 @@ Evidence E10 for module M10. Hours 142.5–180. Assessed at Gate 4.
 | --- | --- |
 | Track | B7-TM |
 | Band | 7 |
-| Assigned PCF role | Test manager |
+| UK GDaD PCF role | Test manager |
 | M10 depth | L, apply and lead or coach others |
 | Automation target | Working |
 | Presentation | 20 minutes, aimed at a non-technical audience |

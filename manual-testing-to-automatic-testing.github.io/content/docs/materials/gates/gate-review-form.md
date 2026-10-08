@@ -10,7 +10,7 @@ Gate results are developmental only. They never start a capability, performance,
 | --- | --- |
 | Participant | |
 | Band | |
-| Assigned PCF role and role level | |
+| UK GDaD PCF role and role level | |
 | Track | B3 / B4-QA / B4-TE / B5-QA / B6-QA / B6-TE / B7-TE / B7-TM |
 | Mapping decision (if any, D6) | |
 | Gate | 0 / 1 / 2 / 3 / 4 / 5 |

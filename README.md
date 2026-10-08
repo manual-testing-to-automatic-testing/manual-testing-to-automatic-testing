@@ -64,7 +64,7 @@ Find your role, and work down its checklist. The roles are listed in the order t
 
 ### Participant
 
-- [ ] Find your [track](materials/tracks/index.md) from your band and assigned PCF role, and read its guide.
+- [ ] Find your [track](materials/tracks/index.md) from your band and UK GDaD PCF role, and read its guide.
 - [ ] Install Node.js 24, Google Chrome, VS Code with the ESLint extension, and git, using the [environment checklist](materials/modules/m0-induction/environment-checklist.md).
 - [ ] Set up the [practice repository](practice-repo/README.md): `npm ci`, then `npm run test:katas`.
 - [ ] Before Gate 0, complete your track's [self-assessment](instruments/README.md), with evidence, following the [calibration guide](materials/gates/calibration-guide.md). The website has an interactive version of each.

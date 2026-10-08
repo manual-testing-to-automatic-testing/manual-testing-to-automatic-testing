@@ -41,7 +41,7 @@ The participant's sessions add up to 6.5 hours. The last hour of the first 7.5 h
 2. **Self-assessment.** The person completes the full capability self-assessment, with a short, specific example as evidence for each "Meets". The instrument is in `instruments/`, built from the roles-skills reference. People may complete it in writing or in conversation with their mentor.
 3. **Manager rating.** The line manager rates independently, without seeing the self-ratings.
 4. **Calibration.** Agree each rating. Where the two differ by more than one level, the evidence decides. If they still disagree, the mentor or training lead moderates.
-5. **Track placement.** Place the person by band and assigned PCF role. Apply the mapping rule from the spec where there is no reference role level. For Band 3, agree the expected job evaluation factor levels from the person's job description, with a total of 216 to 270 points.
+5. **Track placement.** Place the person by band and UK GDaD PCF role. Apply the mapping rule from the spec where there is no reference role level. For Band 3, agree the expected job evaluation factor levels from the person's job description, with a total of 216 to 270 points.
 6. **Diagnostic.** A short, unscored coding exercise. Its only use is to tune M2 pacing and to decide whether B3 and B4 people take the 280-hour option.
 7. **Environment set-up.** Install Node.js, Google Chrome, VS Code with the ESLint extension, and git. No Docker is needed. Check access to the team's repository and CI.
 8. **ILP and learning agreement.**

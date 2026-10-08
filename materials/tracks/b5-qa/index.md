@@ -8,7 +8,7 @@ Nobody changes band or role because of this programme. Reaching an automation ta
 
 Manual testers at Band 5 who hold the PCF role Quality assurance test analyst.
 
-| Band | Assigned PCF role | Reference role level | Reference points | Band points range |
+| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |
 | --- | --- | --- | --- | --- |
 | 5 | Quality assurance test analyst | Quality assurance test analyst | 327 | 326–395 |
 

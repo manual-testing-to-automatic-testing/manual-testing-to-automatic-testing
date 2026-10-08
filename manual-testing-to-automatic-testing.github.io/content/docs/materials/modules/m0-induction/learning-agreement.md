@@ -14,7 +14,7 @@ Signed at Gate 0.
 
 ## What we agree
 
-1. **The person stays in their current band and assigned PCF role.** This programme does not change band, role, or pay.
+1. **The person stays in their current band and UK GDaD PCF role.** This programme does not change band, role, or pay.
 2. **Gates are developmental.** A gate result never starts a capability, performance, or conduct procedure by itself.
 3. **Protected time:** 220 learning hours (280 for the B3 and B4 extension), including 40 hours for the Lean Six Sigma Green Belt, by default 7.5 hours a week. Agreed pace: ______ hours a week, on these days: ______. It is in the person's calendar. It is not reassigned to delivery work without the training lead's agreement.
 4. **Mentor time:** 1.5 hours per 7.5 learning hours for hours 0–45, then 1 hour per 7.5 learning hours (about 27 hours in all).

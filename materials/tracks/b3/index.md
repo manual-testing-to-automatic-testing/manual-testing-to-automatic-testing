@@ -8,7 +8,7 @@ Nobody changes band or role because of this programme. Reaching an automation ta
 
 Manual testers at Band 3 who hold an associate-level PCF role (Quality assurance test analyst or Test engineer). The reference has no testing role level at Band 3, so this track uses the associate PCF role level for Parts B and C, and the Band 3 outline for Part A.
 
-| Band | Assigned PCF role | Reference role level | Reference points | Band points range |
+| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |
 | --- | --- | --- | --- | --- |
 | 3 | Quality assurance test analyst or Test engineer, associate level | Associate quality assurance test analyst or Associate test engineer, tuned to Band 3 | Agreed at Gate 0 | 216–270 |
 

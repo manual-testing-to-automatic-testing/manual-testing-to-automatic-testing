@@ -8,7 +8,7 @@ The ILP is written at Gate 0 from the calibrated baseline, and updated at every 
 | --- | --- |
 | Participant | |
 | Band | |
-| Assigned PCF role and role level | |
+| UK GDaD PCF role and role level | |
 | Track | |
 | Reference role level used (Parts B and C) | |
 | Mapping decision and who agreed it (D6), if any | |
