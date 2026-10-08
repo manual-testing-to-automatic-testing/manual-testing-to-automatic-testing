@@ -17,8 +17,6 @@ Find the track for your band and UK GDaD PCF role. Each track's page has its gui
 - [Track for Band 7 test manager](band-7-test-management/index.md)
 <!-- end of track list -->
 
-The track guides are generated from the spec's tables, so the expected levels match the spec exactly. Regenerate them whenever the spec's tables change.
-
 ## Track modules
 
 | Module | Tracks | Programme hours | Materials |
