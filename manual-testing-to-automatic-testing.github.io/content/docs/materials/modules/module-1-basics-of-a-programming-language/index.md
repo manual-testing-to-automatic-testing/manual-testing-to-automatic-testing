@@ -10,7 +10,9 @@ The default language is JavaScript, which the rest of the programme uses. A pers
 
 ## Outcomes
 
-- **Learning outcome 15:** read, run, and explain a simple program with variables, functions, conditionals, and loops, in JavaScript or another language.
+- Read, run, and explain a simple program with variables, functions, conditionals, and loops, in JavaScript or another language.
+- You have Node.js or equivalent on your system and can run it.
+- You have Visual Studio Code or equivalent on your own system and can run it.
 
 ## Session plan
 
