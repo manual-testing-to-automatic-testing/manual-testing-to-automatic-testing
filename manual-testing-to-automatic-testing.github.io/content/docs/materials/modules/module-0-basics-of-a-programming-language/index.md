@@ -22,17 +22,17 @@ The default language is JavaScript, which the rest of the programme uses. A pers
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 0–7.5: start with the mentor: the programme, the three basics modules, and how a walkthrough works | 30 minutes | One to one | Person, mentor |
-| 2 | Hours 0–7.5: set up Node.js, Visual Studio Code, and git on your own system, and run your first `node hello.js` | 2 hours | Practice | Each person, with the mentor |
-| 3 | Hours 0–7.5: values, variables, and printing results | 2.5 hours | Core | Cohort |
-| 4 | Hours 0–7.5: functions: parameters, return values, and calling them | 2.5 hours | Core | Cohort |
-| 5 | Hours 7.5–15: conditionals: `if`, `else`, comparisons, and true and false | 2.5 hours | Core | Cohort |
-| 6 | Hours 7.5–15: loops: `for`, `for...of`, and `while` | 2.5 hours | Core | Cohort |
-| 7 | Hours 7.5–15: arrays and objects | 1.5 hours | Core | Cohort |
-| 8 | Hours 7.5–15: check-in with the mentor | 1 hour | One to one | Person, mentor |
-| 9 | Hours 15–20: reading other people's short functions aloud, and predicting what they print | 2 hours | Practice | Pairs |
-| 10 | Hours 15–20: write and run your walkthrough function | 2 hours | Practice | Each person |
-| 11 | Hours 15–20: the walkthrough to the mentor | 1 hour | One to one | Person, mentor |
+| 1 | Start with the mentor: the programme, the three basics modules, and how a walkthrough works | 30 minutes | One to one | Person, mentor |
+| 2 | Set up Node.js, Visual Studio Code, and git on your own system, and run your first `node hello.js` | 2 hours | Practice | Each person, with the mentor |
+| 3 | Values, variables, and printing results | 2.5 hours | Core | Cohort |
+| 4 | Functions: parameters, return values, and calling them | 2.5 hours | Core | Cohort |
+| 5 | Conditionals: `if`, `else`, comparisons, and true and false | 2.5 hours | Core | Cohort |
+| 6 | Loops: `for`, `for...of`, and `while` | 2.5 hours | Core | Cohort |
+| 7 | Arrays and objects | 1.5 hours | Core | Cohort |
+| 8 | Check-in with the mentor | 1 hour | One to one | Person, mentor |
+| 9 | Reading other people's short functions aloud, and predicting what they print | 2 hours | Practice | Pairs |
+| 10 | Write and run your walkthrough function | 2 hours | Practice | Each person |
+| 11 | The walkthrough to the mentor | 1 hour | One to one | Person, mentor |
 
 Each person's sessions add up to 20 hours.
 
