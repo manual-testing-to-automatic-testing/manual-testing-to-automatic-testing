@@ -25,11 +25,12 @@ The default language is JavaScript, which the rest of the programme uses. A pers
 | 5 | Functions: parameters, return values, and calling them | 2.5 hours | Core | Cohort |
 | 6 | Conditionals: `if`, `else`, comparisons, and true and false | 2.5 hours | Core | Cohort |
 | 7 | Loops: `for`, `for...of`, and `while` | 2.5 hours | Core | Cohort |
-| 8 | Arrays and objects | 1.5 hours | Core | Cohort |
-| 9 | Check-in with the mentor | 1 hour | One to one | Person, mentor |
-| 10 | Reading other people's short functions aloud, and predicting what they print | 2 hours | Practice | Pairs |
-| 11 | Write and run your walkthrough function | 2 hours | Practice | Each person |
-| 12 | The walkthrough to the mentor | 1 hour | One to one | Person, mentor |
+| 8 | Arrays | 1 hour | Core | Cohort |
+| 9 | Objects | 1 hour | Core | Cohort |
+| 10 | Check-in with the mentor | 1 hour | One to one | Person, mentor |
+| 11 | Reading other people's short functions aloud, and predicting what they print | 1.5 hours | Practice | Pairs |
+| 12 | Write and run your walkthrough function | 2 hours | Practice | Each person |
+| 13 | The walkthrough to the mentor | 1 hour | One to one | Person, mentor |
 
 Each person's sessions add up to 20 hours.
 
