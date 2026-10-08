@@ -2,7 +2,7 @@
 
 The practice repository for the training programme from manual testing to automatic testing. Every participant works here from Modules 2 to 9, then applies the same habits to their own team's product in the capstone (Module 10).
 
-The stack is **JavaScript** (Node.js, ES modules), **Selenium WebDriver** for the browser, and **Mocha** with Node's built-in `node:assert/strict` for tests. There is no build step, and nothing needs Docker.
+The stack is **JavaScript** (Node.js, ES modules), **Selenium** for the browser, and **Mocha** with Node's built-in `node:assert/strict` for tests. There is no build step, and nothing needs Docker.
 
 The programme specification is [../spec/index.md](../spec/index.md). This repository is the practice environment it describes.
 

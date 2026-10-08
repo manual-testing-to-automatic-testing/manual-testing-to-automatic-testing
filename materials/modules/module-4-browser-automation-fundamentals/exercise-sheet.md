@@ -1,6 +1,6 @@
 # Exercise sheet: every fixture on testingexamples.github.io
 
-Evidence 4, part 1. Write one Selenium WebDriver JavaScript script that does every exercise below against <https://testingexamples.github.io>.
+Evidence 4, part 1. Write one Selenium JavaScript script that does every exercise below against <https://testingexamples.github.io>.
 
 The fixtures come from the site's contract, `testingexamples.github.io/spec/index.md`. That contract is stable: the ids, names, classes, and text below will not change without notice.
 

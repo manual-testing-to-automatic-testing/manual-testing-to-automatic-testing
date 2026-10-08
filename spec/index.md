@@ -18,7 +18,7 @@ The programme comes in **eight tuned tracks**, one for each band and UK GDaD PCF
 - **Part C, skills:** every UK GDaD PCF skill in the assigned role, plus the health care skills.
 - **Part D, automation practical:** a short performance task for the track.
 
-The toolset is **JavaScript** on Node.js, **Selenium WebDriver** for the browser, and **Mocha** with Node's built-in `node:assert/strict` for tests, in Visual Studio Code, with git and the organisation's continuous integration (CI) service.
+The toolset is **JavaScript** on Node.js, **Selenium** for the browser, and **Mocha** with Node's built-in `node:assert/strict` for tests, in Visual Studio Code, with git and the organisation's continuous integration (CI) service.
 
 This document is the **single source of truth** for the programme. [../curriculum.md](../curriculum.md) brings the curriculum together in one place, generated from this spec by `scripts/build_curriculum.py`. [../plan.md](../plan.md) explains why it is shaped this way. [../tasks.md](../tasks.md) lists the work to build and run it. If the three disagree, this document wins, and the disagreement is a defect to fix before doing anything else.
 
@@ -213,7 +213,7 @@ Each track meets each outcome at a set depth: **R** read and explain, **S** with
 | Learning outcome 1 | Decide which manual tests to automate, at which layer, and which to keep manual, by risk and cost. | R | S | S | I | L | I | L | L |
 | Learning outcome 2 | Write, run, debug, and refactor JavaScript code to the team's standards. | R | S | S | S | I | I | I | S |
 | Learning outcome 3 | Change test code through git and pull requests, and give and respond to review. | S | S | S | I | I | I | L | I |
-| Learning outcome 4 | Locate, act, wait explicitly, and assert with Selenium WebDriver, using resilient locators. | S | S | I | I | I | I | L | S |
+| Learning outcome 4 | Locate, act, wait explicitly, and assert with Selenium, using resilient locators. | S | S | I | I | I | I | L | S |
 | Learning outcome 5 | Turn a manual test or Given-When-Then scenario into a maintainable automated test. | S | S | S | I | I | I | L | S |
 | Learning outcome 6 | Write automated API and integration tests, including HL7 FHIR validation. | — | R | S | S | I | I | L | R |
 | Learning outcome 7 | Run suites in CI on every change, triage failures, and keep the suite fast and reliable. | S | S | S | I | I | I | L | I |
@@ -359,11 +359,11 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 
 - **Outcomes:** Learning outcome 4, Learning outcome 11.
 - **Evidence 4:**
-  - a Selenium WebDriver JavaScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class name, link text, CSS, and XPath), waits explicitly, and acts on every form input, including the select with Selenium's `Select` helper. Band 3 and Band 4 quality assurance may complete this by pairing.
+  - a Selenium JavaScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class name, link text, CSS, and XPath), waits explicitly, and acts on every form input, including the select with Selenium's `Select` helper. Band 3 and Band 4 quality assurance may complete this by pairing.
   - a one-page explanation of how Selenium waits, and why `sleep` is never the answer (Band 5 and above)
   - one small change to the `demo-selenium-javascript` example, an existing suite that someone else wrote, run successfully (Band 4 test engineering, Band 5 and above; Band 7 test management with support).
 - **Activities:** locate, act, wait, assert; locator strategy (ids and agreed test ids first, then CSS and link text, XPath last); explicit waits with `driver.wait(until...)`, and why Selenium does not wait for you; clicking only when an element is in view and on top; always quitting the driver; recording with Selenium IDE, exporting to JavaScript Mocha, then rewriting the recording by hand and explaining every line.
-- **Resources:** testingexamples `selenium-javascript-skill` and `demo-selenium-javascript`; the fixture contract `testingexamples.github.io/spec/index.md`; the Selenium WebDriver documentation; Selenium IDE.
+- **Resources:** testingexamples `selenium-javascript-skill` and `demo-selenium-javascript`; the fixture contract `testingexamples.github.io/spec/index.md`; the Selenium documentation; Selenium IDE.
 
 #### Module 5 From walkthrough to real test (hours 67.5–90), spiral pass 2
 
@@ -584,14 +584,14 @@ Following PADDIE+M, the training lead:
 
 - reviews this specification after every cohort, and at least once a year
 - rebuilds the capability self-assessment whenever the roles-skills reference changes a band, factor, role level, or skill
-- checks tool versions (Node.js, Chrome, Selenium WebDriver, Mocha) and links every 6 months
+- checks tool versions (Node.js, Chrome, Selenium, Mocha) and links every 6 months
 - records every change in the [change log](#change-log).
 
 ### Decisions
 
 | Id | Decision | Default | Who decides |
 | --- | --- | --- | --- |
-| Decision 1 | Primary language and tool | JavaScript with Selenium WebDriver and Mocha; Python with Selenium and pytest if the team's codebase is Python | Training lead, with the head of test |
+| Decision 1 | Primary language and tool | JavaScript with Selenium and Mocha; Python with Selenium and pytest if the team's codebase is Python | Training lead, with the head of test |
 | Decision 2 | CI service | The organisation's existing CI service; GitHub Actions for the practice repository | Training lead |
 | Decision 3 | JavaScript foundations course | A structured, free or already-licensed course with exercises | Training lead |
 | Decision 4 | Practice FHIR server | The practice repository's local FHIR sandbox (Node.js, no Docker), with synthetic data; a shared team test server with synthetic data as the alternative | Mentors |
@@ -655,5 +655,5 @@ Coverage check, outcome to evidence:
 | 2026-10-08 | Revised: "UK GDaD PCF" in full everywhere, and "UK GDaD PCF role" for the role a person has; Playwright removed from the training, so Learning outcome 11 and Evidence 4 use an existing Selenium suite that someone else wrote (`demo-selenium-javascript`); the toolset sentence about Docker removed. |
 | 2026-10-07 | Added Module 11 Lean Six Sigma Green Belt, lifetime certification: 40 hours at the end of every track (hours 180–220), with Learning outcome 14, Evidence 11, and Decision 8. The programme is 220 hours (280 with the Band 3 and Band 4 extension); completion needs Gate 4 and the certification. |
 | 2026-10-07 | Revised: timelines in hours. Every track has 180 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), with an hour budget that totals 180; the schedule, gates, and time commitments are in programme hours; Band 3 and Band 4 may extend to 240 hours. |
-| 2026-10-07 | Revised: JavaScript with Selenium WebDriver and Mocha replaces TypeScript with Playwright (Playwright becomes the reading-only tool for Learning outcome 11); no Docker anywhere, with a JavaScript FHIR sandbox; Principle 10, wait explicitly; the informal capability estimate removed. |
+| 2026-10-07 | Revised: JavaScript with Selenium and Mocha replaces TypeScript with Playwright (Playwright becomes the reading-only tool for Learning outcome 11); no Docker anywhere, with a JavaScript FHIR sandbox; Principle 10, wait explicitly; the informal capability estimate removed. |
 | 2026-10-07 | Implemented: instruments generated per track; Partly defined for Part C; Learning outcome 2 (Band 7 test engineering) and Learning outcome 11 (Band 7 test management) depths aligned with modules; Gate 3 timing, Band 3 in hours 90–112.5, Acceptance test automation timing, Band 7 mentors, and the capstone rehearsal made explicit. |

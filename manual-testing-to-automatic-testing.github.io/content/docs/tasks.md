@@ -86,7 +86,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 
 ### Practice environment
 
-- [x] Create the practice repository: JavaScript, Selenium WebDriver, Mocha, linting, formatting, pinned versions
+- [x] Create the practice repository: JavaScript, Selenium, Mocha, linting, formatting, pinned versions
 - [x] Add a `spec/index.md` template for participant test suites
 - [x] Add a CI pipeline template that runs headless Chrome and publishes JUnit results, screenshots, and page source
 - [x] Add a secrets scan to the CI template (gitleaks; not yet run)

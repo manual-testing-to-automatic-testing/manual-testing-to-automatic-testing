@@ -88,7 +88,7 @@ Every track ends with Module 11, a Lean Six Sigma Green Belt with a lifetime cer
 
 ### Toolset
 
-JavaScript with Selenium WebDriver and Mocha is the primary toolset. Selenium is the longest-established browser automation project, built on the W3C WebDriver standard, and is what many organisations' existing suites and job adverts use. Because it does not wait for elements by itself, it makes people learn waiting properly: every wait is an explicit wait for a stated condition, which is the habit that prevents flaky tests in any tool. JavaScript runs everywhere with Node.js, with no build step, and Testing Examples has a skill and demos for exactly this pair.
+JavaScript with Selenium and Mocha is the primary toolset. Selenium is the longest-established browser automation project, built on the W3C WebDriver standard, and is what many organisations' existing suites and job adverts use. Because it does not wait for elements by itself, it makes people learn waiting properly: every wait is an explicit wait for a stated condition, which is the habit that prevents flaky tests in any tool. JavaScript runs everywhere with Node.js, with no build step, and Testing Examples has a skill and demos for exactly this pair.
 
 ### No Docker
 

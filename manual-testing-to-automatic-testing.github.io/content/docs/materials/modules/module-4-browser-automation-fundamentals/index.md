@@ -4,11 +4,11 @@ Hours 45–67.5, about 17.5 hours. Spiral pass 1: the fixture site. Reviewed at 
 
 ## Purpose
 
-All browser automation comes down to four things: **locate** an element, **act** on it, **wait** for it to be ready, and **assert** on it. Module 4 teaches the four with Selenium WebDriver on a stable page built for practice, <https://testingexamples.github.io>, so any failure is the learner's own and not a moving target.
+All browser automation comes down to four things: **locate** an element, **act** on it, **wait** for it to be ready, and **assert** on it. Module 4 teaches the four with Selenium on a stable page built for practice, <https://testingexamples.github.io>, so any failure is the learner's own and not a moving target.
 
 ## Outcomes
 
-- **Learning outcome 4:** locate, act, wait, and assert with Selenium WebDriver, using resilient locators.
+- **Learning outcome 4:** locate, act, wait, and assert with Selenium, using resilient locators.
 - **Learning outcome 11:** read, run, and make a small change to an existing Selenium suite that someone else wrote.
 
 ## Depth by track
@@ -62,7 +62,7 @@ Each person's sessions add up to 17.5 hours: 5.5 in hours 45–52.5, 5.5 in hour
 
 | Part | Tracks |
 | --- | --- |
-| A Selenium WebDriver JavaScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class name, link text, CSS, and XPath) and acts on every form input | All tracks. Band 3 and Band 4 quality assurance may complete this by pairing. |
+| A Selenium JavaScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class name, link text, CSS, and XPath) and acts on every form input | All tracks. Band 3 and Band 4 quality assurance may complete this by pairing. |
 | A one-page explanation of how Selenium waits | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, Band 7 test management |
 | A small change to `demo-selenium-javascript`, an existing suite someone else wrote, run successfully | Band 4 test engineering, Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, Band 7 test management (Band 7 test management with support) |
 

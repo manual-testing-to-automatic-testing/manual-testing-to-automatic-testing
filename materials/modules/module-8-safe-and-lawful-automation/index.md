@@ -66,5 +66,5 @@ Evidence 8 is assessed at **Gate 4** (hour 180), with Evidence 9 and Evidence 10
 - roles-skills skill definitions for clinical risk management and information governance: <https://roles-skills.github.io>
 - Synthea synthetic patient generator: <https://synthetichealth.github.io/synthea/>
 - The FHIR sandbox synthetic data: `practice-repo/fhir-sandbox/data/synthetic-bundle.json`
-- axe-core for Selenium WebDriver (`@axe-core/webdriverjs`): <https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverjs>
+- axe-core for Selenium (`@axe-core/webdriverjs`): <https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverjs>
 - IEC 62304 overview: <https://www.iso.org/standard/38421.html>

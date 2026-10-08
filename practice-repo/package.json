@@ -2,7 +2,7 @@
   "name": "practice-repo",
   "version": "1.0.0",
   "private": true,
-  "description": "Practice repository for the manual-to-automatic testing training programme: JavaScript, Selenium WebDriver, and Mocha.",
+  "description": "Practice repository for the manual-to-automatic testing training programme: JavaScript, Selenium, and Mocha.",
   "type": "module",
   "engines": {
     "node": ">=24"

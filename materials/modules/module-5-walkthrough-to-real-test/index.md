@@ -41,7 +41,7 @@ Module 5's own sessions add up to 12.5 hours: 5 in hours 67.5–75, 5 in hours 7
 
 ## Activities
 
-1. Convert the Module 4 walkthrough into a Mocha suite with Selenium WebDriver. Replace every `console.log` with an assertion from `node:assert/strict`, such as `assert.equal(await element.getText(), 'Id Example 1')`. Before asserting on anything that appears or changes after an action, wait for it explicitly with `driver.wait` and an `until` condition, such as `until.elementTextIs`. Selenium does not retry assertions for you.
+1. Convert the Module 4 walkthrough into a Mocha suite with Selenium. Replace every `console.log` with an assertion from `node:assert/strict`, such as `assert.equal(await element.getText(), 'Id Example 1')`. Before asserting on anything that appears or changes after an action, wait for it explicitly with `driver.wait` and an `until` condition, such as `until.elementTextIs`. Selenium does not retry assertions for you.
 2. Write a `spec/index.md` for the suite, in the shape of the testingexamples demo specs: Summary, Scope, Principles and rules, Detail, Acceptance criteria, Sources.
 3. Choose manual cases from Evidence 1 marked `automate-browser`. Write each as Given-When-Then using [given-when-then-template.md](given-when-then-template.md). Ask the product owner to review.
 4. Automate them on the team's test environment, with a page object: a plain JavaScript class in `tests/ui/pages/` that holds the locators and the actions.
@@ -54,7 +54,7 @@ See the [worked example](worked-example.md).
 
 **Evidence 5:**
 
-- the Module 4 walkthrough converted into a Mocha suite with Selenium WebDriver, real assertions from `node:assert/strict`, explicit waits, and a `spec/index.md` that agrees with the code
+- the Module 4 walkthrough converted into a Mocha suite with Selenium, real assertions from `node:assert/strict`, explicit waits, and a `spec/index.md` that agrees with the code
 - manual test cases from Evidence 1 rewritten as Given-When-Then scenarios, reviewed by the product owner, and automated with a page object:
 
   | Track | Cases |

@@ -20,7 +20,7 @@ Each track meets each outcome at a set depth: **R** read and explain, **S** with
 | Learning outcome 1 | Decide which manual tests to automate, at which layer, and which to keep manual, by risk and cost. | R | S | S | I | L | I | L | L |
 | Learning outcome 2 | Write, run, debug, and refactor JavaScript code to the team's standards. | R | S | S | S | I | I | I | S |
 | Learning outcome 3 | Change test code through git and pull requests, and give and respond to review. | S | S | S | I | I | I | L | I |
-| Learning outcome 4 | Locate, act, wait explicitly, and assert with Selenium WebDriver, using resilient locators. | S | S | I | I | I | I | L | S |
+| Learning outcome 4 | Locate, act, wait explicitly, and assert with Selenium, using resilient locators. | S | S | I | I | I | I | L | S |
 | Learning outcome 5 | Turn a manual test or Given-When-Then scenario into a maintainable automated test. | S | S | S | I | I | I | L | S |
 | Learning outcome 6 | Write automated API and integration tests, including HL7 FHIR validation. | — | R | S | S | I | I | L | R |
 | Learning outcome 7 | Run suites in CI on every change, triage failures, and keep the suite fast and reliable. | S | S | S | I | I | I | L | I |
@@ -170,11 +170,11 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 
 - **Outcomes:** Learning outcome 4, Learning outcome 11.
 - **Evidence 4:**
-  - a Selenium WebDriver JavaScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class name, link text, CSS, and XPath), waits explicitly, and acts on every form input, including the select with Selenium's `Select` helper. Band 3 and Band 4 quality assurance may complete this by pairing.
+  - a Selenium JavaScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class name, link text, CSS, and XPath), waits explicitly, and acts on every form input, including the select with Selenium's `Select` helper. Band 3 and Band 4 quality assurance may complete this by pairing.
   - a one-page explanation of how Selenium waits, and why `sleep` is never the answer (Band 5 and above)
   - one small change to the `demo-selenium-javascript` example, an existing suite that someone else wrote, run successfully (Band 4 test engineering, Band 5 and above; Band 7 test management with support).
 - **Activities:** locate, act, wait, assert; locator strategy (ids and agreed test ids first, then CSS and link text, XPath last); explicit waits with `driver.wait(until...)`, and why Selenium does not wait for you; clicking only when an element is in view and on top; always quitting the driver; recording with Selenium IDE, exporting to JavaScript Mocha, then rewriting the recording by hand and explaining every line.
-- **Resources:** testingexamples `selenium-javascript-skill` and `demo-selenium-javascript`; the fixture contract `testingexamples.github.io/spec/index.md`; the Selenium WebDriver documentation; Selenium IDE.
+- **Resources:** testingexamples `selenium-javascript-skill` and `demo-selenium-javascript`; the fixture contract `testingexamples.github.io/spec/index.md`; the Selenium documentation; Selenium IDE.
 - **Materials:** [materials/modules/module-4-browser-automation-fundamentals/](materials/modules/module-4-browser-automation-fundamentals/index.md)
 
 ### Module 5 From walkthrough to real test (hours 67.5–90), spiral pass 2

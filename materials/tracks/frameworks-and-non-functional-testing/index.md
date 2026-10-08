@@ -6,7 +6,7 @@
 
 **Evidence:** folded into the Band 7 test engineering capstone (Module 10).
 
-The exercises are written to be tool-neutral where possible. The defaults are JavaScript with Selenium WebDriver and Mocha for shared helpers, and **k6** for load tests, because k6 scripts are JavaScript, run headless in CI, and keep load generation separate from browser tests. Install k6 as its standalone binary from <https://grafana.com/docs/k6/latest/set-up/install-k6/>, not as a container: participants have no Docker. Another load tool is fine if the organisation already uses one (spec Decision 1).
+The exercises are written to be tool-neutral where possible. The defaults are JavaScript with Selenium and Mocha for shared helpers, and **k6** for load tests, because k6 scripts are JavaScript, run headless in CI, and keep load generation separate from browser tests. Install k6 as its standalone binary from <https://grafana.com/docs/k6/latest/set-up/install-k6/>, not as a container: participants have no Docker. Another load tool is fine if the organisation already uses one (spec Decision 1).
 
 ## Exercise 1: Reusable helpers and hooks (hours 112.5–127.5)
 

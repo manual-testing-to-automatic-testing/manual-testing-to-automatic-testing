@@ -52,7 +52,7 @@ A walkthrough that acts on a page and prints output, without assertions, is neve
 
 **Setup:** a written manual test case for <https://testingexamples.github.io>, for example: "Fill the text input with `hello`, check the checkbox, choose the first radio option, and select the first option in the select list. Expect each control to show the new value."
 
-**Task:** automate it as a Mocha test with Selenium WebDriver and `node:assert/strict`, in `tests/ui/`. Wait explicitly with `driver.wait(until…)` wherever the page could change, never with a sleep, and quit the driver in an `after` hook. Then show the test failing when an expected value is changed.
+**Task:** automate it as a Mocha test with Selenium and `node:assert/strict`, in `tests/ui/`. Wait explicitly with `driver.wait(until…)` wherever the page could change, never with a sleep, and quit the driver in an `after` hook. Then show the test failing when an expected value is changed.
 
 | Track | Meets | Partly | Not yet |
 | --- | --- | --- | --- |

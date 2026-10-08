@@ -11,7 +11,7 @@ See spec/example/index.md for a filled-in example.
 
 <!-- One paragraph: what this suite tests, with which tool, against which system, and why. -->
 
-This suite uses Selenium WebDriver and Mocha, in JavaScript, to test <system or feature> on <environment>. It automates <number> manual test cases from <regression pack or source> that cover <user journey or risk>.
+This suite uses Selenium and Mocha, in JavaScript, to test <system or feature> on <environment>. It automates <number> manual test cases from <regression pack or source> that cover <user journey or risk>.
 
 ## Scope
 

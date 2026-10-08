@@ -54,7 +54,7 @@ Gate 5 (about six months after Gate 4) and the extension to 280 hours for Band 3
 
 ## Money
 
-- Tools: Node.js, Selenium WebDriver, Mocha, the practice repository's FHIR sandbox, k6, gitleaks, and axe-core are open source. Nothing needs Docker.
+- Tools: Node.js, Selenium, Mocha, the practice repository's FHIR sandbox, k6, gitleaks, and axe-core are open source. Nothing needs Docker.
 - CI minutes: depends on Decision 2; the practice repository's workflow is small.
 - Lean Six Sigma Green Belt: course and certification exam fees for each participant, and the trainer if not in house (Decision 8). Choose a certificate that does not expire, and a body that allows a resit.
 - Optional: a paid JavaScript course (Decision 3).

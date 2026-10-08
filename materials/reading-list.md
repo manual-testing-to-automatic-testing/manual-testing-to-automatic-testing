@@ -109,7 +109,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | roles-skills: clinical risk management and information governance skills | <https://roles-skills.github.io> | Web |
 | Synthea synthetic patient generator | <https://synthetichealth.github.io/synthea/> | Web, code |
 | FHIR sandbox synthetic data | `practice-repo/fhir-sandbox/data/synthetic-bundle.json` | Data |
-| axe-core for Selenium WebDriver (`@axe-core/webdriverjs`) | <https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverjs> | Web, code |
+| axe-core for Selenium (`@axe-core/webdriverjs`) | <https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverjs> | Web, code |
 | IEC 62304 | <https://www.iso.org/standard/38421.html> | Standard (summary page) |
 
 ## Module 9 Quality engineering practice

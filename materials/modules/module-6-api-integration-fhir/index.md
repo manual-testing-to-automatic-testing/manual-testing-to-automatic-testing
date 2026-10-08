@@ -43,7 +43,7 @@ Acceptance test automation for Band 6 quality assurance also starts in hours 90â
 ## Activities
 
 1. Start the sandbox with `npm run fhir`. It loads its synthetic data every time it starts. See [fhir-sandbox-guide.md](fhir-sandbox-guide.md).
-2. Use Node's built-in `fetch`, inside Mocha tests, to call the FHIR API. Selenium WebDriver drives browsers only; it has no API client.
+2. Use Node's built-in `fetch`, inside Mocha tests, to call the FHIR API. Selenium drives browsers only; it has no API client.
 3. Check status codes, headers, and response bodies.
 4. Validate a resource against a FHIR profile with `$validate`.
 5. Check that a clinical code means what it should, for example LOINC 8867-4 is heart rate.

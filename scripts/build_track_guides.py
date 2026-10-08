@@ -106,8 +106,7 @@ for t in TRACKS:
     # The full track name: the band, then the reference role level, such as
     # "Track for Band 3 associate quality assurance test analyst".
     out.append(f"# Track for Band {BAND[t]} {ROLE_LEVELS[t][0].lower()}{ROLE_LEVELS[t][1:]}\n")
-    out.append(f"This is the one-page guide for track **{t}**. It is copied from [spec/index.md](../../../spec/index.md), which is the single source of truth. If this page and the spec disagree, the spec wins.\n")
-    out.append("Nobody changes band or role because of this programme. Reaching an automation target above the role's expectation is a strength, not a regrade.\n")
+    out.append(f"This is the one-page guide for track **{t}**.\n")
     out.append("## Who it is for\n")
     out.append(WHO[t] + "\n")
     out.append("| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |")
@@ -176,7 +175,7 @@ for t in TRACKS:
     out.append("## Capstone (Module 10, hours 142.5 to 180)\n")
     out.append(cap[1] + "\n")
     out.append(f"You present it to the Gate 4 panel for {'10' if BAND[t] in '34' else '20'} minutes, aimed at a non-technical audience.\n")
-    out.append("## Lean Six Sigma Green Belt (Module 11, hours 180 to 220)\n")
+    out.append("## Lean Six Sigma Green Belt (40 hours)\n")
     out.append("After Gate 4, every track takes the same 40-hour Lean Six Sigma Green Belt, with a certification that does not expire. You complete the programme when Gate 4 is met and you hold the certificate with an accepted Green Belt project (Evidence 11).\n")
     out.append(GREEN_BELT[t] + " See the [Module 11 module](../../modules/module-11-lean-six-sigma-green-belt/index.md).\n")
     out.append("## Gates and practicals\n")

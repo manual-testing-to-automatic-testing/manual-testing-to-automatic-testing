@@ -1,8 +1,6 @@
 # Track for Band 3 associate quality assurance test analyst
 
-This is the one-page guide for track **Band 3**. It is copied from [spec/index.md](../../../spec/index.md), which is the single source of truth. If this page and the spec disagree, the spec wins.
-
-Nobody changes band or role because of this programme. Reaching an automation target above the role's expectation is a strength, not a regrade.
+This is the one-page guide for track **Band 3**.
 
 ## Who it is for
 
@@ -90,7 +88,7 @@ From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automatio
 | Learning outcome 1 | Decide which manual tests to automate, at which layer, and which to keep manual, by risk and cost. | Read and explain |
 | Learning outcome 2 | Write, run, debug, and refactor JavaScript code to the team's standards. | Read and explain |
 | Learning outcome 3 | Change test code through git and pull requests, and give and respond to review. | With support |
-| Learning outcome 4 | Locate, act, wait explicitly, and assert with Selenium WebDriver, using resilient locators. | With support |
+| Learning outcome 4 | Locate, act, wait explicitly, and assert with Selenium, using resilient locators. | With support |
 | Learning outcome 5 | Turn a manual test or Given-When-Then scenario into a maintainable automated test. | With support |
 | Learning outcome 6 | Write automated API and integration tests, including HL7 FHIR validation. | Not required |
 | Learning outcome 7 | Run suites in CI on every change, triage failures, and keep the suite fast and reliable. | With support |
@@ -131,7 +129,7 @@ Triage one week of CI results and raise defects; write 5 Given-When-Then scenari
 
 You present it to the Gate 4 panel for 10 minutes, aimed at a non-technical audience.
 
-## Lean Six Sigma Green Belt (Module 11, hours 180 to 220)
+## Lean Six Sigma Green Belt (40 hours)
 
 After Gate 4, every track takes the same 40-hour Lean Six Sigma Green Belt, with a certification that does not expire. You complete the programme when Gate 4 is met and you hold the certificate with an accepted Green Belt project (Evidence 11).
 

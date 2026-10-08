@@ -4,7 +4,7 @@ The decisions in [spec/index.md](../../spec/index.md#decisions). Record each dec
 
 | Id | Decision | Default | Options considered | Owner | Status | Decided on | Record |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Decision 1 | Primary language and tool | JavaScript with Selenium WebDriver and Mocha | Python with Selenium and pytest if the team's codebase is Python | Training lead, with the head of test | Open | | |
+| Decision 1 | Primary language and tool | JavaScript with Selenium and Mocha | Python with Selenium and pytest if the team's codebase is Python | Training lead, with the head of test | Open | | |
 | Decision 2 | CI service | The organisation's existing CI service; GitHub Actions for the practice repository | GitHub Actions, GitLab CI, Azure Pipelines, Jenkins | Training lead | Open | | |
 | Decision 3 | JavaScript foundations course | A structured, free or already-licensed course with exercises | The practice repository katas with free JavaScript material, such as MDN's JavaScript guide; a licensed course | Training lead | Open | | |
 | Decision 4 | Practice FHIR server | The practice repository's local FHIR sandbox (`practice-repo/fhir-sandbox/server.js`, run with `npm run fhir`): Node.js, no Docker, synthetic data only | A shared team test server with synthetic data | Mentors | Open | | |

@@ -38,7 +38,7 @@ Mentor pairing: in hours 7.5–22.5, the mentor pairs with Band 3, Band 4 qualit
 ## Activities
 
 1. Variables, types and `typeof`, functions, control flow, arrays and objects, modules with `import` and `export`, and errors.
-2. Promises, `async`, and `await`. Every Selenium WebDriver call returns a Promise: a missing `await` gives you a Promise instead of a result, and a confusing failure later.
+2. Promises, `async`, and `await`. Every Selenium call returns a Promise: a missing `await` gives you a Promise instead of a result, and a confusing failure later.
 3. The terminal, npm, the VS Code debugger, autocomplete, syntax highlighting, and ESLint, which catches many mistakes before you run the code.
 4. A first unit test with Mocha (`describe`, `it`) and `node:assert/strict`, then a unit test for every kata.
 
