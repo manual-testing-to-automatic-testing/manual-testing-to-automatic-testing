@@ -256,6 +256,15 @@ export function renderDoc(doc: Doc, locale: Locale = DEFAULT_LOCALE): RenderedDo
   html = html.replace(/<table>/g, () => `<div class="table-scroll" tabindex="0" role="region" aria-label="Table ${++n}"><table>`);
   html = html.replace(/<\/table>/g, '</table></div>');
   html = html.replace(/<pre>/g, '<pre tabindex="0">');
+  // A track guide's checklist is a real form on the site: each "- [ ]" item
+  // becomes a labelled checkbox that the page saves in the browser.
+  if (TRACK_GUIDE.test(doc.path)) {
+    let item = 0;
+    html = html.replace(
+      /<li><input (?:checked="" )?disabled="" type="checkbox"> ?([\s\S]*?)<\/li>/g,
+      (_, text: string) => `<li class="checklist-item"><label><input type="checkbox" data-check="${item++}"> ${text}</label></li>`
+    );
+  }
   return { html, headings };
 }
 

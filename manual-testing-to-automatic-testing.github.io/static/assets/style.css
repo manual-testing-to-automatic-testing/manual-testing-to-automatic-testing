@@ -1474,3 +1474,20 @@ th {
   cursor: pointer;
 }
 
+
+/* A track page's checklist: real checkboxes, one item per line. */
+.doc .checklist-item {
+  list-style: none;
+  margin-left: -1.25rem;
+}
+.doc .checklist-item label {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  cursor: pointer;
+}
+.doc .checklist-item input {
+  flex: none;
+  width: 1.1rem;
+  height: 1.1rem;
+}

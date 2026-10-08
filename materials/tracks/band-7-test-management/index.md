@@ -1,6 +1,37 @@
 # Track for Band 7 test manager
 
-This is the one-page guide for track **Band 7 test management**.
+## Checklist
+
+Do each item in order. Tick it when it is done.
+
+- [ ] Agree your protected time and pace with your line manager, and meet your mentor for a 30-minute start at hour 0.
+- [ ] [Module 0 Basics of a programming language](../../modules/module-0-basics-of-a-programming-language/index.md), hours 0–20: Evidence 0 (independent).
+- [ ] [Module 1 Basics of a browser automator](../../modules/module-1-basics-of-a-browser-automator/index.md), hours 20–40: Evidence 1 (independent).
+- [ ] [Module 2 Basics of an AI assistant](../../modules/module-2-basics-of-an-ai-assistant/index.md), hours 40–60: Evidence 2 (independent).
+- [ ] **Gate 0**, hour 60: have your three basics walkthroughs signed off; complete your [self-assessment](#your-capability-self-assessment); rate and calibrate with your line manager; agree your individual learning plan; and sign your learning agreement.
+- [ ] [Role foundations](../role-foundations/index.md), hours 60–240, alongside the core modules.
+- [ ] [Module 3 Induction and baseline](../../modules/module-3-induction/index.md), hours 60–67.5: Evidence 3 (independent).
+- [ ] [Health care foundations (leads one session)](../health-care-foundations/index.md), hours 67.5–120, alongside the core modules.
+- [ ] [Module 4 Why and what to automate](../../modules/module-4-why-and-what-to-automate/index.md), hours 60–75: Evidence 4 (lead or coach).
+- [ ] [Module 5 Programming foundations in JavaScript](../../modules/module-5-programming-foundations/index.md), hours 67.5–105: Evidence 5 (with support).
+- [ ] [Module 6 Version control and collaboration](../../modules/module-6-version-control/index.md), hours 82.5–105: Evidence 6 (independent).
+- [ ] **Gate 1**, hour 105: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-7-test-management): fix a failing unit test and open a pull request.
+- [ ] [Module 7 Browser automation fundamentals](../../modules/module-7-browser-automation-fundamentals/index.md), hours 105–127.5: Evidence 7 (with support).
+- [ ] [Coaching others in automation](../coaching-others-in-automation/index.md), hours 127.5–210, alongside the core modules.
+- [ ] [Module 8 From walkthrough to real test](../../modules/module-8-walkthrough-to-real-test/index.md), hours 127.5–150: Evidence 8 (with support).
+- [ ] **Gate 2**, hour 150: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-7-test-management): automate one given manual test case on the fixture site.
+- [ ] [Module 9 API, integration, and FHIR tests](../../modules/module-9-api-integration-fhir/index.md), hours 150–172.5: Evidence 9 (read and discuss).
+- [ ] [Automation strategy and metrics](../automation-strategy-and-metrics/index.md), hours 172.5–210, alongside the core modules.
+- [ ] [Leading teams through automation adoption](../leading-automation-adoption/index.md), hours 172.5–210, alongside the core modules.
+- [ ] [Module 10 Continuous integration and DevOps](../../modules/module-10-continuous-integration/index.md), hours 172.5–187.5: Evidence 10 (independent).
+- [ ] **Gate 3**, hour 187.5: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-7-test-management): triage and fix a failing CI run.
+- [ ] [Module 11 Safe and lawful test automation in health care](../../modules/module-11-safe-and-lawful-automation/index.md), hours 187.5–202.5: Evidence 11 (lead or coach).
+- [ ] [Module 12 Quality engineering practice](../../modules/module-12-quality-engineering/index.md), hours 195–210: Evidence 12 (lead or coach).
+- [ ] [Module 13 Capstone](../../modules/module-13-capstone/index.md), hours 202.5–240: Evidence 13 (lead or coach).
+- [ ] **Gate 4**, hour 240: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-7-test-management): live run and explanation of the capstone.
+- [ ] [Module 14 Lean Six Sigma Green Belt, lifetime certification](../../modules/module-14-lean-six-sigma-green-belt/index.md), hours 240–280: Evidence 14 (lead or coach).
+- [ ] **Green Belt certification exam**, by hour 280, with your Green Belt project accepted.
+- [ ] **Gate 5**, about six months after Gate 4: complete your self-assessment once more, and demonstrate a recent automated change.
 
 ## Your capability self-assessment
 

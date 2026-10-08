@@ -85,6 +85,57 @@ MINUTES = {t: ("30" if BAND[t] in "34" else "60") for t in TRACKS}
 
 def col(h, name): return h.index(name)
 
+
+# The checklist at the top of each guide: what the person does, in order,
+# built from the spec's module headings, module depths, and gate table.
+MODULE_HOURS = {}
+for _line in lines:
+    _m = re.match(r"#### ((?:Module \d+ )?[^(]+?) \((?:[^)]*?; )?hours ([\d.]+)–([\d.]+)", _line)
+    if _m:
+        MODULE_HOURS[_m[1].strip()] = (float(_m[2]), float(_m[3]))
+MODULE_FOLDERS = {int(p.name.split("-")[1]): p.name for p in (root / "materials/modules").glob("module-*")}
+gate_h, gate_rows = find("Gate", "Part D practical")
+
+
+def hours_text(a, b):
+    return f"hours {a:g}–{b:g}"
+
+
+def checklist(t, mi):
+    """The ordered "- [ ]" items for track t; mi is its column in the module depth table."""
+    events = []  # (sort hour, order, text)
+    for r in md_rows:
+        name, depth = r[0], r[mi]
+        if depth == "—":
+            continue
+        m = re.match(r"Module (\d+) ", name)
+        if m:
+            n = int(m[1])
+            full = next(k for k in MODULE_HOURS if k.startswith(f"Module {n} "))
+            a, b = MODULE_HOURS[full]
+            link = f"../../modules/{MODULE_FOLDERS[n]}/index.md"
+            events.append((b, 0, f"[{full}]({link}), {hours_text(a, b)}: Evidence {n} ({DEPTH.get(depth, depth).lower()})."))
+    for m in TRACK_MODULES[t]:
+        base = m.split(" (")[0]
+        a, b = MODULE_HOURS[base]
+        events.append((a, 1, f"[{m}]({MODULE_LINKS[base]}), {hours_text(a, b)}, alongside the core modules."))
+    for r in gate_rows:
+        gate, hour, part_d = r[0], r[1], r[3]
+        if gate == "Gate 0":
+            text = "**Gate 0**, hour 60: have your three basics walkthroughs signed off; complete your [self-assessment](#your-capability-self-assessment); rate and calibrate with your line manager; agree your individual learning plan; and sign your learning agreement."
+            events.append((60, 0.5, text))
+        elif gate.startswith("Gate ") and gate != "Gate 5":
+            # Other tracks' variants, in brackets, belong on their own pages.
+            task = re.sub(r" \([^)]*\)", "", part_d)
+            events.append((float(hour), 2, f"**{gate}**, hour {hour}: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#{SLUG[t]}): {task[0].lower()}{task[1:]}."))
+        elif gate == "Certification":
+            events.append((280, 2, "**Green Belt certification exam**, by hour 280, with your Green Belt project accepted."))
+    events.sort(key=lambda e: (e[0], e[1]))
+    items = ["Agree your protected time and pace with your line manager, and meet your mentor for a 30-minute start at hour 0."]
+    items += [e[2] for e in events]
+    items.append("**Gate 5**, about six months after Gate 4: complete your self-assessment once more, and demonstrate a recent automated change.")
+    return [f"- [ ] {i}" for i in items]
+
 for t in TRACKS:
     tr = next(r for r in tr_rows if r[0] == t)
     at = next(r for r in at_rows if r[0] == t)
@@ -95,7 +146,10 @@ for t in TRACKS:
     # The full track name: the band, then the reference role level, such as
     # "Track for Band 3 associate quality assurance test analyst".
     out.append(f"# Track for Band {BAND[t]} {ROLE_LEVELS[t][0].lower()}{ROLE_LEVELS[t][1:]}\n")
-    out.append(f"This is the one-page guide for track **{t}**.\n")
+    out.append("## Checklist\n")
+    out.append("Do each item in order. Tick it when it is done.\n")
+    out.extend(checklist(t, col(md_h, t)))
+    out.append("")
     out.append("## Your capability self-assessment\n")
     out.append(f"At every gate you complete the full instrument for this track: `instruments/{FILE_NAMES[t]}.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (UK GDaD PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).\n")
     out.append(f"### Part A: band outline (Band {BAND[t]})\n")

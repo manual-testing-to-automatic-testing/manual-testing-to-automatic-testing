@@ -6,6 +6,32 @@
   let { data } = $props();
   const chrome = $derived(chromeFor(data.locale as Locale));
 
+  // A track page's checklist: restore and save the ticks in this browser only.
+  let article: HTMLElement | undefined = $state();
+  $effect(() => {
+    const file = data.assessment?.file;
+    if (!article || !file) return;
+    const key = `manual-testing-to-automatic-testing:checklist:${file}`;
+    const boxes = [...article.querySelectorAll<HTMLInputElement>('input[data-check]')];
+    let saved: string[] = [];
+    try {
+      saved = JSON.parse(localStorage.getItem(key) ?? '[]');
+    } catch {
+      saved = [];
+    }
+    for (const box of boxes) box.checked = saved.includes(box.dataset.check ?? '');
+    const save = () => {
+      const ticked = boxes.filter((b) => b.checked).map((b) => b.dataset.check ?? '');
+      try {
+        localStorage.setItem(key, JSON.stringify(ticked));
+      } catch {
+        // Storage may be unavailable, for example in a private window.
+      }
+    };
+    for (const box of boxes) box.addEventListener('change', save);
+    return () => boxes.forEach((box) => box.removeEventListener('change', save));
+  });
+
 </script>
 
 <svelte:head>
@@ -20,7 +46,7 @@
   <h1>Moved</h1>
   <p>This page has moved to <a href={data.redirect}>{data.redirect}</a>.</p>
 {:else}
-<article class="doc prose">
+<article class="doc prose" bind:this={article}>
   {@html data.html}
   {#if data.assessment}
     <section class="section" aria-labelledby="self-assessment">

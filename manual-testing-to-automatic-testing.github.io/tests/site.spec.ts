@@ -135,3 +135,16 @@ test('the mentor and line manager pages explain the role and its time', async ({
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Line manager');
   await expect(page.getByText(/About 31 per person/)).toBeVisible();
 });
+
+test('a track page starts with a checklist of real checkboxes that are remembered', async ({ page }) => {
+  await page.goto('/en-001/track-for-band-5-quality-assurance-test-analyst/');
+  await expect(page.locator('article h2').first()).toHaveText('Checklist');
+  await expect(page.getByText('This is the one-page guide')).toHaveCount(0);
+  const boxes = page.locator('article input[type="checkbox"][data-check]');
+  expect(await boxes.count()).toBeGreaterThan(20);
+  await expect(boxes.first()).toBeEnabled();
+  await boxes.nth(1).check();
+  await page.reload();
+  await expect(boxes.nth(1)).toBeChecked();
+  await expect(boxes.first()).not.toBeChecked();
+});
