@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { docBySlug } from '#lib/server/docs.js';
+import { docBySlug, trackGuide } from '#lib/server/docs.js';
 import { allTracks } from '#lib/server/instruments.js';
 import { isLocale, localeHref } from '#lib/i18n/locales.js';
 import { SITE_NAME } from '#lib/site.js';
@@ -21,7 +21,8 @@ export const load = ({ params }) => {
     id: t.id,
     band: t.band,
     roleLevel: t.roleLevel,
-    guide: localeHref(locale, `materials/tracks/${t.id.toLowerCase().replaceAll(' ', '-')}`),
+    title: trackGuide(t.id).title,
+    guide: localeHref(locale, trackGuide(t.id).slug),
     assessment: localeHref(locale, `self-assessment/${t.slug}`)
   }));
   return {

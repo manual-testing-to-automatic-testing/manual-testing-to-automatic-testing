@@ -57,10 +57,17 @@ function descriptionOf(markdown: string): string {
   return '';
 }
 
+/** A track guide, such as materials/tracks/band-3/index.md. */
+const TRACK_GUIDE = /^materials\/tracks\/band-[^/]+\/index\.md$/;
+
 const DOCS: Doc[] = Object.entries(RAW)
   .map(([key, markdown]) => {
     const path = key.replace('/content/docs/', '');
-    return { path, slug: slugForPath(path), title: titleOf(markdown, path), description: descriptionOf(markdown), markdown };
+    const title = titleOf(markdown, path);
+    // Track guides live at the top level, named by their title, for example
+    // track-for-band-3-associate-quality-assurance-test-analyst.
+    const slug = TRACK_GUIDE.test(path) ? githubSlug(title) : slugForPath(path);
+    return { path, slug, title, description: descriptionOf(markdown), markdown };
   })
   // A directory's index.md wins over its README.md.
   .sort((a, b) => a.path.localeCompare(b.path));
@@ -74,6 +81,19 @@ const BY_PATH = new Map(DOCS.map((doc) => [doc.path, doc]));
 
 export function allDocs(): Doc[] {
   return [...BY_SLUG.values()];
+}
+
+/** The document at a monorepo path, such as materials/tracks/band-3/index.md. */
+export function docByPath(path: string): Doc | undefined {
+  return BY_PATH.get(path);
+}
+
+/** A track's guide, by its track id, such as Band 3. */
+export function trackGuide(trackId: string): Doc {
+  const path = `materials/tracks/${trackId.toLowerCase().replaceAll(' ', '-')}/index.md`;
+  const doc = BY_PATH.get(path);
+  if (!doc) throw new Error(`No track guide at ${path}`);
+  return doc;
 }
 
 export function docBySlug(slug: string): Doc | undefined {

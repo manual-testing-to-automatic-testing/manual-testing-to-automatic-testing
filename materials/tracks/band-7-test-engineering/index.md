@@ -1,4 +1,4 @@
-# Track guide: Band 7 test engineering
+# Track for Band 7 senior test engineer
 
 This is the one-page guide for track **Band 7 test engineering**. It is copied from [spec/index.md](../../../spec/index.md), which is the single source of truth. If this page and the spec disagree, the spec wins.
 

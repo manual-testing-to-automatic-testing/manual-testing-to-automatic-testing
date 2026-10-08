@@ -1,4 +1,4 @@
-# Track guide: Band 6 quality assurance
+# Track for Band 6 senior quality assurance test analyst
 
 This is the one-page guide for track **Band 6 quality assurance**. It is copied from [spec/index.md](../../../spec/index.md), which is the single source of truth. If this page and the spec disagree, the spec wins.
 

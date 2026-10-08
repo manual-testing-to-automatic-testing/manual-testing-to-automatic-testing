@@ -1,4 +1,5 @@
 import { error } from '@sveltejs/kit';
+import { trackGuide } from '#lib/server/docs.js';
 import { allTracks, trackBySlug } from '#lib/server/instruments.js';
 import { LOCALES, isLocale, localeHref } from '#lib/i18n/locales.js';
 import { pageTitle } from '#lib/site.js';
@@ -16,7 +17,7 @@ export const load = ({ params }) => {
     items: track.items,
     file: track.slug,
     blank: `/downloads/instruments/${track.slug}.tsv`,
-    guide: localeHref(locale, `materials/tracks/${track.id.toLowerCase().replaceAll(' ', '-')}`),
+    guide: localeHref(locale, trackGuide(track.id).slug),
     crumbs: [
       { href: localeHref(locale), label: 'Home' },
       { href: localeHref(locale, 'self-assessment'), label: 'Self-assessment' }

@@ -34,7 +34,9 @@ def find(first, contains=None):
 # scripts/build_instrument.py), so the two can never disagree.
 import csv
 with open(root / "instruments" / "index.tsv", encoding="utf-8") as _f:
-    FILE_NAMES = {row["track"]: row["file"].removesuffix(".tsv") for row in csv.DictReader(_f, delimiter="\t")}
+    INDEX = list(csv.DictReader(_f, delimiter="\t"))
+FILE_NAMES = {row["track"]: row["file"].removesuffix(".tsv") for row in INDEX}
+ROLE_LEVELS = {row["track"]: row["role_level"] for row in INDEX}
 # Each track's Green Belt project scope, as in the Module 11 module page.
 GREEN_BELT = {
     "Band 3": "Your Green Belt project is a named part of a team project, led by your mentor or a Band 6 or Band 7 colleague.",
@@ -101,7 +103,9 @@ for t in TRACKS:
     cap = next(r for r in cap_rows if r[0] == t)
     ci = col(fac_h, t); si = col(sk_h, t); li = col(lo_h, t); mi = col(md_h, t)
     out = []
-    out.append(f"# Track guide: {t}\n")
+    # The full track name: the band, then the reference role level, such as
+    # "Track for Band 3 associate quality assurance test analyst".
+    out.append(f"# Track for Band {BAND[t]} {ROLE_LEVELS[t][0].lower()}{ROLE_LEVELS[t][1:]}\n")
     out.append(f"This is the one-page guide for track **{t}**. It is copied from [spec/index.md](../../../spec/index.md), which is the single source of truth. If this page and the spec disagree, the spec wins.\n")
     out.append("Nobody changes band or role because of this programme. Reaching an automation target above the role's expectation is a strength, not a regrade.\n")
     out.append("## Who it is for\n")

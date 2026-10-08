@@ -55,7 +55,8 @@ Trailing slashes always. Every page is under a locale (see `spec/locales/index.m
 | Path | Page |
 | --- | --- |
 | `/` | Redirects to `/en-001/` |
-| `/<locale>/` | Home: the programme's summary, links to the programme and the self-assessment, and the tracks table. No tiles: the navigation and the link picker reach every main page |
+| `/<locale>/` | Home: the programme's summary, links to the programme and the self-assessment, and a list of the tracks, each linking to its guide. No tiles: the navigation and the link picker reach every main page |
+| `/<locale>/track-for-<band and role level>/` | A track guide, named by its title, for example `track-for-band-3-associate-quality-assurance-test-analyst`. Its source is `materials/tracks/<track>/index.md` |
 | `/<locale>/<slug>/` | A document. `spec/index.md` is `spec`, `plan.md` is `plan`, a folder's `index.md` or `README.md` is the folder, the root `README.md` is `about` |
 | `/<locale>/self-assessment/` | The tracks, with their item counts and blank TSVs |
 | `/<locale>/self-assessment/<file name>/` | The capability self-assessment for one track, named as its instrument file, for example `band-5-quality-assurance-test-analyst` |

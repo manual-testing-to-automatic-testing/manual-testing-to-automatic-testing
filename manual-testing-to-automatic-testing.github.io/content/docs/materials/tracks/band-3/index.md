@@ -1,4 +1,4 @@
-# Track guide: Band 3
+# Track for Band 3 associate quality assurance test analyst
 
 This is the one-page guide for track **Band 3**. It is copied from [spec/index.md](../../../spec/index.md), which is the single source of truth. If this page and the spec disagree, the spec wins.
 

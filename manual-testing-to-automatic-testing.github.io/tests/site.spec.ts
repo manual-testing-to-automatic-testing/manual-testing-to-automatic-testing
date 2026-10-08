@@ -31,10 +31,10 @@ test('every page has one h1, a title, a language, and the picker bar', async ({ 
 test('the home page lists all eight tracks', async ({ page }) => {
   await page.goto('/en-001/');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Manual testing to automatic testing');
-  const rows = page.getByRole('region', { name: 'Tracks' }).locator('tbody tr');
-  await expect(rows).toHaveCount(8);
-  for (const track of ['Band 3', 'Band 4 quality assurance', 'Band 4 test engineering', 'Band 5 quality assurance', 'Band 6 quality assurance', 'Band 6 test engineering', 'Band 7 test engineering', 'Band 7 test management']) {
-    await expect(rows.getByRole('rowheader', { name: track, exact: true })).toBeVisible();
+  const items = page.locator('.track-list li');
+  await expect(items).toHaveCount(8);
+  for (const band of ['3', '4', '4', '5', '6', '6', '7', '7'].entries()) {
+    await expect(items.nth(band[0])).toHaveText(new RegExp(`^Track for Band ${band[1]} `));
   }
 });
 
@@ -78,7 +78,7 @@ test('pages are a single column, with no sidebars', async ({ page }) => {
 for (const width of [1024, 1280, 1600]) {
   test(`the PickerBar shares the brand's row at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 800 });
-    await page.goto('/en-001/materials/tracks/band-3/');
+    await page.goto('/en-001/track-for-band-3-associate-quality-assurance-test-analyst/');
     const brand = await page.locator('.site-brand').boundingBox();
     const tools = await page.locator('.site-tools').boundingBox();
     const nav = await page.getByRole('navigation', { name: 'Main' }).boundingBox();
@@ -94,4 +94,14 @@ test('the home page has no tiles', async ({ page }) => {
   await page.goto('/en-001/');
   await expect(page.locator('.card-grid, .doc-card')).toHaveCount(0);
   await expect(page.getByRole('heading', { level: 2 })).toHaveText(['Tracks']);
+});
+
+test('the home page lists every track, linking to its guide', async ({ page }) => {
+  await page.goto('/en-001/');
+  const links = page.locator('.track-list a');
+  await expect(links).toHaveCount(8);
+  await expect(links.first()).toHaveText('Track for Band 3 associate quality assurance test analyst');
+  await expect(links.first()).toHaveAttribute('href', '/en-001/track-for-band-3-associate-quality-assurance-test-analyst/');
+  await links.first().click();
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Track for Band 3 associate quality assurance test analyst');
 });

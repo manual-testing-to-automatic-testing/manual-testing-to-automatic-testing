@@ -4,7 +4,7 @@ import { AxeBuilder } from '@axe-core/playwright';
 const PAGES = [
   '/en-001/',
   '/en-001/spec/',
-  '/en-001/materials/tracks/band-5-quality-assurance/',
+  '/en-001/track-for-band-5-quality-assurance-test-analyst/',
   '/en-001/self-assessment/',
   '/en-001/self-assessment/band-6-senior-quality-assurance-test-analyst/',
   '/en-001/search/?gate'

@@ -1,4 +1,4 @@
-# Track guide: Band 7 test management
+# Track for Band 7 test manager
 
 This is the one-page guide for track **Band 7 test management**. It is copied from [spec/index.md](../../../spec/index.md), which is the single source of truth. If this page and the spec disagree, the spec wins.
 

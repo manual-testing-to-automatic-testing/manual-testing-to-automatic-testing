@@ -1,5 +1,4 @@
 <script lang="ts">
-  import ScrollRegion from '#lib/components/ScrollRegion.svelte';
   import { localeHref } from '#lib/i18n/locales.js';
   import type { Locale } from '#lib/i18n/locales.js';
 
@@ -13,13 +12,6 @@
     assessCta: string;
     tracksHeading: string;
     tracksIntro: string;
-    trackCol: string;
-    bandCol: string;
-    roleCol: string;
-    guideCol: string;
-    assessCol: string;
-    guide: string;
-    assess: string;
   };
 
   const EN_001: Messages = {
@@ -31,13 +23,6 @@
     assessCta: 'Open the self-assessment',
     tracksHeading: 'Tracks',
     tracksIntro: 'Find the track for your band and UK GDaD PCF role.',
-    trackCol: 'Track',
-    bandCol: 'Band',
-    roleCol: 'Reference role level',
-    guideCol: 'Track guide',
-    assessCol: 'Self-assessment',
-    guide: 'Guide',
-    assess: 'Assess',
   };
 
   const MESSAGES: Record<Locale, Messages> = { 'en-001': EN_001 };
@@ -58,29 +43,10 @@
 <section class="section" aria-labelledby="tracks">
   <h2 id="tracks">{m.tracksHeading}</h2>
   <p>{m.tracksIntro}</p>
-  <ScrollRegion labelledby="tracks">
-    <table>
-      <thead>
-        <tr>
-          <th scope="col">{m.trackCol}</th>
-          <th scope="col">{m.bandCol}</th>
-          <th scope="col">{m.roleCol}</th>
-          <th scope="col">{m.guideCol}</th>
-          <th scope="col">{m.assessCol}</th>
-        </tr>
-      </thead>
-      <tbody>
-        {#each data.tracks as track (track.id)}
-          <tr>
-            <th scope="row">{track.id}</th>
-            <td>{track.band}</td>
-            <td>{track.roleLevel}</td>
-            <td><a href={track.guide}>{m.guide}<span class="visually-hidden"> {track.id}</span></a></td>
-            <td><a href={track.assessment}>{m.assess}<span class="visually-hidden"> {track.id}</span></a></td>
-          </tr>
-        {/each}
-      </tbody>
-    </table>
-  </ScrollRegion>
+  <ul class="track-list">
+    {#each data.tracks as track (track.id)}
+      <li><a href={track.guide}>{track.title}</a></li>
+    {/each}
+  </ul>
 </section>
 
