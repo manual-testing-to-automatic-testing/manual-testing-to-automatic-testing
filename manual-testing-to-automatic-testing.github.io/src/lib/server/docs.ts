@@ -48,7 +48,9 @@ function descriptionOf(markdown: string): string {
     if (!text || /^(#|\||```|-|\*|\d+\.|>|<)/.test(text)) continue;
     const plain = text
       .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-      .replace(/[`*_]/g, '')
+      .replace(/[`*]/g, '')
+      // Underscores only as emphasis markers, not inside words such as file names.
+      .replace(/(^|\W)_([^_]+)_(?=\W|$)/g, '$1$2')
       .replace(/\s+/g, ' ');
     return plain.length > 200 ? `${plain.slice(0, 197).trimEnd()}…` : plain;
   }

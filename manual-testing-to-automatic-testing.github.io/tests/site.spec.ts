@@ -89,3 +89,16 @@ for (const width of [1024, 1280, 1600]) {
     await expect(page.getByRole('button', { name: 'Pages' })).toBeVisible();
   });
 }
+
+test('every home page tile area has six tiles, in rows of three on wide screens', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('/en-001/');
+  const areas = page.locator('section:has(> .card-grid-six)');
+  await expect(areas).toHaveCount(4);
+  for (let i = 0; i < 4; i++) {
+    const tiles = areas.nth(i).locator('.card-grid-six > *');
+    await expect(tiles).toHaveCount(6);
+    const tops = await tiles.evaluateAll((els) => els.map((el) => Math.round(el.getBoundingClientRect().top)));
+    expect(new Set(tops).size, `area ${i + 1} should have two rows`).toBe(2);
+  }
+});

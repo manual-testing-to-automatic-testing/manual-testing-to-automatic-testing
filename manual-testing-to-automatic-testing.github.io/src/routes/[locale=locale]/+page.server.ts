@@ -8,9 +8,13 @@ import { SITE_NAME } from '#lib/site.js';
 const LINKED = [
   'spec', 'plan', 'tasks', 'about',
   'materials/modules', 'materials/tracks', 'materials/gates', 'materials/planning',
+  'materials/tracks/r1-role-foundations', 'materials/modules/m11-lean-six-sigma-green-belt',
+  'materials/reading-list', 'instruments',
   'materials/gates/calibration-guide', 'materials/gates/part-d-practicals', 'materials/gates/gate-review-form',
+  'materials/gates/ilp-template', 'materials/gates/gate-4-panel-guide',
   'materials/planning/sponsor-brief', 'materials/planning/hr-briefing', 'materials/planning/decision-log',
-  'materials/reading-list', 'materials/modules/m11-lean-six-sigma-green-belt', 'instruments', 'practice-repo', 'practice-repo/fhir-sandbox'
+  'practice-repo', 'practice-repo/fhir-sandbox', 'practice-repo/tests/katas', 'practice-repo/tests/flaky',
+  'practice-repo/spec', 'practice-repo/CONTRIBUTING'
 ];
 
 export const load = ({ params }) => {

@@ -1542,3 +1542,19 @@ th {
   color: var(--site-text);
   cursor: pointer;
 }
+
+/* Home page tile areas: six tiles each, so three columns on wide screens
+ * (two rows of three), two on medium screens, and one on narrow screens. */
+.card-grid-six {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (max-width: 60rem) {
+  .card-grid-six {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 36rem) {
+  .card-grid-six {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
