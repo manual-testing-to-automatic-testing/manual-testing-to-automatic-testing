@@ -2,6 +2,8 @@
 
 Hours 40–60, 20 hours, the same for every track. Signed off by the mentor with a walkthrough. Reviewed at Gate 0.
 
+The full training content, lesson by lesson, is in [Basics of an AI assistant: training](training.md).
+
 ## Purpose
 
 An AI assistant can explain code, suggest a plan, and draft tests in seconds. It can also be confidently wrong. Module 2 teaches each person to use one well: to ask clearly, to check every answer, and to keep patient data, personal data, and secrets out of it (Principle 13 and Principle 15).

@@ -15,7 +15,9 @@ test('the sitemap lists every page', () => {
   expect(paths).toContain('/en-001/spec/');
   expect(paths).toContain('/en-001/track-for-band-5-quality-assurance-test-analyst/');
   expect(paths).toContain('/en-001/calibration-guide/');
-  expect(paths.some((p) => p.split('/').length > 4)).toBe(false);
+  // Flat URLs, except a module's training content under curriculum/.
+  expect(paths.filter((p) => p.split('/').length > 4 && !p.includes('/curriculum/'))).toEqual([]);
+  expect(paths).toContain('/en-001/curriculum/basics-of-an-ai-assistant/');
 });
 
 test('every page has one h1, a title, a language, and the picker bar', async ({ page }) => {
@@ -147,4 +149,10 @@ test('a track page starts with a checklist of real checkboxes that are remembere
   await page.reload();
   await expect(boxes.nth(1)).toBeChecked();
   await expect(boxes.first()).not.toBeChecked();
+});
+
+test('module training content lives under curriculum/', async ({ page }) => {
+  await page.goto('/en-001/curriculum/basics-of-an-ai-assistant/');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Basics of an AI assistant');
+  await expect(page.getByRole('heading', { name: 'Lesson 8: From Given-When-Then to Selenium JavaScript, and back' })).toBeVisible();
 });

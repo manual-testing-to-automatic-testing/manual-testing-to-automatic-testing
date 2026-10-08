@@ -54,6 +54,11 @@ const SLUGS: Record<string, string> = {
  */
 export function slugForPath(path: string): string {
   if (SLUGS[path]) return SLUGS[path];
+  // A module's training content is under curriculum/, named for the module
+  // without its number: materials/modules/module-2-basics-of-an-ai-assistant/
+  // training.md -> curriculum/basics-of-an-ai-assistant.
+  const training = path.match(/^materials\/modules\/module-\d+-([^/]+)\/training\.md$/);
+  if (training) return `curriculum/${training[1]}`;
   const name = nestedSlug(path).split('/').pop() ?? '';
   return name.replace(/^brief-/, 'capstone-brief-');
 }

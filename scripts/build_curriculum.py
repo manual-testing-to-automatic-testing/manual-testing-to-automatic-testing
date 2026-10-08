@@ -100,7 +100,10 @@ def materials_link(heading, folders):
     match = re.match(r"Module (\d+) ", heading)
     if match and int(match.group(1)) in folders:
         folder = folders[int(match.group(1))]
-        return f"- **Materials:** [materials/modules/{folder}/](materials/modules/{folder}/index.md)"
+        line = f"- **Materials:** [materials/modules/{folder}/](materials/modules/{folder}/index.md)"
+        if (ROOT / "materials" / "modules" / folder / "training.md").exists():
+            line += f"; the training content, lesson by lesson: [training](materials/modules/{folder}/training.md)"
+        return line
     for name, folder in TRACK_MODULE_FOLDERS.items():
         if heading.startswith(name):
             return f"- **Materials:** [materials/tracks/{folder}/](materials/tracks/{folder}/index.md)"

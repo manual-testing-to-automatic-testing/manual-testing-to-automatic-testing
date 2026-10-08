@@ -175,7 +175,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
   The mentor signs it off.
 - **Activities:** prompting: context, goal, format, and examples; checking answers against sources and code; spotting confident but wrong answers; the organisation's AI use policy; never entering real patient data, personal data, credentials, or confidential code (Principle 13 and Principle 15).
 - **Resources:** Google Gemini AI Mode; the organisation's AI use policy; the Module 1 script and the practice repository's code, to explain.
-- **Materials:** [materials/modules/module-2-basics-of-an-ai-assistant/](materials/modules/module-2-basics-of-an-ai-assistant/index.md)
+- **Materials:** [materials/modules/module-2-basics-of-an-ai-assistant/](materials/modules/module-2-basics-of-an-ai-assistant/index.md); the training content, lesson by lesson: [training](materials/modules/module-2-basics-of-an-ai-assistant/training.md)
 
 ### Module 3 Induction and baseline (hours 60–67.5)
 
