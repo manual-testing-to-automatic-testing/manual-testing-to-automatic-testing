@@ -1,17 +1,17 @@
 # Health care foundations
 
-Health care foundations runs in hours 7.5–60 for every track. Its purpose is that every person meets the expected levels in **understanding health and care services**, **clinical risk management**, and **information governance and data protection** by Gate 2 (spec Principle 13). Health care foundations is reflected in Part C ratings at Gate 2.
+Health care foundations runs in hours 67.5–120 for every track. Its purpose is that every person meets the expected levels in **understanding health and care services**, **clinical risk management**, and **information governance and data protection** by Gate 2 (spec Principle 13). Health care foundations is reflected in Part C ratings at Gate 2.
 
 | Session | Programme hours | Led by | Length | Who |
 | --- | --- | --- | --- | --- |
-| 1 How the organisation's services support care | 7.5–15 | Band 7 test management participant, with a clinical colleague | 1.5 hours | All |
-| 2 Information governance for testers | 15–22.5 | Information governance lead | 1.5 hours | All |
-| 3 Clinical risk management for testers | 22.5–30 | Clinical safety officer | 1.5 hours | All |
-| 4 Hazard workshop | 30–45 | Clinical safety officer | 1.5 hours | All, in small groups |
-| 5 Shadowing a clinical or care user | Between hours 22.5 and 60, in normal working time | Line manager arranges | About 3.5 hours, outside the learning hours | All |
-| 6 Wrap-up and Part C self-check | 52.5–60 | Training lead | 1 hour | All |
+| 1 How the organisation's services support care | 67.5–75 | Band 7 test management participant, with a clinical colleague | 1.5 hours | All |
+| 2 Information governance for testers | 75–82.5 | Information governance lead | 1.5 hours | All |
+| 3 Clinical risk management for testers | 82.5–90 | Clinical safety officer | 1.5 hours | All |
+| 4 Hazard workshop | 90–105 | Clinical safety officer | 1.5 hours | All, in small groups |
+| 5 Shadowing a clinical or care user | Between hours 82.5 and 120, in normal working time | Line manager arranges | About 3.5 hours, outside the learning hours | All |
+| 6 Wrap-up and Part C self-check | 112.5–120 | Training lead | 1 hour | All |
 
-Health care foundations takes 7 learning hours in all (sessions 1, 2, 3, 4, and 6), within hours 7.5–60. Shadowing happens in normal working time, because it is part of knowing the work. The cohort total for the clinical safety officer is 3 hours here, within the spec's 6 hours per cohort, leaving about 3 hours for Module 8. The information governance lead gives 1.5 hours here and the rest of their 3 hours in Module 8.
+Health care foundations takes 7 learning hours in all (sessions 1, 2, 3, 4, and 6), within hours 67.5–120. Shadowing happens in normal working time, because it is part of knowing the work. The cohort total for the clinical safety officer is 3 hours here, within the spec's 6 hours per cohort, leaving about 3 hours for Module 11. The information governance lead gives 1.5 hours here and the rest of their 3 hours in Module 11.
 
 ## Session 1: How the organisation's services support care
 
@@ -24,7 +24,7 @@ Health care foundations takes 7 learning hours in all (sessions 1, 2, 3, 4, and 
 3. (30 minutes) Small groups: each person maps their own product onto the pathway and marks one point where a defect could affect care.
 4. (10 minutes) Common clinical terms testers should use correctly.
 
-**Leader note:** the Band 7 test management participant leads this session, as their track requires. The training lead reviews the plan with them in hours 0–7.5.
+**Leader note:** the Band 7 test management participant leads this session, as their track requires. The training lead reviews the plan with them in hours 60–67.5.
 
 ## Session 2: Information governance for testers
 
@@ -61,7 +61,7 @@ Health care foundations takes 7 learning hours in all (sessions 1, 2, 3, 4, and 
 3. (25 minutes) For each hazard: the existing controls, and which tests (manual or automated) give evidence that the controls work.
 4. (20 minutes) Groups present; the clinical safety officer agrees which hazards go in the log.
 
-**Output:** each person records one hazard and its test evidence in their learning log. This seeds the Module 8 traceability matrix.
+**Output:** each person records one hazard and its test evidence in their learning log. This seeds the Module 11 traceability matrix.
 
 ## Session 5: Shadowing a clinical or care user
 

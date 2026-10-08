@@ -37,7 +37,7 @@ with open(root / "instruments" / "index.tsv", encoding="utf-8") as _f:
     INDEX = list(csv.DictReader(_f, delimiter="\t"))
 FILE_NAMES = {row["track"]: row["file"].removesuffix(".tsv") for row in INDEX}
 ROLE_LEVELS = {row["track"]: row["role_level"] for row in INDEX}
-# Each track's Green Belt project scope, as in the Module 11 module page.
+# Each track's Green Belt project scope, as in the Module 14 module page.
 GREEN_BELT = {
     "Band 3": "Your Green Belt project is a named part of a team project, led by your mentor or a Band 6 or Band 7 colleague.",
     "Band 4 quality assurance": "Your Green Belt project is a named part of a team project, led by your mentor or a Band 6 or Band 7 colleague.",
@@ -134,7 +134,7 @@ for t in TRACKS:
     out.append("| Protected time | Approximate guided hours | Optional extension |")
     out.append("| --- | --- | --- |")
     out.append(f"| {time[1]} | {time[2]} | {time[3]} |\n")
-    out.append("From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at this track's depth.\n")
+    out.append("From hour 127.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at this track's depth.\n")
     out.append("## Learning outcomes, at this track's depth\n")
     out.append("| Id | Outcome | Depth |")
     out.append("| --- | --- | --- |")
@@ -155,16 +155,16 @@ for t in TRACKS:
     for m in TRACK_MODULES[t]:
         out.append(f"- [{m}]({MODULE_LINKS[m.split(' (')[0]]})")
     out.append("")
-    out.append("## Capstone (Module 10, hours 142.5 to 180)\n")
+    out.append("## Capstone (Module 13, hours 202.5 to 240)\n")
     out.append(cap[1] + "\n")
     out.append(f"You present it to the Gate 4 panel for {'10' if BAND[t] in '34' else '20'} minutes, aimed at a non-technical audience.\n")
     out.append("## Lean Six Sigma Green Belt (40 hours)\n")
     out.append("Every track has Lean Six Sigma training. You will earn your Lean Six Sigma Green Belt lifetime certification. You will work with your real team on your Lean Six Sigma Green Belt project. Estimate 40 hours for Lean Six Sigma training.\n")
-    out.append(GREEN_BELT[t] + " See the [Module 11 module](../../modules/module-11-lean-six-sigma-green-belt/index.md).\n")
+    out.append(GREEN_BELT[t] + " See the [Module 14 module](../../modules/module-14-lean-six-sigma-green-belt/index.md).\n")
     out.append("## Gates and practicals\n")
-    out.append(f"Gates are at programme hours 0, 45, 90, 127.5, and 180, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **{MINUTES[t]} minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#{SLUG[t]}). Thresholds and conditions are in the [gates overview](../../gates/index.md).\n")
+    out.append(f"Gates are at programme hours 60, 105, 150, 187.5, and 240, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **{MINUTES[t]} minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#{SLUG[t]}). Thresholds and conditions are in the [gates overview](../../gates/index.md).\n")
     if BAND[t] in "34":
-        out.append("With the optional extension to 280 hours, the gates move to hours 0, 60, 120, 172.5, and 240, and Module 11 runs in hours 240 to 280.\n")
+        out.append("With the optional extension to 340 hours, the gates move to hours 60, 120, 180, 232.5, and 300, and Module 14 runs in hours 300 to 340.\n")
     out.append("## Mentor\n")
     out.append(f"Your mentor is at least one band above you (Band {int(BAND[t])+1} or higher) and at or above your automation target in test engineering ({at[2].replace('**','')}). One mentor supports up to 3 participants." + (" For Band 7 tracks, an external mentor may be used if no internal mentor meets these rules." if BAND[t] == "7" else "") + "\n")
     out.append("## Related\n")

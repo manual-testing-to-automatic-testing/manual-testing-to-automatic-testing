@@ -45,17 +45,18 @@ The curriculum of the training programme from manual testing to automatic testin
 
 This page is generated from [spec/index.md](spec/index.md), the single source of truth, by `scripts/build_curriculum.py`. Edit the spec, never this page. The materials for each module are linked from its section.
 
-- **Length:** 220 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), so about 30 weeks.
-- **Core modules:** Module 0 to Module 11, the same for every track, taught at each track's depth.
+- **Length:** 280 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), so about 38 weeks.
+- **Starts with:** the basics, in hours 0 to 60: Module 0 Basics of a programming language, Module 1 Basics of a browser automator, and Module 2 Basics of an AI assistant, each ending with a walkthrough to the mentor.
+- **Core modules:** Module 0 to Module 14, the same for every track, taught at each track's depth.
 - **Track modules:** Role foundations and Health care foundations for every track, and leadership modules for Band 6 and Band 7.
 - **Tracks:** eight, one for each band and UK GDaD PCF role, from Band 3 to Band 7. See the [track guides](materials/tracks/index.md).
-- **Gates:** at hours 0, 45, 90, 127.5, and 180, then a follow-up about six months later, each with the full capability self-assessment.
-- **Ends with:** the Lean Six Sigma Green Belt, a lifetime certification, in hours 180 to 220.
+- **Gates:** at hours 60, 105, 150, 187.5, and 240, then a follow-up about six months later, each with the full capability self-assessment.
+- **Ends with:** the Lean Six Sigma Green Belt, a lifetime certification, in hours 240 to 280.
 """
 
 
 def module_folders():
-    """Module number -> its materials folder, such as 4 -> module-4-browser-automation-fundamentals."""
+    """Module number -> its materials folder, such as 4 -> module-7-browser-automation-fundamentals."""
     folders = {}
     for path in (ROOT / "materials" / "modules").glob("module-*"):
         number = int(path.name.split("-")[1])

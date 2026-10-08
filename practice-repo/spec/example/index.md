@@ -2,7 +2,7 @@
 
 ## Summary
 
-This suite uses Selenium and Mocha, in JavaScript, to check the fixture section of the home page of <https://testingexamples.github.io>, a deliberately stable page for practising browser automation. It is the worked example for Modules 4 and 5 of the training programme: it locates elements by id, name, class name, link text, CSS, and XPath, acts on every form input, waits explicitly for every element, and makes real assertions about each with `node:assert/strict`.
+This suite uses Selenium and Mocha, in JavaScript, to check the fixture section of the home page of <https://testingexamples.github.io>, a deliberately stable page for practising browser automation. It is the worked example for Modules 7 and 8 of the training programme: it locates elements by id, name, class name, link text, CSS, and XPath, acts on every form input, waits explicitly for every element, and makes real assertions about each with `node:assert/strict`.
 
 ## Scope
 

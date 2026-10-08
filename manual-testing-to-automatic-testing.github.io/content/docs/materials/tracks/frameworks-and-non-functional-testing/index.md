@@ -4,15 +4,15 @@
 
 **Outcomes:** extend, standardise, and build reusable frameworks; plan and run performance, load, and resilience tests based on real clinical demand; maintain and adapt CI/CD pipelines.
 
-**Evidence:** folded into the Band 7 test engineering capstone (Module 10).
+**Evidence:** folded into the Band 7 test engineering capstone (Module 13).
 
 The exercises are written to be tool-neutral where possible. The defaults are JavaScript with Selenium and Mocha for shared helpers, and **k6** for load tests, because k6 scripts are JavaScript, run headless in CI, and keep load generation separate from browser tests. Install k6 as its standalone binary from <https://grafana.com/docs/k6/latest/set-up/install-k6/>, not as a container: participants have no Docker. Another load tool is fine if the organisation already uses one (spec Decision 1).
 
-## Exercise 1: Reusable helpers and hooks (hours 112.5–127.5)
+## Exercise 1: Reusable helpers and hooks (hours 172.5–187.5)
 
 **Goal:** turn repeated set-up code across the cohort's suites into shared helpers and Mocha hooks.
 
-1. Read three participants' Module 5 and Module 6 suites. List repeated code: logging in, creating a synthetic patient, opening a page, calling the FHIR server.
+1. Read three participants' Module 8 and Module 9 suites. List repeated code: logging in, creating a synthetic patient, opening a page, calling the FHIR server.
 2. Design shared helpers in `tests/support/`, for example:
    - a driver factory that builds one configured Chrome driver (headless in CI, window size, timeouts), with Mocha root hooks that start it before a suite and always quit it after
    - an `afterEach` hook that saves a screenshot and the page source to `test-results/` when a test fails
@@ -25,7 +25,7 @@ The exercises are written to be tool-neutral where possible. The defaults are Ja
 
 **Done when:** at least two suites use the helpers, all tests still pass in CI, and test isolation is unchanged (each test can run alone, with `mocha --grep`, and the suite can run with `--parallel`).
 
-## Exercise 2: Pipeline maintenance (hours 120–127.5)
+## Exercise 2: Pipeline maintenance (hours 180–187.5)
 
 **Goal:** keep the pipeline fast and reliable as suites grow.
 
@@ -37,7 +37,7 @@ The exercises are written to be tool-neutral where possible. The defaults are Ja
 
 **Done when:** the pull request pipeline is faster than before with no loss of the checks that block merging, and the quarantine rule is in use.
 
-## Exercise 3: Performance and load test based on clinical demand (hours 127.5–150)
+## Exercise 3: Performance and load test based on clinical demand (hours 187.5–210)
 
 **Goal:** plan and run a load test that models real clinical demand, not an arbitrary number of users.
 

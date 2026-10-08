@@ -8,13 +8,13 @@ Protect your person's learning time, rate them honestly and independently at eac
 
 ## 1. What the programme is
 
-- 220 hours of protected learning time, by default 7.5 hours a week, so about 30 calendar weeks. Gates at hours 0, 45, 90, 127.5, and 180, then the Lean Six Sigma Green Belt (Module 11) in hours 180–220, and a follow-up about six months after Gate 4. Use `scripts/gate_calendar.py` for the dates.
+- 280 hours of protected learning time, by default 7.5 hours a week, so about 38 calendar weeks. Gates at hours 60, 105, 150, 187.5, and 240, then the Lean Six Sigma Green Belt (Module 14) in hours 240–280, and a follow-up about six months after Gate 4. Use `scripts/gate_calendar.py` for the dates.
 - Your person joins the track for their band and UK GDaD PCF role. Their band and role do not change.
 - Their guide is in `materials/tracks/<track>/index.md`. Read it.
 
 ## 2. Protected time
 
-Every track has the same protected time: **220 learning hours**, by default **7.5 hours a week**, 20% of a 37.5-hour week. Band 3 and Band 4 may extend to 280 hours. Agree the pace in the learning agreement.
+Every track has the same protected time: **280 learning hours**, by default **7.5 hours a week**, 20% of a 37.5-hour week. Band 3 and Band 4 may extend to 340 hours. Agree the pace in the learning agreement.
 
 - Put it in both calendars before Gate 0, at fixed times each week.
 - Reduce their delivery work to match. Agree this with their product owner.
@@ -48,7 +48,7 @@ Avoid:
 ## 5. Between gates
 
 - A 1-hour check-in every 15 learning hours: progress on the individual learning plan, blockers, protected time.
-- Help find real work to automate: from hour 67.5, part of every 7.5 hours of learning is real automation on the team's product.
+- Help find real work to automate: from hour 127.5, part of every 7.5 hours of learning is real automation on the team's product.
 - Recognise progress publicly, for example at team show-and-tells.
 
 ## 6. If a gate is not met

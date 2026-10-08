@@ -21,12 +21,12 @@ The track guides are generated from the spec's tables, so the expected levels ma
 
 | Module | Tracks | Programme hours | Materials |
 | --- | --- | --- | --- |
-| Role foundations | All | 0–180 | [Role practice guide](role-foundations/index.md) |
-| Health care foundations | All | 7.5–60 | [Session plans](health-care-foundations/index.md) |
-| Coaching others in automation | Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, Band 7 test management | 67.5–150 | [Guide and coaching log](coaching-others-in-automation/index.md) |
-| Automation strategy and metrics | Band 6 quality assurance, Band 7 test engineering, Band 7 test management | 112.5–150 | [Strategy and metrics templates](automation-strategy-and-metrics/index.md) |
-| Frameworks and non-functional testing | Band 7 test engineering (Band 6 test engineering read only) | 112.5–150 | [Exercises](frameworks-and-non-functional-testing/index.md) |
-| Acceptance test automation | Band 6 quality assurance | 90–127.5 | [Exercise and UAT plan](acceptance-test-automation/index.md) |
-| Leading teams through automation adoption | Band 7 test management | 112.5–150 | [Team development and adoption plans](leading-automation-adoption/index.md) |
+| Role foundations | All | 60–240 | [Role practice guide](role-foundations/index.md) |
+| Health care foundations | All | 67.5–120 | [Session plans](health-care-foundations/index.md) |
+| Coaching others in automation | Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, Band 7 test management | 127.5–210 | [Guide and coaching log](coaching-others-in-automation/index.md) |
+| Automation strategy and metrics | Band 6 quality assurance, Band 7 test engineering, Band 7 test management | 172.5–210 | [Strategy and metrics templates](automation-strategy-and-metrics/index.md) |
+| Frameworks and non-functional testing | Band 7 test engineering (Band 6 test engineering read only) | 172.5–210 | [Exercises](frameworks-and-non-functional-testing/index.md) |
+| Acceptance test automation | Band 6 quality assurance | 150–187.5 | [Exercise and UAT plan](acceptance-test-automation/index.md) |
+| Leading teams through automation adoption | Band 7 test management | 172.5–210 | [Team development and adoption plans](leading-automation-adoption/index.md) |
 
 Gate materials are in [../gates/](../gates/index.md).

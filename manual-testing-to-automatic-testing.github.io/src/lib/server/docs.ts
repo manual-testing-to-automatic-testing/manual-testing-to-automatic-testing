@@ -34,7 +34,7 @@ export type Heading = { depth: number; text: string; id: string };
 const SLUGS: Record<string, string> = {
   'README.md': 'about',
   'materials/planning/hr-briefing.md': 'human-resources-briefing',
-  'materials/modules/module-7-continuous-integration/ci-failure-triage-template.md':
+  'materials/modules/module-10-continuous-integration/ci-failure-triage-template.md':
     'continuous-integration-failure-triage-template',
   'practice-repo/README.md': 'practice-repository',
   'practice-repo/CONTRIBUTING.md': 'practice-repository-contributing',
@@ -49,7 +49,7 @@ const SLUGS: Record<string, string> = {
  * Every document's URL is flat and in full words: its file or folder name,
  * with no parent folders. spec/index.md -> spec; plan.md -> plan;
  * materials/gates/calibration-guide.md -> calibration-guide;
- * materials/modules/module-10-capstone/brief-band-3.md -> capstone-brief-band-3.
+ * materials/modules/module-13-capstone/brief-band-3.md -> capstone-brief-band-3.
  * Track guides are named by their title instead (see DOCS).
  */
 export function slugForPath(path: string): string {
@@ -80,11 +80,29 @@ const OLD_FOLDERS: [RegExp, string][] = [
   [/\bindividual-learning-plan-template\b/g, 'ilp-template']
 ];
 
+/**
+ * A module's path before the three basics modules were added at the start,
+ * when every later module's number was 3 lower: module-7-browser-automation-
+ * fundamentals was module-4-browser-automation-fundamentals.
+ */
+function beforeBasics(path: string): string | undefined {
+  const match = path.match(/\bmodule-(\d+)-/);
+  if (!match || Number(match[1]) < 3) return undefined;
+  return path.replace(/\bmodule-(\d+)-/, `module-${Number(match[1]) - 3}-`);
+}
+
 /** The URLs a document used to have, so old links still arrive. */
 function oldSlugs(path: string): string[] {
-  const nested = nestedSlug(path) || 'about';
-  const abbreviated = OLD_FOLDERS.reduce((slug, [from, to]) => slug.replace(from, to), nested);
-  return [...new Set([nested, abbreviated])];
+  const slugs = [nestedSlug(path) || 'about'];
+  const before = beforeBasics(path);
+  if (before) {
+    const nested = nestedSlug(before);
+    // Flat, nested by folder, and with abbreviations, as each was published.
+    slugs.push(slugForPath(before), nested, OLD_FOLDERS.reduce((slug, [from, to]) => slug.replace(from, to), nested));
+  } else {
+    slugs.push(OLD_FOLDERS.reduce((slug, [from, to]) => slug.replace(from, to), slugs[0]));
+  }
+  return [...new Set(slugs)];
 }
 
 function titleOf(markdown: string, path: string): string {

@@ -61,17 +61,20 @@ Tick only the row for this gate.
 
 | Evidence | Due at this gate? | Link | Reviewed by | Comment |
 | --- | --- | --- | --- | --- |
-| Evidence 0 Induction and baseline | Gate 0 | | | |
-| Evidence 1 Automation candidate analysis | Gate 1 | | | |
-| Evidence 2 Programming exercises | Gate 1 | | | |
-| Evidence 3 Pull requests | Gate 1 | | | |
-| Evidence 4 Browser automation script | Gate 2 | | | |
-| Evidence 5 Real test suite and Given-When-Then | Gate 2 | | | |
-| Evidence 6 API and FHIR tests | Gate 3 | | | |
-| Evidence 7 CI pipeline and triage | Gate 3 | | | |
-| Evidence 8 Safe and lawful automation | Gate 4 | | | |
-| Evidence 9 Quality engineering | Gate 4 | | | |
-| Evidence 10 Capstone | Gate 4 | | | |
+| Evidence 0 Basics of a programming language: walkthrough signed off | Gate 0 | | | |
+| Evidence 1 Basics of a browser automator: walkthrough signed off | Gate 0 | | | |
+| Evidence 2 Basics of an AI assistant: walkthrough signed off | Gate 0 | | | |
+| Evidence 3 Induction and baseline | Gate 0 | | | |
+| Evidence 4 Automation candidate analysis | Gate 1 | | | |
+| Evidence 5 Programming exercises | Gate 1 | | | |
+| Evidence 6 Pull requests | Gate 1 | | | |
+| Evidence 7 Browser automation script | Gate 2 | | | |
+| Evidence 8 Real test suite and Given-When-Then | Gate 2 | | | |
+| Evidence 9 API and FHIR tests | Gate 3 | | | |
+| Evidence 10 CI pipeline and triage | Gate 3 | | | |
+| Evidence 11 Safe and lawful automation | Gate 4 | | | |
+| Evidence 12 Quality engineering | Gate 4 | | | |
+| Evidence 13 Capstone | Gate 4 | | | |
 | Track module evidence | As the track requires | | | |
 
 ## 6. Calibration notes
@@ -86,7 +89,7 @@ Record every item where self and manager ratings differed by more than one level
 
 - [ ] **Gate met.** Continue to the next stage.
 - [ ] **Gate not met.** Up to 22.5 extra learning hours on the items below threshold, with the written plan below and extra mentor time. Repeat date: ______
-- [ ] **Repeated gate not met.** Next step agreed (tick one): extension to 280 hours / different automation target / more Role foundations support / pause the programme / other: ______
+- [ ] **Repeated gate not met.** Next step agreed (tick one): extension to 340 hours / different automation target / more Role foundations support / pause the programme / other: ______
 
 ### Extra learning hours plan (if not met)
 

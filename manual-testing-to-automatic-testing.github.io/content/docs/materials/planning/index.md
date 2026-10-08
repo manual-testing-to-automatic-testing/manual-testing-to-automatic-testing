@@ -15,9 +15,9 @@ Drafts for the Planning phase in [tasks.md](../../tasks.md). Each needs a named 
 The cohort calendar comes from `scripts/gate_calendar.py`:
 
 ```sh
-python3 scripts/gate_calendar.py 2027-01-11                      # 220 hours at 7.5 hours a week
+python3 scripts/gate_calendar.py 2027-01-11                      # 280 hours at 7.5 hours a week
 python3 scripts/gate_calendar.py 2027-01-11 --hours-per-week 3.75 # another agreed pace
-python3 scripts/gate_calendar.py 2027-01-11 --extended           # the 280-hour extension (Band 3 and Band 4)
+python3 scripts/gate_calendar.py 2027-01-11 --extended           # the 340-hour extension (Band 3 and Band 4)
 ```
 
 Keep the filled-in roster in the organisation's HR or learning system, not in this repository: it names people.

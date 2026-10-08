@@ -114,6 +114,10 @@ test('old URLs forward to the flat ones', async ({ page }) => {
   await expect(page).toHaveURL(/\/en-001\/track-for-band-3-associate-quality-assurance-test-analyst\/$/);
   await page.goto('/en-001/materials/gates/calibration-guide/');
   await expect(page).toHaveURL(/\/en-001\/calibration-guide\/$/);
+  await page.goto('/en-001/module-4-browser-automation-fundamentals/');
+  await expect(page).toHaveURL(/\/en-001\/module-7-browser-automation-fundamentals\/$/);
+  await page.goto('/en-001/materials/modules/m0-induction/');
+  await expect(page).toHaveURL(/\/en-001\/module-3-induction\/$/);
   await page.goto('/en-001/self-assessment/band-5-quality-assurance-test-analyst/');
   await expect(page).toHaveURL(/\/en-001\/track-for-band-5-quality-assurance-test-analyst\/#self-assessment$/);
 });

@@ -15,7 +15,7 @@ The individual learning plan is written at Gate 0 from the calibrated baseline, 
 | Band 3 factor levels agreed from job description (Band 3 only) | Part A item 6: Part A item 7: Part A item 8: Part A item 9: Part A item 10: Part A item 11: Part A item 12: Part A item 13: Part A item 14: Part A item 15: Part A item 16: Part A item 17: Part A item 18: Part A item 19: Part A item 20: Part A item 21: Total points (216 to 270): |
 | Line manager | |
 | Mentor | |
-| Programme length | 220 hours / 280 hours (Band 3 and Band 4 only), including the 40-hour Lean Six Sigma Green Belt |
+| Programme length | 280 hours / 340 hours (Band 3 and Band 4 only), including the 40-hour Lean Six Sigma Green Belt |
 
 ## 2. Baseline and progress
 

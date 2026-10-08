@@ -30,6 +30,6 @@ export const load = ({ params }) => {
     tracks,
     title: SITE_NAME,
     description:
-      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 220 hours, in the band and UK GDaD PCF role they already have.'
+      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 280 hours, in the band and UK GDaD PCF role they already have.'
   };
 };

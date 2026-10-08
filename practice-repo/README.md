@@ -1,12 +1,12 @@
 # Practice repository
 
-The practice repository for the training programme from manual testing to automatic testing. Every participant works here from Modules 2 to 9, then applies the same habits to their own team's product in the capstone (Module 10).
+The practice repository for the training programme from manual testing to automatic testing. Every participant works here from Modules 5 to 12, then applies the same habits to their own team's product in the capstone (Module 13).
 
 The stack is **JavaScript** (Node.js, ES modules), **Selenium** for the browser, and **Mocha** with Node's built-in `node:assert/strict` for tests. There is no build step, and nothing needs Docker.
 
 The programme specification is [../spec/index.md](../spec/index.md). This repository is the practice environment it describes.
 
-## Set up (Module 0)
+## Set up (Module 3)
 
 Requires Node.js 24 (see `.nvmrc`), Google Chrome, git, and Visual Studio Code with the ESLint extension.
 
@@ -19,16 +19,16 @@ Selenium Manager, which comes with `selenium-webdriver`, finds Chrome and downlo
 
 ## Commands
 
-| Command              | What it runs                                                                             |
-| -------------------- | ---------------------------------------------------------------------------------------- |
-| `npm test`           | Katas, browser tests, and API tests                                                      |
-| `npm run test:katas` | Katas: plain JavaScript unit tests, no browser (Module 2)                                |
-| `npm run test:ui`    | Browser tests against <https://testingexamples.github.io> (Module 4, Module 5, Module 8) |
-| `npm run test:api`   | API tests against the local FHIR sandbox, which they start for you (Module 6)            |
-| `npm run test:flaky` | The flaky-test exercise (Module 9); not part of `npm test` or CI                         |
-| `npm run fhir`       | Run the FHIR sandbox yourself, at <http://localhost:8080/fhir>                           |
-| `npm run lint`       | ESLint, including a rule that blocks `it.only` and `describe.only`                       |
-| `npm run format`     | Prettier formatting                                                                      |
+| Command              | What it runs                                                                              |
+| -------------------- | ----------------------------------------------------------------------------------------- |
+| `npm test`           | Katas, browser tests, and API tests                                                       |
+| `npm run test:katas` | Katas: plain JavaScript unit tests, no browser (Module 5)                                 |
+| `npm run test:ui`    | Browser tests against <https://testingexamples.github.io> (Module 7, Module 8, Module 11) |
+| `npm run test:api`   | API tests against the local FHIR sandbox, which they start for you (Module 9)             |
+| `npm run test:flaky` | The flaky-test exercise (Module 12); not part of `npm test` or CI                         |
+| `npm run fhir`       | Run the FHIR sandbox yourself, at <http://localhost:8080/fhir>                            |
+| `npm run lint`       | ESLint, including a rule that blocks `it.only` and `describe.only`                        |
+| `npm run format`     | Prettier formatting                                                                       |
 
 Useful options:
 
@@ -38,16 +38,16 @@ Useful options:
 
 ## Where each module's work lives
 
-| Module                              | Folder                                                                                                                                             | What you do                                                                                                                                                                                                    |
-| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Module 2 Programming foundations    | [`src/katas/`](src/katas/), [`tests/katas/`](tests/katas/)                                                                                         | Solve the katas for your track. See [tests/katas/README.md](tests/katas/README.md).                                                                                                                            |
-| Module 3 Version control            | the whole repository                                                                                                                               | Branch, commit, open pull requests, review. See [CONTRIBUTING.md](CONTRIBUTING.md).                                                                                                                            |
-| Module 4 Browser automation         | [`tests/ui/`](tests/ui/)                                                                                                                           | Write a walkthrough that locates and acts on every fixture on the testingexamples home page.                                                                                                                   |
-| Module 5 Walkthrough to real test   | [`tests/ui/`](tests/ui/), [`tests/ui/pages/`](tests/ui/pages/), [`spec/`](spec/)                                                                   | Turn the walkthrough into a Mocha suite with assertions, explicit waits, a page object, and a spec. [`tests/ui/fixtures.test.js`](tests/ui/fixtures.test.js) is a worked answer: try yours first.              |
-| Module 6 API and FHIR tests         | [`tests/api/`](tests/api/), [`fhir-sandbox/`](fhir-sandbox/)                                                                                       | Write API tests with `fetch` against the FHIR sandbox. [`tests/api/fhir.test.js`](tests/api/fhir.test.js) is the worked suite that Band 4 quality assurance and Band 7 test management read and others extend. |
-| Module 7 Continuous integration     | [`.github/workflows/ci.yml`](.github/workflows/ci.yml)                                                                                             | Read, run, and change the pipeline; triage failures from the JUnit report, screenshots, and page source.                                                                                                       |
-| Module 8 Safe and lawful automation | [`.gitleaks.toml`](.gitleaks.toml), [`fhir-sandbox/data/`](fhir-sandbox/data/), [`tests/ui/accessibility.test.js`](tests/ui/accessibility.test.js) | Keep secrets and real data out; build synthetic data; trace tests to hazards; automate accessibility checks with axe-core.                                                                                     |
-| Module 9 Quality engineering        | [`tests/flaky/`](tests/flaky/)                                                                                                                     | Find and fix the root cause of a flaky test.                                                                                                                                                                   |
+| Module                               | Folder                                                                                                                                             | What you do                                                                                                                                                                                                    |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Module 5 Programming foundations     | [`src/katas/`](src/katas/), [`tests/katas/`](tests/katas/)                                                                                         | Solve the katas for your track. See [tests/katas/README.md](tests/katas/README.md).                                                                                                                            |
+| Module 6 Version control             | the whole repository                                                                                                                               | Branch, commit, open pull requests, review. See [CONTRIBUTING.md](CONTRIBUTING.md).                                                                                                                            |
+| Module 7 Browser automation          | [`tests/ui/`](tests/ui/)                                                                                                                           | Write a walkthrough that locates and acts on every fixture on the testingexamples home page.                                                                                                                   |
+| Module 8 Walkthrough to real test    | [`tests/ui/`](tests/ui/), [`tests/ui/pages/`](tests/ui/pages/), [`spec/`](spec/)                                                                   | Turn the walkthrough into a Mocha suite with assertions, explicit waits, a page object, and a spec. [`tests/ui/fixtures.test.js`](tests/ui/fixtures.test.js) is a worked answer: try yours first.              |
+| Module 9 API and FHIR tests          | [`tests/api/`](tests/api/), [`fhir-sandbox/`](fhir-sandbox/)                                                                                       | Write API tests with `fetch` against the FHIR sandbox. [`tests/api/fhir.test.js`](tests/api/fhir.test.js) is the worked suite that Band 4 quality assurance and Band 7 test management read and others extend. |
+| Module 10 Continuous integration     | [`.github/workflows/ci.yml`](.github/workflows/ci.yml)                                                                                             | Read, run, and change the pipeline; triage failures from the JUnit report, screenshots, and page source.                                                                                                       |
+| Module 11 Safe and lawful automation | [`.gitleaks.toml`](.gitleaks.toml), [`fhir-sandbox/data/`](fhir-sandbox/data/), [`tests/ui/accessibility.test.js`](tests/ui/accessibility.test.js) | Keep secrets and real data out; build synthetic data; trace tests to hazards; automate accessibility checks with axe-core.                                                                                     |
+| Module 12 Quality engineering        | [`tests/flaky/`](tests/flaky/)                                                                                                                     | Find and fix the root cause of a flaky test.                                                                                                                                                                   |
 
 Shared helpers are in [`tests/support/`](tests/support/): the driver factory (`driver.js`), the hook that saves failure evidence (`hooks.js`), and the fixture that starts the FHIR sandbox for the API tests (`fhir-server.js`).
 

@@ -9,11 +9,11 @@
 
 ## The proposal
 
-A formal programme of 220 hours of protected learning time for manual testers at Bands 3 to 7: by default 7.5 hours a week (20% time), over about 30 calendar weeks.
+A formal programme of 280 hours of protected learning time for manual testers at Bands 3 to 7: by default 7.5 hours a week (20% time), over about 38 calendar weeks.
 
 - **Eight tuned tracks**, by band and UK GDaD PCF role, sharing one schedule and set of gates, so one mixed cohort learns together.
 - **Six gates**, each repeating a full self-assessment against the person's band (21 dimensions), UK GDaD PCF role aspects, and every skill in the role, rated by the manager too. Pass marks rise from 60% to 90%.
-- **Automation on real work** from hour 67.5: each person automates tests on their own team's product in every 7.5 hours of learning.
+- **Automation on real work** from hour 127.5: each person automates tests on their own team's product in every 7.5 hours of learning.
 - **A Lean Six Sigma Green Belt for everyone** to finish: 40 hours, a certification that does not expire, and a Green Belt project that measurably improves the team's testing process.
 - **No band changes.** People grow into the roles they already hold.
 
@@ -21,7 +21,7 @@ Full design: [spec/index.md](../../spec/index.md). Reasoning: [plan.md](../../pl
 
 ## What it costs
 
-For an illustrative cohort of 12, about 2,640 hours of participants' protected time (220 learning hours each) and about 1,320 hours from mentors, managers, the training lead, the Lean Six Sigma trainer, and others. Details: [resource-estimate.md](resource-estimate.md). Tools are open source. The spend is the Green Belt course and certification exam fees (Decision 8), and optionally a JavaScript course (Decision 3).
+For an illustrative cohort of 12, about 3,360 hours of participants' protected time (280 learning hours each) and about 1,460 hours from mentors, managers, the training lead, the Lean Six Sigma trainer, and others. Details: [resource-estimate.md](resource-estimate.md). Tools are open source. The spend is the Green Belt course and certification exam fees (Decision 8), and optionally a JavaScript course (Decision 3).
 
 ## What we get
 

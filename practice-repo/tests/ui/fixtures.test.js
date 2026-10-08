@@ -1,4 +1,4 @@
-// Browser tests for the fixture page: Modules 4 and 5.
+// Browser tests for the fixture page: Modules 7 and 8.
 // Specification: spec/example/index.md. The spec and this file must agree.
 
 import { strict as assert } from 'node:assert';

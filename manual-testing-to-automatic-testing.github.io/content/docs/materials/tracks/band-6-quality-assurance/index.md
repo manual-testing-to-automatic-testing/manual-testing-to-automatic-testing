@@ -67,9 +67,9 @@ Not in this role level: Medical device software regulation, People management.
 
 | Protected time | Approximate guided hours | Optional extension |
 | --- | --- | --- |
-| 7.5 hours a week, by default | 220 | — |
+| 7.5 hours a week, by default | 280 | — |
 
-From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at this track's depth.
+From hour 127.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at this track's depth.
 
 ## Learning outcomes, at this track's depth
 
@@ -89,23 +89,29 @@ From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automatio
 | Learning outcome 12 | Plan, build or lead, and explain an automated regression suite for a real service. | Leads or coaches others |
 | Learning outcome 13 | Fully meet the person's own band and UK GDaD PCF role, measured by the capability self-assessment. | Overall capability index of at least 90% at Gate 4 |
 | Learning outcome 14 | Apply Lean Six Sigma (DMAIC) to measure and improve a testing process, and hold a Green Belt certification that does not expire. | Leads or coaches others |
+| Learning outcome 15 | Read, run, and explain a simple program with variables, functions, conditionals, and loops, in JavaScript or another language. | Independently |
+| Learning outcome 16 | Write, run, and explain a browser automation script that requests a page, waits for it, selects elements by id, verifies text, clicks links, buttons, and select boxes, fills in form fields, and submits. | Independently |
+| Learning outcome 17 | Use an AI assistant to get training advice, plan continuing professional development, compare concepts, explain code, and convert between user stories, Given-When-Then scenarios, and Selenium JavaScript, checking every answer. | Independently |
 
 ## Module depths
 
 | Module | Depth |
 | --- | --- |
-| Module 0 Induction and baseline | Independent |
-| Module 1 Why and what to automate | Lead or coach |
-| Module 2 Programming foundations | Independent |
-| Module 3 Version control and collaboration | Independent |
-| Module 4 Browser automation fundamentals | Independent |
-| Module 5 From walkthrough to real test | Independent |
-| Module 6 API, integration, and FHIR tests | Independent |
-| Module 7 Continuous integration and DevOps | Independent |
-| Module 8 Safe and lawful test automation | Lead or coach |
-| Module 9 Quality engineering practice | Independent |
-| Module 10 Capstone | Lead or coach |
-| Module 11 Lean Six Sigma Green Belt | Lead or coach |
+| Module 0 Basics of a programming language | Independent |
+| Module 1 Basics of a browser automator | Independent |
+| Module 2 Basics of an AI assistant | Independent |
+| Module 3 Induction and baseline | Independent |
+| Module 4 Why and what to automate | Lead or coach |
+| Module 5 Programming foundations | Independent |
+| Module 6 Version control and collaboration | Independent |
+| Module 7 Browser automation fundamentals | Independent |
+| Module 8 From walkthrough to real test | Independent |
+| Module 9 API, integration, and FHIR tests | Independent |
+| Module 10 Continuous integration and DevOps | Independent |
+| Module 11 Safe and lawful test automation | Lead or coach |
+| Module 12 Quality engineering practice | Independent |
+| Module 13 Capstone | Lead or coach |
+| Module 14 Lean Six Sigma Green Belt | Lead or coach |
 | Role foundations | Set by the individual learning plan |
 | Health care foundations | Independent |
 | Coaching others in automation | Lead or coach |
@@ -120,7 +126,7 @@ From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automatio
 - [Automation strategy and metrics](../automation-strategy-and-metrics/index.md)
 - [Acceptance test automation](../acceptance-test-automation/index.md)
 
-## Capstone (Module 10, hours 142.5 to 180)
+## Capstone (Module 13, hours 202.5 to 240)
 
 A risk-based automation approach for the area, automated acceptance checks agreed with clinical users, and coaching a Band 4 or Band 5 colleague through their capstone.
 
@@ -130,11 +136,11 @@ You present it to the Gate 4 panel for 20 minutes, aimed at a non-technical audi
 
 Every track has Lean Six Sigma training. You will earn your Lean Six Sigma Green Belt lifetime certification. You will work with your real team on your Lean Six Sigma Green Belt project. Estimate 40 hours for Lean Six Sigma training.
 
-You lead a Green Belt project on your team's testing process, and coach a lower-band colleague's part. See the [Module 11 module](../../modules/module-11-lean-six-sigma-green-belt/index.md).
+You lead a Green Belt project on your team's testing process, and coach a lower-band colleague's part. See the [Module 14 module](../../modules/module-14-lean-six-sigma-green-belt/index.md).
 
 ## Gates and practicals
 
-Gates are at programme hours 0, 45, 90, 127.5, and 180, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **60 minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#band-6-quality-assurance). Thresholds and conditions are in the [gates overview](../../gates/index.md).
+Gates are at programme hours 60, 105, 150, 187.5, and 240, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **60 minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#band-6-quality-assurance). Thresholds and conditions are in the [gates overview](../../gates/index.md).
 
 ## Mentor
 

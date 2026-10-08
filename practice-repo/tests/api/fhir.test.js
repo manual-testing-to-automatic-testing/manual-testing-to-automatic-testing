@@ -1,4 +1,4 @@
-// API tests against the local FHIR sandbox (fhir-sandbox/server.js): Module 6.
+// API tests against the local FHIR sandbox (fhir-sandbox/server.js): Module 9.
 //
 // `npm run test:api` starts the sandbox for you (see tests/support/fhir-server.js),
 // or uses the server at FHIR_BASE_URL. Selenium drives browsers only, so API
