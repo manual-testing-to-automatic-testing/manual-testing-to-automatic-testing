@@ -1,5 +1,4 @@
 <script lang="ts">
-  import Breadcrumbs from '#lib/components/Breadcrumbs.svelte';
   import SelfAssessment from '#lib/components/SelfAssessment.svelte';
   import { chromeFor } from '#lib/i18n/chrome.js';
   import type { Locale } from '#lib/i18n/locales.js';
@@ -7,15 +6,6 @@
   let { data } = $props();
   const chrome = $derived(chromeFor(data.locale as Locale));
 
-  // Single column, no sidebars: the document's own h1 (rendered from its
-  // Markdown) comes first, then the contents list, then the rest.
-  const split = $derived.by(() => {
-    if (!data.html) return { head: '', body: '' };
-    const end = data.html.indexOf('</h1>');
-    return end === -1
-      ? { head: '', body: data.html }
-      : { head: data.html.slice(0, end + 5), body: data.html.slice(end + 5) };
-  });
 </script>
 
 <svelte:head>
@@ -30,21 +20,8 @@
   <h1>Moved</h1>
   <p>This page has moved to <a href={data.redirect}>{data.redirect}</a>.</p>
 {:else}
-<Breadcrumbs crumbs={data.crumbs ?? []} current={data.heading} label={chrome.breadcrumbLabel} />
-
 <article class="doc prose">
-  {@html split.head}
-  {#if (data.headings?.length ?? 0) > 2}
-    <nav class="doc-contents" aria-label={chrome.doc.contents}>
-      <h2 class="doc-contents-heading">{chrome.doc.contents}</h2>
-      <ul>
-        {#each data.headings ?? [] as heading (heading.id)}
-          <li><a href="#{heading.id}">{heading.text}</a></li>
-        {/each}
-      </ul>
-    </nav>
-  {/if}
-  {@html split.body}
+  {@html data.html}
   {#if data.assessment}
     <section class="section" aria-labelledby="self-assessment">
       <h2 id="self-assessment">Self-assessment</h2>

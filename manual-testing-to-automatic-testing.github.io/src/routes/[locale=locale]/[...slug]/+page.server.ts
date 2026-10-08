@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { allDocs, allRedirects, crumbsFor, docBySlug, redirectFor, renderDoc, trackGuide } from '#lib/server/docs.js';
+import { allDocs, allRedirects, docBySlug, redirectFor, renderDoc, trackGuide } from '#lib/server/docs.js';
 import { allTracks } from '#lib/server/instruments.js';
 import { LOCALES, isLocale, localeHref } from '#lib/i18n/locales.js';
 import { pageTitle, sourceHref } from '#lib/site.js';
@@ -40,7 +40,7 @@ export const load = ({ params }) => {
     const href = localeHref(params.locale, to) + (hash ? `#${hash}` : '');
     return { locale: params.locale, redirect: href, title: pageTitle('Moved'), heading: 'Moved', description: '' };
   }
-  const { html, headings } = renderDoc(doc, params.locale);
+  const { html } = renderDoc(doc, params.locale);
   const track = trackFor(doc.path);
   const assessment = track && {
     track: { id: track.id, band: track.band, role: track.role, roleLevel: track.roleLevel, counts: track.counts },
@@ -55,11 +55,6 @@ export const load = ({ params }) => {
     redirect: undefined,
     assessment,
     html,
-    headings: [
-      ...headings.filter((h) => h.depth === 2),
-      ...(assessment ? [{ depth: 2, text: 'Self-assessment', id: 'self-assessment' }] : [])
-    ],
-    crumbs: [{ href: localeHref(params.locale), label: 'Home' }, ...crumbsFor(doc, params.locale)],
     path: doc.path,
     source: sourceHref(doc.path),
     title: pageTitle(doc.title),

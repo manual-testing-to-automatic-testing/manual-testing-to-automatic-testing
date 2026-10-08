@@ -9,7 +9,6 @@ export type Chrome = {
   skipToMainContent: string;
   siteTagline: string;
   mainNavLabel: string;
-  breadcrumbLabel: string;
   nav: {
     home: string;
     programme: string;
@@ -42,14 +41,13 @@ export type Chrome = {
     copyFailedLabel: string;
   };
   footer: { lede: string; licence: string; source: string };
-  doc: { viewSource: string; contents: string };
+  doc: { viewSource: string };
 };
 
 const EN_001: Chrome = {
   skipToMainContent: 'Skip to main content',
   siteTagline: 'A formal training programme for testers at Bands 3 to 7',
   mainNavLabel: 'Main',
-  breadcrumbLabel: 'Breadcrumb',
   nav: {
     home: 'Home',
     programme: 'Programme',
@@ -87,7 +85,7 @@ const EN_001: Chrome = {
       'Contains public sector information from the UK Government Digital and Data Profession Capability Framework, licensed under the Open Government Licence v3.0. © Crown copyright.',
     source: 'Source on GitHub'
   },
-  doc: { viewSource: 'View this document on GitHub', contents: 'Contents' }
+  doc: { viewSource: 'View this document on GitHub' }
 };
 
 const MESSAGES: Record<Locale, Chrome> = {

@@ -1,7 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { afterNavigate } from '$app/navigation';
-  import Breadcrumbs from '#lib/components/Breadcrumbs.svelte';
 
   let { data } = $props();
 
@@ -45,8 +44,6 @@
       .sort((a, b) => b.score - a.score);
   });
 </script>
-
-<Breadcrumbs crumbs={[{ href: data.home, label: 'Home' }]} current="Search" label="Breadcrumb" />
 
 <div class="page-intro">
   <h1>Search</h1>

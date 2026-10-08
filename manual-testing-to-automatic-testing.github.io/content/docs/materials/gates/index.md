@@ -1,6 +1,6 @@
 # Gates
 
-Gates are the backbone of the programme. This page is copied from [spec/index.md](../../spec/index.md#gates), which is the single source of truth. If this page and the spec disagree, the spec wins.
+Gates are the backbone of the programme.
 
 ## What happens at every gate
 

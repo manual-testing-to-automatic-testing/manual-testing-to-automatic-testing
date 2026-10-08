@@ -58,8 +58,9 @@
   --site-radius: var(--lily-radius-md, 4px);
 
   /* Layout constants, not colours — untouched by a theme swap. */
-  --site-content-max: 74rem;
-  --site-prose-max: 42rem;
+  /* Full browser width: no maximum line length for the page or its text. */
+  --site-content-max: none;
+  --site-prose-max: none;
 
   --site-font-sans: var(
     --lily-font-body,
@@ -277,39 +278,6 @@ th {
 .badge[data-type='warning'] {
   background: #fdf0e5;
   color: #7a3a00;
-}
-
-.breadcrumb-nav {
-  margin: 0 0 1.5rem;
-  font-size: 0.9375rem;
-}
-.breadcrumb-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 0.9rem;
-  margin: 0;
-  padding: 0;
-}
-.breadcrumb-list-item {
-  position: relative;
-  margin: 0;
-  color: var(--site-text-muted);
-}
-.breadcrumb-list-item + .breadcrumb-list-item::before {
-  content: '';
-  position: absolute;
-  left: -0.6rem;
-  top: 0.45em;
-  width: 0.4em;
-  height: 0.4em;
-  border: solid var(--site-text-muted);
-  border-width: 1.5px 1.5px 0 0;
-  transform: rotate(45deg);
-}
-.breadcrumb-list-item[aria-current='page'] {
-  font-weight: 600;
-  color: var(--site-text);
 }
 
 .back-link {
@@ -720,7 +688,6 @@ th {
 }
 .site-footer p {
   margin: 0 0 0.5rem;
-  max-width: 44rem;
 }
 .site-footer-fine {
   font-size: 0.875rem;
@@ -734,7 +701,7 @@ th {
 /* 5. Page patterns ------------------------------------------------------ */
 
 .page-intro {
-  max-width: 46rem;
+  max-width: var(--site-prose-max);
   padding: 1rem 0 2rem;
 }
 .page-intro h1 {
@@ -820,7 +787,7 @@ th {
 }
 
 .prose {
-  max-width: 46rem;
+  max-width: var(--site-prose-max);
 }
 .prose h2 {
   margin-top: 2.5rem;
@@ -1277,27 +1244,7 @@ th {
   color: var(--site-page-bg);
 }
 
-/* Rendered Markdown documents. Single column, with no sidebars: the
- * contents list sits in the flow of the page, under the document's h1. */
-.doc-contents {
-  margin: 1rem 0 2rem;
-  padding: 0.75rem 1rem;
-  border-left: 4px solid var(--site-primary);
-  background: var(--site-surface);
-  border-radius: var(--site-radius);
-}
-.doc .doc-contents .doc-contents-heading {
-  font-size: 1rem;
-  margin: 0 0 0.5rem;
-}
-.doc-contents ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.doc-contents li {
-  margin: 0 0 0.35rem;
-}
+/* Rendered Markdown documents: a single column, the full width of the page. */
 .doc {
   min-width: 0;
 }

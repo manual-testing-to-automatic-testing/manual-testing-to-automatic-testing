@@ -62,19 +62,20 @@ test('search finds documents', async ({ page }) => {
   await expect(page.getByRole('link', { name: 'Calibration guide' }).first()).toBeVisible();
 });
 
-test('pages are a single column, with no sidebars', async ({ page }) => {
+test('pages are a single column at full width, with no sidebars, breadcrumbs, or contents lists', async ({ page }) => {
   await page.setViewportSize({ width: 1600, height: 1000 });
   await page.goto('/en-001/spec/');
   const h1 = await page.locator('article h1').boundingBox();
-  const contents = await page.getByRole('navigation', { name: 'Contents' }).boundingBox();
-  const firstSection = await page.locator('article h2').nth(1).boundingBox();
-  expect(h1 && contents && firstSection).toBeTruthy();
-  // The contents list sits under the heading, in the same column, and the
-  // document continues under it: nothing sits beside the text.
-  expect(contents!.y).toBeGreaterThan(h1!.y + h1!.height - 1);
-  expect(Math.abs(contents!.x - h1!.x)).toBeLessThan(2);
-  expect(firstSection!.y).toBeGreaterThan(contents!.y + contents!.height - 1);
+  const firstSection = await page.locator('article h2').first().boundingBox();
+  const paragraph = await page.locator('article > p').first().boundingBox();
+  expect(h1 && firstSection && paragraph).toBeTruthy();
+  // The document continues under its heading, in the same column.
+  expect(firstSection!.y).toBeGreaterThan(h1!.y + h1!.height - 1);
   expect(Math.abs(firstSection!.x - h1!.x)).toBeLessThan(2);
+  // Text uses the page's width, less its gutters.
+  expect(paragraph!.width).toBeGreaterThan(1400);
+  await expect(page.getByRole('navigation', { name: 'Contents' })).toHaveCount(0);
+  await expect(page.getByRole('navigation', { name: 'Breadcrumb' })).toHaveCount(0);
 });
 
 for (const width of [1024, 1280, 1600]) {

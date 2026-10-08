@@ -1,6 +1,6 @@
 # Core module materials
 
-These are the materials for the core modules, Module 0 to Module 11. [../../spec/index.md](../../spec/index.md) is the single source of truth. If anything here disagrees with the spec, the spec wins, and the difference is a defect to fix.
+These are the materials for the core modules, Module 0 to Module 11.
 
 | Module | Programme hours | Hours | Folder |
 | --- | --- | --- | --- |

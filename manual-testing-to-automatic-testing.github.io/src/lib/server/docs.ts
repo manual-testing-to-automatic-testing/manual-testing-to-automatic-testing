@@ -241,16 +241,3 @@ export function renderDoc(doc: Doc, locale: Locale = DEFAULT_LOCALE): RenderedDo
   return { html, headings };
 }
 
-export type Crumb = { href: string; label: string };
-
-/** Breadcrumbs for a document: each folder above it that has its own document. */
-export function crumbsFor(doc: Doc, locale: Locale): Crumb[] {
-  const parts = nestedSlug(doc.path).split('/');
-  const crumbs: Crumb[] = [];
-  for (let i = 1; i < parts.length; i++) {
-    const folder = parts.slice(0, i).join('/');
-    const ancestor = BY_PATH.get(`${folder}/index.md`) ?? BY_PATH.get(`${folder}/README.md`);
-    if (ancestor && ancestor !== doc) crumbs.push({ href: localeHref(locale, ancestor.slug), label: ancestor.title });
-  }
-  return crumbs;
-}
