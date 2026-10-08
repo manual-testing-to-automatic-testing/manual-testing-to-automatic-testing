@@ -129,7 +129,7 @@ You present it to the Gate 4 panel for 20 minutes, aimed at a non-technical audi
 
 ## Lean Six Sigma Green Belt (40 hours)
 
-After Gate 4, every track takes the same 40-hour Lean Six Sigma Green Belt, with a certification that does not expire. You complete the programme when Gate 4 is met and you hold the certificate with an accepted Green Belt project (Evidence 11).
+Every track has Lean Six Sigma training. You will earn your Lean Six Sigma Green Belt lifetime certification. You will work with your real team on your Lean Six Sigma Green Belt project. Estimate 40 hours for Lean Six Sigma training.
 
 You lead a Green Belt project for your area, and sponsor the cohort's other projects with the product owners. See the [Module 11 module](../../modules/module-11-lean-six-sigma-green-belt/index.md).
 

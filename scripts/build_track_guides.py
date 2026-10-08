@@ -160,7 +160,7 @@ for t in TRACKS:
     out.append(cap[1] + "\n")
     out.append(f"You present it to the Gate 4 panel for {'10' if BAND[t] in '34' else '20'} minutes, aimed at a non-technical audience.\n")
     out.append("## Lean Six Sigma Green Belt (40 hours)\n")
-    out.append("After Gate 4, every track takes the same 40-hour Lean Six Sigma Green Belt, with a certification that does not expire. You complete the programme when Gate 4 is met and you hold the certificate with an accepted Green Belt project (Evidence 11).\n")
+    out.append("Every track has Lean Six Sigma training. You will earn your Lean Six Sigma Green Belt lifetime certification. You will work with your real team on your Lean Six Sigma Green Belt project. Estimate 40 hours for Lean Six Sigma training.\n")
     out.append(GREEN_BELT[t] + " See the [Module 11 module](../../modules/module-11-lean-six-sigma-green-belt/index.md).\n")
     out.append("## Gates and practicals\n")
     out.append(f"Gates are at programme hours 0, 45, 90, 127.5, and 180, and Gate 5 follows about six months after Gate 4. Each Part D practical takes **{MINUTES[t]} minutes**. The tasks and marking notes for this track are in [Part D practicals](../../gates/part-d-practicals.md#{SLUG[t]}). Thresholds and conditions are in the [gates overview](../../gates/index.md).\n")
