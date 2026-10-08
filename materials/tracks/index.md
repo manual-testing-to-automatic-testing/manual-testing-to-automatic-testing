@@ -2,18 +2,20 @@
 
 The programme has eight tuned tracks, one for each band and UK GDaD PCF role combination. All tracks share one schedule, one set of gates, and one set of core modules. [spec/index.md](../../spec/index.md#tracks) is the single source of truth.
 
-## Track guides
+## Find your track
 
-| Track | Band | UK GDaD PCF role | Guide |
-| --- | --- | --- | --- |
-| Band 3 | 3 | Quality assurance test analyst or Test engineer, associate level | [Band 3](band-3/index.md) |
-| Band 4 quality assurance | 4 | Quality assurance test analyst | [Band 4 quality assurance](band-4-quality-assurance/index.md) |
-| Band 4 test engineering | 4 | Test engineer | [Band 4 test engineering](band-4-test-engineering/index.md) |
-| Band 5 quality assurance | 5 | Quality assurance test analyst | [Band 5 quality assurance](band-5-quality-assurance/index.md) |
-| Band 6 quality assurance | 6 | Quality assurance test analyst | [Band 6 quality assurance](band-6-quality-assurance/index.md) |
-| Band 6 test engineering | 6 | Test engineer | [Band 6 test engineering](band-6-test-engineering/index.md) |
-| Band 7 test engineering | 7 | Test engineer | [Band 7 test engineering](band-7-test-engineering/index.md) |
-| Band 7 test management | 7 | Test manager | [Band 7 test management](band-7-test-management/index.md) |
+Find the track for your band and UK GDaD PCF role. Each track's page has its guide and its self-assessment.
+
+<!-- track list: written by scripts/build_track_guides.py -->
+- [Track for Band 3 associate quality assurance test analyst](band-3/index.md)
+- [Track for Band 4 associate quality assurance test analyst](band-4-quality-assurance/index.md)
+- [Track for Band 4 associate test engineer](band-4-test-engineering/index.md)
+- [Track for Band 5 quality assurance test analyst](band-5-quality-assurance/index.md)
+- [Track for Band 6 senior quality assurance test analyst](band-6-quality-assurance/index.md)
+- [Track for Band 6 test engineer](band-6-test-engineering/index.md)
+- [Track for Band 7 senior test engineer](band-7-test-engineering/index.md)
+- [Track for Band 7 test manager](band-7-test-management/index.md)
+<!-- end of track list -->
 
 The track guides are generated from the spec's tables, so the expected levels match the spec exactly. Regenerate them whenever the spec's tables change.
 

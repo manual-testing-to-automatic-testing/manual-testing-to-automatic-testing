@@ -30,10 +30,13 @@ test('every page has one h1, a title, a language, and the picker bar', async ({ 
   }
 });
 
-test('the home page lists all eight tracks', async ({ page }) => {
+test('the home page sends people to the tracks page, which lists all eight tracks', async ({ page }) => {
   await page.goto('/en-001/');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Manual testing to automatic testing');
-  const items = page.locator('.track-list li');
+  const find = page.getByRole('link', { name: 'Find your track' });
+  await expect(find).toHaveAttribute('href', '/en-001/tracks/');
+  await find.click();
+  const items = page.locator('#find-your-track + p + ul > li');
   await expect(items).toHaveCount(8);
   for (const band of ['3', '4', '4', '5', '6', '6', '7', '7'].entries()) {
     await expect(items.nth(band[0])).toHaveText(new RegExp(`^Track for Band ${band[1]} `));
@@ -96,16 +99,14 @@ for (const width of [1024, 1280, 1600]) {
 test('the home page has no tiles', async ({ page }) => {
   await page.goto('/en-001/');
   await expect(page.locator('.card-grid, .doc-card')).toHaveCount(0);
-  await expect(page.getByRole('heading', { level: 2 })).toHaveText(['Tracks']);
+  await expect(page.getByRole('heading', { level: 2 })).toHaveCount(0);
 });
 
-test('the home page lists every track, linking to its guide', async ({ page }) => {
-  await page.goto('/en-001/');
-  const links = page.locator('.track-list a');
-  await expect(links).toHaveCount(8);
-  await expect(links.first()).toHaveText('Track for Band 3 associate quality assurance test analyst');
-  await expect(links.first()).toHaveAttribute('href', '/en-001/track-for-band-3-associate-quality-assurance-test-analyst/');
-  await links.first().click();
+test('the tracks page links each track to its page', async ({ page }) => {
+  await page.goto('/en-001/tracks/');
+  const first = page.getByRole('link', { name: 'Track for Band 3 associate quality assurance test analyst' });
+  await expect(first).toHaveAttribute('href', '/en-001/track-for-band-3-associate-quality-assurance-test-analyst/');
+  await first.click();
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Track for Band 3 associate quality assurance test analyst');
 });
 

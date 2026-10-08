@@ -174,3 +174,15 @@ for t in TRACKS:
     out.append("- [Learning agreement template](../../gates/learning-agreement-template.md)")
     (root / f"materials/tracks/{SLUG[t]}/index.md").write_text("\n".join(out))
     print("wrote", t)
+
+# The list of tracks on materials/tracks/index.md, between its markers.
+index = root / "materials/tracks/index.md"
+text = index.read_text()
+start, end = "<!-- track list: written by scripts/build_track_guides.py -->", "<!-- end of track list -->"
+items = "\n".join(
+    f"- [Track for Band {BAND[t]} {ROLE_LEVELS[t][0].lower()}{ROLE_LEVELS[t][1:]}]({SLUG[t]}/index.md)" for t in TRACKS
+)
+before, rest = text.split(start, 1)
+after = rest.split(end, 1)[1]
+index.write_text(f"{before}{start}\n{items}\n{end}{after}")
+print("wrote the track list")
