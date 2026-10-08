@@ -55,11 +55,10 @@ Trailing slashes always. Every page is under a locale (see `spec/locales/index.m
 | Path | Page |
 | --- | --- |
 | `/` | Redirects to `/en-001/` |
-| `/<locale>/` | Home: the programme's summary, links to the programme and the self-assessment, and a list of the tracks, each linking to its guide. No tiles: the navigation and the link picker reach every main page |
-| `/<locale>/track-for-<band and role level>/` | A track guide, named by its title, for example `track-for-band-3-associate-quality-assurance-test-analyst`. Its source is `materials/tracks/<track>/index.md` |
-| `/<locale>/<slug>/` | A document. `spec/index.md` is `spec`, `plan.md` is `plan`, a folder's `index.md` or `README.md` is the folder, the root `README.md` is `about` |
-| `/<locale>/self-assessment/` | The tracks, with their item counts and blank TSVs |
-| `/<locale>/self-assessment/<file name>/` | The capability self-assessment for one track, named as its instrument file, for example `band-5-quality-assurance-test-analyst` |
+| `/<locale>/` | Home: the programme's summary, a link to the programme, and a list of the tracks, each linking to its page. No tiles: the navigation and the link picker reach every main page |
+| `/<locale>/<slug>/` | A document, at a flat URL in full words: its file or folder name, with no parent folders. `spec/index.md` is `spec`, `materials/gates/calibration-guide.md` is `calibration-guide`, `materials/modules/module-4-browser-automation-fundamentals/index.md` is `module-4-browser-automation-fundamentals`, the root `README.md` is `about`. A few names are written out, such as `human-resources-briefing`, and two documents may never share a URL (the build fails) |
+| `/<locale>/track-for-<band and role level>/` | A track's page, named by its guide's title, for example `track-for-band-3-associate-quality-assurance-test-analyst`: the track guide from `materials/tracks/<track>/index.md`, then the track's capability self-assessment, at `#self-assessment` |
+| Old URLs | Every document's earlier URL, nested by folder (such as `materials/gates/calibration-guide`) or with abbreviations (such as `materials/tracks/b3`), and the old `self-assessment/` pages, are static pages that forward to the current URL |
 | `/<locale>/search/?<query>` | Search results, from the search picker |
 | `/<locale>/search-index.json` | The search index |
 | `/downloads/<path>.tsv` | A vendored TSV |
@@ -77,7 +76,7 @@ Each document is rendered from its Markdown at build time:
 
 ### Self-assessment
 
-`src/lib/components/SelfAssessment.svelte`, with scoring in `src/lib/capability.ts`. For one track, it shows every item in Parts A, B, and C of the instrument, each in a `fieldset` whose legend names the item, with:
+`src/lib/components/SelfAssessment.svelte`, with scoring in `src/lib/capability.ts`, on each track's page, after the track guide. For that track, it shows every item in Parts A, B, and C of the instrument, each in a `fieldset` whose legend names the item, with:
 
 - three ratings, Self, Manager, and Agreed, each a labelled select using the item's scale (Not yet, Partly, Meets; a factor level; or 0 to 4)
 - the expected level and its description, and for skills the next level
@@ -91,7 +90,7 @@ Answers are saved to `localStorage` under `manual-testing-to-automatic-testing:s
 
 ### Site tools
 
-Every page carries `PickerBar` (`@lilydesignsystem/svelte-picker-bar`) in the header: a link picker (a home icon offering every main page, so navigation is one tap away on any screen), search, theme, language, text size, and share. The header is a grid: the brand and the PickerBar share the first row, with the PickerBar on the right, and the navigation links have the second row, so the PickerBar never wraps under the brand. On screens narrower than 40rem, the PickerBar takes its own row under the brand. The theme defaults to `corporate` and is stored under `manual-testing-to-automatic-testing:theme`. The text size is stored under `manual-testing-to-automatic-testing:text-size`. A phase banner marks the programme as a draft and links to the decision log.
+Every page carries `PickerBar` (`@lilydesignsystem/svelte-picker-bar`) in the header: a link picker (a home icon offering every main page, so navigation is one tap away on any screen), search, theme, language, text size, and share. The header is a grid: the brand and the PickerBar share the first row, with the PickerBar on the right, and the navigation links have the second row, so the PickerBar never wraps under the brand. On screens narrower than 40rem, the PickerBar takes its own row under the brand. The theme defaults to `corporate` and is stored under `manual-testing-to-automatic-testing:theme`. The text size is stored under `manual-testing-to-automatic-testing:text-size`.
 
 ## Acceptance criteria
 

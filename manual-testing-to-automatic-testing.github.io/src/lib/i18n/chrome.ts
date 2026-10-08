@@ -16,7 +16,6 @@ export type Chrome = {
     curriculum: string;
     tracks: string;
     gates: string;
-    selfAssessment: string;
     materials: string;
     about: string;
     github: string;
@@ -42,7 +41,6 @@ export type Chrome = {
     copiedLabel: string;
     copyFailedLabel: string;
   };
-  banner: { tag: string; text: string; link: string };
   footer: { lede: string; licence: string; source: string };
   doc: { viewSource: string; contents: string };
 };
@@ -58,7 +56,6 @@ const EN_001: Chrome = {
     curriculum: 'Curriculum',
     tracks: 'Tracks',
     gates: 'Gates',
-    selfAssessment: 'Self-assessment',
     materials: 'Materials',
     about: 'About',
     github: 'GitHub'
@@ -84,13 +81,8 @@ const EN_001: Chrome = {
     copiedLabel: 'Link copied',
     copyFailedLabel: 'Could not copy the link'
   },
-  banner: {
-    tag: 'Draft',
-    text: 'This programme is a draft. Its Decisions 1 to 7 are still open:',
-    link: 'see the decision log'
-  },
   footer: {
-    lede: 'Upskilling manual testers into automatic testers, in the band and role they already hold.',
+    lede: 'Upskilling manual testers into automatic testers. Each person continues in their current band and UK GDaD PCF role.',
     licence:
       'Contains public sector information from the UK Government Digital and Data Profession Capability Framework, licensed under the Open Government Licence v3.0. © Crown copyright.',
     source: 'Source on GitHub'

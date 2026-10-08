@@ -1,6 +1,6 @@
 import { test, expect, type Page } from '@playwright/test';
 
-const TRACK = '/en-001/self-assessment/band-5-quality-assurance-test-analyst/';
+const TRACK = '/en-001/track-for-band-5-quality-assurance-test-analyst/';
 
 /** Choose the best option (the last one) in every select whose id ends with the suffix. */
 async function rateAll(page: Page, suffix: string, pick: 'best' | 'first' = 'best') {
@@ -22,7 +22,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('the instrument has every item for the track', async ({ page }) => {
-  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Band 5 quality assurance self-assessment');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Track for Band 5 quality assurance test analyst');
   // Band 5 quality assurance: 21 + 18 + 10 = 49 items, three ratings each.
   await expect(page.locator('select[id$="-agreed"]')).toHaveCount(49);
   await expect(page.locator('select[id$="-self"]')).toHaveCount(49);
@@ -32,7 +32,7 @@ test('the instrument has every item for the track', async ({ page }) => {
 
 test('agreed ratings at the top of every scale give 100% and meet Gate 4', async ({ page }) => {
   expect(await rateAll(page, 'agreed')).toBe(49);
-  const agreed = page.getByRole('row', { name: /Agreed/ });
+  const agreed = page.locator('.index-table').getByRole('row', { name: /Agreed/ });
   await expect(agreed.getByRole('cell').last()).toHaveText('100%');
   await page.getByRole('combobox', { name: 'Gate' }).selectOption('4');
   await expect(page.getByText('Gate 4 threshold met')).toBeVisible();
@@ -94,10 +94,10 @@ test('an exported TSV imports back, and a file for another track is refused', as
 });
 
 test('Band 3 factor levels are agreed at Gate 0 before they count', async ({ page }) => {
-  await page.goto('/en-001/self-assessment/band-3-associate-quality-assurance-test-analyst/');
+  await page.goto('/en-001/track-for-band-3-associate-quality-assurance-test-analyst/');
   await expect(page.locator('select[id$="-expected"]')).toHaveCount(16);
   await page.locator('select[id="A6-agreed"]').selectOption('3');
-  await expect(page.getByRole('row', { name: /Agreed/ }).getByRole('cell').first()).toHaveText(/—/);
+  await expect(page.locator('.index-table').getByRole('row', { name: /Agreed/ }).getByRole('cell').first()).toHaveText(/—/);
   await page.locator('select[id="A6-expected"]').selectOption('3');
-  await expect(page.getByRole('row', { name: /Agreed/ }).getByRole('cell').first()).toHaveText(/^100%/);
+  await expect(page.locator('.index-table').getByRole('row', { name: /Agreed/ }).getByRole('cell').first()).toHaveText(/^100%/);
 });

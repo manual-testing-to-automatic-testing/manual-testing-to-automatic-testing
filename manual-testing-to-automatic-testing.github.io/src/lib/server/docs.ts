@@ -30,10 +30,61 @@ export type Doc = {
 
 export type Heading = { depth: number; text: string; id: string };
 
-/** spec/index.md -> spec; plan.md -> plan; README.md -> about; x/README.md -> x. */
+/** Documents whose URL is not their own file or folder name. */
+const SLUGS: Record<string, string> = {
+  'README.md': 'about',
+  'materials/planning/hr-briefing.md': 'human-resources-briefing',
+  'materials/modules/module-7-continuous-integration/ci-failure-triage-template.md':
+    'continuous-integration-failure-triage-template',
+  'practice-repo/README.md': 'practice-repository',
+  'practice-repo/CONTRIBUTING.md': 'practice-repository-contributing',
+  'practice-repo/spec/index.md': 'practice-repository-suite-spec-template',
+  'practice-repo/spec/example/index.md': 'practice-repository-suite-spec-example',
+  'practice-repo/fhir-sandbox/README.md': 'fhir-sandbox',
+  'practice-repo/tests/flaky/README.md': 'flaky-test-exercise',
+  'practice-repo/tests/katas/README.md': 'katas'
+};
+
+/**
+ * Every document's URL is flat and in full words: its file or folder name,
+ * with no parent folders. spec/index.md -> spec; plan.md -> plan;
+ * materials/gates/calibration-guide.md -> calibration-guide;
+ * materials/modules/module-10-capstone/brief-band-3.md -> capstone-brief-band-3.
+ * Track guides are named by their title instead (see DOCS).
+ */
 export function slugForPath(path: string): string {
-  if (path === 'README.md') return 'about';
+  if (SLUGS[path]) return SLUGS[path];
+  const name = nestedSlug(path).split('/').pop() ?? '';
+  return name.replace(/^brief-/, 'capstone-brief-');
+}
+
+/** The URL a document had when URLs followed its folders: materials/gates/calibration-guide. */
+function nestedSlug(path: string): string {
   return path.replace(/(^|\/)(index|README)\.md$/, '').replace(/\.md$/, '');
+}
+
+/** Old track folder names, before abbreviations were written in full. */
+const OLD_FOLDERS: [RegExp, string][] = [
+  [/\bmodule-(\d+)-/g, 'm$1-'],
+  [/\bband-3\b/g, 'b3'],
+  [/\bband-([4-7])-quality-assurance\b/g, 'b$1-qa'],
+  [/\bband-([4-7])-test-engineering\b/g, 'b$1-te'],
+  [/\bband-7-test-management\b/g, 'b7-tm'],
+  [/\brole-foundations\b/g, 'r1-role-foundations'],
+  [/\bhealth-care-foundations\b/g, 'r2-health-care-foundations'],
+  [/\bcoaching-others-in-automation\b/g, 'l1-coaching'],
+  [/\bautomation-strategy-and-metrics\b/g, 'l2-strategy-metrics'],
+  [/\bframeworks-and-non-functional-testing\b/g, 'l3-frameworks-nonfunctional'],
+  [/\bacceptance-test-automation\b/g, 'l4-acceptance-automation'],
+  [/\bleading-automation-adoption\b/g, 'l5-adoption'],
+  [/\bindividual-learning-plan-template\b/g, 'ilp-template']
+];
+
+/** The URLs a document used to have, so old links still arrive. */
+function oldSlugs(path: string): string[] {
+  const nested = nestedSlug(path) || 'about';
+  const abbreviated = OLD_FOLDERS.reduce((slug, [from, to]) => slug.replace(from, to), nested);
+  return [...new Set([nested, abbreviated])];
 }
 
 function titleOf(markdown: string, path: string): string {
@@ -78,6 +129,31 @@ for (const doc of DOCS) {
   if (!existing || doc.path.endsWith('index.md')) BY_SLUG.set(doc.slug, doc);
 }
 const BY_PATH = new Map(DOCS.map((doc) => [doc.path, doc]));
+
+// Two documents with the same URL would hide one of them.
+for (const doc of DOCS) {
+  const winner = BY_SLUG.get(doc.slug);
+  if (winner && winner !== doc && posix.dirname(winner.path) !== posix.dirname(doc.path)) {
+    throw new Error(`Two documents share the URL ${doc.slug}: ${winner.path} and ${doc.path}`);
+  }
+}
+
+/** Old URL -> current URL, for every document. */
+const REDIRECTS = new Map<string, string>();
+for (const doc of BY_SLUG.values()) {
+  for (const old of oldSlugs(doc.path)) {
+    if (old !== doc.slug && !BY_SLUG.has(old)) REDIRECTS.set(old, doc.slug);
+  }
+}
+
+/** Every old URL and where it now lives. */
+export function allRedirects(): [string, string][] {
+  return [...REDIRECTS.entries()];
+}
+
+export function redirectFor(slug: string): string | undefined {
+  return REDIRECTS.get(slug.replace(/^\/+|\/+$/g, ''));
+}
 
 export function allDocs(): Doc[] {
   return [...BY_SLUG.values()];
@@ -124,7 +200,7 @@ export function rewriteHref(href: string, fromPath: string, locale: Locale): str
 
   const doc =
     BY_PATH.get(resolved) ?? BY_PATH.get(`${resolved}/index.md`) ?? BY_PATH.get(`${resolved}/README.md`);
-  if (doc) return localeHref(locale, BY_SLUG.get(doc.slug) === doc ? doc.slug : slugForPath(doc.path)) + anchor;
+  if (doc) return localeHref(locale, BY_SLUG.get(doc.slug) === doc ? doc.slug : (BY_PATH.get(`${posix.dirname(doc.path)}/index.md`)?.slug ?? doc.slug)) + anchor;
   if (resolved === '' || resolved === '.') return localeHref(locale) + anchor;
   if (DOWNLOADS.has(resolved)) return `/downloads/${resolved}`;
   return sourceHref(resolved + (trailing ? '/' : '')) + anchor;
@@ -167,13 +243,14 @@ export function renderDoc(doc: Doc, locale: Locale = DEFAULT_LOCALE): RenderedDo
 
 export type Crumb = { href: string; label: string };
 
-/** Breadcrumbs for a slug: each ancestor that is itself a document. */
-export function crumbsFor(slug: string, locale: Locale): Crumb[] {
-  const parts = slug.split('/');
+/** Breadcrumbs for a document: each folder above it that has its own document. */
+export function crumbsFor(doc: Doc, locale: Locale): Crumb[] {
+  const parts = nestedSlug(doc.path).split('/');
   const crumbs: Crumb[] = [];
   for (let i = 1; i < parts.length; i++) {
-    const ancestor = docBySlug(parts.slice(0, i).join('/'));
-    if (ancestor) crumbs.push({ href: localeHref(locale, ancestor.slug), label: ancestor.title });
+    const folder = parts.slice(0, i).join('/');
+    const ancestor = BY_PATH.get(`${folder}/index.md`) ?? BY_PATH.get(`${folder}/README.md`);
+    if (ancestor && ancestor !== doc) crumbs.push({ href: localeHref(locale, ancestor.slug), label: ancestor.title });
   }
   return crumbs;
 }

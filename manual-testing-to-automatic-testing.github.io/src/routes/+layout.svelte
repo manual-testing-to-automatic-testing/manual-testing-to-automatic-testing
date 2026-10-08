@@ -1,7 +1,7 @@
 <script lang="ts">
   import { page } from '$app/state';
   import { goto } from '$app/navigation';
-  import { SkipLink, PhaseBanner, Tag } from '@lilydesignsystem/svelte-headless';
+  import { SkipLink } from '@lilydesignsystem/svelte-headless';
   import { themeName } from '@lilydesignsystem/svelte-theme-picker';
   import { sizeName } from '@lilydesignsystem/svelte-text-size-picker';
   import type { ShareTarget } from '@lilydesignsystem/svelte-share-picker';
@@ -32,10 +32,9 @@
     { href: localeHref(locale), label: chrome.nav.home },
     { href: localeHref(locale, 'spec'), label: chrome.nav.programme },
     { href: localeHref(locale, 'curriculum'), label: chrome.nav.curriculum },
-    { href: localeHref(locale, 'materials/tracks'), label: chrome.nav.tracks },
-    { href: localeHref(locale, 'materials/gates'), label: chrome.nav.gates },
-    { href: localeHref(locale, 'self-assessment'), label: chrome.nav.selfAssessment },
-    { href: localeHref(locale, 'materials/modules'), label: chrome.nav.materials }
+    { href: localeHref(locale, 'tracks'), label: chrome.nav.tracks },
+    { href: localeHref(locale, 'gates'), label: chrome.nav.gates },
+    { href: localeHref(locale, 'modules'), label: chrome.nav.materials }
   ]);
 
   // The same pages for the link picker: a home icon, first in the PickerBar,
@@ -168,14 +167,6 @@
   </div>
 </header>
 
-<PhaseBanner class="site-phase-banner">
-  <Tag label={chrome.banner.tag}>{chrome.banner.tag}</Tag>
-  <span>
-    {chrome.banner.text}
-    <a href={localeHref(locale, 'materials/planning/decision-log')}>{chrome.banner.link}</a>
-  </span>
-</PhaseBanner>
-
 <main id="main" class="site-main" tabindex="-1">
   {@render children()}
 </main>
@@ -188,7 +179,7 @@
     </div>
     <div class="site-footer-links">
       <a href={localeHref(locale, 'spec')}>{chrome.nav.programme}</a>
-      <a href={localeHref(locale, 'self-assessment')}>{chrome.nav.selfAssessment}</a>
+      <a href={localeHref(locale, 'tracks')}>{chrome.nav.tracks}</a>
       <a href={localeHref(locale, 'about')}>{chrome.nav.about}</a>
       <a href={SOURCE_REPO}>{chrome.footer.source}</a>
     </div>

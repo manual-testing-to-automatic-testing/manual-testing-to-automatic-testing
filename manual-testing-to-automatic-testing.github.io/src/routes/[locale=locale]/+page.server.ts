@@ -22,8 +22,7 @@ export const load = ({ params }) => {
     band: t.band,
     roleLevel: t.roleLevel,
     title: trackGuide(t.id).title,
-    guide: localeHref(locale, trackGuide(t.id).slug),
-    assessment: localeHref(locale, `self-assessment/${t.slug}`)
+    guide: localeHref(locale, trackGuide(t.id).slug)
   }));
   return {
     locale,

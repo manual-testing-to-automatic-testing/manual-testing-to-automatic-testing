@@ -5,8 +5,8 @@ const PAGES = [
   '/en-001/',
   '/en-001/spec/',
   '/en-001/track-for-band-5-quality-assurance-test-analyst/',
-  '/en-001/self-assessment/',
-  '/en-001/self-assessment/band-6-senior-quality-assurance-test-analyst/',
+  '/en-001/tracks/',
+  '/en-001/calibration-guide/',
   '/en-001/search/?gate'
 ];
 
@@ -23,7 +23,7 @@ for (const path of PAGES) {
 }
 
 test('no automated accessibility violations on a rated self-assessment', async ({ page }) => {
-  await page.goto('/en-001/self-assessment/band-6-senior-quality-assurance-test-analyst/');
+  await page.goto('/en-001/track-for-band-6-senior-quality-assurance-test-analyst/');
   await page.evaluate(() => localStorage.clear());
   await page.reload();
   // One of each status, a calibration flag, and a gate result.

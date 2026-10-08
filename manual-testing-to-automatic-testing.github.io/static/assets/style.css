@@ -239,21 +239,6 @@ th {
   top: 0.5rem;
 }
 
-.phase-banner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.75rem;
-  max-width: var(--site-content-max);
-  margin: 0 auto;
-  padding: 0.75rem 1.5rem;
-  border-bottom: 1px solid var(--site-border-subtle);
-  font-size: 0.95rem;
-  color: var(--site-text-muted);
-}
-.phase-banner span:last-child {
-  flex: 1 1 20rem;
-}
 
 .tag {
   display: inline-block;
@@ -1072,8 +1057,7 @@ th {
   .site-main {
     padding: 2rem 1rem 3rem;
   }
-  .site-header-inner,
-  .phase-banner {
+  .site-header-inner {
     padding-left: 1rem;
     padding-right: 1rem;
   }

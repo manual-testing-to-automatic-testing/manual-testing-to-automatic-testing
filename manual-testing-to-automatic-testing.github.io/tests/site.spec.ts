@@ -13,7 +13,9 @@ test('the site root redirects to the default locale', async ({ page }) => {
 test('the sitemap lists every page', () => {
   expect(paths.length).toBeGreaterThan(90);
   expect(paths).toContain('/en-001/spec/');
-  expect(paths).toContain('/en-001/self-assessment/band-5-quality-assurance-test-analyst/');
+  expect(paths).toContain('/en-001/track-for-band-5-quality-assurance-test-analyst/');
+  expect(paths).toContain('/en-001/calibration-guide/');
+  expect(paths.some((p) => p.split('/').length > 4)).toBe(false);
 });
 
 test('every page has one h1, a title, a language, and the picker bar', async ({ page }) => {
@@ -104,4 +106,13 @@ test('the home page lists every track, linking to its guide', async ({ page }) =
   await expect(links.first()).toHaveAttribute('href', '/en-001/track-for-band-3-associate-quality-assurance-test-analyst/');
   await links.first().click();
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Track for Band 3 associate quality assurance test analyst');
+});
+
+test('old URLs forward to the flat ones', async ({ page }) => {
+  await page.goto('/en-001/materials/tracks/b3/');
+  await expect(page).toHaveURL(/\/en-001\/track-for-band-3-associate-quality-assurance-test-analyst\/$/);
+  await page.goto('/en-001/materials/gates/calibration-guide/');
+  await expect(page).toHaveURL(/\/en-001\/calibration-guide\/$/);
+  await page.goto('/en-001/self-assessment/band-5-quality-assurance-test-analyst/');
+  await expect(page).toHaveURL(/\/en-001\/track-for-band-5-quality-assurance-test-analyst\/#self-assessment$/);
 });

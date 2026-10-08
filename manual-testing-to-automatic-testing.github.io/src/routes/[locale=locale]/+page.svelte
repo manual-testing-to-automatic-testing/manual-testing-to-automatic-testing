@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { localeHref } from '#lib/i18n/locales.js';
   import type { Locale } from '#lib/i18n/locales.js';
 
   let { data } = $props();
@@ -7,9 +6,7 @@
   type Messages = {
     heading: string;
     lede: string;
-    start: string;
     startCta: string;
-    assessCta: string;
     tracksHeading: string;
     tracksIntro: string;
   };
@@ -17,12 +14,10 @@
   const EN_001: Messages = {
     heading: 'Manual testing to automatic testing',
     lede:
-      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers, over 220 hours of protected learning time, while each person stays in the band and UK GDaD PCF role they already have.',
-    start: 'Start with the programme specification: it is the single source of truth.',
+      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers. Each person continues in their current band and UK GDaD PCF role.',
     startCta: 'Read the programme',
-    assessCta: 'Open the self-assessment',
     tracksHeading: 'Tracks',
-    tracksIntro: 'Find the track for your band and UK GDaD PCF role.',
+    tracksIntro: 'Find the track for your band and UK GDaD PCF role. Each track’s page has its guide and its self-assessment.',
   };
 
   const MESSAGES: Record<Locale, Messages> = { 'en-001': EN_001 };
@@ -33,10 +28,8 @@
 <div class="page-intro">
   <h1>{m.heading}</h1>
   <p class="page-lede">{m.lede}</p>
-  <p>{m.start}</p>
   <p class="page-actions">
     <a class="button" href={data.docs.spec.href}>{m.startCta}</a>
-    <a class="button" href={localeHref(data.locale as Locale, 'self-assessment')}>{m.assessCta}</a>
   </p>
 </div>
 
