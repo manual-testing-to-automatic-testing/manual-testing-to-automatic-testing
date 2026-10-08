@@ -321,7 +321,7 @@ function countResults(results) {
 
 > Explain this JavaScript function line by line, for someone who is new to programming. Then tell me what it returns for ["pass", "fail", "pass", "skip"], and why.
 
-Run it with `node` and that input. Does the result match the explanation? A careful reader notices that `"skip"` counts as failed, because anything that is not `"pass"` goes to the `else`. Did the assistant say so?
+Run it in OneCompiler (<https://onecompiler.com/javascript>), or with `node`, with that input. Does the result match the explanation? A careful reader notices that `"skip"` counts as failed, because anything that is not `"pass"` goes to the `else`. Did the assistant say so?
 
 ### Exercise
 

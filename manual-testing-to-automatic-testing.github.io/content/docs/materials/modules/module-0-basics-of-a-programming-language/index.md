@@ -17,7 +17,7 @@ The default language is JavaScript, which the rest of the programme uses. A pers
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the mentor: the programme, the three basics modules, and how a walkthrough works | 30 minutes | One to one | Person, mentor |
-| 2 | Set up Node.js and Visual Studio Code on your own system, and run your first `node hello.js` | 2 hours | Practice | Each person, with the mentor |
+| 2 | Open [OneCompiler's JavaScript editor](https://onecompiler.com/javascript) in your browser, and run your first program | 2 hours | Practice | Each person, with the mentor |
 | 3 | Values, variables, and printing results | 2.5 hours | Core | Cohort |
 | 4 | Functions: parameters, return values, and calling them | 2.5 hours | Core | Cohort |
 | 5 | Conditionals: `if`, `else`, comparisons, and true and false | 2.5 hours | Core | Cohort |
@@ -32,7 +32,7 @@ Each person's sessions add up to 20 hours.
 
 ## Activities
 
-1. Install Node.js (the long-term support version) and Visual Studio Code. Run `node --version`.
+1. Open [OneCompiler's JavaScript editor](https://onecompiler.com/javascript) in your browser. There is nothing to install. Type `console.log("Hello");`, select **Run**, and read the output.
 2. Write and run small programs that use each of: variables, a function, an `if` and `else`, a loop, an array, and an object.
 3. Read three short functions written by someone else. Before running each one, say what it will print. Then run it and check.
 4. Write the function for your walkthrough. For example, a function that takes a list of test results and returns how many passed and failed, using a loop and a conditional:
@@ -54,11 +54,11 @@ function countResults(results) {
 console.log(countResults(["pass", "fail", "pass"]));
 ```
 
-5. Run it on your own system with `node`, and change the input to check it does what you expect.
+5. Run it in OneCompiler, and change the input to check it does what you expect.
 
 ## Evidence
 
-**Evidence 0:** a walkthrough to the mentor of a simple function, in JavaScript or the language the mentor agreed, that uses variables, functions, conditionals, and loops. The person runs it on their own system and explains it line by line: what each variable holds, what each conditional decides, and how many times each loop runs.
+**Evidence 0:** a walkthrough to the mentor of a simple function, in JavaScript or the language the mentor agreed, that uses variables, functions, conditionals, and loops. The person runs it in OneCompiler, in their own browser, and explains it line by line: what each variable holds, what each conditional decides, and how many times each loop runs.
 
 ## Assessment
 
@@ -69,12 +69,12 @@ The mentor signs off the walkthrough when the person can run the code and explai
 | Person | |
 | Language | |
 | What the function does | |
-| Ran on the person's own system | Yes / No |
+| Ran in OneCompiler, in the person's own browser | Yes / No |
 | Explained variables, functions, conditionals, and loops | Yes / No |
 | Mentor, and date | |
 
 ## Resources
 
 - MDN's JavaScript guide: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide>
-- Node.js, "Introduction to Node.js": <https://nodejs.org/en/learn/getting-started/introduction-to-nodejs>
+- OneCompiler's JavaScript editor, which runs JavaScript in the browser with nothing to install: <https://onecompiler.com/javascript>
 - The practice repository's first katas, for reading only: [practice-repo/tests/katas/](../../../practice-repo/tests/katas/README.md)

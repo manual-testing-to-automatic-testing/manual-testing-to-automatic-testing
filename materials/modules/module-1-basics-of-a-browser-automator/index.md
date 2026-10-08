@@ -22,7 +22,7 @@ The default automator is Selenium with JavaScript. A person may use another brow
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hours 20–22.5: what a browser automator is; install `selenium-webdriver`; Selenium Manager and the Chrome driver | 2.5 hours | Core | Cohort |
+| 1 | Hours 20–22.5: what a browser automator is; install Node.js and Visual Studio Code on your own system; install `selenium-webdriver`; Selenium Manager and the Chrome driver | 2.5 hours | Core | Cohort |
 | 2 | Hours 22.5–30: making a web request with `driver.get`, and waiting for the response with `driver.wait` and `until` | 2.5 hours | Core | Cohort |
 | 3 | Hours 22.5–30: selecting page elements by id with `By.id`, and verifying page text with `getText` | 2.5 hours | Core | Cohort |
 | 4 | Hours 22.5–30: check-in with the mentor | 1 hour | One to one | Person, mentor |
@@ -37,8 +37,9 @@ Each person's sessions add up to 20 hours.
 
 ## Activities
 
-1. In a new folder, run `npm init -y`, set `"type": "module"` in `package.json`, and run `npm install selenium-webdriver`.
-2. Start from this beginning, which requests the fixture page, waits for it, and verifies some text:
+1. Install Node.js (the long-term support version) and Visual Studio Code on your own system, and check with `node --version`. Module 0 used OneCompiler in the browser; browser automation needs Node.js on your own system.
+2. In a new folder, run `npm init -y`, set `"type": "module"` in `package.json`, and run `npm install selenium-webdriver`.
+3. Start from this beginning, which requests the fixture page, waits for it, and verifies some text:
 
 ```javascript
 import { Builder, Browser, By, until } from "selenium-webdriver";
@@ -54,13 +55,13 @@ try {
 }
 ```
 
-3. Add each remaining step yourself, on the same page:
+4. Add each remaining step yourself, on the same page:
    - click the checkbox `#checkbox-example-1-id`
    - choose "bravo" in the select box `#select-example-1-id`
    - clear the text field `#text-example-1-id` and type your own text
    - click the Submit button, which submits the form `#form-1`
    - in a second run, click the link "Link Example 1", and check the new page's address.
-4. Run the script on your own system with `node`. Then change one id on purpose, run it again, and read the error.
+5. Run the script on your own system with `node`. Then change one id on purpose, run it again, and read the error.
 
 ## Evidence
 
