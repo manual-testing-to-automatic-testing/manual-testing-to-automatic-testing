@@ -1,6 +1,6 @@
 # Learning agreement
 
-This agreement is signed at Gate 0. It records the commitments that make the programme work. Read it with the [individual learning plan](ilp-template.md) and your track guide in `materials/tracks/`.
+This agreement is signed at Gate 0. It records the commitments that make the programme work. Read it with the [individual learning plan](individual-learning-plan-template.md) and your track guide in `materials/tracks/`.
 
 ## 1. Participant
 
@@ -11,7 +11,7 @@ This agreement is signed at Gate 0. It records the commitments that make the pro
 | UK GDaD PCF role and role level | |
 | Track | |
 | Programme dates | Start: End of Gate 4: Gate 5: |
-| Programme length | 220 hours / 280 hours (B3 and B4 only), including the 40-hour Lean Six Sigma Green Belt |
+| Programme length | 220 hours / 280 hours (Band 3 and Band 4 only), including the 40-hour Lean Six Sigma Green Belt |
 
 ## 2. What this programme is, and is not
 
@@ -23,7 +23,7 @@ This agreement is signed at Gate 0. It records the commitments that make the pro
 
 | Field | Entry |
 | --- | --- |
-| Protected time | 220 learning hours (280 with the B3 and B4 extension), the same for every track; by default 7.5 hours a week (20% of a 37.5-hour week). Agreed pace: ____ hours a week |
+| Protected time | 220 learning hours (280 with the Band 3 and Band 4 extension), the same for every track; by default 7.5 hours a week (20% of a 37.5-hour week). Agreed pace: ____ hours a week |
 | When in the week | Monday / Tuesday / Wednesday / Thursday / Friday, and times: ____ |
 | Booked in calendars by | |
 
@@ -46,7 +46,7 @@ Protected time is not reassigned to delivery work without the training lead's ag
 **The participant will:**
 
 - complete the full self-assessment honestly, with evidence, before every gate
-- follow the ILP and produce the module evidence for the track
+- follow the individual learning plan and produce the module evidence for the track
 - keep a [learning log](learning-log-template.md) entry for every 7.5 hours of learning
 - from hour 67.5, spend part of every 7.5 hours of learning automating real work on the team's product
 - use synthetic data only, and keep secrets and personal data out of code
@@ -56,12 +56,12 @@ Protected time is not reassigned to delivery work without the training lead's ag
 
 - protect the participant's learning time, and adjust delivery workload to match
 - rate the participant independently at every gate, and calibrate with evidence
-- own the ILP with the participant
+- own the individual learning plan with the participant
 - meet the participant for 1 hour every 15 learning hours, plus about 2 hours at each gate.
 
 **The mentor will:**
 
-- pair, review code, and run R1 role practice
+- pair, review code, and run Role foundations practice
 - give 1.5 hours per 7.5 learning hours in hours 0–45, then 1 hour per 7.5 learning hours
 - prepare the participant for each gate and supervise Part D practicals.
 
@@ -73,7 +73,7 @@ Protected time is not reassigned to delivery work without the training lead's ag
 
 ## 6. Reasonable adjustments
 
-Recorded in the ILP, section 6, and reviewed at every gate.
+Recorded in the individual learning plan, section 6, and reviewed at every gate.
 
 ## 7. Signatures
 

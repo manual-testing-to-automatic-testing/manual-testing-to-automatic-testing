@@ -18,7 +18,7 @@ Locale codes have the form `<language>-<region>`, all lower case: a two-letter I
 - **Page strings** (home, self-assessment, search) are in each page's own `MESSAGES`, keyed by locale, as in testingexamples.github.io.
 - **Documents** are rendered from the monorepo's Markdown and are English only. A translated document would need a translated source in the monorepo, vendored by `bin/sync`; that is not designed yet.
 
-Never translated: UK GDaD PCF role and skill names, track ids (`B5-QA`), item ids (`A1`, `C3`), file names, code, and product names.
+Never translated: UK GDaD PCF role and skill names, track ids (`Band 5 quality assurance`), item ids (`A1`, `C3`), file names, code, and product names.
 
 ## Adding a locale
 

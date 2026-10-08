@@ -11,8 +11,8 @@ Gate results are developmental only. They never start a capability, performance,
 | Participant | |
 | Band | |
 | UK GDaD PCF role and role level | |
-| Track | B3 / B4-QA / B4-TE / B5-QA / B6-QA / B6-TE / B7-TE / B7-TM |
-| Mapping decision (if any, D6) | |
+| Track | Band 3 / Band 4 quality assurance / Band 4 test engineering / Band 5 quality assurance / Band 6 quality assurance / Band 6 test engineering / Band 7 test engineering / Band 7 test management |
+| Mapping decision (if any, Decision 6) | |
 | Gate | 0 / 1 / 2 / 3 / 4 / 5 |
 | Date | |
 | Repeat of an earlier attempt? | No / Yes (date of first attempt: ) |
@@ -28,7 +28,7 @@ Use agreed ratings. Meets counts as 1, Partly as 0.5, Not yet as 0. `scripts/cap
 | A Band (21 dimensions) | 21 | | | | | | | |
 | B UK GDaD PCF role aspects | | | | | | | | |
 | C Skills | | | | | | | | |
-| **Overall** (mean of A, B, C) | — | — | — | — | | | 90 at Gate 4 (LO13) | |
+| **Overall** (mean of A, B, C) | — | — | — | — | | | 90 at Gate 4 (Learning outcome 13) | |
 
 ## 3. Part D practical
 
@@ -48,7 +48,7 @@ Tick only the row for this gate.
 
 | Gate | Condition | Met? | Notes |
 | --- | --- | --- | --- |
-| Gate 0 | ILP agreed and signed | | |
+| Gate 0 | Individual learning plan agreed and signed | | |
 | Gate 1 | No item lower than at Gate 0 without an agreed reason | | |
 | Gate 2 | Clinical risk management and information governance meet expectations | | |
 | Gate 3 | Test engineering at least one level below the automation target, or at it | | |
@@ -61,18 +61,18 @@ Tick only the row for this gate.
 
 | Evidence | Due at this gate? | Link | Reviewed by | Comment |
 | --- | --- | --- | --- | --- |
-| E0 Induction and baseline | Gate 0 | | | |
-| E1 Automation candidate analysis | Gate 1 | | | |
-| E2 Programming exercises | Gate 1 | | | |
-| E3 Pull requests | Gate 1 | | | |
-| E4 Browser automation script | Gate 2 | | | |
-| E5 Real test suite and Given-When-Then | Gate 2 | | | |
-| E6 API and FHIR tests | Gate 3 | | | |
-| E7 CI pipeline and triage | Gate 3 | | | |
-| E8 Safe and lawful automation | Gate 4 | | | |
-| E9 Quality engineering | Gate 4 | | | |
-| E10 Capstone | Gate 4 | | | |
-| Track module evidence (L1 to L5) | As the track requires | | | |
+| Evidence 0 Induction and baseline | Gate 0 | | | |
+| Evidence 1 Automation candidate analysis | Gate 1 | | | |
+| Evidence 2 Programming exercises | Gate 1 | | | |
+| Evidence 3 Pull requests | Gate 1 | | | |
+| Evidence 4 Browser automation script | Gate 2 | | | |
+| Evidence 5 Real test suite and Given-When-Then | Gate 2 | | | |
+| Evidence 6 API and FHIR tests | Gate 3 | | | |
+| Evidence 7 CI pipeline and triage | Gate 3 | | | |
+| Evidence 8 Safe and lawful automation | Gate 4 | | | |
+| Evidence 9 Quality engineering | Gate 4 | | | |
+| Evidence 10 Capstone | Gate 4 | | | |
+| Track module evidence | As the track requires | | | |
 
 ## 6. Calibration notes
 
@@ -86,7 +86,7 @@ Record every item where self and manager ratings differed by more than one level
 
 - [ ] **Gate met.** Continue to the next stage.
 - [ ] **Gate not met.** Up to 22.5 extra learning hours on the items below threshold, with the written plan below and extra mentor time. Repeat date: ______
-- [ ] **Repeated gate not met.** Next step agreed (tick one): extension to 280 hours / different automation target / more R1 support / pause the programme / other: ______
+- [ ] **Repeated gate not met.** Next step agreed (tick one): extension to 280 hours / different automation target / more Role foundations support / pause the programme / other: ______
 
 ### Extra learning hours plan (if not met)
 
@@ -94,9 +94,9 @@ Record every item where self and manager ratings differed by more than one level
 | --- | --- | --- | --- | --- |
 | | | | | |
 
-## 8. ILP update
+## 8. Individual learning plan update
 
-| Change to the ILP | Reason |
+| Change to the individual learning plan | Reason |
 | --- | --- |
 | | |
 

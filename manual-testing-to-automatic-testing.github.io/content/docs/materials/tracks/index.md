@@ -6,14 +6,14 @@ The programme has eight tuned tracks, one for each band and UK GDaD PCF role com
 
 | Track | Band | UK GDaD PCF role | Guide |
 | --- | --- | --- | --- |
-| B3 | 3 | Quality assurance test analyst or Test engineer, associate level | [B3](b3/index.md) |
-| B4-QA | 4 | Quality assurance test analyst | [B4-QA](b4-qa/index.md) |
-| B4-TE | 4 | Test engineer | [B4-TE](b4-te/index.md) |
-| B5-QA | 5 | Quality assurance test analyst | [B5-QA](b5-qa/index.md) |
-| B6-QA | 6 | Quality assurance test analyst | [B6-QA](b6-qa/index.md) |
-| B6-TE | 6 | Test engineer | [B6-TE](b6-te/index.md) |
-| B7-TE | 7 | Test engineer | [B7-TE](b7-te/index.md) |
-| B7-TM | 7 | Test manager | [B7-TM](b7-tm/index.md) |
+| Band 3 | 3 | Quality assurance test analyst or Test engineer, associate level | [Band 3](band-3/index.md) |
+| Band 4 quality assurance | 4 | Quality assurance test analyst | [Band 4 quality assurance](band-4-quality-assurance/index.md) |
+| Band 4 test engineering | 4 | Test engineer | [Band 4 test engineering](band-4-test-engineering/index.md) |
+| Band 5 quality assurance | 5 | Quality assurance test analyst | [Band 5 quality assurance](band-5-quality-assurance/index.md) |
+| Band 6 quality assurance | 6 | Quality assurance test analyst | [Band 6 quality assurance](band-6-quality-assurance/index.md) |
+| Band 6 test engineering | 6 | Test engineer | [Band 6 test engineering](band-6-test-engineering/index.md) |
+| Band 7 test engineering | 7 | Test engineer | [Band 7 test engineering](band-7-test-engineering/index.md) |
+| Band 7 test management | 7 | Test manager | [Band 7 test management](band-7-test-management/index.md) |
 
 The track guides are generated from the spec's tables, so the expected levels match the spec exactly. Regenerate them whenever the spec's tables change.
 
@@ -21,12 +21,12 @@ The track guides are generated from the spec's tables, so the expected levels ma
 
 | Module | Tracks | Programme hours | Materials |
 | --- | --- | --- | --- |
-| R1 Role foundations | All | 0–180 | [Role practice guide](r1-role-foundations/index.md) |
-| R2 Health care foundations | All | 7.5–60 | [Session plans](r2-health-care-foundations/index.md) |
-| L1 Coaching others in automation | B6-QA, B6-TE, B7-TE, B7-TM | 67.5–150 | [Guide and coaching log](l1-coaching/index.md) |
-| L2 Automation strategy and metrics | B6-QA, B7-TE, B7-TM | 112.5–150 | [Strategy and metrics templates](l2-strategy-metrics/index.md) |
-| L3 Frameworks and non-functional testing | B7-TE (B6-TE read only) | 112.5–150 | [Exercises](l3-frameworks-nonfunctional/index.md) |
-| L4 Acceptance test automation | B6-QA | 90–127.5 | [Exercise and UAT plan](l4-acceptance-automation/index.md) |
-| L5 Leading teams through automation adoption | B7-TM | 112.5–150 | [Team development and adoption plans](l5-adoption/index.md) |
+| Role foundations | All | 0–180 | [Role practice guide](role-foundations/index.md) |
+| Health care foundations | All | 7.5–60 | [Session plans](health-care-foundations/index.md) |
+| Coaching others in automation | Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, Band 7 test management | 67.5–150 | [Guide and coaching log](coaching-others-in-automation/index.md) |
+| Automation strategy and metrics | Band 6 quality assurance, Band 7 test engineering, Band 7 test management | 112.5–150 | [Strategy and metrics templates](automation-strategy-and-metrics/index.md) |
+| Frameworks and non-functional testing | Band 7 test engineering (Band 6 test engineering read only) | 112.5–150 | [Exercises](frameworks-and-non-functional-testing/index.md) |
+| Acceptance test automation | Band 6 quality assurance | 90–127.5 | [Exercise and UAT plan](acceptance-test-automation/index.md) |
+| Leading teams through automation adoption | Band 7 test management | 112.5–150 | [Team development and adoption plans](leading-automation-adoption/index.md) |
 
 Gate materials are in [../gates/](../gates/index.md).

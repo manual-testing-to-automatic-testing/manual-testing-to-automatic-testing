@@ -2,7 +2,7 @@
 """Build the capability self-assessment instrument for every track.
 
 Reads the roles-skills reference (reference.json) and writes one TSV per track
-to instruments/, named by band and reference role level in words (B6-QA is
+to instruments/, named by band and reference role level in words (Band 6 quality assurance is
 band-6-senior-quality-assurance-test-analyst.tsv), plus
 instruments/index.tsv. The instrument is defined in
 spec/index.md, section "Capability self-assessment":
@@ -30,37 +30,37 @@ DEFAULT_REFERENCE = os.path.expanduser(
 # Tracks, from spec/index.md, section "Tracks".
 # (track id, band, role id, reference role level title)
 TRACKS = [
-    ("B3", "3", "quality-assurance-test-analyst", "Associate quality assurance test analyst"),
-    ("B4-QA", "4", "quality-assurance-test-analyst", "Associate quality assurance test analyst"),
-    ("B4-TE", "4", "test-engineer", "Associate test engineer"),
-    ("B5-QA", "5", "quality-assurance-test-analyst", "Quality assurance test analyst"),
-    ("B6-QA", "6", "quality-assurance-test-analyst", "Senior quality assurance test analyst"),
-    ("B6-TE", "6", "test-engineer", "Test engineer"),
-    ("B7-TE", "7", "test-engineer", "Senior test engineer"),
-    ("B7-TM", "7", "test-manager", "Test manager"),
+    ("Band 3", "3", "quality-assurance-test-analyst", "Associate quality assurance test analyst"),
+    ("Band 4 quality assurance", "4", "quality-assurance-test-analyst", "Associate quality assurance test analyst"),
+    ("Band 4 test engineering", "4", "test-engineer", "Associate test engineer"),
+    ("Band 5 quality assurance", "5", "quality-assurance-test-analyst", "Quality assurance test analyst"),
+    ("Band 6 quality assurance", "6", "quality-assurance-test-analyst", "Senior quality assurance test analyst"),
+    ("Band 6 test engineering", "6", "test-engineer", "Test engineer"),
+    ("Band 7 test engineering", "7", "test-engineer", "Senior test engineer"),
+    ("Band 7 test management", "7", "test-manager", "Test manager"),
 ]
 
 def file_name(band_id, level_title):
     """A track's file name, in words: the band, then the reference role level,
-    lower case, with dashes. B6-QA is band-6-senior-quality-assurance-test-analyst."""
+    lower case, with dashes. Band 6 quality assurance is band-6-senior-quality-assurance-test-analyst."""
     words = re.sub(r"[^a-z0-9]+", "-", level_title.lower()).strip("-")
     return f"band-{band_id}-{words}"
 
 
 # Tracks whose job evaluation factor levels are agreed at Gate 0, because the
 # reference has no role level at their band (spec, "Tracks", Band 3).
-AGREED_AT_GATE_0 = {"B3"}
+AGREED_AT_GATE_0 = {"Band 3"}
 
 # Programme automation target for test engineering (spec, "Automation targets").
 AUTOMATION_TARGET = {
-    "B3": "awareness",
-    "B4-QA": "awareness",
-    "B4-TE": "awareness",
-    "B5-QA": "working",
-    "B6-QA": "working",
-    "B6-TE": "working",
-    "B7-TE": "practitioner",
-    "B7-TM": "working",
+    "Band 3": "awareness",
+    "Band 4 quality assurance": "awareness",
+    "Band 4 test engineering": "awareness",
+    "Band 5 quality assurance": "working",
+    "Band 6 quality assurance": "working",
+    "Band 6 test engineering": "working",
+    "Band 7 test engineering": "practitioner",
+    "Band 7 test management": "working",
 }
 
 OUTLINE = [

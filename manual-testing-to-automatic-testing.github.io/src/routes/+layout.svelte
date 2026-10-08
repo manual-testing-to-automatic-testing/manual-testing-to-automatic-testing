@@ -31,6 +31,7 @@
   const navLinks: NavLink[] = $derived([
     { href: localeHref(locale), label: chrome.nav.home },
     { href: localeHref(locale, 'spec'), label: chrome.nav.programme },
+    { href: localeHref(locale, 'curriculum'), label: chrome.nav.curriculum },
     { href: localeHref(locale, 'materials/tracks'), label: chrome.nav.tracks },
     { href: localeHref(locale, 'materials/gates'), label: chrome.nav.gates },
     { href: localeHref(locale, 'self-assessment'), label: chrome.nav.selfAssessment },

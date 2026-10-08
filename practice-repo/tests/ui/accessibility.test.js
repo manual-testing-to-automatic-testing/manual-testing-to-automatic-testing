@@ -1,4 +1,4 @@
-// Automated accessibility checks with axe-core: module M8.
+// Automated accessibility checks with axe-core: Module 8.
 //
 // Automated checks find only some problems; see the module for what they
 // cannot find. The fixture page has known issues, recorded below, because its

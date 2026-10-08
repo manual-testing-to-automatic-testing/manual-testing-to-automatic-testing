@@ -3,11 +3,11 @@
 
 The schedule comes from spec/index.md, section "Schedule and time", in
 programme hours: 220 hours of protected learning time, counted from 0, ending
-with M11, the Lean Six Sigma Green Belt (hours 180-220). At the default pace of
+with Module 11, the Lean Six Sigma Green Belt (hours 180-220). At the default pace of
 7.5 hours a week (20% of a 37.5-hour week), the programme runs over about 30
 weeks. Gate 5 is a follow-up about six months after Gate 4. With the extension
-to 280 hours for B3 and B4, the gates move to hours 0, 60, 120, 172.5, and 240,
-and M11 runs in hours 240-280.
+to 280 hours for Band 3 and Band 4, the gates move to hours 0, 60, 120, 172.5, and 240,
+and Module 11 runs in hours 240-280.
 
 Usage:
     python3 scripts/gate_calendar.py 2027-01-11 [--hours-per-week 7.5] [--extended] [--tsv]
@@ -19,30 +19,30 @@ import math
 
 FOLLOW_UP_WEEKS = 26  # about six months after Gate 4
 
-GATES = [(0, "Gate 0 (baseline)"), (45, "Gate 1"), (90, "Gate 2"), (127.5, "Gate 3, before M8"), (180, "Gate 4"), (220, "Green Belt certification exam")]
-EXTENDED_GATES = [(0, "Gate 0 (baseline)"), (60, "Gate 1"), (120, "Gate 2"), (172.5, "Gate 3, before M8"), (240, "Gate 4"), (280, "Green Belt certification exam")]
+GATES = [(0, "Gate 0 (baseline)"), (45, "Gate 1"), (90, "Gate 2"), (127.5, "Gate 3, before Module 8"), (180, "Gate 4"), (220, "Green Belt certification exam")]
+EXTENDED_GATES = [(0, "Gate 0 (baseline)"), (60, "Gate 1"), (120, "Gate 2"), (172.5, "Gate 3, before Module 8"), (240, "Gate 4"), (280, "Green Belt certification exam")]
 
 # (name, from hour, to hour), from the spec's schedule.
 MODULES = [
-    ("M0 Induction and baseline", 0, 7.5),
-    ("M1 Why and what to automate", 0, 15),
-    ("R1 Role foundations", 0, 180),
-    ("M2 Programming foundations in JavaScript", 7.5, 45),
-    ("R2 Health care foundations", 7.5, 60),
-    ("M3 Version control and collaboration", 22.5, 45),
-    ("M4 Browser automation fundamentals", 45, 67.5),
-    ("M5 From walkthrough to real test", 67.5, 90),
-    ("L1 Coaching others in automation (B6, B7)", 67.5, 150),
-    ("M6 API, integration, and FHIR tests", 90, 112.5),
-    ("L4 Acceptance test automation (B6-QA)", 90, 127.5),
-    ("M7 Continuous integration and DevOps", 112.5, 127.5),
-    ("L2 Automation strategy and metrics (B6-QA, B7)", 112.5, 150),
-    ("L3 Frameworks and non-functional testing (B7-TE)", 112.5, 150),
-    ("L5 Leading teams through automation adoption (B7-TM)", 112.5, 150),
-    ("M8 Safe and lawful test automation in health care", 127.5, 142.5),
-    ("M9 Quality engineering practice", 135, 150),
-    ("M10 Capstone", 142.5, 180),
-    ("M11 Lean Six Sigma Green Belt, lifetime certification", 180, 220),
+    ("Module 0 Induction and baseline", 0, 7.5),
+    ("Module 1 Why and what to automate", 0, 15),
+    ("Role foundations", 0, 180),
+    ("Module 2 Programming foundations in JavaScript", 7.5, 45),
+    ("Health care foundations", 7.5, 60),
+    ("Module 3 Version control and collaboration", 22.5, 45),
+    ("Module 4 Browser automation fundamentals", 45, 67.5),
+    ("Module 5 From walkthrough to real test", 67.5, 90),
+    ("Coaching others in automation (Band 6, Band 7)", 67.5, 150),
+    ("Module 6 API, integration, and FHIR tests", 90, 112.5),
+    ("Acceptance test automation (Band 6 quality assurance)", 90, 127.5),
+    ("Module 7 Continuous integration and DevOps", 112.5, 127.5),
+    ("Automation strategy and metrics (Band 6 quality assurance, Band 7)", 112.5, 150),
+    ("Frameworks and non-functional testing (Band 7 test engineering)", 112.5, 150),
+    ("Leading teams through automation adoption (Band 7 test management)", 112.5, 150),
+    ("Module 8 Safe and lawful test automation in health care", 127.5, 142.5),
+    ("Module 9 Quality engineering practice", 135, 150),
+    ("Module 10 Capstone", 142.5, 180),
+    ("Module 11 Lean Six Sigma Green Belt, lifetime certification", 180, 220),
 ]
 
 
@@ -65,7 +65,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("start", help="the Monday of the first week, as YYYY-MM-DD")
     parser.add_argument("--hours-per-week", type=float, default=7.5, help="the agreed pace (default 7.5, 20%% time)")
-    parser.add_argument("--extended", action="store_true", help="the extension to 280 hours, for B3 and B4")
+    parser.add_argument("--extended", action="store_true", help="the extension to 280 hours, for Band 3 and Band 4")
     parser.add_argument("--tsv", action="store_true", help="tab-separated output")
     args = parser.parse_args()
 
@@ -87,7 +87,7 @@ def main():
         for name, first, last in MODULES:
             rows.append(("module", name, first, last, week_of(first, pace, True), week_of(last, pace, False)))
     else:
-        rows.append(("module", "M11 Lean Six Sigma Green Belt, lifetime certification", 240, 280, week_of(240, pace, True), week_of(280, pace, False)))
+        rows.append(("module", "Module 11 Lean Six Sigma Green Belt, lifetime certification", 240, 280, week_of(240, pace, True), week_of(280, pace, False)))
     rows.sort(key=lambda r: (r[4], r[0] != "gate", r[2]))
     gate4 = monday(week_of(max(hour for hour, name in gates if name == "Gate 4"), pace, False))
     follow_up = gate4 + dt.timedelta(weeks=FOLLOW_UP_WEEKS)

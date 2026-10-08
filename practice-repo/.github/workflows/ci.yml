@@ -1,4 +1,4 @@
-# CI for the practice repository (module M7).
+# CI for the practice repository (Module 7).
 # Runs on every pull request and every push to main. A failing job blocks the merge
 # once branch protection requires these checks.
 name: CI

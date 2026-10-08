@@ -28,7 +28,7 @@ Copy this block for every 7.5 hours of learning.
 
 -
 
-**ILP actions progressed** (action id and what I did):
+**Individual learning plan actions progressed** (action id and what I did):
 
 -
 

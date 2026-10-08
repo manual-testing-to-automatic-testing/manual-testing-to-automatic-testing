@@ -4,14 +4,14 @@ The decisions in [spec/index.md](../../spec/index.md#decisions). Record each dec
 
 | Id | Decision | Default | Options considered | Owner | Status | Decided on | Record |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| D1 | Primary language and tool | JavaScript with Selenium WebDriver and Mocha | Python with Selenium and pytest if the team's codebase is Python | Training lead, with the head of test | Open | | |
-| D2 | CI service | The organisation's existing CI service; GitHub Actions for the practice repository | GitHub Actions, GitLab CI, Azure Pipelines, Jenkins | Training lead | Open | | |
-| D3 | JavaScript foundations course | A structured, free or already-licensed course with exercises | The practice repository katas with free JavaScript material, such as MDN's JavaScript guide; a licensed course | Training lead | Open | | |
-| D4 | Practice FHIR server | The practice repository's local FHIR sandbox (`practice-repo/fhir-sandbox/server.js`, run with `npm run fhir`): Node.js, no Docker, synthetic data only | A shared team test server with synthetic data | Mentors | Open | | |
-| D5 | Capstone scope per person | As in the spec's M10 table, agreed at hour 142.5 | — | Product owner, mentor | Open (decided per person in hours 142.5–150) | | |
-| D6 | Mapping for band and role combinations without a reference level, and Band 3 factor levels | The spec's mapping rule; Band 3 factor levels agreed at Gate 0 from the job description, total within 216 to 270 points | — | Line manager, training lead, HR | Open | | See [hr-briefing.md](hr-briefing.md) |
-| D7 | Developmental status of gates | Gates are developmental only (spec Principle 14) | — | HR, head of test | Open | | See [hr-briefing.md](hr-briefing.md) |
-| D8 | Lean Six Sigma Green Belt certification body | An accredited body whose Green Belt certification does not expire, with an exam, a project requirement, and a resit policy | Course in house with an external exam; course and exam from the same body | Training lead, with the head of test | Open | | See [M11](../modules/m11-lean-six-sigma-green-belt/index.md) |
+| Decision 1 | Primary language and tool | JavaScript with Selenium WebDriver and Mocha | Python with Selenium and pytest if the team's codebase is Python | Training lead, with the head of test | Open | | |
+| Decision 2 | CI service | The organisation's existing CI service; GitHub Actions for the practice repository | GitHub Actions, GitLab CI, Azure Pipelines, Jenkins | Training lead | Open | | |
+| Decision 3 | JavaScript foundations course | A structured, free or already-licensed course with exercises | The practice repository katas with free JavaScript material, such as MDN's JavaScript guide; a licensed course | Training lead | Open | | |
+| Decision 4 | Practice FHIR server | The practice repository's local FHIR sandbox (`practice-repo/fhir-sandbox/server.js`, run with `npm run fhir`): Node.js, no Docker, synthetic data only | A shared team test server with synthetic data | Mentors | Open | | |
+| Decision 5 | Capstone scope per person | As in the spec's Module 10 table, agreed at hour 142.5 | — | Product owner, mentor | Open (decided per person in hours 142.5–150) | | |
+| Decision 6 | Mapping for band and role combinations without a reference level, and Band 3 factor levels | The spec's mapping rule; Band 3 factor levels agreed at Gate 0 from the job description, total within 216 to 270 points | — | Line manager, training lead, HR | Open | | See [hr-briefing.md](hr-briefing.md) |
+| Decision 7 | Developmental status of gates | Gates are developmental only (spec Principle 14) | — | HR, head of test | Open | | See [hr-briefing.md](hr-briefing.md) |
+| Decision 8 | Lean Six Sigma Green Belt certification body | An accredited body whose Green Belt certification does not expire, with an exam, a project requirement, and a resit policy | Course in house with an external exam; course and exam from the same body | Training lead, with the head of test | Open | | See [Module 11](../modules/module-11-lean-six-sigma-green-belt/index.md) |
 
 ## Open questions from the plan
 
@@ -19,11 +19,11 @@ From [plan.md](../../plan.md#open-questions):
 
 | # | Question | Linked decision | Answer | Answered by | Date |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Does HR agree that gates are developmental only, and that no band changes follow? | D7 | | | |
-| 2 | How should Band 3 factor levels, and any unmapped band and role combinations, be agreed? | D6 | | | |
-| 3 | Has the organisation standardised on an automation tool or language? | D1 | | | |
-| 4 | Which CI service will teams use, and can participants change pipelines? | D2 | | | |
-| 5 | Is there budget for a paid JavaScript course? | D3 | | | |
-| 6 | Can participants install Node.js 24 and Chrome, and run a local server on port 8080? | D4 | | | |
+| 1 | Does HR agree that gates are developmental only, and that no band changes follow? | Decision 7 | | | |
+| 2 | How should Band 3 factor levels, and any unmapped band and role combinations, be agreed? | Decision 6 | | | |
+| 3 | Has the organisation standardised on an automation tool or language? | Decision 1 | | | |
+| 4 | Which CI service will teams use, and can participants change pipelines? | Decision 2 | | | |
+| 5 | Is there budget for a paid JavaScript course? | Decision 3 | | | |
+| 6 | Can participants install Node.js 24 and Chrome, and run a local server on port 8080? | Decision 4 | | | |
 | 7 | How many people are in the first cohort, in which tracks, and who are the mentors? | — | | | |
-| 8 | Which Lean Six Sigma body certifies the Green Belt, with a certificate that does not expire, and what is the budget for its course and exam? | D8 | | | |
+| 8 | Which Lean Six Sigma body certifies the Green Belt, with a certificate that does not expire, and what is the budget for its course and exam? | Decision 8 | | | |

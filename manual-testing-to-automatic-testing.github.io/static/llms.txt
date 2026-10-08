@@ -5,11 +5,12 @@
 ## Pages
 
 - [Programme specification](https://manual-testing-to-automatic-testing.github.io/en-001/spec/): the single source of truth
+- [Curriculum](https://manual-testing-to-automatic-testing.github.io/en-001/curriculum/): learning outcomes, schedule, modules, and gates, in one place
 - [Plan](https://manual-testing-to-automatic-testing.github.io/en-001/plan/): why the programme is shaped this way
 - [Tasks](https://manual-testing-to-automatic-testing.github.io/en-001/tasks/): the work to build and run it
 - [Tracks](https://manual-testing-to-automatic-testing.github.io/en-001/materials/tracks/): one guide per band and role
-- [Modules](https://manual-testing-to-automatic-testing.github.io/en-001/materials/modules/): M0 to M11
-- [Lean Six Sigma Green Belt](https://manual-testing-to-automatic-testing.github.io/en-001/materials/modules/m11-lean-six-sigma-green-belt/): M11, 40 hours, the last module on every track
+- [Modules](https://manual-testing-to-automatic-testing.github.io/en-001/materials/modules/): Modules 0 to 11
+- [Lean Six Sigma Green Belt](https://manual-testing-to-automatic-testing.github.io/en-001/materials/modules/module-11-lean-six-sigma-green-belt/): Module 11, 40 hours, the last module on every track
 - [Gates](https://manual-testing-to-automatic-testing.github.io/en-001/materials/gates/): thresholds, practicals, forms
 - [Self-assessment](https://manual-testing-to-automatic-testing.github.io/en-001/self-assessment/): the capability self-assessment for each track, scored in the browser
 

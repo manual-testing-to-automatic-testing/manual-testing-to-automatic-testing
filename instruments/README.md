@@ -4,20 +4,20 @@ One instrument for each track, named in words (lower case, with dashes), generat
 
 | File | Track | Description | Items (Part A + B + C) |
 | --- | --- | --- | --- |
-| [band-3-associate-quality-assurance-test-analyst.tsv](band-3-associate-quality-assurance-test-analyst.tsv) | B3 | Band 3, associate level | 21 + 15 + 9 = 45 |
-| [band-4-associate-quality-assurance-test-analyst.tsv](band-4-associate-quality-assurance-test-analyst.tsv) | B4-QA | Band 4, Associate quality assurance test analyst | 21 + 15 + 9 = 45 |
-| [band-4-associate-test-engineer.tsv](band-4-associate-test-engineer.tsv) | B4-TE | Band 4, Associate test engineer | 21 + 15 + 9 = 45 |
-| [band-5-quality-assurance-test-analyst.tsv](band-5-quality-assurance-test-analyst.tsv) | B5-QA | Band 5, Quality assurance test analyst | 21 + 18 + 10 = 49 |
-| [band-6-senior-quality-assurance-test-analyst.tsv](band-6-senior-quality-assurance-test-analyst.tsv) | B6-QA | Band 6, Senior quality assurance test analyst | 21 + 16 + 11 = 48 |
-| [band-6-test-engineer.tsv](band-6-test-engineer.tsv) | B6-TE | Band 6, Test engineer | 21 + 16 + 10 = 47 |
-| [band-7-senior-test-engineer.tsv](band-7-senior-test-engineer.tsv) | B7-TE | Band 7, Senior test engineer | 21 + 14 + 11 = 46 |
-| [band-7-test-manager.tsv](band-7-test-manager.tsv) | B7-TM | Band 7, Test manager | 21 + 19 + 12 = 52 |
+| [band-3-associate-quality-assurance-test-analyst.tsv](band-3-associate-quality-assurance-test-analyst.tsv) | Band 3 | Band 3, associate level | 21 + 15 + 9 = 45 |
+| [band-4-associate-quality-assurance-test-analyst.tsv](band-4-associate-quality-assurance-test-analyst.tsv) | Band 4 quality assurance | Band 4, Associate quality assurance test analyst | 21 + 15 + 9 = 45 |
+| [band-4-associate-test-engineer.tsv](band-4-associate-test-engineer.tsv) | Band 4 test engineering | Band 4, Associate test engineer | 21 + 15 + 9 = 45 |
+| [band-5-quality-assurance-test-analyst.tsv](band-5-quality-assurance-test-analyst.tsv) | Band 5 quality assurance | Band 5, Quality assurance test analyst | 21 + 18 + 10 = 49 |
+| [band-6-senior-quality-assurance-test-analyst.tsv](band-6-senior-quality-assurance-test-analyst.tsv) | Band 6 quality assurance | Band 6, Senior quality assurance test analyst | 21 + 16 + 11 = 48 |
+| [band-6-test-engineer.tsv](band-6-test-engineer.tsv) | Band 6 test engineering | Band 6, Test engineer | 21 + 16 + 10 = 47 |
+| [band-7-senior-test-engineer.tsv](band-7-senior-test-engineer.tsv) | Band 7 test engineering | Band 7, Senior test engineer | 21 + 14 + 11 = 46 |
+| [band-7-test-manager.tsv](band-7-test-manager.tsv) | Band 7 test management | Band 7, Test manager | 21 + 19 + 12 = 52 |
 
 [index.tsv](index.tsv) lists the same counts.
 
 ## Parts
 
-- **Part A, band (A1 to A21):** the 5 band outline dimensions, rated Not yet, Partly, or Meets, and the 16 job evaluation factors, rated as the factor level the person works at regularly. The reference level and every level summary are in `expected_level_description`. For B3, the factor levels are blank: agree them at Gate 0 from the job description, with a total within 216 to 270 points, and write them into `expected_level` and `expected_level_number`.
+- **Part A, band (A1 to A21):** the 5 band outline dimensions, rated Not yet, Partly, or Meets, and the 16 job evaluation factors, rated as the factor level the person works at regularly. The reference level and every level summary are in `expected_level_description`. For Band 3, the factor levels are blank: agree them at Gate 0 from the job description, with a total within 216 to 270 points, and write them into `expected_level` and `expected_level_number`.
 - **Part B, UK GDaD PCF role aspects:** B1 UK GDaD PCF role statements, B2 UK GDaD PCF role level statements, B3 reference responsibilities, rated Not yet, Partly, or Meets.
 - **Part C, skills:** every skill for the reference role level, rated 0 to 4. `next_level_description` shows what the next level looks like. The test engineering row also states the track's programme automation target.
 

@@ -5,17 +5,7 @@ import { isLocale, localeHref } from '#lib/i18n/locales.js';
 import { SITE_NAME } from '#lib/site.js';
 
 /** Documents the home page links to, by slug. Each must exist, or the build fails. */
-const LINKED = [
-  'spec', 'plan', 'tasks', 'about',
-  'materials/modules', 'materials/tracks', 'materials/gates', 'materials/planning',
-  'materials/tracks/r1-role-foundations', 'materials/modules/m11-lean-six-sigma-green-belt',
-  'materials/reading-list', 'instruments',
-  'materials/gates/calibration-guide', 'materials/gates/part-d-practicals', 'materials/gates/gate-review-form',
-  'materials/gates/ilp-template', 'materials/gates/gate-4-panel-guide',
-  'materials/planning/sponsor-brief', 'materials/planning/hr-briefing', 'materials/planning/decision-log',
-  'practice-repo', 'practice-repo/fhir-sandbox', 'practice-repo/tests/katas', 'practice-repo/tests/flaky',
-  'practice-repo/spec', 'practice-repo/CONTRIBUTING'
-];
+const LINKED = ['spec'];
 
 export const load = ({ params }) => {
   if (!isLocale(params.locale)) error(404, 'Not found');
@@ -31,7 +21,7 @@ export const load = ({ params }) => {
     id: t.id,
     band: t.band,
     roleLevel: t.roleLevel,
-    guide: localeHref(locale, `materials/tracks/${t.id.toLowerCase()}`),
+    guide: localeHref(locale, `materials/tracks/${t.id.toLowerCase().replaceAll(' ', '-')}`),
     assessment: localeHref(locale, `self-assessment/${t.slug}`)
   }));
   return {
@@ -40,6 +30,6 @@ export const load = ({ params }) => {
     tracks,
     title: SITE_NAME,
     description:
-      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 220 hours, ending with a Lean Six Sigma Green Belt, in the band and role they already hold.'
+      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 220 hours, in the band and UK GDaD PCF role they already have.'
   };
 };

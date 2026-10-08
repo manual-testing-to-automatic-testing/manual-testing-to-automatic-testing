@@ -16,7 +16,7 @@ export const load = ({ params }) => {
     items: track.items,
     file: track.slug,
     blank: `/downloads/instruments/${track.slug}.tsv`,
-    guide: localeHref(locale, `materials/tracks/${track.id.toLowerCase()}`),
+    guide: localeHref(locale, `materials/tracks/${track.id.toLowerCase().replaceAll(' ', '-')}`),
     crumbs: [
       { href: localeHref(locale), label: 'Home' },
       { href: localeHref(locale, 'self-assessment'), label: 'Self-assessment' }

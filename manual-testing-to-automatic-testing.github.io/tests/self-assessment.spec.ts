@@ -22,8 +22,8 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('the instrument has every item for the track', async ({ page }) => {
-  await expect(page.getByRole('heading', { level: 1 })).toHaveText('B5-QA self-assessment');
-  // B5-QA: 21 + 18 + 10 = 49 items, three ratings each.
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Band 5 quality assurance self-assessment');
+  // Band 5 quality assurance: 21 + 18 + 10 = 49 items, three ratings each.
   await expect(page.locator('select[id$="-agreed"]')).toHaveCount(49);
   await expect(page.locator('select[id$="-self"]')).toHaveCount(49);
   await expect(page.getByRole('group', { name: /^A1 Band outline: Knowledge/ })).toBeVisible();
@@ -88,9 +88,9 @@ test('an exported TSV imports back, and a file for another track is refused', as
   await page.locator('input[type="file"]').setInputFiles({
     name: 'other.tsv',
     mimeType: 'text/tab-separated-values',
-    buffer: Buffer.from('track\titem_id\tagreed_rating\nB7-TM\tA1\tMeets\n')
+    buffer: Buffer.from('track\titem_id\tagreed_rating\nBand 7 test management\tA1\tMeets\n')
   });
-  await expect(page.getByText(/That file is for track B7-TM/)).toBeVisible();
+  await expect(page.getByText(/That file is for track Band 7 test management/)).toBeVisible();
 });
 
 test('Band 3 factor levels are agreed at Gate 0 before they count', async ({ page }) => {

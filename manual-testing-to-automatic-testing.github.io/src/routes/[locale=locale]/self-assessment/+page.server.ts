@@ -15,7 +15,7 @@ export const load = ({ params }) => {
       roleLevel: t.roleLevel,
       counts: t.counts,
       href: localeHref(locale, `self-assessment/${t.slug}`),
-      guide: localeHref(locale, `materials/tracks/${t.id.toLowerCase()}`),
+      guide: localeHref(locale, `materials/tracks/${t.id.toLowerCase().replaceAll(' ', '-')}`),
       file: `${t.slug}.tsv`,
       blank: `/downloads/instruments/${t.slug}.tsv`
     })),

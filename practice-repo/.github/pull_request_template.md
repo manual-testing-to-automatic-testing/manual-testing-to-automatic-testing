@@ -4,7 +4,7 @@
 
 ## Module and evidence
 
-<!-- For example: M5, evidence E5. -->
+<!-- For example: Module 5, Evidence 5. -->
 
 ## Checklist
 

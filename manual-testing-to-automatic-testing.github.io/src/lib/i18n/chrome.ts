@@ -13,6 +13,7 @@ export type Chrome = {
   nav: {
     home: string;
     programme: string;
+    curriculum: string;
     tracks: string;
     gates: string;
     selfAssessment: string;
@@ -54,6 +55,7 @@ const EN_001: Chrome = {
   nav: {
     home: 'Home',
     programme: 'Programme',
+    curriculum: 'Curriculum',
     tracks: 'Tracks',
     gates: 'Gates',
     selfAssessment: 'Self-assessment',
@@ -84,7 +86,7 @@ const EN_001: Chrome = {
   },
   banner: {
     tag: 'Draft',
-    text: 'This programme is a draft. Its decisions D1 to D7 are still open:',
+    text: 'This programme is a draft. Its Decisions 1 to 7 are still open:',
     link: 'see the decision log'
   },
   footer: {

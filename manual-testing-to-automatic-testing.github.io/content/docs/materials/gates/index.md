@@ -10,7 +10,7 @@ Every gate:
 2. calibrates the ratings: the person rates first, the line manager rates independently, and they agree each rating with evidence (see the [calibration guide](calibration-guide.md))
 3. adds the **Part D practical** from Gate 1 (see [Part D practicals](part-d-practicals.md))
 4. reviews the module evidence for that gate
-5. updates the [individual learning plan (ILP)](ilp-template.md)
+5. updates the [individual learning plan](individual-learning-plan-template.md)
 6. is recorded on the [gate review form](gate-review-form.md).
 
 Gate results are developmental only. They never start a capability, performance, or conduct procedure by themselves (spec Principle 14).
@@ -19,15 +19,15 @@ Gate results are developmental only. They never start a capability, performance,
 
 | Gate | Programme hour | Module evidence | Part D practical | Reviewers |
 | --- | --- | --- | --- | --- |
-| Gate 0 | 0 | E0 | — (unscored diagnostic only) | Person, line manager, training lead |
-| Gate 1 | 45 | E1–E3 | Fix a failing unit test and open a pull request | Line manager, mentor |
-| Gate 2 | 90 | E4–E5 | Automate one given manual test case on the fixture site (B3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
-| Gate 3 | 127.5 | E6–E7 | Triage and fix a failing CI run (B6 and B7-TE: plus an API test; B7-TM: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
-| Gate 4 | 180 | E8–E10 | Live run and explanation of the capstone | Gate 4 panel |
-| Certification | By 220 | E11 | The Lean Six Sigma Green Belt certification exam, set by the certification body (Decision D8) | Certification body; the training lead and mentor review the Green Belt project |
+| Gate 0 | 0 | Evidence 0 | — (unscored diagnostic only) | Person, line manager, training lead |
+| Gate 1 | 45 | Evidence 1–3 | Fix a failing unit test and open a pull request | Line manager, mentor |
+| Gate 2 | 90 | Evidence 4–5 | Automate one given manual test case on the fixture site (Band 3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
+| Gate 3 | 127.5 | Evidence 6–7 | Triage and fix a failing CI run (Band 6 and Band 7 test engineering: plus an API test; Band 7 test management: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
+| Gate 4 | 180 | Evidence 8–10 | Live run and explanation of the capstone | Gate 4 panel |
+| Certification | By 220 | Evidence 11 | The Lean Six Sigma Green Belt certification exam, set by the certification body (Decision 8) | Certification body; the training lead and mentor review the Green Belt project |
 | Gate 5 | About six months after Gate 4, outside the 220 hours | Six months of work | Demonstrate a recent automated change | Line manager, training lead |
 
-With the optional extension to 280 hours for B3 and B4, the gates move to hours 0, 60, 120, 172.5, and 240, M11 runs in hours 240–280, and Gate 5 follows about six months after Gate 4.
+With the optional extension to 280 hours for Band 3 and Band 4, the gates move to hours 0, 60, 120, 172.5, and 240, Module 11 runs in hours 240–280, and Gate 5 follows about six months after Gate 4.
 
 ## Thresholds
 
@@ -35,7 +35,7 @@ Using agreed ratings and the capability index:
 
 | Gate | Parts A, B, C (each) | Part D | Other conditions |
 | --- | --- | --- | --- |
-| Gate 0 | Baseline, no threshold | — | ILP agreed and signed |
+| Gate 0 | Baseline, no threshold | — | Individual learning plan agreed and signed |
 | Gate 1 | At least 60% | Partly or better | No item lower than at Gate 0 without an agreed reason |
 | Gate 2 | At least 70% | Partly or better | Clinical risk management and information governance meet expectations |
 | Gate 3 | At least 80% | Meets | Test engineering at least one level below the automation target, or at it |
@@ -55,12 +55,12 @@ For Part C, a skill **meets** when the gap (expected level minus agreed rating) 
 ## If a gate is not met
 
 1. The person gets up to 22.5 extra learning hours on the items below threshold, with a written plan and extra mentor time, and the gate is repeated once.
-2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the extension to 280 hours, a different automation target, more R1 support, or pausing the programme.
+2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the extension to 280 hours, a different automation target, more Role foundations support, or pausing the programme.
 3. None of these is a capability or performance procedure.
 
 ## Completion
 
-A person completes the programme when every threshold for Gate 4 is met, and they hold the Lean Six Sigma Green Belt certification with an accepted Green Belt project (E11, module [M11](../modules/m11-lean-six-sigma-green-belt/index.md)). If the exam is not passed, there is one resit, within three months. Gate 5 confirms that the capability holds in normal work.
+A person completes the programme when every threshold for Gate 4 is met, and they hold the Lean Six Sigma Green Belt certification with an accepted Green Belt project (Evidence 11, module [Module 11](../modules/module-11-lean-six-sigma-green-belt/index.md)). If the exam is not passed, there is one resit, within three months. Gate 5 confirms that the capability holds in normal work.
 
 ## Materials
 
@@ -70,5 +70,5 @@ A person completes the programme when every threshold for Gate 4 is met, and the
 - [Gate 4 panel guide](gate-4-panel-guide.md)
 - [Participant feedback form](participant-feedback-form.md)
 - [Learning log template](learning-log-template.md)
-- [Individual learning plan template](ilp-template.md)
+- [Individual learning plan template](individual-learning-plan-template.md)
 - [Learning agreement template](learning-agreement-template.md)

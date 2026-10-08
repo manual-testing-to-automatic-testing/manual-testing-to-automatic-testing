@@ -14,7 +14,7 @@ We plan a development programme of 220 hours of protected learning time, by defa
 
 ## What we ask HR to agree
 
-### 1. Gates are developmental only (Decision D7)
+### 1. Gates are developmental only (Decision 7)
 
 - A gate result supports development planning only.
 - It never starts a capability, performance, or conduct procedure by itself.
@@ -28,7 +28,7 @@ We plan a development programme of 220 hours of protected learning time, by defa
 - Some tracks set an automation target above what the role requires (Band 5 and 6 quality assurance test analysts, and Band 7 test managers). Reaching it is recorded as a strength, not as grounds for regrading.
 - If a person's job changes for other reasons, the normal job evaluation process applies.
 
-### 3. The Band 3 rule, and the mapping rule (Decision D6)
+### 3. The Band 3 rule, and the mapping rule (Decision 6)
 
 - The reference has no testing role level at Band 3. For Band 3 participants, the job evaluation factor levels are agreed at Gate 0 from the person's own job description, with a total within the Band 3 range of 216 to 270 points.
 - Where a person's band and assigned role have no reference level (for example a Band 5 test engineer), the spec's mapping rule applies: Part A uses their own band; Parts B and C use the assigned role's nearest level below their band. The line manager, training lead, and HR record the decision in the person's individual learning plan.
@@ -54,7 +54,7 @@ The completed self-assessments, individual learning plans, learning logs, and ga
 
 | # | Decision | HR answer | Name | Date |
 | --- | --- | --- | --- | --- |
-| 1 | Gates are developmental only (D7) | | | |
+| 1 | Gates are developmental only (Decision 7) | | | |
 | 2 | No band changes follow from the programme | | | |
-| 3 | Band 3 rule and mapping rule, and who signs off mappings (D6) | | | |
+| 3 | Band 3 rule and mapping rule, and who signs off mappings (Decision 6) | | | |
 | 4 | Handling and retention of assessment records | | | |

@@ -34,7 +34,7 @@ esac
 # Practice repository code, node_modules, and this site are never included.
 documents() {
     cd "$repo"
-    for f in README.md plan.md tasks.md; do
+    for f in README.md curriculum.md plan.md tasks.md; do
         [ -f "$f" ] && echo "$f"
     done
     find spec materials instruments -name '*.md' -type f 2>/dev/null

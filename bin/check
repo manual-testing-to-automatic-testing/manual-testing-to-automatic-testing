@@ -1,7 +1,8 @@
 #!/bin/sh
 # Check the monorepo before publishing the website:
 #
-#   1. the website's vendored documents and instruments are up to date
+#   1. the website's vendored documents and instruments are up to date, and
+#      curriculum.md is up to date with the spec
 #   2. the instruments rebuild from the reference without changes (if the
 #      roles-skills reference is available)
 #   3. the website type-checks, builds (strict prerendering: no broken
@@ -43,6 +44,9 @@ if [ -f "$reference" ]; then
 else
     say "skipping the instruments rebuild; reference not found at $reference"
 fi
+
+say "curriculum up to date with the spec"
+python3 scripts/build_curriculum.py --check
 
 say "website check, build, and tests"
 cd "$site"

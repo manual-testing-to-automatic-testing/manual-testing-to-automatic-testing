@@ -7,7 +7,7 @@ This guide is for participants and line managers. It explains how to complete th
 - **The gates are developmental only.** A gate result never starts a capability, performance, or conduct procedure by itself. Any such procedure follows the organisation's HR policy, separately (spec Principle 14).
 - **A gap is not a failing.** Gaps are expected. They show where development is most useful.
 - **Nobody changes band.** You are rated against the band and UK GDaD PCF role you already hold. Rating above expectation is a strength, not a claim for regrading.
-- **Honest ratings help you.** Your individual learning plan (ILP) is built from your gaps. Inflated ratings hide the gaps you most need help with.
+- **Honest ratings help you.** Your individual learning plan is built from your gaps. Inflated ratings hide the gaps you most need help with.
 
 ## The instrument
 
@@ -55,7 +55,7 @@ The **agreed** rating is the one that counts.
 - Base each rating on evidence you have seen, or evidence the person can show.
 - Look for under-rating as well as over-rating. People who expect gaps may rate themselves down.
 - Keep the conversation developmental. Talk about what would move each item to Meets, not about performance procedures.
-- Agree the top 3 gaps for the next gate period and update the ILP.
+- Agree the top 3 gaps for the next gate period and update the individual learning plan.
 
 ## Notes for moderators
 

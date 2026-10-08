@@ -21,7 +21,7 @@ Full design: [spec/index.md](../../spec/index.md). Reasoning: [plan.md](../../pl
 
 ## What it costs
 
-For an illustrative cohort of 12, about 2,640 hours of participants' protected time (220 learning hours each) and about 1,320 hours from mentors, managers, the training lead, the Lean Six Sigma trainer, and others. Details: [resource-estimate.md](resource-estimate.md). Tools are open source. The spend is the Green Belt course and certification exam fees (D8), and optionally a JavaScript course (D3).
+For an illustrative cohort of 12, about 2,640 hours of participants' protected time (220 learning hours each) and about 1,320 hours from mentors, managers, the training lead, the Lean Six Sigma trainer, and others. Details: [resource-estimate.md](resource-estimate.md). Tools are open source. The spend is the Green Belt course and certification exam fees (Decision 8), and optionally a JavaScript course (Decision 3).
 
 ## What we get
 
@@ -38,7 +38,7 @@ For an illustrative cohort of 12, about 2,640 hours of participants' protected t
 2. Name a training lead (about 3.75 hours per 7.5 cohort learning hours: 90 hours in all).
 3. Release mentors: at least one band above each participant, up to 3 participants each.
 4. Support the HR request in [hr-briefing.md](hr-briefing.md).
-5. Decide, with the training lead, the tool and CI defaults (D1, D2) and the Green Belt certification body (D8) in [decision-log.md](decision-log.md).
+5. Decide, with the training lead, the tool and CI defaults (Decision 1, Decision 2) and the Green Belt certification body (Decision 8) in [decision-log.md](decision-log.md).
 
 ## Main risks
 

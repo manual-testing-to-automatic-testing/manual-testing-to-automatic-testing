@@ -33,7 +33,7 @@ test('the home page lists all eight tracks', async ({ page }) => {
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Manual testing to automatic testing');
   const rows = page.getByRole('region', { name: 'Tracks' }).locator('tbody tr');
   await expect(rows).toHaveCount(8);
-  for (const track of ['B3', 'B4-QA', 'B4-TE', 'B5-QA', 'B6-QA', 'B6-TE', 'B7-TE', 'B7-TM']) {
+  for (const track of ['Band 3', 'Band 4 quality assurance', 'Band 4 test engineering', 'Band 5 quality assurance', 'Band 6 quality assurance', 'Band 6 test engineering', 'Band 7 test engineering', 'Band 7 test management']) {
     await expect(rows.getByRole('rowheader', { name: track, exact: true })).toBeVisible();
   }
 });
@@ -78,7 +78,7 @@ test('pages are a single column, with no sidebars', async ({ page }) => {
 for (const width of [1024, 1280, 1600]) {
   test(`the PickerBar shares the brand's row at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 800 });
-    await page.goto('/en-001/materials/tracks/b3/');
+    await page.goto('/en-001/materials/tracks/band-3/');
     const brand = await page.locator('.site-brand').boundingBox();
     const tools = await page.locator('.site-tools').boundingBox();
     const nav = await page.getByRole('navigation', { name: 'Main' }).boundingBox();
@@ -90,15 +90,8 @@ for (const width of [1024, 1280, 1600]) {
   });
 }
 
-test('every home page tile area has six tiles, in rows of three on wide screens', async ({ page }) => {
-  await page.setViewportSize({ width: 1440, height: 900 });
+test('the home page has no tiles', async ({ page }) => {
   await page.goto('/en-001/');
-  const areas = page.locator('section:has(> .card-grid-six)');
-  await expect(areas).toHaveCount(4);
-  for (let i = 0; i < 4; i++) {
-    const tiles = areas.nth(i).locator('.card-grid-six > *');
-    await expect(tiles).toHaveCount(6);
-    const tops = await tiles.evaluateAll((els) => els.map((el) => Math.round(el.getBoundingClientRect().top)));
-    expect(new Set(tops).size, `area ${i + 1} should have two rows`).toBe(2);
-  }
+  await expect(page.locator('.card-grid, .doc-card')).toHaveCount(0);
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText(['Tracks']);
 });

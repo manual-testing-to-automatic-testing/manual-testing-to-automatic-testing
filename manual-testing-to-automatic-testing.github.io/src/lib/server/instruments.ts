@@ -11,7 +11,7 @@ const RAW = import.meta.glob('/content/instruments/*.tsv', {
 }) as Record<string, string>;
 
 export type Track = {
-  /** The track id, such as B5-QA. */
+  /** The track id, such as Band 5 quality assurance. */
   id: string;
   /** The instrument's file name in words, such as band-5-quality-assurance-test-analyst, also its URL slug. */
   slug: string;
@@ -23,7 +23,7 @@ export type Track = {
 };
 
 /** Track order, from the programme spec. */
-const ORDER = ['B3', 'B4-QA', 'B4-TE', 'B5-QA', 'B6-QA', 'B6-TE', 'B7-TE', 'B7-TM'];
+const ORDER = ['Band 3', 'Band 4 quality assurance', 'Band 4 test engineering', 'Band 5 quality assurance', 'Band 6 quality assurance', 'Band 6 test engineering', 'Band 7 test engineering', 'Band 7 test management'];
 
 const TRACKS: Track[] = Object.entries(RAW)
   .filter(([key]) => !key.endsWith('/index.tsv'))
