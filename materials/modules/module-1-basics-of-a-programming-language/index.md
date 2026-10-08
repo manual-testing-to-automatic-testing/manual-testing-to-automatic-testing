@@ -4,9 +4,9 @@
 
 ## Purpose
 
-Every later module reads and writes code. Module 1 gives each person a first, unhurried pass at a programming language, so that code stops being a wall of symbols and becomes something they can read aloud, run, and explain.
+Every later module reads and writes code. Module 1 gives you a first, unhurried pass at a programming language, so that code stops being a wall of symbols and becomes something they can read aloud, run, and explain.
 
-The default language is JavaScript, which the rest of the programme uses. A person may learn the basics in another language they prefer, with their mentor's agreement (Principle 9).
+The default language is JavaScript, which the rest of the programme uses. You may learn the basics in another language you prefer, with your mentor's agreement (Principle 9).
 
 ## Outcomes
 
@@ -18,23 +18,23 @@ The default language is JavaScript, which the rest of the programme uses. A pers
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Start with the mentor: the programme, the three basics modules, and how a walkthrough works | 1 hour | One to one | Person, mentor |
-| 2 | Install Node.js on your own system and try it | 1 hour | Practice | Each person, with the mentor |
-| 3 | Install Visual Studio Code on your own system and try it | 1 hour | Practice | Each person, with the mentor |
+| 1 | Start with your mentor: the programme, the three basics modules, and how a walkthrough works | 1 hour | One to one | You, your mentor |
+| 2 | Install Node.js on your own system and try it | 1 hour | Practice | You, with your mentor |
+| 3 | Install Visual Studio Code on your own system and try it | 1 hour | Practice | You, with your mentor |
 | 4 | Values, variables, and printing results | 1 hour | Core | Cohort |
 | 5 | Functions: parameters, return values, and calling them | 1 hour | Core | Cohort |
 | 6 | Conditionals: `if`, `else`, comparisons, and true and false | 1 hour | Core | Cohort |
 | 7 | Loops: `for`, `for...of`, and `while` | 1 hour | Core | Cohort |
 | 8 | Arrays | 1 hour | Core | Cohort |
 | 9 | Objects | 1 hour | Core | Cohort |
-| 10 | Practice: write and run small programs of your own, with mentor help | 6 hours | Practice | Each person, with the mentor |
+| 10 | Practice: write and run small programs of your own, with mentor help | 6 hours | Practice | You, with your mentor |
 | 11 | Code commenting, including using AI for annotation and explanation | 1 hour | Core | Cohort |
-| 12 | Check-in with the mentor | 1 hour | One to one | Person, mentor |
+| 12 | Check-in with your mentor | 1 hour | One to one | You, your mentor |
 | 13 | Reading other people's short functions aloud, and predicting what they print | 1 hour | Practice | Pairs |
-| 14 | Write and run your walkthrough function | 1 hour | Practice | Each person |
-| 15 | The walkthrough to the mentor | 1 hour | One to one | Person, mentor |
+| 14 | Write and run your walkthrough function | 1 hour | Practice | You |
+| 15 | The walkthrough to your mentor | 1 hour | One to one | You, your mentor |
 
-Each person's sessions add up to 20 hours.
+Your sessions add up to 20 hours.
 
 ## Activities
 
@@ -64,18 +64,18 @@ console.log(countResults(["pass", "fail", "pass"]));
 
 ## Evidence
 
-**Evidence 1:** a walkthrough to the mentor of a simple function, in JavaScript or the language the mentor agreed, that uses variables, functions, conditionals, and loops. The person runs it on their own system and explains it line by line: what each variable holds, what each conditional decides, and how many times each loop runs.
+**Evidence 1:** a walkthrough to your mentor of a simple function, in JavaScript or the language your mentor agreed, that uses variables, functions, conditionals, and loops. You run it on your own system and explain it line by line: what each variable holds, what each conditional decides, and how many times each loop runs.
 
 ## Assessment
 
-The mentor signs off the walkthrough when the person can run the code and explain every line without help. If not, they agree what to practise and repeat the walkthrough within the module's hours. Gate 0 (hour 88.5) records the sign-off.
+Your mentor signs off the walkthrough when you can run the code and explain every line without help. If not, you agree what to practise and repeat the walkthrough within the module's hours. Gate 0 (hour 88.5) records the sign-off.
 
 | Walkthrough sign-off | Entry |
 | --- | --- |
 | Person | |
 | Language | |
 | What the function does | |
-| Ran on the person's own system | Yes / No |
+| Ran on your own system | Yes / No |
 | Explained variables, functions, conditionals, and loops | Yes / No |
 | Mentor, and date | |
 

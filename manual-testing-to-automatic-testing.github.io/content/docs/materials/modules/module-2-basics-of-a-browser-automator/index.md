@@ -4,9 +4,9 @@
 
 ## Purpose
 
-A browser automator does what a manual tester does in a browser, the same way every time. Module 2 gives each person a first working script that opens a page, finds things on it, checks them, and fills in and submits a form. Module 10 builds on it with resilient locators and a test framework, and Module 11 turns it into a real test.
+A browser automator does what a manual tester does in a browser, the same way every time. Module 2 gives you a first working script that opens a page, finds things on it, checks them, and fills in and submits a form. Module 10 builds on it with resilient locators and a test framework, and Module 11 turns it into a real test.
 
-The default automator is Selenium with JavaScript. A person may use another browser automator and language, with their mentor's agreement (Principle 9).
+The default automator is Selenium with JavaScript. You may use another browser automator and language, with your mentor's agreement (Principle 9).
 
 ## Outcomes
 
@@ -25,15 +25,15 @@ The default automator is Selenium with JavaScript. A person may use another brow
 | 1 | Hours 20–22.5: what a browser automator is; install `selenium-webdriver`; Selenium Manager and the Chrome driver | 2.5 hours | Core | Cohort |
 | 2 | Hours 22.5–30: making a web request with `driver.get`, and waiting for the response with `driver.wait` and `until` | 2.5 hours | Core | Cohort |
 | 3 | Hours 22.5–30: selecting page elements by id with `By.id`, and verifying page text with `getText` | 2.5 hours | Core | Cohort |
-| 4 | Hours 22.5–30: check-in with the mentor | 1 hour | One to one | Person, mentor |
+| 4 | Hours 22.5–30: check-in with your mentor | 1 hour | One to one | You, your mentor |
 | 5 | Hours 22.5–30: practice on the fixture site | 1.5 hours | Practice | Pairs |
 | 6 | Hours 30–37.5: clicking links and buttons, and choosing in select boxes with `Select` | 2.5 hours | Core | Cohort |
 | 7 | Hours 30–37.5: filling in form fields with `sendKeys`, and submitting a form | 2.5 hours | Core | Cohort |
 | 8 | Hours 30–37.5: closing the browser with `driver.quit`, always, in `finally` | 1 hour | Core | Cohort |
-| 9 | Hours 30–37.5: write your walkthrough script | 2 hours | Practice | Each person |
-| 10 | Hours 37.5–40.5: rehearse, then the walkthrough to the mentor | 2.5 hours | One to one | Person, mentor |
+| 9 | Hours 30–37.5: write your walkthrough script | 2 hours | Practice | You |
+| 10 | Hours 37.5–40.5: rehearse, then the walkthrough to your mentor | 2.5 hours | One to one | You, your mentor |
 
-Each person's sessions add up to 20.5 hours.
+Your sessions add up to 20.5 hours.
 
 ## Activities
 
@@ -64,18 +64,18 @@ try {
 
 ## Evidence
 
-**Evidence 2:** a walkthrough to the mentor of a browser automation script, in Selenium with JavaScript or the automator and language the mentor agreed, against the testingexamples fixture site, that:
+**Evidence 2:** a walkthrough to your mentor of a browser automation script, in Selenium with JavaScript or the automator and language your mentor agreed, against the testingexamples fixture site, that:
 
 - makes a web request for a page, and waits for the response
 - selects page elements by id, and verifies page text
 - clicks a link, a button, and an option in a select box
 - fills in form fields, and submits the form.
 
-The person runs it on their own system and explains each step: what it finds, what it waits for, and what it checks.
+You run it on your own system and explain each step: what it finds, what it waits for, and what it checks.
 
 ## Assessment
 
-The mentor signs off the walkthrough when the script runs on the person's own system, does every step, and the person can explain each one. Gate 0 (hour 88.5) records the sign-off.
+Your mentor signs off the walkthrough when the script runs on your own system, does every step, and you can explain each one. Gate 0 (hour 88.5) records the sign-off.
 
 | Walkthrough sign-off | Entry |
 | --- | --- |
@@ -84,7 +84,7 @@ The mentor signs off the walkthrough when the script runs on the person's own sy
 | Request and wait; select by id; verify text | Yes / No |
 | Click a link, a button, and a select box option | Yes / No |
 | Fill in form fields and submit | Yes / No |
-| Ran on the person's own system, and explained each step | Yes / No |
+| Ran on your own system, and explained each step | Yes / No |
 | Mentor, and date | |
 
 ## Resources

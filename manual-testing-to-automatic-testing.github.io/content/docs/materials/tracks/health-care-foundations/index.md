@@ -15,13 +15,13 @@ Health care foundations takes 8 learning hours in all (sessions 1, 2, 3, 4, and 
 
 ## Session 1: How the organisation's services support care
 
-**Outcomes:** describe the main parts of the health and care system and the services the organisation supports; explain the clinical and care workflows the person's product supports; recognise when a change could affect patient care.
+**Outcomes:** describe the main parts of the health and care system and the services the organisation supports; explain the clinical and care workflows your product supports; recognise when a change could affect patient care.
 
 **Plan:**
 
 1. (20 minutes) The health and care system in outline, and where the organisation's services fit.
 2. (1 hour) A clinical colleague walks through one real care pathway the organisation supports, and where digital services touch it.
-3. (1 hour) Small groups: each person maps their own product onto the pathway and marks one point where a defect could affect care.
+3. (1 hour) Small groups: you map your own product onto the pathway and marks one point where a defect could affect care.
 4. (10 minutes) Common clinical terms testers should use correctly.
 
 **Leader note:** the Band 7 test management participant leads this session, as their track requires. The training lead reviews the plan with them in hours 88.5–97.5.
@@ -47,7 +47,7 @@ Health care foundations takes 8 learning hours in all (sessions 1, 2, 3, 4, and 
 1. (15 minutes) How health IT can harm patients: wrong, missing, or delayed information; the wrong patient's record.
 2. (25 minutes) The organisation's clinical risk management process, hazard log, and safety case.
 3. (25 minutes) What test evidence a safety case needs, and how automated regression tests protect safety controls over time.
-4. (15 minutes) Reading the hazard log for each person's product.
+4. (15 minutes) Reading the hazard log for your product.
 5. (10 minutes) How to raise a clinical safety concern.
 
 ## Session 4: Hazard workshop
@@ -61,13 +61,13 @@ Health care foundations takes 8 learning hours in all (sessions 1, 2, 3, 4, and 
 3. (25 minutes) For each hazard: the existing controls, and which tests (manual or automated) give evidence that the controls work.
 4. (20 minutes) Groups present; the clinical safety officer agrees which hazards go in the log.
 
-**Output:** each person records one hazard and its test evidence in their learning log. This seeds the Module 14 traceability matrix.
+**Output:** you record one hazard and its test evidence in your learning log. This seeds the Module 14 traceability matrix.
 
 ## Session 5: Shadowing a clinical or care user
 
-**Outcomes:** explain the workflow the person's product supports, from the user's point of view.
+**Outcomes:** explain the workflow your product supports, from the user's point of view.
 
-**Arrangements:** in normal working time, outside the learning hours, the line manager arranges about 3.5 hours with a clinical or care user of the person's product, with the user's agreement and following the organisation's rules for visiting clinical areas. The person must not see, record, or copy patient data beyond what the visit requires.
+**Arrangements:** in normal working time, outside the learning hours, the line manager arranges about 3.5 hours with a clinical or care user of your product, with the user's agreement and following the organisation's rules for visiting clinical areas. The person must not see, record, or copy patient data beyond what the visit requires.
 
 **Questions to take:**
 
@@ -80,4 +80,4 @@ Health care foundations takes 8 learning hours in all (sessions 1, 2, 3, 4, and 
 
 ## Session 6: Wrap-up and Part C self-check
 
-Each person rates themselves on the three skills with evidence from Health care foundations, and their mentor checks the evidence. Anyone not yet at the expected level agrees an individual learning plan action to close the gap before Gate 2.
+You rate yourself on the three skills with evidence from Health care foundations, and your mentor checks the evidence. Anyone not yet at the expected level agrees an individual learning plan action to close the gap before Gate 2.

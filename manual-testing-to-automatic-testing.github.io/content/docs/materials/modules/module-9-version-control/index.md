@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Test code is code. It lives in git, changes through pull requests, and is reviewed by others. Module 9 gives each person the everyday git and review habits that every later module depends on.
+Test code is code. It lives in git, changes through pull requests, and is reviewed by others. Module 9 gives you the everyday git and review habits that every later module depends on.
 
 ## Outcomes
 
@@ -27,9 +27,9 @@ Test code is code. It lives in git, changes through pull requests, and is review
 | 5 | Hours 121–128.5: reading the history of a testingexamples repository | 1 hour | Core | Cohort |
 | 6a | Hours 128.5–136.5: review clinic: Band 7 test engineering reviews and coaches others' pull requests | 1 hour | Breakout | Band 7 test engineering with Band 3, Band 4 |
 | 6b | Hours 128.5–136.5: open and review pull requests for Evidence 9 | 1 hour | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test management |
-| 7 | Hours 128.5–136.5: team contribution guidelines | 1 hour | Team | Each person, their team |
+| 7 | Hours 128.5–136.5: team contribution guidelines | 1 hour | Team | You, your team |
 
-Each person's sessions add up to 7.5 hours.
+Your sessions add up to 7.5 hours.
 
 ## Activities
 

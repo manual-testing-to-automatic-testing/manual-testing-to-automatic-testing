@@ -1,10 +1,10 @@
 # Module 16 Capstone
 
-30 hours. Spiral pass 3: the person's own product. Assessed at Gate 4.
+30 hours. Spiral pass 3: your own product. Assessed at Gate 4.
 
 ## Purpose
 
-The capstone brings every outcome together, at the person's track depth, on real work for their own team. It is the main evidence that the person can do automated testing at their automation target, and it pays back to the team.
+The capstone brings every outcome together, at your track depth, on real work for your own team. It is the main evidence that you can do automated testing at your automation target, and it pays back to the team.
 
 ## Outcomes
 
@@ -21,12 +21,12 @@ The capstone brings every outcome together, at the person's track depth, on real
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Hour 237.5: capstone scope agreement | 1 hour | One to one | Person, product owner, mentor |
-| 2 | In each 7.5-hour block of the capstone: review with the mentor | 1 hour a block | One to one | Person, mentor |
+| 1 | Hour 237.5: capstone scope agreement | 1 hour | One to one | You, your product owner, your mentor |
+| 2 | In each 7.5-hour block of the capstone: review with your mentor | 1 hour a block | One to one | You, your mentor |
 | 3 | In each 7.5-hour block of the capstone: capstone working time | About 22.5 hours in all | Individual | Person |
-| 4 | Hours 254.5–262: mid-capstone show-and-tell to the team | 15 minutes each | Team | Person, their team |
+| 4 | Hours 254.5–262: mid-capstone show-and-tell to the team | 15 minutes each | Team | You, your team |
 | 5 | Hours 262–269.5: presentation rehearsal | 1 hour | Breakout | Small groups, mixed bands |
-| 6 | Hours 269.5–279.5: Gate 4 panel, within Gate 4's time | 45 minutes each | Panel | Person, Gate 4 panel |
+| 6 | Hours 269.5–279.5: Gate 4 panel, within Gate 4's time | 45 minutes each | Panel | You, Gate 4 panel |
 
 Module 16 has about 27.5 hours, the same for every track: 4 hours in hours 237.5–247, after Module 15; 6.5 hours in each of the blocks 150–157.5, 157.5–165, and 165–172.5; and 4 hours in hours 269.5–279.5, which also holds Gate 4. Role foundations takes 1 hour of each of these blocks.
 
@@ -41,7 +41,7 @@ Module 16 has about 27.5 hours, the same for every track: 4 hours in hours 237.5
 
 ## Evidence
 
-**Evidence 16:** a capstone on the person's own team's product, agreed with the product owner and mentor at hour 237.5, and a presentation to the gate panel aimed at a non-technical audience.
+**Evidence 16:** a capstone on your own team's product, agreed with the product owner and mentor at hour 237.5, and a presentation to the gate panel aimed at a non-technical audience.
 
 | Track | Capstone | Brief |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ Module 16 has about 27.5 hours, the same for every track: 4 hours in hours 237.5
 | Band 6 quality assurance | A risk-based automation approach for the area, automated acceptance checks agreed with clinical users, and coaching a Band 4 or Band 5 colleague through their capstone. | [brief-band-6-quality-assurance.md](brief-band-6-quality-assurance.md) |
 | Band 6 test engineering | An automated regression suite for a product slice of 15–30 manual cases: plan, browser and API tests, spec, synthetic data, CI, traceability, and handover README. | [brief-band-6-test-engineering.md](brief-band-6-test-engineering.md) |
 | Band 7 test engineering | Reusable fixtures or framework for an area, a pipeline with test selection, one performance or load test based on real clinical demand, and coaching two colleagues. | [brief-band-7-test-engineering.md](brief-band-7-test-engineering.md) |
-| Band 7 test management | An automation strategy and metrics for a product or programme, a business case, an adoption and team development plan, and a small automated suite of their own at the Working target. | [brief-band-7-test-management.md](brief-band-7-test-management.md) |
+| Band 7 test management | An automation strategy and metrics for a product or programme, a business case, an adoption and team development plan, and a small automated suite of your own at the Working target. | [brief-band-7-test-management.md](brief-band-7-test-management.md) |
 
 Presentation: 10 minutes for Band 3 and Band 4, 20 minutes for Band 5 to Band 7.
 
@@ -62,7 +62,7 @@ Gate 4 (hour 279.5) reviews Evidence 14, Evidence 15, and Evidence 16, with the 
 
 After Gate 4, [Module 17 Lean Six Sigma Green Belt](../module-17-lean-six-sigma-green-belt/index.md) runs in hours 279.5–320. Its Green Belt project often builds on the capstone and its data.
 
-The Gate 4 panel has three people: a lead test engineer or test manager at least one band above the person (chair, not their mentor), a developer from another team, and the training lead. For Band 7 tracks the chair is the head of test or a lead from outside the person's area. The clinical safety officer reviews traceability evidence in writing.
+The Gate 4 panel has three people: a lead test engineer or test manager at least one band above you (chair, not your mentor), a developer from another team, and the training lead. For Band 7 tracks the chair is the head of test or a lead from outside your area. The clinical safety officer reviews traceability evidence in writing.
 
 The capstone must be accepted by the product owner. Gate 4 thresholds are in the spec: at least 90% in each of Parts A, B, and C; Part D Meets; no skill more than one level below expected; test engineering at the automation target; capstone accepted.
 

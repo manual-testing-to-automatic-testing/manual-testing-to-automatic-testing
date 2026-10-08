@@ -117,7 +117,7 @@ From hour 160.5, about 1.5 hours in every 7.5 hours of learning is real automati
 | Learning outcome 10 | Diagnose flaky tests and measure suite health with flow metrics. | With support |
 | Learning outcome 11 | Read, run, and make a small change to an existing Selenium suite that someone else wrote. | With support |
 | Learning outcome 12 | Plan, build or lead, and explain an automated regression suite for a real service. | Independently |
-| Learning outcome 13 | Fully meet the person's own band and UK GDaD PCF role, measured by the capability self-assessment. | Overall capability index of at least 90% at Gate 4 |
+| Learning outcome 13 | Fully meet your own band and UK GDaD PCF role, measured by the capability self-assessment. | Overall capability index of at least 90% at Gate 4 |
 | Learning outcome 14 | Apply Lean Six Sigma (DMAIC) to measure and improve a testing process, and hold a Green Belt certification that does not expire. | Independently |
 | Learning outcome 15 | Read, run, and explain a simple program with variables, functions, conditionals, and loops, in JavaScript or another language. | Independently |
 | Learning outcome 16 | Write, run, and explain a browser automation script that requests a page, waits for it, selects elements by id, verifies text, clicks links, buttons, and select boxes, fills in form fields, and submits. | Independently |

@@ -31,7 +31,7 @@ Health care foundations (hours 97.5–152.5) has already brought clinical risk m
 | 6 | Hours 229–237.5: IEC 62304 awareness for software as a medical device | 1 hour | Core | Cohort |
 | 7 | Hours 229–237.5: traceability matrix working session with the clinical safety officer; Band 6 quality assurance, Band 7 test engineering, and Band 7 test management end with a peer review of another person's matrix | 1 hour | Breakout | Small groups by team |
 
-Each person's sessions add up to 8 hours.
+Your sessions add up to 8 hours.
 
 ## Activities
 
@@ -43,7 +43,7 @@ Each person's sessions add up to 8 hours.
 
 ## Evidence
 
-**Evidence 14:** synthetic data for the person's tests, including rare or edge clinical cases; a repository scan showing no secrets or personal data; a traceability matrix from automated tests to hazards and safety controls, agreed with the clinical safety officer; automated accessibility checks on browser tests, with a note on what they cannot find.
+**Evidence 14:** synthetic data for your tests, including rare or edge clinical cases; a repository scan showing no secrets or personal data; a traceability matrix from automated tests to hazards and safety controls, agreed with the clinical safety officer; automated accessibility checks on browser tests, with a note on what they cannot find.
 
 | Track | Extra |
 | --- | --- |

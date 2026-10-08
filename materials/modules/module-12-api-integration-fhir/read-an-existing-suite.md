@@ -5,7 +5,7 @@ Evidence 12 for **Band 4 quality assurance** and **Band 7 test management**. Ins
 - **Band 4 quality assurance:** so you can run API tests, read their results, and raise good defects from them.
 - **Band 7 test management:** so you can judge API test coverage across your teams, and ask the right questions in reviews.
 
-Time: about 2 hours, in the hours 190.5–198 breakout, with the mentor.
+Time: about 2 hours, in the hours 190.5–198 breakout, with your mentor.
 
 ## 1. Run it
 
@@ -43,7 +43,7 @@ For each test in the suite, fill in one row:
 5. Name two things a browser test of the same feature would catch that this suite cannot.
 6. Name two things this suite catches faster or more precisely than a browser test.
 
-## 4. Make one change (optional, with the mentor)
+## 4. Make one change (optional, with your mentor)
 
 Change one expected LOINC code in a copy of the suite, run it, and read the failure message. Put it back.
 
@@ -54,5 +54,5 @@ Write half a page for your teams: "What good API test coverage looks like for a 
 ## What the mentor checks
 
 - The map is complete and correct.
-- The answers show the person understands what is and is not covered.
-- The person can explain a failure message.
+- Your answers show you understand what is and is not covered.
+- You can explain a failure message.

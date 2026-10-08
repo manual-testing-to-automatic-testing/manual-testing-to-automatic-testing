@@ -30,7 +30,7 @@ A test suite that only runs on one laptop, when someone remembers, catches far l
 | 7b | Hours 206–221.5: build the practice pipeline, and triage | 1.5 hours in hours 206–213.5, 2.5 hours in hours 213.5–221.5 | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test management |
 | 7c | Hours 206–221.5: team pipeline with parallel jobs, test selection, and quarantine policy | 1.5 hours in hours 206–213.5, 2.5 hours in hours 213.5–221.5 | Breakout | Band 7 test engineering, with the team |
 
-Each person's sessions add up to 10.5 hours.
+Your sessions add up to 10.5 hours.
 
 
 Automation strategy and metrics, Frameworks and non-functional testing, and Leading teams through automation adoption for Band 6 quality assurance and Band 7 also start in hours 206–213.5, within their breakout time. See `materials/tracks/`.
@@ -45,7 +45,7 @@ Automation strategy and metrics, Frameworks and non-functional testing, and Lead
 
 ## Evidence
 
-**Evidence 13:** a CI pipeline that runs the person's suites on every pull request, publishes the JUnit report, screenshots, and page source, and blocks merging on failure, plus a written triage of real CI failures (product, test, or environment).
+**Evidence 13:** a CI pipeline that runs your suites on every pull request, publishes the JUnit report, screenshots, and page source, and blocks merging on failure, plus a written triage of real CI failures (product, test, or environment).
 
 | Track | Evidence |
 | --- | --- |

@@ -68,12 +68,12 @@ for i in $(seq 1 50); do npx mocha <your fixed test file> > /dev/null 2>&1 && ec
 
 One sentence: what would stop this kind of flakiness coming back? For example: a review checklist item that every `findElement` after an action has an explicit wait, a lint rule against `driver.sleep`, or giving every test its own data.
 
-## Band 3 and Band 4 quality assurance: describe one with the mentor
+## Band 3 and Band 4 quality assurance: describe one with your mentor
 
 The mentor runs steps 1 and 2 with you. You:
 
 - say in your own words what "flaky" means and why it matters
-- choose the root cause with the mentor, and explain why
+- choose the root cause with your mentor, and explain why
 - say why re-running until green is not a fix.
 
 Write a short paragraph instead of the full record.

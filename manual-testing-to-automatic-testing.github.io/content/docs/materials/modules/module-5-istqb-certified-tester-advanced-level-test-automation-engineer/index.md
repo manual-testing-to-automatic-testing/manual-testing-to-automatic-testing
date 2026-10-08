@@ -29,12 +29,12 @@ The ISTQB Certified Tester Foundation Level certificate, from [Module 4](../modu
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Course day 1 | 7.5 hours | Course | Each person, the training provider |
-| 2 | Course day 2 | 7.5 hours | Course | Each person, the training provider |
-| 3 | Course day 3 | 7.5 hours | Course | Each person, the training provider |
-| 4 | Certification exam | 1.5 hours | Exam | Each person, the exam provider |
+| 1 | Course day 1 | 7.5 hours | Course | You, the training provider |
+| 2 | Course day 2 | 7.5 hours | Course | You, the training provider |
+| 3 | Course day 3 | 7.5 hours | Course | You, the training provider |
+| 4 | Certification exam | 1.5 hours | Exam | You, the exam provider |
 
-Each person's sessions add up to 24 hours. The course days are protected time: the line manager clears them in the person's calendar.
+Your sessions add up to 24 hours. The course days are protected time: the line manager clears them in your calendar.
 
 ## Activities
 
@@ -50,7 +50,7 @@ Each person's sessions add up to 24 hours. The course days are protected time: t
 
 ## Assessment
 
-The exam provider sets and marks the exam. Gate 0 (hour 88.5) records the certificate. If a person does not pass, they agree more revision with their mentor, and resit within three months.
+The exam provider sets and marks the exam. Gate 0 (hour 88.5) records the certificate. If you do not pass, you agree more revision with your mentor, and resit within three months.
 
 ## Resources
 

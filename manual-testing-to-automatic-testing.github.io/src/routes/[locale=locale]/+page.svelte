@@ -16,7 +16,7 @@
   const EN_001: Messages = {
     heading: 'Manual testing to automatic testing',
     lede:
-      'A formal training programme that upskills manual testers at Bands 3 to 7 into automatic testers. Each person continues in their current band and UK GDaD PCF role.',
+      'A formal training programme that upskills manual testers at Bands 3 to 7 into automatic testers. You continue in your current band and UK GDaD PCF role.',
     tracksCta: 'Find your track',
     startCta: 'Read the programme',
     contentsHeading: 'Contents',

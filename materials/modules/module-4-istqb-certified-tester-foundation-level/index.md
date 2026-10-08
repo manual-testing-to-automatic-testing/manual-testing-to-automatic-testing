@@ -15,11 +15,11 @@ The ISTQB Certified Tester Foundation Level gives every participant the standard
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
-| 1 | Processing: register, book the certification test, and get access to the video training | 1 hour | Self-study | Each person, with the training lead |
-| 2 | Video training on the CTFL v4.0 syllabus | 2 hours | Self-study | Each person |
-| 3 | Certification test | 1 hour | Exam | Each person, the exam provider |
+| 1 | Processing: register, book the certification test, and get access to the video training | 1 hour | Self-study | You, with the training lead |
+| 2 | Video training on the CTFL v4.0 syllabus | 2 hours | Self-study | You |
+| 3 | Certification test | 1 hour | Exam | You, the exam provider |
 
-Each person's sessions add up to 4 hours.
+Your sessions add up to 4 hours.
 
 ## Activities
 
@@ -34,7 +34,7 @@ Each person's sessions add up to 4 hours.
 
 ## Assessment
 
-The exam provider sets and marks the certification test. Gate 0 (hour 88.5) records the certificate. If a person does not pass, they agree more study with their mentor and resit before they start Module 5, because the Foundation Level is its prerequisite.
+The exam provider sets and marks the certification test. Gate 0 (hour 88.5) records the certificate. If you do not pass, you agree more study with your mentor and resit before they start Module 5, because the Foundation Level is its prerequisite.
 
 ## Is ISTQB certification still relevant?
 

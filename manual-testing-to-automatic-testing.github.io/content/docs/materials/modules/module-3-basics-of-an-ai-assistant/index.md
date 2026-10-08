@@ -6,9 +6,9 @@ The full training content, lesson by lesson, is in [Basics of an AI assistant: t
 
 ## Purpose
 
-An AI assistant can explain code, suggest a plan, and draft tests in seconds. It can also be confidently wrong. Module 3 teaches each person to use one well: to ask clearly, to check every answer, and to keep patient data, personal data, and secrets out of it (Principle 13 and Principle 15).
+An AI assistant can explain code, suggest a plan, and draft tests in seconds. It can also be confidently wrong. Module 3 teaches you to use one well: to ask clearly, to check every answer, and to keep patient data, personal data, and secrets out of it (Principle 13 and Principle 15).
 
-The default assistant is Google Gemini AI Mode. A person may use another AI assistant, with their mentor's agreement and within the organisation's AI use policy (Principle 9).
+The default assistant is Google Gemini AI Mode. You may use another AI assistant, with your mentor's agreement and within the organisation's AI use policy (Principle 9).
 
 ## Outcomes
 
@@ -26,16 +26,16 @@ The default assistant is Google Gemini AI Mode. A person may use another AI assi
 | --- | --- | --- | --- | --- |
 | 1 | Hours 40.5–45.5: what an AI assistant is and is not; the organisation's AI use policy; what never goes into a prompt | 2 hours | Core | Cohort |
 | 2 | Hours 40.5–45.5: prompting: context, goal, format, and examples; follow-up prompts | 3 hours | Core | Cohort |
-| 3 | Hours 45.5–53: asking for training advice, and checking it against the programme | 1.5 hours | Practice | Each person |
-| 4 | Hours 45.5–53: planning your own continuing professional development with an assistant | 2 hours | Practice | Each person |
+| 3 | Hours 45.5–53: asking for training advice, and checking it against the programme | 1.5 hours | Practice | You |
+| 4 | Hours 45.5–53: planning your own continuing professional development with an assistant | 2 hours | Practice | You |
 | 5 | Hours 45.5–53: comparing and contrasting concepts, such as manual and automated regression testing | 1.5 hours | Practice | Pairs |
-| 6 | Hours 45.5–53: explaining source code, checked against the code: your Module 1 function and Module 2 script | 1.5 hours | Practice | Each person |
-| 7 | Hours 45.5–53: check-in with the mentor | 1 hour | One to one | Person, mentor |
-| 8 | Hours 53–60.5: converting a user story into Given-When-Then (Gherkin) scenarios | 2 hours | Practice | Each person |
-| 9 | Hours 53–60.5: converting the scenarios into Selenium JavaScript, running it, and converting back | 3 hours | Practice | Each person |
-| 10 | Hours 53–60.5: rehearse, then the walkthrough to the mentor | 2.5 hours | One to one | Person, mentor |
+| 6 | Hours 45.5–53: explaining source code, checked against the code: your Module 1 function and Module 2 script | 1.5 hours | Practice | You |
+| 7 | Hours 45.5–53: check-in with your mentor | 1 hour | One to one | You, your mentor |
+| 8 | Hours 53–60.5: converting a user story into Given-When-Then (Gherkin) scenarios | 2 hours | Practice | You |
+| 9 | Hours 53–60.5: converting the scenarios into Selenium JavaScript, running it, and converting back | 3 hours | Practice | You |
+| 10 | Hours 53–60.5: rehearse, then the walkthrough to your mentor | 2.5 hours | One to one | You, your mentor |
 
-Each person's sessions add up to 20 hours.
+Your sessions add up to 20 hours.
 
 ## Activities
 
@@ -48,18 +48,18 @@ Each person's sessions add up to 20 hours.
 
 ## Evidence
 
-**Evidence 3:** a walkthrough to the mentor of the person's own sessions with Google Gemini AI Mode, or the assistant the mentor agreed, on their own system, showing:
+**Evidence 3:** a walkthrough to your mentor of your own sessions with Google Gemini AI Mode, or the assistant your mentor agreed, on your own system, showing:
 
 - clear prompts, and follow-up prompts that improve an answer
 - asking for training advice
-- a draft plan for the person's own continuing professional development
+- a draft plan for your own continuing professional development
 - comparing and contrasting two concepts
 - explaining a piece of source code, checked against the code itself
-- converting a user story into Given-When-Then (Gherkin) scenarios, those into Selenium JavaScript, and back, with every output checked and corrected by the person.
+- converting a user story into Given-When-Then (Gherkin) scenarios, those into Selenium JavaScript, and back, with every output checked and corrected by you.
 
 ## Assessment
 
-The mentor signs off the walkthrough when the person can do each step on their own system, show where they checked and corrected the assistant, and has kept every prompt free of real patient data, personal data, and secrets. Gate 0 (hour 88.5) records the sign-off.
+Your mentor signs off the walkthrough when you can do each step on your own system, show where you checked and corrected the assistant, and have kept every prompt free of real patient data, personal data, and secrets. Gate 0 (hour 88.5) records the sign-off.
 
 | Walkthrough sign-off | Entry |
 | --- | --- |
@@ -74,6 +74,6 @@ The mentor signs off the walkthrough when the person can do each step on their o
 
 ## Resources
 
-- Google Gemini AI Mode, or the assistant agreed with the mentor.
+- Google Gemini AI Mode, or the assistant agreed with your mentor.
 - The organisation's AI use policy.
 - Your Module 1 function, your Module 2 script, and the fixture site: <https://testingexamples.github.io/en-001/practice/>

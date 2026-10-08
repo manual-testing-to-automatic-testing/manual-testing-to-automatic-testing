@@ -24,15 +24,15 @@ A suite that nobody trusts is worse than no suite. Module 15 is about keeping au
 | 2 | Hours 229–237.5: flaky tests are variation: root causes and fixes | 1 hour | Core | Cohort |
 | 3 | Hours 229–237.5: flow metrics for testing | 1 hour | Core | Cohort |
 | 4a | Hours 229–237.5: flaky-test exercise, hands on | 1 hour | Breakout | Band 4 test engineering and above |
-| 4b | Hours 229–237.5: describe a flaky test with the mentor | 1 hour | Breakout | Band 3, Band 4 quality assurance |
+| 4b | Hours 229–237.5: describe a flaky test with your mentor | 1 hour | Breakout | Band 3, Band 4 quality assurance |
 | 5 | Hours 237.5–247: AI assistants: drafting and explaining tests, and reviewing the output critically, including self-healing locators | 1 hour | Core | Cohort |
 | 6 | Hours 237.5–247: awareness: performance, load, and security testing, and who owns them | 1 hour | Core | Cohort |
 | 7 | Hours 237.5–247: estimating test effort for the capstone | 1 hour | Core | Cohort |
 | 8a | Hours 237.5–247: suite-health report | 1 hour | Breakout | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test management |
 | 8b | Hours 237.5–247: reviewing test pull requests, led by Band 7 test engineering, then Band 7 test engineering's own suite-health report | 1 hour | Breakout | Band 7 test engineering, with others |
-| 8c | Hours 237.5–247: flaky-test follow-up with the mentor | 1 hour | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering |
+| 8c | Hours 237.5–247: flaky-test follow-up with your mentor | 1 hour | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering |
 
-Each person's sessions add up to 8 hours.
+Your sessions add up to 8 hours.
 
 ## Activities
 
@@ -48,7 +48,7 @@ Each person's sessions add up to 8 hours.
 
 | Part | Tracks |
 | --- | --- |
-| A flaky-test investigation with root cause and fix | Band 4 test engineering, Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, Band 7 test management. Band 3 and Band 4 quality assurance describe one with the mentor. |
+| A flaky-test investigation with root cause and fix | Band 4 test engineering, Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, Band 7 test management. Band 3 and Band 4 quality assurance describe one with your mentor. |
 | A suite-health report using flow metrics (time from a defect report to a regression test, quarantined tests, run time, failure causes) | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, Band 7 test management |
 | An effort estimate for the capstone | All tracks |
 

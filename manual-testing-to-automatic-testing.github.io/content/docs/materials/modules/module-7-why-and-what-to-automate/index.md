@@ -22,13 +22,13 @@ Testers already know how to find risk. Module 7 turns that skill into automation
 | --- | --- | --- | --- | --- |
 | 1 | Hours 88.5–97.5: what automatic testing is and what it is for; the testing pyramid and browser test trade-offs | 1 hour | Core | Cohort |
 | 2 | Hours 97.5–106: manual repetition as variation, the Six Sigma view; why exploratory and usability testing stay human | 1 hour | Core | Cohort |
-| 3 | Hours 97.5–106: workshop with a developer: what the team's unit and integration tests already cover | 1 hour | Team | Each person, a developer from their team |
+| 3 | Hours 97.5–106: workshop with a developer: what the team's unit and integration tests already cover | 1 hour | Team | You, a developer from your team |
 | 4a | Hours 97.5–106: candidate analysis, sample of 10 cases | 1.5 hours | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering, with mentor |
 | 4b | Hours 97.5–106: candidate analysis, own area | 1.5 hours | Breakout | Band 5 quality assurance, Band 6 test engineering |
-| 4c | Hours 97.5–106: candidate analysis, whole product or programme: the person leads the decisions, and the team helps with the counting | 1.5 hours | Breakout | Band 6 quality assurance, Band 7 test engineering, Band 7 test management |
-| 5 | Hours 97.5–106: share and challenge: each person presents three decisions | 1 hour | Core | Cohort; Band 6 quality assurance and Band 7 facilitate |
+| 4c | Hours 97.5–106: candidate analysis, whole product or programme: you lead the decisions, and the team helps with the counting | 1.5 hours | Breakout | Band 6 quality assurance, Band 7 test engineering, Band 7 test management |
+| 5 | Hours 97.5–106: share and challenge: everyone presents three decisions | 1 hour | Core | Cohort; Band 6 quality assurance and Band 7 facilitate |
 
-Each person's sessions add up to 5.5 hours.
+Your sessions add up to 5.5 hours.
 
 ## Activities
 
@@ -44,8 +44,8 @@ Each person's sessions add up to 5.5 hours.
 
 | Track | Scope |
 | --- | --- |
-| Band 3, Band 4 quality assurance, Band 4 test engineering | A sample of 10 cases, with the mentor |
-| Band 5 quality assurance, Band 6 test engineering | The person's own area |
+| Band 3, Band 4 quality assurance, Band 4 test engineering | A sample of 10 cases, with your mentor |
+| Band 5 quality assurance, Band 6 test engineering | Your own area |
 | Band 6 quality assurance, Band 7 test engineering, Band 7 test management | A whole product or programme, reviewed with the team |
 
 Use [automation-candidate-analysis.md](automation-candidate-analysis.md) and [automation-candidate-analysis.tsv](automation-candidate-analysis.tsv).

@@ -22,37 +22,37 @@ The certification and its exam are the same for every track. The depth applies t
 
 ## Session plan
 
-The course sessions are taught by the Lean Six Sigma trainer chosen under Decision 8. Project sessions are with the mentor, and the product owner as sponsor.
+The course sessions are taught by the Lean Six Sigma trainer chosen under Decision 8. Project sessions are with your mentor, and the product owner as sponsor.
 
 | # | Session | Duration | Format | Who |
 | --- | --- | --- | --- | --- |
 | 1 | Hours 279.5–287: Lean: value, flow, the eight wastes (TIMWOODS) in testing, kaizen | 2 hours | Core | Cohort, trainer |
 | 2 | Hours 279.5–287: Define: voice of the customer, critical-to-quality requirements, SIPOC, the project charter | 2 hours | Core | Cohort, trainer |
-| 3 | Hours 279.5–287: value stream mapping of the team's test process | 1.5 hours | Practice | Each person, their team's process |
-| 4 | Hours 279.5–287: write the Green Belt project charter, and agree it with the sponsor | 2 hours | Project | Each person, product owner, mentor |
+| 3 | Hours 279.5–287: value stream mapping of the team's test process | 1.5 hours | Practice | You, your team's process |
+| 4 | Hours 279.5–287: write the Green Belt project charter, and agree it with the sponsor | 2 hours | Project | You, your product owner, your mentor |
 | 5 | Hours 287–294.5: Measure: data collection plans and measurement system analysis | 2 hours | Core | Cohort, trainer |
 | 6 | Hours 287–294.5: descriptive statistics and variation | 2 hours | Core | Cohort, trainer |
 | 7 | Hours 287–294.5: process capability and sigma level | 1.5 hours | Core | Cohort, trainer |
-| 8 | Hours 287–294.5: collect the project's baseline data | 2 hours | Project | Each person, mentor |
+| 8 | Hours 287–294.5: collect the project's baseline data | 2 hours | Project | You, your mentor |
 | 9 | Hours 294.5–302: Analyse: Pareto charts, fishbone diagrams, the five whys | 2 hours | Core | Cohort, trainer |
 | 10 | Hours 294.5–302: hypothesis testing | 2 hours | Core | Cohort, trainer |
 | 11 | Hours 294.5–302: correlation and regression | 1.5 hours | Core | Cohort, trainer |
 | 12 | Hours 294.5–302: FMEA, linked to the clinical hazard log from Module 14 | 1 hour | Core | Cohort, trainer |
-| 13 | Hours 294.5–302: analyse the project's root causes | 1 hour | Project | Each person, mentor |
+| 13 | Hours 294.5–302: analyse the project's root causes | 1 hour | Project | You, your mentor |
 | 14 | Hours 302–309.5: Improve: generating, choosing, and piloting solutions; automation as an improvement that is measured, not assumed | 2 hours | Core | Cohort, trainer |
 | 15 | Hours 302–309.5: Control: control charts and statistical process control | 2 hours | Core | Cohort, trainer |
 | 16 | Hours 302–309.5: control plans, and handing a process to its owner | 1 hour | Core | Cohort, trainer |
-| 17 | Hours 302–309.5: pilot the project's improvement | 2.5 hours | Project | Each person, mentor, team |
-| 18 | Hours 309.5–317: measure the result, write the control plan, and finish the project report | 1.5 hours | Project | Each person, mentor |
-| 19 | Hours 309.5–317: project review with the sponsor and mentor | 1 hour | Project | Each person, product owner, mentor |
+| 17 | Hours 302–309.5: pilot the project's improvement | 2.5 hours | Project | You, your mentor, your team |
+| 18 | Hours 309.5–317: measure the result, write the control plan, and finish the project report | 1.5 hours | Project | You, your mentor |
+| 19 | Hours 309.5–317: project review with the sponsor and mentor | 1 hour | Project | You, your product owner, your mentor |
 | 20 | Hours 309.5–317: practice exam, and review of the answers | 5 hours | Core | Cohort, trainer |
-| 21 | Hours 317–320: the Green Belt certification exam | 2.5 hours | Exam | Each person, certification body |
+| 21 | Hours 317–320: the Green Belt certification exam | 2.5 hours | Exam | You, certification body |
 
-Each person's sessions add up to 40 hours: 27.5 hours on the body of knowledge and exam preparation, 10 hours on the project, and 2.5 hours for the exam.
+Your sessions add up to 40 hours: 27.5 hours on the body of knowledge and exam preparation, 10 hours on the project, and 2.5 hours for the exam.
 
 ## Green Belt projects by track
 
-Every project improves a real measure in the person's own team's testing process, uses synthetic data only, and builds on their Evidence 7 analysis and Evidence 15 suite-health report. Typical measures:
+Every project improves a real measure in your own team's testing process, uses synthetic data only, and builds on your Evidence 7 analysis and Evidence 15 suite-health report. Typical measures:
 
 - flaky test rate
 - time from a defect report to a regression test
@@ -63,9 +63,9 @@ Every project improves a real measure in the person's own team's testing process
 | Track | Project |
 | --- | --- |
 | Band 3, Band 4 quality assurance, Band 4 test engineering | A named part of a team project, led by the mentor or a Band 6 or Band 7 colleague. The part is written in the charter. |
-| Band 5 quality assurance, Band 6 test engineering | A small project of their own. |
+| Band 5 quality assurance, Band 6 test engineering | A small project of your own. |
 | Band 6 quality assurance, Band 7 test engineering | Lead a project, and coach a lower-band colleague's part. |
-| Band 7 test management | Lead a project for their area, and sponsor the cohort's other projects with the product owners. |
+| Band 7 test management | Lead a project for your area, and sponsor the cohort's other projects with the product owners. |
 
 ## Activities
 
@@ -87,9 +87,9 @@ Every project improves a real measure in the person's own team's testing process
 
 ## Assessment
 
-- The certification body sets and marks the Green Belt exam. If a person does not pass, they resit once, within three months, after more exam preparation.
+- The certification body sets and marks the Green Belt exam. If you do not pass, you resit once, within three months, after more exam preparation.
 - The training lead and mentor review the project, with the product owner as sponsor. The project is accepted when its measure, data, analysis, and control plan are sound, whether or not the improvement was as large as hoped.
-- A person completes the programme when Gate 4 is met and Evidence 17 is complete (spec, "Completion").
+- You complete the programme when Gate 4 is met and Evidence 17 is complete (spec, "Completion").
 
 ## Resources
 

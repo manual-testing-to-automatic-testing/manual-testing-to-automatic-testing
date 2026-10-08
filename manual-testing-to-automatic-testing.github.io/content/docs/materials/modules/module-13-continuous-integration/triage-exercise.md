@@ -2,7 +2,7 @@
 
 Evidence 13 for **Band 3**, **Band 4 quality assurance**, and **Band 4 test engineering**: triage of 3 failures in an existing pipeline. You do not need to change the pipeline.
 
-Time: about 4 hours, in the breakouts in hours 206–221.5, with the mentor.
+Time: about 4 hours, in the breakouts in hours 206–221.5, with your mentor.
 
 ## Set-up (mentor)
 
@@ -38,5 +38,5 @@ Band 4 test engineering: for the test defect, also fix the test, push the fix, a
 ## Track notes
 
 - **Band 3 (with support):** the mentor may navigate the CI tool with you. You make the triage decision.
-- **Band 4 quality assurance (with support):** navigate the CI tool yourself, with the mentor alongside.
+- **Band 4 quality assurance (with support):** navigate the CI tool yourself, with your mentor alongside.
 - **Band 4 test engineering (with support):** as Band 4 quality assurance, plus fix the test defect.

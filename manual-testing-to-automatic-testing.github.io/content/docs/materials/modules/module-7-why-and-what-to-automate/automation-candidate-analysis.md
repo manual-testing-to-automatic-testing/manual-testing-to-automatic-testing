@@ -45,7 +45,7 @@ A useful rule of thumb: **automate when risk + frequency + stability is 7 or mor
 
 ## Track variants
 
-### Band 3 and Band 4 (sample of 10 cases, with the mentor)
+### Band 3 and Band 4 (sample of 10 cases, with your mentor)
 
 - The mentor chooses 10 cases with a mix of likely answers.
 - Fill in `case_id`, `title`, `risk`, `frequency`, `stability`, `decision`, and `reason`. Leave the other columns blank if you are unsure.

@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Each person, their line manager, and the training lead agree where the person starts, which track they join, and how they will be supported. Module 6 sets a formal, evidenced baseline.
+You, your line manager, and the training lead agree where you start, which track you join, and how you will be supported. Module 6 sets a formal, evidenced baseline.
 
 ## Outcomes
 
@@ -12,7 +12,7 @@ Each person, their line manager, and the training lead agree where the person st
 - A track, an individual learning plan, and a signed learning agreement.
 - A working development environment.
 
-Module 6 supports Learning outcome 13 (fully meet the person's own band and UK GDaD PCF role).
+Module 6 supports Learning outcome 13 (fully meet your own band and UK GDaD PCF role).
 
 ## Depth by track
 
@@ -26,29 +26,29 @@ Module 6 supports Learning outcome 13 (fully meet the person's own band and UK G
 | --- | --- | --- | --- | --- |
 | 1 | Programme welcome: aims, tracks, gates, the "same band, full capability" principle, developmental-only gates | 1 hour | Core | Cohort, training lead, head of test |
 | 2 | How to self-assess honestly: evidence, "rate what you do regularly", a gap is not a failing | 1 hour | Core | Cohort, training lead |
-| 3 | Self-assessment working time, with the mentor available | 2 hours | Individual | Each person |
-| 4 | Manager independent rating (the manager's time, not the participant's) | 1.5 hours | Individual | Line manager |
-| 5 | Calibration meeting | 1 hour | One to one | Person, line manager, mentor if needed |
-| 6 | Diagnostic coding exercise (unscored) | 1 hour | Individual | Each person, mentor |
-| 7 | Environment set-up pairing | 1 hour | Pairing | Each person, mentor |
-| 8 | Individual learning plan and learning agreement meeting, which also starts Role foundations | 1 hour | One to one | Person, line manager, training lead |
+| 3 | Self-assessment working time, with your mentor available | 2 hours | Individual | You |
+| 4 | Manager independent rating (the manager's time, not your) | 1.5 hours | Individual | Line manager |
+| 5 | Calibration meeting | 1 hour | One to one | You, your line manager, your mentor if needed |
+| 6 | Diagnostic coding exercise (unscored) | 1 hour | Individual | You, your mentor |
+| 7 | Environment set-up pairing | 1 hour | Pairing | You, your mentor |
+| 8 | Individual learning plan and learning agreement meeting, which also starts Role foundations | 1 hour | One to one | You, your line manager, training lead |
 
-The participant's sessions add up to 6.5 hours. The last hour of the first 7.5 hours starts Module 7.
+Your sessions add up to 6.5 hours. The last hour of the first 7.5 hours starts Module 7.
 
 ## Activities
 
 1. **Welcome and briefing.** Explain the programme, the eight tracks, the six gates, and Principle 14: gate results never start capability or performance procedures.
-2. **Self-assessment.** The person completes the full capability self-assessment, with a short, specific example as evidence for each "Meets". The instrument is in `instruments/`, built from the roles-skills reference. People may complete it in writing or in conversation with their mentor.
+2. **Self-assessment.** You complete the full capability self-assessment, with a short, specific example as evidence for each "Meets". The instrument is in `instruments/`, built from the roles-skills reference. People may complete it in writing or in conversation with their mentor.
 3. **Manager rating.** The line manager rates independently, without seeing the self-ratings.
-4. **Calibration.** Agree each rating. Where the two differ by more than one level, the evidence decides. If they still disagree, the mentor or training lead moderates.
-5. **Track placement.** Place the person by band and UK GDaD PCF role. Apply the mapping rule from the spec where there is no reference role level. For Band 3, agree the expected job evaluation factor levels from the person's job description, with a total of 216 to 270 points.
+4. **Calibration.** Agree each rating. Where the two differ by more than one level, the evidence decides. If you still disagree, your mentor or the training lead moderates.
+5. **Track placement.** You are placed by your band and UK GDaD PCF role. Apply the mapping rule from the spec where there is no reference role level. For Band 3, agree the expected job evaluation factor levels from your job description, with a total of 216 to 270 points.
 6. **Diagnostic.** A short, unscored coding exercise. Its only use is to tune Module 8 pacing and to decide whether Band 3 and Band 4 people take the 380-hour option.
 7. **Environment set-up.** Install Node.js, Google Chrome, VS Code with the ESLint extension, and git. No Docker is needed. Check access to the team's repository and CI.
 8. **Individual learning plan and learning agreement.**
 
 ### Diagnostic coding exercise
 
-Unscored. 1 hour. The mentor sits alongside and notes where the person gets stuck.
+Unscored. 1 hour. The mentor sits alongside and notes where you get stuck.
 
 1. Open a terminal. Make a folder. List its contents.
 2. In VS Code, create `hello.js` that prints your team's name, and run it with `node hello.js`.
@@ -70,7 +70,7 @@ The mentor records: comfort with the terminal, editing, running code, and readin
 **Evidence 6**, for every track:
 
 - the full capability self-assessment (Parts A to C), with evidence, and the manager's independent rating, calibrated at Gate 0
-- the person's track, and any mapping decision
+- your track, and any mapping decision
 - an individual learning plan: the gaps that matter most from Parts A to C, an action, owner, and date for each, the automation target, reasonable adjustments, and preferred learning formats
 - a signed learning agreement: protected time, mentor, and gate dates
 - a working development environment: Node.js, Google Chrome, VS Code with the ESLint extension, git, and access to the team's repository and CI.
@@ -87,6 +87,6 @@ Gate 0 (hour 88.5). Baseline only: no threshold. Gate 0 records the mentor's sig
 
 ## Resources
 
-- The roles-skills reference pages for the person's role and band: <https://roles-skills.github.io>
+- The roles-skills reference pages for your role and band: <https://roles-skills.github.io>
 - The roles-skills self-assessment guide: `~/git/agenda-for-change/guides/self-assessment/index.md`
 - The programme specification: [../../../spec/index.md](../../../spec/index.md)

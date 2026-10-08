@@ -80,7 +80,7 @@ const EN_001: Chrome = {
     copyFailedLabel: 'Could not copy the link'
   },
   footer: {
-    lede: 'Upskilling manual testers into automatic testers. Each person continues in their current band and UK GDaD PCF role.',
+    lede: 'Upskilling manual testers into automatic testers. You continue in your current band and UK GDaD PCF role.',
     licence:
       'Contains public sector information from the UK Government Digital and Data Profession Capability Framework, licensed under the Open Government Licence v3.0. © Crown copyright.',
     source: 'Source on GitHub'

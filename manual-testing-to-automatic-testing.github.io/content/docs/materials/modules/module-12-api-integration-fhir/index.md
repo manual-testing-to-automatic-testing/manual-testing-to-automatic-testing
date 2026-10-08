@@ -35,7 +35,7 @@ Band 3 does not take Module 12. Band 3's Module 12 hours in hours 183–206 go t
 | 8 | Hours 198–206: write one test with support (Band 4 quality assurance); start planning Leading teams through automation adoption (Band 7 test management) | 3.5 hours | Breakout | Band 4 quality assurance, Band 7 test management |
 | 9 | Hours 198–206: pair with a developer to move one browser test from Evidence 11 down to the API layer | 1.5 hours | Team | All except Band 3 |
 
-Each person's sessions add up to 15.5 hours.
+Your sessions add up to 15.5 hours.
 
 
 Acceptance test automation for Band 6 quality assurance also starts in hours 183–190.5, within Band 6 quality assurance's breakout time. See `materials/tracks/`.

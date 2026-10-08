@@ -1,6 +1,6 @@
 # Capstone scope agreement
 
-Agree at hour 237.5 (Decision 5). Signed by the person, the product owner, and the mentor.
+Agree at hour 237.5 (Decision 5). Signed by you, your product owner, and your mentor.
 
 | Field | Value |
 | --- | --- |

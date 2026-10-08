@@ -32,5 +32,5 @@ The live run is the Gate 4 Part D practical.
 - The tests make real assertions and fail when behaviour is wrong.
 - Spec and code agree.
 - Synthetic data only; no secrets.
-- The person can explain every line they submitted, including any drafted with AI.
+- You can explain every line you submitted, including any drafted with AI.
 - Coverage and residual risks are explained clearly to a non-technical audience.

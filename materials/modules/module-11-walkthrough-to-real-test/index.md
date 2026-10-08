@@ -4,9 +4,9 @@
 
 ## Purpose
 
-A walkthrough acts on a page and prints what it finds. It "passes" even when the page is wrong. A real test makes assertions that fail when the behaviour is wrong. Module 11 turns the Module 10 walkthrough into a real test suite, then automates the person's own manual test cases.
+A walkthrough acts on a page and prints what it finds. It "passes" even when the page is wrong. A real test makes assertions that fail when the behaviour is wrong. Module 11 turns the Module 10 walkthrough into a real test suite, then automates your own manual test cases.
 
-From hour 160.5, about 1.5 hours in every 7.5 hours of learning is real automation on the person's team's product, at their track's depth, until hour 221.5, then the Module 14 work and the capstone, which use the team's product directly.
+From hour 160.5, about 1.5 hours in every 7.5 hours of learning is real automation on your team's product, at your track's depth, until hour 221.5, then the Module 14 work and the capstone, which use the team's product directly.
 
 ## Outcomes
 

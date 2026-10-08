@@ -1,6 +1,6 @@
 # Environment checklist
 
-Complete in the Module 6 set-up pairing session. The mentor ticks each item when it works on the person's machine.
+Complete in the Module 6 set-up pairing session. The mentor ticks each item when it works on your machine.
 
 | # | Item | How to check | Done |
 | --- | --- | --- | --- |
@@ -17,6 +17,6 @@ Complete in the Module 6 set-up pairing session. The mentor ticks each item when
 | 11 | Access to the team's repository | Can clone and open a pull request | [ ] |
 | 12 | Access to the team's test environments | Can sign in with a test account | [ ] |
 | 13 | Access to the team's CI service | Can see pipeline runs | [ ] |
-| 14 | Accessibility settings set as the person prefers | For example screen reader, zoom, high-contrast theme | [ ] |
+| 14 | Accessibility settings set as you prefer | For example screen reader, zoom, high-contrast theme | [ ] |
 
 If an item cannot be done in the first 7.5 hours, record it in the individual learning plan with an owner and date.

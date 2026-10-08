@@ -13,7 +13,7 @@ Evidence 16 for Module 16. Hours 237.5–279.5. Assessed at Gate 4.
 
 ## The capstone, from the spec
 
-> An automation strategy and metrics for a product or programme, a business case, an adoption and team development plan, and a small automated suite of their own at the Working target.
+> An automation strategy and metrics for a product or programme, a business case, an adoption and team development plan, and a small automated suite of your own at the Working target.
 
 ## Scope
 

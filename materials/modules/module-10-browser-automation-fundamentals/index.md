@@ -25,19 +25,19 @@ Module 10 builds on the script from Module 2, the basics of a browser automator:
 | --- | --- | --- | --- | --- |
 | 1 | Hours 136.5–144: the four core concepts; tour of the fixture site and its contract; `selenium-webdriver`, Chrome, and Selenium Manager | 2 hours | Core | Cohort |
 | 2 | Hours 136.5–144: locating with `By`: id, name, class name, link text, CSS, XPath | 2 hours | Core | Cohort |
-| 3 | Hours 136.5–144: locating practice on the fixture site | 1.5 hours | Practice | All; Band 3 and Band 4 quality assurance pair with the mentor |
+| 3 | Hours 136.5–144: locating practice on the fixture site | 1.5 hours | Practice | All; Band 3 and Band 4 quality assurance pair with your mentor |
 | 4 | Hours 144–152.5: acting: `sendKeys`, `click`, `clear`, and the `Select` helper | 1.5 hours | Core | Cohort |
 | 5 | Hours 144–152.5: waiting: Selenium does not auto-wait; explicit waits with `driver.wait` and `until`; why `sleep` is never the answer | 1.5 hours | Core | Cohort |
 | 6 | Hours 144–152.5: Selenium IDE: record, export to JavaScript Mocha, then rewrite by hand and explain every line | 1.5 hours | Core | Cohort |
 | 7 | Hours 144–152.5: start the Evidence 10 script | 1 hour | Practice | All |
-| 8 | Hours 152.5–160.5: finish the Evidence 10 script, using the exercise sheet | 3 hours | Practice | All; Band 3 and Band 4 quality assurance pair with the mentor |
+| 8 | Hours 152.5–160.5: finish the Evidence 10 script, using the exercise sheet | 3 hours | Practice | All; Band 3 and Band 4 quality assurance pair with your mentor |
 | 9a | Hours 152.5–160.5: existing suite exercise: read, run, and change `demo-selenium-javascript` | 2 hours | Breakout | Band 4 test engineering, Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test engineering, Band 7 test management |
 | 9b | Hours 152.5–160.5: pair-through of the exercise sheet, continued | 2 hours | Breakout | Band 3, Band 4 quality assurance, with mentor |
 | 10a | Hours 152.5–160.5: write the one-page explanation of how Selenium waits | 1 hour | Breakout | Band 5 quality assurance and above |
-| 10b | Hours 152.5–160.5: exercise sheet review with the mentor | 1 hour | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering |
+| 10b | Hours 152.5–160.5: exercise sheet review with your mentor | 1 hour | Breakout | Band 3, Band 4 quality assurance, Band 4 test engineering |
 | 11 | Hours 152.5–160.5: locator strategy clinic, led by Band 7 test engineering | 1 hour | Core | Cohort, led by Band 7 test engineering |
 
-Each person's sessions add up to 18 hours.
+Your sessions add up to 18 hours.
 
 ## Activities
 

@@ -4,7 +4,7 @@
 
 ## Purpose
 
-A browser automation tool is a library you call from a programming language. Module 8 builds on Module 1, the basics of a programming language, and gives each person enough JavaScript to write, run, debug, and test small programs. A person who learned the basics in another language moves to JavaScript here. The practice repository uses plain JavaScript with ES modules on Node.js 24: no TypeScript, and no build step. It also meets the base of the testing pyramid early: every kata has unit tests the person wrote.
+A browser automation tool is a library you call from a programming language. Module 8 builds on Module 1, the basics of a programming language, and gives you enough JavaScript to write, run, debug, and test small programs. A person who learned the basics in another language moves to JavaScript here. The practice repository uses plain JavaScript with ES modules on Node.js 24: no TypeScript, and no build step. It also meets the base of the testing pyramid early: every kata has unit tests you wrote.
 
 ## Outcomes
 
@@ -28,9 +28,9 @@ Module 8 shares hours 97.5–136.5 with Module 7, Module 9, Role foundations, He
 | 4 | Hours 106–113.5: a first unit test with Mocha and `node:assert/strict`, and reading test output | 1 hour | Core | Cohort |
 | 5 | Hours 106–113.5: kata practice | 3 hours | Practice | All; the mentor pairs with Band 3, Band 4 quality assurance, Band 4 test engineering, and Band 5 quality assurance |
 | 6 | Hours 113.5–121: modules (`import` and `export`), errors (`throw`, `try`, `catch`) | 1 hour | Core | Cohort |
-| 7 | Hours 113.5–121: kata practice; Band 7 test engineering starts the harder katas | 2 hours | Practice | All, with mentor review |
+| 7 | Hours 113.5–121: kata practice; Band 7 test engineering starts the harder katas | 2 hours | Practice | Everyone, with your mentor's review |
 | 8 | Hours 121–128.5: Promises, `async` and `await`, and why every WebDriver call must be awaited | 1.5 hours | Core | Cohort |
-| 9 | Hours 121–128.5: kata practice | 1 hour | Practice | All, with mentor review |
+| 9 | Hours 121–128.5: kata practice | 1 hour | Practice | Everyone, with your mentor's review |
 | 10 | Hours 128.5–136.5: refactoring and code style; kata review, including Band 7 test engineering's harder katas | 1.5 hours | Core | Cohort |
 
 Mentor pairing: in hours 97.5–113.5, the mentor pairs with Band 3, Band 4 quality assurance, Band 4 test engineering, and Band 5 quality assurance during the sessions and practice. From hour 113.5, and for Band 6 and Band 7 throughout, the mentor reviews katas instead.
@@ -58,7 +58,7 @@ describe('isAdult', () => {
 
 ## Evidence
 
-**Evidence 8:** small programming exercises (katas), each with unit tests the person wrote:
+**Evidence 8:** small programming exercises (katas), each with unit tests you wrote:
 
 | Track | Katas |
 | --- | --- |

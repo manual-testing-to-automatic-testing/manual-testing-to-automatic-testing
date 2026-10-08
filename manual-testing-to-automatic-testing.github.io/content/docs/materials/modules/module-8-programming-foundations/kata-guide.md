@@ -42,8 +42,8 @@ Katas 06 and 07 check test-shaped data (a date of birth and an NHS number), so e
 
 ## Depth by track
 
-- **Band 3 (read and discuss):** pair with the mentor on each kata. The mentor may type; you explain what each line does and write at least one test yourself for each kata.
-- **Band 4, Band 5, Band 7 test management (with support):** write the code and tests yourself, with the mentor on hand.
+- **Band 3 (read and discuss):** pair with your mentor on each kata. The mentor may type; you explain what each line does and write at least one test yourself for each kata.
+- **Band 4, Band 5, Band 7 test management (with support):** write the code and tests yourself, with your mentor on hand.
 - **Band 6, Band 7 test engineering (independently):** work independently. Ask for review, not help.
 
 ## What reviewers look for
@@ -52,7 +52,7 @@ Katas 06 and 07 check test-shaped data (a date of birth and an NHS number), so e
 - Test names say what they check.
 - Each test fails when the code is wrong.
 - The code is readable: clear names, no dead code.
-- The person can explain every line.
+- You can explain every line.
 
 ## NHS number check digit (kata 07)
 

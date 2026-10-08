@@ -114,6 +114,11 @@ def duration(name):
     return ""
 
 
+def you(text):
+    """The spec's third person, as the guide's second person: "the person's own" is "your own"."""
+    return text.replace("the person's own", "your own").replace("the person's", "your")
+
+
 def hours_text(a, b):
     return f"hours {a:g}–{b:g}"
 
@@ -211,9 +216,9 @@ for t in TRACKS:
     out.append("| --- | --- | --- |")
     for r in lo_rows:
         if r[0] == "Learning outcome 13":
-            out.append(f"| Learning outcome 13 | {r[1]} | Overall capability index of at least 90% at Gate 4 |")
+            out.append(f"| Learning outcome 13 | {you(r[1])} | Overall capability index of at least 90% at Gate 4 |")
         else:
-            out.append(f"| {r[0]} | {r[1]} | {LODEPTH.get(r[li], r[li])} |")
+            out.append(f"| {r[0]} | {you(r[1])} | {LODEPTH.get(r[li], r[li])} |")
     out.append("")
     out.append("## Module depths\n")
     out.append("| Module | Depth |")
