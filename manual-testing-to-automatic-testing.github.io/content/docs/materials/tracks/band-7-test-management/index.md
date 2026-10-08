@@ -4,7 +4,8 @@
 
 Do each item in order. Tick it when it is done.
 
-- [ ] Agree your protected time and pace with your line manager, and meet your mentor for a 30-minute start at hour 0.
+- [ ] Agree your protected time and pace with your stakeholders.
+- [ ] Meet your mentor for a 30-minute start.
 - [ ] [Module 1 Basics of a programming language](../../modules/module-1-basics-of-a-programming-language/index.md), hours 0–20: Evidence 1 (independent).
 - [ ] [Module 2 Basics of a browser automator](../../modules/module-2-basics-of-a-browser-automator/index.md), hours 20–40: Evidence 2 (independent).
 - [ ] [Module 3 Basics of an AI assistant](../../modules/module-3-basics-of-an-ai-assistant/index.md), hours 40–60: Evidence 3 (independent).

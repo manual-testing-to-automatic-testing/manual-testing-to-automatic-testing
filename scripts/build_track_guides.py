@@ -131,7 +131,7 @@ def checklist(t, mi):
         elif gate == "Certification":
             events.append((float(hour.split()[-1]), 2, "**Green Belt certification exam**, by hour 308, with your Green Belt project accepted."))
     events.sort(key=lambda e: (e[0], e[1]))
-    items = ["Agree your protected time and pace with your line manager, and meet your mentor for a 30-minute start at hour 0."]
+    items = ["Agree your protected time and pace with your stakeholders.", "Meet your mentor for a 30-minute start."]
     items += [e[2] for e in events]
     items.append("**Gate 5**, about six months after Gate 4: complete your self-assessment once more, and demonstrate a recent automated change.")
     return [f"- [ ] {i}" for i in items]
