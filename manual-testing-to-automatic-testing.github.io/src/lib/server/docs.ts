@@ -60,6 +60,13 @@ export function slugForPath(path: string): string {
   // A module's training content is under curriculum/, named for the module
   // without its number: materials/modules/module-3-basics-of-an-ai-assistant/
   // training.md -> curriculum/basics-of-an-ai-assistant.
+  // The CTAL-TAE syllabus pages, explained, under one address:
+  // istqb-certified-tester-advanced-level-test-automation-engineering-syllabus/7-1-3-...
+  const syllabus = path.match(/^materials\/modules\/module-\d+-istqb-certified-tester-advanced-level-test-automation-engineer\/syllabus\/([^/]+)\.md$/);
+  if (syllabus) {
+    const base = 'istqb-certified-tester-advanced-level-test-automation-engineering-syllabus';
+    return syllabus[1] === 'index' ? base : `${base}/${syllabus[1]}`;
+  }
   const training = path.match(/^materials\/modules\/module-\d+-([^/]+)\/training\.md$/);
   if (training) return `curriculum/${training[1]}`;
   const name = nestedSlug(path).split('/').pop() ?? '';

@@ -54,6 +54,7 @@ The exam provider sets and marks the exam. Gate 0 (hour 88) records the certific
 
 ## Resources
 
+- [The CTAL-TAE syllabus, explained](syllabus/index.md): every chapter, section, and learning objective in plain words, with examples from this programme, teaching activities, and questions.
 - Official syllabus: <https://www.gasq.org/files/content/ISTQB2/ISTQB_CTAL-TAE_Syllabus_v2.0.pdf>
 - ISTQB: <https://www.istqb.org/>
 - The training provider's course, learning platform, and sample exams.

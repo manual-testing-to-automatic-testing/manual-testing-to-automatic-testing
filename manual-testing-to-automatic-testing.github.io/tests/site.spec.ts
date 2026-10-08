@@ -16,7 +16,9 @@ test('the sitemap lists every page', () => {
   expect(paths).toContain('/en-001/track-for-band-5-quality-assurance-test-analyst/');
   expect(paths).toContain('/en-001/calibration-guide/');
   // Flat URLs, except a module's training content under curriculum/.
-  expect(paths.filter((p) => p.split('/').length > 4 && !p.includes('/curriculum/'))).toEqual([]);
+  expect(
+    paths.filter((p) => p.split('/').length > 4 && !p.includes('/curriculum/') && !p.includes('-engineering-syllabus/'))
+  ).toEqual([]);
   expect(paths).toContain('/en-001/curriculum/basics-of-an-ai-assistant/');
 });
 
@@ -170,4 +172,14 @@ test('the ISTQB module pages have their own addresses', async ({ page }) => {
   await expect(page).toHaveURL(/\/en-001\/istqb-certified-tester-foundation-level-4\/$/);
   await page.goto('/en-001/istqb-certified-tester-advanced-level-test-automation-engineer/');
   await expect(page.getByRole('link', { name: /ISTQB_CTAL-TAE_Syllabus_v2\.0\.pdf/ })).toBeVisible();
+});
+
+test('the CTAL-TAE syllabus is explained, one page per heading', async ({ page }) => {
+  const base = '/en-001/istqb-certified-tester-advanced-level-test-automation-engineering-syllabus/';
+  await page.goto(base);
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('ISTQB CTAL-TAE syllabus, explained');
+  await page.goto(`${base}7-1-3-identify-where-test-automation-produces-unexpected-results/`);
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('7.1.3 Identify Where Test Automation Produces Unexpected Results');
+  await page.getByRole('link', { name: '7.1.4 Explain How Static Analysis Can Aid Test Automation Code Quality' }).click();
+  await expect(page).toHaveURL(new RegExp(`${base}7-1-4-explain-how-static-analysis-can-aid-test-automation-code-quality/$`));
 });
