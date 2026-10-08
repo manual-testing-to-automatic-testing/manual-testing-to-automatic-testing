@@ -2,16 +2,6 @@
 
 This is the one-page guide for track **Band 4 quality assurance**.
 
-## Who it is for
-
-Manual testers at Band 4 who have the UK GDaD PCF role Quality assurance test analyst, at associate level.
-
-| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |
-| --- | --- | --- | --- | --- |
-| 4 | Quality assurance test analyst | Associate quality assurance test analyst | 275 | 271–325 |
-
-If your band and UK GDaD PCF role have no reference role level, the mapping rule in the spec places you, and your individual learning plan records the decision.
-
 ## Your capability self-assessment
 
 At every gate you complete the full instrument for this track: `instruments/band-4-associate-quality-assurance-test-analyst.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (UK GDaD PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).

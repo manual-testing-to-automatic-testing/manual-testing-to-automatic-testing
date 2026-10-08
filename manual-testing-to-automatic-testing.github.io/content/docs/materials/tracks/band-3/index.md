@@ -2,16 +2,6 @@
 
 This is the one-page guide for track **Band 3**.
 
-## Who it is for
-
-Manual testers at Band 3 who have an associate-level UK GDaD PCF role (Quality assurance test analyst or Test engineer). The reference has no testing role level at Band 3, so this track uses the associate UK GDaD PCF role level for Parts B and C, and the Band 3 outline for Part A.
-
-| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |
-| --- | --- | --- | --- | --- |
-| 3 | Quality assurance test analyst or Test engineer, associate level | Associate quality assurance test analyst or Associate test engineer, tuned to Band 3 | Agreed at Gate 0 | 216–270 |
-
-If your band and UK GDaD PCF role have no reference role level, the mapping rule in the spec places you, and your individual learning plan records the decision.
-
 ## Your capability self-assessment
 
 At every gate you complete the full instrument for this track: `instruments/band-3-associate-quality-assurance-test-analyst.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (UK GDaD PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).

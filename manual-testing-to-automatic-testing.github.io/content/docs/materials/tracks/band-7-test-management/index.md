@@ -2,16 +2,6 @@
 
 This is the one-page guide for track **Band 7 test management**.
 
-## Who it is for
-
-Manual testers at Band 7 who have the UK GDaD PCF role Test manager.
-
-| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |
-| --- | --- | --- | --- | --- |
-| 7 | Test manager | Test manager | 499 | 466–539 |
-
-If your band and UK GDaD PCF role have no reference role level, the mapping rule in the spec places you, and your individual learning plan records the decision.
-
 ## Your capability self-assessment
 
 At every gate you complete the full instrument for this track: `instruments/band-7-test-manager.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (UK GDaD PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).

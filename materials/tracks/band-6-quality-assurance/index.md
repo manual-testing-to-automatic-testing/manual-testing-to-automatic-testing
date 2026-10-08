@@ -2,16 +2,6 @@
 
 This is the one-page guide for track **Band 6 quality assurance**.
 
-## Who it is for
-
-Manual testers at Band 6 who have the UK GDaD PCF role Quality assurance test analyst, at senior level.
-
-| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |
-| --- | --- | --- | --- | --- |
-| 6 | Quality assurance test analyst | Senior quality assurance test analyst | 404 | 396–465 |
-
-If your band and UK GDaD PCF role have no reference role level, the mapping rule in the spec places you, and your individual learning plan records the decision.
-
 ## Your capability self-assessment
 
 At every gate you complete the full instrument for this track: `instruments/band-6-senior-quality-assurance-test-analyst.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (UK GDaD PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).

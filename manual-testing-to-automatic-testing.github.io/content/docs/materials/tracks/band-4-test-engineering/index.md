@@ -2,16 +2,6 @@
 
 This is the one-page guide for track **Band 4 test engineering**.
 
-## Who it is for
-
-Manual testers at Band 4 who have the UK GDaD PCF role Test engineer, at associate level.
-
-| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |
-| --- | --- | --- | --- | --- |
-| 4 | Test engineer | Associate test engineer | 275 | 271–325 |
-
-If your band and UK GDaD PCF role have no reference role level, the mapping rule in the spec places you, and your individual learning plan records the decision.
-
 ## Your capability self-assessment
 
 At every gate you complete the full instrument for this track: `instruments/band-4-associate-test-engineer.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (UK GDaD PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).

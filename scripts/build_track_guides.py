@@ -79,16 +79,6 @@ MODULE_LINKS = {
     "Frameworks and non-functional testing": "../frameworks-and-non-functional-testing/index.md", "Acceptance test automation": "../acceptance-test-automation/index.md",
     "Leading teams through automation adoption": "../leading-automation-adoption/index.md",
 }
-WHO = {
-    "Band 3": "Manual testers at Band 3 who have an associate-level UK GDaD PCF role (Quality assurance test analyst or Test engineer). The reference has no testing role level at Band 3, so this track uses the associate UK GDaD PCF role level for Parts B and C, and the Band 3 outline for Part A.",
-    "Band 4 quality assurance": "Manual testers at Band 4 who have the UK GDaD PCF role Quality assurance test analyst, at associate level.",
-    "Band 4 test engineering": "Manual testers at Band 4 who have the UK GDaD PCF role Test engineer, at associate level.",
-    "Band 5 quality assurance": "Manual testers at Band 5 who have the UK GDaD PCF role Quality assurance test analyst.",
-    "Band 6 quality assurance": "Manual testers at Band 6 who have the UK GDaD PCF role Quality assurance test analyst, at senior level.",
-    "Band 6 test engineering": "Manual testers at Band 6 who have the UK GDaD PCF role Test engineer.",
-    "Band 7 test engineering": "Manual testers at Band 7 who have the UK GDaD PCF role Test engineer, at senior level.",
-    "Band 7 test management": "Manual testers at Band 7 who have the UK GDaD PCF role Test manager.",
-}
 # "Band 4 quality assurance" -> "4"; "Band 4 quality assurance" -> "band-4-quality-assurance".
 BAND = {t: t.split()[1] for t in TRACKS}
 SLUG = {t: t.lower().replace(" ", "-") for t in TRACKS}
@@ -107,12 +97,6 @@ for t in TRACKS:
     # "Track for Band 3 associate quality assurance test analyst".
     out.append(f"# Track for Band {BAND[t]} {ROLE_LEVELS[t][0].lower()}{ROLE_LEVELS[t][1:]}\n")
     out.append(f"This is the one-page guide for track **{t}**.\n")
-    out.append("## Who it is for\n")
-    out.append(WHO[t] + "\n")
-    out.append("| Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |")
-    out.append("| --- | --- | --- | --- | --- |")
-    out.append(f"| {tr[1]} | {tr[2]} | {tr[3]} | {tr[4]} | {tr[5]} |\n")
-    out.append("If your band and UK GDaD PCF role have no reference role level, the mapping rule in the spec places you, and your individual learning plan records the decision.\n")
     out.append("## Your capability self-assessment\n")
     out.append(f"At every gate you complete the full instrument for this track: `instruments/{FILE_NAMES[t]}.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (UK GDaD PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).\n")
     out.append(f"### Part A: band outline (Band {BAND[t]})\n")
