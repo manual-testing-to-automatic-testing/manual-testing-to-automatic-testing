@@ -99,7 +99,11 @@ for (const width of [1024, 1280, 1600]) {
 test('the home page has no tiles', async ({ page }) => {
   await page.goto('/en-001/');
   await expect(page.locator('.card-grid, .doc-card')).toHaveCount(0);
-  await expect(page.getByRole('heading', { level: 2 })).toHaveCount(0);
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText(['Contents']);
+  const contents = page.getByRole('region', { name: 'Contents' }).getByRole('link');
+  await expect(contents.first()).toHaveText('Tracks');
+  await expect(page.getByRole('region', { name: 'Contents' }).getByRole('link', { name: 'Mentor' })).toHaveAttribute('href', '/en-001/mentor/');
+  await expect(page.getByRole('region', { name: 'Contents' }).getByRole('link', { name: 'Line manager' })).toHaveAttribute('href', '/en-001/manager/');
 });
 
 test('the tracks page links each track to its page', async ({ page }) => {

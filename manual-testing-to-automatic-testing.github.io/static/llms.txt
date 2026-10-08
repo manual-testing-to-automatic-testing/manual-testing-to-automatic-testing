@@ -1,6 +1,6 @@
 # Manual testing to automatic testing
 
-> A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers, over 280 hours of protected learning time ending with a Lean Six Sigma Green Belt (lifetime certification), while each person stays in the band and UK GDaD PCF role they already hold. Eight tuned tracks share one schedule. Every gate repeats a full capability self-assessment: the band (21 dimensions: 5 band outline dimensions and 16 job evaluation factors), the UK GDaD PCF role aspects, and every skill in the role. Pass marks rise from 60% at Gate 1 to 90% at Gate 4.
+> A formal training programme that upskills manual testers at Bands 3 to 7 into automatic testers, over 280 hours of protected learning time ending with a Lean Six Sigma Green Belt (lifetime certification), while each person stays in the band and UK GDaD PCF role they already hold. Eight tuned tracks share one schedule. Every gate repeats a full capability self-assessment: the band (21 dimensions: 5 band outline dimensions and 16 job evaluation factors), the UK GDaD PCF role aspects, and every skill in the role. Pass marks rise from 60% at Gate 1 to 90% at Gate 4.
 
 ## Pages
 

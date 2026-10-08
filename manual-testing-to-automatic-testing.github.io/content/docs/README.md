@@ -1,6 +1,6 @@
 # Formal training programme: manual testing to automatic testing
 
-A formal, gated training programme of 280 hours that upskills manual testers at Bands 3 to 7 into automatic testers, while each person stays in their current band and UK GDaD PCF role. There are eight tuned tracks. Every gate repeats a full capability self-assessment: the band (21 dimensions), the UK GDaD PCF role aspects, and every skill in the role.
+A formal training programme of 280 hours that upskills manual testers at Bands 3 to 7 into automatic testers, while each person stays in their current band and UK GDaD PCF role. There are eight tuned tracks. Every gate repeats a full capability self-assessment: the band (21 dimensions), the UK GDaD PCF role aspects, and every skill in the role.
 
 The programme is 280 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), starts with three basics modules of 20 hours each (a programming language, a browser automator, and an AI assistant), and ends on every track with a Lean Six Sigma Green Belt, lifetime certification (40 hours). The stack is JavaScript with Selenium and Mocha. Participants need only Node.js 24, Google Chrome, VS Code, and git: nothing needs Docker.
 

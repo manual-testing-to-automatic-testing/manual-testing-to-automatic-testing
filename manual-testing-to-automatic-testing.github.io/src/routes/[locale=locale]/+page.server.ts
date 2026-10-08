@@ -4,7 +4,10 @@ import { isLocale, localeHref } from '#lib/i18n/locales.js';
 import { SITE_NAME } from '#lib/site.js';
 
 /** Documents the home page links to, by slug. Each must exist, or the build fails. */
-const LINKED = ['tracks', 'spec'];
+const LINKED = [
+  'tracks', 'curriculum', 'mentor', 'manager', 'spec', 'modules', 'gates', 'calibration-guide',
+  'instruments', 'planning', 'reading-list', 'practice-repository', 'plan', 'tasks', 'about'
+];
 
 export const load = ({ params }) => {
   if (!isLocale(params.locale)) error(404, 'Not found');
@@ -21,6 +24,6 @@ export const load = ({ params }) => {
     docs,
     title: SITE_NAME,
     description:
-      'A formal, gated training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 280 hours, in the band and UK GDaD PCF role they already have.'
+      'A formal training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 280 hours, in the band and UK GDaD PCF role they already have.'
   };
 };
