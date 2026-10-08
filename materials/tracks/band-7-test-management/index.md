@@ -13,15 +13,15 @@ Do each item in order. Tick it when it is done.
 - [ ] [Module 5 ISTQB Certified Tester Advanced Level Test Automation Engineer](../../modules/module-5-istqb-certified-tester-advanced-level-test-automation-engineer/index.md) (24 hours): Evidence 5 (independent).
 - [ ] **Gate 0**, hour 88: have your three basics walkthroughs signed off, and your two ISTQB certificates recorded; complete your [self-assessment](#your-capability-self-assessment); rate and calibrate with your line manager; agree your individual learning plan; and sign your learning agreement.
 - [ ] [Role foundations](../role-foundations/index.md) (23 hours), alongside the core modules.
-- [ ] [Module 6 Induction and baseline](../../modules/module-6-induction/index.md) (6.5 hours): Evidence 6 (independent).
+- [ ] [Module 6 Induction and baseline](../../modules/module-6-induction/index.md) (6 hours): Evidence 6 (independent).
 - [ ] [Health care foundations (leads one session)](../health-care-foundations/index.md) (7 hours), alongside the core modules.
-- [ ] [Module 7 Why and what to automate](../../modules/module-7-why-and-what-to-automate/index.md) (4.5 hours): Evidence 7 (lead or coach).
-- [ ] [Module 8 Programming foundations in JavaScript](../../modules/module-8-programming-foundations/index.md) (14.5 hours): Evidence 8 (with support).
+- [ ] [Module 7 Why and what to automate](../../modules/module-7-why-and-what-to-automate/index.md) (4 hours): Evidence 7 (lead or coach).
+- [ ] [Module 8 Programming foundations in JavaScript](../../modules/module-8-programming-foundations/index.md) (14 hours): Evidence 8 (with support).
 - [ ] [Module 9 Version control and collaboration](../../modules/module-9-version-control/index.md) (7 hours): Evidence 9 (independent).
 - [ ] **Gate 1**, hour 133: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-7-test-management): fix a failing unit test and open a pull request.
-- [ ] [Module 10 Browser automation fundamentals](../../modules/module-10-browser-automation-fundamentals/index.md) (17.5 hours): Evidence 10 (with support).
+- [ ] [Module 10 Browser automation fundamentals](../../modules/module-10-browser-automation-fundamentals/index.md) (17 hours): Evidence 10 (with support).
 - [ ] [Coaching others in automation](../coaching-others-in-automation/index.md), alongside the core modules.
-- [ ] [Module 11 From walkthrough to real test](../../modules/module-11-walkthrough-to-real-test/index.md) (12.5 hours): Evidence 11 (with support).
+- [ ] [Module 11 From walkthrough to real test](../../modules/module-11-walkthrough-to-real-test/index.md) (12 hours): Evidence 11 (with support).
 - [ ] **Gate 2**, hour 178: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-7-test-management): automate one given manual test case on the fixture site.
 - [ ] [Module 12 API, integration, and FHIR tests](../../modules/module-12-api-integration-fhir/index.md) (15 hours): Evidence 12 (read and discuss).
 - [ ] [Automation strategy and metrics](../automation-strategy-and-metrics/index.md), alongside the core modules.
@@ -30,7 +30,7 @@ Do each item in order. Tick it when it is done.
 - [ ] **Gate 3**, hour 215.5: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-7-test-management): triage and fix a failing CI run.
 - [ ] [Module 14 Safe and lawful test automation in health care](../../modules/module-14-safe-and-lawful-automation/index.md) (7 hours): Evidence 14 (lead or coach).
 - [ ] [Module 15 Quality engineering practice](../../modules/module-15-quality-engineering/index.md) (6 hours): Evidence 15 (lead or coach).
-- [ ] [Module 16 Capstone](../../modules/module-16-capstone/index.md) (27.5 hours): Evidence 16 (lead or coach).
+- [ ] [Module 16 Capstone](../../modules/module-16-capstone/index.md) (27 hours): Evidence 16 (lead or coach).
 - [ ] **Gate 4**, hour 268: complete your [self-assessment](#your-capability-self-assessment), rate and calibrate with your line manager, and do the [Part D practical](../../gates/part-d-practicals.md#band-7-test-management): live run and explanation of the capstone.
 - [ ] [Module 17 Lean Six Sigma Green Belt, lifetime certification](../../modules/module-17-lean-six-sigma-green-belt/index.md) (40 hours): Evidence 17 (lead or coach).
 - [ ] **Green Belt certification exam**, by hour 308, with your Green Belt project accepted.
@@ -165,7 +165,7 @@ From hour 155.5, about 1.5 hours in every 7.5 hours of learning is real automati
 - [Automation strategy and metrics](../automation-strategy-and-metrics/index.md)
 - [Leading teams through automation adoption](../leading-automation-adoption/index.md)
 
-## Capstone (Module 16, 27.5 hours)
+## Capstone (Module 16, 27 hours)
 
 An automation strategy and metrics for a product or programme, a business case, an adoption and team development plan, and a small automated suite of their own at the Working target.
 

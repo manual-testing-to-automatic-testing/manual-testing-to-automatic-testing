@@ -109,7 +109,8 @@ def duration(name):
     """ (14.5 hours)" for an item in the budget, or "" for one without fixed hours."""
     for key, value in BUDGET.items():
         if name.startswith(key) or key.startswith(name):
-            return f" ({value:g} hours)"
+            # Whole hours, rounded down: 14.5 hours shows as 14 hours.
+            return f" ({int(value)} hours)"
     return ""
 
 
