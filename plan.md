@@ -6,7 +6,7 @@ Create a comprehensive, formal training programme that upskills manual testers a
 
 Each person already has an assigned UK GDaD PCF role. The programme must:
 
-1. **Measure capability formally**, at every gate, against the person's own band (all 21 dimensions), their PCF role aspects, and all of their role's skills.
+1. **Measure capability formally**, at every gate, against the person's own band (all 21 dimensions), their UK GDaD PCF role aspects, and all of their role's skills.
 2. **Close the gap in the role they hold**, to at least 90% by Gate 4.
 3. **Build automated testing capability** to a target suited to each band and role.
 
@@ -20,11 +20,11 @@ Each person already has an assigned UK GDaD PCF role. The programme must:
 - **The reference data** comes from roles-skills, which aligns with the UK GDaD PCF and ESCO:
   - each **band** has a 5-dimension outline (knowledge, autonomy, scope, leadership, accountability) and a points range
   - a **16-factor job evaluation scheme** scores each role level
-  - each **role level** has PCF role and level statements, health care responsibilities, and skills with expected PCF levels
+  - each **role level** has UK GDaD PCF role and level statements, health care responsibilities, and skills with expected UK GDaD PCF levels
   - **self-assessment exports** and a self-assessment guide already exist for every role level.
 - **The reference has gaps** that matter here: there is no testing role level at Band 3, no test engineer at Band 5, and no quality assurance test analyst at Band 7.
-- **The PCF expects little automation from some roles.** Quality assurance test analysts at every level, and test managers, need test engineering only at Awareness. Only test engineers need Working (Band 6) or Practitioner (Band 7).
-- **The materials** come largely from Testing Examples: a stable fixture site, the Learn articles, Selenium and Playwright skills, and demo repositories with specs that must agree with their code.
+- **The UK GDaD PCF expects little automation from some roles.** Quality assurance test analysts at every level, and test managers, need test engineering only at Awareness. Only test engineers need Working (Band 6) or Practitioner (Band 7).
+- **The materials** come largely from Testing Examples: a stable fixture site, the Learn articles, Selenium skills, and demo repositories with specs that must agree with their code.
 
 ## The four core areas
 
@@ -50,8 +50,8 @@ The programme measures people against the band they hold. Where the automation t
 The requirement to measure the whole role puts gates at the centre. Each gate repeats the **same full instrument**:
 
 - **Part A, band, 21 dimensions:** the 5 band outline dimensions and all 16 job evaluation factors, so the whole band is seen, not just skills.
-- **Part B, PCF role aspects:** every role and role-level statement, plus the health care responsibilities.
-- **Part C, skills:** every PCF skill in the assigned role and every health care skill, including skills only expected at Awareness.
+- **Part B, UK GDaD PCF role aspects:** every role and role-level statement, plus the health care responsibilities.
+- **Part C, skills:** every UK GDaD PCF skill in the assigned role and every health care skill, including skills only expected at Awareness.
 - **Part D:** a short automation practical.
 
 Repeating the whole instrument is deliberate. It shows progress on the whole role, catches regression, and makes the self-assessment a habit. That habit is the spiral applied to self-knowledge.
@@ -88,7 +88,7 @@ Every track ends with M11, a Lean Six Sigma Green Belt with a lifetime certifica
 
 ### Toolset
 
-JavaScript with Selenium WebDriver and Mocha is the primary toolset. Selenium is the longest-established browser automation project, built on the W3C WebDriver standard, and is what many organisations' existing suites and job adverts use. Because it does not wait for elements by itself, it makes people learn waiting properly: every wait is an explicit wait for a stated condition, which is the habit that prevents flaky tests in any tool. JavaScript runs everywhere with Node.js, with no build step, and Testing Examples has a skill and demos for exactly this pair. Playwright is taught for reading and making small changes to existing suites.
+JavaScript with Selenium WebDriver and Mocha is the primary toolset. Selenium is the longest-established browser automation project, built on the W3C WebDriver standard, and is what many organisations' existing suites and job adverts use. Because it does not wait for elements by itself, it makes people learn waiting properly: every wait is an explicit wait for a stated condition, which is the habit that prevents flaky tests in any tool. JavaScript runs everywhere with Node.js, with no build step, and Testing Examples has a skill and demos for exactly this pair.
 
 ### No Docker
 

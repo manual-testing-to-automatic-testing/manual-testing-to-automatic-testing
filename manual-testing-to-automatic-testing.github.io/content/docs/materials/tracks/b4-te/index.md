@@ -6,7 +6,7 @@ Nobody changes band or role because of this programme. Reaching an automation ta
 
 ## Who it is for
 
-Manual testers at Band 4 who hold the PCF role Test engineer, at associate level.
+Manual testers at Band 4 who have the UK GDaD PCF role Test engineer, at associate level.
 
 | Band | UK GDaD PCF role | Reference role level | Reference points | Band points range |
 | --- | --- | --- | --- | --- |
@@ -16,7 +16,7 @@ If your band and assigned role have no reference role level, the mapping rule in
 
 ## Your capability self-assessment
 
-At every gate you complete the full instrument for this track: `instruments/band-4-associate-test-engineer.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).
+At every gate you complete the full instrument for this track: `instruments/band-4-associate-test-engineer.tsv` (see `instruments/README.md`). It has Part A (21 band dimensions), Part B (UK GDaD PCF role aspects), Part C (skills), and Part D (an automation practical from Gate 1).
 
 ### Part A: band outline (Band 4)
 
@@ -95,9 +95,9 @@ From hour 67.5, about 1.5 hours in every 7.5 hours of learning is real automatio
 | LO8 | Use synthetic data and keep secrets and personal data out of tests and pipelines. | Independently |
 | LO9 | Trace automated tests to hazards and produce test evidence for a clinical safety case. | With support |
 | LO10 | Diagnose flaky tests and measure suite health with flow metrics. | With support |
-| LO11 | Read and make a small change to an existing Playwright suite. | With support |
+| LO11 | Read, run, and make a small change to an existing Selenium suite that someone else wrote. | With support |
 | LO12 | Plan, build or lead, and explain an automated regression suite for a real service. | With support |
-| LO13 | Fully meet the person's own band and PCF role, measured by the capability self-assessment. | Overall capability index of at least 90% at Gate 4 |
+| LO13 | Fully meet the person's own band and UK GDaD PCF role, measured by the capability self-assessment. | Overall capability index of at least 90% at Gate 4 |
 | LO14 | Apply Lean Six Sigma (DMAIC) to measure and improve a testing process, and hold a Green Belt certification that does not expire. | With support |
 
 ## Module depths

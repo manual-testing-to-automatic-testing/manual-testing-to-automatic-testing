@@ -51,8 +51,8 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 
 - [x] Part A: 5 band outline dimensions for Bands 3 to 7, from `data/bands.yaml`
 - [x] Part A: 16 job evaluation factors with all level summaries, from `data/job-evaluation.yaml`, and the reference level for each track
-- [x] Part B: PCF role statements, role-level statements, and reference responsibilities for each reference role level, from `reference.json` and `data/roles/*.yaml`
-- [x] Part C: every PCF skill and health care skill for each reference role level, with level descriptions, from `exports/self-assessment/`
+- [x] Part B: UK GDaD PCF role statements, role-level statements, and reference responsibilities for each reference role level, from `reference.json` and `data/roles/*.yaml`
+- [x] Part C: every UK GDaD PCF skill and health care skill for each reference role level, with level descriptions, from `exports/self-assessment/`
 - [x] Add self-rating, manager rating, agreed rating, gap, evidence, and ILP action columns
 - [x] Add capability index formulas for Parts A, B, C, and overall
 - [x] Generate the instrument with a script from the reference data, not by hand, so it can be rebuilt when the reference changes
@@ -98,7 +98,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [x] M1 automation candidate analysis template, with B3 and B4, B5, and B6 and B7 variants
 - [x] M2 kata sets for each track (5, 8, 10, and 10 harder)
 - [x] M4 exercise sheet for every fixture on testingexamples.github.io
-- [x] M4 Playwright reading exercise, from `demo-playwright-javascript`
+- [x] M4 existing suite exercise, from `demo-selenium-javascript`
 - [x] M5 Given-When-Then template
 - [x] M6 existing FHIR test suite for B4-QA and B7-TM to read
 - [x] M7 existing pipeline with real failures for B3 and B4 triage (exercise written in `materials/modules/m7-continuous-integration/`; the failing runs must be created once the practice repository is on the organisation's CI)

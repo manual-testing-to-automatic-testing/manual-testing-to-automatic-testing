@@ -68,7 +68,7 @@ The scan supports checks 3 and 8 only, so every status below stays **not yet che
 | M4 | Fixture contract | not yet checked | | | |
 | M4 | Selenium JavaScript skill | not yet checked | | | |
 | M4 | Selenium JavaScript demo | not yet checked | | | |
-| M4 | Playwright JavaScript demo, and the Playwright reading exercise | not yet checked | | | |
+| M4 | Selenium JavaScript demo, and the existing suite exercise | not yet checked | | | |
 | M4 | Selenium documentation: WebDriver, locators, waits, select lists | not yet checked | | | |
 | M4 | Selenium IDE browser extension | not yet checked | | | Recording happens in a browser extension panel: check it with a screen reader and keyboard only, and plan an alternative, such as writing the steps by hand with the mentor |
 | M4 | Exercise sheet | not yet checked | | | |

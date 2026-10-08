@@ -26,7 +26,7 @@ Use agreed ratings. Meets counts as 1, Partly as 0.5, Not yet as 0. `scripts/cap
 | Part | Items | Meets | Partly | Not yet | Index (%) | Index at last gate (%) | Threshold (%) | Met? |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | A Band (21 dimensions) | 21 | | | | | | | |
-| B PCF role aspects | | | | | | | | |
+| B UK GDaD PCF role aspects | | | | | | | | |
 | C Skills | | | | | | | | |
 | **Overall** (mean of A, B, C) | — | — | — | — | | | 90 at Gate 4 (LO13) | |
 

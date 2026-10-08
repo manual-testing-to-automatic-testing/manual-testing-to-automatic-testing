@@ -15,7 +15,7 @@ This agreement is signed at Gate 0. It records the commitments that make the pro
 
 ## 2. What this programme is, and is not
 
-- It builds automated testing capability and helps you fully meet the band and PCF role you already hold.
+- It builds automated testing capability and helps you fully meet the band and UK GDaD PCF role you already hold.
 - **You stay in your current band and role.** Nothing in the programme changes band or role. Exceeding expectations is recorded as a strength.
 - **Gates are developmental only.** A gate result never starts a capability, performance, or conduct procedure by itself. Any such procedure follows the organisation's HR policy, separately.
 

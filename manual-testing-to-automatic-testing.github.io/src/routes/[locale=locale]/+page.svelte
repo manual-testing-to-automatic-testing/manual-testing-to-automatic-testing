@@ -61,7 +61,7 @@
       instruments: {
         title: 'Self-assessment instruments',
         description:
-          'The capability self-assessment for each track, as a TSV file: Part A band, Part B PCF role aspects, and Part C skills, with the scoring rules.'
+          'The capability self-assessment for each track, as a TSV file: Part A band, Part B UK GDaD PCF role aspects, and Part C skills, with the scoring rules.'
       },
       'materials/gates': {
         description:

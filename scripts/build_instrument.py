@@ -8,7 +8,7 @@ instruments/index.tsv. The instrument is defined in
 spec/index.md, section "Capability self-assessment":
 
 - Part A: 5 band outline dimensions (A1-A5) and 16 job evaluation factors (A6-A21)
-- Part B: PCF role statements (B1), PCF role level statements (B2), and
+- Part B: UK GDaD PCF role statements (B1), UK GDaD PCF role level statements (B2), and
   reference responsibilities (B3)
 - Part C: every skill in the reference role level
 
@@ -103,7 +103,7 @@ SCALE_SKILL = "0 Not yet | 1 Awareness | 2 Working | 3 Practitioner | 4 Expert"
 
 
 def bullets(text):
-    """Return the '- ' bullet lines of a PCF description."""
+    """Return the '- ' bullet lines of a UK GDaD PCF description."""
     return [m.strip() for m in re.findall(r"^- (.+)$", text or "", re.MULTILINE)]
 
 
@@ -174,13 +174,13 @@ def build_rows(ref, track, band_id, role_id, level_title):
             rating_scale=SCALE_FACTOR,
         )
 
-    # Part B: PCF role aspects.
+    # Part B: UK GDaD PCF role aspects.
     pcf_role = role.get("pcfRole") or {}
     for n, text in enumerate(bullets(pcf_role.get("description", "")), 1):
         add(
             part="B",
             item_id=f"B1.{n}",
-            dimension=f"PCF role: {pcf_role.get('name', role['title'])}",
+            dimension=f"UK GDaD PCF role: {pcf_role.get('name', role['title'])}",
             source="UK GDaD PCF role description",
             statement=text,
             expected_level="Meets",
@@ -190,7 +190,7 @@ def build_rows(ref, track, band_id, role_id, level_title):
         add(
             part="B",
             item_id=f"B2.{n}",
-            dimension=f"PCF role level: {level.get('pcfLevel', level_title)}",
+            dimension=f"UK GDaD PCF role level: {level.get('pcfLevel', level_title)}",
             source="UK GDaD PCF role level description",
             statement=text,
             expected_level="Meets",
@@ -271,7 +271,7 @@ def main():
         writer = csv.DictWriter(f, fieldnames=list(summary[0].keys()), delimiter="\t", lineterminator="\n")
         writer.writeheader()
         writer.writerows(summary)
-    print(f"Reference: {ref['meta']['title']}, PCF accessed {ref['meta']['pcf']['accessed']}")
+    print(f"Reference: {ref['meta']['title']}, UK GDaD PCF accessed {ref['meta']['pcf']['accessed']}")
 
 
 if __name__ == "__main__":

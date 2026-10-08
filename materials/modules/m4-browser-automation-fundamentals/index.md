@@ -9,7 +9,7 @@ All browser automation comes down to four things: **locate** an element, **act**
 ## Outcomes
 
 - **LO4:** locate, act, wait, and assert with Selenium WebDriver, using resilient locators.
-- **LO11:** read and make a small change to an existing Playwright suite.
+- **LO11:** read, run, and make a small change to an existing Selenium suite that someone else wrote.
 
 ## Depth by track
 
@@ -25,13 +25,13 @@ All browser automation comes down to four things: **locate** an element, **act**
 | 2 | Hours 45–52.5: locating with `By`: id, name, class name, link text, CSS, XPath | 2 hours | Core | Cohort |
 | 3 | Hours 45–52.5: locating practice on the fixture site | 1.5 hours | Practice | All; B3 and B4-QA pair with the mentor |
 | 4 | Hours 52.5–60: acting: `sendKeys`, `click`, `clear`, and the `Select` helper | 1.5 hours | Core | Cohort |
-| 5 | Hours 52.5–60: waiting: Selenium does not auto-wait; explicit waits with `driver.wait` and `until`; why `sleep` is never the answer; Playwright's auto-waiting, for comparison | 1.5 hours | Core | Cohort |
+| 5 | Hours 52.5–60: waiting: Selenium does not auto-wait; explicit waits with `driver.wait` and `until`; why `sleep` is never the answer | 1.5 hours | Core | Cohort |
 | 6 | Hours 52.5–60: Selenium IDE: record, export to JavaScript Mocha, then rewrite by hand and explain every line | 1.5 hours | Core | Cohort |
 | 7 | Hours 52.5–60: start the E4 script | 1 hour | Practice | All |
 | 8 | Hours 60–67.5: finish the E4 script, using the exercise sheet | 3 hours | Practice | All; B3 and B4-QA pair with the mentor |
-| 9a | Hours 60–67.5: Playwright reading and change exercise | 2 hours | Breakout | B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM |
+| 9a | Hours 60–67.5: existing suite exercise: read, run, and change `demo-selenium-javascript` | 2 hours | Breakout | B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM |
 | 9b | Hours 60–67.5: pair-through of the exercise sheet, continued | 2 hours | Breakout | B3, B4-QA, with mentor |
-| 10a | Hours 60–67.5: write the one-page comparison of how Selenium and Playwright wait | 1 hour | Breakout | B5-QA and above |
+| 10a | Hours 60–67.5: write the one-page explanation of how Selenium waits | 1 hour | Breakout | B5-QA and above |
 | 10b | Hours 60–67.5: exercise sheet review with the mentor | 1 hour | Breakout | B3, B4-QA, B4-TE |
 | 11 | Hours 60–67.5: locator strategy clinic, led by B7-TE | 30 minutes | Core | Cohort, led by B7-TE |
 
@@ -54,7 +54,7 @@ Each person's sessions add up to 17.5 hours: 5.5 in hours 45–52.5, 5.5 in hour
 4. Always end the browser session with `driver.quit()` in a `finally` block or an `after` hook, or browser processes leak.
 5. Record with the Selenium IDE browser extension, export the recording as JavaScript Mocha, then rewrite it by hand and explain every line.
 6. Work through [exercise-sheet.md](exercise-sheet.md).
-7. Work through [playwright-reading-exercise.md](playwright-reading-exercise.md).
+7. Work through the [existing suite exercise](existing-suite-exercise.md).
 
 ## Evidence
 
@@ -63,8 +63,8 @@ Each person's sessions add up to 17.5 hours: 5.5 in hours 45–52.5, 5.5 in hour
 | Part | Tracks |
 | --- | --- |
 | A Selenium WebDriver JavaScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class name, link text, CSS, and XPath) and acts on every form input | All tracks. B3 and B4-QA may complete this by pairing. |
-| A one-page comparison of how Selenium and Playwright wait | B5-QA, B6-QA, B6-TE, B7-TE, B7-TM |
-| A small change to `demo-playwright-javascript`, run successfully | B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM (B7-TM with support) |
+| A one-page explanation of how Selenium waits | B5-QA, B6-QA, B6-TE, B7-TE, B7-TM |
+| A small change to `demo-selenium-javascript`, an existing suite someone else wrote, run successfully | B4-TE, B5-QA, B6-QA, B6-TE, B7-TE, B7-TM (B7-TM with support) |
 
 ## Assessment
 
@@ -76,7 +76,7 @@ Gate 2 (hour 90) reviews E4 with E5. The Gate 2 Part D practical is "automate on
 - Fixture contract: <https://github.com/testingexamples/testingexamples.github.io/blob/main/spec/index.md>
 - Selenium JavaScript skill: <https://github.com/testingexamples/selenium-javascript-skill>
 - Selenium JavaScript demo: <https://github.com/testingexamples/demo-selenium-javascript>
-- Playwright JavaScript demo, for the reading exercise: <https://github.com/testingexamples/demo-playwright-javascript>
+- Selenium JavaScript demo, for the existing suite exercise: <https://github.com/testingexamples/demo-selenium-javascript>
 - Selenium documentation, WebDriver: <https://www.selenium.dev/documentation/webdriver/>
 - Selenium documentation, locators: <https://www.selenium.dev/documentation/webdriver/elements/locators/>
 - Selenium documentation, waits: <https://www.selenium.dev/documentation/webdriver/waits/>

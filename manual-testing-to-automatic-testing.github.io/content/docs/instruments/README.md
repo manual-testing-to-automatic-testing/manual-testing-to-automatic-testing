@@ -18,7 +18,7 @@ One instrument for each track, named in words (lower case, with dashes), generat
 ## Parts
 
 - **Part A, band (A1 to A21):** the 5 band outline dimensions, rated Not yet, Partly, or Meets, and the 16 job evaluation factors, rated as the factor level the person works at regularly. The reference level and every level summary are in `expected_level_description`. For B3, the factor levels are blank: agree them at Gate 0 from the job description, with a total within 216 to 270 points, and write them into `expected_level` and `expected_level_number`.
-- **Part B, PCF role aspects:** B1 PCF role statements, B2 PCF role level statements, B3 reference responsibilities, rated Not yet, Partly, or Meets.
+- **Part B, UK GDaD PCF role aspects:** B1 UK GDaD PCF role statements, B2 UK GDaD PCF role level statements, B3 reference responsibilities, rated Not yet, Partly, or Meets.
 - **Part C, skills:** every skill for the reference role level, rated 0 to 4. `next_level_description` shows what the next level looks like. The test engineering row also states the track's programme automation target.
 
 Part D, the automation practical, is not in these files. See `../materials/gates/`.

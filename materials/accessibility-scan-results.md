@@ -1,6 +1,6 @@
 # Accessibility scan results
 
-Automated axe-core scan of every web resource in the [reading list](reading-list.md), run on 2026-10-07 with `scripts/accessibility-scan/` (axe-core rules for WCAG 2.0, 2.1, and 2.2, levels A and AA, in Chromium).
+Automated axe-core scan of every web resource in the [reading list](reading-list.md), run on 2026-10-08 with `scripts/accessibility-scan/` (axe-core rules for WCAG 2.0, 2.1, and 2.2, levels A and AA, in Chromium).
 
 An automated scan finds only some problems. It supports checks 3 (contrast) and 8 (images and diagrams) in the [accessibility check](accessibility-check.md). Every resource still needs the manual checks there before it is marked **passed**.
 
@@ -16,7 +16,6 @@ Pages change. Re-run the scan before each cohort.
 | <https://git-scm.com/book/en/v2> | Issues found | 4 | `image-alt`: critical, 4; `color-contrast`: serious, 119; `link-in-text-block`: serious, 4; `link-name`: serious, 2 |
 | <https://github.com/dequelabs/axe-core-npm/tree/develop/packages/webdriverjs> | Issues found | 1 | `target-size`: serious, 18 |
 | <https://github.com/testingexamples> | No automated issues | 0 | — |
-| <https://github.com/testingexamples/demo-playwright-javascript> | Issues found | 2 | `target-size`: serious, 3; `valid-lang`: serious, 2 |
 | <https://github.com/testingexamples/demo-selenium-javascript> | Issues found | 2 | `target-size`: serious, 3; `valid-lang`: serious, 2 |
 | <https://github.com/testingexamples/demo-selenium-javascript-for-nhs-wales> | Issues found | 2 | `target-size`: serious, 3; `valid-lang`: serious, 2 |
 | <https://github.com/testingexamples/selenium-javascript-skill> | Issues found | 1 | `target-size`: serious, 3 |
@@ -53,4 +52,4 @@ Pages change. Re-run the scan before each cohort.
 | <https://www.selenium.dev/documentation/webdriver/waits/> | Issues found | 4 | `aria-allowed-attr`: critical, 1; `aria-valid-attr`: critical, 3; `color-contrast`: serious, 64; `list`: serious, 1 |
 | <https://www.selenium.dev/selenium-ide/> | Issues found | 3 | `color-contrast`: serious, 1; `html-has-lang`: serious, 1; `link-in-text-block`: serious, 4 |
 
-Summary: 44 pages; 42 scanned; 18 with no automated issues; 24 with issues; 2 could not be scanned.
+Summary: 43 pages; 41 scanned; 18 with no automated issues; 23 with issues; 2 could not be scanned.

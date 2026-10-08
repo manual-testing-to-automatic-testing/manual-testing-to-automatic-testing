@@ -12,7 +12,7 @@ Each person, their line manager, and the training lead agree where the person st
 - A track, an individual learning plan (ILP), and a signed learning agreement.
 - A working development environment.
 
-M0 supports LO13 (fully meet the person's own band and PCF role).
+M0 supports LO13 (fully meet the person's own band and UK GDaD PCF role).
 
 ## Depth by track
 

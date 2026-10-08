@@ -6,7 +6,7 @@ This guide is for participants and line managers. It explains how to complete th
 
 - **The gates are developmental only.** A gate result never starts a capability, performance, or conduct procedure by itself. Any such procedure follows the organisation's HR policy, separately (spec Principle 14).
 - **A gap is not a failing.** Gaps are expected. They show where development is most useful.
-- **Nobody changes band.** You are rated against the band and PCF role you already hold. Rating above expectation is a strength, not a claim for regrading.
+- **Nobody changes band.** You are rated against the band and UK GDaD PCF role you already hold. Rating above expectation is a strength, not a claim for regrading.
 - **Honest ratings help you.** Your individual learning plan (ILP) is built from your gaps. Inflated ratings hide the gaps you most need help with.
 
 ## The instrument
@@ -14,8 +14,8 @@ This guide is for participants and line managers. It explains how to complete th
 Your track's file is the track's file in `instruments/`, such as `instruments/band-5-quality-assurance-test-analyst.tsv` (see `instruments/README.md`). It has:
 
 - **Part A, band (21 items):** A1 to A5 are the band outline dimensions, rated Not yet, Partly, or Meets. A6 to A21 are the 16 job evaluation factors: you choose the factor level that best describes what you do regularly now.
-- **Part B, PCF role aspects:** every statement in your PCF role description and role level description, and every reference responsibility, rated Not yet, Partly, or Meets.
-- **Part C, skills:** every PCF skill and health care skill in your role, rated 0 Not yet, 1 Awareness, 2 Working, 3 Practitioner, 4 Expert.
+- **Part B, UK GDaD PCF role aspects:** every statement in your UK GDaD PCF role description and role level description, and every reference responsibility, rated Not yet, Partly, or Meets.
+- **Part C, skills:** every UK GDaD PCF skill and health care skill in your role, rated 0 Not yet, 1 Awareness, 2 Working, 3 Practitioner, 4 Expert.
 
 You complete every item at every gate, even items you rated last time. The same instrument repeats so you can see your progress on the whole role.
 

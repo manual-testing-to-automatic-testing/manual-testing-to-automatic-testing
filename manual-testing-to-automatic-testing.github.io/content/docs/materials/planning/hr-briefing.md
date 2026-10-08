@@ -9,7 +9,7 @@ We plan a development programme of 220 hours of protected learning time, by defa
 ## Background
 
 - Each tester has been given a UK GDaD PCF role and role level.
-- The programme measures each person at six gates against their own band, their PCF role, and their role's skills, using a self-assessment that the manager also rates. The full design is in [spec/index.md](../../spec/index.md).
+- The programme measures each person at six gates against their own band, their UK GDaD PCF role, and their role's skills, using a self-assessment that the manager also rates. The full design is in [spec/index.md](../../spec/index.md).
 - The self-assessment uses the organisation's band outlines and the 16 job evaluation factors, from the illustrative roles-skills reference. The factors are used as a self-assessment of how fully a person works at their job's level. **This is not a job evaluation and never changes a job's band.**
 
 ## What we ask HR to agree

@@ -24,6 +24,6 @@ export const load = ({ params }) => {
     home: localeHref(locale),
     title: pageTitle('Self-assessment'),
     description:
-      'The capability self-assessment for each track: the band (21 dimensions), PCF role aspects, and every skill in the role, scored in your browser.'
+      'The capability self-assessment for each track: the band (21 dimensions), UK GDaD PCF role aspects, and every skill in the role, scored in your browser.'
   };
 };

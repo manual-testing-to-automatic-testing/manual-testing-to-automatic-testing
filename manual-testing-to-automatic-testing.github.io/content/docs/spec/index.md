@@ -14,11 +14,11 @@ The programme comes in **eight tuned tracks**, one for each band and assigned ro
 **Gates are the backbone of the programme.** At every gate, each person completes the same full **capability self-assessment**, which their manager also rates:
 
 - **Part A, band:** all 21 band dimensions. These are the 5 band outline dimensions and the 16 job evaluation factors.
-- **Part B, PCF role aspects:** every PCF role and role level statement, plus the reference responsibilities.
+- **Part B, UK GDaD PCF role aspects:** every UK GDaD PCF role and role level statement, plus the reference responsibilities.
 - **Part C, skills:** every UK GDaD PCF skill in the assigned role, plus the health care skills.
 - **Part D, automation practical:** a short performance task for the track.
 
-The toolset is **JavaScript** on Node.js, **Selenium WebDriver** for the browser, and **Mocha** with Node's built-in `node:assert/strict` for tests, in Visual Studio Code, with git and the organisation's continuous integration (CI) service. Playwright is taught for reading and making small changes to existing suites. Nothing in the programme needs Docker: every tool, including the FHIR sandbox, runs with Node.js and Chrome alone.
+The toolset is **JavaScript** on Node.js, **Selenium WebDriver** for the browser, and **Mocha** with Node's built-in `node:assert/strict` for tests, in Visual Studio Code, with git and the organisation's continuous integration (CI) service.
 
 This document is the **single source of truth** for the programme. [../plan.md](../plan.md) explains why it is shaped this way. [../tasks.md](../tasks.md) lists the work to build and run it. If the three disagree, this document wins, and the disagreement is a defect to fix before doing anything else.
 
@@ -28,7 +28,7 @@ In scope:
 
 - Manual testers at Bands 3, 4, 5, 6, and 7 in the quality assurance testing role family, each with a UK GDaD PCF role.
 - A cohort of up to 12 people, in any mix of tracks, sharing mentors and core sessions.
-- Formal measurement of each person's capability against their **current** band, PCF role level, and skills, at every gate.
+- Formal measurement of each person's capability against their **current** band, UK GDaD PCF role level, and skills, at every gate.
 - Closing role and skill gaps that are not about automation, because capability is measured across the whole role.
 - A Lean Six Sigma Green Belt, with a lifetime certification, for every participant, applied to their own team's testing process.
 - Automated testing: browser, API and integration tests, an introduction to unit tests, CI pipelines, test code quality, synthetic test data, and traceability to clinical safety evidence, at a depth set per track.
@@ -90,7 +90,7 @@ Each person joins the track for their **band** and **UK GDaD PCF role**.
 | B7-TE | 7 | Test engineer | Senior test engineer | 477 | 466–539 |
 | B7-TM | 7 | Test manager | Test manager | 499 | 466–539 |
 
-**Band 3:** the roles-skills reference has no quality assurance testing role level at Band 3. Its associate levels sit at Band 4, at 275 points. The B3 track therefore uses the associate PCF role level for Parts B and C, and the Band 3 outline for Part A. The expected job evaluation factor levels for Part A are agreed at Gate 0 from the person's own job description, with a total within 216 to 270 points.
+**Band 3:** the roles-skills reference has no quality assurance testing role level at Band 3. Its associate levels sit at Band 4, at 275 points. The B3 track therefore uses the associate UK GDaD PCF role level for Parts B and C, and the Band 3 outline for Part A. The expected job evaluation factor levels for Part A are agreed at Gate 0 from the person's own job description, with a total within 216 to 270 points.
 
 **Mapping rule for other combinations.** If a person's band and assigned role have no reference role level, for example a Band 5 test engineer or a Band 7 quality assurance test analyst:
 
@@ -140,12 +140,12 @@ Rating: **Not yet**, **Partly**, or **Meets**.
 
 "G0" means agreed at Gate 0 (see [Tracks](#tracks)). A factor **meets** when the agreed level is at or above the reference level. A factor at one level below is **Partly**. Two or more levels below is **Not yet**. Effort and working-conditions factors (A18 to A21) describe the job's demands. They are rated so the picture is complete, are almost always **Meets**, and are reviewed only if the person reports a mismatch, which may need a reasonable adjustment.
 
-#### Part B: PCF role aspects
+#### Part B: UK GDaD PCF role aspects
 
 Part B has one item for each statement in:
 
-- **B1, the PCF role description:** each "In this role, you will" statement for the UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager).
-- **B2, the PCF role level description:** each "At this role level, you will" statement for the person's reference role level.
+- **B1, the UK GDaD PCF role description:** each "In this role, you will" statement for the UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager).
+- **B2, the UK GDaD PCF role level description:** each "At this role level, you will" statement for the person's reference role level.
 - **B3, the reference responsibilities:** each responsibility listed for the reference role level in `data/roles/<role>.yaml`, which adds the health care context.
 
 Rating: **Not yet**, **Partly**, or **Meets**, each with evidence.
@@ -220,9 +220,9 @@ Each track meets each outcome at a set depth: **R** read and explain, **S** with
 | LO8 | Use synthetic data and keep secrets and personal data out of tests and pipelines. | I | I | I | I | I | I | L | L |
 | LO9 | Trace automated tests to hazards and produce test evidence for a clinical safety case. | R | S | S | I | L | I | L | L |
 | LO10 | Diagnose flaky tests and measure suite health with flow metrics. | R | R | S | S | I | I | L | L |
-| LO11 | Read and make a small change to an existing Playwright suite. | — | R | S | S | S | I | I | S |
+| LO11 | Read, run, and make a small change to an existing Selenium suite that someone else wrote. | — | R | S | S | S | I | I | S |
 | LO12 | Plan, build or lead, and explain an automated regression suite for a real service. | S | S | S | I | L | I | L | L |
-| LO13 | Fully meet the person's own band and PCF role, measured by the capability self-assessment. | All tracks: overall capability index of at least 90% at Gate 4 |
+| LO13 | Fully meet the person's own band and UK GDaD PCF role, measured by the capability self-assessment. | All tracks: overall capability index of at least 90% at Gate 4 |
 | LO14 | Apply Lean Six Sigma (DMAIC) to measure and improve a testing process, and hold a Green Belt certification that does not expire. | S | S | S | I | L | I | L | L |
 
 ### Schedule and time
@@ -360,10 +360,10 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 - **Outcomes:** LO4, LO11.
 - **Evidence E4:**
   - a Selenium WebDriver JavaScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class name, link text, CSS, and XPath), waits explicitly, and acts on every form input, including the select with Selenium's `Select` helper. B3 and B4-QA may complete this by pairing.
-  - a one-page comparison of how Selenium and Playwright wait, and why `sleep` is never the answer (B5 and above)
-  - one small change to the `demo-playwright-javascript` example, run successfully (B4-TE, B5 and above; B7-TM with support).
+  - a one-page explanation of how Selenium waits, and why `sleep` is never the answer (B5 and above)
+  - one small change to the `demo-selenium-javascript` example, an existing suite that someone else wrote, run successfully (B4-TE, B5 and above; B7-TM with support).
 - **Activities:** locate, act, wait, assert; locator strategy (ids and agreed test ids first, then CSS and link text, XPath last); explicit waits with `driver.wait(until...)`, and why Selenium does not wait for you; clicking only when an element is in view and on top; always quitting the driver; recording with Selenium IDE, exporting to JavaScript Mocha, then rewriting the recording by hand and explaining every line.
-- **Resources:** testingexamples `selenium-javascript-skill`, `demo-selenium-javascript`, `playwright-javascript-skill`, `demo-playwright-javascript`; the fixture contract `testingexamples.github.io/spec/index.md`; the Selenium WebDriver documentation; Selenium IDE.
+- **Resources:** testingexamples `selenium-javascript-skill` and `demo-selenium-javascript`; the fixture contract `testingexamples.github.io/spec/index.md`; the Selenium WebDriver documentation; Selenium IDE.
 
 #### M5 From walkthrough to real test (hours 67.5–90), spiral pass 2
 
@@ -584,7 +584,7 @@ Following PADDIE+M, the training lead:
 
 - reviews this specification after every cohort, and at least once a year
 - rebuilds the capability self-assessment whenever the roles-skills reference changes a band, factor, role level, or skill
-- checks tool versions (Node.js, Chrome, Selenium WebDriver, Mocha, Playwright) and links every 6 months
+- checks tool versions (Node.js, Chrome, Selenium WebDriver, Mocha) and links every 6 months
 - records every change in the [change log](#change-log).
 
 ### Decisions
@@ -643,14 +643,15 @@ Coverage check, outcome to evidence:
 - UK Government Digital and Data Profession Capability Framework: <https://understand-digital-data-roles-skills.service.gov.uk/>. Contains public sector information licensed under the Open Government Licence v3.0. © Crown copyright.
 - Testing Examples: `~/git/testingexamples/`, published at <https://testingexamples.github.io>.
 - Lean Six Sigma: testingexamples "How does Six Sigma lead manual testing into automatic testing?" (<https://testingexamples.github.io/en-001/what-is-lean-six-sigma-for-automatic-testing/>); the certification body's Green Belt body of knowledge (Decision D8).
-- HL7 FHIR: <https://hl7.org/fhir/>. Selenium: <https://www.selenium.dev/>. Mocha: <https://mochajs.org/>. Playwright: <https://playwright.dev/>.
+- HL7 FHIR: <https://hl7.org/fhir/>. Selenium: <https://www.selenium.dev/>. Mocha: <https://mochajs.org/>.
 
 ## Change log
 
 | Date | Change |
 | --- | --- |
 | 2026-10-07 | First version: one learner moving from Band 5 to Band 6. |
-| 2026-10-07 | Rewritten: eight tuned tracks for Bands 3 to 7, no band changes, a full capability self-assessment (21 band dimensions, PCF role aspects, all role skills) at every gate, and capability thresholds per gate. |
+| 2026-10-07 | Rewritten: eight tuned tracks for Bands 3 to 7, no band changes, a full capability self-assessment (21 band dimensions, UK GDaD PCF role aspects, all role skills) at every gate, and capability thresholds per gate. |
+| 2026-10-08 | Revised: "UK GDaD PCF" in full everywhere, and "UK GDaD PCF role" for the role a person has; Playwright removed from the training, so LO11 and E4 use an existing Selenium suite that someone else wrote (`demo-selenium-javascript`); the toolset sentence about Docker removed. |
 | 2026-10-07 | Added M11 Lean Six Sigma Green Belt, lifetime certification: 40 hours at the end of every track (hours 180–220), with LO14, E11, and Decision D8. The programme is 220 hours (280 with the B3 and B4 extension); completion needs Gate 4 and the certification. |
 | 2026-10-07 | Revised: timelines in hours. Every track has 180 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), with an hour budget that totals 180; the schedule, gates, and time commitments are in programme hours; B3 and B4 may extend to 240 hours. |
 | 2026-10-07 | Revised: JavaScript with Selenium WebDriver and Mocha replaces TypeScript with Playwright (Playwright becomes the reading-only tool for LO11); no Docker anywhere, with a JavaScript FHIR sandbox; Principle 10, wait explicitly; the informal capability estimate removed. |

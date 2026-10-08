@@ -22,7 +22,7 @@ Agreed at Gate 0. Updated at every gate.
 | Part | Capability index |
 | --- | --- |
 | A Band (21 dimensions) | % |
-| B PCF role aspects | % |
+| B UK GDaD PCF role aspects | % |
 | C Skills | % |
 | **Overall (mean of A, B, C)** | % |
 

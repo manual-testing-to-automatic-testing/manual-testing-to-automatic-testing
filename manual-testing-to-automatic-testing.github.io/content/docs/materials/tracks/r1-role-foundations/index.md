@@ -9,7 +9,7 @@ R1 runs from hour 0 to hour 180 for every track. It closes the role and skill ga
 ## Turning ILP gaps into practice in every 7.5 hours of learning
 
 1. **Pick the gap.** Take one of the top 3 ILP gaps for this gate period. Clinical risk management and information governance come first if they are gaps, because they must meet expectations by Gate 2.
-2. **Read the target.** Read the expectation for the item: the band outline text (A1 to A5), the factor level summary (A6 to A21), the PCF statement (Part B), or the "You can …" statements at the expected level (Part C).
+2. **Read the target.** Read the expectation for the item: the band outline text (A1 to A5), the factor level summary (A6 to A21), the UK GDaD PCF statement (Part B), or the "You can …" statements at the expected level (Part C).
 3. **Name one behaviour.** Write one thing the person will do regularly that would show the item. Keep it small and observable, such as "I write the risk summary in every sprint test report".
 4. **Choose a practice activity** from the tables below, or agree one.
 5. **Do it for real.** Use the person's own team and product. Where possible, combine it with the real automation work in the same hours.
@@ -19,7 +19,7 @@ R1 runs from hour 0 to hour 180 for every track. It closes the role and skill ga
 
 Rule of thumb: one gap at a time for B3 and B4, up to two at a time for B5 to B7.
 
-## Practice activities for each PCF skill
+## Practice activities for each UK GDaD PCF skill
 
 Choose activities at the person's expected level. Lower-band tracks start at the top of each list.
 
@@ -112,4 +112,4 @@ Factors A10, A11, A13, A16, A18, A20, and A21 rarely show gaps for testers. If t
 
 ## Using Part B items
 
-Part B items are PCF role statements and reference responsibilities, such as "analyse artefacts and prototypes" or "trace tests to hazards and safety controls". Treat each one the same way as a skill: name one regular behaviour, practise it in real work, and collect evidence. Many Part B items are met through the core modules; use R1 for the ones that are not.
+Part B items are UK GDaD PCF role statements and reference responsibilities, such as "analyse artefacts and prototypes" or "trace tests to hazards and safety controls". Treat each one the same way as a skill: name one regular behaviour, practise it in real work, and collect evidence. Many Part B items are met through the core modules; use R1 for the ones that are not.

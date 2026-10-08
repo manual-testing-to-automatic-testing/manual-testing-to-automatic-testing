@@ -58,7 +58,7 @@ Practice on the fixture site, local services, and your own test environments. Re
 | Fixture contract | <https://github.com/testingexamples/testingexamples.github.io/blob/main/spec/index.md> | Markdown |
 | Selenium JavaScript skill | <https://github.com/testingexamples/selenium-javascript-skill> | Markdown |
 | Selenium JavaScript demo | <https://github.com/testingexamples/demo-selenium-javascript> | Code |
-| Playwright JavaScript demo, for the reading exercise | <https://github.com/testingexamples/demo-playwright-javascript> | Code |
+| Selenium JavaScript demo, for the existing suite exercise | <https://github.com/testingexamples/demo-selenium-javascript> | Code |
 | Selenium: WebDriver | <https://www.selenium.dev/documentation/webdriver/> | Web |
 | Selenium: locators | <https://www.selenium.dev/documentation/webdriver/elements/locators/> | Web |
 | Selenium: waits | <https://www.selenium.dev/documentation/webdriver/waits/> | Web |
@@ -141,4 +141,4 @@ Everything above, plus:
 
 ## Other languages and tools (after Gate 2)
 
-Principle 9 says one language and one tool first. After Gate 2, people who want to compare can read the sibling skills and demos for Python, TypeScript, Java, C#, and Rust, for both Selenium and Playwright, at <https://github.com/testingexamples>.
+Principle 9 says one language and one tool first. After Gate 2, people who want to compare can read the sibling Selenium skills and demos for Python, TypeScript, Java, C#, and Rust, at <https://github.com/testingexamples>.

@@ -84,7 +84,7 @@ Write a translation with its links exactly as they are in the English source; `p
 ## What is translated
 
 - **Translated:** every document's prose, headings, tables, and lists; the website's interface strings; the band outlines, job evaluation factors, health care skills, and reference responsibilities in the self-assessment, from the roles-skills reference's translation.
-- **Never translated:** quotations from the UK GDaD PCF (role and role level statements, PCF skill names and level descriptions), which stay in English as quotations; product and tool names (Playwright, Selenium, TypeScript, HAPI FHIR, GitHub); code, commands, file names, and paths; ids (`B5-QA`, `LO4`, `E10`, `D7`, `A17`); and the rating codes in exported TSV files (`Meets`, `Partly`, `Not yet`), so that `scripts/capability_index.py` reads every locale's export.
+- **Never translated:** quotations from the UK GDaD PCF (role and role level statements, UK GDaD PCF skill names and level descriptions), which stay in English as quotations; product and tool names (Selenium, Mocha, Node.js, HAPI FHIR, GitHub); code, commands, file names, and paths; ids (`B5-QA`, `LO4`, `E10`, `D7`, `A17`); and the rating codes in exported TSV files (`Meets`, `Partly`, `Not yet`), so that `scripts/capability_index.py` reads every locale's export.
 
 ## URLs
 

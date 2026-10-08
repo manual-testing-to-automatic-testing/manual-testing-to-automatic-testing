@@ -117,7 +117,7 @@
   const pct = (v: number | undefined) => (v === undefined ? '—' : `${Math.round(v)}%`);
   const PARTS: { id: Part; heading: string; intro: string }[] = [
     { id: 'A', heading: 'Part A: band', intro: 'The 5 band outline dimensions, and the 16 job evaluation factors rated as the level you work at regularly.' },
-    { id: 'B', heading: 'Part B: PCF role aspects', intro: 'Every PCF role statement (B1), role level statement (B2), and reference responsibility (B3).' },
+    { id: 'B', heading: 'Part B: UK GDaD PCF role aspects', intro: 'Every UK GDaD PCF role statement (B1), role level statement (B2), and reference responsibility (B3).' },
     { id: 'C', heading: 'Part C: skills', intro: 'Every skill in the reference role level, rated 0 to 4.' }
   ];
 
