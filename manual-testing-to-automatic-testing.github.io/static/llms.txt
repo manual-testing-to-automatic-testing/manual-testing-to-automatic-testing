@@ -6,6 +6,8 @@
 
 - [Programme specification](https://manual-testing-to-automatic-testing.github.io/en-001/spec/): the single source of truth
 - [Curriculum](https://manual-testing-to-automatic-testing.github.io/en-001/curriculum/): learning outcomes, schedule, modules, and gates, in one place
+- [Mentor](https://manual-testing-to-automatic-testing.github.io/en-001/mentor/): what a mentor does, why, and the time it takes
+- [Line manager](https://manual-testing-to-automatic-testing.github.io/en-001/manager/): what a line manager does, why, and the time it takes
 - [Plan](https://manual-testing-to-automatic-testing.github.io/en-001/plan/): why the programme is shaped this way
 - [Tasks](https://manual-testing-to-automatic-testing.github.io/en-001/tasks/): the work to build and run it
 - [Tracks](https://manual-testing-to-automatic-testing.github.io/en-001/tracks/): one page per band and role, with its guide and its capability self-assessment, scored in the browser

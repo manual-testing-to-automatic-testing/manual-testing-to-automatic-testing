@@ -546,10 +546,10 @@ Every gate repeats the full capability self-assessment (Parts A to C) with calib
 | Gate | Programme hour | Module evidence | Part D practical | Reviewers |
 | --- | --- | --- | --- | --- |
 | Gate 0 | 60 | Evidence 0–3 | — (unscored diagnostic only) | Person, line manager, mentor, training lead |
-| Gate 1 | 105 | Evidence 7–6 | Fix a failing unit test and open a pull request | Line manager, mentor |
-| Gate 2 | 150 | Evidence 10–8 | Automate one given manual test case on the fixture site (Band 3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
-| Gate 3 | 187.5 | Evidence 12–10 | Triage and fix a failing CI run (Band 6 and Band 7 test engineering: plus an API test; Band 7 test management: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
-| Gate 4 | 240 | Evidence 14–13 | Live run and explanation of the capstone | Gate 4 panel |
+| Gate 1 | 105 | Evidence 4–6 | Fix a failing unit test and open a pull request | Line manager, mentor |
+| Gate 2 | 150 | Evidence 7–8 | Automate one given manual test case on the fixture site (Band 3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
+| Gate 3 | 187.5 | Evidence 9–10 | Triage and fix a failing CI run (Band 6 and Band 7 test engineering: plus an API test; Band 7 test management: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
+| Gate 4 | 240 | Evidence 11–13 | Live run and explanation of the capstone | Gate 4 panel |
 | Certification | By 280 | Evidence 14 | The Green Belt certification exam, set by the certification body (Decision 8) | Certification body; the training lead and mentor review the project |
 | Gate 5 | About six months after Gate 4 | Six months of work | Demonstrate a recent automated change | Line manager, training lead |
 

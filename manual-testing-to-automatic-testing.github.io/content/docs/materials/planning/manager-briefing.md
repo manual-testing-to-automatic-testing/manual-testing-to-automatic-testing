@@ -57,4 +57,4 @@ The person gets up to 22.5 extra learning hours on the items below threshold, wi
 
 ## Time you'll need
 
-About 1 hour every 15 learning hours, plus about 2 hours for each gate: around 24 hours over the programme for each person you manage.
+About 1 hour every 15 learning hours, plus about 2 hours for each gate: around 31 hours over the programme for each person you manage. See the [line manager](../manager.md) page.

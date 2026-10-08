@@ -1,6 +1,6 @@
 # Gate 4 panel guide
 
-Gate 4 (hour 240) decides whether a person's capability meets the programme's standard. Completion also needs the Lean Six Sigma Green Belt that follows (Module 14, Evidence 14). The panel reviews the full capability self-assessment, the Part D practical, and evidence Evidence 14 to 13.
+Gate 4 (hour 240) decides whether a person's capability meets the programme's standard. Completion also needs the Lean Six Sigma Green Belt that follows (Module 14, Evidence 14). The panel reviews the full capability self-assessment, the Part D practical, and evidence Evidence 11 to 13.
 
 ## The panel
 

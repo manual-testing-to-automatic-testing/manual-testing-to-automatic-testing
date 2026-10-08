@@ -51,6 +51,7 @@ Find your role, and work down its checklist. The roles are listed in the order t
 
 ### Line manager
 
+- [ ] Read the [line manager](materials/manager.md) page: what you do, why, and about 31 hours per person.
 - [ ] Read the [manager briefing](materials/planning/manager-briefing.md) and the [calibration guide](materials/gates/calibration-guide.md).
 - [ ] Sign the [learning agreement](materials/gates/learning-agreement-template.md), and protect the learning time in both calendars.
 - [ ] At every gate, rate your person independently in their track's [self-assessment](instruments/README.md), then agree each rating with them using evidence.
@@ -58,6 +59,7 @@ Find your role, and work down its checklist. The roles are listed in the order t
 
 ### Mentor
 
+- [ ] Read the [mentor](materials/mentor.md) page: what you do, why, and about 38.5 hours per participant.
 - [ ] Read your participants' [track guides](materials/tracks/index.md) and the [modules](materials/modules/index.md).
 - [ ] Get the [practice repository](practice-repo/README.md) working on your own machine: `npm ci`, then `npm test`.
 - [ ] Sign off each participant's three basics walkthroughs (Module 0 to Module 2) before Gate 0.

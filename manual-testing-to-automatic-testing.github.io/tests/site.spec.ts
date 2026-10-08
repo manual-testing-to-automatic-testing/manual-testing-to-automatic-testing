@@ -121,3 +121,12 @@ test('old URLs forward to the flat ones', async ({ page }) => {
   await page.goto('/en-001/self-assessment/band-5-quality-assurance-test-analyst/');
   await expect(page).toHaveURL(/\/en-001\/track-for-band-5-quality-assurance-test-analyst\/#self-assessment$/);
 });
+
+test('the mentor and line manager pages explain the role and its time', async ({ page }) => {
+  await page.goto('/en-001/mentor/');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Mentor');
+  await expect(page.getByText(/About 38\.5 per participant/)).toBeVisible();
+  await page.goto('/en-001/manager/');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Line manager');
+  await expect(page.getByText(/About 31 per person/)).toBeVisible();
+});
