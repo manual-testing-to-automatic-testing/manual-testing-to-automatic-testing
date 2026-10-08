@@ -142,9 +142,9 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 ### Module 0 Basics of a programming language (hours 0–20)
 
 - **Outcomes:** Learning outcome 15.
-- **Evidence 0:** a walkthrough to the mentor of a simple JavaScript function (or one in another language the mentor agreed) that uses variables, functions, conditionals, and loops. The person runs it in OneCompiler, in their own browser, and explains it line by line. The mentor signs it off.
-- **Activities:** a 30-minute start with the mentor; using OneCompiler's JavaScript editor (<https://onecompiler.com/javascript>) in the browser, with nothing to install; reading and writing JavaScript: values and variables, functions, conditionals, loops, arrays and objects, and printing results; running code in OneCompiler; reading other people's short functions aloud.
-- **Resources:** MDN's JavaScript guide; OneCompiler's JavaScript editor; the practice repository's first katas, for reading only.
+- **Evidence 0:** a walkthrough to the mentor of a simple JavaScript function (or one in another language the mentor agreed) that uses variables, functions, conditionals, and loops. The person runs it on their own system and explains it line by line. The mentor signs it off.
+- **Activities:** a 30-minute start with the mentor; setting up Node.js and Visual Studio Code on the person's own system; reading and writing JavaScript: values and variables, functions, conditionals, loops, arrays and objects, and printing results; running code with `node`; reading other people's short functions aloud.
+- **Resources:** MDN's JavaScript guide; the Node.js "Introduction to Node.js" guide; the practice repository's first katas, for reading only.
 - **Materials:** [materials/modules/module-0-basics-of-a-programming-language/](materials/modules/module-0-basics-of-a-programming-language/index.md)
 
 ### Module 1 Basics of a browser automator (hours 20–40)
@@ -157,7 +157,7 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
   - fills in form fields, and submits the form.
 
   The person runs it on their own system and explains it step by step. The mentor signs it off.
-- **Activities:** installing Node.js (the long-term support version) and Visual Studio Code on the person's own system; installing `selenium-webdriver`, with Selenium Manager providing the Chrome driver; `driver.get`; waiting with `driver.wait` and `until`; `By.id`; `getText`; `click`; `Select`; `sendKeys`; submitting; `driver.quit`.
+- **Activities:** installing `selenium-webdriver`, with Selenium Manager providing the Chrome driver; `driver.get`; waiting with `driver.wait` and `until`; `By.id`; `getText`; `click`; `Select`; `sendKeys`; submitting; `driver.quit`.
 - **Resources:** the Selenium documentation, "Getting started"; testingexamples `selenium-javascript-skill` and `demo-selenium-javascript`; the fixture site <https://testingexamples.github.io/en-001/practice/>.
 - **Materials:** [materials/modules/module-1-basics-of-a-browser-automator/](materials/modules/module-1-basics-of-a-browser-automator/index.md)
 

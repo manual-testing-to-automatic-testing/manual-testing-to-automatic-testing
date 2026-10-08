@@ -21,7 +21,7 @@ The line manager does not decide band, pay, or role through this programme, and 
 | Programme hours | Stage | What the line manager does |
 | --- | --- | --- |
 | Before hour 0 | Planning | Attends the 60-minute [line manager briefing](planning/manager-briefing.md); agrees the protected time and pace; puts the time in both calendars; reduces the person's delivery work with their product owner. |
-| 0–60 | The basics, Modules 0 to 2 | Checks in every 15 learning hours; makes sure the person can use OneCompiler in a browser for Module 0, and can install and run Node.js, Chrome, and VS Code on their own system for Module 1, and can use the AI assistant the organisation allows. |
+| 0–60 | The basics, Modules 0 to 2 | Checks in every 15 learning hours; makes sure the person can install and run Node.js, Chrome, and VS Code on their own system, and can use the AI assistant the organisation allows. |
 | 60 | Gate 0 and [Module 3 Induction](modules/module-3-induction/index.md) | Rates the person's baseline independently; calibrates with them; agrees the [individual learning plan](gates/individual-learning-plan-template.md); signs the [learning agreement](gates/learning-agreement-template.md). |
 | 60–240 | Modules 4 to 13 | Checks in every 15 learning hours on the individual learning plan, blockers, and protected time; from hour 127.5, helps find real work to automate on the team's product; at Gates 1 to 4 (hours 105, 150, 187.5, and 240), rates independently and calibrates. |
 | 240–280 | [Module 14 Lean Six Sigma Green Belt](modules/module-14-lean-six-sigma-green-belt/index.md) | Supports the person's Green Belt project on the team's testing process, with the product owner as sponsor. |
