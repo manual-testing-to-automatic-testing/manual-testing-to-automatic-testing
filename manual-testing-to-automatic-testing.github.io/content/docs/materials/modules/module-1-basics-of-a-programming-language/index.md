@@ -4,7 +4,7 @@ Hours 0–20, 20 hours, the same for every track. Signed off by the mentor with 
 
 ## Purpose
 
-Every later module reads and writes code. Module 1 gives each person a first, unhurried pass at a programming language, so that code stops being a wall of symbols and becomes something they can read aloud, run, and explain. Module 6 builds on it with unit tests, katas, and the team's standards.
+Every later module reads and writes code. Module 1 gives each person a first, unhurried pass at a programming language, so that code stops being a wall of symbols and becomes something they can read aloud, run, and explain. Module 8 builds on it with unit tests, katas, and the team's standards.
 
 The default language is JavaScript, which the rest of the programme uses. A person may learn the basics in another language they prefer, with their mentor's agreement (Principle 9).
 
@@ -68,7 +68,7 @@ console.log(countResults(["pass", "fail", "pass"]));
 
 ## Assessment
 
-The mentor signs off the walkthrough when the person can run the code and explain every line without help. If not, they agree what to practise and repeat the walkthrough within the module's hours. Gate 0 (hour 60) records the sign-off.
+The mentor signs off the walkthrough when the person can run the code and explain every line without help. If not, they agree what to practise and repeat the walkthrough within the module's hours. Gate 0 (hour 88) records the sign-off.
 
 | Walkthrough sign-off | Entry |
 | --- | --- |

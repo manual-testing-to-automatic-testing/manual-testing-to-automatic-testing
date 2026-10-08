@@ -8,13 +8,13 @@ Protect your person's learning time, rate them honestly and independently at eac
 
 ## 1. What the programme is
 
-- 280 hours of protected learning time, by default 7.5 hours a week, so about 38 calendar weeks. Gates at hours 60, 105, 150, 187.5, and 240, then the Lean Six Sigma Green Belt (Module 15) in hours 240–280, and a follow-up about six months after Gate 4. Use `scripts/gate_calendar.py` for the dates.
+- 308 hours of protected learning time, by default 7.5 hours a week, so about 41 calendar weeks. Gates at hours 88, 133, 178, 215.5, and 268, then the Lean Six Sigma Green Belt (Module 17) in hours 268–308, and a follow-up about six months after Gate 4. Use `scripts/gate_calendar.py` for the dates.
 - Your person joins the track for their band and UK GDaD PCF role. Their band and role do not change.
 - Their guide is in `materials/tracks/<track>/index.md`. Read it.
 
 ## 2. Protected time
 
-Every track has the same protected time: **280 learning hours**, by default **7.5 hours a week**, 20% of a 37.5-hour week. Band 3 and Band 4 may extend to 340 hours. Agree the pace in the learning agreement.
+Every track has the same protected time: **308 learning hours**, by default **7.5 hours a week**, 20% of a 37.5-hour week. Band 3 and Band 4 may extend to 368 hours. Agree the pace in the learning agreement.
 
 - Put it in both calendars before Gate 0, at fixed times each week.
 - Reduce their delivery work to match. Agree this with their product owner.
@@ -48,7 +48,7 @@ Avoid:
 ## 5. Between gates
 
 - A 1-hour check-in every 15 learning hours: progress on the individual learning plan, blockers, protected time.
-- Help find real work to automate: from hour 127.5, part of every 7.5 hours of learning is real automation on the team's product.
+- Help find real work to automate: from hour 155.5, part of every 7.5 hours of learning is real automation on the team's product.
 - Recognise progress publicly, for example at team show-and-tells.
 
 ## 6. If a gate is not met
@@ -57,4 +57,4 @@ The person gets up to 22.5 extra learning hours on the items below threshold, wi
 
 ## Time you'll need
 
-About 1 hour every 15 learning hours, plus about 2 hours for each gate: around 31 hours over the programme for each person you manage. See the [line manager](../manager.md) page.
+About 1 hour every 15 learning hours, plus about 2 hours for each gate: around 33 hours over the programme for each person you manage. See the [line manager](../manager.md) page.

@@ -26,7 +26,7 @@ Start from these and choose the ones that fit:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Defect to regression test cycle time | Time from a defect being reported to an automated regression test existing for it | Shows how quickly lessons become protection | Defect tracker and git history | | | | |
 | Manual regression hours per release | Hours of manual regression testing for each release | Shows the payback of automation | Test plans or timesheets | | | | |
-| Automated coverage of the regression pack | Share of "automate" cases from the Module 5 analysis now automated | Tracks the strategy's progress | Module 5 analysis and repository | | | | |
+| Automated coverage of the regression pack | Share of "automate" cases from the Module 7 analysis now automated | Tracks the strategy's progress | Module 7 analysis and repository | | | | |
 | Pyramid shape | Number of tests at unit, API and integration, and browser layers | Shows whether tests are being pushed down | Repository | | | | |
 | Suite run time | Time for the pull request suite to run in CI | Slow suites get skipped | CI | | | | |
 | Quarantined or skipped tests | Count, and how long each has been quarantined | A growing pile is testing debt, work in progress that is not moving | Repository and CI | | | | |

@@ -2,7 +2,7 @@
 
 ## Summary
 
-This programme upskills **manual testers at Bands 3 to 7** into **automatic testers**, over **280 hours** of protected learning time, ending with a **Lean Six Sigma Green Belt** lifetime certification, while each person **stays in their current band and their UK GDaD PCF role**. Nobody changes band because of this programme.
+This programme upskills **manual testers at Bands 3 to 7** into **automatic testers**, over **308 hours** of protected learning time, ending with a **Lean Six Sigma Green Belt** lifetime certification, while each person **stays in their current band and their UK GDaD PCF role**. Nobody changes band because of this programme.
 
 Each person has already been given a UK GDaD PCF role (Quality assurance test analyst, Test engineer, or Test manager) at a role level. The programme has two aims, in this order:
 
@@ -19,6 +19,8 @@ The programme comes in **eight tuned tracks**, one for each band and UK GDaD PCF
 - **Part D, automation practical:** a short performance task for the track.
 
 The programme **starts with three basics modules** of 20 hours each, before induction: the basics of a programming language, of a browser automator, and of an AI assistant. Each ends with a walkthrough to the person's mentor.
+
+After the basics, every track takes **two ISTQB certifications**: the ISTQB Certified Tester Foundation Level v4.0 (4 hours), then the ISTQB Certified Tester Advanced Level Test Automation Engineer (24 hours).
 
 The toolset is **JavaScript** on Node.js, **Selenium** for the browser, and **Mocha** with Node's built-in `node:assert/strict` for tests, in Visual Studio Code, with git and the organisation's continuous integration (CI) service, and **Google Gemini AI Mode** as the default AI assistant.
 
@@ -54,7 +56,7 @@ Out of scope:
 6. **Backward design.** Every module starts from its outcomes, then its evidence, then its activities.
 7. **Tuned, not separate.** All tracks share the core modules and gate dates. Tracks differ in depth, hours, extra modules, and evidence.
 8. **Build on the tester's strengths.** Each person's own team's manual regression pack and product are the practice material.
-9. **One language, one tool, first.** The basics modules use JavaScript, Selenium, and Google Gemini AI Mode by default; a person may choose another language, browser automator, or AI assistant for them, with their mentor's agreement. From Module 4, everyone uses JavaScript and Selenium, and nobody adds a second language or tool before Gate 2.
+9. **One language, one tool, first.** The basics modules use JavaScript, Selenium, and Google Gemini AI Mode by default; a person may choose another language, browser automator, or AI assistant for them, with their mentor's agreement. From Module 6, everyone uses JavaScript and Selenium, and nobody adds a second language or tool before Gate 2.
 10. **Wait explicitly, never sleep.** Selenium does not wait for elements by itself. Every wait in assessed code is an explicit wait for a stated condition, with `driver.wait(until...)`. Fixed sleeps, implicit waits, and retries that hide timing are not accepted.
 11. **Spiral, not single pass.** The core skills of **locate, act, wait, assert** are taught three times, at rising depth: on the fixture site, on a worked example, and on the person's own product. The capability self-assessment also spirals: the same instrument at every gate.
 12. **A walkthrough is not a test.** Assessed test code must make real assertions that fail when the behaviour is wrong, and must have a `spec/index.md` that agrees with the code.
@@ -230,74 +232,80 @@ Each track meets each outcome at a set depth: **Read and explain**, **With suppo
 | Learning outcome 15 | Read, run, and explain a simple program with variables, functions, conditionals, and loops, in JavaScript or another language. | Independently | Independently | Independently | Independently | Independently | Independently | Independently | Independently |
 | Learning outcome 16 | Write, run, and explain a browser automation script that requests a page, waits for it, selects elements by id, verifies text, clicks links, buttons, and select boxes, fills in form fields, and submits. | Independently | Independently | Independently | Independently | Independently | Independently | Independently | Independently |
 | Learning outcome 17 | Use an AI assistant to get training advice, plan continuing professional development, compare concepts, explain code, and convert between user stories, Given-When-Then scenarios, and Selenium JavaScript, checking every answer. | Independently | Independently | Independently | Independently | Independently | Independently | Independently | Independently |
+| Learning outcome 18 | Use the standard ISTQB testing vocabulary and principles, and hold the ISTQB Certified Tester Foundation Level v4.0 certificate. | Independently | Independently | Independently | Independently | Independently | Independently | Independently | Independently |
+| Learning outcome 19 | Explain test automation architecture, design, and deployment as the ISTQB Advanced Level Test Automation Engineer syllabus describes them, and hold that certificate. | Independently | Independently | Independently | Independently | Independently | Independently | Independently | Independently |
 
 ### Schedule and time
 
-The programme is measured in **hours** of protected learning time. Every track has **280 hours** and the same gates, so a mixed cohort can learn together; the tracks differ in depth, not in hours. The default pace is **7.5 hours a week**, 20% of a 37.5-hour working week, so the programme runs over about 38 calendar weeks. The learning agreement may set another pace, such as two sessions of 3.75 hours a week; `scripts/gate_calendar.py` turns a pace into dates.
+The programme is measured in **hours** of protected learning time. Every track has **308 hours** and the same gates, so a mixed cohort can learn together; the tracks differ in depth, not in hours. The default pace is **7.5 hours a week**, 20% of a 37.5-hour working week, so the programme runs over about 41 calendar weeks. The learning agreement may set another pace, such as two sessions of 3.75 hours a week; `scripts/gate_calendar.py` turns a pace into dates.
 
 | Track | Protected time | Approximate guided hours | Optional extension |
 | --- | --- | --- | --- |
-| Band 3 | 7.5 hours a week, by default | 280 | To 340 hours |
-| Band 4 quality assurance, Band 4 test engineering | 7.5 hours a week, by default | 280 | To 340 hours |
-| Band 5 quality assurance | 7.5 hours a week, by default | 280 | — |
-| Band 6 quality assurance, Band 6 test engineering | 7.5 hours a week, by default | 280 | — |
-| Band 7 test engineering, Band 7 test management | 7.5 hours a week, by default | 280 | — |
+| Band 3 | 7.5 hours a week, by default | 308 | To 368 hours |
+| Band 4 quality assurance, Band 4 test engineering | 7.5 hours a week, by default | 308 | To 368 hours |
+| Band 5 quality assurance | 7.5 hours a week, by default | 308 | — |
+| Band 6 quality assurance, Band 6 test engineering | 7.5 hours a week, by default | 308 | — |
+| Band 7 test engineering, Band 7 test management | 7.5 hours a week, by default | 308 | — |
 
-The timeline is in programme hours, counted from 0 to 280: "hours 67.5–105" means after 67.5 and up to 105 hours of learning. The schedule below says in which hours each module runs.
+The timeline is in programme hours, counted from 0 to 308: "hours 95.5–133" means after 95.5 and up to 133 hours of learning. The schedule below says in which hours each module runs.
 
-Where the 280 hours go, for every track:
+Where the 308 hours go, for every track:
 
 | Item | Programme hours | Hours |
 | --- | --- | --- |
 | Module 1 Basics of a programming language | 0–20 | 20 |
 | Module 2 Basics of a browser automator | 20–40 | 20 |
 | Module 3 Basics of an AI assistant | 40–60 | 20 |
-| Module 4 Induction and baseline, including Gate 0 | 60–67.5 | 6.5 |
-| Module 5 Why and what to automate | 60–75 | 4.5 |
-| Module 6 Programming foundations in JavaScript | 67.5–105 | 14.5 |
-| Module 7 Version control and collaboration | 82.5–105 | 7 |
-| Module 8 Browser automation fundamentals | 105–127.5 | 17.5 |
-| Module 9 From walkthrough to real test | 127.5–150 | 12.5 |
-| Module 10 API, integration, and FHIR tests | 150–172.5 | 15 |
-| Module 11 Continuous integration and DevOps | 172.5–187.5 | 10 |
-| Module 12 Safe and lawful test automation in health care | 187.5–202.5 | 7 |
-| Module 13 Quality engineering practice | 195–210 | 6 |
-| Module 14 Capstone | 202.5–240 | 27.5 |
-| Role foundations: 1 hour in every 7.5 hours of learning, from hour 67.5 | 67.5–240 | 23 |
-| Health care foundations: five sessions | 67.5–120 | 7 |
-| Gates 1 to 4: 2.5 hours each | At 105, 150, 187.5, 240 | 10 |
-| Real automation on the team's product: 1.5 hours in every 7.5 hours of learning (from hour 187.5, Module 12 and Module 14 work on the team's product) | 127.5–187.5 | 12 |
-| Module 15 Lean Six Sigma Green Belt, lifetime certification | 240–280 | 40 |
-| **Total** | **0–280** | **280** |
+| Module 4 ISTQB Certified Tester Foundation Level v4.0 | 60–64 | 4 |
+| Module 5 ISTQB Certified Tester Advanced Level Test Automation Engineer | 64–88 | 24 |
+| Module 6 Induction and baseline, including Gate 0 | 88–95.5 | 6.5 |
+| Module 7 Why and what to automate | 88–103 | 4.5 |
+| Module 8 Programming foundations in JavaScript | 95.5–133 | 14.5 |
+| Module 9 Version control and collaboration | 110.5–133 | 7 |
+| Module 10 Browser automation fundamentals | 133–155.5 | 17.5 |
+| Module 11 From walkthrough to real test | 155.5–178 | 12.5 |
+| Module 12 API, integration, and FHIR tests | 178–200.5 | 15 |
+| Module 13 Continuous integration and DevOps | 200.5–215.5 | 10 |
+| Module 14 Safe and lawful test automation in health care | 215.5–230.5 | 7 |
+| Module 15 Quality engineering practice | 223–238 | 6 |
+| Module 16 Capstone | 230.5–268 | 27.5 |
+| Role foundations: 1 hour in every 7.5 hours of learning, from hour 95.5 | 95.5–268 | 23 |
+| Health care foundations: five sessions | 95.5–148 | 7 |
+| Gates 1 to 4: 2.5 hours each | At 133, 178, 215.5, 268 | 10 |
+| Real automation on the team's product: 1.5 hours in every 7.5 hours of learning (from hour 215.5, Module 14 and Module 16 work on the team's product) | 155.5–215.5 | 12 |
+| Module 17 Lean Six Sigma Green Belt, lifetime certification | 268–308 | 40 |
+| **Total** | **0–308** | **308** |
 
-The track modules take part of Band 6 and Band 7 participants' track breakouts and real automation time. Band 3 uses its Module 10 time for Role foundations and real automation. Each module's page in `materials/modules/` shows how its hours split into sessions.
+The track modules take part of Band 6 and Band 7 participants' track breakouts and real automation time. Band 3 uses its Module 12 time for Role foundations and real automation. Each module's page in `materials/modules/` shows how its hours split into sessions.
 
-From hour 127.5, about 1.5 hours in every 7.5 hours of learning is real automation on the person's own team's product, at their track's depth.
+From hour 155.5, about 1.5 hours in every 7.5 hours of learning is real automation on the person's own team's product, at their track's depth.
 
-Band 3 does not take Module 10, so in hours 150–172.5 Band 3 participants spend that time on Role foundations and real automation.
+Band 3 does not take Module 12, so in hours 178–200.5 Band 3 participants spend that time on Role foundations and real automation.
 
-Gate 3 takes place at hour 187.5, before Module 12 begins. It reviews Evidence 10 and Evidence 11; Evidence 12 is reviewed at Gate 4.
+Gate 3 takes place at hour 215.5, before Module 14 begins. It reviews Evidence 12 and Evidence 13; Evidence 14 is reviewed at Gate 4.
 
 | Programme hours | Core modules | Track modules | Gate |
 | --- | --- | --- | --- |
 | 0–20 | Module 1 Basics of a programming language | — | — |
 | 20–40 | Module 2 Basics of a browser automator | — | — |
 | 40–60 | Module 3 Basics of an AI assistant | — | Walkthroughs signed off (Evidence 1 to 3) |
-| 60–67.5 | Module 4 Induction and baseline | — | **Gate 0** (hour 60, baseline) |
-| 60–75 | Module 5 Why and what to automate | Role foundations starts (runs all programme) | — |
-| 67.5–105 | Module 6 Programming foundations in JavaScript | Health care foundations (hours 67.5–120) | — |
-| 82.5–105 | Module 7 Version control and collaboration | — | **Gate 1** (hour 105) |
-| 105–127.5 | Module 8 Browser automation fundamentals | — | — |
-| 127.5–150 | Module 9 From walkthrough to real test | Coaching others in automation (Band 6, Band 7, hours 127.5–210) | **Gate 2** (hour 150) |
-| 150–172.5 | Module 10 API, integration, and FHIR tests | Acceptance test automation (Band 6 quality assurance, hours 150–187.5) | — |
-| 172.5–187.5 | Module 11 Continuous integration and DevOps | Frameworks and non-functional testing (Band 7 test engineering, hours 172.5–210) | — |
-| 187.5–202.5 | Module 12 Safe and lawful test automation in health care | Automation strategy and metrics (Band 6 quality assurance, Band 7, hours 172.5–210) | **Gate 3** (hour 187.5) |
-| 195–210 | Module 13 Quality engineering practice | Leading teams through automation adoption (Band 7 test management, hours 172.5–210) | — |
-| 202.5–240 | Module 14 Capstone (tuned per track) | — | **Gate 4** (hour 240) |
-| 240–280 | Module 15 Lean Six Sigma Green Belt, lifetime certification | — | **Certification** (by hour 280) |
+| 60–64 | Module 4 ISTQB Certified Tester Foundation Level v4.0 | — | Certification test |
+| 64–88 | Module 5 ISTQB Certified Tester Advanced Level Test Automation Engineer | — | Certification exam |
+| 88–95.5 | Module 6 Induction and baseline | — | **Gate 0** (hour 88, baseline) |
+| 88–103 | Module 7 Why and what to automate | Role foundations starts (runs all programme) | — |
+| 95.5–133 | Module 8 Programming foundations in JavaScript | Health care foundations (hours 95.5–148) | — |
+| 110.5–133 | Module 9 Version control and collaboration | — | **Gate 1** (hour 133) |
+| 133–155.5 | Module 10 Browser automation fundamentals | — | — |
+| 155.5–178 | Module 11 From walkthrough to real test | Coaching others in automation (Band 6, Band 7, hours 155.5–238) | **Gate 2** (hour 178) |
+| 178–200.5 | Module 12 API, integration, and FHIR tests | Acceptance test automation (Band 6 quality assurance, hours 178–215.5) | — |
+| 200.5–215.5 | Module 13 Continuous integration and DevOps | Frameworks and non-functional testing (Band 7 test engineering, hours 200.5–238) | — |
+| 215.5–230.5 | Module 14 Safe and lawful test automation in health care | Automation strategy and metrics (Band 6 quality assurance, Band 7, hours 200.5–238) | **Gate 3** (hour 215.5) |
+| 223–238 | Module 15 Quality engineering practice | Leading teams through automation adoption (Band 7 test management, hours 200.5–238) | — |
+| 230.5–268 | Module 16 Capstone (tuned per track) | — | **Gate 4** (hour 268) |
+| 268–308 | Module 17 Lean Six Sigma Green Belt, lifetime certification | — | **Certification** (by hour 308) |
 | After Gate 4 | Consolidation: the six months after Gate 4 | — | **Gate 5** (follow-up, about six months after Gate 4) |
 
-With the optional extension to 340 hours for Band 3 and Band 4, the gates move to hours 60, 120, 180, 232.5, and 300, Module 15 runs in hours 300–340, and Gate 5 follows about six months after Gate 4.
+With the optional extension to 368 hours for Band 3 and Band 4, the gates move to hours 88, 148, 208, 260.5, and 328, Module 17 runs in hours 328–368, and Gate 5 follows about six months after Gate 4.
 
 ### Module depth by track
 
@@ -308,18 +316,20 @@ Each track takes each module at a set depth: **Read and discuss**, **With suppor
 | Module 1 Basics of a programming language | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Independent |
 | Module 2 Basics of a browser automator | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Independent |
 | Module 3 Basics of an AI assistant | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Independent |
-| Module 4 Induction and baseline | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Independent |
-| Module 5 Why and what to automate | Read and discuss | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
-| Module 6 Programming foundations | Read and discuss | With support | With support | With support | Independent | Independent | Independent | With support |
-| Module 7 Version control and collaboration | With support | With support | With support | Independent | Independent | Independent | Lead or coach | Independent |
-| Module 8 Browser automation fundamentals | With support | With support | Independent | Independent | Independent | Independent | Lead or coach | With support |
-| Module 9 From walkthrough to real test | With support | With support | With support | Independent | Independent | Independent | Lead or coach | With support |
-| Module 10 API, integration, and FHIR tests | — | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Read and discuss |
-| Module 11 Continuous integration and DevOps | With support | With support | With support | Independent | Independent | Independent | Lead or coach | Independent |
-| Module 12 Safe and lawful test automation | Independent | Independent | Independent | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
-| Module 13 Quality engineering practice | Read and discuss | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Lead or coach |
-| Module 14 Capstone | With support | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
-| Module 15 Lean Six Sigma Green Belt | With support | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
+| Module 4 ISTQB Certified Tester Foundation Level | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Independent |
+| Module 5 ISTQB Advanced Level Test Automation Engineer | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Independent |
+| Module 6 Induction and baseline | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Independent |
+| Module 7 Why and what to automate | Read and discuss | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
+| Module 8 Programming foundations | Read and discuss | With support | With support | With support | Independent | Independent | Independent | With support |
+| Module 9 Version control and collaboration | With support | With support | With support | Independent | Independent | Independent | Lead or coach | Independent |
+| Module 10 Browser automation fundamentals | With support | With support | Independent | Independent | Independent | Independent | Lead or coach | With support |
+| Module 11 From walkthrough to real test | With support | With support | With support | Independent | Independent | Independent | Lead or coach | With support |
+| Module 12 API, integration, and FHIR tests | — | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Read and discuss |
+| Module 13 Continuous integration and DevOps | With support | With support | With support | Independent | Independent | Independent | Lead or coach | Independent |
+| Module 14 Safe and lawful test automation | Independent | Independent | Independent | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
+| Module 15 Quality engineering practice | Read and discuss | Read and discuss | With support | With support | Independent | Independent | Lead or coach | Lead or coach |
+| Module 16 Capstone | With support | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
+| Module 17 Lean Six Sigma Green Belt | With support | With support | With support | Independent | Lead or coach | Independent | Lead or coach | Lead or coach |
 | Role foundations | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan | Individual learning plan |
 | Health care foundations | Independent | Independent | Independent | Independent | Independent | Independent | Independent | Lead or coach |
 | Coaching others in automation | — | — | — | — | Lead or coach | Lead or coach | Lead or coach | Lead or coach |
@@ -332,7 +342,7 @@ Each track takes each module at a set depth: **Read and discuss**, **With suppor
 
 ### Core modules
 
-Each module lists its outcomes, evidence, activities, and resources. The evidence ids (Evidence 1 to 15) are reviewed at the gates, and Evidence 15 also by the certification body. Where the evidence differs by track, the module says so. Otherwise every track produces the evidence at its depth from the table above.
+Each module lists its outcomes, evidence, activities, and resources. The evidence ids (Evidence 1 to 17) are reviewed at the gates, and Evidence 17 also by the certification body. Where the evidence differs by track, the module says so. Otherwise every track produces the evidence at its depth from the table above.
 
 #### Module 1 Basics of a programming language (hours 0–20)
 
@@ -369,102 +379,117 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 - **Activities:** prompting: context, goal, format, and examples; checking answers against sources and code; spotting confident but wrong answers; the organisation's AI use policy; never entering real patient data, personal data, credentials, or confidential code (Principle 13 and Principle 15).
 - **Resources:** Google Gemini AI Mode; the organisation's AI use policy; the Module 2 script and the practice repository's code, to explain.
 
-#### Module 4 Induction and baseline (hours 60–67.5)
+#### Module 4 ISTQB Certified Tester Foundation Level v4.0 (hours 60–64)
+
+- **Outcomes:** Learning outcome 18.
+- **Evidence 4:** the ISTQB Certified Tester Foundation Level v4.0 (CTFL) certificate.
+- **Activities:** processing: registering, booking the certification test, and getting access to the training (1 hour); video training on the CTFL v4.0 syllabus (2 hours); the certification test (1 hour).
+- **Resources:** the ISTQB CTFL v4.0 syllabus and sample exams; the chosen video training; the exam provider. See [the module page](../materials/modules/module-4-istqb-certified-tester-foundation-level/index.md), which also gives a view on how relevant the certificate is.
+
+#### Module 5 ISTQB Certified Tester Advanced Level Test Automation Engineer (hours 64–88)
+
+- **Outcomes:** Learning outcome 19.
+- **Evidence 5:** the ISTQB Certified Tester Advanced Level Test Automation Engineer (CTAL-TAE) certificate.
+- **Prerequisite:** the ISTQB Certified Tester Foundation Level certificate, from Module 4.
+- **Activities:** a 3-day course, virtual or classroom, on the CTAL-TAE syllabus; the certification exam (40 multiple-choice questions); about 24 hours in all.
+- **Resources:** the ISTQB CTAL-TAE syllabus and sample exams; the training provider's course and learning platform. See [the module page](../materials/modules/module-5-istqb-certified-tester-advanced-level-test-automation-engineer/index.md) for cost and booking.
+
+#### Module 6 Induction and baseline (hours 88–95.5)
 
 - **Outcomes:** each person, their manager, and the training lead agree where the person starts, their track, and their support.
-- **Evidence 4:**
+- **Evidence 6:**
   - the full capability self-assessment (Parts A to C), with evidence, and the manager's independent rating, calibrated at Gate 0
   - the person's track, and any mapping decision (see [Tracks](#tracks))
   - an **individual learning plan**: the gaps that matter most from Parts A to C, an action, owner, and date for each, the automation target, reasonable adjustments, and preferred learning formats
   - a signed learning agreement: protected time, mentor, and gate dates
   - a working development environment: Node.js 24, Google Chrome, VS Code with the ESLint extension, git, the practice repository with `npm run test:katas` passing, and access to the team's repository and CI. No Docker or other container tools are needed.
-- **Activities:** induction with manager, mentor, and training lead; a briefing on how to self-assess honestly (a gap is not a failing); an unscored diagnostic coding exercise to tune Module 6 pacing; environment set-up with the mentor.
+- **Activities:** induction with manager, mentor, and training lead; a briefing on how to self-assess honestly (a gap is not a failing); an unscored diagnostic coding exercise to tune Module 8 pacing; environment set-up with the mentor.
 - **Resources:** the roles-skills reference pages for the person's role and band; the roles-skills self-assessment guide; this specification.
 
-#### Module 5 Why and what to automate (hours 60–75)
+#### Module 7 Why and what to automate (hours 88–103)
 
 - **Outcomes:** Learning outcome 1.
-- **Evidence 5:** an **automation candidate analysis** of the team's manual regression pack. For each case: keep manual, automate (and at which layer), or retire, with a reason based on risk, frequency, stability, and cost.
+- **Evidence 7:** an **automation candidate analysis** of the team's manual regression pack. For each case: keep manual, automate (and at which layer), or retire, with a reason based on risk, frequency, stability, and cost.
   - Band 3, Band 4: a sample of 10 cases, with the mentor.
   - Band 5, Band 6 test engineering: the person's own area.
   - Band 6 quality assurance, Band 7: a whole product or programme, reviewed with the team.
 - **Activities:** the testingexamples Learn articles: automatic testing, purpose, pyramid, browser trade-offs, CI; manual repetition as a variation problem (the Six Sigma view); why exploratory and usability testing stay human; a workshop with a developer on existing unit and integration tests.
 - **Resources:** testingexamples.github.io articles "What is automatic testing?", "What is the purpose of automatic testing?", "What is the automatic testing pyramid?", "What is browser automatic testing?", "How does Six Sigma lead manual testing into automatic testing?".
 
-#### Module 6 Programming foundations in JavaScript (hours 67.5–105)
+#### Module 8 Programming foundations in JavaScript (hours 95.5–133)
 
 - **Outcomes:** Learning outcome 2.
-- **Evidence 6:** small programming exercises (katas), each with unit tests the person wrote: 5 for Band 3, 8 for Band 4 and Band 7 test management, 10 for Band 5 and Band 6, 10 harder ones for Band 7 test engineering. At least two check test-shaped data, such as a date of birth or an NHS number check digit.
+- **Evidence 8:** small programming exercises (katas), each with unit tests the person wrote: 5 for Band 3, 8 for Band 4 and Band 7 test management, 10 for Band 5 and Band 6, 10 harder ones for Band 7 test engineering. At least two check test-shaped data, such as a date of birth or an NHS number check digit.
 - **Builds on:** Module 1. A person who learned the basics in another language moves to JavaScript here.
-- **Activities:** a short review of Module 1 (variables, functions, conditionals, loops, arrays and objects), then `typeof`, modules with `import` and `export`, errors; Promises, `async`, and `await`, and why every WebDriver call must be awaited; the terminal, npm, ESLint, and the VS Code debugger; a first Mocha unit test with `node:assert/strict`; pairing with the mentor in hours 67.5–82.5 for Band 3 to Band 5, then kata review by the mentor; kata review by the mentor throughout for Band 6 and Band 7.
+- **Activities:** a short review of Module 1 (variables, functions, conditionals, loops, arrays and objects), then `typeof`, modules with `import` and `export`, errors; Promises, `async`, and `await`, and why every WebDriver call must be awaited; the terminal, npm, ESLint, and the VS Code debugger; a first Mocha unit test with `node:assert/strict`; pairing with the mentor in hours 95.5–110.5 for Band 3 to Band 5, then kata review by the mentor; kata review by the mentor throughout for Band 6 and Band 7.
 - **Resources:** a structured JavaScript course (Decision 3), such as MDN's JavaScript guide; the practice repository's katas; testingexamples "What are related concepts for automatic testing?".
 
-#### Module 7 Version control and collaboration (hours 82.5–105)
+#### Module 9 Version control and collaboration (hours 110.5–133)
 
 - **Outcomes:** Learning outcome 3.
-- **Evidence 7:** reviewed pull requests to a practice repository, with comments addressed: 2 for Band 3 and Band 4, 3 for Band 5 to Band 7. Every track also reviews one pull request by someone else. Band 7 test engineering reviews three.
+- **Evidence 9:** reviewed pull requests to a practice repository, with comments addressed: 2 for Band 3 and Band 4, 3 for Band 5 to Band 7. Every track also reviews one pull request by someone else. Band 7 test engineering reviews three.
 - **Activities:** clone, branch, commit, diff, log, revert; pull requests and review etiquette; a simple merge conflict; reading the history of a testingexamples repository.
 - **Resources:** testingexamples "What are related concepts for automatic testing?"; the team's contribution guidelines.
 
-#### Module 8 Browser automation fundamentals (hours 105–127.5), spiral pass 1
+#### Module 10 Browser automation fundamentals (hours 133–155.5), spiral pass 1
 
 - **Outcomes:** Learning outcome 4, Learning outcome 11.
-- **Evidence 8:**
+- **Evidence 10:**
   - a Selenium JavaScript script against <https://testingexamples.github.io> that locates every fixture (by id, name, class name, link text, CSS, and XPath), waits explicitly, and acts on every form input, including the select with Selenium's `Select` helper. Band 3 and Band 4 quality assurance may complete this by pairing.
   - a one-page explanation of how Selenium waits, and why `sleep` is never the answer (Band 5 and above)
   - one small change to the `demo-selenium-javascript` example, an existing suite that someone else wrote, run successfully (Band 4 test engineering, Band 5 and above; Band 7 test management with support).
-- **Builds on:** the Module 2 script. Module 8 adds resilient locator strategy, every locator kind, explicit waits for stated conditions, and assertions, in place of printing.
+- **Builds on:** the Module 2 script. Module 10 adds resilient locator strategy, every locator kind, explicit waits for stated conditions, and assertions, in place of printing.
 - **Activities:** locate, act, wait, assert; locator strategy (ids and agreed test ids first, then CSS and link text, XPath last); explicit waits with `driver.wait(until...)`, and why Selenium does not wait for you; clicking only when an element is in view and on top; always quitting the driver; recording with Selenium IDE, exporting to JavaScript Mocha, then rewriting the recording by hand and explaining every line.
 - **Resources:** testingexamples `selenium-javascript-skill` and `demo-selenium-javascript`; the fixture contract `testingexamples.github.io/spec/index.md`; the Selenium documentation; Selenium IDE.
 
-#### Module 9 From walkthrough to real test (hours 127.5–150), spiral pass 2
+#### Module 11 From walkthrough to real test (hours 155.5–178), spiral pass 2
 
 - **Outcomes:** Learning outcome 5.
-- **Evidence 9:**
-  - the Module 8 walkthrough converted into a Mocha suite with `node:assert/strict` assertions, explicit waits, a driver quit in `after`, and a `spec/index.md` that agrees with the code
-  - manual test cases from Evidence 5 rewritten as Given-When-Then scenarios, reviewed by the product owner, and automated with a page object: 3 for Band 3 (scenarios only; automation by pairing), 3 for Band 4, 5 for Band 5 and Band 6, 8 for Band 7 test engineering, 3 for Band 7 test management
+- **Evidence 11:**
+  - the Module 10 walkthrough converted into a Mocha suite with `node:assert/strict` assertions, explicit waits, a driver quit in `after`, and a `spec/index.md` that agrees with the code
+  - manual test cases from Evidence 7 rewritten as Given-When-Then scenarios, reviewed by the product owner, and automated with a page object: 3 for Band 3 (scenarios only; automation by pairing), 3 for Band 4, 5 for Band 5 and Band 6, 8 for Band 7 test engineering, 3 for Band 7 test management
   - a demonstration that each test fails when the behaviour is wrong.
 - **Activities:** Mocha's `describe`, `it`, and hooks (`before`, `beforeEach`, `afterEach`, `after`); assertions; test isolation; Given-When-Then as a shared language; page objects as JavaScript classes that hold the locators and the waits; diagnosing failures from the message, a screenshot, the page source, and the browser console log; reading the NHS Wales worked example and its spec.
 - **Resources:** testingexamples "Given-When-Then Examples"; `demo-selenium-javascript-for-nhs-wales` and its `spec/index.md`; the practice repository's `tests/ui/`.
 
-#### Module 10 API, integration, and FHIR tests (hours 150–172.5)
+#### Module 12 API, integration, and FHIR tests (hours 178–200.5)
 
 - **Outcomes:** Learning outcome 6.
-- **Evidence 10:** an API test suite, in Mocha with Node's built-in `fetch`, against the practice repository's FHIR sandbox (a small local FHIR R4 server in JavaScript, started with `npm run fhir`, loaded with synthetic data), which creates, reads, searches, and updates `Patient` and `Observation` resources, checks status codes and bodies, validates against a FHIR profile, checks a clinical code's meaning, and includes a negative test.
+- **Evidence 12:** an API test suite, in Mocha with Node's built-in `fetch`, against the practice repository's FHIR sandbox (a small local FHIR R4 server in JavaScript, started with `npm run fhir`, loaded with synthetic data), which creates, reads, searches, and updates `Patient` and `Observation` resources, checks status codes and bodies, validates against a FHIR profile, checks a clinical code's meaning, and includes a negative test.
   - Band 4 quality assurance, Band 7 test management: read and explain an existing suite instead.
   - Band 4 test engineering, Band 5 quality assurance: 5 tests, with support.
   - Band 6, Band 7 test engineering: the full suite; Band 7 test engineering also adds a simulator for a partner system.
 - **Activities:** HTTP, REST, JSON; `fetch` and its responses; why Selenium is for browsers only; mocks, stubs, and simulators; HL7 FHIR resources, profiles, and terminology; HL7 version 2 awareness; moving one browser test down to the API layer.
 - **Resources:** HL7 FHIR (<https://hl7.org/fhir/>); the FHIR sandbox's README; the team's interface specifications; HAPI FHIR, as an example of a production FHIR server.
 
-#### Module 11 Continuous integration and DevOps (hours 172.5–187.5)
+#### Module 13 Continuous integration and DevOps (hours 200.5–215.5)
 
 - **Outcomes:** Learning outcome 7.
-- **Evidence 11:** a CI pipeline that runs the person's suites on every pull request, publishes the JUnit report and, for failed browser tests, screenshots and page source, and blocks merging on failure, plus a written triage of real CI failures (product, test, or environment).
+- **Evidence 13:** a CI pipeline that runs the person's suites on every pull request, publishes the JUnit report and, for failed browser tests, screenshots and page source, and blocks merging on failure, plus a written triage of real CI failures (product, test, or environment).
   - Band 3, Band 4: triage of 3 failures in an existing pipeline; no pipeline change required.
   - Band 5, Band 6, Band 7 test management: the pipeline on the practice repository, and 3 triaged failures.
   - Band 7 test engineering: the pipeline on the team's repository, with parallel jobs and test selection, and a quarantine policy for flaky tests.
 - **Activities:** CI configuration, caching, headless Chrome, secrets, environment variables; keeping pipelines fast; quarantining flaky tests with an owner and a deadline; feature flags, canary releases, and monitoring.
 - **Resources:** testingexamples "What is continuous integration automatic testing?" and "What is DevOps for automatic testing?"; the organisation's CI documentation.
 
-#### Module 12 Safe and lawful test automation in health care (hours 187.5–202.5)
+#### Module 14 Safe and lawful test automation in health care (hours 215.5–230.5)
 
 - **Outcomes:** Learning outcome 8, Learning outcome 9.
-- **Evidence 12:** synthetic data for the person's tests, including rare or edge clinical cases; a repository scan showing no secrets or personal data; a traceability matrix from automated tests to hazards and safety controls, agreed with the clinical safety officer; automated accessibility checks on browser tests with `@axe-core/webdriverjs`, with a note on what they cannot find. Band 6 quality assurance and Band 7 also review one other person's traceability matrix.
+- **Evidence 14:** synthetic data for the person's tests, including rare or edge clinical cases; a repository scan showing no secrets or personal data; a traceability matrix from automated tests to hazards and safety controls, agreed with the clinical safety officer; automated accessibility checks on browser tests with `@axe-core/webdriverjs`, with a note on what they cannot find. Band 6 quality assurance and Band 7 also review one other person's traceability matrix.
 - **Activities:** how automated regression tests protect safety controls; the team's hazard log; IEC 62304 awareness; information governance for test data and pipelines.
 - **Resources:** the organisation's clinical risk management process and hazard log; information governance policy.
 
-#### Module 13 Quality engineering practice (hours 195–210)
+#### Module 15 Quality engineering practice (hours 223–238)
 
 - **Outcomes:** Learning outcome 10.
-- **Evidence 13:** a flaky-test investigation with root cause and fix (Band 4 test engineering and above; Band 3 and Band 4 quality assurance describe one with the mentor); a suite-health report using flow metrics (time from a defect report to a regression test, quarantined tests, run time, failure causes) (Band 5 and above); an effort estimate for the capstone (all).
+- **Evidence 15:** a flaky-test investigation with root cause and fix (Band 4 test engineering and above; Band 3 and Band 4 quality assurance describe one with the mentor); a suite-health report using flow metrics (time from a defect report to a regression test, quarantined tests, run time, failure causes) (Band 5 and above); an effort estimate for the capstone (all).
 - **Activities:** maintainable test code; reviewing test pull requests; using AI assistants critically, including the risk of self-healing locators passing on the wrong element; awareness of performance, load, and security testing.
 - **Resources:** testingexamples "What metrics help automatic testing?" and "How does artificial intelligence help automatic testing?".
 
-#### Module 14 Capstone (hours 202.5–240), spiral pass 3
+#### Module 16 Capstone (hours 230.5–268), spiral pass 3
 
 - **Outcomes:** Learning outcome 12, with every other outcome applied at track depth.
-- **Evidence 14:** a capstone on the person's own team's product, agreed with the product owner and mentor at hour 202.5, and a presentation to the gate panel aimed at a non-technical audience (10 minutes for Band 3 and Band 4, 20 minutes for Band 5 to Band 7):
+- **Evidence 16:** a capstone on the person's own team's product, agreed with the product owner and mentor at hour 230.5, and a presentation to the gate panel aimed at a non-technical audience (10 minutes for Band 3 and Band 4, 20 minutes for Band 5 to Band 7):
 
 | Track | Capstone |
 | --- | --- |
@@ -477,14 +502,14 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
 | Band 7 test engineering | Reusable fixtures or framework for an area, a pipeline with test selection, one performance or load test based on real clinical demand, and coaching two colleagues. |
 | Band 7 test management | An automation strategy and metrics for a product or programme, a business case, an adoption and team development plan, and a small automated suite of their own at the Working target. |
 
-- **Activities:** a review with the mentor in every 7.5 hours of learning; pull requests reviewed by developers on the team (at least two for Band 5 and above); a mid-capstone show-and-tell to the team; an optional presentation rehearsal with the mentor in hours 225–232.5.
+- **Activities:** a review with the mentor in every 7.5 hours of learning; pull requests reviewed by developers on the team (at least two for Band 5 and above); a mid-capstone show-and-tell to the team; an optional presentation rehearsal with the mentor in hours 253–260.5.
 
-#### Module 15 Lean Six Sigma Green Belt, lifetime certification (hours 240–280)
+#### Module 17 Lean Six Sigma Green Belt, lifetime certification (hours 268–308)
 
 - **Outcomes:** Learning outcome 14.
-- **Evidence 15:**
+- **Evidence 17:**
   - a Lean Six Sigma **Green Belt certificate** from a certification body whose Green Belt does not expire (Decision 8)
-  - a **Green Belt project** on the person's own team's testing process, using DMAIC: a project charter, a SIPOC and process map, a baseline measure with real data, a root-cause analysis, an improvement, and a control plan. Typical measures: flaky test rate, time from a defect report to a regression test, manual regression hours per release, defects found after release, and CI run time. The project uses synthetic data only, and builds on the Evidence 5 analysis and the Evidence 13 suite-health report.
+  - a **Green Belt project** on the person's own team's testing process, using DMAIC: a project charter, a SIPOC and process map, a baseline measure with real data, a root-cause analysis, an improvement, and a control plan. Typical measures: flaky test rate, time from a defect report to a regression test, manual regression hours per release, defects found after release, and CI run time. The project uses synthetic data only, and builds on the Evidence 7 analysis and the Evidence 15 suite-health report.
     - Band 3, Band 4: a part of a team project, led by a mentor or a Band 6 or Band 7 colleague, with their own part named in the charter.
     - Band 5, Band 6 test engineering: a small project of their own.
     - Band 6 quality assurance, Band 7 test engineering: lead a project, and coach a lower-band colleague's part.
@@ -497,44 +522,44 @@ Each module lists its outcomes, evidence, activities, and resources. The evidenc
   - Improve: generating and piloting solutions; automation as an improvement, measured, not assumed.
   - Control: control charts and statistical process control, control plans, and handing the process to its owner.
 - **Assessment:** the certification body's exam, and a project review by the training lead and mentor, with the product owner as sponsor. Certification completes the programme with Gate 4 (see [Completion](#completion)).
-- **Resources:** testingexamples "How does Six Sigma lead manual testing into automatic testing?"; the certification body's Green Belt body of knowledge (Decision 8); the flow metrics from Module 13.
+- **Resources:** testingexamples "How does Six Sigma lead manual testing into automatic testing?"; the certification body's Green Belt body of knowledge (Decision 8); the flow metrics from Module 15.
 
 ### Track modules
 
-#### Role foundations (hours 60–240, individual)
+#### Role foundations (hours 88–268, individual)
 
 - **Purpose:** close the role and skill gaps that are not about automation, because each person is measured against their whole role.
 - **Content:** set by the individual learning plan from Gate 0 gaps in Parts A to C. Typical items: test analysis, test and quality planning, defect management, communicating with non-technical stakeholders, planning own work (Part A item 9), freedom to act (Part A item 17), and the role-level statements in Part B.
 - **Activities:** 1 hour in every 7.5 hours of learning for role practice with the mentor or manager, stretch tasks on the team, shadowing, and the community of practice.
 - **Evidence:** progress on each individual learning plan action, reviewed at every gate.
 
-#### Health care foundations (hours 67.5–120)
+#### Health care foundations (hours 95.5–148)
 
 - **Purpose:** meet the expected levels in understanding health and care services, clinical risk management, and information governance by Gate 2 (Principle 13).
 - **Activities:** sessions with the clinical safety officer and information governance lead; a hazard workshop; a shadowing session with a clinical or care user. Band 7 test management leads one session for the cohort.
 - **Evidence:** reflected in Part C ratings at Gate 2.
 
-#### Coaching others in automation (Band 6, Band 7; hours 127.5–210)
+#### Coaching others in automation (Band 6, Band 7; hours 155.5–238)
 
 - **Outcomes:** guide and coach others, as the Practitioner and Expert level descriptions require.
 - **Evidence:** coaching log for one or two cohort members from a lower band, with their feedback.
 
-#### Automation strategy and metrics (Band 6 quality assurance, Band 7; hours 172.5–210)
+#### Automation strategy and metrics (Band 6 quality assurance, Band 7; hours 200.5–238)
 
 - **Outcomes:** contribute to (Band 6 quality assurance, Band 7 test engineering) or own (Band 7 test management) the automation strategy for an area; define metrics for monitoring and controlling test activities.
 - **Evidence:** a strategy document and a metrics proposal, reviewed by the head of test.
 
-#### Frameworks and non-functional testing (Band 7 test engineering; Band 6 test engineering read only; hours 172.5–210)
+#### Frameworks and non-functional testing (Band 7 test engineering; Band 6 test engineering read only; hours 200.5–238)
 
 - **Outcomes:** extend, standardise, and build reusable frameworks; plan and run performance, load, and resilience tests based on real clinical demand; maintain and adapt CI/CD pipelines.
 - **Evidence:** folded into the Band 7 test engineering capstone.
 
-#### Acceptance test automation (Band 6 quality assurance; hours 150–187.5)
+#### Acceptance test automation (Band 6 quality assurance; hours 178–215.5)
 
 - **Outcomes:** Practitioner in business and user acceptance testing, applied to automation: turn acceptance criteria into automated checks, plan user acceptance testing with clinicians, and report residual risk.
 - **Evidence:** folded into the Band 6 quality assurance capstone.
 
-#### Leading teams through automation adoption (Band 7 test management; hours 172.5–210)
+#### Leading teams through automation adoption (Band 7 test management; hours 200.5–238)
 
 - **Outcomes:** people management at Practitioner, and medical device software regulation at Working, applied to automation adoption: team development plans, supplier testers, and regulated testing records.
 - **Evidence:** folded into the Band 7 test management capstone.
@@ -545,12 +570,12 @@ Every gate repeats the full capability self-assessment (Parts A to C) with calib
 
 | Gate | Programme hour | Module evidence | Part D practical | Reviewers |
 | --- | --- | --- | --- | --- |
-| Gate 0 | 60 | Evidence 1–4 | — (unscored diagnostic only) | Person, line manager, mentor, training lead |
-| Gate 1 | 105 | Evidence 5–7 | Fix a failing unit test and open a pull request | Line manager, mentor |
-| Gate 2 | 150 | Evidence 8–9 | Automate one given manual test case on the fixture site (Band 3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
-| Gate 3 | 187.5 | Evidence 10–11 | Triage and fix a failing CI run (Band 6 and Band 7 test engineering: plus an API test; Band 7 test management: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
-| Gate 4 | 240 | Evidence 12–14 | Live run and explanation of the capstone | Gate 4 panel |
-| Certification | By 280 | Evidence 15 | The Green Belt certification exam, set by the certification body (Decision 8) | Certification body; the training lead and mentor review the project |
+| Gate 0 | 88 | Evidence 1–6 | — (unscored diagnostic only) | Person, line manager, mentor, training lead |
+| Gate 1 | 133 | Evidence 7–9 | Fix a failing unit test and open a pull request | Line manager, mentor |
+| Gate 2 | 178 | Evidence 10–11 | Automate one given manual test case on the fixture site (Band 3: write it as Given-When-Then and pair) | Line manager, mentor, a developer |
+| Gate 3 | 215.5 | Evidence 12–13 | Triage and fix a failing CI run (Band 6 and Band 7 test engineering: plus an API test; Band 7 test management: plus reading and explaining an API test failure) | Line manager, mentor, training lead |
+| Gate 4 | 268 | Evidence 14–16 | Live run and explanation of the capstone | Gate 4 panel |
+| Certification | By 308 | Evidence 17 | The Green Belt certification exam, set by the certification body (Decision 8) | Certification body; the training lead and mentor review the project |
 | Gate 5 | About six months after Gate 4 | Six months of work | Demonstrate a recent automated change | Line manager, training lead |
 
 #### Gate thresholds
@@ -569,7 +594,7 @@ Using agreed ratings and the capability index:
 #### If a gate is not met
 
 1. The person gets up to 22.5 extra learning hours on the items below threshold, with a written plan and extra mentor time, and the gate is repeated once.
-2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the extension to 340 hours, a different automation target, more Role foundations support, or pausing the programme.
+2. If the repeated gate is still not met, the person, line manager, and training lead agree a next step. That may be the extension to 368 hours, a different automation target, more Role foundations support, or pausing the programme.
 3. In line with Principle 14, none of these is a capability or performance procedure.
 
 #### Gate 4 panel
@@ -578,22 +603,22 @@ Three people: a lead test engineer or test manager at least one band above the p
 
 #### Completion
 
-A person completes the programme when every threshold for Gate 4 is met, and they hold the Lean Six Sigma Green Belt certification with an accepted Green Belt project (Evidence 15). Gate 5 confirms that the capability holds in normal work.
+A person completes the programme when every threshold for Gate 4 is met, and they hold the Lean Six Sigma Green Belt certification with an accepted Green Belt project (Evidence 17). Gate 5 confirms that the capability holds in normal work.
 
 ### Roles and responsibilities
 
 | Role | Responsibilities | Time commitment |
 | --- | --- | --- |
-| Participant | Completes the self-assessment honestly at every gate, follows the individual learning plan, produces evidence, keeps a learning log entry for each learning session. | 280 hours, protected; by default 7.5 hours a week |
-| Line manager | Protects learning time; rates each gate independently and calibrates; owns the individual learning plan with the participant. | 1 hour per 15 learning hours, plus 2 hours a gate: about 31 hours |
-| Mentor | Pairs, reviews code, runs Role foundations practice, prepares for gates. At least one band above the participant and at or above their automation target; for Band 7 tracks, a Band 8a or higher lead, or an external mentor if none is available. One mentor supports up to 3 participants. | A 30-minute start, a 1-hour check-in, and a 1-hour walkthrough in each of Modules 1 to 3; 1.5 hours per 7.5 learning hours in hours 60–105, then 1 hour per 7.5 learning hours, including Green Belt project support in Module 15: about 38.5 hours per participant |
-| Training lead (programme owner) | Owns this specification and the instrument; runs gates; moderates calibration; evaluates and maintains the programme. | 1 hour per 7.5 cohort learning hours in hours 0–60, 3.75 hours per 7.5 cohort learning hours in hours 60–240, plus about 20 hours in Module 15, for a cohort of up to 12: about 118 hours |
+| Participant | Completes the self-assessment honestly at every gate, follows the individual learning plan, produces evidence, keeps a learning log entry for each learning session. | 308 hours, protected; by default 7.5 hours a week |
+| Line manager | Protects learning time; rates each gate independently and calibrates; owns the individual learning plan with the participant. | 1 hour per 15 learning hours, plus 2 hours a gate: about 33 hours |
+| Mentor | Pairs, reviews code, runs Role foundations practice, prepares for gates. At least one band above the participant and at or above their automation target; for Band 7 tracks, a Band 8a or higher lead, or an external mentor if none is available. One mentor supports up to 3 participants. | A 30-minute start, a 1-hour check-in, and a 1-hour walkthrough in each of Modules 1 to 3; 1.5 hours per 7.5 learning hours in hours 88–133, then 1 hour per 7.5 learning hours, including Green Belt project support in Module 17: about 38.5 hours per participant |
+| Training lead (programme owner) | Owns this specification and the instrument; runs gates; moderates calibration; evaluates and maintains the programme. | 1 hour per 7.5 cohort learning hours in hours 0–60, 3.75 hours per 7.5 cohort learning hours in hours 88–268, plus about 20 hours in Module 17, for a cohort of up to 12: about 118 hours |
 | Head of test (sponsor) | Sponsors the programme; reviews Automation strategy and metrics strategies; chairs Band 7 Gate 4 panels. | 2 hours a month |
-| Developers | Review pull requests, pair on Module 10, join Gate 2 and 3 reviews and Gate 4 panels. | About 1 hour per 7.5 learning hours |
+| Developers | Review pull requests, pair on Module 12, join Gate 2 and 3 reviews and Gate 4 panels. | About 1 hour per 7.5 learning hours |
 | Product owners | Review Given-When-Then scenarios; agree and accept capstones; sponsor Green Belt projects. | 4 hours per participant |
-| Lean Six Sigma trainer and certification body | Teach the Green Belt body of knowledge in Module 15, set the certification exam, and issue a certificate that does not expire (Decision 8). | 30 hours of teaching per cohort |
-| Clinical safety officer | Runs Health care foundations and Module 12 sessions; reviews traceability evidence. | 6 hours per cohort, plus reviews |
-| Information governance lead | Runs Health care foundations and Module 12 sessions on test and personal data. | 3 hours per cohort |
+| Lean Six Sigma trainer and certification body | Teach the Green Belt body of knowledge in Module 17, set the certification exam, and issue a certificate that does not expire (Decision 8). | 30 hours of teaching per cohort |
+| Clinical safety officer | Runs Health care foundations and Module 14 sessions; reviews traceability evidence. | 6 hours per cohort, plus reviews |
+| Information governance lead | Runs Health care foundations and Module 14 sessions on test and personal data. | 3 hours per cohort |
 | HR | Confirms the developmental status of gates (Principle 14); agrees mapping decisions. | As needed |
 
 ### Inclusion and reasonable adjustments
@@ -604,7 +629,7 @@ Following Universal Design for Instruction:
 - Evidence can be shown in more than one way where the outcome allows, for example a recorded walkthrough instead of a written explanation.
 - The self-assessment can be completed with the mentor's help, in writing or in conversation.
 - Tools are checked for accessibility: editor screen reader support, high-contrast themes, captioned videos.
-- Pacing is flexible within each gate period, and Band 3 and Band 4 can extend to 340 hours.
+- Pacing is flexible within each gate period, and Band 3 and Band 4 can extend to 368 hours.
 - The Green Belt exam is booked with the certification body's own reasonable adjustments, such as extra time or a reader.
 - Mixed-band pairing, show-and-tells, and coaching build a community of learners, and the learning log gives a private channel for questions.
 - Reasonable adjustments are recorded at Gate 0 and reviewed at every gate.
@@ -647,7 +672,7 @@ Following PADDIE+M, the training lead:
 | Decision 2 | CI service | The organisation's existing CI service; GitHub Actions for the practice repository | Training lead |
 | Decision 3 | JavaScript foundations course | A structured, free or already-licensed course with exercises | Training lead |
 | Decision 4 | Practice FHIR server | The practice repository's local FHIR sandbox (Node.js, no Docker), with synthetic data; a shared team test server with synthetic data as the alternative | Mentors |
-| Decision 5 | Capstone scope per person | As in the Module 14 table, agreed at hour 202.5 | Product owner, mentor |
+| Decision 5 | Capstone scope per person | As in the Module 16 table, agreed at hour 230.5 | Product owner, mentor |
 | Decision 6 | Mapping for band and role combinations without a reference level, and Band 3 factor levels | The mapping rule in [Tracks](#tracks) | Line manager, training lead, HR |
 | Decision 7 | Developmental status of gates | Gates are developmental only (Principle 14) | HR, head of test |
 | Decision 8 | Lean Six Sigma Green Belt certification body | An accredited body whose Green Belt certification does not expire, with an exam and a project requirement; the course may be delivered in house or by the body | Training lead, with the head of test |
@@ -668,20 +693,20 @@ Coverage check, outcome to evidence:
 
 | Outcome | Evidence |
 | --- | --- |
-| Learning outcome 1 | Evidence 5, Evidence 14 |
-| Learning outcome 2 | Evidence 6, Evidence 9 |
-| Learning outcome 3 | Evidence 7, Evidence 14 |
-| Learning outcome 4 | Evidence 8, Evidence 9 |
-| Learning outcome 5 | Evidence 9, Evidence 14 |
-| Learning outcome 6 | Evidence 10, Evidence 14 |
-| Learning outcome 7 | Evidence 11, Evidence 14 |
-| Learning outcome 8 | Evidence 12, Evidence 14 |
-| Learning outcome 9 | Evidence 12, Evidence 14 |
-| Learning outcome 10 | Evidence 13 |
-| Learning outcome 11 | Evidence 8 |
-| Learning outcome 12 | Evidence 14 |
+| Learning outcome 1 | Evidence 7, Evidence 16 |
+| Learning outcome 2 | Evidence 8, Evidence 11 |
+| Learning outcome 3 | Evidence 9, Evidence 16 |
+| Learning outcome 4 | Evidence 10, Evidence 11 |
+| Learning outcome 5 | Evidence 11, Evidence 16 |
+| Learning outcome 6 | Evidence 12, Evidence 16 |
+| Learning outcome 7 | Evidence 13, Evidence 16 |
+| Learning outcome 8 | Evidence 14, Evidence 16 |
+| Learning outcome 9 | Evidence 14, Evidence 16 |
+| Learning outcome 10 | Evidence 15 |
+| Learning outcome 11 | Evidence 10 |
+| Learning outcome 12 | Evidence 16 |
 | Learning outcome 13 | Capability self-assessment at every gate |
-| Learning outcome 14 | Evidence 15 |
+| Learning outcome 14 | Evidence 17 |
 
 ## Related topics
 
@@ -703,12 +728,13 @@ Coverage check, outcome to evidence:
 | --- | --- |
 | 2026-10-07 | First version: one learner moving from Band 5 to Band 6. |
 | 2026-10-07 | Rewritten: eight tuned tracks for Bands 3 to 7, no band changes, a full capability self-assessment (21 band dimensions, UK GDaD PCF role aspects, all role skills) at every gate, and capability thresholds per gate. |
+| 2026-10-08 | Revised: two ISTQB modules added after the basics, for every track: Module 4 ISTQB Certified Tester Foundation Level v4.0 (4 hours) and Module 5 ISTQB Certified Tester Advanced Level Test Automation Engineer (24 hours), with Learning outcomes 18 and 19 and certificate evidence (Evidence 4 and 5) recorded at Gate 0. Induction and every later module move up two numbers, with their evidence. The programme becomes 308 hours (368 with the extension), and every hour from hour 60 moves 28 hours later: Gate 0 is at hour 88. |
 | 2026-10-08 | Revised: modules numbered from 1, not 0: Module 1 to Module 15, with Evidence 1 to 15 renumbered to match, so Evidence N is still Module N's evidence. Gate numbers and hours are unchanged. |
-| 2026-10-08 | Revised: three basics modules added at the start, 20 hours each, before induction: Module 0 Basics of a programming language, Module 1 Basics of a browser automator, and Module 2 Basics of an AI assistant, with Learning outcomes 15 to 17 and walkthrough evidence (Evidence 0 to 2) reviewed at Gate 0. The earlier Modules 0 to 11 become Modules 3 to 14, and Evidence 0 to 11 becomes Evidence 3 to 14. The programme becomes 280 hours (340 with the extension), and every later hour, including each gate, moves 60 hours later. |
+| 2026-10-08 | Revised: three basics modules added at the start, 20 hours each, before induction: Module 0 Basics of a programming language, Module 1 Basics of a browser automator, and Module 2 Basics of an AI assistant, with Learning outcomes 15 to 17 and walkthrough evidence (Evidence 0 to 2) reviewed at Gate 0. The earlier Modules 0 to 11 become Modules 3 to 14, and Evidence 0 to 11 becomes Evidence 3 to 14. The programme becomes 308 hours (368 with the extension), and every later hour, including each gate, moves 60 hours later. |
 | 2026-10-08 | Revised: Principle 19, full words not abbreviations; instrument item ids in full words ("Part A item 1", "Part B item 1.2", "Part C item 5"), and depths and skill levels in full words in every table ("With support", "Working", "Agreed at Gate 0"). |
 | 2026-10-08 | Revised: abbreviations written in full words (Module 0, Learning outcome 1, Evidence 0, Decision 1, Band 5 quality assurance, Role foundations, individual learning plan), including file names and website URLs; added `curriculum.md`, generated from this spec. |
 | 2026-10-08 | Revised: "UK GDaD PCF" in full everywhere, and "UK GDaD PCF role" for the role a person has; Playwright removed from the training, so Learning outcome 11 and Evidence 4 use an existing Selenium suite that someone else wrote (`demo-selenium-javascript`); the toolset sentence about Docker removed. |
-| 2026-10-07 | Added Module 11 Lean Six Sigma Green Belt, lifetime certification: 40 hours at the end of every track (hours 180–220), with Learning outcome 14, Evidence 11, and Decision 8. The programme is 280 hours (340 with the Band 3 and Band 4 extension); completion needs Gate 4 and the certification. |
+| 2026-10-07 | Added Module 11 Lean Six Sigma Green Belt, lifetime certification: 40 hours at the end of every track (hours 180–220), with Learning outcome 14, Evidence 11, and Decision 8. The programme is 308 hours (368 with the Band 3 and Band 4 extension); completion needs Gate 4 and the certification. |
 | 2026-10-07 | Revised: timelines in hours. Every track has 180 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), with an hour budget that totals 180; the schedule, gates, and time commitments are in programme hours; Band 3 and Band 4 may extend to 240 hours. |
 | 2026-10-07 | Revised: JavaScript with Selenium and Mocha replaces TypeScript with Playwright (Playwright becomes the reading-only tool for Learning outcome 11); no Docker anywhere, with a JavaScript FHIR sandbox; Principle 10, wait explicitly; the informal capability estimate removed. |
 | 2026-10-07 | Implemented: instruments generated per track; Partly defined for Part C; Learning outcome 2 (Band 7 test engineering) and Learning outcome 11 (Band 7 test management) depths aligned with modules; Gate 3 timing, Band 3 in hours 90–112.5, Acceptance test automation timing, Band 7 mentors, and the capstone rehearsal made explicit. |

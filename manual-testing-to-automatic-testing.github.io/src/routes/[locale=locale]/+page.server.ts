@@ -24,6 +24,6 @@ export const load = ({ params }) => {
     docs,
     title: SITE_NAME,
     description:
-      'A formal training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 280 hours, in the band and UK GDaD PCF role they already have.'
+      'A formal training programme that upskills manual testers at Bands 3 to 7 into automatic testers over 308 hours, in the band and UK GDaD PCF role they already have.'
   };
 };

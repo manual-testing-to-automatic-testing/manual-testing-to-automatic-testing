@@ -7,7 +7,7 @@ apply here as on your team's real repository, so that practice builds habits.
 
 - Never commit directly to `main`.
 - Create one branch per change: `<your-initials>/<module>-<short-description>`,
-  for example `ab/module-9-select-tests`.
+  for example `ab/module-11-select-tests`.
 - Keep branches short-lived: open a pull request within a few days.
 
 ## Commits
@@ -20,7 +20,7 @@ apply here as on your team's real repository, so that practice builds habits.
 ## Pull requests
 
 - Fill in the pull request template, including the checklist.
-- Ask your mentor to review. From Module 7 onwards, also review someone else's.
+- Ask your mentor to review. From Module 9 onwards, also review someone else's.
 - CI must be green before merging.
 
 ## Reviewing

@@ -1,6 +1,6 @@
 # FHIR sandbox
 
-A small, local HL7 FHIR R4 server, loaded with synthetic patients and observations, for module **Module 10 API, integration, and FHIR tests** of the training programme. See [../../spec/index.md](../../spec/index.md).
+A small, local HL7 FHIR R4 server, loaded with synthetic patients and observations, for module **Module 12 API, integration, and FHIR tests** of the training programme. See [../../spec/index.md](../../spec/index.md).
 
 It is one plain JavaScript file, [`server.js`](server.js), and needs only Node.js: no Docker, no Java, and nothing to install.
 

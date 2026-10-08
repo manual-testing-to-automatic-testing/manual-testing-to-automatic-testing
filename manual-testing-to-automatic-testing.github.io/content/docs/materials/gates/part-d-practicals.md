@@ -9,7 +9,7 @@ Part D is a short, supervised automation practical at Gates 1 to 5. It shows wha
 - **Help allowed:** documentation, the person's own notes and code, and the testingexamples skills. AI assistants are allowed only if the person explains every line they submit (spec Principle 15). The supervisor answers questions about the task, not about the solution.
 - **Accessibility:** reasonable adjustments in the individual learning plan apply, for example extra time or a spoken explanation instead of a written one.
 
-Gate 0 has no Part D. The Module 4 diagnostic coding exercise is unscored and only tunes Module 6 pacing.
+Gate 0 has no Part D. The Module 6 diagnostic coding exercise is unscored and only tunes Module 8 pacing.
 
 ## Common marking notes
 
@@ -30,7 +30,7 @@ A walkthrough that acts on a page and prints output, without assertions, is neve
 - [ ] A timer is set, and reasonable adjustments are applied.
 - [ ] The marking notes for the person's track are to hand.
 
-## Gate 1 (hour 105): fix a failing unit test and open a pull request
+## Gate 1 (hour 133): fix a failing unit test and open a pull request
 
 **Setup:** a small JavaScript kata in the practice repository (`src/katas/`) with a Mocha test in `tests/katas/` that fails because of a bug in the code, not in the test. The bug suits the track:
 
@@ -48,7 +48,7 @@ A walkthrough that acts on a page and prints output, without assertions, is neve
 | Band 6 test engineering | As Band 5, and the new test name describes the behaviour. | As Band 5 Partly. | As Band 5 Not yet. |
 | Band 7 test engineering | Fixes the bug, renames the misleading test, adds edge-case tests, and explains in the pull request why the old test hid the bug. | Fixes the bug but leaves the test misleading. | Cannot fix the bug in time. |
 
-## Gate 2 (hour 150): automate one given manual test case on the fixture site
+## Gate 2 (hour 178): automate one given manual test case on the fixture site
 
 **Setup:** a written manual test case for <https://testingexamples.github.io>, for example: "Fill the text input with `hello`, check the checkbox, choose the first radio option, and select the first option in the select list. Expect each control to show the new value."
 
@@ -61,7 +61,7 @@ A walkthrough that acts on a page and prints output, without assertions, is neve
 | Band 5 quality assurance, Band 6 quality assurance, Band 6 test engineering, Band 7 test management | Automates the case independently, with resilient locators (`By.id`, `By.name`, or a short CSS selector, not a long XPath), explicit waits where needed, an assertion per behaviour, the `Select` helper for the select list, and a `spec/index.md` entry that matches. Shows it failing. | Test works but uses brittle locators, a sleep, misses the spec entry, or misses one assertion. | Walkthrough only, or the test does not run. |
 | Band 7 test engineering | As Band 5 Meets, and extracts a page object (a JavaScript class like `tests/ui/pages/fixture-page.js`) and a shared driver helper so a second test can reuse them, and explains the trade-off. | As Band 5 Meets, without the page object or helper. | As Band 5 Partly or worse. |
 
-## Gate 3 (hour 187.5): triage and fix a failing CI run
+## Gate 3 (hour 215.5): triage and fix a failing CI run
 
 **Setup:** a CI run on the practice repository that fails for one prepared reason. Use a different reason for each person in a cohort, drawn from: a product defect (the page or API changed behaviour), a test defect (a brittle locator, or a missing explicit wait that gives a `NoSuchElementError` or `StaleElementReferenceError`), or an environment problem (a missing secret, Chrome not installed, or the FHIR sandbox port already in use).
 
@@ -72,11 +72,11 @@ A walkthrough that acts on a page and prints output, without assertions, is neve
 | Band 3, Band 4 quality assurance | Classifies the failure correctly from the log, screenshot, or page source, and writes a clear defect report or fix request with steps, data, and evidence. | Classifies correctly but the report lacks evidence. | Cannot classify the failure. |
 | Band 4 test engineering | Classifies correctly and fixes a test defect, or raises a clear defect report for a product or environment problem. | Classifies correctly but needs help with the fix. | Cannot classify the failure. |
 | Band 5 quality assurance | Classifies, fixes or reports, and re-runs the pipeline to green where the fix is theirs to make. | Classifies and reports, but cannot fix a test defect. | Cannot classify the failure. |
-| Band 7 test management | As Band 5 quality assurance Meets, and adds one API test that reads a synthetic `Patient` with `fetch` and checks the status and body with `assert`. Because Module 10 is read-only for Band 7 test management, one hint is allowed on the API test. | Triage is Meets, but the API test needs several hints or is incomplete. | Triage is not Meets. |
+| Band 7 test management | As Band 5 quality assurance Meets, and adds one API test that reads a synthetic `Patient` with `fetch` and checks the status and body with `assert`. Because Module 12 is read-only for Band 7 test management, one hint is allowed on the API test. | Triage is Meets, but the API test needs several hints or is incomplete. | Triage is not Meets. |
 | Band 6 quality assurance, Band 6 test engineering | As Band 5 Meets, and adds one API test that reads a synthetic `Patient` with `fetch` and checks the status and body with `assert`. | Triage is Meets, but the API test is incomplete. | Triage is not Meets. |
 | Band 7 test engineering | As Band 6 Meets, and proposes a pipeline change that would catch or prevent this failure earlier, such as a quarantine rule or a smoke stage. | As Band 6 Meets, without the proposal. | As Band 6 Partly or worse. |
 
-## Gate 4 (hour 240): live run and explanation of the capstone
+## Gate 4 (hour 268): live run and explanation of the capstone
 
 **Setup:** the person's capstone suite in the team's repository or practice repository, with CI. Run in front of the [Gate 4 panel](gate-4-panel-guide.md).
 

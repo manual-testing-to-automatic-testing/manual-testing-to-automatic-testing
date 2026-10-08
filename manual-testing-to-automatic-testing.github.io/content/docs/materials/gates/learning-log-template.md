@@ -24,7 +24,7 @@ Copy this block for every 7.5 hours of learning.
 
 -
 
-**Real work automated on my team's product** (from hour 127.5):
+**Real work automated on my team's product** (from hour 155.5):
 
 -
 

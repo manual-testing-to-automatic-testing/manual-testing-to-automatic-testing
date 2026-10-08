@@ -1,4 +1,4 @@
-// The FHIR sandbox: a small, local FHIR R4 server for Module 10.
+// The FHIR sandbox: a small, local FHIR R4 server for Module 12.
 //
 // It needs only Node.js, which you already have for the practice repository:
 // no Docker, no Java, no install. Run it with `npm run fhir`; the API tests

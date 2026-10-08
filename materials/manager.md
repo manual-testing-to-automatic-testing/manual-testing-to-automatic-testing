@@ -22,9 +22,9 @@ The line manager does not decide band, pay, or role through this programme, and 
 | --- | --- | --- |
 | Before hour 0 | Planning | Attends the 60-minute [line manager briefing](planning/manager-briefing.md); agrees the protected time and pace; puts the time in both calendars; reduces the person's delivery work with their product owner. |
 | 0–60 | The basics, Modules 1 to 3 | Checks in every 15 learning hours; makes sure the person can install and run Node.js, Chrome, and VS Code on their own system, and can use the AI assistant the organisation allows. |
-| 60 | Gate 0 and [Module 4 Induction](modules/module-4-induction/index.md) | Rates the person's baseline independently; calibrates with them; agrees the [individual learning plan](gates/individual-learning-plan-template.md); signs the [learning agreement](gates/learning-agreement-template.md). |
-| 60–240 | Modules 5 to 14 | Checks in every 15 learning hours on the individual learning plan, blockers, and protected time; from hour 127.5, helps find real work to automate on the team's product; at Gates 1 to 4 (hours 105, 150, 187.5, and 240), rates independently and calibrates. |
-| 240–280 | [Module 15 Lean Six Sigma Green Belt](modules/module-15-lean-six-sigma-green-belt/index.md) | Supports the person's Green Belt project on the team's testing process, with the product owner as sponsor. |
+| 88 | Gate 0 and [Module 6 Induction](modules/module-6-induction/index.md) | Rates the person's baseline independently; calibrates with them; agrees the [individual learning plan](gates/individual-learning-plan-template.md); signs the [learning agreement](gates/learning-agreement-template.md). |
+| 88–268 | Modules 7 to 16 | Checks in every 15 learning hours on the individual learning plan, blockers, and protected time; from hour 155.5, helps find real work to automate on the team's product; at Gates 1 to 4 (hours 133, 178, 215.5, and 268), rates independently and calibrates. |
+| 268–308 | [Module 17 Lean Six Sigma Green Belt](modules/module-17-lean-six-sigma-green-belt/index.md) | Supports the person's Green Belt project on the team's testing process, with the product owner as sponsor. |
 | About six months after Gate 4 | Gate 5 follow-up | Rates and calibrates once more, and agrees a plan for any remaining gaps before the next annual appraisal. |
 
 If time must be taken back, agree it with the training lead first. If more than 7.5 hours are lost in a gate period, the training lead escalates.
@@ -44,11 +44,11 @@ Per person you manage, from the [spec's roles and responsibilities](../spec/inde
 
 | Activity | Rate | Hours |
 | --- | --- | --- |
-| Check-ins | 1 hour every 15 learning hours, over 280 hours | About 19 |
+| Check-ins | 1 hour every 15 learning hours, over 308 hours | About 21 |
 | Gates | About 2 hours at each of Gates 0 to 5: rating, calibration, and the plan | 12 |
-| **Total** | | **About 31 per person** |
+| **Total** | | **About 33 per person** |
 
-At the default pace, that is under 1 hour a week for each person, over about 38 weeks, plus the 60-minute briefing before hour 0. With the optional extension to 340 hours for Band 3 and Band 4, add about 4 hours.
+At the default pace, that is under 1 hour a week for each person, over about 41 weeks, plus the 60-minute briefing before hour 0. With the optional extension to 368 hours for Band 3 and Band 4, add about 4 hours.
 
 ## Line manager checklist
 
@@ -57,7 +57,7 @@ At the default pace, that is under 1 hour a week for each person, over about 38 
 - [ ] Reduce the person's delivery work to match, with their product owner.
 - [ ] Rate independently at every gate, then calibrate using the [calibration guide](gates/calibration-guide.md).
 - [ ] Agree the [individual learning plan](gates/individual-learning-plan-template.md) after each gate, and check in every 15 learning hours.
-- [ ] From hour 127.5, help find real work to automate on the team's product.
+- [ ] From hour 155.5, help find real work to automate on the team's product.
 
 ## Related
 

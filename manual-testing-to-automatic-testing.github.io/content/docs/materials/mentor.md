@@ -29,10 +29,10 @@ The training lead names each participant's mentor before hour 0, because the men
 | Programme hours | Stage | What the mentor does |
 | --- | --- | --- |
 | 0–60 | The basics: [Module 1](modules/module-1-basics-of-a-programming-language/index.md), [Module 2](modules/module-2-basics-of-a-browser-automator/index.md), [Module 3](modules/module-3-basics-of-an-ai-assistant/index.md) | A 30-minute start; a 1-hour check-in in each module; a 1-hour walkthrough at the end of each module, and the walkthrough sign-off (Evidence 1 to 3). Agrees any other language, browser automator, or AI assistant the person wants to use for the basics. |
-| 60 | Gate 0 and [Module 4 Induction](modules/module-4-induction/index.md) | Joins induction; helps set up the practice repository; moderates self and manager ratings if they differ by more than one level. |
-| 60–105 | [Module 6 Programming foundations](modules/module-6-programming-foundations/index.md) and [Module 7 Version control](modules/module-7-version-control/index.md) | Pairs on katas with Band 3, Band 4, and Band 5 participants in hours 67.5–82.5; reviews katas and pull requests; prepares the person for Gate 1. |
-| 105–240 | Modules 8 to 14 | Reviews pull requests; runs [Role foundations](tracks/role-foundations/index.md) practice; supervises Part D practicals where possible ([Part D practicals](gates/part-d-practicals.md)); agrees the capstone scope with the product owner at hour 202.5, and reviews the capstone in every 7.5-hour block. |
-| 240–280 | [Module 15 Lean Six Sigma Green Belt](modules/module-15-lean-six-sigma-green-belt/index.md) | Supports the Green Belt project; for Band 3 and Band 4, may lead the team project the person takes part in; reviews the project with the training lead and the product owner. |
+| 88 | Gate 0 and [Module 6 Induction](modules/module-6-induction/index.md) | Joins induction; helps set up the practice repository; moderates self and manager ratings if they differ by more than one level. |
+| 88–133 | [Module 8 Programming foundations](modules/module-8-programming-foundations/index.md) and [Module 9 Version control](modules/module-9-version-control/index.md) | Pairs on katas with Band 3, Band 4, and Band 5 participants in hours 95.5–110.5; reviews katas and pull requests; prepares the person for Gate 1. |
+| 133–268 | Modules 10 to 16 | Reviews pull requests; runs [Role foundations](tracks/role-foundations/index.md) practice; supervises Part D practicals where possible ([Part D practicals](gates/part-d-practicals.md)); agrees the capstone scope with the product owner at hour 230.5, and reviews the capstone in every 7.5-hour block. |
+| 268–308 | [Module 17 Lean Six Sigma Green Belt](modules/module-17-lean-six-sigma-green-belt/index.md) | Supports the Green Belt project; for Band 3 and Band 4, may lead the team project the person takes part in; reviews the project with the training lead and the product owner. |
 | After Gate 4 | Gate 5 follow-up | No set time. |
 
 At every gate, the mentor helps the person prepare their evidence, but does not chair the Gate 4 panel for their own participants.
@@ -44,14 +44,14 @@ Per participant, from the [spec's roles and responsibilities](../spec/index.md#r
 | Programme hours | Rate | Hours |
 | --- | --- | --- |
 | 0–60, the basics | A 30-minute start, then a 1-hour check-in and a 1-hour walkthrough in each of Modules 1 to 3 | 6.5 |
-| 60–105 | 1.5 hours per 7.5 learning hours (6 blocks) | 9 |
-| 105–240 | 1 hour per 7.5 learning hours (18 blocks) | 18 |
-| 240–280 | Green Belt project support and review | About 5 |
+| 88–133 | 1.5 hours per 7.5 learning hours (6 blocks) | 9 |
+| 133–268 | 1 hour per 7.5 learning hours (18 blocks) | 18 |
+| 268–308 | Green Belt project support and review | About 5 |
 | **Total** | | **About 38.5 per participant** |
 
-At the default pace of 7.5 learning hours a week, that is about 1 hour a week for each participant over about 38 weeks, and more in the weeks of the basics and of the first programming modules. A mentor with 3 participants gives about 115 hours over the programme, about 3 hours a week. Agree this time with the mentor's own line manager before hour 0.
+At the default pace of 7.5 learning hours a week, that is about 1 hour a week for each participant over about 41 weeks, and more in the weeks of the basics and of the first programming modules. A mentor with 3 participants gives about 115 hours over the programme, about 3 hours a week. Agree this time with the mentor's own line manager before hour 0.
 
-With the optional extension to 340 hours for Band 3 and Band 4, add about 8 hours. If a gate is not met, the person gets extra learning hours with extra mentor time, agreed with the training lead.
+With the optional extension to 368 hours for Band 3 and Band 4, add about 8 hours. If a gate is not met, the person gets extra learning hours with extra mentor time, agreed with the training lead.
 
 ## Mentor checklist
 
@@ -62,7 +62,7 @@ With the optional extension to 340 hours for Band 3 and Band 4, add about 8 hour
 - [ ] Sign off each participant's three basics walkthroughs before Gate 0.
 - [ ] Pair, review pull requests, and run Role foundations practice in every 7.5 hours of learning.
 - [ ] Prepare each participant for each gate, including the [Part D practicals](gates/part-d-practicals.md).
-- [ ] Agree the capstone scope at hour 202.5, and support the Green Belt project.
+- [ ] Agree the capstone scope at hour 230.5, and support the Green Belt project.
 
 ## Related
 

@@ -59,7 +59,7 @@ Each person's sessions add up to 20 hours.
 
 ## Assessment
 
-The mentor signs off the walkthrough when the person can do each step on their own system, show where they checked and corrected the assistant, and has kept every prompt free of real patient data, personal data, and secrets. Gate 0 (hour 60) records the sign-off.
+The mentor signs off the walkthrough when the person can do each step on their own system, show where they checked and corrected the assistant, and has kept every prompt free of real patient data, personal data, and secrets. Gate 0 (hour 88) records the sign-off.
 
 | Walkthrough sign-off | Entry |
 | --- | --- |

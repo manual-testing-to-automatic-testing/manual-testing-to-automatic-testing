@@ -67,7 +67,7 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 - [ ] Agree Band 3 factor levels from job descriptions (Decision 6)
 - [ ] Record each participant's capability index as their baseline
 - [ ] Write and sign each participant's individual learning plan and learning agreement
-- [ ] Run the Module 4 diagnostic coding exercise, and decide who takes the option of 340 hours
+- [ ] Run the Module 6 diagnostic coding exercise, and decide who takes the option of 368 hours
 - [ ] Inventory each team's manual regression pack, and its existing automated tests at each layer
 - [ ] Check every participant's tools, repository access, test environments, and CI access
 
@@ -95,21 +95,23 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 
 ### Core module materials
 
-- [x] Module 5 automation candidate analysis template, with Band 3 and Band 4, Band 5, and Band 6 and Band 7 variants
-- [x] Module 6 kata sets for each track (5, 8, 10, and 10 harder)
-- [x] Module 8 exercise sheet for every fixture on testingexamples.github.io
+- [x] Module 7 automation candidate analysis template, with Band 3 and Band 4, Band 5, and Band 6 and Band 7 variants
+- [x] Module 8 kata sets for each track (5, 8, 10, and 10 harder)
+- [x] Module 10 exercise sheet for every fixture on testingexamples.github.io
+- [x] ISTQB modules after the basics: Module 4 Foundation Level v4.0 and Module 5 Advanced Level Test Automation Engineer
+- [ ] Choose the CTFL video training and exam provider, and book CTAL-TAE course dates and exams; get the course budget approved
 - [x] Basics modules at the start: Module 1 Basics of a programming language, Module 2 Basics of a browser automator, Module 3 Basics of an AI assistant, with walkthrough sign-offs
 - [ ] Confirm the organisation's AI use policy allows Google Gemini AI Mode for Module 3, or choose the assistant to use
 - [x] Curriculum in one place: `curriculum.md`, generated from the spec by `scripts/build_curriculum.py`, checked by `make check`
-- [x] Module 8 existing suite exercise, from `demo-selenium-javascript`
-- [x] Module 9 Given-When-Then template
-- [x] Module 10 existing FHIR test suite for Band 4 quality assurance and Band 7 test management to read
-- [x] Module 11 existing pipeline with real failures for Band 3 and Band 4 triage (exercise written in `materials/modules/module-11-continuous-integration/`; the failing runs must be created once the practice repository is on the organisation's CI)
-- [x] Module 12 traceability matrix template (drafted; review with the clinical safety officer)
-- [x] Module 13 flaky-test exercise and suite-health report template
-- [x] Module 14 capstone briefs for each of the eight tracks, and a presentation template
-- [x] Module 15 Lean Six Sigma Green Belt module page and Green Belt project charter template
-- [ ] Module 15 course materials and exam booking, from the certification body (Decision 8)
+- [x] Module 10 existing suite exercise, from `demo-selenium-javascript`
+- [x] Module 11 Given-When-Then template
+- [x] Module 12 existing FHIR test suite for Band 4 quality assurance and Band 7 test management to read
+- [x] Module 13 existing pipeline with real failures for Band 3 and Band 4 triage (exercise written in `materials/modules/module-13-continuous-integration/`; the failing runs must be created once the practice repository is on the organisation's CI)
+- [x] Module 14 traceability matrix template (drafted; review with the clinical safety officer)
+- [x] Module 15 flaky-test exercise and suite-health report template
+- [x] Module 16 capstone briefs for each of the eight tracks, and a presentation template
+- [x] Module 17 Lean Six Sigma Green Belt module page and Green Belt project charter template
+- [ ] Module 17 course materials and exam booking, from the certification body (Decision 8)
 - [x] Reading list for each module, from the spec's resources
 - [ ] Accessibility check of every resource (checklist and resource table in `materials/accessibility-check.md`, all "not yet checked")
 
@@ -136,53 +138,53 @@ See [plan.md](plan.md) for the context and reasoning, and [spec/index.md](spec/i
 
 ### Induction and foundations
 
-- [ ] Gate 0 (hour 60): baseline, tracks, individual learning plans, learning agreements
-- [ ] Module 4 Induction and baseline: Evidence 4 complete for every participant
-- [ ] Module 5 Why and what to automate (hours 60–75): Evidence 5 complete
-- [ ] Role foundations: an hour of role practice in every 7.5 hours of learning, for every participant (hours 60–240)
-- [ ] Module 6 Programming foundations (hours 67.5–105): Evidence 6 complete
-- [ ] Health care foundations (hours 67.5–120)
-- [ ] Module 7 Version control and collaboration (hours 82.5–105): Evidence 7 complete
-- [ ] Gate 1 (hour 105): full self-assessment, calibration, Part D, individual learning plan update
+- [ ] Gate 0 (hour 88): baseline, tracks, individual learning plans, learning agreements
+- [ ] Module 6 Induction and baseline: Evidence 6 complete for every participant
+- [ ] Module 7 Why and what to automate (hours 88–103): Evidence 7 complete
+- [ ] Role foundations: an hour of role practice in every 7.5 hours of learning, for every participant (hours 88–268)
+- [ ] Module 8 Programming foundations (hours 95.5–133): Evidence 8 complete
+- [ ] Health care foundations (hours 95.5–148)
+- [ ] Module 9 Version control and collaboration (hours 110.5–133): Evidence 9 complete
+- [ ] Gate 1 (hour 133): full self-assessment, calibration, Part D, individual learning plan update
 
 ### Browser automation
 
-- [ ] Module 8 Browser automation fundamentals (hours 105–127.5): Evidence 8 complete
-- [ ] Module 9 From walkthrough to real test (hours 127.5–150): Evidence 9 complete
-- [ ] Real automation on each team's product in every 7.5 hours of learning (from hour 127.5)
-- [ ] Coaching others in automation starts for Band 6 and Band 7 (hours 127.5–210)
-- [ ] Gate 2 (hour 150): full self-assessment, calibration, Part D, clinical risk and information governance condition, individual learning plan update
+- [ ] Module 10 Browser automation fundamentals (hours 133–155.5): Evidence 10 complete
+- [ ] Module 11 From walkthrough to real test (hours 155.5–178): Evidence 11 complete
+- [ ] Real automation on each team's product in every 7.5 hours of learning (from hour 155.5)
+- [ ] Coaching others in automation starts for Band 6 and Band 7 (hours 155.5–238)
+- [ ] Gate 2 (hour 178): full self-assessment, calibration, Part D, clinical risk and information governance condition, individual learning plan update
 
 ### Below the UI and pipelines
 
-- [ ] Module 10 API, integration, and FHIR tests (hours 150–172.5): Evidence 10 complete
-- [ ] Acceptance test automation for Band 6 quality assurance (hours 150–187.5)
-- [ ] Module 11 Continuous integration and DevOps (hours 172.5–187.5): Evidence 11 complete
-- [ ] Automation strategy and metrics, Frameworks and non-functional testing, and Leading teams through automation adoption for Band 6 quality assurance and Band 7 (hours 172.5–210)
-- [ ] Gate 3 (hour 187.5): full self-assessment, calibration, Part D, individual learning plan update
+- [ ] Module 12 API, integration, and FHIR tests (hours 178–200.5): Evidence 12 complete
+- [ ] Acceptance test automation for Band 6 quality assurance (hours 178–215.5)
+- [ ] Module 13 Continuous integration and DevOps (hours 200.5–215.5): Evidence 13 complete
+- [ ] Automation strategy and metrics, Frameworks and non-functional testing, and Leading teams through automation adoption for Band 6 quality assurance and Band 7 (hours 200.5–238)
+- [ ] Gate 3 (hour 215.5): full self-assessment, calibration, Part D, individual learning plan update
 
 ### Health care practice and quality engineering
 
-- [ ] Module 12 Safe and lawful test automation (hours 187.5–202.5): Evidence 12 complete
-- [ ] Module 13 Quality engineering practice (hours 195–210): Evidence 13 complete
+- [ ] Module 14 Safe and lawful test automation (hours 215.5–230.5): Evidence 14 complete
+- [ ] Module 15 Quality engineering practice (hours 223–238): Evidence 15 complete
 
 ### Capstone
 
-- [ ] Agree each capstone scope (hour 202.5)
+- [ ] Agree each capstone scope (hour 230.5)
 - [ ] Mid-capstone show-and-tell to each team
-- [ ] Module 14 Capstone (hours 202.5–240): Evidence 14 complete
-- [ ] Gate 4 (hour 240): full self-assessment, calibration, panel, capstone acceptance
+- [ ] Module 16 Capstone (hours 230.5–268): Evidence 16 complete
+- [ ] Gate 4 (hour 268): full self-assessment, calibration, panel, capstone acceptance
 
 ### Lean Six Sigma Green Belt
 
-- [ ] Module 15 Lean Six Sigma Green Belt (hours 240–280): Green Belt projects chartered with product owners as sponsors
+- [ ] Module 17 Lean Six Sigma Green Belt (hours 268–308): Green Belt projects chartered with product owners as sponsors
 - [ ] Green Belt exams booked with the certification body, with reasonable adjustments
-- [ ] Evidence 15 complete: certificates issued and projects accepted; record programme completion
+- [ ] Evidence 17 complete: certificates issued and projects accepted; record programme completion
 
 ### Consolidation and follow-up
 
 - [ ] Monthly mentor check-ins (the six months after Gate 4)
-- [ ] Run the extension to 340 hours for Band 3 and Band 4 participants who chose it
+- [ ] Run the extension to 368 hours for Band 3 and Band 4 participants who chose it
 - [ ] Gate 5 (about six months after Gate 4): full self-assessment, calibration, Part D, plan for remaining gaps
 
 ## 6. Evaluation

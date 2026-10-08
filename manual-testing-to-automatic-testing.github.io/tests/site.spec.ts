@@ -121,14 +121,15 @@ test('old URLs forward to the flat ones', async ({ page }) => {
   await expect(page).toHaveURL(/\/en-001\/track-for-band-3-associate-quality-assurance-test-analyst\/$/);
   await page.goto('/en-001/materials/gates/calibration-guide/');
   await expect(page).toHaveURL(/\/en-001\/calibration-guide\/$/);
-  await page.goto('/en-001/module-4-browser-automation-fundamentals/');
-  await expect(page).toHaveURL(/\/en-001\/module-8-browser-automation-fundamentals\/$/);
-  await page.goto('/en-001/module-7-browser-automation-fundamentals/');
-  await expect(page).toHaveURL(/\/en-001\/module-8-browser-automation-fundamentals\/$/);
+  // Each published numbering of Module 10 Browser automation fundamentals.
+  for (const old of ['module-4-browser-automation-fundamentals', 'module-7-browser-automation-fundamentals', 'module-8-browser-automation-fundamentals']) {
+    await page.goto(`/en-001/${old}/`);
+    await expect(page).toHaveURL(/\/en-001\/module-10-browser-automation-fundamentals\/$/);
+  }
   await page.goto('/en-001/module-0-basics-of-a-programming-language/');
   await expect(page).toHaveURL(/\/en-001\/module-1-basics-of-a-programming-language\/$/);
   await page.goto('/en-001/materials/modules/m0-induction/');
-  await expect(page).toHaveURL(/\/en-001\/module-4-induction\/$/);
+  await expect(page).toHaveURL(/\/en-001\/module-6-induction\/$/);
   await page.goto('/en-001/self-assessment/band-5-quality-assurance-test-analyst/');
   await expect(page).toHaveURL(/\/en-001\/track-for-band-5-quality-assurance-test-analyst\/#self-assessment$/);
 });
@@ -139,7 +140,7 @@ test('the mentor and line manager pages explain the role and its time', async ({
   await expect(page.getByText(/About 38\.5 per participant/)).toBeVisible();
   await page.goto('/en-001/manager/');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Line manager');
-  await expect(page.getByText(/About 31 per person/)).toBeVisible();
+  await expect(page.getByText(/About 33 per person/)).toBeVisible();
 });
 
 test('a track page starts with a checklist of real checkboxes that are remembered', async ({ page }) => {
@@ -159,4 +160,14 @@ test('module training content lives under curriculum/', async ({ page }) => {
   await page.goto('/en-001/curriculum/basics-of-an-ai-assistant/');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Basics of an AI assistant');
   await expect(page.getByRole('heading', { name: 'Lesson 8: From Given-When-Then to Selenium JavaScript, and back' })).toBeVisible();
+});
+
+test('the ISTQB module pages have their own addresses', async ({ page }) => {
+  await page.goto('/en-001/istqb-certified-tester-foundation-level-4/');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Module 4 ISTQB Certified Tester Foundation Level v4.0');
+  await expect(page.getByRole('heading', { name: 'Is ISTQB certification still relevant?' })).toBeVisible();
+  await page.goto('/en-001/istby-certified-tester-foundation-level-4/');
+  await expect(page).toHaveURL(/\/en-001\/istqb-certified-tester-foundation-level-4\/$/);
+  await page.goto('/en-001/istqb-certified-tester-advanced-level-test-automation-engineer/');
+  await expect(page.getByRole('link', { name: /ISTQB_CTAL-TAE_Syllabus_v2\.0\.pdf/ })).toBeVisible();
 });

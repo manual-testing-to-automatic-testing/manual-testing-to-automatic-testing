@@ -1,8 +1,8 @@
 # Formal training programme: manual testing to automatic testing
 
-A formal training programme of 280 hours that upskills manual testers at Bands 3 to 7 into automatic testers, while each person stays in their current band and UK GDaD PCF role. There are eight tuned tracks. Every gate repeats a full capability self-assessment: the band (21 dimensions), the UK GDaD PCF role aspects, and every skill in the role.
+A formal training programme of 308 hours that upskills manual testers at Bands 3 to 7 into automatic testers, while each person stays in their current band and UK GDaD PCF role. There are eight tuned tracks. Every gate repeats a full capability self-assessment: the band (21 dimensions), the UK GDaD PCF role aspects, and every skill in the role.
 
-The programme is 280 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), starts with three basics modules of 20 hours each (a programming language, a browser automator, and an AI assistant), and ends on every track with a Lean Six Sigma Green Belt, lifetime certification (40 hours). The stack is JavaScript with Selenium and Mocha. Participants need only Node.js 24, Google Chrome, VS Code, and git: nothing needs Docker.
+The programme is 308 hours of protected learning time, by default 7.5 hours a week (20% of a 37.5-hour week), starts with three basics modules of 20 hours each (a programming language, a browser automator, and an AI assistant) and two ISTQB certifications (Foundation Level, and Advanced Level Test Automation Engineer), and ends on every track with a Lean Six Sigma Green Belt, lifetime certification (40 hours). The stack is JavaScript with Selenium and Mocha. Participants need only Node.js 24, Google Chrome, VS Code, and git: nothing needs Docker.
 
 ## Start here
 
@@ -51,7 +51,7 @@ Find your role, and work down its checklist. The roles are listed in the order t
 
 ### Line manager
 
-- [ ] Read the [line manager](materials/manager.md) page: what you do, why, and about 31 hours per person.
+- [ ] Read the [line manager](materials/manager.md) page: what you do, why, and about 33 hours per person.
 - [ ] Read the [manager briefing](materials/planning/manager-briefing.md) and the [calibration guide](materials/gates/calibration-guide.md).
 - [ ] Sign the [learning agreement](materials/gates/learning-agreement-template.md), and protect the learning time in both calendars.
 - [ ] At every gate, rate your person independently in their track's [self-assessment](instruments/README.md), then agree each rating with them using evidence.
@@ -69,19 +69,19 @@ Find your role, and work down its checklist. The roles are listed in the order t
 ### Participant
 
 - [ ] Find your [track](materials/tracks/index.md) from your band and UK GDaD PCF role, and read its guide.
-- [ ] Install Node.js 24, Google Chrome, VS Code with the ESLint extension, and git, using the [environment checklist](materials/modules/module-4-induction/environment-checklist.md).
+- [ ] Install Node.js 24, Google Chrome, VS Code with the ESLint extension, and git, using the [environment checklist](materials/modules/module-6-induction/environment-checklist.md).
 - [ ] Complete the three basics modules, each with a walkthrough to your mentor: [Module 1 Basics of a programming language](materials/modules/module-1-basics-of-a-programming-language/index.md), [Module 2 Basics of a browser automator](materials/modules/module-2-basics-of-a-browser-automator/index.md), and [Module 3 Basics of an AI assistant](materials/modules/module-3-basics-of-an-ai-assistant/index.md).
 - [ ] Set up the [practice repository](practice-repo/README.md): `npm ci`, then `npm run test:katas`.
 - [ ] Before Gate 0, complete your track's [self-assessment](instruments/README.md), with evidence, following the [calibration guide](materials/gates/calibration-guide.md). The website has an interactive version of each.
 - [ ] Agree your [individual learning plan](materials/gates/individual-learning-plan-template.md) and sign your [learning agreement](materials/gates/learning-agreement-template.md).
 - [ ] Work through the [modules](materials/modules/index.md) for your track, and keep a [learning log](materials/gates/learning-log-template.md).
-- [ ] After Gate 4, complete the [Lean Six Sigma Green Belt](materials/modules/module-15-lean-six-sigma-green-belt/index.md): your Green Belt project and the certification exam.
+- [ ] After Gate 4, complete the [Lean Six Sigma Green Belt](materials/modules/module-17-lean-six-sigma-green-belt/index.md): your Green Belt project and the certification exam.
 - [ ] Repeat the self-assessment before every gate, and give [feedback](materials/gates/participant-feedback-form.md) after each one.
 
 ### Product owner, clinical safety officer, information governance lead, and developers
 
 - [ ] Read the [stakeholder briefing](materials/planning/stakeholder-briefing.md): what the programme asks of you, and when.
-- [ ] Clinical safety officer: review the [traceability matrix template](materials/modules/module-12-safe-and-lawful-automation/traceability-matrix.md) before the cohort starts.
+- [ ] Clinical safety officer: review the [traceability matrix template](materials/modules/module-14-safe-and-lawful-automation/traceability-matrix.md) before the cohort starts.
 
 ### Maintainer of this repository
 
@@ -96,11 +96,11 @@ Find your role, and work down its checklist. The roles are listed in the order t
 | --- | --- |
 | [instruments/](instruments/) | The capability self-assessment for each track, generated from the roles-skills reference |
 | [scripts/](scripts/) | `build_instrument.py` builds the instruments; `capability_index.py` scores a completed one; `build_track_guides.py` rebuilds the track guides from the spec; `gate_calendar.py` prints a cohort's dates; `accessibility-scan/` scans the reading list's web resources |
-| [materials/modules/](materials/modules/) | Core modules, Module 1 to Module 15: session plans, exercises, templates, capstone briefs, and the Lean Six Sigma Green Belt |
+| [materials/modules/](materials/modules/) | Core modules, Module 1 to Module 17: session plans, exercises, templates, capstone briefs, and the Lean Six Sigma Green Belt |
 | [materials/tracks/](materials/tracks/) | Track guides (Band 3 to Band 7) and the track modules: Role foundations, Health care foundations, Coaching others in automation, Automation strategy and metrics, Frameworks and non-functional testing, Acceptance test automation, and Leading teams through automation adoption |
 | [materials/planning/](materials/planning/) | Planning pack: sponsor brief, HR briefing, manager and stakeholder briefings, decision log, resource estimate, cohort roster template |
 | [materials/gates/](materials/gates/) | Gate overview, Part D practicals, review form, calibration guide, panel guide, individual learning plan and other templates |
-| [practice-repo/](practice-repo/) | The participants' practice repository in JavaScript, with Selenium and Mocha: katas, browser and API tests, CI, and the FHIR sandbox (`practice-repo/fhir-sandbox/`): a small local FHIR server in JavaScript, with no Docker, with synthetic data and a profile, for Module 10 |
+| [practice-repo/](practice-repo/) | The participants' practice repository in JavaScript, with Selenium and Mocha: katas, browser and API tests, CI, and the FHIR sandbox (`practice-repo/fhir-sandbox/`): a small local FHIR server in JavaScript, with no Docker, with synthetic data and a profile, for Module 12 |
 
 ## Website
 

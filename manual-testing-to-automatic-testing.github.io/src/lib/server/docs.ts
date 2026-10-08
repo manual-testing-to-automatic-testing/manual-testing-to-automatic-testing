@@ -33,8 +33,11 @@ export type Heading = { depth: number; text: string; id: string };
 /** Documents whose URL is not their own file or folder name. */
 const SLUGS: Record<string, string> = {
   'README.md': 'about',
+  'materials/modules/module-4-istqb-certified-tester-foundation-level/index.md': 'istqb-certified-tester-foundation-level-4',
+  'materials/modules/module-5-istqb-certified-tester-advanced-level-test-automation-engineer/index.md':
+    'istqb-certified-tester-advanced-level-test-automation-engineer',
   'materials/planning/hr-briefing.md': 'human-resources-briefing',
-  'materials/modules/module-11-continuous-integration/ci-failure-triage-template.md':
+  'materials/modules/module-13-continuous-integration/ci-failure-triage-template.md':
     'continuous-integration-failure-triage-template',
   'practice-repo/README.md': 'practice-repository',
   'practice-repo/CONTRIBUTING.md': 'practice-repository-contributing',
@@ -49,7 +52,7 @@ const SLUGS: Record<string, string> = {
  * Every document's URL is flat and in full words: its file or folder name,
  * with no parent folders. spec/index.md -> spec; plan.md -> plan;
  * materials/gates/calibration-guide.md -> calibration-guide;
- * materials/modules/module-14-capstone/brief-band-3.md -> capstone-brief-band-3.
+ * materials/modules/module-16-capstone/brief-band-3.md -> capstone-brief-band-3.
  * Track guides are named by their title instead (see DOCS).
  */
 export function slugForPath(path: string): string {
@@ -86,17 +89,19 @@ const OLD_FOLDERS: [RegExp, string][] = [
 ];
 
 /**
- * A module's earlier paths. Modules were renumbered twice: three basics
- * modules were added at the start (every later number grew by 3), then
- * numbering moved to start at 1 (every number grew by 1). So today's
- * module-8-browser-automation-fundamentals was module-7-... and, before the
- * basics, module-4-...
+ * A module's earlier paths, as each published numbering had them:
+ * - before the basics modules, numbered from 0: today's Module N was N - 6
+ * - with the basics, numbered from 0: Module N was N - 3 (a basics module, N - 1)
+ * - numbered from 1, before the two ISTQB modules: Module N was N - 2.
+ * The basics (Modules 1 to 3) and the ISTQB modules (4 and 5) are new since
+ * those numberings, except that the basics were 0 to 2.
  */
 function earlierPaths(path: string): string[] {
   const match = path.match(/\bmodule-(\d+)-/);
   if (!match) return [];
   const n = Number(match[1]);
-  return [n - 1, n - 4].filter((old) => old >= 0).map((old) => path.replace(/\bmodule-\d+-/, `module-${old}-`));
+  const earlier = n >= 6 ? [n - 2, n - 3, n - 6] : n <= 3 ? [n - 1] : [];
+  return earlier.filter((old) => old >= 0).map((old) => path.replace(/\bmodule-\d+-/, `module-${old}-`));
 }
 
 /** Its abbreviated form, from before abbreviations were written in full. */
@@ -172,6 +177,11 @@ for (const doc of BY_SLUG.values()) {
   for (const old of oldSlugs(doc.path)) {
     if (old !== doc.slug && !BY_SLUG.has(old)) REDIRECTS.set(old, doc.slug);
   }
+}
+
+// Other addresses that forward to a document: a mistyped address that was shared.
+for (const [from, to] of [['istby-certified-tester-foundation-level-4', 'istqb-certified-tester-foundation-level-4']]) {
+  if (!BY_SLUG.has(from)) REDIRECTS.set(from, to);
 }
 
 /** Every old URL and where it now lives. */

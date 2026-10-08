@@ -15,7 +15,7 @@ In three or four sentences: what this strategy changes, why, and what it will ac
 ## 2. Context
 
 - The products and services in scope, and who uses them.
-- The current state: how many manual regression cases, how long a regression run takes, which automated tests exist at each layer (from the Module 5 analyses).
+- The current state: how many manual regression cases, how long a regression run takes, which automated tests exist at each layer (from the Module 7 analyses).
 - Clinical and operational risks that matter most (from the hazard log).
 - Constraints: environments, data, tools, people, regulation (for example IEC 62304).
 

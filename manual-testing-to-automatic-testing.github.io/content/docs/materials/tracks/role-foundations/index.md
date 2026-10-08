@@ -1,6 +1,6 @@
 # Role foundations: role practice guide
 
-Role foundations runs from hour 60 to hour 240 for every track. It closes the role and skill gaps that are not about automation, because each person is measured against their whole role.
+Role foundations runs from hour 88 to hour 268 for every track. It closes the role and skill gaps that are not about automation, because each person is measured against their whole role.
 
 - **Content:** set by the individual learning plan from the Gate 0 gaps in Parts A, B, and C.
 - **Time:** 1 hour in every 7.5 hours of learning for role practice with the mentor or line manager, plus stretch tasks in normal work.

@@ -4,7 +4,7 @@ Hours 20–40, 20 hours, the same for every track. Signed off by the mentor with
 
 ## Purpose
 
-A browser automator does what a manual tester does in a browser, the same way every time. Module 2 gives each person a first working script that opens a page, finds things on it, checks them, and fills in and submits a form. Module 8 builds on it with resilient locators and a test framework, and Module 9 turns it into a real test.
+A browser automator does what a manual tester does in a browser, the same way every time. Module 2 gives each person a first working script that opens a page, finds things on it, checks them, and fills in and submits a form. Module 10 builds on it with resilient locators and a test framework, and Module 11 turns it into a real test.
 
 The default automator is Selenium with JavaScript. A person may use another browser automator and language, with their mentor's agreement (Principle 9).
 
@@ -75,7 +75,7 @@ The person runs it on their own system and explains each step: what it finds, wh
 
 ## Assessment
 
-The mentor signs off the walkthrough when the script runs on the person's own system, does every step, and the person can explain each one. Gate 0 (hour 60) records the sign-off.
+The mentor signs off the walkthrough when the script runs on the person's own system, does every step, and the person can explain each one. Gate 0 (hour 88) records the sign-off.
 
 | Walkthrough sign-off | Entry |
 | --- | --- |
