@@ -1,6 +1,6 @@
 # Module 9 Version control and collaboration
 
-Hours 110.5–133, about 7 hours. Reviewed at Gate 1.
+7 hours. Reviewed at Gate 1.
 
 ## Purpose
 

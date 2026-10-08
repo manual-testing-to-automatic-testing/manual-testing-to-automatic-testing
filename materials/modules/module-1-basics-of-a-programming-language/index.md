@@ -1,10 +1,10 @@
 # Module 1 Basics of a programming language
 
-Hours 0–20, 20 hours, the same for every track. Signed off by the mentor with a walkthrough. Reviewed at Gate 0.
+20 hours, the same for every track. Signed off by the mentor with a walkthrough. Reviewed at Gate 0.
 
 ## Purpose
 
-Every later module reads and writes code. Module 1 gives each person a first, unhurried pass at a programming language, so that code stops being a wall of symbols and becomes something they can read aloud, run, and explain. Module 8 builds on it with unit tests, katas, and the team's standards.
+Every later module reads and writes code. Module 1 gives each person a first, unhurried pass at a programming language, so that code stops being a wall of symbols and becomes something they can read aloud, run, and explain.
 
 The default language is JavaScript, which the rest of the programme uses. A person may learn the basics in another language they prefer, with their mentor's agreement (Principle 9).
 

@@ -1,6 +1,6 @@
 # Module 3 Basics of an AI assistant
 
-Hours 40–60, 20 hours, the same for every track. Signed off by the mentor with a walkthrough. Reviewed at Gate 0.
+20 hours, the same for every track. Signed off by the mentor with a walkthrough. Reviewed at Gate 0.
 
 The full training content, lesson by lesson, is in [Basics of an AI assistant: training](training.md).
 

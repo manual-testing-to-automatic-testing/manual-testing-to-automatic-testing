@@ -1,6 +1,6 @@
 # Module 7 Why and what to automate
 
-Hours 88–103, about 4.5 hours. Reviewed at Gate 1.
+4.5 hours. Reviewed at Gate 1.
 
 ## Purpose
 

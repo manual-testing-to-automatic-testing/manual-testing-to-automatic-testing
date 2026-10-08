@@ -1,6 +1,6 @@
 # Module 8 Programming foundations in JavaScript
 
-Hours 95.5–133, about 14.5 hours. Reviewed at Gate 1.
+14.5 hours. Reviewed at Gate 1.
 
 ## Purpose
 

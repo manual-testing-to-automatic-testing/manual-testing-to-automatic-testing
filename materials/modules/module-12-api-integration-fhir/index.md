@@ -1,6 +1,6 @@
 # Module 12 API, integration, and FHIR tests
 
-Hours 178–200.5, about 15 hours. Reviewed at Gate 3.
+15 hours. Reviewed at Gate 3.
 
 ## Purpose
 

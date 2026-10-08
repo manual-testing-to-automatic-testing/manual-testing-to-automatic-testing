@@ -1,6 +1,6 @@
 # Module 15 Quality engineering practice
 
-Hours 223–238, about 6 hours. Reviewed at Gate 4.
+6 hours. Reviewed at Gate 4.
 
 ## Purpose
 

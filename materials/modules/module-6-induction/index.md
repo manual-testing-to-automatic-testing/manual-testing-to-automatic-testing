@@ -1,6 +1,6 @@
 # Module 6 Induction and baseline
 
-Hours 88–95.5, about 6.5 hours, after the three basics modules (Module 1 to Module 3). Gate 0.
+6.5 hours, after the three basics modules (Module 1 to Module 3). Gate 0.
 
 ## Purpose
 

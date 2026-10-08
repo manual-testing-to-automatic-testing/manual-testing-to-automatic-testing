@@ -1,6 +1,6 @@
 # Module 14 Safe and lawful test automation in health care
 
-Hours 215.5–230.5, about 7 hours. Reviewed at Gate 4.
+7 hours. Reviewed at Gate 4.
 
 ## Purpose
 

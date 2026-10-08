@@ -1,6 +1,6 @@
 # Module 11 From walkthrough to real test
 
-Hours 155.5–178, about 12.5 hours. Spiral pass 2: a worked example. Reviewed at Gate 2.
+12.5 hours. Spiral pass 2: a worked example. Reviewed at Gate 2.
 
 ## Purpose
 

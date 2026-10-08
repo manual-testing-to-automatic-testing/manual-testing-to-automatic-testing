@@ -1,6 +1,6 @@
 # Module 2 Basics of a browser automator
 
-Hours 20–40, 20 hours, the same for every track. Signed off by the mentor with a walkthrough. Reviewed at Gate 0.
+20 hours, the same for every track. Signed off by the mentor with a walkthrough. Reviewed at Gate 0.
 
 ## Purpose
 

@@ -1,6 +1,6 @@
 # Module 16 Capstone
 
-Hours 230.5–268, about 27.5 hours. Spiral pass 3: the person's own product. Assessed at Gate 4.
+27.5 hours. Spiral pass 3: the person's own product. Assessed at Gate 4.
 
 ## Purpose
 

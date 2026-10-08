@@ -1,6 +1,6 @@
 # Module 10 Browser automation fundamentals
 
-Hours 133–155.5, about 17.5 hours. Spiral pass 1: the fixture site. Reviewed at Gate 2.
+17.5 hours. Spiral pass 1: the fixture site. Reviewed at Gate 2.
 
 ## Purpose
 

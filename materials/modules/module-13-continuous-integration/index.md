@@ -1,6 +1,6 @@
 # Module 13 Continuous integration and DevOps
 
-Hours 200.5–215.5, about 10 hours. Reviewed at Gate 3.
+10 hours. Reviewed at Gate 3.
 
 ## Purpose
 
