@@ -11,6 +11,8 @@
     contentsHeading: string;
     /** The home page's contents: a label for each linked page, by slug, in order. */
     contents: [string, string][];
+    /** The syllabuses, after the contents: a label and an address, on this site or ISTQB's. */
+    syllabuses: [string, string][];
   };
 
   const EN_001: Messages = {
@@ -36,6 +38,11 @@
       ['plan', 'Plan'],
       ['tasks', 'Tasks'],
       ['about', 'About']
+    ],
+    syllabuses: [
+      ['ISTQB Certified Tester Foundation Level v4.0 syllabus', 'https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/'],
+      ['ISTQB Certified Tester Advanced Level Test Automation Engineering v2.0 syllabus', 'https://www.gasq.org/files/content/ISTQB2/ISTQB_CTAL-TAE_Syllabus_v2.0.pdf'],
+      ['ISTQB Test Automation Engineering syllabus, explained', 'istqb/certified-tester-advanced-level/test-automation-engineering/syllabus']
     ]
   };
 
@@ -57,6 +64,9 @@
   <ul class="home-contents">
     {#each m.contents as [slug, label] (slug)}
       <li><a href={data.docs[slug].href}>{label}</a></li>
+    {/each}
+    {#each m.syllabuses as [label, target] (target)}
+      <li><a href={target.startsWith('https://') ? target : data.docs[target].href}>{label}</a></li>
     {/each}
   </ul>
 </section>

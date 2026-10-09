@@ -6,7 +6,8 @@ import { SITE_NAME } from '#lib/site.js';
 /** Documents the home page links to, by slug. Each must exist, or the build fails. */
 const LINKED = [
   'tracks', 'curriculum', 'mentor', 'manager', 'spec', 'modules', 'gates', 'calibration-guide',
-  'instruments', 'planning', 'reading-list', 'practice-repository', 'plan', 'tasks', 'about'
+  'instruments', 'planning', 'reading-list', 'practice-repository', 'plan', 'tasks', 'about',
+  'istqb/certified-tester-advanced-level/test-automation-engineering/syllabus'
 ];
 
 export const load = ({ params }) => {

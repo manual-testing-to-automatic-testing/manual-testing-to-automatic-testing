@@ -108,6 +108,13 @@ test('the home page has no tiles', async ({ page }) => {
   await expect(contents.first()).toHaveText('Tracks');
   await expect(page.getByRole('region', { name: 'Contents' }).getByRole('link', { name: 'Mentor' })).toHaveAttribute('href', '/en-001/mentor/');
   await expect(page.getByRole('region', { name: 'Contents' }).getByRole('link', { name: 'Line manager' })).toHaveAttribute('href', '/en-001/manager/');
+  const contentsRegion = page.getByRole('region', { name: 'Contents' });
+  await expect(contentsRegion.getByRole('link', { name: 'ISTQB Test Automation Engineering syllabus, explained' })).toHaveAttribute(
+    'href',
+    '/en-001/istqb/certified-tester-advanced-level/test-automation-engineering/syllabus/'
+  );
+  await expect(contentsRegion.getByRole('link', { name: /Foundation Level v4\.0 syllabus/ })).toHaveAttribute('href', /istqb\.org/);
+  await expect(contentsRegion.getByRole('link', { name: /Engineering v2\.0 syllabus/ })).toHaveAttribute('href', /\.pdf$/);
 });
 
 test('the tracks page links each track to its page', async ({ page }) => {
